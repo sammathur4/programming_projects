@@ -1,0 +1,280 @@
+/* =========================================================
+   BOOKMARKS PAGE
+   ========================================================= */
+
+.bookmarks-page {
+  width: min(970px, 100%);
+  margin: 0 auto;
+  padding: 34px 0 72px;
+}
+
+.bookmarks-page .page-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 30px;
+}
+
+.bookmarks-page .eyebrow {
+  margin: 0 0 7px;
+  color: #d9784b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.bookmarks-page .page-head h1 {
+  margin: 0;
+  color: #164745;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.05;
+  font-weight: 700;
+}
+
+.bookmarks-page .lede {
+  margin: 13px 0 0;
+  color: #78908b;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.bookmarks-page .question-mark {
+  min-width: 118px;
+  padding-left: 20px;
+  border-left: 2px solid #e98b61;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #6e8883;
+}
+
+.bookmarks-page .question-mark svg {
+  margin-bottom: 4px;
+}
+
+.bookmarks-page .question-mark strong {
+  color: #174847;
+  font-size: 23px;
+  line-height: 1.1;
+}
+
+.bookmarks-page .question-mark span {
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+.bookmarks-page .question-list {
+  display: grid;
+  gap: 14px;
+}
+
+.bookmarks-page .question-card {
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid #dfe8e4;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(26, 63, 58, .035);
+}
+
+.bookmarks-page .question-card-header {
+  min-height: 66px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border-bottom: 1px solid #e9efec;
+}
+
+.bookmarks-page .question-meta {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: #79908b;
+  font-size: 11px;
+}
+
+.bookmarks-page .question-paper {
+  color: #47625e;
+  font-weight: 600;
+}
+
+.bookmarks-page .question-year,
+.bookmarks-page .question-number {
+  color: #91a39f;
+}
+
+.bookmarks-page .meta-separator {
+  color: #c4cfcc;
+}
+
+.bookmarks-page .stage-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 25px;
+  padding: 0 10px;
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+.bookmarks-page .stage-pill.prelims {
+  background: #eaf8f2;
+  color: #0c8a66;
+}
+
+.bookmarks-page .stage-pill.mains {
+  background: #fff0e9;
+  color: #e97948;
+}
+
+.bookmarks-page .bookmark-button {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 9px;
+  background: #fff5ef;
+  color: #df743d;
+  cursor: pointer;
+}
+
+.bookmarks-page .bookmark-button:hover {
+  background: #ffebe1;
+}
+
+.bookmarks-page .question-context {
+  min-height: 42px;
+  padding: 18px 20px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  color: #708781;
+  font-size: 11px;
+}
+
+.bookmarks-page .context-topic {
+  color: #829590;
+}
+
+.bookmarks-page .question-body {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.bookmarks-page .question-label {
+  margin-top: 12px;
+  margin-bottom: 7px;
+  color: #94a5a1;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.bookmarks-page .question-text {
+  margin: 0;
+  color: #172d2b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.42;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.bookmarks-page .question-open-button {
+  margin: 18px 20px 20px;
+  min-height: 40px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 0;
+  border-radius: 9px;
+  background: #171b3b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bookmarks-page .question-open-button:hover {
+  background: #24284d;
+}
+
+.bookmarks-page .empty-state {
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid #e0e9e5;
+  border-radius: 14px;
+  background: #fff;
+  text-align: center;
+}
+
+.bookmarks-page .empty-state strong {
+  color: #294947;
+  font-size: 14px;
+}
+
+.bookmarks-page .empty-state span {
+  color: #879792;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .bookmarks-page {
+    padding: 22px 0 48px;
+  }
+
+  .bookmarks-page .page-head {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .bookmarks-page .question-mark {
+    min-width: 0;
+    width: 100%;
+    padding: 12px 0 0;
+    border-left: 0;
+    border-top: 1px solid #e98b61;
+  }
+
+  .bookmarks-page .question-card-header {
+    padding: 12px 14px;
+    align-items: flex-start;
+  }
+
+  .bookmarks-page .question-context,
+  .bookmarks-page .question-body {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .bookmarks-page .question-open-button {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .bookmarks-page .question-text {
+    font-size: 18px;
+  }
+}

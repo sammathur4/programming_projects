@@ -1,0 +1,456 @@
+
+/* =========================================================
+   PRACTICE PAGE
+   Page-specific styles. Kept separate from App.css so the
+   practice controls cannot affect Bookmarks / History.
+   ========================================================= */
+
+.practice-page {
+  max-width: 1160px;
+}
+
+/* Intro banner */
+.practice-page .attempt-bar {
+  margin: 0 0 20px;
+  padding: 13px 16px;
+  border: 1px solid #cfe9dc;
+  border-radius: 8px;
+  background: #f1faf5;
+  color: #416d62;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.practice-page .attempt-bar strong {
+  color: #285a50;
+  font-weight: 700;
+}
+
+/* Filter area */
+.practice-page .question-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(210px, 300px) minmax(280px, 1.25fr);
+  grid-template-areas:
+    "stages subject search"
+    "filters filters filters";
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 16px 0 18px;
+  border-top: 1px solid #dce5df;
+  border-bottom: 1px solid #dce5df;
+}
+
+.practice-page .stage-tabs {
+  grid-area: stages;
+  width: fit-content;
+  max-width: 100%;
+  padding: 3px;
+  border: 1px solid #e0e9e4;
+  border-radius: 9px;
+  background: #edf4ef;
+}
+
+.practice-page .stage-tabs button {
+  min-height: 38px;
+  padding: 0 16px;
+  border-radius: 7px;
+  color: #64807a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.practice-page .stage-tabs button.selected {
+  background: #164f4e;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(22, 79, 78, .14);
+}
+
+.practice-page .question-toolbar > select[aria-label="Filter by subject"] {
+  grid-area: subject;
+  width: 100%;
+  min-width: 0;
+}
+
+.practice-page .search-field {
+  grid-area: search;
+  width: 100%;
+  min-width: 0;
+}
+
+.practice-page .search-field input {
+  width: 100%;
+}
+
+/* Second row: paper + year */
+.practice-page .select-row {
+  grid-area: filters;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 1px;
+}
+
+.practice-page .select-row select {
+  min-width: 150px;
+}
+
+/* Make all practice selects consistent */
+.practice-page .question-toolbar select {
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 0 36px 0 12px;
+  border: 1px solid #d5e1db;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+  color: #355653;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.practice-page .question-toolbar select:hover {
+  border-color: #b9cdc5;
+}
+
+.practice-page .question-toolbar select:focus {
+  border-color: #79a69a;
+  box-shadow: 0 0 0 3px rgba(66, 120, 105, .10);
+}
+
+.practice-page .search-field {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid #d5e1db;
+  border-radius: 8px;
+  background: #fff;
+  color: #7d9791;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.practice-page .search-field:focus-within {
+  border-color: #79a69a;
+  box-shadow: 0 0 0 3px rgba(66, 120, 105, .10);
+}
+
+.practice-page .search-field svg {
+  flex: 0 0 auto;
+  color: #7b9891;
+}
+
+.practice-page .search-field input {
+  min-width: 0;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #294947;
+  font: inherit;
+  font-size: 12px;
+}
+
+.practice-page .search-field input::placeholder {
+  color: #9aaba7;
+}
+
+/* Results heading */
+.practice-page .question-list-head {
+  margin-top: 0;
+}
+
+/* Cards on Practice */
+.practice-page .question-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.practice-page .question-card {
+  overflow: hidden;
+  border-color: #e0e8e4;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(28, 56, 51, .035);
+}
+
+.practice-page .question-card:hover {
+  border-color: #ccdcd5;
+  box-shadow: 0 5px 16px rgba(28, 56, 51, .06);
+}
+
+/* Card header */
+.practice-page .question-card-header {
+  min-height: 48px;
+  padding: 0 14px;
+  border-bottom: 1px solid #edf1ef;
+}
+
+.practice-page .question-meta {
+  gap: 7px;
+  font-size: 11px;
+}
+
+.practice-page .stage-pill {
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 9px;
+  letter-spacing: .06em;
+}
+
+.practice-page .bookmark-button {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+}
+
+/* Context */
+.practice-page .question-context {
+  padding: 13px 16px 0;
+  font-size: 11px;
+}
+
+/* Question body */
+.practice-page .question-body {
+  padding: 6px 16px 14px;
+}
+
+.practice-page .question-label {
+  margin-bottom: 5px;
+  color: #8ca09b;
+  font-size: 8px;
+  letter-spacing: .12em;
+  font-weight: 700;
+}
+
+.practice-page .question-text {
+  margin: 0;
+  max-width: 920px;
+  color: #183f3f;
+  font-family: Fraunces, Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+/* Mains information */
+.practice-page .mains-info {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px 13px;
+}
+
+.practice-page .info-chip {
+  min-width: 82px;
+  padding: 8px 10px;
+  border: 1px solid #e1e9e5;
+  border-radius: 8px;
+  background: #fafcfb;
+}
+
+.practice-page .info-chip-value {
+  font-size: 13px;
+}
+
+.practice-page .info-chip-label {
+  font-size: 8px;
+}
+
+/* Practice action */
+.practice-page .question-open-button {
+  margin: 0 16px 14px;
+  min-height: 36px;
+  padding: 0 13px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+/* Notes */
+.practice-page .saved-note {
+  margin: 0 16px 12px;
+  padding: 11px 12px;
+  border: 1px solid #e4ebe7;
+  border-radius: 9px;
+  background: #fbfcfb;
+}
+
+.practice-page .saved-note-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.practice-page .note-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.practice-page .note-icon {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: #f0f5f2;
+  color: #65827b;
+}
+
+.practice-page .saved-note-header strong {
+  color: #385551;
+  font-size: 11px;
+}
+
+.practice-page .saved-note-status {
+  color: #8ca09b;
+  font-size: 9px;
+}
+
+.practice-page .saved-note p {
+  margin: 7px 0 0 31px;
+  color: #4b5d59;
+  font-size: 11px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.practice-page .personal-notes {
+  display: grid;
+  grid-template-columns: 145px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  margin: 0;
+  padding: 13px 16px;
+  border-top: 1px solid #edf1ef;
+}
+
+.practice-page .personal-notes-label {
+  padding: 0;
+}
+
+.practice-page .personal-notes-label strong {
+  font-size: 11px;
+}
+
+.practice-page .personal-notes-label span {
+  font-size: 9px;
+}
+
+.practice-page .note-editor {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.practice-page .note-editor textarea {
+  min-height: 48px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  font-size: 10px;
+}
+
+.practice-page .note-editor button {
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 7px;
+  font-size: 10px;
+}
+
+/* Card footer */
+.practice-page .question-footer {
+  min-height: 35px;
+  padding: 0 16px;
+  border-top: 1px solid #edf1ef;
+  color: #91a29e;
+  font-size: 9px;
+}
+
+/* Results count / pagination */
+.practice-page .pagination {
+  margin-top: 20px;
+}
+
+/* Loading / empty state */
+.practice-page .empty-state {
+  border-radius: 10px;
+}
+
+/* ---------------------------------------------------------
+   Responsive
+   --------------------------------------------------------- */
+@media (max-width: 900px) {
+  .practice-page .question-toolbar {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "stages stages"
+      "subject search"
+      "filters filters";
+  }
+
+  .practice-page .stage-tabs {
+    width: 100%;
+  }
+
+  .practice-page .stage-tabs button {
+    flex: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .practice-page .question-toolbar {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "stages"
+      "subject"
+      "search"
+      "filters";
+    gap: 10px;
+  }
+
+  .practice-page .select-row {
+    width: 100%;
+  }
+
+  .practice-page .select-row select {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .practice-page .question-card-header {
+    padding: 0 12px;
+  }
+
+  .practice-page .question-context,
+  .practice-page .question-body,
+  .practice-page .mains-info {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .practice-page .question-open-button {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .practice-page .personal-notes {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .practice-page .note-editor {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-page .note-editor button {
+    justify-self: start;
+  }
+}
