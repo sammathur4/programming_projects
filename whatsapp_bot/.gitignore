@@ -1,0 +1,10 @@
+.env
+.env.example
+.env.local
+.env.staging
+/node_modules
+/.wwebjs_cache
+/.wwebjs_auth
+mission_state.json
+control_state.json
+control_audit.log

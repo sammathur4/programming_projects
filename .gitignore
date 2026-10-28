@@ -1,0 +1,30 @@
+# Python
+**/.venv/
+__pycache__/
+*.pyc
+
+# Node
+**/node_modules/
+side_projects
+# Mission 2026
+mission2026/server/staticfiles/
+mission2026/mission_app/build/
+mission2026/mission_app/.dart_tool/
+mission2026/mission_app/.flutter-plugins*
+
+# WhatsApp bot state
+whatsapp_bot/.wwebjs_auth/
+whatsapp_bot/.wwebjs_cache/
+whatsapp_bot/bot.log*
+whatsapp_bot/control_audit.log
+
+# sub_gen generated data
+sub_gen/cache/
+sub_gen/output/
+sub_gen/assets/girlfriends/*.m4a
+
+# Local backup of the pre-reorg sources
+.reorg-backup/
+
+# OS noise
+.DS_Store

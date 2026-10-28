@@ -1,0 +1,328 @@
+================================================================================
+ WHATSAPP BOT — COMPLETE COMMAND REFERENCE
+================================================================================
+ Generated from the running code (helperFunctions/control.js, opencode.js,
+ mission.js, index.js, helper.js) so this list always matches what the bot
+ actually does.
+
+ Owner id ................ 274925319360578  (Saksham Mathur, @lid)
+ Control group ........... Mission 2026 — 120363413842977624@g.us
+ Daily check-in .......... 8:00 PM  (one habit at a time)
+ Audit log ............... whatsapp_bot/control_audit.log
+ Working directory ....... saved in whatsapp_bot/control_state.json
+
+ LEGEND
+   [owner]     Only MISSION_OWNERS can run it. Everyone else gets
+                "Not authorised". Works in the group and in a DM.
+   [everyone]  Any group member can use it.
+
+ NOTE: there are no confirmation prompts. Every command runs the moment you
+ send it — including !sh. That was an explicit request: the bot should just
+ do the thing and send back the result.
+
+--------------------------------------------------------------------------------
+  1. LAPTOP CONTROL  [owner]     !control  shows this list in chat
+--------------------------------------------------------------------------------
+
+ TALKING TO THE BOT
+   !task <request>           Say what you want in any words. opencode turns it
+                             into one shell command (or picks one of the bot's
+                             own commands), the bot runs it and sends the real
+                             output back.
+         !task show me the 5 biggest folders in here
+         !task what's eating my disk space
+         !task find every .mp4 under my home
+         !task take a screenshot
+         !task how much free disk space is left
+
+   !cd [path]                Change the working directory. Every later command
+                             runs there. Relative paths work, ".." goes up,
+                             "-" goes back, "~" goes home.
+         !cd ~/Downloads
+         !cd project/src
+         !cd ..
+         !cd -
+
+   !pwd                      Show the working directory.
+
+ FILES, FOLDERS, APPS
+   !open <file|folder|app|url>     Open a file, folder, app or link.
+         !open ~/Desktop/wallpapers
+         !open ~/Documents/report.pdf
+         !open calculator
+         !open https://github.com
+         !open ~/Desktop/listen/movie.mp4     (media -> opens in VLC)
+
+   !find <name>                    Search for files by name under your home dir.
+         !find hanuman
+         !find resume.pdf
+         !find budget
+
+   !ls [path]                      List a directory (defaults to the working
+                                   directory).
+         !ls
+         !ls ~/Downloads
+         !ls ~/Desktop/listen
+
+   !apps                           List launchable desktop applications.
+         !apps
+
+ MEDIA PLAYBACK
+   !play <file|url|search>         VLC for a media file/URL, else YouTube search.
+         !play ~/Desktop/listen/god_mode_lifemaxxing.mp4
+         !play https://youtu.be/dQw4w9WgXcQ
+         !play hanuman chalisa            (no file match -> YouTube search)
+
+   !hanuman                        Play the Hanuman Chalisa from ~/Desktop/listen
+                                   at 1.5x speed, looping until !stop.
+         !hanuman
+
+   !others                         Play every other media file in
+                                   ~/Desktop/listen as one looping playlist.
+         !others
+                                   (aliases: !chalisa, !listen)
+
+   !yt [query]                     Search YouTube (no query -> just open YouTube).
+         !yt
+         !yt lofi beats to study to
+
+   !pause                          Pause the current track/video.
+   !resume                         Resume playback.
+   !next                           Next track.
+   !prev                           Previous track.
+   !stop                           Stop playback (closes VLC if needed).
+         !pause
+         !resume
+         !next
+
+   !vol <0-150|up|down|mute>       System volume. No argument reads current level.
+         !vol
+         !vol 40
+         !vol up
+         !vol down
+         !vol mute
+         !vol toggle
+
+ WEB / BROWSER
+   !browser [query|url]            Open Brave, search, or go to a URL.
+         !browser
+         !browser python asyncio tutorial
+         !browser https://mail.google.com
+
+ WINDOWS
+   !windows                        List every open window.
+         !windows
+
+   !focus <title>                  Raise/focus a window by title or app class.
+         !focus Okular
+         !focus Pranay Sir Class Notes
+         !focus vlc
+
+   !close <title>                  Close a window by title.
+         !close Calculator
+         !close Firefox
+
+ KEYBOARD & MOUSE
+   !key <combo>                    Send keystrokes to the focused window.
+         !key ctrl+t                  new browser tab
+         !key ctrl+w                  close tab
+         !key super+d                 show desktop
+         !key Return
+         !key ctrl+shift+t
+
+   !type <text>                    Type text into the focused window.
+         !type hello world
+         !type https://example.com
+
+   !mouse <x> <y> [1|2|3]          Move and click (1 left, 2 middle, 3 right).
+         !mouse 960 540
+         !mouse 100 200 3
+
+ MACHINE
+   !screen                         Screenshot the desktop and send it to chat.
+         !screen
+
+   !lock                           Lock the screen.
+         !lock
+
+   !sys                            Battery, memory, disk, uptime, load.
+         !sys
+
+   !sh <command>                   Run any shell command, in the working
+                                   directory. If it fails, opencode is asked to
+                                   repair it and the bot retries.
+         !sh df -h
+         !sh ls ~/Downloads | head
+         !sh nmcli device wifi list
+         !sh playerctl -l
+
+   !whoami                         Check whether your id may control the laptop.
+         !whoami
+         (reply) You (274925319360578) can control this laptop.
+
+   !control                        Control-command help, in chat.
+         !control
+
+--------------------------------------------------------------------------------
+  2. HOW FAILURES GET FIXED
+--------------------------------------------------------------------------------
+
+   Every command that can fail is repaired automatically:
+
+     1. the bot runs the command
+     2. if it exits non-zero, opencode is shown the command, the exit code and
+        the output, and is asked for the corrected command
+     3. the bot runs the corrected command
+     4. up to OPENCODE_FIX_ATTEMPTS times (default 3)
+
+   The repair keeps the original intent: only the technical problem is fixed
+   (wrong flag, wrong tool name, wrong syntax, missing permission).
+
+   If nothing can be repaired, opencode explains what went wrong and the bot
+   runs the closest working alternative, so you still get an answer.
+
+   Examples:
+     !sh ls --colour=always /etc/hostname
+       -> fails, opencode changes it to --color=always, bot runs it, you get
+          the file listing
+     !sh ls -la /no/such/dir
+       -> fails, cannot be repaired, opencode explains why, and the bot lists
+          the working directory instead
+
+--------------------------------------------------------------------------------
+  3. DAILY HABIT CHECK-IN  [everyone]
+--------------------------------------------------------------------------------
+
+  Automatic, 8:00 PM every day:
+    - habits are posted ONE AT A TIME as plain messages
+    - answer the current one with `done`, `in progress`, `pending` or `missed`
+    - no answer after 5 min -> a reminder
+    - no answer after 10 min -> it moves on (late answers still count)
+
+  ANSWERING (no "!" needed):
+        done               record the current habit as done
+        in progress        record it as started, not finished
+        pending            record it as not started (clears a previous answer)
+        missed             record the current habit as missed
+        Done / DONE / yes / haan      all count as done
+        Missed / no / nahi            all count as missed
+        started / doing / wip          count as in progress
+        not yet / later                count as pending
+        ✅ / ❌ / 👍 / 👎 / 🔄 / ⏳    also work
+
+  COMMANDS
+  !mission                        Your check-in status for today.
+        !mission
+
+  !mission status                 Same as !mission.
+        !mission status
+
+  !mission done <habit>           Mark a habit done.
+        !mission done 5L Water
+        !mission done upsc
+        !mission done gym
+
+  !mission in_progress <habit>    Mark a habit started but not finished.
+        !mission in_progress 5L Water
+
+  !mission pending <habit>        Clear a habit back to "not started".
+        !mission pending upsc
+
+  !mission missed <habit>         Mark a habit missed.
+        !mission missed sleep
+        !mission missed wake
+
+  !mission habits                 List today's habits and their keys.
+        !mission habits
+
+  NOTE: matching is fuzzy — "5l water", "water", "5L" all resolve.
+  Whenever `!mission done <habit>` matches the habit currently pending in the
+  chain, the chain advances to the next habit.
+
+  TODAY'S HABITS AND THEIR KEYS
+        Wake 4 AM                        wake_4_am
+        Hanuman Chalisa 11x +  Manifest  hanuman_chalisa_11x_manifest
+        UPSC                             upsc
+        Gym +  20K Steps                 gym_20k_steps
+        Diet                             diet
+        Bath + Brush                     bath_brush
+        No Smoke +  NoFap                no_smoke_nofap
+        5L Water                         5l_water
+        1 Photo/Video                    1_photo_video
+        Sleep 8H                         sleep_8h
+
+--------------------------------------------------------------------------------
+  4. BIRTHDAYS / GROUP / MUSIC  [everyone]
+--------------------------------------------------------------------------------
+
+  !birthday DD-MM-YYYY            Save or update your birthday.
+        !birthday 25-12-1999
+
+  !birthday list                  Birthdays coming up this month.
+        !birthday list
+        !birthday list 12            list for December
+
+  !spotify <song>                 Get Spotify links in the chat.
+        !spotify kesariya
+        !spotify hanuman chalisa
+
+  !admins                         Tag the group admins.
+        !admins
+
+  !pin                            Reply to a message to pin it (admin only).
+        (reply to a message) !pin
+
+  !unpin                          Reply to a message to unpin it (admin only).
+        (reply to a message) !unpin
+
+  !ping                           Health check.
+        !ping
+        (reply) pong!!!
+
+  !help                           Show the short in-chat help.
+        !help
+
+  !everyone                       Tag everyone (currently disabled in index.js).
+
+--------------------------------------------------------------------------------
+  5. HTTP ENDPOINTS (localhost only)
+--------------------------------------------------------------------------------
+
+  GET  http://localhost:3000/status
+        {"status":"ready"} while the session is live.
+
+  GET  http://localhost:3000/qr
+        QR image URL when a scan is needed.
+
+  GET  http://localhost:3000/groups
+        Every group the bot is in, with ids.
+
+  POST http://localhost:3000/mission/morning
+        Run the check-in chain right now.
+
+  POST http://localhost:3000/mission/recap
+        Interim recap now. Add ?final=1 for the final recap.
+
+  POST http://localhost:3000/invite/<code>
+        Join a group from an invite code.
+
+--------------------------------------------------------------------------------
+  6. SAFETY REMINDERS
+--------------------------------------------------------------------------------
+
+  - Everything in section 1 is OWNER-ONLY. Add ids to MISSION_OWNERS to change
+    who that is; `!whoami` tells you your own id.
+  - There are no confirmation prompts — the bot runs the command immediately.
+  - Every control command is appended to control_audit.log with the sender id
+    and a UTC timestamp.
+  - Set MISSION_CONTROL_DRY_RUN=1 to log commands without executing them.
+  - `!sh` is the most powerful command. `!lock` and `!screen` are safe;
+    `!sh`, `!close` and `!type` are not.
+  - If a command fails for any reason, you always get a "⚠️ ..." reply saying
+    what went wrong, and opencode gets a shot at repairing it first. Failures
+    are never silent, and a failed check-in save tells you it is queued for
+    retry instead of pretending it worked.
+  - `!task` needs the opencode CLI on the bot's PATH and a working opencode
+    service, plus a "planner" agent with no shell (see README).
+
+================================================================================

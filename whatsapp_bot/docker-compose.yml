@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  whatsapp-bot:
+    build: .
+    container_name: whatsapp_bot
+    restart: unless-stopped
+    environment:
+      - .env
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000" # Change this if your app runs on a different port
