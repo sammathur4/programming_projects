@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-3wxxez_7j$#i@hgk5r)slgcvd8gbd3dsxlvi&ip%6lv*#hrn9l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*", "backend", "localhost"]
+ALLOWED_HOSTS = ["*", "backend", "localhost", "0.0.0.0"]
 
 
 # Application definition
@@ -107,11 +107,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Kolkata"
 
 USE_I18N = True
 
 USE_TZ = True
+
+LOCAL_LEARNER_USERNAME = "user"
 
 
 # Static files (CSS, JavaScript, Images)

@@ -1,7 +1,6 @@
 from django.http import JsonResponse
 from django.db import connection
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.decorators import login_required
 from django.db import transaction
 from django.db.models import Q
 from django.utils import timezone
@@ -16,6 +15,8 @@ from .models import (
     Goal,
     QuestionReview,
 )
+from .local import local_learner_required, local_learner
+from .http import json_error
 import re
 import json
 import random
@@ -364,7 +365,7 @@ def _prelims_option_explanations(question_id):
     return explanations
 
 
-@login_required
+@local_learner_required
 def question_detail(request, question_key):
     """
     Return one learner-facing question.
@@ -395,7 +396,7 @@ def question_detail(request, question_key):
     hierarchy = _load_hierarchy()
     _map_question(question, hierarchy)
 
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
 
     response_objects = list(
         AttemptResponse.objects.filter(
@@ -502,6 +503,7 @@ def questions_overview(request):
     year = request.GET.get("year", "all")
     search = request.GET.get("search", "").strip()
     node = request.GET.get("node", "")
+    theme = request.GET.get("theme", "").strip().lower()
 
     try:
         page = max(int(request.GET.get("page", 1)), 1)
@@ -721,94 +723,37 @@ def _request_payload(request):
     return _request_json(request) or {}
 
 
-@csrf_exempt
-def learner_register(request):
-    if request.method != "POST":
-        return JsonResponse({"error": "POST required"}, status=405)
-    payload = _request_json(request)
-    if not payload or not payload.get("username") or not payload.get("password"):
-        return JsonResponse({"error": "username and password are required"}, status=400)
-    from django.contrib.auth.models import User
+def _learner_for_user(user=None):
+    if user is not None and getattr(user, "is_authenticated", False):
+        learner, _ = LearnerAccount.objects.get_or_create(
+            user=user,
+            defaults={"display_name": user.get_full_name() or user.username},
+        )
+        return learner
+    return local_learner()
 
-    if User.objects.filter(username=payload["username"]).exists():
-        return JsonResponse({"error": "username already exists"}, status=409)
-    user = User.objects.create_user(
-        username=payload["username"],
-        email=payload.get("email", ""),
-        password=payload["password"],
-    )
-    learner = LearnerAccount.objects.create(
-        user=user,
-        display_name=payload.get("display_name", ""),
-        target_year=payload.get("target_year"),
-    )
-    login(request, user)
+
+def health(request):
+    learner = local_learner()
+    counts = {}
+    with connection.cursor() as cursor:
+        try:
+            cursor.execute("SELECT COUNT(*) FROM prelims_questions")
+            counts["prelims"] = cursor.fetchone()[0]
+        except Exception:
+            counts["prelims"] = 0
+        try:
+            cursor.execute("SELECT COUNT(*) FROM mains_questions")
+            counts["mains"] = cursor.fetchone()[0]
+        except Exception:
+            counts["mains"] = 0
     return JsonResponse(
         {
-            "id": learner.id,
-            "username": user.username,
-            "display_name": learner.display_name,
-        },
-        status=201,
-    )
-
-
-def _learner_for_user(user):
-    learner, _ = LearnerAccount.objects.get_or_create(
-        user=user,
-        defaults={"display_name": user.get_full_name() or user.username},
-    )
-    return learner
-
-
-def auth_session(request):
-    if not request.user.is_authenticated:
-        return JsonResponse({"authenticated": False})
-    learner = _learner_for_user(request.user)
-    return JsonResponse(
-        {
-            "authenticated": True,
-            "learner": {
-                "id": learner.id,
-                "username": request.user.username,
-                "display_name": learner.display_name,
-            },
-            "is_staff": request.user.is_staff,
-            "is_superuser": request.user.is_superuser,
+            "ok": True,
+            "learner": {"id": learner.id, "username": learner.user.username},
+            "counts": counts,
         }
     )
-
-
-@csrf_exempt
-def auth_login(request):
-    if request.method != "POST":
-        return JsonResponse({"error": "POST required"}, status=405)
-    payload = _request_json(request) or {}
-    user = authenticate(
-        request,
-        username=payload.get("username", ""),
-        password=payload.get("password", ""),
-    )
-    if not user:
-        return JsonResponse({"error": "invalid credentials"}, status=401)
-    login(request, user)
-    learner = _learner_for_user(user)
-    return JsonResponse(
-        {
-            "authenticated": True,
-            "learner": {
-                "id": learner.id,
-                "username": user.username,
-                "display_name": learner.display_name,
-            },
-        }
-    )
-
-
-@csrf_exempt
-def auth_logout(request):
-    logout(request)
-    return JsonResponse({"authenticated": False})
 
 
 def _serialize_goal(goal):
@@ -940,10 +885,10 @@ def _build_progress(learner):
     }
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def learner_profile(request):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     if request.method == "PATCH":
         payload = _request_json(request) or {}
         if "display_name" in payload:
@@ -996,10 +941,10 @@ def learner_profile(request):
     })
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def learner_goals(request):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     if request.method == "GET":
         return JsonResponse({"goals": [_serialize_goal(g) for g in learner.goals.all()]})
     if request.method != "POST":
@@ -1017,10 +962,10 @@ def learner_goals(request):
     return JsonResponse({"goal": _serialize_goal(goal)}, status=201)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def learner_goal_detail(request, goal_id):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     try:
         goal = learner.goals.get(id=goal_id)
     except Goal.DoesNotExist:
@@ -1045,17 +990,17 @@ def learner_goal_detail(request, goal_id):
     return JsonResponse({"error": "PATCH, PUT or DELETE required"}, status=405)
 
 
-@login_required
+@local_learner_required
 def progress_overview(request):
     return JsonResponse(_build_progress(_learner_for_user(request.user)))
 
 
-@login_required
+@local_learner_required
 def prelims_progress(request):
     return JsonResponse(_build_progress(_learner_for_user(request.user))["prelims"])
 
 
-@login_required
+@local_learner_required
 def mains_progress(request):
     return JsonResponse(_build_progress(_learner_for_user(request.user))["mains"])
 
@@ -1077,10 +1022,10 @@ def _review_payload(review, question=None, request=None):
     return result
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_review(request, question_key):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     if request.method == "POST":
         payload = _request_json(request) or {}
         reasons = _normalize_review_reasons(payload.get("reasons", []))
@@ -1103,10 +1048,10 @@ def question_review(request, question_key):
     return JsonResponse({"error": "GET, POST or DELETE required"}, status=405)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def reviews(request):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     question_map = _question_metadata_map()
     qs = learner.question_reviews.all()
     status = request.GET.get("status", "open")
@@ -1121,10 +1066,10 @@ def reviews(request):
     return JsonResponse({"reviews": result, "unresolved_count": learner.question_reviews.filter(status=QuestionReview.STATUS_OPEN).count()})
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def review_detail(request, review_id):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     try:
         review = learner.question_reviews.get(id=review_id)
     except QuestionReview.DoesNotExist:
@@ -1142,12 +1087,12 @@ def review_detail(request, review_id):
     return JsonResponse({"error": "GET or PATCH required"}, status=405)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def resolve_review(request, review_id):
     if request.method != "POST":
         return JsonResponse({"error": "POST required"}, status=405)
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     try:
         review = learner.question_reviews.get(id=review_id)
     except QuestionReview.DoesNotExist:
@@ -1158,13 +1103,13 @@ def resolve_review(request, review_id):
     return JsonResponse({"review": _review_payload(review, _question_metadata_map().get(review.question_key))})
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def start_attempt(request):
     if request.method != "POST":
         return JsonResponse({"error": "POST required"}, status=405)
     payload = _request_json(request) or {}
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     attempt = Attempt.objects.create(
         learner=learner,
         stage=payload.get("stage", "mixed"),
@@ -1208,7 +1153,7 @@ def _explanation_for_question(question_key):
     return row[0] if row else None
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def record_response(request, attempt_id):
     if request.method != "POST":
@@ -1217,7 +1162,7 @@ def record_response(request, attempt_id):
     question_key = payload.get("question_key")
     if not question_key:
         return JsonResponse({"error": "question_key is required"}, status=400)
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     uploaded_file = request.FILES.get("attachment")
     if uploaded_file:
         allowed_types = {"application/pdf", "image/jpeg", "image/png", "image/webp"}
@@ -1238,7 +1183,7 @@ def record_response(request, attempt_id):
     selected = str(payload.get("selected_answer", ""))
     is_correct = None if expected is None else selected.lower() == str(expected).lower()
     with transaction.atomic():
-        response, _ = AttemptResponse.objects.update_or_create(
+        response, created = AttemptResponse.objects.update_or_create(
             attempt=attempt,
             question_key=question_key,
             defaults={
@@ -1248,11 +1193,15 @@ def record_response(request, attempt_id):
                 "is_correct": is_correct,
                 "score": payload.get("score"),
                 "elapsed_seconds": payload.get("elapsed_seconds"),
+                "depth": payload.get("depth"),
             },
         )
+        if response.local_date is None:
+            response.local_date = timezone.localdate()
+            response.save(update_fields=["local_date"])
         if uploaded_file:
             response.attachment = uploaded_file
-            response.save(update_fields=["attachment", "answered_at"])
+            response.save(update_fields=["attachment"])
         attempted_filter = (
             Q(selected_answer__gt="")
             | Q(response_text__gt="")
@@ -1314,12 +1263,12 @@ def record_response(request, attempt_id):
     return JsonResponse(result)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def submit_attempt(request, attempt_id):
     if request.method != "POST":
         return JsonResponse({"error": "POST required"}, status=405)
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     try:
         attempt = learner.attempts.get(id=attempt_id, status=Attempt.STATUS_IN_PROGRESS)
     except Attempt.DoesNotExist:
@@ -1331,20 +1280,8 @@ def submit_attempt(request, attempt_id):
     attempt.save(update_fields=["status", "submitted_at", "score", "updated_at"])
     today = timezone.localdate()
     if learner.last_activity_date != today:
-        yesterday = today - timedelta(days=1)
-        learner.current_streak = (
-            learner.current_streak + 1 if learner.last_activity_date == yesterday else 1
-        )
-        learner.longest_streak = max(learner.longest_streak, learner.current_streak)
         learner.last_activity_date = today
-        learner.save(
-            update_fields=[
-                "current_streak",
-                "longest_streak",
-                "last_activity_date",
-                "updated_at",
-            ]
-        )
+        learner.save(update_fields=["last_activity_date", "updated_at"])
     return JsonResponse(
         {
             "id": attempt.id,
@@ -1355,10 +1292,10 @@ def submit_attempt(request, attempt_id):
     )
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_bookmark(request, question_key):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     if request.method == "POST":
         QuestionBookmark.objects.get_or_create(
             learner=learner, question_key=question_key
@@ -1372,10 +1309,10 @@ def question_bookmark(request, question_key):
     return JsonResponse({"error": "POST or DELETE required"}, status=405)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_note(request, question_key):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
 
     # ---------------------------------------------------------
     # GET — return all notes for this question
@@ -1438,10 +1375,10 @@ def question_note(request, question_key):
     )
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_note_detail(request, question_key, note_id):
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
 
     try:
         record = QuestionNote.objects.get(
@@ -1502,14 +1439,14 @@ def question_note_detail(request, question_key, note_id):
 
 
 
-@login_required
+@local_learner_required
 def question_history(request):
     """
     Return the learner's attempted questions enriched with question metadata.
     This powers the History tab without requiring the frontend to make one
     request per attempt.
     """
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     hierarchy = _load_hierarchy()
 
     question_map = {}
@@ -1569,10 +1506,10 @@ def question_history(request):
     return JsonResponse({"history": history, "total_unique_questions": len(history)})
 
 
-@login_required
+@local_learner_required
 def learner_bookmarks(request):
     """Return bookmarked questions with the same learner-facing metadata as Practice."""
-    learner = _learner_for_user(request.user)
+    learner = getattr(request, "learner", None) or _learner_for_user(getattr(request, "user", None))
     hierarchy = _load_hierarchy()
 
     bookmarked_keys = list(
@@ -1602,7 +1539,7 @@ def learner_bookmarks(request):
     return JsonResponse({"bookmarks": questions})
 
 
-@login_required
+@local_learner_required
 def random_question(request):
     """
     Return one random learner-facing question.

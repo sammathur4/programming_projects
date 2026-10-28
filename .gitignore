@@ -5,7 +5,7 @@ __pycache__/
 
 # Node
 **/node_modules/
-side_projects
+/side_projects
 # Mission 2026
 mission2026/server/staticfiles/
 mission2026/mission_app/build/

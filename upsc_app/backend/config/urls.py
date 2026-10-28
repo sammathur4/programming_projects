@@ -19,10 +19,6 @@ from django.conf.urls.static import static
 
 from syllabus.views import (
     learner_profile,
-    learner_register,
-    auth_session,
-    auth_login,
-    auth_logout,
     questions_overview,
     prelims_papers,
     record_response,
@@ -53,10 +49,15 @@ from syllabus.views import (
     review_detail,
     resolve_review,
 )
+from syllabus import views as syllabus_views
+from syllabus import views_daily
 
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("api/health/", syllabus_views.health, name="health"),
+    path("api/daily/", views_daily.daily_challenge, name="daily-challenge"),
+    path("api/dashboard/", views_daily.dashboard, name="dashboard"),
 
     # ------------------------------------------------------------------
     # Syllabus / Questions
@@ -87,32 +88,8 @@ urlpatterns = [
     ),
 
     # ------------------------------------------------------------------
-    # Authentication / Learner
+    # Learner
     # ------------------------------------------------------------------
-
-    path(
-        "api/learners/register/",
-        learner_register,
-        name="learner-register",
-    ),
-
-    path(
-        "api/auth/session/",
-        auth_session,
-        name="auth-session",
-    ),
-
-    path(
-        "api/auth/login/",
-        auth_login,
-        name="auth-login",
-    ),
-
-    path(
-        "api/auth/logout/",
-        auth_logout,
-        name="auth-logout",
-    ),
 
     path(
         "api/learners/me/",

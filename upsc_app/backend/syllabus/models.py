@@ -1,8 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
 from pathlib import Path
-from django.db import models
 from django.conf import settings
+from django.utils import timezone
 
 
 def answer_upload_path(instance, filename):
@@ -237,6 +237,25 @@ class Attempt(models.Model):
         return f"{self.learner} · {self.stage} · {self.started_at:%Y-%m-%d %H:%M}"
 
 
+class DailyChallenge(models.Model):
+    date = models.DateField()
+    track = models.CharField(max_length=10)
+    question_key = models.CharField(max_length=120)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=["date", "track"],
+                name="unique_dailychallenge_date_track",
+            ),
+        ]
+        ordering = ["-date"]
+
+    def __str__(self):
+        return f"{self.date} · {self.track} · {self.question_key}"
+
+
 class AttemptResponse(models.Model):
     attempt = models.ForeignKey(
         Attempt, on_delete=models.CASCADE, related_name="responses"
@@ -248,7 +267,9 @@ class AttemptResponse(models.Model):
     attachment = models.FileField(upload_to=answer_upload_path, blank=True, null=True)
     is_correct = models.BooleanField(blank=True, null=True)
     score = models.DecimalField(max_digits=8, decimal_places=2, blank=True, null=True)
-    answered_at = models.DateTimeField(auto_now=True)
+    answered_at = models.DateTimeField(default=timezone.now)
+    local_date = models.DateField(null=True, blank=True)
+    depth = models.CharField(max_length=10, blank=True, null=True)
     elapsed_seconds = models.PositiveIntegerField(blank=True, null=True)
 
     class Meta:

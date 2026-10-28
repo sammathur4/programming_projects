@@ -1,0 +1,135 @@
+.app-shell {
+  display: grid;
+  grid-template-columns: 248px 1fr;
+  min-height: 100vh;
+}
+
+.app-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.app-brand-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle, var(--color-primary-strong), var(--color-primary));
+  color: #0b1026;
+  font-weight: 700;
+}
+
+.app-brand-title {
+  font-weight: 700;
+}
+
+.app-brand-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.app-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.app-nav-link {
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  color: var(--color-text-muted);
+}
+
+.app-nav-link.active,
+.app-nav-link:hover {
+  background: #eff6ff;
+  color: var(--color-primary);
+}
+
+.app-sidebar-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.app-breadcrumb {
+  font-weight: 600;
+}
+
+.app-content {
+  flex: 1;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.app-bottom-nav {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .app-sidebar {
+    display: none;
+  }
+
+  .app-content {
+    padding: var(--space-4);
+    padding-bottom: calc(var(--space-10) + env(safe-area-inset-bottom));
+  }
+
+  .app-bottom-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+  }
+
+  .app-bottom-link {
+    text-align: center;
+    padding: 10px 6px;
+    border-radius: var(--radius);
+    color: var(--color-text-muted);
+  }
+
+  .app-bottom-link.active {
+    color: var(--color-primary);
+    background: #eff6ff;
+  }
+}
