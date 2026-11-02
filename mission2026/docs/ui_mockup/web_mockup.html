@@ -1,0 +1,1657 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mission 2026 — Web Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* ===================================================================
+   Mission 2026 — DESKTOP WEB mockup
+   NOT a stretched phone layout. Web gets:
+     - persistent left sidebar (icon + label, collapsible)
+     - a sticky right rail for the score + intel that is a card on phone
+     - multi-column grids where phone stacks
+     - master/detail split on Habits and Study
+   Same design tokens as mockup.html so the two stay in sync.
+   =================================================================== */
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#0b0f1a; --panel:#121828; --panel-2:#182036; --panel-3:#1e2845;
+  --line:#232c45; --text:#e7ecf7; --muted:#8b96b5; --faint:#5d7086;
+  --accent:#22c55e; --accent-2:#3b82f6; --danger:#ef4444; --warn:#f59e0b;
+  --violet:#a855f7; --radius:14px;
+  --sidebar:236px; --rail:320px; --header:60px;
+}
+html{color-scheme:dark}
+body{
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(59,130,246,.10), transparent 60%),
+    radial-gradient(900px 420px at 10% 0%, rgba(34,197,94,.08), transparent 55%),
+    var(--bg);
+  color:var(--text);
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  font-size:14px; line-height:1.4; min-height:100vh;
+}
+
+/* ==================== shell ==================== */
+.shell{display:grid;grid-template-columns:var(--sidebar) minmax(0,1fr) var(--rail);min-height:100vh}
+.shell.collapsed{--sidebar:64px}
+.shell.no-rail{grid-template-columns:var(--sidebar) minmax(0,1fr)}
+
+/* ---------- sidebar ---------- */
+.side{
+  position:sticky;top:0;height:100vh;border-right:1px solid var(--line);
+  background:rgba(13,17,30,.72);backdrop-filter:blur(10px);
+  display:flex;flex-direction:column;padding:14px 10px;overflow:hidden;
+}
+.side .brand{display:flex;align-items:center;gap:9px;padding:6px 8px 16px;white-space:nowrap}
+.side .brand .flame{font-size:19px;flex:none}
+.side .brand .txt{font-weight:900;font-size:16px;letter-spacing:-.3px}
+.side .brand .txt em{font-style:normal;background:linear-gradient(90deg,#34d399,#3b82f6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.collapsed .side .brand .txt{display:none}
+.navbtn{
+  display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:11px;
+  color:var(--muted);font-size:13.5px;font-weight:600;cursor:pointer;border:none;
+  background:transparent;font-family:inherit;width:100%;text-align:left;white-space:nowrap;
+  position:relative;transition:background .14s,color .14s;
+}
+.navbtn:hover{background:var(--panel-2);color:var(--text)}
+.navbtn.on{background:var(--panel-3);color:var(--text);font-weight:700}
+.navbtn.on::before{content:'';position:absolute;left:0;top:9px;bottom:9px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
+.navbtn .nic{font-size:16px;flex:none;width:22px;text-align:center}
+.navbtn .lb{flex:1;overflow:hidden;text-overflow:ellipsis}
+.navbtn .badge{font-size:10px;font-weight:800;padding:1px 6px;border-radius:999px;background:var(--panel-3);color:var(--muted)}
+.navbtn.on .badge{background:rgba(34,197,94,.18);color:#86efac}
+.collapsed .navbtn .lb,.collapsed .navbtn .badge{display:none}
+.collapsed .navbtn{justify-content:center;padding:9px 0}
+.navsec{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--faint);padding:14px 11px 6px}
+.collapsed .navsec{text-align:center;padding:12px 0 5px;font-size:0}
+.collapsed .navsec::after{content:'···';font-size:12px}
+.side .spacer{flex:1}
+.side .foot{border-top:1px solid var(--line);padding-top:10px;margin-top:8px}
+.streakbox{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:10px 11px;white-space:nowrap;overflow:hidden}
+.collapsed .streakbox{display:none}
+.streakbox .k{font-size:9.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
+.streakbox .v{font-size:19px;font-weight:900;color:#fb923c;margin-top:2px}
+.streakbox .s{font-size:10.5px;color:var(--muted);margin-top:1px}
+
+/* ---------- main + header ---------- */
+.main{min-width:0;display:flex;flex-direction:column}
+.header{
+  position:sticky;top:0;z-index:20;height:var(--header);flex:none;
+  display:flex;align-items:center;gap:12px;padding:0 20px;
+  border-bottom:1px solid var(--line);background:rgba(11,15,26,.86);backdrop-filter:blur(10px);
+}
+.header h1{font-size:17px;font-weight:900;letter-spacing:-.2px}
+.header .sub{font-size:12px;color:var(--muted);margin-left:2px;font-weight:500}
+.header .spacer{flex:1}
+/* mission countdown — the single number that frames everything else */
+.countdown{
+  display:flex;align-items:center;gap:10px;padding:6px 13px;border-radius:11px;
+  background:linear-gradient(135deg,rgba(168,85,247,.16),rgba(59,130,246,.16));
+  border:1px solid rgba(168,85,247,.35);
+}
+.countdown .days{font-size:22px;font-weight:900;line-height:1;color:#d8b4fe}
+.countdown .lbl{display:flex;flex-direction:column;line-height:1.15}
+.countdown .lbl b{font-size:11px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:#e9d5ff}
+.countdown .lbl span{font-size:10.5px;color:var(--muted)}
+.ico{width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:var(--panel-2);display:grid;place-items:center;font-size:15px;cursor:pointer;color:var(--text);flex:none}
+.ico:hover{background:var(--panel-3)}
+.content{padding:18px 20px 40px;min-width:0}
+.hidden{display:none!important}
+
+/* ---------- right rail ---------- */
+.rail{
+  position:sticky;top:0;height:100vh;border-left:1px solid var(--line);
+  background:rgba(13,17,30,.6);backdrop-filter:blur(10px);
+  padding:16px 14px;overflow-y:auto;min-width:0;
+}
+.rail::-webkit-scrollbar{width:0}
+.railsec{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--faint);margin:16px 2px 8px}
+.railsec:first-child{margin-top:0}
+
+/* ==================== shared atoms ==================== */
+.card{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:12px 13px}
+.card+.card{margin-top:10px}
+.sec{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:16px 2px 9px}
+.sec .t{font-size:11px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;color:var(--muted)}
+.sec .a{font-size:12px;font-weight:700;color:var(--accent-2);cursor:pointer}
+.btn{border:1px solid var(--line);background:var(--panel-2);color:var(--text);padding:7px 12px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;transition:transform .06s,background .14s;white-space:nowrap}
+.btn:hover{background:var(--panel-3)}
+.btn:active{transform:scale(.97)}
+.btn.sm{padding:4px 9px;font-size:12px;border-radius:8px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#052e16;font-weight:700}
+.btn.danger{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.4);color:#fca5a5}
+.pill{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;padding:2.5px 8px;border-radius:999px;background:var(--panel-3);color:var(--muted);font-weight:700;white-space:nowrap}
+.pill.green{background:rgba(34,197,94,.14);color:#86efac}
+.pill.blue{background:rgba(59,130,246,.15);color:#93c5fd}
+.pill.amber{background:rgba(245,158,11,.15);color:#fcd34d}
+.pill.rose{background:rgba(239,68,68,.14);color:#fca5a5}
+.pill.violet{background:rgba(168,85,247,.15);color:#d8b4fe}
+.tag{font-size:9.5px;padding:2px 6px;border-radius:999px;background:var(--panel-3);color:var(--muted);font-weight:700;letter-spacing:.4px;text-transform:uppercase}
+.bar{height:6px;border-radius:99px;background:#1d2540;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:99px;transition:width .3s}
+.divider{height:1px;background:var(--line);margin:10px 0}
+.muted{color:var(--muted)}
+.streak{color:#fb923c;font-weight:800}
+
+/* view switcher — the SAME markup is used for a grid of columns and a 2-col grid */
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px;align-items:start}   /* multi-column view */
+.stack{display:grid;grid-template-columns:1fr;max-width:820px;gap:0}                                     /* single-column view */
+
+/* ==================== TODAY ==================== */
+.datebar{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.datebar .mid{flex:1}
+.datebar .d1{font-size:16px;font-weight:800}
+.datebar .d2{font-size:12px;color:var(--muted);margin-top:1px}
+.ring{width:52px;height:52px;border-radius:50%;flex:none;display:grid;place-items:center;position:relative;background:conic-gradient(var(--ring) calc(var(--pct)*3.6deg),#1d2540 0)}
+.ring::before{content:'';position:absolute;inset:5px;border-radius:50%;background:var(--bg)}
+.ring span{position:relative;font-size:12.5px;font-weight:900}
+
+/* habit row — identical to phone: exactly 52px */
+.habit-card{
+  display:flex;align-items:center;gap:11px;padding:0 12px;margin-bottom:7px;height:52px;overflow:hidden;
+  background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:12px;
+  transition:border-color .14s;
+}
+.habit-card:hover{border-color:#2f3a5c}
+.habit-card.done{border-color:color-mix(in srgb,var(--hc) 48%,var(--line));background:linear-gradient(180deg,color-mix(in srgb,var(--hc) 9%,var(--panel)),#10162a)}
+.h-emoji{width:34px;height:34px;border-radius:10px;flex:none;display:grid;place-items:center;font-size:16px;background:color-mix(in srgb,var(--hc) 16%,#0e1424);border:1px solid color-mix(in srgb,var(--hc) 30%,transparent)}
+.h-main{flex:1;min-width:0;height:48px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.h-name{font-weight:700;font-size:13.5px;display:flex;align-items:center;gap:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.h-meta{color:var(--muted);font-size:11px;margin-top:1px;display:flex;gap:8px;align-items:center;white-space:nowrap;overflow:hidden}
+.h-note{font-size:10.5px;color:#93c5fd;margin-top:2px;display:flex;gap:4px;align-items:center;min-width:0}
+.h-note span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.check-btn{width:34px;height:34px;border-radius:50%;flex:none;cursor:pointer;font-family:inherit;border:2px solid color-mix(in srgb,var(--hc) 55%,var(--line));background:transparent;color:transparent;font-size:15px;font-weight:900;display:grid;place-items:center;transition:all .14s}
+.check-btn:hover{background:color-mix(in srgb,var(--hc) 15%,transparent)}
+.check-btn.on{background:var(--hc);border-color:var(--hc);color:#04140a}
+.counter{display:flex;align-items:center;gap:5px;flex:none}
+.counter .val{min-width:58px;text-align:center;font-weight:800;font-size:13px;line-height:1.15}
+.counter .val small{display:block;font-size:9px;color:var(--muted);font-weight:600}
+.mini-progress{height:3px;border-radius:99px;background:#1d2540;margin-top:4px;overflow:hidden}
+.mini-progress i{display:block;height:100%;border-radius:99px;background:var(--hc)}
+
+/* rail score block */
+.score-hero{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+.score-hero .top{display:flex;align-items:center;gap:13px}
+.score-hero .big{font-size:34px;font-weight:900;line-height:1}
+.score-hero .lbl{font-size:10px;font-weight:800;letter-spacing:.7px;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
+.score-hero .sub{font-size:11.5px;color:var(--muted);margin-top:4px}
+.intel-tile{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:12px;padding:10px 11px}
+.intel-tile+.intel-tile{margin-top:8px}
+.intel-tile .k{font-size:9.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint)}
+.intel-tile .v{font-size:15px;font-weight:900;margin-top:3px}
+.intel-tile .s{font-size:11px;color:var(--muted);margin-top:1px}
+
+/* ==================== HABITS (master/detail) ==================== */
+.master{display:grid;grid-template-columns:250px minmax(0,1fr);gap:16px;align-items:start}
+.mlist{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:8px;max-height:640px;overflow-y:auto}
+.mlist::-webkit-scrollbar{width:6px}
+.mlist::-webkit-scrollbar-thumb{background:var(--panel-3);border-radius:99px}
+.mitem{display:flex;align-items:center;gap:9px;padding:8px 9px;border-radius:10px;cursor:pointer;border:1px solid transparent}
+.mitem:hover{background:var(--panel-2)}
+.mitem.on{background:var(--panel-3);border-color:#2f3a5c}
+.mitem .me{width:26px;height:26px;border-radius:8px;flex:none;display:grid;place-items:center;font-size:13px;background:color-mix(in srgb,var(--hc) 16%,#0e1424);border:1px solid color-mix(in srgb,var(--hc) 30%,transparent)}
+.mitem .mn{flex:1;min-width:0;font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mitem .ms{font-size:10.5px;color:#fb923c;font-weight:800;flex:none}
+.detail-head{display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.detail-head .dh-emoji{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;font-size:21px;background:color-mix(in srgb,var(--hc) 16%,#0e1424);border:1px solid color-mix(in srgb,var(--hc) 30%,transparent);flex:none}
+.detail-head h2{font-size:19px;font-weight:900;letter-spacing:-.2px}
+.detail-head .dh-sub{font-size:12px;color:var(--muted);margin-top:2px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+.metric{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:12px;padding:10px 11px;min-width:0}
+.metric .k{font-size:9px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.metric .v{font-size:19px;font-weight:900;margin-top:3px;line-height:1.05}
+.metric .s{font-size:10.5px;color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* grid table */
+.gwrap{overflow-x:auto;padding-bottom:2px}
+.hgrid{border-collapse:separate;border-spacing:3px;width:100%;table-layout:fixed}
+.hgrid th{font-size:9px;color:var(--muted);font-weight:700;text-align:center;padding:1px 0}
+.hgrid th .dl{display:block;font-size:8.5px;opacity:.75}
+.hgrid th.now{color:var(--accent)}
+.hgrid .name-cell{position:sticky;left:0;z-index:5;background:#10162a;padding:5px 10px 5px 5px;border-radius:9px;text-align:left}
+.name-inner{display:flex;align-items:center;gap:6px}
+.name-inner .ne{font-size:14px}
+.name-inner .nt{font-size:11.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cell{width:100%;aspect-ratio:1;border-radius:5px;background:#151c30;border:1px solid #1d2540;cursor:pointer;display:block;transition:transform .05s}
+.cell:hover{transform:scale(1.16);border-color:#3a4a7a;position:relative;z-index:2}
+.cell.done{background:var(--hc);border-color:var(--hc)}
+.cell.part{background:color-mix(in srgb,var(--hc) 45%,#151c30)}
+.cell.rest{background:transparent;border:1px dashed #232c45}
+.cell.today-outline{outline:2px solid rgba(255,255,255,.5);outline-offset:1px}
+.grid-legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px;margin-top:11px;align-items:center}
+.grid-legend i{width:11px;height:11px;border-radius:3.5px;display:inline-block;vertical-align:-1.5px;margin-right:5px}
+
+/* ==================== STUDY ==================== */
+.astrip{display:grid;grid-template-columns:repeat(5,1fr);background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;gap:1px;margin-bottom:14px}
+.astrip .a{background:var(--panel);padding:11px 9px;text-align:center;min-width:0}
+.astrip .a .av{font-size:18px;font-weight:900;line-height:1.05}
+.astrip .a .al{font-size:9px;color:var(--faint);margin-top:3px;font-weight:700;letter-spacing:.3px;text-transform:uppercase}
+.tabs{display:inline-flex;gap:5px;background:var(--panel-2);border:1px solid var(--line);border-radius:11px;padding:4px;margin-bottom:14px}
+.tabs button{padding:6px 14px;border:none;border-radius:8px;background:transparent;color:var(--muted);font-family:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
+.tabs button.on{background:var(--panel-3);color:var(--text)}
+.tabs .cnt{font-size:10px;opacity:.75;font-weight:800;margin-left:4px}
+.dtable{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.drow{display:grid;grid-template-columns:56px minmax(0,1.6fr) minmax(0,1fr) 120px 200px;gap:14px;align-items:center;padding:11px 14px;border-bottom:1px solid var(--line)}
+.drow:last-child{border-bottom:none}
+.drow:hover{background:rgba(30,40,69,.35)}
+.drow.head{background:var(--panel-2);font-size:10px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:var(--faint);padding:9px 14px}
+.drow .dname{font-weight:700;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.drow .dsub{font-size:11.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.drow .dacts{display:flex;gap:6px;justify-content:flex-end}
+.drow .prog{min-width:0}
+
+/* ==================== FITNESS ==================== */
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;align-items:start}
+.hero{background:linear-gradient(135deg,#38bdf8,#3b82f6);border-radius:var(--radius);padding:16px 17px;color:#fff}
+.hero .hk{font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;opacity:.85}
+.hero .hv{font-size:34px;font-weight:900;line-height:1.05;margin-top:4px}
+.hero .hv small{font-size:13px;font-weight:600;opacity:.85}
+.hero .hrow{display:flex;gap:18px;margin-top:13px}
+.hero .hrow b{display:block;font-size:16px;font-weight:900}
+.hero .hrow span{font-size:10.5px;opacity:.85}
+.exrow{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding:10px 0}
+.exrow:last-child{border-bottom:none}
+.exrow .exn{font-weight:700;font-size:13px;flex:1;min-width:0;display:flex;align-items:center;gap:7px}
+.exrow .sets{font-size:11.5px;color:var(--muted);margin-top:2px}
+.volume{font-size:12px;color:var(--muted);margin-top:10px}
+.volume b{color:var(--text)}
+.field-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+.mini-field{background:var(--panel-2);border:1px solid var(--line);border-radius:11px;padding:9px 11px;min-width:0}
+.mini-field .mfk{font-size:9.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint)}
+.mini-field .mfv{font-size:16px;font-weight:800;margin-top:2px}
+
+/* ==================== GOALS ==================== */
+.ggrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;align-items:start}
+.goal{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:13px 14px;position:relative}
+.goal .gt{font-weight:800;font-size:14.5px;padding-right:64px;line-height:1.2}
+.goal .gn{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gtrack{height:8px;background:#171f36;border-radius:99px;overflow:hidden;margin-top:10px}
+.gtrack i{display:block;height:100%;border-radius:99px}
+.gfoot{display:flex;align-items:center;margin-top:8px;font-size:11px;color:var(--muted);gap:8px;flex-wrap:wrap}
+.gpct{font-weight:900;font-size:13px}
+.gmenu{position:absolute;top:11px;right:11px;display:flex;gap:5px}
+.gmenu .ico{width:28px;height:28px;border-radius:8px;border:1px solid var(--line);background:var(--panel-2);display:grid;place-items:center;font-size:12px;cursor:pointer;color:var(--muted)}
+.gmenu .ico:hover{color:var(--text);background:var(--panel-3)}
+.pace-note{font-size:11px;color:#93c5fd;background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.25);border-radius:9px;padding:7px 10px;margin-top:9px;line-height:1.4}
+.timeline{display:flex;align-items:center;gap:7px;margin-top:9px}
+.timeline .tl{flex:1;height:5px;border-radius:99px;background:#171f36;position:relative;overflow:hidden}
+.timeline .tl i{position:absolute;left:0;top:0;bottom:0;border-radius:99px}
+.timeline .tl .mark{position:absolute;top:-3px;bottom:-3px;width:2px;background:#fff;opacity:.65}
+
+/* ==================== STATS ==================== */
+.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;align-items:start}
+.stat-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:14px}
+.stat-card{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:12px;padding:11px 12px;min-width:0}
+.stat-card .lbl{font-size:9.5px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat-card .big{font-size:22px;font-weight:900;margin-top:3px;line-height:1.05}
+.stat-card .sub{font-size:10.5px;color:var(--muted);margin-top:2px}
+.bars{display:flex;align-items:flex-end;gap:5px;height:110px;padding-top:4px}
+.bar-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end;min-width:0}
+.bar-col .bv{font-size:8.5px;font-weight:700;color:var(--muted)}
+.bar-col .b{width:100%;max-width:26px;border-radius:5px 5px 2px 2px;background:linear-gradient(180deg,#34d399,#16a34a);min-height:3px}
+.bar-col .b.miss{background:#232c45}
+.bar-col .bl{font-size:8.5px;color:var(--muted);font-weight:600}
+.heat{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,12px);gap:3px;overflow:hidden}
+.hm-cell{width:12px;height:12px;border-radius:3px;background:#141b2f}
+.hs-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.hs-row .he{width:22px;text-align:center;font-size:13px}
+.hs-row .hn{width:130px;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hs-track{flex:1;height:8px;background:#171f36;border-radius:99px;overflow:hidden}
+.hs-track i{display:block;height:100%;border-radius:99px}
+.hs-row .hp{width:36px;text-align:right;font-size:12px;font-weight:800}
+.hs-row .hs{width:38px;text-align:right;font-size:11px;color:#fb923c;font-weight:800}
+.rec{display:flex;align-items:center;font-size:12.5px;padding:6px 0;border-bottom:1px solid var(--line)}
+.rec:last-child{border-bottom:none}
+.rec .rk{width:24px}
+.rec .rn{flex:1}
+.rec .rv{font-weight:800;color:#fcd34d}
+.rec .rd{width:86px;text-align:right;color:var(--muted);font-size:11px}
+
+/* ==================== WORKOUT DAY MODULES (Legend style) ==================== */
+.modgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;align-items:start}
+.mod{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:14px;position:relative;overflow:hidden}
+.mod.off{opacity:.6}
+.mod::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--mc)}
+.mod .mhead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.mod .mem{width:38px;height:38px;border-radius:11px;flex:none;display:grid;place-items:center;font-size:18px;background:color-mix(in srgb,var(--mc) 16%,#0e1424);border:1px solid color-mix(in srgb,var(--mc) 32%,transparent)}
+.mod .mname{font-size:15px;font-weight:900;line-height:1.1}
+.mod .mdays{font-size:11px;color:var(--muted);margin-top:2px}
+.mod .mcount{margin-left:auto;text-align:right}
+.mod .mcount b{display:block;font-size:16px;font-weight:900;color:var(--mc)}
+.mod .mcount span{font-size:9.5px;color:var(--faint);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+.muscles{margin-top:11px;border-top:1px solid var(--line);padding-top:10px}
+.muscles .mh{font-size:9.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+.musc-row{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.musc-row .mn{width:74px;font-size:11.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.musc-row .mt{flex:1;height:7px;background:#171f36;border-radius:99px;overflow:hidden}
+.musc-row .mt i{display:block;height:100%;border-radius:99px;background:var(--mc)}
+.musc-row .ms{width:40px;text-align:right;font-size:11px;font-weight:800;color:var(--muted)}
+.mod .exlist{margin-top:11px;border-top:1px solid var(--line);padding-top:9px}
+.mod .exi{display:flex;align-items:center;gap:8px;font-size:12px;padding:5px 0;border-bottom:1px solid rgba(35,44,69,.5)}
+.mod .exi:last-child{border-bottom:none}
+.mod .exi .en{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mod .exi .es{color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.mod .exi .em{font-size:9.5px;color:var(--faint);width:66px;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.weekstrip{display:grid;grid-template-columns:repeat(7,1fr);gap:7px;margin-bottom:14px}
+.wday{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:11px;padding:9px 6px;text-align:center;min-width:0}
+.wday.now{border-color:rgba(34,197,94,.55);background:linear-gradient(180deg,rgba(34,197,94,.10),#10162a)}
+.wday .wd{font-size:9.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint)}
+.wday .wn{font-size:12px;font-weight:800;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wday .ws{font-size:10px;color:var(--muted);margin-top:2px}
+
+/* ==================== FOOD DIARY (MyFitnessPal style) ==================== */
+.foodtop{display:grid;grid-template-columns:230px minmax(0,1fr);gap:14px;align-items:start;margin-bottom:14px}
+.macro-ring{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:15px;text-align:center}
+.macro-ring .ringwrap{position:relative;width:150px;height:150px;margin:0 auto}
+.macro-ring .ringwrap svg{transform:rotate(-90deg)}
+.macro-ring .center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.macro-ring .center .rem{font-size:30px;font-weight:900;line-height:1}
+.macro-ring .center .lbl{font-size:9.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);margin-top:5px}
+.macro-ring .center .of{font-size:11px;color:var(--muted);margin-top:2px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:14px}
+.macro{min-width:0}
+.macro .mk{font-size:9.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint)}
+.macro .mv{font-size:13px;font-weight:900;margin-top:3px}
+.macro .mv small{font-size:10px;color:var(--muted);font-weight:600}
+.macro .mt{height:5px;border-radius:99px;background:#171f36;overflow:hidden;margin-top:6px}
+.macro .mt i{display:block;height:100%;border-radius:99px}
+.mealcard{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:11px;overflow:hidden}
+.mealhead{display:flex;align-items:center;gap:10px;padding:11px 13px;border-bottom:1px solid var(--line);background:rgba(24,32,54,.5)}
+.mealhead .mico{font-size:16px}
+.mealhead .mtitle{font-size:13px;font-weight:800;flex:1}
+.mealhead .mkcal{font-size:12.5px;font-weight:900;color:var(--text)}
+.mealhead .mkcal small{font-size:10px;color:var(--faint);font-weight:600}
+.foodrow{display:grid;grid-template-columns:minmax(0,1fr) 70px 70px 66px 66px 62px 30px;gap:10px;align-items:center;padding:9px 13px;border-bottom:1px solid rgba(35,44,69,.6);font-size:12.5px}
+.foodrow:last-child{border-bottom:none}
+.foodrow:hover{background:rgba(30,40,69,.3)}
+.foodrow.head{font-size:9.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);padding:7px 13px;background:rgba(24,32,54,.35)}
+.foodrow .fn{font-weight:700;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.foodrow .fs{font-size:10.5px;color:var(--muted);margin-top:1px}
+.foodrow .num{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+.foodrow .num.k{color:var(--text);font-weight:800}
+.foodadd{padding:10px 13px;display:flex;gap:8px;align-items:center}
+.foodsearch{flex:1;display:flex;align-items:center;gap:8px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:12.5px;color:var(--faint);cursor:text}
+.foodsearch:hover{border-color:#2f3a5c}
+.dbmeta{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:12px}
+.dbmeta .pill{font-size:11px;padding:4px 10px}
+
+/* ==================== NOTES ==================== */
+.notesbar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:11.5px;font-weight:700;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:var(--panel-2);color:var(--muted);cursor:pointer;font-family:inherit;white-space:nowrap}
+.chip:hover{background:var(--panel-3);color:var(--text)}
+.chip.on{background:var(--panel-3);color:var(--text);border-color:#3a4a7a}
+.chip .cc{font-size:10px;opacity:.7;margin-left:4px}
+.notelist{max-width:900px}
+.notegroup{margin-bottom:20px}
+.notegroup .ngday{position:sticky;top:60px;z-index:5;display:flex;align-items:center;gap:10px;padding:7px 0;margin-bottom:9px;background:linear-gradient(180deg,var(--bg) 70%,transparent)}
+.notegroup .ngday .nd{font-size:12.5px;font-weight:900}
+.notegroup .ngday .nn{font-size:11px;color:var(--muted)}
+.notegroup .ngday .nline{flex:1;height:1px;background:var(--line)}
+.note{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:9px;display:flex;gap:11px;align-items:flex-start}
+.note:hover{border-color:#2f3a5c}
+.note.pinned{border-color:rgba(245,158,11,.4);background:linear-gradient(180deg,rgba(245,158,11,.06),#10162a)}
+.note .nbody{flex:1;min-width:0}
+.note .nhead{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}
+.note .nref{font-size:12px;font-weight:800}
+.note .ntext{font-size:12.5px;line-height:1.5;color:#cdd7ea}
+.note .nacts{display:flex;gap:5px;flex:none;opacity:.5}
+.note:hover .nacts{opacity:1}
+
+/* ==================== SETTINGS ==================== */
+.setgrid{display:grid;grid-template-columns:210px minmax(0,1fr);gap:20px;align-items:start}
+.setnav{position:sticky;top:78px}
+.setnav button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;padding:8px 11px;border-radius:10px;border:none;background:transparent;color:var(--muted);font-family:inherit;font-size:12.5px;font-weight:600;cursor:pointer;margin-bottom:2px}
+.setnav button:hover{background:var(--panel-2);color:var(--text)}
+.setnav button.on{background:var(--panel-3);color:var(--text);font-weight:700}
+.setcard{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:16px 17px;margin-bottom:13px}
+.setcard h3{font-size:14px;font-weight:800;margin-bottom:4px}
+.setcard .sh{font-size:11.5px;color:var(--muted);margin-bottom:14px;line-height:1.45}
+.setrow{display:flex;align-items:center;gap:14px;padding:11px 0;border-bottom:1px solid var(--line)}
+.setrow:last-child{border-bottom:none}
+.setrow .sl{flex:1;min-width:0}
+.setrow .sl b{font-size:12.5px;font-weight:700;display:block}
+.setrow .sl span{font-size:11.5px;color:var(--muted);display:block;margin-top:2px;line-height:1.4}
+.toggle{width:42px;height:24px;border-radius:99px;background:#2a3450;position:relative;cursor:pointer;flex:none;border:none;transition:background .16s}
+.toggle::after{content:'';position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#8b96b5;transition:transform .16s,background .16s}
+.toggle.on{background:rgba(34,197,94,.35)}
+.toggle.on::after{transform:translateX(18px);background:var(--accent)}
+.setinput{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;color:var(--text);font-family:inherit;font-size:12.5px;padding:8px 11px;min-width:170px;outline:none}
+.setinput:focus{border-color:var(--accent-2)}
+.fieldlabel{font-size:11.5px;color:var(--muted);display:block;margin-bottom:6px;font-weight:600}
+
+/* ==================== VISION ==================== */
+.vhero h2{font-size:21px;font-weight:900}
+.vhero p{font-size:13px;opacity:.92;margin-top:8px;line-height:1.5;max-width:520px}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:16px}
+.quote{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:flex;gap:12px;align-items:flex-start}
+.quote .qe{font-size:18px;flex:none}
+.quote .qt{font-size:13px;line-height:1.5}
+
+/* ---------- annotation band ---------- */
+.notes{margin-top:26px;border-top:1px solid var(--line);padding-top:18px}
+.notes h3{font-size:14px;font-weight:800;margin-bottom:12px}
+.notes .ncols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.notes ul{list-style:none}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.55;padding-left:18px;position:relative;margin-bottom:9px}
+.notes li::before{content:'▸';position:absolute;left:0;color:var(--accent);font-weight:900}
+.notes li b{color:var(--text)}
+.notes code{background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:11px;color:#93c5fd}
+
+/* responsive: drop the rail, then the sidebar */
+@media (max-width:1180px){ .shell{grid-template-columns:var(--sidebar) minmax(0,1fr)} .rail{display:none} }
+@media (max-width:820px){
+  .shell{grid-template-columns:1fr}
+  .side{position:fixed;left:0;top:0;z-index:60;transform:translateX(-100%);transition:transform .2s;width:236px}
+  .side.open{transform:none}
+  .master{grid-template-columns:1fr}
+  .drow{grid-template-columns:1fr;gap:8px}
+  .drow.head{display:none}
+  .field-grid,.metrics{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<div class="shell" id="shell">
+
+  <!-- ==================== SIDEBAR ==================== -->
+  <aside class="side" id="side">
+    <div class="brand"><span class="flame">🔥</span><span class="txt">Mission <em>2026</em></span></div>
+    <div id="nav"></div>
+    <div class="spacer"></div>
+    <div class="foot">
+      <div class="streakbox">
+        <div class="k">Longest streak</div>
+        <div class="v">🔥 22 days</div>
+        <div class="s">🧴 Bath + Brush</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==================== MAIN ==================== -->
+  <div class="main">
+    <header class="header">
+      <button class="ico" id="collapse" title="Collapse sidebar">☰</button>
+      <h1 id="pageTitle">Today</h1>
+      <span class="sub" id="pageSub">Sunday, 20 October 2026</span>
+      <span class="spacer"></span>
+      <div class="countdown" title="Days remaining until 1 May 2027">
+        <span class="days">193</span>
+        <span class="lbl"><b>Days left</b><span>until 1 May 2027</span></span>
+      </div>
+      <button class="ico" title="Refresh">⟳</button>
+      <button class="ico" title="Settings" onclick="go('settings')">⚙</button>
+      <button class="btn primary" id="addBtn">＋ Add</button>
+    </header>
+    <div class="content" id="view"></div>
+  </div>
+
+  <!-- ==================== RIGHT RAIL ==================== -->
+  <aside class="rail" id="rail"></aside>
+
+</div>
+
+<script>
+/* =====================================================================
+   SEED DATA — identical to mockup.html so the two mockups agree
+   ===================================================================== */
+const HABITS = [
+  {id:1,name:'Wake 4 AM',emoji:'⏰',color:'#f59e0b',cat:'Discipline',type:'check'},
+  {id:2,name:'Hanuman Chalisa 11x',emoji:'🙏',color:'#a855f7',cat:'Mind',type:'check'},
+  {id:3,name:'UPSC',emoji:'📚',color:'#3b82f6',cat:'Study',type:'count',target:6,unit:'hrs'},
+  {id:4,name:'Gym + 20K Steps',emoji:'🏋️',color:'#22c55e',cat:'Fitness',type:'check'},
+  {id:5,name:'Diet',emoji:'🥗',color:'#84cc16',cat:'Health',type:'check'},
+  {id:6,name:'Bath + Brush',emoji:'🧴',color:'#06b6d4',cat:'Self-care',type:'check'},
+  {id:7,name:'No Smoke + NoFap',emoji:'🚫',color:'#ef4444',cat:'Discipline',type:'check'},
+  {id:8,name:'5L Water',emoji:'💧',color:'#38bdf8',cat:'Health',type:'count',target:5,unit:'L'},
+  {id:9,name:'1 Photo/Video',emoji:'📸',color:'#ec4899',cat:'Skills',type:'check'},
+  {id:10,name:'Sleep 8H',emoji:'😴',color:'#6366f1',cat:'Self-care',type:'check'},
+];
+const DONE0={1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:0,9:0,10:0};
+const COUNTS={3:4.5,8:3};
+const NOTES={5:'Ate clean, no sugar. Felt lighter after gym.'};
+const streaks={1:14,2:14,3:11,4:9,5:6,6:22,7:14,8:3,9:2,10:8};
+const best={1:21,2:18,3:15,4:12,5:9,6:22,7:14,8:7,9:5,10:11};
+const pct30={1:91,2:88,3:73,4:67,5:62,6:97,7:95,8:58,9:54,10:79};
+
+const OBJECTIVES=[
+  {area:'🛡️ UPSC CSE 2027',target:'Top Rank — Prelims + Mains + Interview',status:'active',prog:18,expected:21,start:'2026-09-29',end:'2027-12-31',linked:['upsc']},
+  {area:'💪 Fitness',target:'105 → 75 kg, visible abs, 100kg bench',status:'active',prog:31,expected:28,start:'2026-09-29',end:'2027-05-01',linked:['gym_20k_steps','diet']},
+  {area:'🎸 Guitar',target:'1. Live performance  2. 20+ songs',status:'active',prog:8,expected:12,start:'2026-09-29',end:'2027-05-01',linked:[]},
+  {area:'Deloitte SDE 2 Job',target:'Mon–Fri 11am–8pm · 2 day WFO, 3 day WFH, Bangalore',status:'active',prog:45,expected:40,start:'2026-09-29',end:'2027-05-01',linked:[]},
+  {area:'Shubham – Gargi Marriage',target:'Save ₹6L before marriage in the next 3 months',status:'active',prog:22,expected:44,start:'2026-09-29',end:'2027-05-01',linked:[]},
+  {area:'RBI Grade B 2027',target:'Get selected',status:'paused',prog:5,expected:9,start:'2026-09-29',end:'2027-12-31',linked:[]},
+  {area:'🏆 IBPS SO 2026',target:'Top Rank',status:'not_pursuing',prog:0,expected:0,start:'2026-09-29',end:'2026-12-31',linked:[]},
+];
+const RESOURCES={
+  pending:[
+    {subject:'History',exam:'Prelims',name:'Art & Culture by Nitin Singhania (Hindi)',prio:'P1',videos:48,dur:'32h 10m'},
+    {subject:'Science & Technology',exam:'Prelims',name:'Telegram — current affairs notes',prio:'P1',videos:null,dur:''},
+    {subject:'Geography',exam:'Prelims',name:'Physical Geography by Sudarshan Gurjar',prio:'P2',videos:76,dur:'54h'},
+    {subject:'Essay',exam:'Mains',name:'Essay writing — 10 model essays',prio:'P2',videos:10,dur:'6h 30m'},
+  ],
+  in_progress:[
+    {subject:'Polity',exam:'Prelims',name:'Complete Indian Polity for UPSC 🎯',prio:'P1',videos:52,dur:'38h',pct:62},
+    {subject:'Economy',exam:'Prelims',name:'Economy lectures — GS',prio:'P1',videos:44,dur:'29h',pct:35},
+    {subject:'Environment',exam:'Prelims',name:'Shankar IAS — Environment + Ecology',prio:'P2',videos:30,dur:'19h',pct:15},
+  ],
+  completed:[
+    {subject:'Polity',exam:'Prelims',name:'Governance full series for UPSC 2021',prio:'P1',videos:38,dur:'24h'},
+    {subject:'Economics',exam:'Prelims',name:'Economy lectures for UPSC General Studies',prio:'P1',videos:60,dur:'41h'},
+    {subject:'History',exam:'Mains',name:'Modern History — Spectrum notes',prio:'P1',videos:20,dur:'12h'},
+  ],
+};
+const EXERCISES=[
+  {name:'Bench Press',sets:4,reps:8,kg:70,muscle:'Chest',pr:true},
+  {name:'Barbell Row',sets:4,reps:10,kg:55,muscle:'Back'},
+  {name:'Overhead Press',sets:3,reps:10,kg:40,muscle:'Shoulders'},
+  {name:'Lateral Raise',sets:3,reps:15,kg:10,muscle:'Shoulders'},
+];
+const CARDIO=[{type:'Treadmill',qty:5,unit:'km',min:35},{type:'Cycling',qty:12,unit:'km',min:28}];
+
+/* =====================================================================
+   WORKOUT DAY MODULES (Legend style)
+   A module is a named day — Push / Pull / Legs / Cardio. Each has its own
+   exercise list, and the muscles it hits are DERIVED from those exercises
+   so the muscle map can never disagree with the workout.
+   ===================================================================== */
+const MODULES=[
+  {id:'push',name:'Push',color:'#3b82f6',days:'Mon · Thu',emoji:'💪',
+   exercises:[
+     {name:'Bench Press',sets:4,reps:8,kg:70,muscle:'Chest'},
+     {name:'Incline DB Press',sets:3,reps:10,kg:26,muscle:'Chest'},
+     {name:'Overhead Press',sets:3,reps:10,kg:40,muscle:'Shoulders'},
+     {name:'Lateral Raise',sets:3,reps:15,kg:10,muscle:'Shoulders'},
+     {name:'Triceps Pushdown',sets:3,reps:12,kg:25,muscle:'Triceps'},
+   ]},
+  {id:'pull',name:'Pull',color:'#22c55e',days:'Tue · Fri',emoji:'🪢',
+   exercises:[
+     {name:'Deadlift',sets:3,reps:5,kg:110,muscle:'Back'},
+     {name:'Barbell Row',sets:4,reps:10,kg:55,muscle:'Back'},
+     {name:'Lat Pulldown',sets:3,reps:12,kg:50,muscle:'Back'},
+     {name:'Face Pull',sets:3,reps:15,kg:20,muscle:'Rear Delts'},
+     {name:'Barbell Curl',sets:3,reps:12,kg:25,muscle:'Biceps'},
+   ]},
+  {id:'legs',name:'Legs',color:'#f59e0b',days:'Wed · Sat',emoji:'🦵',
+   exercises:[
+     {name:'Squat',sets:4,reps:6,kg:90,muscle:'Quads'},
+     {name:'Romanian Deadlift',sets:3,reps:10,kg:70,muscle:'Hamstrings'},
+     {name:'Leg Press',sets:3,reps:12,kg:120,muscle:'Quads'},
+     {name:'Leg Curl',sets:3,reps:12,kg:40,muscle:'Hamstrings'},
+     {name:'Standing Calf Raise',sets:4,reps:15,kg:60,muscle:'Calves'},
+   ]},
+  {id:'cardio',name:'Cardio',color:'#38bdf8',days:'Sun',emoji:'🏃',
+   exercises:[
+     {name:'Treadmill',sets:1,reps:1,kg:0,muscle:'Cardio',cardio:true,qty:5,unit:'km',min:35},
+     {name:'Cycling',sets:1,reps:1,kg:0,muscle:'Cardio',cardio:true,qty:12,unit:'km',min:28},
+   ]},
+];
+/* muscles a module hits, with total sets — derived, so it always matches */
+function moduleMuscles(m){
+  const t={};
+  m.exercises.forEach(e=>{ t[e.muscle]=(t[e.muscle]||0)+(e.cardio?0:e.sets); });
+  return Object.entries(t).sort((a,b)=>b[1]-a[1]);
+}
+const ALL_MUSCLES=['Chest','Back','Shoulders','Biceps','Triceps','Quads','Hamstrings','Calves','Rear Delts','Cardio'];
+
+/* =====================================================================
+   FOOD DB (MyFitnessPal style)
+   Per-serving macros. Indian staples + common foods, realistic values.
+   ===================================================================== */
+const FOODS=[
+  {name:'Roti / Chapati',serv:'1 medium (40g)',kcal:104,p:3,c:22,f:1.2},
+  {name:'Paratha (plain)',serv:'1 piece (70g)',kcal:210,p:4.5,c:28,f:9},
+  {name:'Jeera Rice',serv:'1 katori (150g)',kcal:245,p:4,c:45,f:6},
+  {name:'White Rice (cooked)',serv:'1 katori (150g)',kcal:205,p:4.3,c:45,f:0.4},
+  {name:'Dal Tadka',serv:'1 katori (150g)',kcal:180,p:9,c:22,f:6},
+  {name:'Rajma Curry',serv:'1 katori (150g)',kcal:215,p:11,c:30,f:6},
+  {name:'Chole',serv:'1 katori (150g)',kcal:230,p:10,c:32,f:7},
+  {name:'Paneer Butter Masala',serv:'1 katori (150g)',kcal:340,p:14,c:12,f:27},
+  {name:'Palak Paneer',serv:'1 katori (150g)',kcal:265,p:13,c:11,f:19},
+  {name:'Paneer Tikka',serv:'6 pieces (150g)',kcal:320,p:20,c:9,f:23},
+  {name:'Chicken Curry',serv:'1 katori (150g)',kcal:245,p:22,c:8,f:14},
+  {name:'Tandoori Chicken',serv:'2 pieces (200g)',kcal:330,p:38,c:4,f:18},
+  {name:'Butter Chicken',serv:'1 katori (150g)',kcal:390,p:24,c:11,f:28},
+  {name:'Egg (boiled)',serv:'1 large',kcal:78,p:6.3,c:0.6,f:5.3},
+  {name:'Egg Bhurji',serv:'2 eggs',kcal:220,p:13,c:4,f:17},
+  {name:'Omelette (2 egg)',serv:'1 serving',kcal:230,p:13,c:3,f:18},
+  {name:'Idli',serv:'2 pieces',kcal:116,p:4,c:24,f:0.6},
+  {name:'Masala Dosa',serv:'1 piece',kcal:310,p:6,c:44,f:12},
+  {name:'Plain Dosa',serv:'1 piece',kcal:168,p:3.9,c:28,f:5},
+  {name:'Upma',serv:'1 katori (150g)',kcal:190,p:5,c:30,f:6},
+  {name:'Poha',serv:'1 katori (150g)',kcal:250,p:4.5,c:42,f:8},
+  {name:'Sambar',serv:'1 katori (150g)',kcal:105,p:5,c:15,f:3},
+  {name:'Curd / Dahi',serv:'1 katori (150g)',kcal:90,p:5,c:7,f:5},
+  {name:'Raita',serv:'1 katori (150g)',kcal:110,p:5,c:8,f:6},
+  {name:'Oats (dry)',serv:'40g',kcal:150,p:5,c:27,f:2.5},
+  {name:'Muesli with milk',serv:'1 bowl (60g+200ml)',kcal:330,p:12,c:52,f:8},
+  {name:'Banana',serv:'1 medium',kcal:105,p:1.3,c:27,f:0.4},
+  {name:'Apple',serv:'1 medium',kcal:95,p:0.5,c:25,f:0.3},
+  {name:'Mango',serv:'1 medium',kcal:150,p:1.4,c:38,f:0.6},
+  {name:'Almonds',serv:'10 pieces',kcal:70,p:2.5,c:2.5,f:6},
+  {name:'Peanut Butter',serv:'1 tbsp (16g)',kcal:95,p:4,c:3,f:8},
+  {name:'Whey Protein',serv:'1 scoop (30g)',kcal:120,p:24,c:3,f:1.5},
+  {name:'Samosa',serv:'1 piece',kcal:260,p:4,c:30,f:14},
+  {name:'Pakora / Bhajji',serv:'4 pieces',kcal:290,p:6,c:26,f:18},
+  {name:'Gulab Jamun',serv:'1 piece',kcal:150,p:2,c:22,f:6},
+  {name:'Pav Bhaji',serv:'1 plate',kcal:400,p:9,c:52,f:17},
+  {name:'Chicken Biryani',serv:'1 plate (300g)',kcal:520,p:26,c:62,f:18},
+  {name:'Veg Biryani',serv:'1 plate (300g)',kcal:420,p:9,c:66,f:13},
+  {name:'Pasta (cooked)',serv:'1 cup (140g)',kcal:220,p:8,c:43,f:1.3},
+  {name:'Brown Bread',serv:'2 slices',kcal:140,p:6,c:26,f:2},
+  {name:'Maggi Noodles',serv:'1 pack (70g)',kcal:310,p:7,c:42,f:12},
+  {name:'Sweet Potato',serv:'1 medium (150g)',kcal:130,p:2.4,c:30,f:0.2},
+  {name:'Boiled Potato',serv:'1 medium (150g)',kcal:130,p:3,c:30,f:0.2},
+  {name:'Mixed Salad',serv:'1 bowl (150g)',kcal:45,p:2,c:8,f:0.5},
+  {name:'Tea with milk',serv:'1 cup (150ml)',kcal:60,p:2,c:8,f:2},
+  {name:'Black Coffee',serv:'1 cup',kcal:5,p:0.3,c:0,f:0},
+];
+const ALL_MEALS=['Breakfast','Lunch','Dinner','Snack'];
+/* what the user actually ate today */
+const DIARY=[
+  {meal:'Breakfast',food:'Oats (dry)',qty:1,kcal:150,p:5,c:27,f:2.5},
+  {meal:'Breakfast',food:'Egg (boiled)',qty:3,kcal:234,p:18.9,c:1.8,f:15.9},
+  {meal:'Breakfast',food:'Black Coffee',qty:1,kcal:5,p:0.3,c:0,f:0},
+  {meal:'Lunch',food:'Roti / Chapati',qty:3,kcal:312,p:9,c:66,f:3.6},
+  {meal:'Lunch',food:'Dal Tadka',qty:1,kcal:180,p:9,c:22,f:6},
+  {meal:'Lunch',food:'Curd / Dahi',qty:1,kcal:90,p:5,c:7,f:5},
+  {meal:'Lunch',food:'Mixed Salad',qty:1,kcal:45,p:2,c:8,f:0.5},
+  {meal:'Snack',food:'Whey Protein',qty:1,kcal:120,p:24,c:3,f:1.5},
+  {meal:'Snack',food:'Banana',qty:1,kcal:105,p:1.3,c:27,f:0.4},
+  {meal:'Dinner',food:'Paneer Tikka',qty:1,kcal:320,p:20,c:9,f:23},
+  {meal:'Dinner',food:'Jeera Rice',qty:1,kcal:245,p:4,c:45,f:6},
+];
+const CAL_GOAL=2100, MACRO_GOAL={p:140,c:210,f:60};
+
+/* =====================================================================
+   NOTES — every note in the system, one place (habit notes, day notes,
+   workout notes, goal notes). This is the new Notes tab.
+   ===================================================================== */
+const NOTE_TAGS={
+  habit:'Habit', day:'Day', fitness:'Fitness', food:'Food', goal:'Goal', idea:'Idea',
+};
+const NOTE_TAG_COLOR={
+  habit:'violet', day:'blue', fitness:'green', food:'amber', goal:'rose', idea:'',
+};
+const NOTES_FEED=[
+  {date:'2026-10-20',tag:'day',ref:'Today',text:'Woke at 4:10, felt sharp. Gym was heavy but got all sets. Diet clean — no sugar. Need to start Economy revision tomorrow.',pinned:true},
+  {date:'2026-10-20',tag:'habit',ref:'Diet',text:'Ate clean, no sugar. Felt lighter after gym.'},
+  {date:'2026-10-20',tag:'fitness',ref:'Push · Bench Press',text:'70 kg × 8 felt solid. Try 72.5 next week.'},
+  {date:'2026-10-20',tag:'food',ref:'Lunch',text:'3 roti + dal was perfect portioning. Curd helps digestion.'},
+  {date:'2026-10-19',tag:'day',ref:'Yesterday',text:'Missed Wake 4 AM — slept at 1:30 because of the Guitar practice. Fix the night routine.'},
+  {date:'2026-10-19',tag:'habit',ref:'Sleep 8H',text:'Only 6h. This is the root cause of the 4 AM misses.'},
+  {date:'2026-10-19',tag:'goal',ref:'UPSC CSE 2027',text:'Polity is at 62%. At this pace I finish before Nov 15 — ahead of schedule.'},
+  {date:'2026-10-18',tag:'idea',ref:'App idea',text:'Vision board should open as the first screen in the morning, before the habit list.'},
+  {date:'2026-10-18',tag:'fitness',ref:'Legs · Squat',text:'90 kg for 6. Depth good. Knee felt fine.'},
+  {date:'2026-10-17',tag:'day',ref:'Friday',text:'Deloitte work ran till 9pm. Still hit 4 habits. Small wins compound.'},
+  {date:'2026-10-17',tag:'habit',ref:'No Smoke + NoFap',text:'Day 14. Cravings passed faster than last week.'},
+  {date:'2026-10-16',tag:'goal',ref:'Fitness',text:'99.4 kg now. 24.4 kg down. Visible change in the mirror.'},
+  {date:'2026-10-16',tag:'food',ref:'Dinner',text:'Skipped rice at dinner — kept calories low since it was a rest day.'},
+  {date:'2026-10-15',tag:'idea',ref:'Study system',text:'Do MCQ tests in the morning, theory at night. Mornings are for output.'},
+  {date:'2026-10-14',tag:'day',ref:'Tuesday',text:'First perfect week. 7/7 days all habits. Momentum is real.'},
+];
+
+const today=new Date(2026,9,20);
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const addDays=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x;};
+const DAY_S=['S','M','T','W','T','F','S'],DAY_N=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+const S={tab:'today',date:iso(today),done:{...DONE0},counts:{...COUNTS},studyTab:'in_progress',gridDays:14,single:false,selectedHabit:3};
+
+function dayStats(){const h=HABITS.length,d=HABITS.filter(x=>S.done[x.id]).length;return{due:h,done:d,pct:Math.round(d/h*100)};}
+const wrap=cls=>S.single?`<div class="stack">${cls}</div>`:cls;
+
+/* ===================== VIEWS ===================== */
+
+function viewToday(){
+  const st=dayStats(), isToday=S.date===iso(today);
+  const d=new Date(S.date+'T00:00:00');
+  const ringColor=st.pct===100?'#22c55e':st.pct>=50?'#3b82f6':'#f59e0b';
+  const remaining=st.due-st.done;
+  const order=[...HABITS].sort((a,b)=>(S.done[a.id]?1:0)-(S.done[b.id]?1:0));
+
+  const rows=order.map(h=>{
+    const done=!!S.done[h.id];
+    let right='';
+    if(h.type==='check') right=`<button class="check-btn ${done?'on':''}" onclick="toggle(${h.id})">${done?'✓':''}</button>`;
+    else{
+      const c=S.counts[h.id]||0;
+      right=`<div class="counter">
+        <button class="ico" style="width:28px;height:28px;font-size:13px" onclick="bump(${h.id},-1)">−</button>
+        <div class="val">${c}<small>of ${h.target} ${h.unit}</small></div>
+        <button class="ico" style="width:28px;height:28px;font-size:13px" onclick="bump(${h.id},1)">+</button>
+      </div>`;
+    }
+    const meta=[`<span class="streak">🔥 ${streaks[h.id]}</span>`];
+    meta.push(h.type==='count'?`${S.counts[h.id]||0} / ${h.target} ${h.unit}`:(done?'completed':'pending'));
+    const bar=h.type==='count'?`<div class="mini-progress"><i style="width:${Math.min(100,Math.round((S.counts[h.id]||0)/h.target*100))}%"></i></div>`:'';
+    return `<div class="habit-card ${done?'done':''}" style="--hc:${h.color}">
+      <div class="h-emoji">${h.emoji}</div>
+      <div class="h-main">
+        <div class="h-name">${h.name}<span class="tag">${h.cat}</span></div>
+        <div class="h-meta">${meta.join('')}</div>
+        ${NOTES[h.id]?`<div class="h-note">📝 <span>${NOTES[h.id]}</span></div>`:''}
+        ${bar}
+      </div>${right}</div>`;
+  }).join('');
+
+  const habitsCol=`<div class="card" style="padding:14px 12px 8px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <div class="datebar" style="margin:0;flex:1">
+        <button class="ico" onclick="shiftDate(-1)">‹</button>
+        <div class="mid"><div class="d1">${isToday?'Today':DAY_N[d.getDay()]+', '+d.getDate()+' '+MON[d.getMonth()]}</div>
+        <div class="d2">${remaining>0?remaining+' habit'+(remaining>1?'s':'')+' left':'🎉 perfect day'}</div></div>
+        <button class="ico" onclick="shiftDate(1)" ${isToday?'disabled':''}>›</button>
+      </div>
+      <div class="ring" style="--pct:${st.pct};--ring:${ringColor}"><span>${st.pct}%</span></div>
+    </div>
+    ${rows}
+  </div>`;
+
+  const noteCol=`<div>
+    <div class="card">
+      <div style="font-size:10.5px;font-weight:800;color:var(--muted);letter-spacing:.7px;text-transform:uppercase;margin-bottom:8px">📝 Note for today</div>
+      <textarea style="width:100%;background:var(--panel-2);border:1px solid var(--line);color:var(--text);border-radius:11px;padding:11px;font-family:inherit;font-size:13.5px;resize:vertical;min-height:88px;outline:none" placeholder="How did today go? Wins, blockers, ideas…" oninput="S.dayNote=this.value">${S.dayNote||''}</textarea>
+    </div>
+    <div class="card">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">📚 Study today</div>
+      <div style="display:flex;align-items:baseline;gap:7px"><span style="font-size:30px;font-weight:900">4.5</span><span class="muted" style="font-size:12px">hrs</span><span class="spacer" style="flex:1"></span><span class="pill blue">target 6h</span></div>
+      <div class="bar" style="margin-top:9px"><i style="width:75%;background:#3b82f6"></i></div>
+      <div style="display:flex;gap:6px;margin-top:11px;flex-wrap:wrap">
+        <span class="pill">WFH</span><span class="pill">2 answers</span><span class="pill">40 MCQ</span>
+      </div>
+      <div style="display:flex;gap:6px;margin-top:11px">
+        <button class="btn sm" style="flex:1" onclick="bumpStudy(-0.5)">− 0.5h</button>
+        <button class="btn sm" style="flex:1" onclick="bumpStudy(0.5)">+ 0.5h</button>
+      </div>
+    </div>
+    <div class="card">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">🏋️ Fitness today</div>
+      <div style="display:flex;align-items:baseline;gap:7px"><span style="font-size:30px;font-weight:900">99.4</span><span class="muted" style="font-size:12px">kg</span><span style="flex:1"></span><span class="pill green">−5.6 kg</span></div>
+      <div style="font-size:11.5px;color:var(--muted);margin-top:7px">4 exercises · 17 sets · 6,090 kg volume</div>
+      <div style="font-size:11.5px;color:var(--muted);margin-top:3px">Treadmill 5 km · Cycling 12 km</div>
+      <button class="btn sm" style="width:100%;margin-top:11px" onclick="alert('Opens the workout editor — sets × reps × kg per exercise')">Log workout</button>
+    </div>
+    <div class="card">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">🎯 Goals touching today</div>
+      ${OBJECTIVES.filter(o=>o.linked.length&&o.status==='active').map(o=>{
+        const c=o.prog>=o.expected?'#22c55e':o.prog+8>=o.expected?'#f59e0b':'#ef4444';
+        return `<div style="margin-bottom:11px">
+          <div style="display:flex;gap:8px;align-items:center"><span style="font-size:12.5px;font-weight:700;flex:1">${o.area}</span><span style="font-size:12px;font-weight:900;color:${c}">${o.prog}%</span></div>
+          <div class="bar" style="margin-top:6px"><i style="width:${o.prog}%;background:${c}"></i></div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+
+  return `<div class="cols" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start">
+    ${habitsCol}${noteCol}</div>`;
+}
+
+function viewHabits(){
+  const days=S.gridDays, sel=HABITS.find(h=>h.id===S.selectedHabit)||HABITS[0];
+  const dates=[];for(let i=days-1;i>=0;i--)dates.push(iso(addDays(today,-i)));
+  const heads=dates.map(ds=>{const d=new Date(ds+'T00:00:00');return `<th class="${ds===iso(today)?'now':''}"><span class="dl">${DAY_S[d.getDay()]}</span>${d.getDate()}</th>`;}).join('');
+  const rows=HABITS.map(h=>{
+    const cells=dates.map(ds=>{
+      const d=new Date(ds+'T00:00:00'),dow=d.getDay(),rest=(h.id===4&&dow===0);
+      let cls='cell';
+      if(ds===iso(today))cls+=' today-outline';
+      if(rest)cls+=' rest';
+      else if(ds===iso(today)){if(S.done[h.id])cls+=' done';}
+      else{const seed=(h.id*7+dates.indexOf(ds)*13)%10;if(seed>=3)cls+=' done';else if(seed===2)cls+=' part';}
+      return `<td><span class="${cls}" style="--hc:${h.color}" onclick="${rest?'':`cellToggle(${h.id})`}"></span></td>`;
+    }).join('');
+    return `<tr><td class="name-cell"><div class="name-inner"><span class="ne">${h.emoji}</span><span class="nt">${h.name}</span></div></td>${cells}</tr>`;
+  }).join('');
+
+  const master=`<div class="mlist">${HABITS.map(h=>`
+    <div class="mitem ${h.id===sel.id?'on':''}" style="--hc:${h.color}" onclick="S.selectedHabit=${h.id};render()">
+      <div class="me">${h.emoji}</div><div class="mn">${h.name}</div><div class="ms">🔥 ${streaks[h.id]}</div>
+    </div>`).join('')}</div>`;
+
+  const detail=`<div>
+    <div class="detail-head" style="--hc:${sel.color}">
+      <div class="dh-emoji">${sel.emoji}</div>
+      <div style="flex:1;min-width:0">
+        <h2>${sel.name}</h2>
+        <div class="dh-sub">${sel.cat} · ${sel.id===4?'Mon–Sat':'daily'} · ${sel.type==='count'?`target ${sel.target} ${sel.unit}`:'simple check'}</div>
+      </div>
+      <button class="btn sm">✏️ Edit</button>
+      <button class="btn sm">⏸ Pause</button>
+      <button class="btn sm">🔄 Restart</button>
+      <button class="btn sm danger">🗑 Delete (soft)</button>
+    </div>
+    <div class="metrics" style="margin-bottom:14px">
+      <div class="metric"><div class="k">Current</div><div class="v" style="color:#fb923c">🔥 ${streaks[sel.id]}</div><div class="s">days</div></div>
+      <div class="metric"><div class="k">Best</div><div class="v">${best[sel.id]}</div><div class="s">days</div></div>
+      <div class="metric"><div class="k">30-day</div><div class="v" style="color:${sel.color}">${pct30[sel.id]}%</div><div class="s">completion</div></div>
+      <div class="metric"><div class="k">Total logs</div><div class="v">153</div><div class="s">all time</div></div>
+    </div>
+    <div class="card" style="padding:12px 10px">
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:11px;flex-wrap:wrap">
+        <select class="btn sm" onchange="S.gridDays=+this.value;render()">${[14,30,60].map(n=>`<option value="${n}" ${days===n?'selected':''}>${n} days</option>`).join('')}</select>
+        <select class="btn sm"><option>All categories</option><option>Health</option><option>Study</option><option>Discipline</option></select>
+        <span style="flex:1"></span>
+        <span class="muted" style="font-size:11.5px">click any square to backfill</span>
+      </div>
+      <div class="gwrap"><table class="hgrid">
+        <thead><tr><th class="name-cell">Habit</th>${heads}</tr></thead><tbody>${rows}</tbody>
+      </table></div>
+      <div class="grid-legend">
+        <span><i style="background:#22c55e"></i>done</span>
+        <span><i style="background:rgba(34,197,94,.45)"></i>partial</span>
+        <span><i style="background:#151c30;border:1px solid #232c45"></i>missed</span>
+        <span><i style="background:transparent;border:1px dashed #232c45"></i>rest</span>
+      </div>
+    </div>
+  </div>`;
+
+  return `<div class="master">${master}${detail}</div>`;
+}
+
+function viewStudy(){
+  const tab=S.studyTab, items=RESOURCES[tab];
+  const rows=items.map(r=>{
+    const p={P1:'rose',P2:'amber',P3:''}[r.prio];
+    const acts = tab==='pending'
+      ? `<button class="btn sm" onclick="move('in_progress')">▶ Start</button><button class="btn sm" onclick="move('completed')">✓ Done</button>`
+      : tab==='in_progress'
+      ? `<button class="btn sm" onclick="move('pending')">↩ Back</button><button class="btn sm" onclick="move('completed')">✓ Done</button>`
+      : `<button class="btn sm" onclick="move('pending')">↩ Reopen</button>`;
+    return `<div class="drow">
+      <div><span class="pill ${p}">${r.prio}</span></div>
+      <div><div class="dname">${r.subject}</div><div class="dsub">${r.exam}</div></div>
+      <div><div class="dname" style="font-weight:600;color:var(--muted)">${r.name}</div>
+        <div style="display:flex;gap:6px;margin-top:5px;flex-wrap:wrap">${r.videos?`<span class="pill">${r.videos} videos</span>`:''}${r.dur?`<span class="pill">${r.dur}</span>`:''}</div></div>
+      <div class="prog">${r.pct!=null?`<div class="bar"><i style="width:${r.pct}%;background:#f97316"></i></div><div style="font-size:10.5px;color:var(--muted);margin-top:4px">${r.pct}% complete</div>`:'<span class="muted" style="font-size:11.5px">—</span>'}</div>
+      <div class="dacts">${acts}</div>
+    </div>`;
+  }).join('');
+
+  return `<div class="astrip">
+      <div class="a"><div class="av" style="color:#93c5fd">96</div><div class="al">hrs / 60d</div></div>
+      <div class="a"><div class="av" style="color:#d8b4fe">38</div><div class="al">answer writings</div></div>
+      <div class="a"><div class="av" style="color:#86efac">940</div><div class="al">MCQs</div></div>
+      <div class="a"><div class="av" style="color:#fcd34d">78%</div><div class="al">target hit</div></div>
+      <div class="a"><div class="av" style="color:#fdba74">${RESOURCES.in_progress.length}</div><div class="al">in progress</div></div>
+    </div>
+    <div class="tabs">
+      ${[['pending','Pending'],['in_progress','In Progress'],['completed','Done']].map(([k,l])=>
+        `<button class="${tab===k?'on':''}" onclick="S.studyTab='${k}';render()">${l}<span class="cnt">${RESOURCES[k].length}</span></button>`).join('')}
+    </div>
+    <div class="dtable">
+      <div class="drow head"><div>Priority</div><div>Subject</div><div>Resource</div><div>Progress</div><div style="text-align:right">Move to</div></div>
+      ${rows}
+    </div>
+    <div style="font-size:12px;color:var(--faint);margin-top:12px">Every row can move between Pending → In Progress → Done without leaving the table.</div>`;
+}
+
+/* ===================== WORKOUT MODULES (Legend style) ===================== */
+function viewFitness(){
+  const vol=EXERCISES.reduce((v,e)=>v+e.sets*e.reps*e.kg,0);
+  const dow=today.getDay();
+  const weekNames=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const modForDay=d=>{
+    const n=weekNames[d];
+    const m=MODULES.find(x=>x.days.includes(n));
+    return m?m.name:'Rest';
+  };
+
+  const strip=`<div class="weekstrip">
+    ${weekNames.map((n,i)=>{
+      const m=MODULES.find(x=>x.days.includes(n));
+      return `<div class="wday ${i===dow?'now':''}">
+        <div class="wd">${n}</div>
+        <div class="wn" style="color:${m?m.color:'var(--muted)'}">${m?m.emoji+' '+m.name:'😴 Rest'}</div>
+        <div class="ws">${m?m.exercises.length+' ex':'—'}</div>
+      </div>`;
+    }).join('')}
+  </div>`;
+
+  const modCards=`<div class="modgrid">
+    ${MODULES.map(m=>{
+      const isToday=m.days.includes(weekNames[dow]);
+      const musc=moduleMuscles(m);
+      const maxSets=Math.max(...musc.map(x=>x[1]),1);
+      const volM=m.exercises.reduce((v,e)=>v+(e.cardio?0:e.sets*e.reps*e.kg),0);
+      return `<div class="mod ${isToday?'':'off'}" style="--mc:${m.color}">
+        <div class="mhead">
+          <div class="mem">${m.emoji}</div>
+          <div style="min-width:0">
+            <div class="mname">${m.name}${isToday?' <span class="pill green" style="font-size:9px">TODAY</span>':''}</div>
+            <div class="mdays">${m.days}</div>
+          </div>
+          <div class="mcount"><b>${m.exercises.length}</b><span>exercises</span></div>
+        </div>
+
+        <div class="muscles">
+          <div class="mh">Muscles worked · ${musc.length}</div>
+          ${musc.map(([mu,sets])=>`<div class="musc-row">
+            <div class="mn">${mu}</div>
+            <div class="mt"><i style="width:${Math.round(sets/maxSets*100)}%"></i></div>
+            <div class="ms">${sets?sets+' sets':'cardio'}</div>
+          </div>`).join('')}
+        </div>
+
+        <div class="exlist">
+          ${m.exercises.map(e=>`<div class="exi">
+            <span class="en">${e.name}</span>
+            <span class="es">${e.cardio?`${e.qty} ${e.unit} · ${e.min}m`:`${e.sets}×${e.reps} @ ${e.kg}kg`}</span>
+            <span class="em">${e.muscle}</span>
+          </div>`).join('')}
+        </div>
+        ${volM?`<div class="volume">Volume <b>${volM.toLocaleString('en-IN')} kg</b></div>`:''}
+      </div>`;
+    }).join('')}
+  </div>`;
+
+  const hero=`<div class="hero">
+      <div class="hk">Body</div>
+      <div class="hv">99.4 <small>kg</small> <span style="float:right;font-size:12px;font-weight:800;background:rgba(255,255,255,.2);padding:4px 10px;border-radius:999px">−5.6 kg lost</span></div>
+      <div class="hrow">
+        <div><b>−0.7 kg</b><span>this week</span></div>
+        <div><b>82%</b><span>cal target hit</span></div>
+        <div><b>17</b><span>sets today</span></div>
+        <div><b>105→75</b><span>mission target</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <span class="muted" style="font-size:12px;font-weight:600;width:52px">Mode</span>
+        <div class="tabs" style="margin:0"><button>WFO</button><button class="on">WFH</button><button>Holiday</button></div>
+      </div>
+      <div class="divider"></div>
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <span class="muted" style="font-size:12px;font-weight:600;width:52px">Status</span>
+        <div class="tabs" style="margin:0"><button class="on">Done</button><button>Pending</button><button>Skipped</button></div>
+      </div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;margin-bottom:10px"><span style="font-size:12.5px;font-weight:800;flex:1">Body log</span><button class="btn sm primary">Save</button></div>
+      <div class="field-grid">
+        <div class="mini-field"><div class="mfk">Weight kg</div><div class="mfv">99.4</div></div>
+        <div class="mini-field"><div class="mfk">Body fat %</div><div class="mfv">26.1</div></div>
+        <div class="mini-field"><div class="mfk">Waist in</div><div class="mfv">38.5</div></div>
+        <div class="mini-field"><div class="mfk">Steps</div><div class="mfv">14,200</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">🏆 Personal records</div>
+      <div class="rec"><span class="rk">🥇</span><span class="rn">Deadlift</span><b class="rv">110 kg</b><span class="rd">2026-10-18</span></div>
+      <div class="rec"><span class="rk">🥈</span><span class="rn">Squat</span><b class="rv">90 kg</b><span class="rd">2026-10-17</span></div>
+      <div class="rec"><span class="rk">🥉</span><span class="rn">Bench Press</span><b class="rv">70 kg</b><span class="rd">2026-10-20</span></div>
+    </div>`;
+
+  return `${strip}
+    <div class="sec"><span class="t">Weekly split · which muscle on which day</span><span class="a">＋ Add module</span></div>
+    <div style="display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start">
+      <div>${hero}</div>
+      <div>${modCards}</div>
+    </div>`;
+}
+
+function viewGoals(){
+  const active=OBJECTIVES.filter(o=>o.status==='active');
+  const paused=OBJECTIVES.filter(o=>o.status==='paused');
+  const dropped=OBJECTIVES.filter(o=>o.status==='not_pursuing');
+  const card=o=>{
+    const color=o.prog>=o.expected?'#22c55e':o.prog+8>=o.expected?'#f59e0b':'#ef4444';
+    const daysLeft=Math.ceil((new Date(o.end)-today)/86400000);
+    const elapsed=Math.ceil((today-new Date(o.start))/86400000);
+    const total=elapsed+daysLeft;
+    return `<div class="goal"${o.status!=='active'?' style="opacity:.65"':''}>
+      <div class="gmenu"><span class="ico">✏️</span><span class="ico" onclick="alert('⏸ Pause\\n▶ Resume\\n🔄 Restart\\n🏁 Mark complete\\n📈 Log progress\\n🗑 Delete (soft)')">⋮</span></div>
+      <div class="gt">${o.area}</div><div class="gn">${o.target||'—'}</div>
+      <div class="gtrack"><i style="width:${o.prog}%;background:${color}"></i></div>
+      <div class="gfoot">
+        <span class="gpct" style="color:${color}">${o.prog}%</span>
+        <span class="pill" style="font-size:10px">pace ${o.expected}%</span>
+        <span style="flex:1"></span>
+        <span class="pill blue" style="font-size:10px">⏳ ${elapsed}d in</span>
+        <span class="pill ${daysLeft<0?'rose':'green'}" style="font-size:10px">${daysLeft<0?`${-daysLeft}d over`:`${daysLeft}d left`}</span>
+      </div>
+      <div class="timeline">
+        <span style="font-size:9.5px;color:var(--faint);font-weight:700">${o.start.slice(5)}</span>
+        <div class="tl"><i style="width:${Math.round(elapsed/total*100)}%;background:linear-gradient(90deg,#3b82f6,#38bdf8)"></i><span class="mark" style="left:${Math.round(elapsed/total*100)}%"></span></div>
+        <span style="font-size:9.5px;color:var(--faint);font-weight:700">${o.end.slice(5)}</span>
+      </div>
+      ${o.linked.length?`<div class="pace-note">🔗 Driven by ${o.linked.length} habit${o.linked.length>1?'s':''} · ${o.prog<o.expected?`needs +${o.expected-o.prog}% effort to get back on pace`:'ahead of pace — protect the lead'}</div>`:''}
+    </div>`;
+  };
+  return `<div class="card">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span style="font-size:20px">🫀</span>
+        <div style="flex:1;min-width:0">
+          <div style="font-size:13.5px;font-weight:800;color:#86efac">Pace is healthy</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:3px;line-height:1.45">Momentum steady at 71%. Two goals are behind pace — nudging those adds ~4% overall this month. Recovery after a miss: 62%.</div>
+        </div>
+        <span class="pill blue">48% · 30d</span>
+      </div>
+    </div>
+    <div class="sec"><span class="t">Mission objectives · ${active.length} active</span><span class="a">＋ Add goal</span></div>
+    <div class="ggrid">${active.map(card).join('')}</div>
+    ${paused.length?`<div class="sec"><span class="t">⏸ Paused · ${paused.length}</span><span class="a">show</span></div><div class="ggrid">${paused.map(card).join('')}</div>`:''}
+    ${dropped.length?`<div class="sec"><span class="t">🗄 Archived · ${dropped.length}</span><span class="a">show</span></div><div class="ggrid">${dropped.map(card).join('')}</div>`:''}`;
+}
+
+function viewStats(){
+  const bars=[];for(let i=13;i>=0;i--){const d=addDays(today,-i);const seed=(i*37)%100;bars.push({d,p:seed<8?0:seed});}
+  const hs=HABITS.map(h=>({...h,pct:pct30[h.id]}));
+  let hm='';for(let col=0;col<32;col++)for(let row=0;row<7;row++){
+    const i=col*7+row,seed=(i*29)%100;
+    const c=i>32*7-20?'transparent':seed<12?'#1a2138':seed<30?'rgba(34,197,94,.25)':seed<55?'rgba(34,197,94,.45)':seed<80?'rgba(34,197,94,.72)':'#22c55e';
+    hm+=`<div class="hm-cell" style="background:${c}"></div>`;
+  }
+  return `<div class="stat-cards">
+      <div class="stat-card"><div class="lbl">Today</div><div class="big">${dayStats().pct}%</div><div class="sub">${dayStats().done}/${dayStats().due} habits</div></div>
+      <div class="stat-card"><div class="lbl">This week</div><div class="big" style="color:#86efac">71%</div><div class="sub">39/55 check-ins</div></div>
+      <div class="stat-card"><div class="lbl">Top streak</div><div class="big" style="color:#fb923c">🔥 22</div><div class="sub">🧴 Bath + Brush</div></div>
+      <div class="stat-card"><div class="lbl">Total check-ins</div><div class="big">153</div><div class="sub">all time</div></div>
+    </div>
+    <div class="statgrid">
+      <div class="card">
+        <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">Last 14 days <span class="muted" style="font-weight:500;font-size:11px">% of due habits done</span></div>
+        <div class="bars">${bars.map(b=>`<div class="bar-col"><div class="bv">${b.p}</div><div class="b ${b.p===0?'miss':''}" style="height:${b.p===0?4:Math.max(6,b.p)}%"></div><div class="bl">${DAY_S[b.d.getDay()]}</div></div>`).join('')}</div>
+      </div>
+      <div class="card">
+        <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">Habits · last 30 days</div>
+        ${hs.map(h=>`<div class="hs-row"><div class="he">${h.emoji}</div><div class="hn">${h.name}</div>
+          <div class="hs-track"><i style="width:${h.pct}%;background:${h.color}"></i></div>
+          <div class="hp">${h.pct}%</div><div class="hs">🔥 ${streaks[h.id]}</div></div>`).join('')}
+      </div>
+      <div class="card" style="grid-column:1/-1">
+        <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">Consistency map <span class="muted" style="font-weight:500;font-size:11px">last ~7 months</span></div>
+        <div class="heat">${hm}</div>
+        <div style="display:flex;align-items:center;gap:4px;justify-content:flex-end;margin-top:9px;font-size:10.5px;color:var(--muted)">less
+          ${['#1a2138','rgba(34,197,94,.25)','rgba(34,197,94,.45)','rgba(34,197,94,.72)','#22c55e'].map(c=>`<i class="hm-cell" style="background:${c};display:inline-block"></i>`).join('')} more
+        </div>
+      </div>
+    </div>`;
+}
+
+function viewVision(){
+  return `<div class="vhero">
+      <h2>✨ Vision Board</h2>
+      <p>The things you are building this year. Open it, look at it, and remember why the early mornings matter.</p>
+      <button class="btn" style="background:#fff;color:#6d28d9;border:none;margin-top:14px;font-weight:800" onclick="window.open('http://localhost:8000/vision-board/index.html','_blank')">Open Vision Board ↗</button>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <div style="font-size:10.5px;font-weight:800;color:var(--muted);letter-spacing:.7px;text-transform:uppercase;margin-bottom:7px">Source</div>
+      <div style="font-size:12.5px;color:var(--muted);word-break:break-all">http://localhost:8000/vision-board/index.html</div>
+      <div style="font-size:11.5px;color:var(--faint);margin-top:8px;line-height:1.45">Hosted by your backend so phones and the web build can open it. Override in Settings.</div>
+    </div>
+    <div class="vgrid">
+      ${[['🏔️','The life you are building is bigger than today\'s mood.'],
+         ['🔁','Motivation fades. Systems last. You built one — use it.'],
+         ['📉','A missed day is data, not a verdict. Read it and adjust.'],
+         ['🚀','Days left in the mission: 193. Enough to change everything.']]
+        .map(([e,t])=>`<div class="quote"><span class="qe">${e}</span><span class="qt">${t}</span></div>`).join('')}
+    </div>`;
+}
+
+
+/* ===================== FOOD DIARY ===================== */
+function viewFood(){
+  const tot=DIARY.reduce((a,r)=>({kcal:a.kcal+r.kcal,p:a.p+r.p,c:a.c+r.c,f:a.f+r.f}),{kcal:0,p:0,c:0,f:0});
+  const remaining=CAL_GOAL-tot.kcal;
+  const pctUsed=Math.min(100,Math.round(tot.kcal/CAL_GOAL*100));
+  const over=remaining<0;
+  const ringColor=over?'#ef4444':pctUsed>85?'#f59e0b':'#22c55e';
+
+  // donut geometry
+  const R=62, CIRC=2*Math.PI*R;
+  const dash=CIRC*(pctUsed/100);
+
+  const mealIcon={Breakfast:'🌅',Lunch:'🍛',Dinner:'🌙',Snack:'🍎'};
+  const meals=ALL_MEALS.map(meal=>{
+    const items=DIARY.filter(r=>r.meal===meal);
+    const mk=items.reduce((s,r)=>s+r.kcal,0);
+    return `<div class="mealcard">
+      <div class="mealhead">
+        <span class="mico">${mealIcon[meal]}</span>
+        <span class="mtitle">${meal}</span>
+        <span class="mkcal">${mk} <small>kcal</small></span>
+        <button class="btn sm">＋ Add</button>
+      </div>
+      ${items.length?`<div class="foodrow head">
+          <div>Food</div><div style="text-align:right">Qty</div><div style="text-align:right">kcal</div>
+          <div style="text-align:right">P</div><div style="text-align:right">C</div><div style="text-align:right">F</div><div></div>
+        </div>
+        ${items.map(r=>`<div class="foodrow">
+          <div><div class="fn">${r.food}</div></div>
+          <div class="num">×${r.qty}</div>
+          <div class="num k">${r.kcal}</div>
+          <div class="num">${r.p.toFixed(1)}</div>
+          <div class="num">${r.c.toFixed(1)}</div>
+          <div class="num">${r.f.toFixed(1)}</div>
+          <div style="text-align:right;color:#fca5a5;cursor:pointer" onclick="alert('Remove from diary')">🗑</div>
+        </div>`).join('')}`
+      :`<div style="padding:14px 13px;font-size:12px;color:var(--faint)">Nothing logged yet — search the database below.</div>`}
+    </div>`;
+  }).join('');
+
+  const macro=(label,val,goal,color)=>{
+    const p=Math.min(100,Math.round(val/goal*100));
+    return `<div class="macro">
+      <div class="mk">${label}</div>
+      <div class="mv">${Math.round(val)}<small> / ${goal}g</small></div>
+      <div class="mt"><i style="width:${p}%;background:${color}"></i></div>
+    </div>`;
+  };
+
+  const sampleFoods=FOODS.slice(0,7);
+
+  return `<div class="foodtop">
+    <div class="macro-ring">
+      <div class="ringwrap">
+        <svg width="150" height="150" viewBox="0 0 150 150">
+          <circle cx="75" cy="75" r="${R}" fill="none" stroke="#171f36" stroke-width="13"/>
+          <circle cx="75" cy="75" r="${R}" fill="none" stroke="${ringColor}" stroke-width="13"
+            stroke-linecap="round" stroke-dasharray="${dash} ${CIRC}" style="transition:stroke-dasharray .5s"/>
+        </svg>
+        <div class="center">
+          <div class="rem" style="color:${ringColor}">${Math.abs(remaining)}</div>
+          <div class="lbl">${over?'over':'remaining'}</div>
+          <div class="of">of ${CAL_GOAL} kcal</div>
+        </div>
+      </div>
+      <div class="macros">
+        ${macro('Protein',tot.p,MACRO_GOAL.p,'#3b82f6')}
+        ${macro('Carbs',tot.c,MACRO_GOAL.c,'#f59e0b')}
+        ${macro('Fat',tot.f,MACRO_GOAL.f,'#a855f7')}
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);margin-top:13px;border-top:1px solid var(--line);padding-top:11px">
+        <span>Eaten <b style="color:var(--text)">${tot.kcal}</b></span>
+        <span>Goal <b style="color:var(--text)">${CAL_GOAL}</b></span>
+      </div>
+    </div>
+
+    <div>
+      <div class="card" style="margin-bottom:12px">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:11px;flex-wrap:wrap">
+          <span style="font-size:12.5px;font-weight:800;flex:1">🔍 Food database</span>
+          <span class="pill green">${FOODS.length} dishes</span>
+          <span class="pill blue">Indian + common</span>
+        </div>
+        <div class="foodsearch">🔍 Search a dish… <span style="color:var(--faint);font-size:11px">e.g. "roti", "paneer", "dosa"</span></div>
+        <div style="margin-top:11px">
+          <div class="foodrow head" style="padding-left:0;padding-right:0;background:none">
+            <div>Dish</div><div style="text-align:right">Serving</div><div style="text-align:right">kcal</div>
+            <div style="text-align:right">P</div><div style="text-align:right">C</div><div style="text-align:right">F</div><div></div>
+          </div>
+          ${sampleFoods.map(f=>`<div class="foodrow" style="padding-left:0;padding-right:0">
+            <div><div class="fn">${f.name}</div></div>
+            <div class="num" style="font-size:10.5px">${f.serv}</div>
+            <div class="num k">${f.kcal}</div>
+            <div class="num">${f.p}</div>
+            <div class="num">${f.c}</div>
+            <div class="num">${f.f}</div>
+            <div style="text-align:right"><button class="btn sm primary" onclick="alert('Add to a meal slot')">＋</button></div>
+          </div>`).join('')}
+        </div>
+        <div style="font-size:11.5px;color:var(--faint);margin-top:11px">Showing 7 of ${FOODS.length} — the real app searches server-side.</div>
+      </div>
+
+      ${meals}
+    </div>
+  </div>`;
+}
+
+/* ===================== NOTES ===================== */
+function viewNotes(){
+  const tag=S.noteTag||'all';
+  const filtered=tag==='all'?NOTES_FEED:NOTES_FEED.filter(n=>n.tag===tag);
+  const counts={all:NOTES_FEED.length};
+  NOTES_FEED.forEach(n=>counts[n.tag]=(counts[n.tag]||0)+1);
+
+  // group by date, newest first
+  const byDate={};
+  filtered.forEach(n=>{ (byDate[n.date]=byDate[n.date]||[]).push(n); });
+  const dates=Object.keys(byDate).sort().reverse();
+
+  const dayLabel=ds=>{
+    const d=new Date(ds+'T00:00:00');
+    const diff=Math.round((today-d)/86400000);
+    if(diff===0)return 'Today';
+    if(diff===1)return 'Yesterday';
+    return DAY_N[d.getDay()]+', '+d.getDate()+' '+MON[d.getMonth()];
+  };
+
+  const groups=dates.map(ds=>`
+    <div class="notegroup">
+      <div class="ngday">
+        <span class="nd">${dayLabel(ds)}</span>
+        <span class="nn">${ds} · ${byDate[ds].length} note${byDate[ds].length>1?'s':''}</span>
+        <span class="nline"></span>
+      </div>
+      ${byDate[ds].sort((a,b)=>(b.pinned?1:0)-(a.pinned?1:0)).map(n=>`
+        <div class="note ${n.pinned?'pinned':''}">
+          <div class="nbody">
+            <div class="nhead">
+              <span class="pill ${NOTE_TAG_COLOR[n.tag]}">${NOTE_TAGS[n.tag]}</span>
+              <span class="nref">${n.ref}</span>
+              ${n.pinned?'<span class="pill amber">📌 pinned</span>':''}
+            </div>
+            <div class="ntext">${n.text}</div>
+          </div>
+          <div class="nacts">
+            <span class="ico" style="width:26px;height:26px;font-size:12px" title="Pin">📌</span>
+            <span class="ico" style="width:26px;height:26px;font-size:12px" title="Edit">✏️</span>
+            <span class="ico" style="width:26px;height:26px;font-size:12px" title="Delete (soft)">🗑</span>
+          </div>
+        </div>`).join('')}
+    </div>`).join('');
+
+  const chip=(k,label)=>`<button class="chip ${tag===k?'on':''}" onclick="S.noteTag='${k}';render()">${label}<span class="cc">${counts[k]||0}</span></button>`;
+
+  return `<div class="notesbar">
+      <div class="chips">
+        ${chip('all','All')}${chip('day','Day')}${chip('habit','Habits')}${chip('fitness','Fitness')}${chip('food','Food')}${chip('goal','Goals')}${chip('idea','Ideas')}
+      </div>
+      <span style="flex:1"></span>
+      <select class="btn sm"><option>Newest first</option><option>Oldest first</option><option>Only pinned</option></select>
+      <button class="btn sm">⬇ Export</button>
+      <button class="btn sm primary">＋ New note</button>
+    </div>
+    <div class="notelist">
+      ${tag==='all'?`<div class="card" style="margin-bottom:16px;border-color:rgba(245,158,11,.4);background:linear-gradient(180deg,rgba(245,158,11,.06),#10162a)">
+        <div style="display:flex;gap:11px;align-items:flex-start">
+          <span style="font-size:17px">📌</span>
+          <div><div style="font-size:12.5px;font-weight:800;margin-bottom:3px">Pinned</div>
+          <div style="font-size:12.5px;line-height:1.5;color:#cdd7ea">${NOTES_FEED.find(n=>n.pinned).text}</div></div>
+        </div>
+      </div>`:''}
+      ${groups || '<div class="card" style="text-align:center;color:var(--muted)">No notes in this filter yet.</div>'}
+    </div>`;
+}
+
+/* ===================== SETTINGS ===================== */
+const SET_SECTIONS=[
+  {id:'general',icon:'⚙️',label:'General'},
+  {id:'habits',icon:'▦',label:'Habits & streaks'},
+  {id:'fitness',icon:'🏋️',label:'Fitness & workouts'},
+  {id:'food',icon:'🍛',label:'Food & calories'},
+  {id:'study',icon:'📚',label:'Study'},
+  {id:'whatsapp',icon:'💬',label:'WhatsApp check-in'},
+  {id:'notifications',icon:'🔔',label:'Notifications'},
+  {id:'data',icon:'🗄',label:'Data & backup'},
+  {id:'about',icon:'ℹ️',label:'About'},
+];
+function toggleRow(label,desc,on){
+  return `<div class="setrow"><div class="sl"><b>${label}</b><span>${desc}</span></div>
+    <button class="toggle ${on?'on':''}" onclick="this.classList.toggle('on')"></button></div>`;
+}
+function viewSettings(){
+  const sec=S.setSec||'general';
+  const nav=SET_SECTIONS.map(x=>`<button class="${sec===x.id?'on':''}" onclick="S.setSec='${x.id}';render()">${x.icon} ${x.label}</button>`).join('');
+
+  let body='';
+  if(sec==='general'){
+    body=`
+    <div class="setcard">
+      <h3>🌍 Region & units</h3>
+      <div class="sh">Affects weights, dates and food portions everywhere in the app.</div>
+      <div class="setrow"><div class="sl"><b>Weight unit</b><span>Used in Fitness and the food database</span></div>
+        <select class="setinput"><option>Kilograms (kg)</option><option>Pounds (lb)</option></select></div>
+      <div class="setrow"><div class="sl"><b>Date format</b><span>How dates appear across the app</span></div>
+        <select class="setinput"><option>DD/MM/YYYY</option><option>DD MMM YYYY</option><option>YYYY-MM-DD</option></select></div>
+      <div class="setrow"><div class="sl"><b>First day of week</b><span>Used by the habit grid and weekly split</span></div>
+        <select class="setinput"><option>Monday</option><option>Sunday</option></select></div>
+      <div class="setrow"><div class="sl"><b>Currency</b><span>For money-based goals (e.g. the marriage savings goal)</span></div>
+        <select class="setinput"><option>₹ Indian Rupee</option><option>$ US Dollar</option></select></div>
+    </div>
+    <div class="setcard">
+      <h3>🗓 Mission</h3>
+      <div class="sh">The countdown in the header is driven by these two dates.</div>
+      <div class="setrow"><div class="sl"><b>Mission start</b><span>Day 0 of the tracker</span></div><input class="setinput" type="date" value="2026-09-29"></div>
+      <div class="setrow"><div class="sl"><b>Mission end</b><span>Drives "days left" in the header</span></div><input class="setinput" type="date" value="2027-05-01"></div>
+    </div>
+    <div class="setcard">
+      <h3>🎨 Appearance</h3>
+      <div class="sh">Dark is the default — it is easier at 4 AM.</div>
+      ${toggleRow('Dark theme','Always on for now','on')}
+      <div class="setrow"><div class="sl"><b>Accent colour</b><span>Used for done states and primary actions</span></div>
+        <select class="setinput"><option>Green (default)</option><option>Blue</option><option>Violet</option></select></div>
+      ${toggleRow('Dense mode','Tighter rows — fits more habits on screen',true)}
+    </div>`;
+  }
+  if(sec==='habits'){
+    body=`
+    <div class="setcard">
+      <h3>▦ Habit defaults</h3>
+      <div class="sh">Applied when you create a new habit.</div>
+      <div class="setrow"><div class="sl"><b>Start new habits as</b><span>Kolbs against the target</span></div>
+        <select class="setinput"><option>Active</option><option>Paused</option></select></div>
+      <div class="setrow"><div class="sl"><b>Daily score target</b><span>Habits needed for a "perfect day"</span></div>
+        <select class="setinput"><option>All habits (10/10)</option><option>At least 8/10</option><option>At least 7/10</option></select></div>
+    </div>
+    <div class="setcard">
+      <h3>🔥 Streaks</h3>
+      ${toggleRow('Count partial days','A count habit at 50%+ keeps the streak alive',true)}
+      ${toggleRow('Allow rest days','Rest days do not break a streak','on')}
+      ${toggleRow('Streak freeze','Let a missed day be forgiven once a month',false)}
+      <div class="setrow"><div class="sl"><b>Week starts</b><span>Used in all weekly stats</span></div>
+        <select class="setinput"><option>Monday</option><option>Sunday</option></select></div>
+    </div>
+    <div class="setcard">
+      <h3>▦ Habits grid</h3>
+      <div class="setrow"><div class="sl"><b>Default range</b><span>How many days the grid shows</span></div>
+        <select class="setinput"><option>14 days</option><option>30 days</option><option>60 days</option></select></div>
+      ${toggleRow('Show rest days','Dashed squares for scheduled rest days',true)}
+    </div>`;
+  }
+  if(sec==='fitness'){
+    body=`
+    <div class="setcard">
+      <h3>🏋️ Workout modules</h3>
+      <div class="sh">Named day modules — Push, Pull, Legs, Cardio. Each has its own exercise list and shows the muscles it hits.</div>
+      ${MODULES.map(m=>`<div class="setrow">
+        <div class="sl"><b>${m.emoji} ${m.name}</b><span>${m.days} · ${m.exercises.length} exercises · ${moduleMuscles(m).length} muscle groups</span></div>
+        <button class="btn sm">Edit</button><button class="btn sm">✏️</button>
+      </div>`).join('')}
+      <div style="margin-top:12px"><button class="btn sm primary">＋ Add module</button></div>
+    </div>
+    <div class="setcard">
+      <h3>💪 Muscle map</h3>
+      <div class="sh">Which muscles the app tracks, and how sets are counted.</div>
+      <div class="setrow"><div class="sl"><b>Tracked muscles</b><span>${ALL_MUSCLES.join(' · ')}</span></div><button class="btn sm">Edit</button></div>
+      ${toggleRow('Show muscle bars per module','Derived from the exercises, so it always matches',true)}
+      ${toggleRow('Count warm-up sets','Off means only working sets count toward volume',false)}
+    </div>
+    <div class="setcard">
+      <h3>⚖️ Body</h3>
+      ${toggleRow('Body fat tracking','Adds a body-fat field to the daily log',true)}
+      ${toggleRow('Waist measurement','Adds a waist field to the daily log',true)}
+      <div class="setrow"><div class="sl"><b>Weigh-in reminder</b><span>When to nudge you</span></div>
+        <select class="setinput"><option>Every morning 6:00</option><option>Weekly Sunday</option><option>Off</option></select></div>
+    </div>`;
+  }
+  if(sec==='food'){
+    body=`
+    <div class="setcard">
+      <h3>🍛 Daily targets</h3>
+      <div class="sh">These drive the "remaining" ring and the macro bars.</div>
+      <div class="setrow"><div class="sl"><b>Calorie goal</b><span>kcal per day</span></div><input class="setinput" value="${CAL_GOAL}"></div>
+      <div class="setrow"><div class="sl"><b>Protein goal</b><span>grams per day</span></div><input class="setinput" value="${MACRO_GOAL.p}"></div>
+      <div class="setrow"><div class="sl"><b>Carbs goal</b><span>grams per day</span></div><input class="setinput" value="${MACRO_GOAL.c}"></div>
+      <div class="setrow"><div class="sl"><b>Fat goal</b><span>grams per day</span></div><input class="setinput" value="${MACRO_GOAL.f}"></div>
+    </div>
+    <div class="setcard">
+      <h3>🍽 Meal slots</h3>
+      <div class="sh">How your day is divided. MyFitnessPal-style entries are logged into these.</div>
+      ${ALL_MEALS.map(m=>`<div class="setrow"><div class="sl"><b>${m}</b><span>Shown as a separate block on the Food tab</span></div>
+        <button class="btn sm">Rename</button><button class="btn sm">🗑</button></div>`).join('')}
+      <div style="margin-top:12px"><button class="btn sm primary">＋ Add meal slot</button></div>
+    </div>
+    <div class="setcard">
+      <h3>🗄 Food database</h3>
+      <div class="sh">Dishes with per-serving calories and macros.</div>
+      <div class="dbmeta">
+        <span class="pill green">${FOODS.length} dishes loaded</span>
+        <span class="pill blue">Per-serving macros</span>
+        <span class="pill">Indian + common</span>
+      </div>
+      ${toggleRow('Show macros in diary','Protein / carbs / fat columns on each row',true)}
+      ${toggleRow('Warn when over goal','Turn the ring red and flag it',true)}
+      <div class="setrow"><div class="sl"><b>Add custom dish</b><span>For home-cooked food with your own values</span></div>
+        <button class="btn sm primary">＋ New dish</button></div>
+    </div>`;
+  }
+  if(sec==='study'){
+    body=`
+    <div class="setcard">
+      <h3>📚 Study targets</h3>
+      <div class="setrow"><div class="sl"><b>Daily study goal</b><span>Hours per day</span></div><input class="setinput" value="6"></div>
+      <div class="setrow"><div class="sl"><b>Weekly answer writings</b><span>For Mains practice</span></div><input class="setinput" value="5"></div>
+      <div class="setrow"><div class="sl"><b>Weekly MCQs</b><span>For Prelims practice</span></div><input class="setinput" value="300"></div>
+    </div>
+    <div class="setcard">
+      <h3>🗂 Resource tracks</h3>
+      <div class="sh">The three lists on the Study tab.</div>
+      ${['Pending','In Progress','Done'].map(t=>`<div class="setrow"><div class="sl"><b>${t}</b><span>Resources in this list</span></div>
+        <button class="btn sm">Rename</button></div>`).join('')}
+    </div>`;
+  }
+  if(sec==='whatsapp'){
+    body=`
+    <div class="setcard">
+      <h3>💬 Daily check-in bot</h3>
+      <div class="sh">Report your day in the WhatsApp group without opening this app. One Yes/No poll per habit, two-way sync with the backend.</div>
+      ${toggleRow('Enable daily check-in','Posts a poll to the group each morning','on')}
+      <div class="setrow"><div class="sl"><b>Morning post time</b><span>When the habit poll goes out</span></div><input class="setinput" value="06:00"></div>
+      <div class="setrow"><div class="sl"><b>Night summary time</b><span>When you get the day recap</span></div><input class="setinput" value="22:00"></div>
+      <div class="setrow"><div class="sl"><b>Group</b><span>Where polls are posted</span></div><input class="setinput" value="Mission 2026 — Daily"></div>
+      ${toggleRow('Sync replies back','A Yes/No answer updates the habit instantly','on')}
+      ${toggleRow('Night summary','Sends your score + what is left','on')}
+    </div>
+    <div class="setcard">
+      <h3>🔗 Connection</h3>
+      <div class="setrow"><div class="sl"><b>Status</b><span>Bot session is live</span></div><span class="pill green">● Connected</span></div>
+      <div class="setrow"><div class="sl"><b>Last check-in received</b><span>From the group</span></div><span class="pill">Today 06:12</span></div>
+    </div>`;
+  }
+  if(sec==='notifications'){
+    body=`
+    <div class="setcard">
+      <h3>🔔 Reminders</h3>
+      <div class="sh">Nudges that keep the system running without relying on willpower.</div>
+      ${toggleRow('Morning kickoff','A summary of what is due today',true)}
+      ${toggleRow('Streak at risk','Warn me before a streak breaks',true)}
+      ${toggleRow('Evening wrap-up','What is left with two hours to go',true)}
+      ${toggleRow('Weekly review','Sunday recap of the week',true)}
+      ${toggleRow('Missed-habit follow-up','A gentle nudge after a miss','')}
+    </div>
+    <div class="setcard">
+      <h3>🫀 Anti-burnout</h3>
+      <div class="sh">The app watches load so you do not grind yourself into the ground.</div>
+      ${toggleRow('Burnout detection','Flags when load is too high for too long','on')}
+      ${toggleRow('Suggest a rest day','Offers a lighter day when recovery is low',true)}
+      ${toggleRow('Celebrate perfect days','A small moment when you hit 10/10',true)}
+      <div class="setrow"><div class="sl"><b>Quiet hours</b><span>No notifications during this window</span></div>
+        <input class="setinput" value="23:00 – 05:00" style="min-width:150px"></div>
+    </div>`;
+  }
+  if(sec==='data'){
+    body=`
+    <div class="setcard">
+      <h3>🗄 Backup</h3>
+      <div class="sh">Everything is soft-deleted, so history is never really lost.</div>
+      <div class="setrow"><div class="sl"><b>Export all data</b><span>Habits, logs, notes, diary, goals as JSON</span></div><button class="btn sm primary">⬇ Export</button></div>
+      <div class="setrow"><div class="sl"><b>Import from backup</b><span>Restore a previous export</span></div><button class="btn sm">⬆ Import</button></div>
+      <div class="setrow"><div class="sl"><b>Export habit log as CSV</b><span>Same shape as the original HabitBull export</span></div><button class="btn sm">⬇ CSV</button></div>
+    </div>
+    <div class="setcard">
+      <h3>🗑 Deleted items</h3>
+      <div class="sh">Soft-deleted habits and goals stay here and can be restored.</div>
+      <div class="setrow"><div class="sl"><b>Deleted habits</b><span>2 items</span></div><button class="btn sm">View / restore</button></div>
+      <div class="setrow"><div class="sl"><b>Deleted goals</b><span>1 item</span></div><button class="btn sm">View / restore</button></div>
+      <div class="setrow"><div class="sl"><b>Empty trash</b><span>Permanently removes all soft-deleted items</span></div><button class="btn sm danger">Empty</button></div>
+    </div>
+    <div class="setcard">
+      <h3>🖥 Server</h3>
+      <div class="setrow"><div class="sl"><b>API base URL</b><span>Where the app reads and writes data</span></div><input class="setinput" value="http://localhost:8000" style="min-width:230px"></div>
+      <div class="setrow"><div class="sl"><b>Vision board URL</b><span>Hosted by the backend; can be a file:// path</span></div><input class="setinput" value="http://localhost:8000/vision-board/index.html" style="min-width:230px"></div>
+      <div class="setrow"><div class="sl"><b>Connection</b><span>Backend and database</span></div><span class="pill green">● Healthy</span></div>
+    </div>`;
+  }
+  if(sec==='about'){
+    body=`
+    <div class="setcard">
+      <h3>🔥 Mission 2026</h3>
+      <div class="sh">Personal tracker for habits, fitness, food, study and goals. Built because a spreadsheet could not keep up.</div>
+      <div class="setrow"><div class="sl"><b>Version</b><span>Web build</span></div><span class="pill">1.0.0</span></div>
+      <div class="setrow"><div class="sl"><b>Backend</b><span>Django REST + MySQL</span></div><span class="pill blue">live</span></div>
+      <div class="setrow"><div class="sl"><b>Mission days remaining</b><span>Until 1 May 2027</span></div><span class="pill violet">193</span></div>
+    </div>
+    <div class="setcard">
+      <h3>⌨️ Shortcuts</h3>
+      ${[['G then T','Go to Today'],['G then H','Go to Habits'],['G then N','Go to Notes'],['N','New note'],['⌘ K','Command palette']]
+        .map(([k,d])=>`<div class="setrow"><div class="sl"><b>${d}</b></div><span class="pill">${k}</span></div>`).join('')}
+    </div>`;
+  }
+
+  return `<div class="setgrid">
+    <div class="setnav">${nav}</div>
+    <div>${body}</div>
+  </div>`;
+}
+
+/* ===================== RAIL (web-only) ===================== */
+function renderRail(){
+  const st=dayStats(), remaining=st.due-st.done;
+  if(S.tab==='vision'||S.tab==='settings'){ document.getElementById('rail').innerHTML=''; document.getElementById('shell').classList.add('no-rail'); return; }
+  document.getElementById('shell').classList.remove('no-rail');
+  const ringColor=st.pct===100?'#22c55e':st.pct>=50?'#3b82f6':'#f59e0b';
+  const rail=document.getElementById('rail');
+
+  /* Food tab gets a nutrition rail instead of the habit score */
+  if(S.tab==='food'){
+    const tot=DIARY.reduce((a,r)=>({kcal:a.kcal+r.kcal,p:a.p+r.p,c:a.c+r.c,f:a.f+r.f}),{kcal:0,p:0,c:0,f:0});
+    const rem=CAL_GOAL-tot.kcal, over=rem<0;
+    rail.innerHTML=`
+      <div class="score-hero">
+        <div class="lbl">Calories today</div>
+        <div class="big" style="color:${over?'#ef4444':'#22c55e'}">${Math.abs(rem)}</div>
+        <div class="sub">${over?'over goal':'remaining'} of ${CAL_GOAL} kcal</div>
+        <div class="bar" style="margin-top:12px"><i style="width:${Math.min(100,Math.round(tot.kcal/CAL_GOAL*100))}%;background:${over?'#ef4444':'#22c55e'}"></i></div>
+        <div style="font-size:11.5px;color:var(--muted);margin-top:7px">${tot.kcal} eaten · ${DIARY.length} items</div>
+      </div>
+      <div class="railsec">Macros</div>
+      ${[['Protein',tot.p,MACRO_GOAL.p,'#3b82f6'],['Carbs',tot.c,MACRO_GOAL.c,'#f59e0b'],['Fat',tot.f,MACRO_GOAL.f,'#a855f7']]
+        .map(([l,v,g,c])=>`<div class="hs-row" style="margin-bottom:9px">
+          <div class="hn" style="width:64px">${l}</div>
+          <div class="hs-track"><i style="width:${Math.min(100,Math.round(v/g*100))}%;background:${c}"></i></div>
+          <div class="hp">${Math.round(v)}<span style="color:var(--faint);font-weight:600">/${g}g</span></div>
+        </div>`).join('')}
+      <div class="railsec">Recently logged</div>
+      ${DIARY.slice(-3).reverse().map(r=>`<div class="intel-tile"><div class="k">${r.meal}</div><div class="v" style="font-size:13px">${r.food}</div><div class="s">${r.kcal} kcal</div></div>`).join('')}`;
+    return;
+  }
+
+  /* Notes tab gets a notes rail */
+  if(S.tab==='notes'){
+    const counts={}; NOTES_FEED.forEach(n=>counts[n.tag]=(counts[n.tag]||0)+1);
+    rail.innerHTML=`
+      <div class="score-hero">
+        <div class="lbl">Total notes</div>
+        <div class="big">${NOTES_FEED.length}</div>
+        <div class="sub">across ${Object.keys(counts).length} categories</div>
+      </div>
+      <div class="railsec">By category</div>
+      ${Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="intel-tile">
+        <div class="k">${NOTE_TAGS[k]}</div><div class="v">${v}</div></div>`).join('')}
+      <div class="railsec">Pinned</div>
+      <div class="intel-tile"><div class="k">📌 Today</div><div class="s" style="margin-top:5px;line-height:1.45">${NOTES_FEED.find(n=>n.pinned).text.slice(0,90)}…</div></div>`;
+    return;
+  }
+
+  /* Fitness gets a muscle-coverage rail */
+  if(S.tab==='fitness'){
+    const cover={}; MODULES.forEach(m=>moduleMuscles(m).forEach(([mu,s])=>{cover[mu]=(cover[mu]||0)+s;}));
+    const maxC=Math.max(...Object.values(cover),1);
+    rail.innerHTML=`
+      <div class="score-hero">
+        <div class="lbl">Weekly volume</div>
+        <div class="big">${MODULES.reduce((v,m)=>v+m.exercises.reduce((a,e)=>a+(e.cardio?0:e.sets*e.reps*e.kg),0),0).toLocaleString('en-IN')}<span style="font-size:14px;color:var(--muted)"> kg</span></div>
+        <div class="sub">${MODULES.reduce((n,m)=>n+m.exercises.length,0)} exercises · 4 modules</div>
+      </div>
+      <div class="railsec">Muscle coverage / week</div>
+      ${Object.entries(cover).sort((a,b)=>b[1]-a[1]).map(([mu,s])=>`<div class="hs-row" style="margin-bottom:8px">
+        <div class="hn" style="width:80px">${mu}</div>
+        <div class="hs-track"><i style="width:${Math.round(s/maxC*100)}%;background:#3b82f6"></i></div>
+        <div class="hs" style="width:44px;color:var(--muted)">${s? s+' sets':'—'}</div>
+      </div>`).join('')}
+      <div class="railsec">Today</div>
+      <div class="intel-tile"><div class="k">Scheduled</div><div class="v" style="font-size:14px">${MODULES.find(m=>m.days.includes(['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][today.getDay()]))?.name||'Rest'}</div><div class="s">${['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][today.getDay()]}</div></div>`;
+    return;
+  }
+
+  rail.innerHTML = `
+    <div class="score-hero">
+      <div class="top">
+        <div class="ring" style="--pct:${st.pct};--ring:${ringColor};width:64px;height:64px"><span style="font-size:15px">${st.pct}%</span></div>
+        <div style="min-width:0">
+          <div class="lbl">Day score</div>
+          <div class="big">${st.done}<span style="font-size:17px;color:var(--muted)">/${st.due}</span></div>
+          <div class="sub">${remaining>0?remaining+' to go':'🎉 perfect day'}</div>
+        </div>
+      </div>
+      <div class="bar" style="margin-top:12px"><i style="width:${st.pct}%;background:${ringColor}"></i></div>
+    </div>
+    <div class="railsec">Needs attention</div>
+    <div class="intel-tile"><div class="k">🔥 Streak at risk</div><div class="v" style="color:#fb923c">14 days</div><div class="s">Wake 4 AM · not done yet</div></div>
+    <div class="intel-tile"><div class="k">🎯 Focus next</div><div class="v" style="color:#93c5fd">Gym + 20K Steps</div><div class="s">lowest momentum at 41%</div></div>
+    <div class="intel-tile"><div class="k">🫀 Burnout load</div><div class="v" style="color:#86efac">Healthy</div><div class="s">recovery 62% · no over-training</div></div>
+    <div class="railsec">Quick log</div>
+    <div style="display:flex;gap:7px">
+      <button class="btn sm" style="flex:1" onclick="alert('Open the study log')">📚 Study</button>
+      <button class="btn sm" style="flex:1" onclick="alert('Open the workout sheet')">🏋️ Gym</button>
+    </div>
+    <div class="railsec">Top streaks</div>
+    ${[6,7,1].map(id=>{const h=HABITS.find(x=>x.id===id);return `<div class="hs-row" style="margin-bottom:7px">
+      <div class="he">${h.emoji}</div><div class="hn">${h.name}</div>
+      <div class="hs-track"><i style="width:${pct30[id]}%;background:${h.color}"></i></div>
+      <div class="hs">🔥 ${streaks[id]}</div></div>`;}).join('')}`;
+}
+
+/* ===================== SHELL ===================== */
+const TABS=[
+  {id:'today',icon:'✅',label:'Today',badge:'',sub:'Sunday, 20 October 2026',render:viewToday,add:'Log habit'},
+  {id:'habits',icon:'▦',label:'Habits',badge:'10',sub:'10 active · 1 paused',render:viewHabits,add:'New habit'},
+  {id:'study',icon:'📚',label:'Study',badge:'UPSC',sub:'UPSC CSE 2027 · 53 resources',render:viewStudy,add:'Add resource'},
+  {id:'fitness',icon:'🏋️',label:'Fitness',badge:'',sub:'Push · Pull · Legs · Cardio split',render:viewFitness,add:'Log workout'},
+  {id:'food',icon:'🍛',label:'Food',badge:String(DIARY.length),sub:`${FOODS.length} dishes · ${CAL_GOAL} kcal goal`,render:viewFood,add:'Log food'},
+  {id:'goals',icon:'🎯',label:'Goals',badge:'5',sub:'13 objectives · 5 active',render:viewGoals,add:'New goal'},
+  {id:'notes',icon:'📝',label:'Notes',badge:String(NOTES_FEED.length),sub:'Every note, grouped by day',render:viewNotes,add:'New note'},
+  {id:'stats',icon:'📊',label:'Stats',badge:'',sub:'Consistency and records',render:viewStats,add:''},
+  {id:'vision',icon:'✨',label:'Vision',badge:'',sub:'Why this year matters',render:viewVision,add:''},
+];
+const NAV_GROUPS=[
+  {title:'',ids:['today','habits','study','fitness','food']},
+  {title:'Direction',ids:['goals','notes']},
+  {title:'Insight',ids:['stats','vision']},
+];
+
+function renderNav(){
+  document.getElementById('nav').innerHTML = NAV_GROUPS.map(g=>
+    (g.title?`<div class="navsec">${g.title}</div>`:'')
+    + g.ids.map(id=>TABS.find(t=>t.id===id)).filter(Boolean).map(t=>
+      `<button class="navbtn ${S.tab===t.id?'on':''}" onclick="go('${t.id}')" title="${t.label}">
+        <span class="nic">${t.icon}</span><span class="lb">${t.label}</span>${t.badge?`<span class="badge">${t.badge}</span>`:''}
+      </button>`).join('')
+  ).join('')
+  + `<div class="navsec">System</div>`
+  + `<button class="navbtn ${S.tab==='settings'?'on':''}" onclick="go('settings')" title="Settings">
+      <span class="nic">⚙️</span><span class="lb">Settings</span>
+    </button>`;
+}
+
+function render(){
+  const t=TABS.find(x=>x.id===S.tab) || {id:'settings',label:'Settings',sub:'Control the whole system',add:''};
+  document.getElementById('view').innerHTML=(t.render||viewSettings)();
+  document.getElementById('pageTitle').textContent=t.label;
+  document.getElementById('pageSub').textContent=t.sub;
+  document.getElementById('addBtn').style.display=t.add?'':'none';
+  document.getElementById('addBtn').textContent='＋ '+(t.add||'');
+  renderNav(); renderRail();
+}
+function go(t){S.tab=t;render();}
+function toggle(id){S.done[id]=S.done[id]?0:1;render();}
+function bump(id,d){S.counts[id]=Math.max(0,(S.counts[id]||0)+d);render();}
+function shiftDate(d){const x=addDays(new Date(S.date+'T00:00:00'),d);if(x>today)return;S.date=iso(x);render();}
+function cellToggle(id){S.done[id]=S.done[id]?0:1;render();}
+function move(track){S.studyTab=track;render();}
+function bumpStudy(d){alert('Study hours: '+(4.5+d));}
+document.getElementById('collapse').onclick=()=>document.getElementById('shell').classList.toggle('collapsed');
+
+render();
+</script>
+</body>
+</html>

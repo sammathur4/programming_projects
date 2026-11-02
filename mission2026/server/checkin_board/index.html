@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Check-in · Mission 2026</title>
+<style>
+:root{
+  --bg:#0b0f1a; --panel:#121828; --panel-2:#182036; --panel-3:#1e2845;
+  --line:#232c45; --text:#e7ecf7; --muted:#8b96b5; --faint:#5d7086;
+  --accent:#22c55e; --accent-2:#3b82f6; --danger:#ef4444; --warn:#f59e0b;
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(59,130,246,.10), transparent 60%),
+    radial-gradient(900px 420px at 10% 0%, rgba(34,197,94,.08), transparent 55%),
+    var(--bg);
+  color:var(--text);
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  font-size:14px; line-height:1.45; min-height:100vh;
+}
+.wrap{max-width:1060px;margin:0 auto;padding:clamp(14px,3vw,32px)}
+
+/* ---------- header ---------- */
+.top{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .flame{font-size:24px}
+h1{font-size:20px;margin:0;letter-spacing:.2px}
+.sub{color:var(--muted);font-size:12.5px;margin-top:2px}
+.datenav{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:6px 8px}
+.datenav button{
+  width:30px;height:30px;border-radius:50%;border:1px solid var(--line);
+  background:var(--panel-2);color:var(--text);cursor:pointer;font-size:15px;line-height:1;
+}
+.datenav button:hover{background:var(--panel-3)}
+.datenav button:disabled{opacity:.35;cursor:default}
+.datenav input{
+  background:transparent;border:0;color:var(--text);font:inherit;font-size:13px;
+  padding:4px 6px;outline:none;
+}
+.today-btn{width:auto!important;padding:0 12px!important;border-radius:999px!important;font-size:12px!important;font-weight:600}
+
+/* ---------- cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.card .label{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.7px}
+.card .big{font-size:26px;font-weight:800;margin-top:6px}
+.card .sub{font-size:12px;color:var(--faint);margin-top:2px}
+
+section{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:18px}
+section h2{font-size:14px;margin:0 0 4px;letter-spacing:.3px;display:flex;align-items:center;gap:8px}
+section .hint{color:var(--faint);font-size:12px;margin-bottom:14px}
+
+/* ---------- check-in rows ---------- */
+.row{display:grid;grid-template-columns:minmax(120px,1.1fr) minmax(140px,2fr) 74px;gap:12px;align-items:center;padding:9px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.who{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.who .note{display:block;font-weight:400;font-size:11.5px;color:var(--faint);font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar{position:relative;height:20px;border-radius:999px;background:var(--panel-3);overflow:hidden}
+.bar > i{
+  position:absolute;inset:0 auto 0 0;border-radius:999px;
+  background:linear-gradient(90deg,#16a34a,var(--accent));
+}
+.bar > i.low{background:linear-gradient(90deg,#b45309,var(--warn))}
+.bar > i.zero{background:transparent}
+.bar > span{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:700;color:#06130a;text-shadow:0 1px 0 rgba(255,255,255,.15);
+}
+.bar > span.dim{color:var(--muted);text-shadow:none}
+.pct{font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.pct.good{color:var(--accent)}
+.pct.bad{color:var(--danger)}
+
+/* ---------- habit breakdown ---------- */
+.hrow{display:grid;grid-template-columns:minmax(150px,1.4fr) minmax(120px,2fr) 90px;gap:12px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.hrow:first-of-type{border-top:0}
+.hname{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.counts{font-size:12px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+
+/* ---------- leaderboard ---------- */
+table{width:100%;border-collapse:collapse}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line);font-size:13.5px}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.rank{color:var(--faint);font-weight:700;width:34px}
+.medal{font-size:15px}
+.streak{display:inline-block;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.35);color:var(--accent);border-radius:999px;padding:2px 9px;font-size:11.5px;font-weight:700}
+.streak.cold{background:rgba(139,150,181,.10);border-color:var(--line);color:var(--muted)}
+tr.me td{background:rgba(59,130,246,.07)}
+.chip{display:inline-block;border-radius:999px;padding:2px 9px;font-size:11.5px;font-weight:700}
+.chip.done{background:rgba(34,197,94,.14);color:var(--accent)}
+.chip.miss{background:rgba(239,68,68,.13);color:#fca5a5}
+.chip.pending{background:rgba(139,150,181,.10);color:var(--muted)}
+
+/* ---------- misc ---------- */
+.empty{padding:26px 8px;text-align:center;color:var(--muted)}
+.empty .big{font-size:15px;color:var(--text);margin-bottom:6px;font-weight:600}
+.footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--faint);font-size:11.5px;padding:4px 2px 20px}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-size:11.5px;color:var(--muted)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px rgba(34,197,94,.15)}
+.dot.off{background:var(--faint);box-shadow:none}
+#keybar{display:none;gap:8px;align-items:center;background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.35);border-radius:10px;padding:10px 12px;margin-bottom:16px;font-size:12.5px}
+#keybar.show{display:flex;flex-wrap:wrap}
+#keybar input{background:var(--panel-2);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:6px 9px;font:inherit;font-size:12.5px}
+#keybar button{background:var(--warn);border:0;border-radius:8px;color:#241a02;font-weight:700;padding:6px 12px;cursor:pointer;font-size:12.5px}
+@media(max-width:640px){
+  .row{grid-template-columns:minmax(90px,1fr) minmax(110px,1.4fr) 58px;gap:8px}
+  .hrow{grid-template-columns:minmax(110px,1fr) minmax(90px,1.2fr) 76px;gap:8px}
+  .hide-sm{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="brand">
+      <span class="flame">📲</span>
+      <div>
+        <h1>WhatsApp check-in</h1>
+        <div class="sub">Group check-ins from the daily polls · Mission 2026</div>
+      </div>
+    </div>
+    <div class="datenav">
+      <button id="prev" title="Previous day">‹</button>
+      <input type="date" id="date">
+      <button id="next" title="Next day">›</button>
+      <button class="today-btn" id="todayBtn">Today</button>
+    </div>
+  </div>
+
+  <div id="keybar">
+    <span>🔒 This server requires an API key.</span>
+    <input id="keyInput" placeholder="MISSION_API_KEY value" type="password">
+    <button id="keySave">Save key</button>
+  </div>
+
+  <div class="cards" id="cards"></div>
+
+  <section>
+    <h2>📋 <span id="dayTitle">Today's check-ins</span></h2>
+    <div class="hint" id="dayHint">Loading…</div>
+    <div id="checkins"></div>
+  </section>
+
+  <section>
+    <h2>📊 Habit breakdown</h2>
+    <div class="hint">How the group answered each habit's poll on this day.</div>
+    <div id="habits"></div>
+  </section>
+
+  <section>
+    <h2>🏆 30-day leaderboard</h2>
+    <div class="hint" id="lbHint">Streak = consecutive days scoring ≥ 50%.</div>
+    <div id="leaderboard"></div>
+  </section>
+
+  <div class="footer">
+    <span id="stamp">—</span>
+    <span class="pill"><span class="dot off" id="liveDot"></span><span id="liveTxt">connecting…</span> · refreshes every 30s</span>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // API root — this page is served by the same Django server as the API.
+  var API = "/api/";
+  var state = { date: null, rows: [], habits: [], lb: null, lastFetch: 0 };
+
+  function apiKey() {
+    var m = /[?&]key=([^&]+)/.exec(location.search);
+    if (m) { localStorage.setItem("mission_api_key", decodeURIComponent(m[1])); }
+    return localStorage.getItem("mission_api_key") || "";
+  }
+
+  function headers() {
+    var k = apiKey();
+    return k ? { "X-API-Key": k } : {};
+  }
+
+  function api(path) {
+    return fetch(API + path, { headers: headers() }).then(function (r) {
+      if (r.status === 401) { document.getElementById("keybar").className = "show"; throw new Error("401"); }
+      if (!r.ok) throw new Error(path + " -> " + r.status);
+      return r.json();
+    });
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  function localISO(d) {
+    var p = function (n) { return String(n).padStart(2, "0"); };
+    return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+  }
+
+  function shiftDate(iso, days) {
+    var p = iso.split("-");
+    var d = new Date(+p[0], +p[1] - 1, +p[2]);
+    d.setDate(d.getDate() + days);
+    return localISO(d);
+  }
+
+  function prettyDate(iso) {
+    var p = iso.split("-");
+    var d = new Date(+p[0], +p[1] - 1, +p[2]);
+    var today = localISO(new Date());
+    var label = d.toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "short" });
+    if (iso === today) return label + " · today";
+    return label;
+  }
+
+  function bar(done, total) {
+    var t = Math.max(1, total);
+    var pct = Math.round((done / t) * 100);
+    var cls = done === 0 ? "zero" : pct < 50 ? "low" : "";
+    var label = done === 0 ? "no answer" : done + "/" + total;
+    var dim = done === 0 ? " dim" : "";
+    return '<div class="bar"><i class="' + cls + '" style="width:' + pct + '%"></i>' +
+      '<span class="' + dim + '">' + label + "</span></div>";
+  }
+
+  // ------------------------------------------------------------ render
+  function renderCards(reporters, total, avg, topStreak) {
+    document.getElementById("cards").innerHTML =
+      '<div class="card"><div class="label">Reported</div><div class="big">' + reporters +
+      " <span style=\"font-size:15px;color:var(--faint)\">/ " + total + '</span></div><div class="sub">members answered</div></div>' +
+      '<div class="card"><div class="label">Group score</div><div class="big" style="color:' +
+      (avg >= 70 ? "var(--accent)" : avg >= 40 ? "var(--warn)" : "var(--danger)") + '">' + avg +
+      '%</div><div class="sub">avg of reporters</div></div>' +
+      '<div class="card"><div class="label">Habits tracked</div><div class="big">' + state.habits.length +
+      '</div><div class="sub">polls posted each morning</div></div>' +
+      '<div class="card"><div class="label">Best streak</div><div class="big">' + topStreak +
+      'd</div><div class="sub">over the last 30 days</div></div>';
+  }
+
+  function renderCheckins() {
+    var el = document.getElementById("checkins");
+    var rows = state.rows.slice().sort(function (a, b) {
+      return (b.done || []).length - (a.done || []).length || String(a.name).localeCompare(String(b.name));
+    });
+    document.getElementById("dayTitle").textContent = prettyDate(state.date);
+    document.getElementById("next").disabled = state.date >= localISO(new Date());
+
+    if (!rows.length) {
+      document.getElementById("dayHint").textContent = "No one has reported for this date.";
+      el.innerHTML = '<div class="empty"><div class="big">No check-ins yet</div>' +
+        "The bot posts one poll per habit at 7:00 AM — votes land here as they come in." +
+        "</div>";
+      return;
+    }
+
+    var total = Math.max(1, state.habits.length);
+    var sum = 0;
+    var html = "";
+    for (var i = 0; i < rows.length; i++) {
+      var r = rows[i];
+      var done = (r.done || []).length, missed = (r.missed || []).length;
+      sum += r.score || 0;
+      html += '<div class="row">' +
+        '<div class="who">' + esc(r.name || r.member) +
+        (r.note ? '<span class="note">“' + esc(r.note) + '”</span>' : "") + "</div>" +
+        bar(done, total) +
+        '<div class="pct ' + (r.score >= 50 ? "good" : "bad") + '">' + (r.score || 0) + "%</div>" +
+        "</div>";
+    }
+    el.innerHTML = html;
+
+    document.getElementById("dayHint").innerHTML =
+      rows.length + " member" + (rows.length === 1 ? "" : "s") + " reported · " +
+      rows.reduce(function (a, r) { return a + (r.done || []).length; }, 0) + " habits done · " +
+      rows.reduce(function (a, r) { return a + (r.missed || []).length; }, 0) + " missed";
+  }
+
+  function renderHabits() {
+    var el = document.getElementById("habits");
+    if (!state.habits.length) {
+      el.innerHTML = '<div class="empty">No active habits.</div>';
+      return;
+    }
+    var rows = state.rows;
+    var reporters = Math.max(1, rows.length);
+    var html = "";
+    for (var i = 0; i < state.habits.length; i++) {
+      var h = state.habits[i];
+      var key = slug(h.name);
+      var done = 0, missed = 0;
+      for (var j = 0; j < rows.length; j++) {
+        if ((rows[j].done || []).indexOf(key) >= 0) done++;
+        else if ((rows[j].missed || []).indexOf(key) >= 0) missed++;
+      }
+      var pct = Math.round((done / reporters) * 100);
+      html += '<div class="hrow">' +
+        '<div class="hname">' + (h.emoji || "") + " " + esc(h.name) + "</div>" +
+        '<div class="bar"><i class="' + (done === 0 ? "zero" : pct < 50 ? "low" : "") +
+        '" style="width:' + pct + '%"></i><span class="' + (done === 0 ? "dim" : "") + '">' +
+        (rows.length ? pct + "%" : "—") + "</span></div>" +
+        '<div class="counts"><span class="chip done">✓ ' + done + "</span> " +
+        '<span class="chip miss">✗ ' + missed + "</span></div>" +
+        "</div>";
+    }
+    el.innerHTML = html;
+  }
+
+  function renderLeaderboard() {
+    var el = document.getElementById("leaderboard");
+    var lb = state.lb;
+    if (!lb || !lb.members || !lb.members.length) {
+      el.innerHTML = '<div class="empty"><div class="big">Nobody on the board yet</div>' +
+        "Votes from the group build this up over time.</div>";
+      return;
+    }
+    var medals = ["🥇", "🥈", "🥉"];
+    var html = "<table><thead><tr><th>#</th><th>Member</th><th>Streak</th>" +
+      '<th class="num">Avg</th><th class="num hide-sm">Days</th><th class="num">Today</th></tr></thead><tbody>';
+    lb.members.forEach(function (m, i) {
+      var streakCls = m.streak >= 3 ? "streak" : "streak cold";
+      html += "<tr>" +
+        '<td class="rank">' + (medals[i] || (i + 1)) + "</td>" +
+        "<td>" + esc(m.name || m.member) + "</td>" +
+        '<td><span class="' + streakCls + '">' + (m.streak || 0) + "d</span></td>" +
+        '<td class="num">' + (m.avg_score || 0) + "%</td>" +
+        '<td class="num hide-sm">' + (m.days_reported || 0) + "</td>" +
+        '<td class="num">' + (m.today_score == null ? '<span class="chip pending">—</span>' :
+          '<span class="chip ' + (m.today_score >= 50 ? "done" : "miss") + '">' + m.today_score + "%</span>") +
+        "</td></tr>";
+    });
+    html += "</tbody></table>";
+    el.innerHTML = html;
+    document.getElementById("lbHint").textContent =
+      "Streak = consecutive days scoring ≥ 50% · window " + lb.from + " → " + lb.to +
+      " · click a row's day on the date picker to inspect it.";
+  }
+
+  // slug() must match api.views.habit_key / the bot's slug()
+  function slug(name) {
+    var key = "";
+    String(name || "").toLowerCase().split("").forEach(function (c) {
+      key += /[\p{L}\p{N}]/u.test(c) ? c : "_";
+    });
+    while (key.indexOf("__") >= 0) key = key.replace(/__/g, "_");
+    return key.replace(/^_+|_+$/g, "");
+  }
+
+  // ------------------------------------------------------------ fetch
+  function load() {
+    var q = "?date=" + state.date;
+    return Promise.all([
+      api("mission/checkins/" + q),
+      api("habits/?status=active"),
+      api("mission/leaderboard/?days=30"),
+    ]).then(function (res) {
+      state.rows = res[0] || [];
+      state.habits = (res[1] || []).filter(function (h) { return h.active !== false && !h.is_paused; });
+      state.lb = res[2];
+      state.lastFetch = Date.now();
+
+      var reporters = state.rows.length;
+      var avg = reporters
+        ? Math.round(state.rows.reduce(function (a, r) { return a + (r.score || 0); }, 0) / reporters)
+        : 0;
+      var top = 0;
+      (state.lb.members || []).forEach(function (m) { top = Math.max(top, m.streak || 0); });
+      renderCards(reporters, state.habits.length, avg, top);
+      renderCheckins();
+      renderHabits();
+      renderLeaderboard();
+
+      document.getElementById("stamp").textContent =
+        "Loaded " + new Date(state.lastFetch).toLocaleTimeString("en-IN") + " · " + prettyDate(state.date);
+      document.getElementById("liveDot").className = "dot";
+      document.getElementById("liveTxt").textContent = "live";
+      document.getElementById("keybar").className = "";
+    }).catch(function (e) {
+      if (e.message !== "401") {
+        document.getElementById("liveDot").className = "dot off";
+        document.getElementById("liveTxt").textContent = "API unreachable";
+        document.getElementById("dayHint").textContent = "Could not reach the API: " + e.message;
+      }
+    });
+  }
+
+  // ------------------------------------------------------------ wiring
+  function setDate(iso) {
+    state.date = iso;
+    document.getElementById("date").value = iso;
+    load();
+  }
+
+  document.getElementById("prev").onclick = function () { setDate(shiftDate(state.date, -1)); };
+  document.getElementById("next").onclick = function () { if (state.date < localISO(new Date())) setDate(shiftDate(state.date, 1)); };
+  document.getElementById("todayBtn").onclick = function () { setDate(localISO(new Date())); };
+  document.getElementById("date").onchange = function () { if (this.value) setDate(this.value); };
+  document.getElementById("keySave").onclick = function () {
+    var v = document.getElementById("keyInput").value.trim();
+    if (v) localStorage.setItem("mission_api_key", v);
+    load();
+  };
+
+  apiKey();
+  setDate(localISO(new Date()));
+  setInterval(load, 30000);
+})();
+</script>
+</body>
+</html>

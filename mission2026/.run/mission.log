@@ -1,0 +1,14 @@
+Mission 2026 API only — no Flutter build at /media/saksham/phone data/programming_projects/mission2026/mission_app/build/web
+  build it with:  cd mission_app && flutter build web --release
+  api  → http://localhost:8001/api/
+Watching for file changes with StatReloader
+Not Found: /api/
+[02/Nov/2026 17:37:11] "GET /api/ HTTP/1.1" 404 20901
+Not Found: /
+[02/Nov/2026 17:37:11] "GET / HTTP/1.1" 404 2868
+Not Found: /api/
+[02/Nov/2026 17:37:11] "GET /api/ HTTP/1.1" 404 20901
+[02/Nov/2026 17:37:24] "GET /api/dashboard/ HTTP/1.1" 200 4083
+[02/Nov/2026 17:37:24] "GET /api/overview/ HTTP/1.1" 200 5799
+[02/Nov/2026 17:37:24] "GET /api/stats/ HTTP/1.1" 200 4546
+[02/Nov/2026 17:37:24] "GET /api/habits/ HTTP/1.1" 200 4045

@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mission 2026 — UI Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* ===================================================================
+   Mission 2026 — UI mockup
+   Layout ported from habit_tracker/ (Momentum). Dark, dense, phone-first.
+   Every screen below is a real, clickable prototype with seed data.
+   =================================================================== */
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#0b0f1a; --panel:#121828; --panel-2:#182036; --panel-3:#1e2845;
+  --line:#232c45; --text:#e7ecf7; --muted:#8b96b5; --faint:#5d7086;
+  --accent:#22c55e; --accent-2:#3b82f6; --danger:#ef4444; --warn:#f59e0b;
+  --violet:#a855f7; --radius:16px; --nav-h:64px; --appbar:56px;
+}
+html{color-scheme:dark}
+body{
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(59,130,246,.10), transparent 60%),
+    radial-gradient(900px 420px at 10% 0%, rgba(34,197,94,.08), transparent 55%),
+    var(--bg);
+  color:var(--text);
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  font-size:15px; padding:26px 18px 90px; line-height:1.4;
+}
+h1.page{font-size:26px;font-weight:900;letter-spacing:-.4px}
+.page-sub{color:var(--muted);font-size:13.5px;margin-top:6px;max-width:820px;line-height:1.55}
+.legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:12.5px;color:var(--muted)}
+.legend b{color:var(--text)}
+.legend i{width:12px;height:12px;border-radius:4px;display:inline-block;vertical-align:-2px;margin-right:6px}
+
+/* ---------- row of phones ---------- */
+.frames{display:flex;gap:30px;flex-wrap:wrap;margin-top:30px;align-items:flex-start}
+.frame-wrap{width:390px;flex:none}
+.frame-label{font-size:13px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
+.frame-label span{display:block;font-weight:500;text-transform:none;letter-spacing:0;font-size:12px;color:var(--faint);margin-top:3px}
+
+/* ---------- phone shell ---------- */
+.phone{
+  width:390px;height:806px;border-radius:34px;border:1px solid #2a3350;overflow:hidden;
+  background:var(--bg);position:relative;display:flex;flex-direction:column;
+  box-shadow:0 30px 70px rgba(0,0,0,.55), inset 0 0 0 1px rgba(255,255,255,.03);
+}
+.statusbar{height:26px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 18px;font-size:11px;color:var(--muted);font-weight:600}
+.appbar{height:var(--appbar);flex:none;display:flex;align-items:center;gap:10px;padding:0 14px;border-bottom:1px solid var(--line);background:rgba(11,15,26,.85)}
+.appbar .brand{font-weight:900;font-size:19px;letter-spacing:-.3px}
+.appbar .brand em{font-style:normal;background:linear-gradient(90deg,#34d399,#3b82f6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.appbar .spacer{flex:1}
+.appbar .ico{width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:var(--panel-2);display:grid;place-items:center;font-size:15px;cursor:pointer;color:var(--text)}
+.appbar .ico:hover{background:var(--panel-3)}
+/* compact mission countdown — the phone twin of the web header pill */
+.appbar .count{display:flex;align-items:center;gap:5px;background:linear-gradient(135deg,rgba(168,85,247,.22),rgba(59,130,246,.22));border:1px solid rgba(139,92,246,.45);border-radius:999px;padding:4px 9px 4px 8px;cursor:default;flex:none;max-width:100%}
+.appbar .count b{font-size:13px;font-weight:900;line-height:1;color:#e9d5ff}
+.appbar .count span{font-size:7.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#c4b5fd;line-height:1.15;white-space:nowrap}
+.appbar .count .tail{display:block;font-size:7px;font-weight:700;letter-spacing:.2px;color:#a5b4fc;text-transform:none}
+.screen{flex:1;overflow-y:auto;padding:13px 13px 18px;scrollbar-width:thin}
+.screen::-webkit-scrollbar{width:0}
+.bottomnav{flex:none;height:var(--nav-h);display:flex;border-top:1px solid var(--line);background:rgba(13,17,30,.95)}
+.bottomnav button{
+  flex:1;background:none;border:none;color:var(--faint);font-family:inherit;font-size:10px;font-weight:700;
+  cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;position:relative;
+}
+.bottomnav .ni{font-size:17px;line-height:1}
+.bottomnav button.active{color:var(--accent)}
+.bottomnav button.active::before{content:'';position:absolute;top:0;width:26px;height:2.5px;border-radius:0 0 3px 3px;background:var(--accent)}
+.bottomnav button:hover{color:var(--text)}
+
+/* ---------- shared bits ---------- */
+.card{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:var(--radius);padding:11px 12px}
+.card+.card{margin-top:9px}
+.sec{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:13px 2px 8px}
+.sec .t{font-size:11px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;color:var(--muted)}
+.sec .a{font-size:12px;font-weight:700;color:var(--accent-2);cursor:pointer}
+.btn{border:1px solid var(--line);background:var(--panel-2);color:var(--text);padding:8px 13px;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;font-family:inherit;transition:transform .06s,background .15s}
+.btn:hover{background:var(--panel-3)}
+.btn:active{transform:scale(.97)}
+.btn.sm{padding:5px 10px;font-size:12.5px;border-radius:9px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#052e16;font-weight:700}
+.btn.danger{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.4);color:#fca5a5}
+.btn.ghost{background:transparent}
+.pill{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;padding:2.5px 8px;border-radius:999px;background:var(--panel-3);color:var(--muted);font-weight:700}
+.pill.green{background:rgba(34,197,94,.14);color:#86efac}
+.pill.blue{background:rgba(59,130,246,.15);color:#93c5fd}
+.pill.amber{background:rgba(245,158,11,.15);color:#fcd34d}
+.pill.rose{background:rgba(239,68,68,.14);color:#fca5a5}
+.pill.violet{background:rgba(168,85,247,.15);color:#d8b4fe}
+.tag{font-size:9.5px;padding:2px 6px;border-radius:999px;background:var(--panel-3);color:var(--muted);font-weight:700;letter-spacing:.4px;text-transform:uppercase}
+.bar{height:6px;border-radius:99px;background:#1d2540;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:99px;transition:width .3s}
+.divider{height:1px;background:var(--line);margin:11px 0}
+
+/* ===================================================================
+   TODAY
+   =================================================================== */
+.date-row{display:flex;align-items:center;gap:10px;margin-bottom:9px}
+.date-nav{display:flex;gap:6px}
+.icon-btn{width:32px;height:32px;border-radius:10px;border:1px solid var(--line);background:var(--panel-2);color:var(--text);font-size:15px;cursor:pointer;display:grid;place-items:center;font-family:inherit}
+.icon-btn:hover{background:var(--panel-3)}
+.icon-btn:disabled{opacity:.3;cursor:default}
+.date-mid{flex:1;text-align:center;line-height:1.15}
+.date-mid .d1{font-size:15px;font-weight:800}
+.date-mid .d2{font-size:11px;color:var(--muted);font-weight:500;margin-top:1px}
+.ring{
+  width:52px;height:52px;border-radius:50%;flex:none;display:grid;place-items:center;position:relative;
+  background:conic-gradient(var(--ring) calc(var(--pct)*3.6deg), #1d2540 0);
+}
+.ring::before{content:'';position:absolute;inset:5px;border-radius:50%;background:var(--bg)}
+.ring span{position:relative;font-size:12.5px;font-weight:900}
+.summary{font-size:12.5px;color:var(--muted);margin-bottom:9px}
+.summary b{color:var(--text)}
+
+/* strip: score left, 3 compact tiles right — ONE row instead of a tall card */
+.strip{display:flex;gap:8px;margin-bottom:10px}
+.strip .score{
+  flex:none;width:94px;border-radius:15px;padding:10px 11px;display:flex;flex-direction:column;justify-content:center;
+  background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);
+}
+.strip .score .sv{font-size:25px;font-weight:900;line-height:1}
+.strip .score .sl{font-size:9px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin-top:3px}
+.strip .score .sb{height:4px;border-radius:99px;background:#1d2540;margin-top:8px;overflow:hidden}
+.strip .score .sb i{display:block;height:100%;border-radius:99px}
+.strip .tiles{flex:1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;min-width:0}
+.strip .tile{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:13px;padding:8px 9px;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.strip .tile .k{font-size:8.5px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--faint);line-height:1.15}
+.strip .tile .v{font-size:14px;font-weight:900;margin-top:3px;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strip .tile .s{font-size:9.5px;color:var(--muted);margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* habit card — THE core unit */
+/* Dense by design: exactly 52px per row. 10 habits must fit on one screen.
+   height (not min-height) is deliberate: a note or progress bar must NOT
+   grow the row, so the list stays scannable. Overflow is clipped. */
+.habit-card{
+  display:flex;align-items:center;gap:10px;padding:0 11px;margin-bottom:6px;height:52px;overflow:hidden;
+  background:linear-gradient(180deg,var(--panel),#10162a);
+  border:1px solid var(--line);border-radius:13px;transition:border-color .15s,opacity .15s;
+}
+.habit-card.done{border-color:color-mix(in srgb,var(--hc) 48%,var(--line));background:linear-gradient(180deg,color-mix(in srgb,var(--hc) 9%,var(--panel)),#10162a)}
+.habit-card.rest{opacity:.55}
+.h-emoji{width:34px;height:34px;border-radius:10px;flex:none;display:grid;place-items:center;font-size:16px;background:color-mix(in srgb,var(--hc) 16%,#0e1424);border:1px solid color-mix(in srgb,var(--hc) 30%,transparent)}
+.h-main{flex:1;min-width:0;height:48px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.h-name{font-weight:700;font-size:13.5px;display:flex;align-items:center;gap:6px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.h-meta{color:var(--muted);font-size:11px;margin-top:1px;display:flex;gap:8px;align-items:center;line-height:1.2;white-space:nowrap;overflow:hidden}
+.streak{color:#fb923c;font-weight:800}
+.h-note{font-size:10.5px;color:#93c5fd;margin-top:2px;display:flex;gap:4px;align-items:center;line-height:1.2;min-width:0}
+.h-note span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.check-btn{
+  width:36px;height:36px;border-radius:50%;flex:none;cursor:pointer;font-family:inherit;
+  border:2px solid color-mix(in srgb,var(--hc) 55%,var(--line));background:transparent;color:transparent;
+  font-size:16px;font-weight:900;display:grid;place-items:center;transition:all .15s;
+}
+.check-btn:hover{background:color-mix(in srgb,var(--hc) 15%,transparent)}
+.check-btn.on{background:var(--hc);border-color:var(--hc);color:#04140a}
+.counter{display:flex;align-items:center;gap:6px;flex:none}
+.counter .val{min-width:62px;text-align:center;font-weight:800;font-size:13.5px;line-height:1.15}
+.counter .val small{display:block;font-size:9.5px;color:var(--muted);font-weight:600}
+.mini-progress{height:3px;border-radius:99px;background:#1d2540;margin-top:4px;overflow:hidden;flex:none}
+.mini-progress i{display:block;height:100%;border-radius:99px;background:var(--hc)}
+.note-box textarea{width:100%;background:var(--panel-2);border:1px solid var(--line);color:var(--text);border-radius:11px;padding:10px 11px;font-family:inherit;font-size:13.5px;resize:vertical;min-height:62px;outline:none}
+.note-box textarea:focus{border-color:var(--accent-2)}
+.note-label{font-size:10.5px;font-weight:800;color:var(--muted);letter-spacing:.7px;text-transform:uppercase;margin-bottom:7px}
+
+/* compact study / fitness on today */
+.quick-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.quick{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:14px;padding:11px 12px}
+.quick .qk{font-size:9.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
+.quick .qv{font-size:19px;font-weight:900;margin-top:3px;line-height:1.05}
+.quick .qs{font-size:10.5px;color:var(--muted);margin-top:2px}
+.quick .qrow{display:flex;gap:6px;margin-top:8px}
+.quick .qrow .btn{flex:1;text-align:center;padding:5px 0;font-size:12px}
+
+/* ===================================================================
+   HABITS — the grid table (HabitBull style)
+   =================================================================== */
+.toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:11px}
+.select{background:var(--panel-2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:6px 9px;font-family:inherit;font-size:12.5px;font-weight:600;outline:none;cursor:pointer}
+.grid-wrap{overflow:hidden;padding-bottom:4px}
+.hgrid{border-collapse:separate;border-spacing:3px;width:100%;table-layout:fixed}
+.hgrid th{font-size:9px;color:var(--muted);font-weight:700;text-align:center;padding:1px 0}
+.hgrid th .dl{display:block;font-size:8.5px;opacity:.75}
+.hgrid th.now{color:var(--accent)}
+.hgrid .name-cell{position:sticky;left:0;z-index:5;background:#10162a;padding:5px 9px 5px 5px;border-radius:9px;text-align:left}
+.name-inner{display:flex;align-items:center;gap:6px}
+.name-inner .ne{font-size:14px}
+.name-inner .nt{font-size:11.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.name-sub{font-size:9.5px;color:var(--muted);margin-top:1px;display:flex;gap:6px}
+.cell{width:100%;aspect-ratio:1;border-radius:5px;background:#151c30;border:1px solid #1d2540;cursor:pointer;display:block;transition:transform .05s}
+.cell:hover{transform:scale(1.16);border-color:#3a4a7a;position:relative;z-index:2}
+.cell.done{background:var(--hc);border-color:var(--hc)}
+.cell.part{background:color-mix(in srgb,var(--hc) 45%,#151c30);border-color:color-mix(in srgb,var(--hc) 55%,transparent)}
+.cell.rest{background:transparent;border:1px dashed #232c45}
+.cell.today-outline{outline:2px solid rgba(255,255,255,.5);outline-offset:1px}
+.grid-legend{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:11px;margin-top:10px;align-items:center}
+.grid-legend i{width:11px;height:11px;border-radius:3.5px;display:inline-block;vertical-align:-1.5px;margin-right:5px}
+
+/* ===================================================================
+   STUDY (tabs)
+   =================================================================== */
+.tabs{display:flex;gap:6px;margin-bottom:11px;background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tabs button{flex:1;padding:7px 4px;border:none;border-radius:9px;background:transparent;color:var(--muted);font-family:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.tabs button.on{background:var(--panel-3);color:var(--text)}
+.tabs button .cnt{font-size:10px;opacity:.75;font-weight:800;margin-left:3px}
+.res{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:14px;padding:11px 12px;margin-bottom:9px}
+.res-head{display:flex;align-items:center;gap:8px}
+.res-head .rn{font-weight:800;font-size:13px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.res-sub{font-size:11.5px;color:var(--muted);margin-top:4px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.res-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.res-acts{display:flex;gap:6px;margin-top:9px}
+.res-acts .btn{flex:1;text-align:center;padding:5px 0;font-size:11.5px}
+
+/* analytics strip */
+.astrip{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:13px;overflow:hidden;margin-bottom:11px}
+.astrip .a{background:var(--panel);padding:9px 6px;text-align:center}
+.astrip .a .av{font-size:15px;font-weight:900;line-height:1.1}
+.astrip .a .al{font-size:8.5px;color:var(--faint);margin-top:2px;font-weight:600;line-height:1.15}
+
+/* ===================================================================
+   FITNESS
+   =================================================================== */
+.hero{background:linear-gradient(135deg,#38bdf8,#3b82f6);border-radius:16px;padding:15px 16px;color:#fff}
+.hero .hk{font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;opacity:.85}
+.hero .hv{font-size:31px;font-weight:900;line-height:1.05;margin-top:4px}
+.hero .hv small{font-size:13px;font-weight:600;opacity:.85}
+.hero .hrow{display:flex;gap:14px;margin-top:12px}
+.hero .hrow div{flex:1}
+.hero .hrow b{display:block;font-size:15px;font-weight:900}
+.hero .hrow span{font-size:10px;opacity:.85}
+.ex-row{display:flex;align-items:center;gap:9px;background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:13px;padding:10px 12px;margin-bottom:8px}
+.ex-row .exn{font-weight:700;font-size:13px;flex:1;min-width:0}
+.ex-row .sets{font-size:11.5px;color:var(--muted);margin-top:3px}
+.seg{display:flex;background:var(--panel-2);border:1px solid var(--line);border-radius:11px;padding:3px;gap:3px}
+.seg button{flex:1;padding:6px 4px;border:none;border-radius:8px;background:transparent;color:var(--muted);font-family:inherit;font-size:11.5px;font-weight:700;cursor:pointer}
+.seg button.on{background:var(--panel-3);color:var(--text)}
+.field-row{display:flex;gap:8px}
+.mini-field{flex:1;background:var(--panel-2);border:1px solid var(--line);border-radius:11px;padding:8px 10px}
+.mini-field .mfk{font-size:9.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint)}
+.mini-field .mfv{font-size:15px;font-weight:800;margin-top:2px}
+
+/* ===================================================================
+   GOALS
+   =================================================================== */
+/* Dense goal card: ~200px instead of 370. Meta goes in one wrapped chip row. */
+.goal{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:15px;padding:11px 12px;margin-bottom:9px;position:relative}
+.goal .gt{font-weight:800;font-size:14px;padding-right:66px;line-height:1.2}
+.goal .gn{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gtrack{height:8px;background:#171f36;border-radius:99px;overflow:hidden;margin-top:9px}
+.gtrack i{display:block;height:100%;border-radius:99px;transition:width .4s}
+.gfoot{display:flex;justify-content:space-between;align-items:center;margin-top:7px;font-size:11px;color:var(--muted);gap:6px;flex-wrap:wrap}
+.gpct{font-weight:900;font-size:12.5px}
+.g-chip{font-size:9.5px;padding:2px 7px;border-radius:999px;font-weight:800}
+.gmenu{position:absolute;top:10px;right:10px;display:flex;gap:5px}
+.gmenu .ico{width:28px;height:28px;border-radius:8px;border:1px solid var(--line);background:var(--panel-2);display:grid;place-items:center;font-size:12px;cursor:pointer;color:var(--muted)}
+.gmenu .ico:hover{color:var(--text);background:var(--panel-3)}
+.pace-note{font-size:10.5px;color:#93c5fd;background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.25);border-radius:8px;padding:5px 8px;margin-top:8px;line-height:1.35}
+.timeline{display:flex;align-items:center;gap:6px;margin-top:8px}
+.timeline .tl{flex:1;height:5px;border-radius:99px;background:#171f36;position:relative;overflow:hidden}
+.timeline .tl i{position:absolute;left:0;top:0;bottom:0;border-radius:99px}
+.timeline .tl .mark{position:absolute;top:-3px;bottom:-3px;width:2px;background:#fff;opacity:.65}
+/* collapsed group header — paused / archived stay as one 40px row each */
+.group{display:flex;align-items:center;gap:8px;background:var(--panel-2);border:1px solid var(--line);border-radius:11px;padding:8px 11px;margin-bottom:8px;cursor:pointer;font-size:12px;font-weight:700;color:var(--muted)}
+.group:hover{background:var(--panel-3);color:var(--text)}
+.group .gcount{margin-left:auto;font-size:10.5px;color:var(--faint)}
+
+/* ===================================================================
+   STATS
+   =================================================================== */
+.stat-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:9px}
+.stat-card{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:13px;padding:9px 10px;min-width:0}
+.stat-card .lbl{font-size:8.5px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat-card .big{font-size:19px;font-weight:900;margin-top:3px;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat-card .sub{font-size:9.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bars{display:flex;align-items:flex-end;gap:5px;height:96px;padding-top:4px}
+.bar-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end;min-width:0}
+.bar-col .bv{font-size:8.5px;font-weight:700;color:var(--muted)}
+.bar-col .b{width:100%;max-width:26px;border-radius:5px 5px 2px 2px;background:linear-gradient(180deg,#34d399,#16a34a);min-height:3px}
+.bar-col .b.miss{background:#232c45}
+.bar-col .bl{font-size:8.5px;color:var(--muted);font-weight:600}
+.heatmap{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,11px);gap:2.5px;overflow:hidden}
+.hm-cell{width:11px;height:11px;border-radius:3px;background:#141b2f}
+.hs-row{display:flex;align-items:center;gap:9px;margin-bottom:8px}
+.hs-row .he{width:22px;text-align:center;font-size:14px}
+.hs-row .hn{width:104px;font-size:11.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hs-track{flex:1;height:8px;background:#171f36;border-radius:99px;overflow:hidden}
+.hs-track i{display:block;height:100%;border-radius:99px}
+.hs-row .hp{width:34px;text-align:right;font-size:11.5px;font-weight:800}
+.hs-row .hs{width:38px;text-align:right;font-size:11px;color:#fb923c;font-weight:800}
+
+/* ---------- food (phone) ---------- */
+.mring{display:flex;align-items:center;gap:14px}
+.mring .ringwrap{position:relative;width:92px;height:92px;flex:none}
+.mring .ringwrap svg{transform:rotate(-90deg)}
+.mring .c{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.mring .c .rem{font-size:20px;font-weight:900;line-height:1}
+.mring .c .lbl{font-size:7.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--faint);margin-top:3px}
+.mring .mm{flex:1;min-width:0}
+.mring .mrow{margin-bottom:7px}
+.mring .mrow .mtop{display:flex;justify-content:space-between;font-size:10.5px;font-weight:700;margin-bottom:3px}
+.mring .mrow .mtop span{color:var(--faint);font-weight:600}
+.mring .mt{height:5px;background:#171f36;border-radius:99px;overflow:hidden}
+.mring .mt i{display:block;height:100%;border-radius:99px}
+.meal{margin-bottom:8px}
+.meal .mh{display:flex;align-items:center;gap:7px;margin-bottom:7px}
+.meal .mh .mi{font-size:14px}
+.meal .mh .mn{font-size:12px;font-weight:800;flex:1}
+.meal .mh .mk{font-size:11.5px;font-weight:900}
+.meal .mh .mk small{font-size:9px;color:var(--faint);font-weight:600}
+.mrow{display:flex;align-items:center;gap:7px;padding:4px 0;font-size:11.5px;border-top:1px solid rgba(35,44,69,.5)}
+.mrow .mrn{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+.mrow .mrq{font-size:10px;color:var(--faint);font-weight:700}
+.mrow .mrk{font-size:11px;font-weight:800;font-variant-numeric:tabular-nums}
+.dishrow{display:flex;align-items:center;gap:8px;padding:6px 0;border-top:1px solid rgba(35,44,69,.5)}
+.dishrow .dn{flex:1;min-width:0}
+.dishrow .dn b{display:block;font-size:11.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dishrow .dn span{font-size:9.5px;color:var(--faint)}
+.dishrow .dk{font-size:11.5px;font-weight:800;font-variant-numeric:tabular-nums}
+.searchbox{display:flex;align-items:center;gap:7px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:11.5px;color:var(--faint);margin-bottom:4px}
+
+/* ---------- notes (phone) ---------- */
+.nchips{display:flex;gap:6px;overflow-x:auto;padding-bottom:3px;margin-bottom:10px;scrollbar-width:none}
+.nchips::-webkit-scrollbar{display:none}
+.nchip{font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--panel-2);color:var(--muted);cursor:pointer;font-family:inherit;white-space:nowrap;flex:none}
+.nchip.on{background:var(--panel-3);color:var(--text);border-color:#3a4a7a}
+.nchip .cc{font-size:9px;opacity:.7;margin-left:4px}
+.ngday{display:flex;align-items:center;gap:8px;margin:12px 0 7px}
+.ngday .nd{font-size:12px;font-weight:900}
+.ngday .nn{font-size:10px;color:var(--muted)}
+.ngday .nl{flex:1;height:1px;background:var(--line)}
+.note{background:linear-gradient(180deg,var(--panel),#10162a);border:1px solid var(--line);border-radius:12px;padding:9px 10px;margin-bottom:7px}
+.note.pinned{border-color:rgba(245,158,11,.4);background:linear-gradient(180deg,rgba(245,158,11,.06),#10162a)}
+.note .nh{display:flex;align-items:center;gap:6px;margin-bottom:5px;flex-wrap:wrap}
+.note .nref{font-size:11.5px;font-weight:800}
+.note .nt{font-size:11.5px;line-height:1.45;color:#cdd7ea}
+.npin{margin-bottom:12px}
+
+/* ---------- annotations under each phone ---------- */
+.notes{width:340px;flex:none;padding-top:34px}
+.notes h3{font-size:14px;font-weight:800;margin-bottom:10px}
+.notes ul{list-style:none}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.55;padding-left:18px;position:relative;margin-bottom:8px}
+.notes li::before{content:'▸';position:absolute;left:0;color:var(--accent);font-weight:900}
+.notes li b{color:var(--text)}
+.notes code{background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:11px;color:#93c5fd}
+</style>
+</head>
+<body>
+
+<h1 class="page">Mission 2026 — UI mockup</h1>
+<p class="page-sub">
+  A clickable prototype of the redesign. Layout is ported from the proven <b>Momentum</b> habit tracker
+  already in this repo (row-based habit cards, HabitBull-style grid table, dense dark theme), then extended
+  with the new requirements: per-habit notes, In&nbsp;Progress study tab, structured workouts, full goal
+  lifecycle with pace analysis, and a Vision&nbsp;Board tab. Scroll inside each phone; the bottom nav works.
+</p>
+<div class="legend">
+  <span><i style="background:#22c55e"></i><b>Accent</b> — done / primary action</span>
+  <span><i style="background:#3b82f6"></i><b>Blue</b> — info / study</span>
+  <span><i style="background:#f59e0b"></i><b>Amber</b> — streak, at-risk, paused</span>
+  <span><i style="background:#ef4444"></i><b>Rose</b> — missed / delete / burnout</span>
+  <span><i style="background:#a855f7"></i><b>Violet</b> — goals, notes</span>
+</div>
+
+<div class="frames" id="frames"></div>
+
+<script>
+/* =====================================================================
+   SEED DATA — mirrors the real DB (10 habits, 13 objectives, subjects)
+   ===================================================================== */
+const HABITS = [
+  {id:1,name:'Wake 4 AM',emoji:'⏰',color:'#f59e0b',cat:'Discipline',type:'check'},
+  {id:2,name:'Hanuman Chalisa 11x',emoji:'🙏',color:'#a855f7',cat:'Mind',type:'check'},
+  {id:3,name:'UPSC',emoji:'📚',color:'#3b82f6',cat:'Study',type:'count',target:6,unit:'hrs'},
+  {id:4,name:'Gym + 20K Steps',emoji:'🏋️',color:'#22c55e',cat:'Fitness',type:'check'},
+  {id:5,name:'Diet',emoji:'🥗',color:'#84cc16',cat:'Health',type:'check'},
+  {id:6,name:'Bath + Brush',emoji:'🧴',color:'#06b6d4',cat:'Self-care',type:'check'},
+  {id:7,name:'No Smoke + NoFap',emoji:'🚫',color:'#ef4444',cat:'Discipline',type:'check'},
+  {id:8,name:'5L Water',emoji:'💧',color:'#38bdf8',cat:'Health',type:'count',target:5,unit:'L'},
+  {id:9,name:'1 Photo/Video',emoji:'📸',color:'#ec4899',cat:'Skills',type:'check'},
+  {id:10,name:'Sleep 8H',emoji:'😴',color:'#6366f1',cat:'Self-care',type:'check'},
+];
+const DONE0 = {1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:0,9:0,10:0};
+const COUNTS = {3:4.5, 8:3};
+const NOTES = {5:'Ate clean, no sugar. Felt lighter after gym.'};
+const streaks = {1:14,2:14,3:11,4:9,5:6,6:22,7:14,8:3,9:2,10:8};
+
+const OBJECTIVES = [
+  {area:'🛡️ UPSC CSE 2027',target:'Top Rank — Prelims + Mains + Interview',status:'active',prog:18,expected:21,start:'2026-09-29',end:'2027-12-31',linked:['upsc']},
+  {area:'💪 Fitness',target:'105 → 75 kg, visible abs, 100kg bench',status:'active',prog:31,expected:28,start:'2026-09-29',end:'2027-05-01',linked:['gym_20k_steps','diet']},
+  {area:'🎸 Guitar',target:'1. Live performance  2. 20+ songs',status:'active',prog:8,expected:12,start:'2026-09-29',end:'2027-05-01',linked:[]},
+  {area:'Deloitte SDE 2 Job',target:'Mon–Fri 11am–8pm · 2 day WFO, 3 day WFH, Bangalore',status:'active',prog:45,expected:40,start:'2026-09-29',end:'2027-05-01',linked:[]},
+  {area:'Shubham – Gargi Marriage',target:'Save ₹6L before marriage in the next 3 months',status:'active',prog:22,expected:44,start:'2026-09-29',end:'2027-05-01',linked:[]},
+  {area:'RBI Grade B 2027',target:'Get selected',status:'paused',prog:5,expected:9,start:'2026-09-29',end:'2027-12-31',linked:[]},
+  {area:'🏆 IBPS SO 2026',target:'Top Rank',status:'not_pursuing',prog:0,expected:0,start:'2026-09-29',end:'2026-12-31',linked:[]},
+];
+
+const RESOURCES = {
+  pending:[
+    {subject:'History',exam:'Prelims',name:'Art & Culture by Nitin Singhania (Hindi)',prio:'P1',videos:48,dur:'32h 10m'},
+    {subject:'Science & Technology',exam:'Prelims',name:'Telegram — current affairs notes',prio:'P1',videos:null,dur:''},
+    {subject:'Geography',exam:'Prelims',name:'Physical Geography by Sudarshan Gurjar',prio:'P2',videos:76,dur:'54h'},
+    {subject:'Essay',exam:'Mains',name:'Essay writing — 10 model essays',prio:'P2',videos:10,dur:'6h 30m'},
+  ],
+  in_progress:[
+    {subject:'Polity',exam:'Prelims',name:'Complete Indian Polity for UPSC 🎯',prio:'P1',videos:52,dur:'38h',pct:62},
+    {subject:'Economy',exam:'Prelims',name:'Economy lectures — GS',prio:'P1',videos:44,dur:'29h',pct:35},
+    {subject:'Environment',exam:'Prelims',name:'Shankar IAS — Environment + Ecology',prio:'P2',videos:30,dur:'19h',pct:15},
+  ],
+  completed:[
+    {subject:'Polity',exam:'Prelims',name:'Governance full series for UPSC 2021',prio:'P1',videos:38,dur:'24h'},
+    {subject:'Economics',exam:'Prelims',name:'Economy lectures for UPSC General Studies',prio:'P1',videos:60,dur:'41h'},
+    {subject:'History',exam:'Mains',name:'Modern History — Spectrum notes',prio:'P1',videos:20,dur:'12h'},
+  ],
+};
+
+const EXERCISES = [
+  {name:'Bench Press',sets:4,reps:8,kg:70,muscle:'Chest',pr:true},
+  {name:'Barbell Row',sets:4,reps:10,kg:55,muscle:'Back'},
+  {name:'Overhead Press',sets:3,reps:10,kg:40,muscle:'Shoulders'},
+  {name:'Lateral Raise',sets:3,reps:15,kg:10,muscle:'Shoulders'},
+];
+const CARDIO = [
+  {type:'Treadmill',qty:5,unit:'km',min:35},
+  {type:'Cycling',qty:12,unit:'km',min:28},
+];
+
+/* =====================================================================
+   FOOD DB (MyFitnessPal style) — per-serving macros, Indian + common
+   ===================================================================== */
+const FOODS=[
+  {name:'Roti / Chapati',serv:'1 medium (40g)',kcal:104,p:3,c:22,f:1.2},
+  {name:'Paratha (plain)',serv:'1 piece (70g)',kcal:210,p:4.5,c:28,f:9},
+  {name:'Jeera Rice',serv:'1 katori (150g)',kcal:245,p:4,c:45,f:6},
+  {name:'White Rice (cooked)',serv:'1 katori (150g)',kcal:205,p:4.3,c:45,f:0.4},
+  {name:'Dal Tadka',serv:'1 katori (150g)',kcal:180,p:9,c:22,f:6},
+  {name:'Rajma Curry',serv:'1 katori (150g)',kcal:215,p:11,c:30,f:6},
+  {name:'Chole',serv:'1 katori (150g)',kcal:230,p:10,c:32,f:7},
+  {name:'Paneer Butter Masala',serv:'1 katori (150g)',kcal:340,p:14,c:12,f:27},
+  {name:'Palak Paneer',serv:'1 katori (150g)',kcal:265,p:13,c:11,f:19},
+  {name:'Paneer Tikka',serv:'6 pieces (150g)',kcal:320,p:20,c:9,f:23},
+  {name:'Chicken Curry',serv:'1 katori (150g)',kcal:245,p:22,c:8,f:14},
+  {name:'Tandoori Chicken',serv:'2 pieces (200g)',kcal:330,p:38,c:4,f:18},
+  {name:'Butter Chicken',serv:'1 katori (150g)',kcal:390,p:24,c:11,f:28},
+  {name:'Egg (boiled)',serv:'1 large',kcal:78,p:6.3,c:0.6,f:5.3},
+  {name:'Egg Bhurji',serv:'2 eggs',kcal:220,p:13,c:4,f:17},
+  {name:'Omelette (2 egg)',serv:'1 serving',kcal:230,p:13,c:3,f:18},
+  {name:'Idli',serv:'2 pieces',kcal:116,p:4,c:24,f:0.6},
+  {name:'Masala Dosa',serv:'1 piece',kcal:310,p:6,c:44,f:12},
+  {name:'Plain Dosa',serv:'1 piece',kcal:168,p:3.9,c:28,f:5},
+  {name:'Upma',serv:'1 katori (150g)',kcal:190,p:5,c:30,f:6},
+  {name:'Poha',serv:'1 katori (150g)',kcal:250,p:4.5,c:42,f:8},
+  {name:'Sambar',serv:'1 katori (150g)',kcal:105,p:5,c:15,f:3},
+  {name:'Curd / Dahi',serv:'1 katori (150g)',kcal:90,p:5,c:7,f:5},
+  {name:'Raita',serv:'1 katori (150g)',kcal:110,p:5,c:8,f:6},
+  {name:'Oats (dry)',serv:'40g',kcal:150,p:5,c:27,f:2.5},
+  {name:'Muesli with milk',serv:'1 bowl',kcal:330,p:12,c:52,f:8},
+  {name:'Banana',serv:'1 medium',kcal:105,p:1.3,c:27,f:0.4},
+  {name:'Apple',serv:'1 medium',kcal:95,p:0.5,c:25,f:0.3},
+  {name:'Mango',serv:'1 medium',kcal:150,p:1.4,c:38,f:0.6},
+  {name:'Almonds',serv:'10 pieces',kcal:70,p:2.5,c:2.5,f:6},
+  {name:'Peanut Butter',serv:'1 tbsp',kcal:95,p:4,c:3,f:8},
+  {name:'Whey Protein',serv:'1 scoop (30g)',kcal:120,p:24,c:3,f:1.5},
+  {name:'Samosa',serv:'1 piece',kcal:260,p:4,c:30,f:14},
+  {name:'Pakora / Bhajji',serv:'4 pieces',kcal:290,p:6,c:26,f:18},
+  {name:'Gulab Jamun',serv:'1 piece',kcal:150,p:2,c:22,f:6},
+  {name:'Pav Bhaji',serv:'1 plate',kcal:400,p:9,c:52,f:17},
+  {name:'Chicken Biryani',serv:'1 plate (300g)',kcal:520,p:26,c:62,f:18},
+  {name:'Veg Biryani',serv:'1 plate (300g)',kcal:420,p:9,c:66,f:13},
+  {name:'Pasta (cooked)',serv:'1 cup',kcal:220,p:8,c:43,f:1.3},
+  {name:'Brown Bread',serv:'2 slices',kcal:140,p:6,c:26,f:2},
+  {name:'Maggi Noodles',serv:'1 pack (70g)',kcal:310,p:7,c:42,f:12},
+  {name:'Sweet Potato',serv:'1 medium',kcal:130,p:2.4,c:30,f:0.2},
+  {name:'Boiled Potato',serv:'1 medium',kcal:130,p:3,c:30,f:0.2},
+  {name:'Mixed Salad',serv:'1 bowl (150g)',kcal:45,p:2,c:8,f:0.5},
+  {name:'Tea with milk',serv:'1 cup (150ml)',kcal:60,p:2,c:8,f:2},
+  {name:'Black Coffee',serv:'1 cup',kcal:5,p:0.3,c:0,f:0},
+];
+const ALL_MEALS=['Breakfast','Lunch','Dinner','Snack'];
+const DIARY=[
+  {meal:'Breakfast',food:'Oats (dry)',qty:1,kcal:150,p:5,c:27,f:2.5},
+  {meal:'Breakfast',food:'Egg (boiled)',qty:3,kcal:234,p:18.9,c:1.8,f:15.9},
+  {meal:'Breakfast',food:'Black Coffee',qty:1,kcal:5,p:0.3,c:0,f:0},
+  {meal:'Lunch',food:'Roti / Chapati',qty:3,kcal:312,p:9,c:66,f:3.6},
+  {meal:'Lunch',food:'Dal Tadka',qty:1,kcal:180,p:9,c:22,f:6},
+  {meal:'Lunch',food:'Curd / Dahi',qty:1,kcal:90,p:5,c:7,f:5},
+  {meal:'Lunch',food:'Mixed Salad',qty:1,kcal:45,p:2,c:8,f:0.5},
+  {meal:'Snack',food:'Whey Protein',qty:1,kcal:120,p:24,c:3,f:1.5},
+  {meal:'Snack',food:'Banana',qty:1,kcal:105,p:1.3,c:27,f:0.4},
+  {meal:'Dinner',food:'Paneer Tikka',qty:1,kcal:320,p:20,c:9,f:23},
+  {meal:'Dinner',food:'Jeera Rice',qty:1,kcal:245,p:4,c:45,f:6},
+];
+const CAL_GOAL=2100, MACRO_GOAL={p:140,c:210,f:60};
+
+/* =====================================================================
+   NOTES — every note in the system, one feed
+   ===================================================================== */
+const NOTE_TAGS={habit:'Habit',day:'Day',fitness:'Fitness',food:'Food',goal:'Goal',idea:'Idea'};
+const NOTE_TAG_COLOR={habit:'violet',day:'blue',fitness:'green',food:'amber',goal:'rose',idea:''};
+const NOTES_FEED=[
+  {date:'2026-10-20',tag:'day',ref:'Today',text:'Woke at 4:10, felt sharp. Gym was heavy but got all sets. Diet clean — no sugar. Need to start Economy revision tomorrow.',pinned:true},
+  {date:'2026-10-20',tag:'habit',ref:'Diet',text:'Ate clean, no sugar. Felt lighter after gym.'},
+  {date:'2026-10-20',tag:'fitness',ref:'Push · Bench Press',text:'70 kg × 8 felt solid. Try 72.5 next week.'},
+  {date:'2026-10-20',tag:'food',ref:'Lunch',text:'3 roti + dal was perfect portioning. Curd helps digestion.'},
+  {date:'2026-10-19',tag:'day',ref:'Yesterday',text:'Missed Wake 4 AM — slept at 1:30 because of the Guitar practice. Fix the night routine.'},
+  {date:'2026-10-19',tag:'habit',ref:'Sleep 8H',text:'Only 6h. This is the root cause of the 4 AM misses.'},
+  {date:'2026-10-19',tag:'goal',ref:'UPSC CSE 2027',text:'Polity is at 62%. At this pace I finish before Nov 15 — ahead of schedule.'},
+  {date:'2026-10-18',tag:'idea',ref:'App idea',text:'Vision board should open as the first screen in the morning, before the habit list.'},
+  {date:'2026-10-18',tag:'fitness',ref:'Legs · Squat',text:'90 kg for 6. Depth good. Knee felt fine.'},
+  {date:'2026-10-17',tag:'day',ref:'Friday',text:'Deloitte work ran till 9pm. Still hit 4 habits. Small wins compound.'},
+  {date:'2026-10-17',tag:'habit',ref:'No Smoke + NoFap',text:'Day 14. Cravings passed faster than last week.'},
+  {date:'2026-10-16',tag:'goal',ref:'Fitness',text:'99.4 kg now. 24.4 kg down. Visible change in the mirror.'},
+  {date:'2026-10-16',tag:'food',ref:'Dinner',text:'Skipped rice at dinner — kept calories low since it was a rest day.'},
+  {date:'2026-10-15',tag:'idea',ref:'Study system',text:'Do MCQ tests in the morning, theory at night. Mornings are for output.'},
+  {date:'2026-10-14',tag:'day',ref:'Tuesday',text:'First perfect week. 7/7 days all habits. Momentum is real.'},
+];
+
+const today = new Date(2026,9,20);           // 2026-10-20, matches the sheet
+const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const addDays = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
+const DAY_S=['S','M','T','W','T','F','S'], DAY_N=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+/* the mission clock — same numbers the web header pill uses */
+const MISSION_START = new Date(2026,8,29);   // 29 Sep 2026
+const MISSION_END   = new Date(2027,4,1);    // 1 May 2027
+const DAYS_LEFT = Math.max(0, Math.ceil((MISSION_END - today) / 86400000));
+const MISSION_END_LABEL = `${MISSION_END.getDate()} ${MON[MISSION_END.getMonth()]} ${MISSION_END.getFullYear()}`;
+
+/* =====================================================================
+   STATE
+   ===================================================================== */
+const S = {
+  tab:'today', date:iso(today),
+  done:{...DONE0}, counts:{...COUNTS},
+  studyTab:'in_progress',
+  gridDays:14,
+  dayNote:'',
+  noteTag:'all',
+};
+
+/* =====================================================================
+   SCREEN RENDERERS
+   ===================================================================== */
+function dayStats(){ const h=HABITS.length, d=HABITS.filter(x=>S.done[x.id]).length; return {due:h,done:d,pct:Math.round(d/h*100)}; }
+
+function renderToday(){
+  const st=dayStats();
+  const isToday = S.date===iso(today);
+  const d=new Date(S.date+'T00:00:00');
+  const ringColor = st.pct===100?'#22c55e':st.pct>=50?'#3b82f6':'#f59e0b';
+  const remaining=st.due-st.done;
+
+  const cards = HABITS.map(h=>{
+    const done=!!S.done[h.id];
+    const streak=streaks[h.id]||0;
+    let right='';
+    if(h.type==='check'){
+      right=`<button class="check-btn ${done?'on':''}" onclick="toggle(${h.id})" aria-label="toggle">${done?'✓':''}</button>`;
+    } else {
+      const c=S.counts[h.id]||0;
+      right=`<div class="counter">
+        <button class="icon-btn" style="width:30px;height:30px;font-size:14px" onclick="bump(${h.id},-1)">−</button>
+        <div class="val">${c}${h.unit?` <small>of ${h.target} ${h.unit}</small>`:' <small>of 1</small>'}</div>
+        <button class="icon-btn" style="width:30px;height:30px;font-size:14px" onclick="bump(${h.id},1)">+</button>
+      </div>`;
+    }
+    const meta=[];
+    if(streak>0) meta.push(`<span class="streak">🔥 ${streak}</span>`);
+    if(h.type==='count') meta.push(`${(S.counts[h.id]||0)} / ${h.target} ${h.unit}`);
+    if(h.type==='check') meta.push(done?'completed':'pending');
+    const note=NOTES[h.id];
+    const bar = h.type==='count' ? `<div class="mini-progress"><i style="width:${Math.min(100,Math.round((S.counts[h.id]||0)/h.target*100))}%;background:${h.color}"></i></div>` : '';
+    return `<div class="habit-card ${done?'done':''}" style="--hc:${h.color}">
+      <div class="h-emoji">${h.emoji}</div>
+      <div class="h-main">
+        <div class="h-name">${h.name} <span class="tag">${h.cat}</span></div>
+        <div class="h-meta">${meta.join('')}</div>
+        ${note?`<div class="h-note">📝 ${note}</div>`:''}
+        ${bar}
+      </div>
+      ${right}
+    </div>`;
+  }).join('');
+
+  return `<div class="screen">
+    <div class="date-row">
+      <div class="date-nav">
+        <button class="icon-btn" onclick="shiftDate(-1)">‹</button>
+        <button class="icon-btn" onclick="shiftDate(1)" ${isToday?'disabled':''}>›</button>
+      </div>
+      <div class="date-mid">
+        <div class="d1">${isToday?'Today':DAY_N[d.getDay()]}, ${d.getDate()} ${MON[d.getMonth()]}</div>
+        <div class="d2">${isToday?'Log your habits':iso(today)===S.date?'':'viewing history'}</div>
+      </div>
+      <div class="ring" style="--pct:${st.pct};--ring:${ringColor}"><span>${st.pct}%</span></div>
+    </div>
+
+    <div class="strip">
+      <div class="score">
+        <div class="sv" style="color:${ringColor}">${st.done}<span style="font-size:14px;color:var(--muted)">/${st.due}</span></div>
+        <div class="sl">habits done</div>
+        <div class="sb"><i style="width:${st.pct}%;background:${ringColor}"></i></div>
+      </div>
+      <div class="tiles">
+        <div class="tile">
+          <div class="k">🔥 At risk</div>
+          <div class="v" style="color:#fb923c">14d</div>
+          <div class="s">Wake 4 AM</div>
+        </div>
+        <div class="tile">
+          <div class="k">🎯 Next</div>
+          <div class="v" style="color:#93c5fd">Gym</div>
+          <div class="s">momentum 41%</div>
+        </div>
+        <div class="tile">
+          <div class="k">🫀 Load</div>
+          <div class="v" style="color:#86efac">Good</div>
+          <div class="s">recovery 62%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec"><span class="t">Habits · ${remaining>0?`${remaining} left`:'complete 🎉'}</span><span class="a" onclick="alert('Opens the manage screen')">manage →</span></div>
+
+    ${cards}
+
+    <div class="card" style="margin-top:12px">
+      <div class="note-label">📝 Note for today</div>
+      <textarea placeholder="How did today go? Wins, blockers, ideas…" oninput="S.dayNote=this.value">${S.dayNote}</textarea>
+    </div>
+
+    <div class="quick-grid" style="margin-top:11px">
+      <div class="quick">
+        <div class="qk">📚 Study</div>
+        <div class="qv">4.5 <span style="font-size:12px;font-weight:700;color:var(--muted)">hrs</span></div>
+        <div class="qs">WFH · 2 AW · 40 MCQ</div>
+        <div class="qrow"><button class="btn sm" onclick="bumpStudy(-0.5)">−</button><button class="btn sm" onclick="bumpStudy(0.5)">+</button></div>
+      </div>
+      <div class="quick">
+        <div class="qk">🏋️ Fitness</div>
+        <div class="qv">70 <span style="font-size:12px;font-weight:700;color:var(--muted)">kg</span></div>
+        <div class="qs">4 ex · 17 sets</div>
+        <div class="qrow"><button class="btn sm" onclick="alert('Opens the Workout sheet — sets × reps × kg per exercise')">Log</button></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderHabits(){
+  const days=S.gridDays;
+  const dates=[]; for(let i=days-1;i>=0;i--) dates.push(iso(addDays(today,-i)));
+  const heads=dates.map(ds=>{const d=new Date(ds+'T00:00:00');return `<th class="${ds===iso(today)?'now':''}"><span class="dl">${DAY_S[d.getDay()]}</span>${d.getDate()}</th>`;}).join('');
+  const rows=HABITS.map(h=>{
+    const cells=dates.map(ds=>{
+      const d=new Date(ds+'T00:00:00'); const dow=d.getDay();
+      const rest=(h.id===4&&dow===0);
+      const past=d<today;
+      let cls='cell',t=`${h.name} — ${ds}`;
+      if(ds===iso(today))cls+=' today-outline';
+      if(rest){cls+=' rest';t+=' — rest day';}
+      else if(ds===iso(today)){ if(S.done[h.id]){cls+=' done';t+=' ✓ done';} else t+=' ✗ missed'; }
+      else { // deterministic pseudo-history
+        const seed=(h.id*7+dates.indexOf(ds)*13)%10;
+        if(seed>=3){cls+=' done';t+=' ✓ done';}
+        else if(seed===2){cls+=' part';t+=' partial';}
+        else t+=' ✗ missed';
+      }
+      return `<td><span class="${cls}" style="--hc:${h.color}" title="${t}" onclick="${rest?'':`cellToggle(${h.id})`}"></span></td>`;
+    }).join('');
+    return `<tr>
+      <td class="name-cell">
+        <div class="name-inner"><span class="ne">${h.emoji}</span><span class="nt">${h.name}</span></div>
+        <div class="name-sub"><span class="streak">🔥 ${streaks[h.id]}</span><span>${{1:'daily',2:'daily',3:'daily',4:'Mon–Sat',5:'daily',6:'daily',7:'daily',8:'daily',9:'daily',10:'daily'}[h.id]}</span></div>
+      </td>
+      ${cells}
+    </tr>`;
+  }).join('');
+
+  return `<div class="screen">
+    <div class="toolbar">
+      <select class="select" onchange="S.gridDays=+this.value;render()">
+        ${[14,30,60].map(n=>`<option value="${n}" ${days===n?'selected':''}>${n} days</option>`).join('')}
+      </select>
+      <select class="select"><option>All categories</option><option>Health</option><option>Study</option><option>Discipline</option></select>
+      <span style="flex:1"></span>
+      <button class="btn primary sm">＋ Habit</button>
+    </div>
+
+    <div class="card" style="padding:10px 8px">
+      <div class="grid-wrap">
+        <table class="hgrid">
+          <thead><tr><th class="name-cell" style="background:#10162a">Habit</th>${heads}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+      <div class="grid-legend">
+        <span><i style="background:#22c55e"></i>done</span>
+        <span><i style="background:rgba(34,197,94,.45)"></i>partial</span>
+        <span><i style="background:#151c30;border:1px solid #232c45"></i>missed</span>
+        <span><i style="background:transparent;border:1px dashed #232c45"></i>rest</span>
+      </div>
+    </div>
+
+    <div class="sec"><span class="t">Manage · 10 active</span><span class="a">paused (1) →</span></div>
+    ${HABITS.slice(0,4).map(h=>`
+      <div class="card" style="margin-bottom:9px">
+        <div style="display:flex;align-items:center;gap:10px">
+          <div class="h-emoji" style="--hc:${h.color};width:34px;height:34px;font-size:16px">${h.emoji}</div>
+          <div style="flex:1;min-width:0">
+            <div style="font-weight:700;font-size:13px">${h.name}</div>
+            <div style="margin-top:4px;display:flex;gap:5px;flex-wrap:wrap">
+              <span class="pill">🔥 ${streaks[h.id]}d</span>
+              <span class="pill violet">best ${streaks[h.id]+4}</span>
+              <span class="pill green">${60+((h.id*7)%30)}% · 30d</span>
+            </div>
+          </div>
+          <div style="font-size:16px;color:var(--muted);cursor:pointer" onclick="alert('Menu:\\n✏️ Edit\\n⏸ Pause\\n🔄 Restart streak\\n🗑 Delete (soft)')">⋮</div>
+        </div>
+        <div class="bar" style="margin-top:10px"><i style="width:${60+((h.id*7)%30)}%;background:${h.color}"></i></div>
+      </div>`).join('')}
+  </div>`;
+}
+
+function renderStudy(){
+  const tab=S.studyTab;
+  const items=RESOURCES[tab];
+  const list=items.map(r=>{
+    const p={P1:'rose',P2:'amber',P3:''}[r.prio];
+    const acts = tab==='pending'
+      ? `<button class="btn sm" onclick="move('in_progress')">▶ Start</button><button class="btn sm" onclick="move('completed')">✓ Complete</button>`
+      : tab==='in_progress'
+      ? `<button class="btn sm" onclick="move('pending')">↩ Back</button><button class="btn sm" onclick="move('completed')">✓ Complete</button>`
+      : `<button class="btn sm" onclick="move('pending')">↩ Back to Pending</button>`;
+    return `<div class="res">
+      <div class="res-head">
+        <span class="pill ${p}">${r.prio}</span>
+        <span class="rn">${r.subject}${r.exam?` · ${r.exam}`:''}</span>
+        ${r.name.toLowerCase()!=='telegram'?'<span style="color:#93c5fd;font-size:15px">▶</span>':''}
+      </div>
+      <div class="res-sub">${r.name}</div>
+      <div class="res-meta">
+        ${r.videos?`<span class="pill">${r.videos} videos</span>`:''}
+        ${r.dur?`<span class="pill">${r.dur}</span>`:''}
+      </div>
+      ${r.pct!=null?`<div class="bar" style="margin-top:9px"><i style="width:${r.pct}%;background:#f97316"></i></div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:4px">${r.pct}% complete</div>`:''}
+      <div class="res-acts">${acts}</div>
+    </div>`;
+  }).join('');
+
+  return `<div class="screen">
+    <div class="astrip">
+      <div class="a"><div class="av" style="color:#93c5fd">96</div><div class="al">hours / 60d</div></div>
+      <div class="a"><div class="av" style="color:#d8b4fe">38</div><div class="al">answer wrs</div></div>
+      <div class="a"><div class="av" style="color:#86efac">940</div><div class="al">MCQs</div></div>
+      <div class="a"><div class="av" style="color:#fcd34d">78%</div><div class="al">target hit</div></div>
+      <div class="a"><div class="av" style="color:#fdba74">${RESOURCES.in_progress.length}</div><div class="al">in progress</div></div>
+    </div>
+
+    <div class="tabs">
+      <button class="${tab==='pending'?'on':''}" onclick="S.studyTab='pending';render()">Pending<span class="cnt">${RESOURCES.pending.length}</span></button>
+      <button class="${tab==='in_progress'?'on':''}" onclick="S.studyTab='in_progress';render()">In Progress<span class="cnt">${RESOURCES.in_progress.length}</span></button>
+      <button class="${tab==='completed'?'on':''}" onclick="S.studyTab='completed';render()">Done<span class="cnt">${RESOURCES.completed.length}</span></button>
+    </div>
+
+    ${list}
+    <div style="font-size:11.5px;color:var(--faint);text-align:center;padding:8px">
+      Tap a row to open the playlist · buttons move it between lists
+    </div>
+  </div>`;
+}
+
+function renderFitness(){
+  const vol=EXERCISES.reduce((v,e)=>v+e.sets*e.reps*e.kg,0);
+  return `<div class="screen">
+    <div class="hero">
+      <div class="hk">Body</div>
+      <div class="hv">99.4 <small>kg</small> <span style="float:right;font-size:12px;font-weight:800;background:rgba(255,255,255,.2);padding:3px 9px;border-radius:999px">−5.6 kg lost</span></div>
+      <div class="hrow">
+        <div><b>−0.7 kg</b><span>this week</span></div>
+        <div><b>82%</b><span>cal target hit</span></div>
+        <div><b>17</b><span>sets today</span></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-size:11.5px;color:var(--muted);font-weight:600">Mode</span>
+        <span style="flex:1"></span>
+        <div class="seg" style="width:200px">
+          <button onclick="alert('Work From Office')">WFO</button>
+          <button class="on">WFH</button>
+          <button onclick="alert('Holiday')">Holiday</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-size:11.5px;color:var(--muted);font-weight:600">Status</span>
+        <span style="flex:1"></span>
+        <div class="seg" style="width:230px">
+          <button class="on">Done</button><button>Pending</button><button>Skipped</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec"><span class="t">Workout · 4 exercises</span><span class="a">＋ Exercise</span></div>
+    ${EXERCISES.map(e=>`
+      <div class="ex-row">
+        <div style="flex:1;min-width:0">
+          <div class="exn">${e.name} ${e.pr?'<span class="pill amber" style="font-size:9px">🏆 PR</span>':''}</div>
+          <div class="sets">${e.sets} × ${e.reps} @ ${e.kg} kg</div>
+          <div style="display:flex;gap:5px;margin-top:6px;flex-wrap:wrap">
+            <span class="pill blue">${e.muscle}</span>
+            <span class="pill">${e.sets*e.reps*e.kg} kg vol</span>
+          </div>
+        </div>
+        <span style="color:#fca5a5;cursor:pointer;font-size:15px" onclick="alert('Remove this exercise')">🗑</span>
+      </div>`).join('')}
+    <div style="font-size:11.5px;color:var(--muted);text-align:center;padding:4px 0 2px">Total volume <b style="color:var(--text)">${vol.toLocaleString('en-IN')} kg</b></div>
+
+    <div class="sec"><span class="t">Cardio</span><span class="a">＋ Cardio</span></div>
+    ${CARDIO.map(c=>`
+      <div class="ex-row">
+        <span style="font-size:18px">🏃</span>
+        <div style="flex:1"><div class="exn">${c.type}</div>
+          <div style="display:flex;gap:5px;margin-top:6px"><span class="pill amber">${c.qty} ${c.unit}</span><span class="pill">${c.min} min</span></div>
+        </div>
+        <span style="color:#fca5a5;cursor:pointer;font-size:15px" onclick="alert('Remove this cardio entry')">🗑</span>
+      </div>`).join('')}
+
+    <div class="sec"><span class="t">Body log</span><span class="a">save</span></div>
+    <div class="card">
+      <div class="field-row">
+        <div class="mini-field"><div class="mfk">Weight kg</div><div class="mfv">99.4</div></div>
+        <div class="mini-field"><div class="mfk">Calories</div><div class="mfv">1820</div></div>
+        <div class="mini-field"><div class="mfk">Water L</div><div class="mfv">3.0</div></div>
+      </div>
+      <div class="mini-field" style="margin-top:8px"><div class="mfk">Food</div><div style="font-size:13px;margin-top:3px">Oats, dal, paneer, salad</div></div>
+    </div>
+  </div>`;
+}
+
+function renderGoals(){
+  const active=OBJECTIVES.filter(o=>o.status==='active');
+  const paused=OBJECTIVES.filter(o=>o.status==='paused');
+  const dropped=OBJECTIVES.filter(o=>o.status==='not_pursuing');
+  const card=o=>{
+    const color=o.prog>=o.expected?'#22c55e':o.prog+8>=o.expected?'#f59e0b':'#ef4444';
+    const daysLeft=Math.ceil((new Date(o.end)-today)/86400000);
+    const elapsed=Math.ceil((today-new Date(o.start))/86400000);
+    const total=elapsed+daysLeft;
+    const tColor=o.status==='paused'?'amber':o.status==='active'?'blue':'';
+    return `<div class="goal" style="${o.status!=='active'?'opacity:.62':''}">
+      <div class="gmenu">
+        <span class="ico" title="Edit">✏️</span>
+        <span class="ico" title="Pause / Resume / Restart / Delete" onclick="alert('⏸ Pause\\n▶ Resume\\n🔄 Restart\\n🏁 Mark complete\\n📈 Log progress\\n🗑 Delete (soft)')">⋮</span>
+      </div>
+      <div class="gt">${o.area}</div>
+      <div class="gn">${o.target||'—'}</div>
+
+      <div class="gtrack"><i style="width:${o.prog}%;background:linear-gradient(90deg,${color},${color}cc)"></i></div>
+      <div class="gfoot">
+        <span class="gpct" style="color:${color}">${o.prog}%</span>
+        <span class="g-chip" style="background:rgba(148,163,184,.14);color:var(--muted)">pace ${o.expected}%</span>
+        <span style="flex:1"></span>
+        <span class="pill sky" style="font-size:10px">⏳ ${elapsed}d in</span>
+        <span class="pill ${daysLeft<0?'rose':'green'}" style="font-size:10px">${daysLeft<0?`${-daysLeft}d over`:`${daysLeft}d left`}</span>
+      </div>
+
+      <div class="timeline">
+        <span style="font-size:9.5px;color:var(--faint);font-weight:700">${o.start.slice(5)}</span>
+        <div class="tl"><i style="width:${Math.round(elapsed/total*100)}%;background:linear-gradient(90deg,#3b82f6,#38bdf8)"></i><span class="mark" style="left:${Math.round(elapsed/total*100)}%"></span></div>
+        <span style="font-size:9.5px;color:var(--faint);font-weight:700">${o.end.slice(5)}</span>
+      </div>
+
+      ${o.linked.length?`<div class="pace-note">🔗 Driven by ${o.linked.length} habit${o.linked.length>1?'s':''} · ${o.prog<o.expected?`you need +${o.expected-o.prog}% effort to get back on pace`:'ahead of pace — protect the lead'}</div>`:''}
+    </div>`;
+  };
+  return `<div class="screen">
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-size:17px">🫀</span>
+        <div style="flex:1">
+          <div style="font-size:13px;font-weight:800;color:#86efac">Pace is healthy</div>
+          <div style="font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.4">Momentum steady at 71%. Two goals are behind pace — nudging those adds ~4% overall this month. Recovery after a miss: 62%.</div>
+        </div>
+        <span class="pill blue">48% · 30d</span>
+      </div>
+    </div>
+
+    <div class="sec"><span class="t">Mission objectives · ${active.length} active</span><span class="a">＋ Add</span></div>
+    ${active.map(card).join('')}
+
+    ${paused.length?`<div class="group" onclick="alert('Expands the ${paused.length} paused goal(s)')">⏸ Paused<span class="gcount">${paused.length} · tap to expand</span></div>`:''}
+    ${dropped.length?`<div class="group" onclick="alert('Expands the ${dropped.length} archived goal(s)')">🗄 Archived<span class="gcount">${dropped.length} · tap to expand</span></div>`:''}
+  </div>`;
+}
+
+function renderStats(){
+  const bars=[]; for(let i=13;i>=0;i--){const d=addDays(today,-i);const seed=(i*37)%100;bars.push({d,p:seed<8?0:seed});}
+  const habits=HABITS.slice(0,7).map(h=>({...h,pct:55+((h.id*13)%45)}));
+  // 27 col x 7 heatmap
+  let hm=''; for(let col=0;col<27;col++) for(let row=0;row<7;row++){
+    const i=col*7+row, seed=(i*29)%100;
+    const c = i>27*7-20 ? 'transparent' : seed<12?'#1a2138':seed<30?'rgba(34,197,94,.25)':seed<55?'rgba(34,197,94,.45)':seed<80?'rgba(34,197,94,.72)':'#22c55e';
+    hm+=`<div class="hm-cell" style="background:${c}"></div>`;
+  }
+  return `<div class="screen">
+    <div class="stat-cards">
+      <div class="stat-card"><div class="lbl">Today</div><div class="big">${dayStats().pct}%</div><div class="sub">${dayStats().done}/${dayStats().due} habits</div></div>
+      <div class="stat-card"><div class="lbl">This week</div><div class="big" style="color:#86efac">71%</div><div class="sub">39/55 check-ins</div></div>
+      <div class="stat-card"><div class="lbl">Top streak</div><div class="big" style="color:#fb923c">🔥 22</div><div class="sub">🧴 Bath + Brush</div></div>
+      <div class="stat-card"><div class="lbl">Total check-ins</div><div class="big">153</div><div class="sub">all time</div></div>
+    </div>
+
+    <div class="card">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">Last 14 days <span style="font-weight:500;color:var(--muted);font-size:11px">% of due habits done</span></div>
+      <div class="bars">${bars.map(b=>`<div class="bar-col" title="${iso(b.d)}: ${b.p}%">
+        <div class="bv">${b.p}</div>
+        <div class="b ${b.p===0?'miss':''}" style="height:${b.p===0?4:Math.max(6,b.p)}%"></div>
+        <div class="bl">${DAY_S[b.d.getDay()]}</div></div>`).join('')}</div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:10px">Consistency map <span style="font-weight:500;color:var(--muted);font-size:11px">last 6 months</span></div>
+      <div class="heatmap">${hm}</div>
+      <div style="display:flex;align-items:center;gap:4px;justify-content:flex-end;margin-top:8px;font-size:10px;color:var(--muted)">less
+        <i style="width:10px;height:10px;border-radius:3px;background:#1a2138;display:inline-block"></i>
+        <i style="width:10px;height:10px;border-radius:3px;background:rgba(34,197,94,.25);display:inline-block"></i>
+        <i style="width:10px;height:10px;border-radius:3px;background:rgba(34,197,94,.45);display:inline-block"></i>
+        <i style="width:10px;height:10px;border-radius:3px;background:rgba(34,197,94,.72);display:inline-block"></i>
+        <i style="width:10px;height:10px;border-radius:3px;background:#22c55e;display:inline-block"></i> more
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:11px">Habits · last 30 days</div>
+      ${habits.map(h=>`<div class="hs-row">
+        <div class="he">${h.emoji}</div><div class="hn">${h.name}</div>
+        <div class="hs-track"><i style="width:${h.pct}%;background:${h.color}"></i></div>
+        <div class="hp">${h.pct}%</div><div class="hs">🔥 ${streaks[h.id]}</div></div>`).join('')}
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="font-size:12.5px;font-weight:800;margin-bottom:9px">🏆 Personal records</div>
+      <div style="font-size:12.5px;display:flex;flex-direction:column;gap:7px">
+        <div style="display:flex"><span style="width:22px">🥇</span><span style="flex:1">Bench Press</span><b style="color:#fcd34d">70 kg</b><span style="width:74px;text-align:right;color:var(--muted)">2026-10-20</span></div>
+        <div style="display:flex"><span style="width:22px">🥈</span><span style="flex:1">Barbell Row</span><b style="color:#fcd34d">55 kg</b><span style="width:74px;text-align:right;color:var(--muted)">2026-10-18</span></div>
+        <div style="display:flex"><span style="width:22px">🥉</span><span style="flex:1">Overhead Press</span><b style="color:#fcd34d">40 kg</b><span style="width:74px;text-align:right;color:var(--muted)">2026-10-15</span></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderVision(){
+  return `<div class="screen">
+    <div style="background:linear-gradient(135deg,#a855f7,#7c3aed);border-radius:16px;padding:17px;color:#fff">
+      <div style="font-size:18px;font-weight:900">✨ Vision Board</div>
+      <div style="font-size:12.5px;opacity:.9;margin-top:7px;line-height:1.5">
+        The things you are building this year. Open it, look at it, and remember why the early mornings matter.
+      </div>
+      <button class="btn" style="background:#fff;color:#6d28d9;border:none;margin-top:14px;font-weight:800" onclick="alert('Opens the hosted vision board in a browser')">Open Vision Board ↗</button>
+    </div>
+    <div class="card" style="margin-top:12px">
+      <div class="note-label">Source</div>
+      <div style="font-size:11.5px;color:var(--muted);line-height:1.5;word-break:break-all">http://localhost:8000/vision-board/index.html</div>
+      <div style="font-size:11px;color:var(--faint);margin-top:8px;line-height:1.45">Hosted by your backend so phones and the web build can open it. Override in Settings.</div>
+    </div>
+    <div class="sec"><span class="t">Keep going</span></div>
+    ${[['🏔️','The life you are building is bigger than today\'s mood.'],
+       ['🔁','Motivation fades. Systems last. You built one — use it.'],
+       ['📉','A missed day is data, not a verdict. Read it and adjust.'],
+       ['🚀','Days left in the mission: 193. Enough to change everything.']]
+      .map(([e,t])=>`<div class="card" style="display:flex;gap:11px;align-items:flex-start;margin-bottom:8px">
+        <span style="font-size:17px">${e}</span><span style="font-size:12.5px;line-height:1.45">${t}</span></div>`).join('')}
+  </div>`;
+}
+
+/* =====================================================================
+   FOOD (phone) — calorie ring, macros, 4 meal slots, dish database
+   ===================================================================== */
+function renderFood(){
+  const tot=DIARY.reduce((a,r)=>({kcal:a.kcal+r.kcal,p:a.p+r.p,c:a.c+r.c,f:a.f+r.f}),{kcal:0,p:0,c:0,f:0});
+  const remaining=CAL_GOAL-tot.kcal, over=remaining<0;
+  const pct=Math.min(100,Math.round(tot.kcal/CAL_GOAL*100));
+  const col=over?'#ef4444':pct>85?'#f59e0b':'#22c55e';
+  const R=38, CIRC=2*Math.PI*R, dash=CIRC*(pct/100);
+
+  const ring=`<div class="card">
+    <div class="mring">
+      <div class="ringwrap">
+        <svg width="92" height="92" viewBox="0 0 92 92">
+          <circle cx="46" cy="46" r="${R}" fill="none" stroke="#171f36" stroke-width="9"/>
+          <circle cx="46" cy="46" r="${R}" fill="none" stroke="${col}" stroke-width="9"
+            stroke-linecap="round" stroke-dasharray="${dash} ${CIRC}"/>
+        </svg>
+        <div class="c"><div class="rem" style="color:${col}">${Math.abs(remaining)}</div>
+          <div class="lbl">${over?'over':'left'}</div></div>
+      </div>
+      <div class="mm">
+        ${[['Protein',tot.p,MACRO_GOAL.p,'#3b82f6'],['Carbs',tot.c,MACRO_GOAL.c,'#f59e0b'],['Fat',tot.f,MACRO_GOAL.f,'#a855f7']]
+          .map(([l,v,g,c])=>`<div class="mrow">
+            <div class="mtop">${l}<span>${Math.round(v)} / ${g}g</span></div>
+            <div class="mt"><i style="width:${Math.min(100,Math.round(v/g*100))}%;background:${c}"></i></div>
+          </div>`).join('')}
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted)">
+      <span>Eaten <b style="color:var(--text)">${tot.kcal}</b></span>
+      <span>Goal <b style="color:var(--text)">${CAL_GOAL}</b> kcal</span>
+    </div>
+  </div>`;
+
+  const icon={Breakfast:'🌅',Lunch:'🍛',Dinner:'🌙',Snack:'🍎'};
+  const meals=`<div class="sec"><span class="t">Today's diary</span><span class="a">＋ Add</span></div>`
+    + ALL_MEALS.map(meal=>{
+        const items=DIARY.filter(r=>r.meal===meal);
+        const mk=items.reduce((s,r)=>s+r.kcal,0);
+        return `<div class="card meal">
+          <div class="mh"><span class="mi">${icon[meal]}</span><span class="mn">${meal}</span>
+            <span class="mk">${mk} <small>kcal</small></span></div>
+          ${items.length?items.map(r=>`<div class="mrow">
+            <span class="mrn">${r.food}</span>
+            <span class="mrq">×${r.qty}</span>
+            <span class="mrk">${r.kcal}</span>
+          </div>`).join(''):`<div style="font-size:11px;color:var(--faint);padding:5px 0">Nothing logged yet.</div>`}
+        </div>`;
+      }).join('');
+
+  const dishes=`<div class="sec"><span class="t">Dish database</span><span class="a">${FOODS.length} dishes</span></div>
+    <div class="card">
+      <div class="searchbox">🔍 Search a dish… <span style="font-size:10px">roti, paneer, dosa</span></div>
+      ${FOODS.slice(0,8).map(f=>`<div class="dishrow">
+        <div class="dn"><b>${f.name}</b><span>${f.serv} · P${f.p} C${f.c} F${f.f}</span></div>
+        <div class="dk">${f.kcal}<span style="font-size:9px;color:var(--faint);font-weight:600"> kcal</span></div>
+        <button class="btn sm primary">＋</button>
+      </div>`).join('')}
+      <div style="font-size:10.5px;color:var(--faint);margin-top:8px">Showing 8 of ${FOODS.length} — search runs server-side.</div>
+    </div>`;
+
+  return `<div class="screen">
+    ${ring}${meals}${dishes}
+  </div>`;
+}
+
+/* =====================================================================
+   NOTES (phone) — every note, grouped by day, filtered by category
+   ===================================================================== */
+function renderNotes(){
+  const tag=S.noteTag||'all';
+  const filtered=tag==='all'?NOTES_FEED:NOTES_FEED.filter(n=>n.tag===tag);
+  const counts={all:NOTES_FEED.length};
+  NOTES_FEED.forEach(n=>counts[n.tag]=(counts[n.tag]||0)+1);
+
+  const byDate={};
+  filtered.forEach(n=>{ (byDate[n.date]=byDate[n.date]||[]).push(n); });
+  const dates=Object.keys(byDate).sort().reverse();
+
+  const dayLabel=ds=>{
+    const d=new Date(ds+'T00:00:00');
+    const diff=Math.round((today-d)/86400000);
+    if(diff===0)return 'Today';
+    if(diff===1)return 'Yesterday';
+    return DAY_N[d.getDay()]+', '+d.getDate()+' '+MON[d.getMonth()];
+  };
+
+  const chip=(k,label)=>`<button class="nchip ${tag===k?'on':''}" onclick="S.noteTag='${k}';render()">${label}<span class="cc">${counts[k]||0}</span></button>`;
+
+  const pinned=NOTES_FEED.find(n=>n.pinned);
+
+  const groups=dates.map(ds=>`
+    <div class="ngday">
+      <span class="nd">${dayLabel(ds)}</span>
+      <span class="nn">${byDate[ds].length}</span>
+      <span class="nl"></span>
+    </div>
+    ${byDate[ds].sort((a,b)=>(b.pinned?1:0)-(a.pinned?1:0)).map(n=>`
+      <div class="note ${n.pinned?'pinned':''}">
+        <div class="nh">
+          <span class="pill ${NOTE_TAG_COLOR[n.tag]}">${NOTE_TAGS[n.tag]}</span>
+          <span class="nref">${n.ref}</span>
+          ${n.pinned?'<span class="pill amber">📌</span>':''}
+        </div>
+        <div class="nt">${n.text}</div>
+      </div>`).join('')}`).join('');
+
+  return `<div class="screen">
+    <div class="nchips">
+      ${chip('all','All')}${chip('day','Day')}${chip('habit','Habit')}${chip('fitness','Fitness')}${chip('food','Food')}${chip('goal','Goal')}${chip('idea','Idea')}
+    </div>
+    ${tag==='all'&&pinned?`<div class="card npin" style="border-color:rgba(245,158,11,.4);background:linear-gradient(180deg,rgba(245,158,11,.06),#10162a)">
+      <div style="display:flex;gap:9px;align-items:flex-start">
+        <span style="font-size:15px">📌</span>
+        <div><div style="font-size:11.5px;font-weight:800;margin-bottom:3px">Pinned</div>
+        <div class="nt">${pinned.text}</div></div>
+      </div>
+    </div>`:''}
+    ${groups||'<div class="card" style="text-align:center;color:var(--muted);font-size:12px">No notes in this filter yet.</div>'}
+  </div>`;
+}
+
+const TABS=[
+  {id:'today',icon:'✅',label:'Today',render:renderToday},
+  {id:'habits',icon:'▦',label:'Habits',render:renderHabits},
+  {id:'study',icon:'📚',label:'Study',render:renderStudy},
+  {id:'fitness',icon:'🏋️',label:'Fitness',render:renderFitness},
+  {id:'food',icon:'🍛',label:'Food',render:renderFood},
+  {id:'goals',icon:'🎯',label:'Goals',render:renderGoals},
+  {id:'notes',icon:'📝',label:'Notes',render:renderNotes},
+  {id:'stats',icon:'📊',label:'Stats',render:renderStats},
+  {id:'vision',icon:'✨',label:'Vision',render:renderVision},
+];
+
+/* =====================================================================
+   PHONE + SCREEN MOUNT
+   ===================================================================== */
+function phone(){
+  return `<div class="phone">
+    <div class="statusbar"><span>9:41</span><span>▲ ● ▮</span></div>
+    <div class="appbar">
+      <div class="brand">🔥 <em>Mission 2026</em></div>
+      <span class="spacer"></span>
+      <div class="count" title="Mission countdown">
+        <b>${DAYS_LEFT}</b>
+        <span>Days left<span class="tail">until ${MISSION_END_LABEL}</span></span>
+      </div>
+    </div>
+    ${TABS.find(t=>t.id===S.tab).render()}
+    <div class="bottomnav">
+      ${TABS.map(t=>`<button class="${S.tab===t.id?'active':''}" onclick="go('${t.id}')"><span class="ni">${t.icon}</span>${t.label}</button>`).join('')}
+    </div>
+  </div>`;
+}
+
+function render(){
+  document.getElementById('app').innerHTML = phone();
+}
+function go(t){ S.tab=t; render(); }
+function toggle(id){ S.done[id]=S.done[id]?0:1; render(); }
+function bump(id,d){ S.counts[id]=Math.max(0,(S.counts[id]||0)+d); render(); }
+function shiftDate(d){ const x=addDays(new Date(S.date+'T00:00:00'),d); if(x>today)return; S.date=iso(x); render(); }
+function cellToggle(id){ S.done[id]=S.done[id]?0:1; render(); }
+function move(track){ S.studyTab=track; render(); }
+function bumpStudy(d){ alert('Study hours: '+(4.5+d)); }
+
+/* --------- annotations beside the phone --------- */
+const NOTES_HTML = `
+<div class="notes">
+  <h3>What changed vs. the current app</h3>
+  <ul>
+    <li><b>Habit cards are rows, not a 3-col grid.</b> Emoji chip → name + category tag → streak/note meta → one big round check on the right. That's the HabitBull/Momentum pattern and it's readable at a glance.</li>
+    <li><b>Count habits get −/+</b> with a value, target and a progress bar instead of a plain toggle — so <code>5L Water</code> and <code>UPSC 6 hrs</code> actually track a quantity.</li>
+    <li><b>Three intel tiles replace the tall stacked cards</b> — streak at risk, focus next, load. Fits in one row.</li>
+    <li><b>Notes live on the habit row</b> (📝 line) and in the day note at the bottom. Long-press a card to open the per-habit, per-day note editor.</li>
+    <li><b>Habits tab = the grid table.</b> Sticky habit column, one square per day, colour per habit, dashed = rest day. Tap any square to retro-edit.</li>
+    <li><b>Study gets the In&nbsp;Progress tab</b> with a progress bar, and every row has one-tap move buttons between Pending / In&nbsp;Progress / Done.</li>
+    <li><b>Fitness</b> keeps exercise · sets × reps @ kg · muscle chips, plus cardio as type + quantity + minutes. Body log stays compact at the bottom.</li>
+    <li><b>Goals</b> have a progress bar with a <b>pace marker</b> (expected %), a blue/elapsed vs green/left timeline, and a pace note telling you exactly how much more effort is needed.</li>
+    <li><b>Stats</b> is a new tab: 14-day bars, 6-month consistency heatmap, per-habit 30-day bars, personal records.</li>
+    <li><b>No card gradients as hero.</b> Colour is used only where it means something: streak = amber, done = the habit's own colour, at-risk/burnout = rose.</li>
+  </ul>
+</div>`;
+
+document.getElementById('frames').innerHTML =
+  `<div class="frame-wrap"><div class="frame-label">Interactive prototype<span>Click the nav, tap habits, switch study tabs</span></div><div id="app"></div></div>`
+  + NOTES_HTML;
+render();
+</script>
+</body>
+</html>
