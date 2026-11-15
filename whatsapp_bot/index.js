@@ -20,6 +20,7 @@ const {
 const { SupabaseSessionStore } = require("./helperFunctions/supabase");
 const mission = require("./helperFunctions/mission");
 const control = require("./helperFunctions/control");
+const dailyStoic = require("./daily_stoic.json");
 
 const express = require("express");
 app = express();
@@ -181,10 +182,20 @@ client.on("ready", async () => {
     }
   });
 
+  // 8:05 PM — "Update Status": timesheet + a rotating Gita/Stoic quote
+  job.scheduleJob("5 20 * * *", async () => {
+    try {
+      await client.sendMessage(mission.GROUP_ID, statusReminderText());
+    } catch (e) {
+      console.error("[reminder] send failed:", e.message);
+    }
+  });
+
   // Mission 2026 habit check-in (see helperFunctions/mission.js)
-  job.scheduleJob(mission.MORNING_CRON, () => mission.sendMorningCheckin(client));
-  job.scheduleJob(mission.INTERIM_CRON, () => mission.sendRecap(client, { final: false }));
-  job.scheduleJob(mission.FINAL_CRON, () => mission.sendRecap(client, { final: true }));
+  // Paused on request — uncomment these three to resume.
+  // job.scheduleJob(mission.MORNING_CRON, () => mission.sendMorningCheckin(client));
+  // job.scheduleJob(mission.INTERIM_CRON, () => mission.sendRecap(client, { final: false }));
+  // job.scheduleJob(mission.FINAL_CRON, () => mission.sendRecap(client, { final: true }));
 });
 
 client.on("message", async (msg) => {
@@ -298,6 +309,21 @@ app.post("/mission/recap", async (req, res) => {
   await mission.sendRecap(client, { final: req.query.final === "1" });
   res.json({ ok: true });
 });
+
+// --------------------------------------------------- 8 PM status reminder
+// The Daily Stoic (Holiday & Hanselman): one meditation per calendar date.
+function statusReminderText() {
+  const now = new Date();
+  const key = `${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+  const q = dailyStoic.find((e) => e.date === key) || dailyStoic[0];
+  return (
+    "⏰ *Update Status*\n\n" +
+    "1. Fill timesheet, update Mission2026 tracker.\n" +
+    "2. Listen to 1_mission2026.mp3\n" +
+    `3. "${q.quote}" — *${q.source}*\n` +
+    "4. All the best ✨"
+  );
+}
 
 app.listen(process.env.PORT || 3000, () => {
   console.log(`Server is running`);

@@ -99,7 +99,7 @@ preflight() {
 
   # Chrome is what drives WhatsApp Web; without it nothing starts.
   if [ -z "${PUPPETEER_EXECUTABLE_PATH:-}" ]; then
-    for b in google-chrome google-chrome-stable chromium chromium-browser; do
+    for b in google-chrome google-chrome-stable chromium chromium-browser brave-browser; do
       if command -v "$b" >/dev/null 2>&1; then
         export PUPPETEER_EXECUTABLE_PATH="$(command -v "$b")"
         break
