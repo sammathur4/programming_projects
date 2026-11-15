@@ -1,0 +1,3 @@
+[0m
+> build · deepseek-v4.1-flash
+[91m[1mError: [0mUpstream request failed: This Go model requires Global regions. Select Global in your workspace's Privacy settings to use it.

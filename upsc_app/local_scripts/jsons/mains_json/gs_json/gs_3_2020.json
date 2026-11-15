@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "section": "Economy",
+    "question": "Explain intra-generational and inter-generational issues of equity from the perspective of inclusive growth and sustainable development. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "section": "Economy",
+    "question": "Define potential GDP and explain its determinants. What are the factors that have been inhibiting India from realizing its potential GDP? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "section": "Agriculture",
+    "question": "What are the main constraints in transport and marketing of agricultural produce in India? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "section": "Agriculture",
+    "question": "What are the challenges and opportunities of food processing sector in the country? How can income of the farmers be substantially increased by encouraging food processing? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "section": "Science and Technology",
+    "question": "What do you understand by nanotechnology and how is it helping in health sector? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "section": "Science and Technology",
+    "question": "How is science interwoven deeply with our lives? What are the striking changes in agriculture triggered off by the science-based technologies? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "section": "Environment",
+    "question": "How does the draft Environment Impact Assessment (EIA) Notification, 2020 differ from the existing EIA Notification, 2006? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "section": "Environment",
+    "question": "What are the salient features of the Jal Shakti Abhiyan launched by the Government of India for water conservation and water security? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "section": "Internal Security",
+    "question": "Discuss different types of cyber crimes and measures required to be taken to fight the menace. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "section": "Internal Security",
+    "question": "For effective border area management, discuss the steps required to be taken to deny local support to militants and also suggest ways to manage favourable perception among locals. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "section": "Economy",
+    "question": "Explain the meaning of investment in an economy in terms of capital formation. Discuss the factors to be considered while designing a concession agreement between a public entity and a private entity. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "section": "Economy",
+    "question": "Explain the rationale behind the Goods and Services Tax (Compensation to States) Act of 2017. How has COVID-19 impacted the GST compensation fund and created new federal tensions? (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 13,
+    "section": "Agriculture",
+    "question": "What are the major factors responsible for making rice-wheat system a success? In spite of this success how has this system become bane in India? (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 14,
+    "section": "Environment",
+    "question": "Suggest measures to improve water storage and irrigation system to make its judicious use under depleting scenario. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 15,
+    "section": "Science and Technology",
+    "question": "COVID-19 pandemic has caused unprecedented devastation worldwide. However, technological advancements are being availed readily to win over the crisis. Give an account of how technology was sought to aid management of the pandemic. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "section": "Science and Technology",
+    "question": "Describe the benefits of deriving electric energy from sunlight in contrast to the conventional energy generation. What are the initiatives offered by our Government for this purpose? (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "section": "Environment",
+    "question": "What are the key features of the National Clean Air Programme (NCAP) initiated by the Government of India? (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 18,
+    "section": "Disaster Management",
+    "question": "Discuss the recent measures initiated in disaster management by the Government of India departing from the earlier reactive approach. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "section": "Internal Security",
+    "question": "What are the determinants of left-wing extremism in Eastern part of India? What strategy should Government of India, civil administration and security forces adopt to counter the threat in the affected areas? (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 20,
+    "section": "Internal Security",
+    "question": "Analyze internal security threats and transborder crimes along Myanmar, Bangladesh and Pakistan borders including Line of Control (LoC). Also discuss the role played by various security forces in this regard. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  }
+]

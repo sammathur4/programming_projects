@@ -1,0 +1,1503 @@
+[
+  {
+    "id": 1,
+    "section": "Culture",
+    "question": "In Medieval India, the designations 'Mahattara' and 'Pattakila' were used for",
+    "options": {
+      "a": "military officers",
+      "b": "village officers",
+      "c": "specialists in Vedic rituals",
+      "d": "chiefs of craft guilds"
+    },
+    "answer": "b",
+    "explanation": "Lichens represent an mutualistic relationship between a fungus and photosynthesising algae or cyanobacteria.",
+    "motivation": "",
+    "difficulty": "D",
+    "source": "Administrative System in India: Vedic Age to 1947 By U. B. Singh Page 47"
+  },
+  {
+    "id": 2,
+    "section": "Science and Technology",
+    "question": "Lichens, which are capable of initiating ecological succession even on a bare rock, are actually a symbiotic association of",
+    "options": {
+      "a": "algae and bacteria",
+      "b": "algae and fungi",
+      "c": "bacteria and fungi",
+      "d": "fungi and mosses"
+    },
+    "answer": "b",
+    "explanation": "Lichens represent an intimate mutualistic relationship between a fungus and photosynthesising algae or cyanobacteria.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 3,
+    "section": "Geography",
+    "question": "If you travel through the Himalayas, you are likely to see which of the following plants naturally growing there? 1. Oak 2. Rhododendron 3. Sandalwood. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "d",
+    "explanation": "Sandalwood trees are found in foothills of Himalayas in Moist deciduous forests which are more pronounced in the regions that record rainfall between 100-200 cm. These forests are found in northeastern states and foothills of Himalayas, slopes of the Western Ghats and Orissa.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 4,
+    "section": "Environment",
+    "question": "Which of the following are some important pollutants released by steel industry in India? 1. Oxides of sulphur 2. Oxide of nitrogen 3. Carbon monoxide 4. Carbon dioxide. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1, 3 and 4 only",
+      "b": "2 and 3 only",
+      "c": "1 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "d",
+    "explanation": "All four are pollutants released by the steel industry.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 5,
+    "section": "Culture",
+    "question": "Which of the following Kingdoms were associated with the life of the Buddha? 1. Avanti 2. Gandhara 3. Kosala 4. Magadha. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1, 2 and 3",
+      "b": "2 and 4",
+      "c": "3 and 4 only",
+      "d": "1, 3 and 4"
+    },
+    "answer": "d",
+    "explanation": "It is said that when Pasenadi heard of the Buddha's advent he sent his chaplain's with seven others, to Avanti. It was during Ashoka's reign that Buddhism spread to Gandhara.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 6,
+    "section": "Culture",
+    "question": "Every year, a month long ecologically important campaign/festival is held during which certain communities/tribes plant samplings of fruit-bearing trees. Which of the following are such communities/tribes?",
+    "options": {
+      "a": "Bhutia and Lepcha",
+      "b": "Gond and Korku",
+      "c": "Irula and Toda",
+      "d": "Sahariya and Agariya"
+    },
+    "answer": "b",
+    "explanation": "",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 7,
+    "section": "Polity",
+    "question": "The sales tax you pay while purchasing a toothpaste is a",
+    "options": {
+      "a": "Tax imposed by the Central Government",
+      "b": "Tax imposed by the Central Government but collected by the State Government",
+      "c": "Tax imposed by the State Government but collected by the Central Government",
+      "d": "Tax imposed and collected by the State Government"
+    },
+    "answer": "d",
+    "explanation": "The power to impose tax on sale or purchase of goods except 'newspaper' belongs to the State (Entry 54, State List II).",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 8,
+    "section": "Economy",
+    "question": "What does venture capital mean?",
+    "options": {
+      "a": "A short-term capital provided to industries",
+      "b": "A long-term start-up capital provided to new entrepreneurs",
+      "c": "Funds provided to industries at times of incurring losses",
+      "d": "Funds provided for replacement and renovation of industries"
+    },
+    "answer": "b",
+    "explanation": "Venture capital is long-term start-up capital provided to new entrepreneurs.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 9,
+    "section": "Economy",
+    "question": "The main objective of the 12th Five-Year Plan is",
+    "options": {
+      "a": "inclusive growth and poverty reduction",
+      "b": "inclusive and sustainable growth",
+      "c": "sustainable and inclusive growth to reduce unemployment",
+      "d": "faster, sustainable and more inclusive growth"
+    },
+    "answer": "d",
+    "explanation": "Self Explanatory.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 10,
+    "section": "Economy",
+    "question": "With reference to Balance of Payments, which of the following constitutes/constitute the Current Account? 1. Balance of trade 2. Foreign assets 3. Balance of invisibles 4. Special Drawing Rights. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3",
+      "c": "1 and 3",
+      "d": "1, 2 and 4"
+    },
+    "answer": "c",
+    "explanation": "Current account includes balance of trade (exports-imports), remittances, Trade in services. SDRs count as foreign assets.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 11,
+    "section": "Economy",
+    "question": "The terms 'Marginal Standing Facility Rate' and 'Net Demand and Time Liabilities', sometimes appearing in news, are used in relation to",
+    "options": {
+      "a": "banking operations",
+      "b": "communications networking",
+      "c": "military strategies",
+      "d": "supply and demand of agricultural products"
+    },
+    "answer": "a",
+    "explanation": "MSF came into effect in 2011. MSF scheme is introduced by RBI by which the banks can borrow overnight up to 1 per cent of their net demand and time liabilities (NDTL) i.e. 1 per cent aggregate deposits and other liabilities of the banks.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 12,
+    "section": "Economy",
+    "question": "What is/are the facility/facilities the beneficiaries can get from the services of Business Correspondent (Bank Saathi) in branchless areas? 1. It enables the beneficiaries to draw their subsidies and social security benefits in their villages. 2. It enables the beneficiaries in the rural areas to make deposits and withdrawals. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2 only",
+      "d": "Neither 1 nor 4"
+    },
+    "answer": "c",
+    "explanation": "BCs are being used under Swabhimaan scheme for these purposes.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 13,
+    "section": "Economy",
+    "question": "In the context of Indian economy which of the following is/are the purpose/purposes of 'Statutory Reserve Requirements'? 1. To enable the Central Bank to control the amount of advances the banks can create. 2. To make the people's deposits with banks safe and liquid. 3. To prevent the commercial banks from making excessive profits. 4. To force the banks to have sufficient vault cash to meet their day-to-day requirements. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "b",
+    "explanation": "A statutory reserve is cash a financial institution, be it a bank, credit union, or insurance company, must keep to meet the obligations by virtue of accepting deposits or premium payments. The reserves required of banks and credit unions are generally set by the nation's central bank. Those required of insurance companies are set by statute or regulations at the national, state or local government or regulatory authority. Calculated in different ways, statutory reserves are required to ensure that financial institutions are capable of covering claims even in a calamitous situation.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 14,
+    "section": "Current Affairs",
+    "question": "Recently, a series of uprisings of people referred to as 'Arab Spring' originally started from",
+    "options": {
+      "a": "Egypt",
+      "b": "Lebanon",
+      "c": "Syria",
+      "d": "Tunisia"
+    },
+    "answer": "d",
+    "explanation": "Arab Spring began with the overthrow of ruler Tunisia who fled to Saudi Arabia.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 15,
+    "section": "Current Affairs",
+    "question": "Consider the following countries: 1. Denmark 2. Japan 3. Russian Federation 4. United Kingdom 5. United States of America. Which of the above are the members of the 'Arctic Council'?",
+    "options": {
+      "a": "1, 2 and 3",
+      "b": "2, 3 and 4",
+      "c": "1, 4 and 5",
+      "d": "1, 3 and 5"
+    },
+    "answer": "d",
+    "explanation": "",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 16,
+    "section": "Current Affairs",
+    "question": "Consider the following pairs: Region often in news — Country. 1. Chechnya : Russian Federation 2. Darfur : Mali 3. Swat Valley : Iraq. Which of the above pairs is/are correctly matched?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "a",
+    "explanation": "All regions are affected by conflict. DARFUR is in Sudan (not Mali). Swat Valley is in Pakistan (not Iraq).",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 17,
+    "section": "Science and Technology",
+    "question": "With reference to Agni-IV Missile, which of the following statements is/are correct? 1. It is a surface-to-surface missile. 2. It is fuelled by liquid propellant only. 3. It can deliver one-tonne nuclear warheads about 7500km away. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "a",
+    "explanation": "AGNI IV has a range of 3500-4000 km with 1 tonne nuclear payload and uses two stages of Solid Propellant. Statement 2 is incorrect (it uses solid propellant, not liquid) and statement 3 is incorrect about the range.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 18,
+    "section": "Current Affairs",
+    "question": "With reference to two non-conventional energy sources called 'coalbed methane' and 'shale gas', consider the following statements: 1. Coalbed methane is the pure methane gas extracted from coal seams, while shale gas is a mixture of propane and butane only that can be extracted from fine-grained sedimentary rocks. 2. In India, abundant coalbed methane sources exist, but so far no shale gas sources have been found. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "d",
+    "explanation": "Shale gas deposits in India have been found in news. Shale gas is a mixture of Methane and many other gases (not just propane and butane). India does have shale gas sources.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 19,
+    "section": "Geography",
+    "question": "With reference to 'Changpa' community of India, consider the following statements: 1. They live mainly in the State of Uttarakhand. 2. They rear the Pashmina goats that yield a fine wool. 3. They are kept in the category of Scheduled Tribes. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "b",
+    "explanation": "Changpa Tribe belongs to the Ladakh region of Jammu and Kashmir (not Uttarakhand). They rear Pashmina goats and are classified as Scheduled Tribes.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 20,
+    "section": "Current Affairs",
+    "question": "In India, cluster bean (Guar) is traditionally used as a vegetable or animal feed, but recently the cultivation of this has assumed significance. Which one of the following statements is correct in this context?",
+    "options": {
+      "a": "The oil extracted from seeds is used in the manufacture of biodegradable plastics",
+      "b": "The gum made from its seeds is used in the extraction of shale gas",
+      "c": "The leaf extract of this plant has the properties of anti-histamines",
+      "d": "It is a source of high quality biodiesel"
+    },
+    "answer": "b",
+    "explanation": "Guar gum made from cluster bean seeds is used in the extraction of shale gas (hydraulic fracturing).",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 21,
+    "section": "Modern Indian History",
+    "question": "The Partition of Bengal made by Lord Curzon in 1905 lasted until",
+    "options": {
+      "a": "The First World War when Indian troops were needed by the British and the partition was ended",
+      "b": "King George V abrogated Curzon's Act at the Royal Durbar in Delhi in 1911",
+      "c": "Gandhiji launched his Civil Disobedience Movement",
+      "d": "The Partition of India in 1947 when East Bengal became East Pakistan"
+    },
+    "answer": "b",
+    "explanation": "The partition of Bengal was annulled by King George V at the Delhi Durbar in 1911.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 22,
+    "section": "Modern Indian History",
+    "question": "The 1929 Session of Indian National Congress is of significance in the history of the Freedom Movement because the",
+    "options": {
+      "a": "attainment of Self-Government was declared as the objective of the Congress",
+      "b": "Attainment of Poorna Swaraj was adopted as the goal of the Congress",
+      "c": "Non-Cooperation Movement was launched",
+      "d": "Decision to participate in the Round Table Conference in London was taken"
+    },
+    "answer": "b",
+    "explanation": "The Lahore Session of INC in 1929 adopted Poorna Swaraj (complete independence) as the goal of the Congress.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 23,
+    "section": "Culture",
+    "question": "With reference to the famous Sattriya dance, consider the following statements: 1. Sattriya is a combination of music, dance and drama. 2. It is a centuries-old living tradition of Vaishnavites of Assam. 3. It is based on classical Ragas and Talas of devotional songs composed by Tulsidas, Kabir and Mirabai. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "b",
+    "explanation": "The Sattriya form uses hand gestures and foot movements and also has its own style of costume. It is based on classical ragas and talas (rhythm) of borgeets (devotional songs composed by Sankardeva and Madhavdeva), not the songs of Tulsidas, Kabir and Mirabai.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 24,
+    "section": "Culture",
+    "question": "Chaitra 1 of the national calendar based on the Saka Era corresponds to which one of the following dates of the Gregorian calendar in a normal year of 365 days?",
+    "options": {
+      "a": "22nd March (or 21st March)",
+      "b": "15th May (or 16th May)",
+      "c": "21st March (or 30th March)",
+      "d": "21st April (or 20th April)"
+    },
+    "answer": "a",
+    "explanation": "Chaitra 1 of the Saka calendar corresponds to 22nd March (or 21st March in a leap year) in the Gregorian calendar.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 25,
+    "section": "Culture",
+    "question": "With reference to the Indian history of art and culture, consider the following pairs: Famous work of sculpture — Site. 1. A grand image of Buddha's Mahaparinirvana with numerous celestial musicians above and the sorrowful figures of his followers below : Ajanta. 2. A huge image of Varaha Avatar (boar incarnation) of Vishnu, as he rescues Goddess Earth from the deep and chaotic waters, sculpted on rock : Mount Abu. 3. 'Arjuna's Penance'/'Descent of Ganga' sculpted on the surface of huge boulders : Mamallapuram. Which of the pairs given above is/are correctly matched?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Varaha avatar sculpture is in Udayagiri caves near Bhopal (not Mount Abu). Pairs 1 and 3 are correctly matched.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 26,
+    "section": "Modern Indian History",
+    "question": "The Ghadr (Ghadar) was a",
+    "options": {
+      "a": "revolutionary association of Indians with headquarters at San Francisco",
+      "b": "nationalist organization operating from Singapore",
+      "c": "militant organisation with headquarters at Berlin",
+      "d": "Communist movement for India's freedom with headquarters at Tashkent"
+    },
+    "answer": "a",
+    "explanation": "The Ghadar Party was a revolutionary association founded by Indians with its headquarters at San Francisco.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 27,
+    "section": "Culture",
+    "question": "With reference to India's culture and tradition, what is 'Kalaripayattu'?",
+    "options": {
+      "a": "It is an ancient Bhakti cult of Shaivism still prevalent in some parts of South India",
+      "b": "It is an ancient style bronze and brasswork still found in southern part of Coromandel area",
+      "c": "It is an ancient form of dance-drama and a living tradition in the northern part of Malabar",
+      "d": "It is an ancient martial art and a living tradition in some parts of South India"
+    },
+    "answer": "d",
+    "explanation": "Kalaripayattu is an ancient martial art form and a living tradition in some parts of South India, particularly Kerala.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 28,
+    "section": "Culture",
+    "question": "Consider the following pairs: 1. Garba : Gujarat 2. Mohiniattam : Odisha 3. Yakshagana : Karnataka. Which of the pairs given above is/are correctly matched?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Mohiniattam is a classical dance form of Kerala, not Odisha. Garba belongs to Gujarat and Yakshagana belongs to Karnataka.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 29,
+    "section": "Culture",
+    "question": "With reference to Buddhist history, tradition and culture in India, consider the following pairs: Famous Shrine — Location. 1. Tabo monastery and temple complex : Spiti Valley. 2. Lhotsava Lhakhang : Zanskar Valley. 3. Alchi Temple Complex : Ladakh. Which of the above pairs given is/are correctly matched?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "The village of Nako at 12,000 feet in Kinnaur, Himachal Pradesh has the temple complex called Lhotsava Lhakhang (temple of the great translator Rinchen Zangpo) — it is in Kinnaur, not Zanskar. Tabo monastery is in Spiti Valley and Alchi is in Ladakh.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 30,
+    "section": "Culture",
+    "question": "Consider the following statements: 1. 'Bijak' is a composition of the teachings of Saint Dadu Dayal. 2. The Philosophy of Pushti Marg was propounded by Madhvacharya. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "d",
+    "explanation": "Vallabhacharya's philosophy came to be known as Pushti Marg (path of grace). Kabir's teachings were later collected and presented as Bijak (not Dadu Dayal's teachings). Pushti Marg was propounded by Vallabhacharya, not Madhvacharya.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 31,
+    "section": "Culture",
+    "question": "A community of people called Manganiyars is well-known for their",
+    "options": {
+      "a": "martial arts in North-East India",
+      "b": "musical tradition in North-West India",
+      "c": "Classical vocal music in South India",
+      "d": "Pietra dura tradition in Central India"
+    },
+    "answer": "b",
+    "explanation": "Manganiyars are a community of Muslim musicians from the Thar Desert region of Rajasthan (North-West India), known for their rich musical tradition.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 32,
+    "section": "Modern Indian History",
+    "question": "What was/were the object/objects of Queen Victoria's Proclamation (1858)? 1. To disclaim any intention to annex Indian States. 2. To place the Indian administration under the British Crown. 3. To regulate East India Company's trade with India. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "a",
+    "explanation": "Queen Victoria's Proclamation of 1858 disclaimed any intention to annex Indian States and placed the Indian administration under the British Crown. It did not deal with regulating East India Company's trade.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 33,
+    "section": "Culture",
+    "question": "Ibadat Khana at Fatehpur Sikri was",
+    "options": {
+      "a": "the mosque for the use of Royal Family",
+      "b": "Akbar's private prayer chamber",
+      "c": "the hall in which Akbar held discussions with scholars of various religions",
+      "d": "the room in which the nobles belonging to different religions gathered to discuss religious affairs"
+    },
+    "answer": "c",
+    "explanation": "Ibadat Khana (House of Worship) was a meeting house built by Emperor Akbar at Fatehpur Sikri where he held discussions with scholars and theologians of various religions.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 34,
+    "section": "Geography",
+    "question": "In the context of food and nutritional security of India, enhancing the 'Seed Replacement Rates' of various crops helps in achieving the food production targets of the future. But what is/are the constraint/constraints in its wider/greater implementation? 1. There is no National Seeds Policy in place. 2. There is no participation of private sector seed companies in the supply of quality seeds of vegetables and planting materials of horticultural crops. 3. There is a demand-supply gap regarding quality seeds in case of low value and high volume crops. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2",
+      "b": "3 only",
+      "c": "2 and 3",
+      "d": "None"
+    },
+    "answer": "b",
+    "explanation": "India has a national seed policy since 2002, and many private sector companies are operating in supply of seeds. The main constraint is the demand-supply gap for quality seeds in low value and high volume crops.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 35,
+    "section": "Environment",
+    "question": "With reference to 'Eco-Sensitive Zones', which of the following statements is/are correct? 1. Eco-Sensitive Zones are the areas that are declared under the Wildlife (Protection) Act, 1972. 2. The purpose of the declaration of Eco-Sensitive Zones is to prohibit all kinds of human activities in those zones except agriculture. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "d",
+    "explanation": "Eco-Sensitive Zones are declared under the Environment (Protection) Act, 1986 (not Wildlife Protection Act). The activities prohibited are generally specified for each zone and notified separately — it's not a blanket prohibition on all activities.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 36,
+    "section": "Environment",
+    "question": "Consider the following statements: 1. Animal Welfare Board of India is established under the Environment (Protection) Act, 1986. 2. National Tiger Conservation Authority is a statutory body. 3. National Ganga River Basin Authority is chaired by the Prime Minister. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "2 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "b",
+    "explanation": "Animal Welfare Board of India is established under the Prevention of Cruelty to Animals Act, 1960 (not Environment Protection Act). National Tiger Conservation Authority is indeed a statutory body under Wildlife Protection Act. National Ganga River Basin Authority is chaired by the Prime Minister.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 37,
+    "section": "Science and Technology",
+    "question": "Consider the following pairs: Vitamin — Deficiency disease. 1. Vitamin C : Scurvy. 2. Vitamin D : Rickets. 3. Vitamin E : Night blindness. Which of the pairs given above is/are correctly matched?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "a",
+    "explanation": "Vitamin A deficiency causes Night blindness, not Vitamin E deficiency. Vitamin C causes Scurvy and Vitamin D causes Rickets — these are correctly matched.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 38,
+    "section": "Environment",
+    "question": "There is some concern regarding the nanoparticles of some chemical elements that are used by the industry in the manufacture of various products. Why? 1. They can accumulate in the environment and contaminate water and soil. 2. They can enter the food chains. 3. They can trigger the production of free radicals. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "d",
+    "explanation": "Many nano particles are stable and hence have potential for accumulation. They can enter food chains because of their very small size and stability, and because of their stability they have the ability to generate free radicals and cause oxidative damage in cells.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 39,
+    "section": "Economy",
+    "question": "Which of the following organizations brings out the publication known as 'World Economic Outlook'?",
+    "options": {
+      "a": "The International Monetary Fund",
+      "b": "The United Nations Development Programme",
+      "c": "The World Economic Forum",
+      "d": "The World Bank"
+    },
+    "answer": "a",
+    "explanation": "World Economic Outlook is a publication of the International Monetary Fund (IMF).",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 40,
+    "section": "Economy",
+    "question": "With reference to Union Budget, which of the following is/are covered under Non-Plan Expenditure? 1. Defence expenditure 2. Interest payments 3. Salaries and pensions 4. Subsidies. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1, 2, 3 and 4",
+      "d": "None"
+    },
+    "answer": "c",
+    "explanation": "All of them form the part of non-plan expenditure.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 41,
+    "section": "Economy",
+    "question": "If the interest rate is decreased in an economy, it will",
+    "options": {
+      "a": "decrease the consumption expenditure in the economy",
+      "b": "increase the tax collection of the Government",
+      "c": "increase the investment expenditure in the economy",
+      "d": "increase the total savings in the economy"
+    },
+    "answer": "c",
+    "explanation": "Decreased interest rates ensure availability of cheaper credit which boosts investment expenditure in the economy.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 42,
+    "section": "Polity",
+    "question": "Consider the following statements: 1. The President shall make rules for the more convenient transaction of the business of the Government of India, and for the allocation among Ministers of the said business. 2. All executive actions of the Government of India shall be expressed to be taken in the name of the Prime Minister. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "a",
+    "explanation": "Article 77(c) — Statement 1 is verbatim correct. Statement 2 is wrong as all executive decisions are taken in the name of the President (not Prime Minister).",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 43,
+    "section": "Polity",
+    "question": "Consider the following statements regarding a No-Confidence Motion in India: 1. There is no mention of a No-Confidence Motion in the Constitution of India. 2. A motion of No-Confidence can be introduced in the Lok Sabha only. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "c",
+    "explanation": "Both statements are correct. The Constitution does not explicitly mention No-Confidence Motion; it is governed by rules of procedure. A No-Confidence Motion can only be introduced in the Lok Sabha.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 44,
+    "section": "Environment",
+    "question": "With reference to Neem tree, consider the following statements: 1. Neem oil can be used as a pesticide to control the proliferation of some species of insects and mites. 2. Neem seeds are used in the manufacture of biofuels and hospital detergents. 3. Neem oil has applications in pharmaceutical industry. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "d",
+    "explanation": "All three statements are correct. Neem oil is used as a pesticide, neem seeds are used in biofuels and detergents, and neem oil has pharmaceutical applications.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 45,
+    "section": "Science and Technology",
+    "question": "Which one of the following is the process involved in photosynthesis?",
+    "options": {
+      "a": "Potential energy is released to form free energy",
+      "b": "Free energy is converted into potential energy and stored",
+      "c": "Food is oxidized to release carbon dioxide and water",
+      "d": "Oxygen is taken, and carbon dioxide and water vapour are given out"
+    },
+    "answer": "b",
+    "explanation": "In photosynthesis, free energy (light energy) is converted into potential energy (chemical energy) and stored in glucose molecules.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 46,
+    "section": "Science and Technology",
+    "question": "In addition to fingerprint scanning, which of the following can be used in the biometric identification of a person? 1. Iris scanning 2. Retinal scanning 3. Voice recognition. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "d",
+    "explanation": "Both Iris and Retina scanning are used in biometric identification. Voice recognition is also used. Biometric ID uses near infrared light using digital cameras for iris/retinal scanning.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 47,
+    "section": "Science and Technology",
+    "question": "Which of the following statements is/are correct regarding vegetative propagation of plants? 1. Vegetative propagation produces clonal population. 2. Vegetative propagation helps in eliminating the virus. 3. Vegetative propagation can be practiced most of the year. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Statement 2 is wrong — vegetative propagation does not eliminate viruses. If the parent plant has a viral infection, it will not be eliminated through vegetative propagation. Statements 1 and 3 are correct.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 48,
+    "section": "Current Affairs",
+    "question": "Which of the following pairs is/are correctly matched? Spacecraft — Purpose. 1. Cassini-Huygens : Orbiting the Venus and transmitting data to the Earth. 2. Messenger : Mapping and investigating. 3. Voyager 1 and 2 : Exploring the outer solar system. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "b",
+    "explanation": "Cassini-Huygens was sent to orbit Saturn (not Venus). Messenger is correctly mapped to Mercury mapping and investigation. Voyager 1 and 2 are correctly mapped to exploring the outer solar system.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 49,
+    "section": "Geography",
+    "question": "Consider the following pairs: Region — Well-known for the production of. 1. Kinnaur : Areca nut. 2. Mewat : Mango. 3. Coromandel : Soya bean. Which of the above pairs is/are correctly matched?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "d",
+    "explanation": "Arecanut is grown mainly in the southern region. Mango is grown in north and south India. Soya bean is grown predominantly in central India. None of the pairings given are correct.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 50,
+    "section": "Science and Technology",
+    "question": "Which of the following is/are the example/examples of chemical change? 1. Crystallization of sodium chloride. 2. Melting of ice. 3. Souring of milk. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "b",
+    "explanation": "Crystallisation of sodium chloride and ice melting are physical changes as they involve only change of state. Souring of milk is a chemical change as new substances are formed.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 51,
+    "section": "Polity",
+    "question": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its",
+    "options": {
+      "a": "advisory jurisdiction",
+      "b": "appellate jurisdiction",
+      "c": "original jurisdiction",
+      "d": "writ jurisdiction"
+    },
+    "answer": "c",
+    "explanation": "Disputes between the Centre and States fall under the original jurisdiction of the Supreme Court of India.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 52,
+    "section": "Science and Technology",
+    "question": "Consider the following techniques/phenomena: 1. Budding and grafting in fruit plants. 2. Cytoplasmic male sterility. 3. Gene silencing. Which of the above is/are used to create transgenic crops?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "None"
+    },
+    "answer": "b",
+    "explanation": "All three methods are used for transgenic crops directly or indirectly. However, Cytoplasmic male sterility and Gene silencing are technologies specifically designed for this purpose, making option b more appropriate. Budding and grafting are general horticultural techniques not specific to transgenics.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 53,
+    "section": "Science and Technology",
+    "question": "Consider the following statements: 1. Maize can be used for the production of starch. 2. Oil extracted from maize can be a feedstock for biodiesel. 3. Alcoholic beverages can be produced by using maize. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "d",
+    "explanation": "All three statements are correct. Maize is used for starch production, maize oil can be used as biodiesel feedstock, and maize can be fermented to produce alcoholic beverages.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 54,
+    "section": "Science and Technology",
+    "question": "Among the following organisms, which one does not belong to the class of other three?",
+    "options": {
+      "a": "Crab",
+      "b": "Mite",
+      "c": "Scorpion",
+      "d": "Spider"
+    },
+    "answer": "a",
+    "explanation": "Mite, Scorpion and Spider all belong to the class Arachnida. Crab belongs to the class Crustacea and does not belong to the same family as the others.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 55,
+    "section": "Polity",
+    "question": "The power to increase the number of judges in the Supreme Court of India is vested in",
+    "options": {
+      "a": "The President of India",
+      "b": "the Parliament",
+      "c": "The Chief Justice of India",
+      "d": "the Law Commission"
+    },
+    "answer": "b",
+    "explanation": "The Parliament has the power to increase the number of judges in the Supreme Court of India.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 56,
+    "section": "Geography",
+    "question": "Consider the following towns of India: 1. Bhadrachalam 2. Chanderi 3. Kancheepuram 4. Karnal. Which of the above are famous for the production of traditional sarees/fabric?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 3 only",
+      "d": "1, 3 and 4"
+    },
+    "answer": "b",
+    "explanation": "Chanderi (Madhya Pradesh) and Kancheepuram (Tamil Nadu) are famous for traditional sarees/fabrics. Bhadrachalam is a temple town and Karnal is known for other products.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 57,
+    "section": "Geography",
+    "question": "Consider the following pairs: National Highway — Cities connected. 1. NH4 : Chennai and Hyderabad. 2. NH6 : Mumbai and Kolkata. 3. NH15 : Ahmedabad and Jodhpur. Which of the above pairs is/are correctly matched?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "d",
+    "explanation": "NH4 connects Bengaluru and Chennai (not Chennai and Hyderabad). NH6 Connects Surat-Kolkata (not Mumbai). NH15 connects Pathankot and Samakhiali (not Ahmedabad and Jodhpur). None of the pairs are correctly matched.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 58,
+    "section": "Environment",
+    "question": "Consider the following international agreements: 1. The international Treaty on Plant Genetic Resources for Food and Agriculture. 2. The United Nations Convention to Combat Desertification. 3. The World Heritage Convention. Which of the above has/have a bearing on the biodiversity?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "d",
+    "explanation": "As per United Nations Convention to Combat Desertification website — 'dynamics of climate and biodiversity are intimately connected'. It collaborates closely with the two Rio Conventions: Convention on Biological Diversity (CBD) and UNFCCC. All three have a bearing on biodiversity.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 59,
+    "section": "Environment",
+    "question": "Consider the following statements regarding 'Earth Hour': 1. It is an initiative of UNEP and UNESCO. 2. It is a movement in which the participants switch off the lights for one hour on a certain day every year. 3. It is a movement to raise the awareness about the climate change and the need to save the planet. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Earth Hour is an initiative of WWF (World Wildlife Fund for Nature), not UNEP and UNESCO. Statements 2 and 3 are correct.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 60,
+    "section": "Science and Technology",
+    "question": "Which one of the following is the correct sequence of a food chain?",
+    "options": {
+      "a": "Diatoms-Crustaceans-Herrings",
+      "b": "Crustaceans-Diatoms-Herrings",
+      "c": "Diatoms-Herrings-Crustaceans",
+      "d": "Crustaceans-Herrings-Diatoms"
+    },
+    "answer": "a",
+    "explanation": "Diatoms are primary producers, Crustaceans are primary consumers feeding on diatoms, and Herrings are secondary consumers feeding on crustaceans. This is the correct food chain sequence.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 61,
+    "section": "Environment",
+    "question": "What are the significances of a practical approach to sugarcane production known as 'Sustainable Sugarcane Initiative'? 1. Seed cost is very low in this compared to the conventional method of cultivation. 2. Drip irrigation can be practiced very effectively in this. 3. There is no application of chemical/inorganic fertilizers at all in this. 4. The scope for intercropping is more in this compared to the conventional method of cultivation. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "1, 2 and 4 only",
+      "c": "2, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "b",
+    "explanation": "The SSI method encourages application of organic matter which enhances the macro and micro nutrient content in the soil in an eco-friendly way and promotes optimum utilization of chemical fertilizers (doesn't eliminate them). So statement 3 is incorrect.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 62,
+    "section": "Environment",
+    "question": "If a wetland of international importance is brought under the 'Montreux Record', what does it imply?",
+    "options": {
+      "a": "Changes in ecological character have occurred, are occurring or are likely to occur in the wetland as a result of human interference",
+      "b": "The country in which the wetland is located should enact a law to prohibit any human activity within five kilometres from the edge of the wetland",
+      "c": "The survival of the wetland depends on the cultural practices and traditions of certain communities living in its vicinity and therefore the cultural diversity therein should not be destroyed",
+      "d": "It is given the status of 'World Heritage Site'"
+    },
+    "answer": "a",
+    "explanation": "The Montreux Record is a register of Ramsar wetland sites where changes in ecological character have occurred, are occurring or are likely to occur as a result of technological developments, pollution or other human interference.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 63,
+    "section": "Geography",
+    "question": "Which one of the following pairs of islands is separated from each other by the 'Ten Degree Channel'?",
+    "options": {
+      "a": "Andaman and Nicobar",
+      "b": "Nicobar and Sumatra",
+      "c": "Maldives and Lakshadweep",
+      "d": "Sumatra and Java"
+    },
+    "answer": "a",
+    "explanation": "As per NCERT, the entire group of Andaman & Nicobar islands is divided into two broad groups — the Andaman in the north and the Nicobar in the south. They are separated by a water body which is called the Ten Degree channel.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 64,
+    "section": "Geography",
+    "question": "Consider the following pairs: Programme/Project — Ministry. 1. Drought-Prone Area Programme : Ministry of Agriculture. 2. Desert Development Programme : Ministry of Environment and Forests. 3. National Watershed Development Project for Rainfed Areas : Ministry of Rural Development. Which of the above pairs is/are correctly matched?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "d",
+    "explanation": "National Watershed Development Project for Rainfed Areas is under Ministry of Agriculture (not Rural Development). None of the pairs are correctly matched.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 65,
+    "section": "Environment",
+    "question": "With reference to Bombay Natural History Society (BNHS), consider the following statements: 1. It is an autonomous organization under the Ministry of Environment and Forests. 2. It strives to conserve nature through action-based research, education and public awareness. 3. It organizes and conducts nature trails and camps for the general public. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "BNHS does not come under the Ministry of Environment and Forests as an autonomous organization. Statements 2 and 3 are correct.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 66,
+    "section": "Environment",
+    "question": "With reference to 'Global Environment Facility', which of the following statements is/are correct?",
+    "options": {
+      "a": "It serves as financial mechanism for 'Convention on Biological Diversity' and 'United Nations Framework Convention on Climate Change'",
+      "b": "It undertakes scientific research on environmental issues at global level",
+      "c": "It is an agency under OECD to facilitate the transfer of technology and funds to underdeveloped countries with specific aim to protect their environment",
+      "d": "Both (a) and (b)"
+    },
+    "answer": "a",
+    "explanation": "GEF is an independent financial organization that provides grants for projects related to biodiversity, climate change, international waters, land degradation, the ozone layer, and persistent organic pollutants.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 67,
+    "section": "Science and Technology",
+    "question": "With reference to technology for solar power production, consider the following statements: 1. 'Photovoltaics' is a technology that generates electricity by direct conversion of light into electricity, while 'Solar Thermal' is a technology that utilizes the Sun's rays to generate heat which is further used in electricity generation process. 2. Photovoltaics generates Alternating Current (AC), while Solar Thermal generates Direct Current (DC). 3. India has manufacturing base for Solar Thermal technology, but not for photovoltaics. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "a",
+    "explanation": "Statement 1 is correct. Statement 2 is wrong — Photovoltaics generates Direct Current (DC), not AC. Statement 3 is also incorrect as India has manufacturing base for photovoltaics.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 68,
+    "section": "Culture",
+    "question": "Consider the following languages: 1. Gujarati 2. Kannada 3. Telugu. Which of the above has/have been declared as 'Classical Language/Languages' by the Government?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Kannada and Telugu have been declared as Classical Languages by the Government of India. Gujarati has not been declared a classical language.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 69,
+    "section": "Geography",
+    "question": "Consider the following pairs: 1. Dampa Tiger Reserve : Mizoram. 2. Gumti Wildlife Sanctuary : Sikkim. 3. Saramati Peak : Nagaland. Which of the above pairs is/are correctly matched?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Gumti Wildlife Sanctuary is in Tripura, not Sikkim. Dampa Tiger Reserve is in Mizoram and Saramati Peak is in Nagaland — both correctly matched.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 70,
+    "section": "Environment",
+    "question": "With reference to a conservation organization called 'Wetlands International', which of the following statements is/are correct? 1. It is an intergovernmental organization formed by the countries which are signatories to Ramsar Convention. 2. It works at the field level to develop and mobilize knowledge, and use the practical experience to advocate for better policies. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "b",
+    "explanation": "Wetlands International is a global non-governmental organization (NGO) dedicated to wetlands — not an intergovernmental organization. Statement 2 is correct.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 71,
+    "section": "Current Affairs",
+    "question": "With reference to a grouping of countries known as BRICS, consider the following statements: 1. The First Summit of BRICS was held in Rio de Janeiro in 2009. 2. South Africa was the last to join the BRICS grouping. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "b",
+    "explanation": "First BRICS summit was held in 2009 in Yekaterinburg, Russia (not Rio de Janeiro). South Africa was the last to join the BRICS grouping — this is correct.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 72,
+    "section": "Science and Technology",
+    "question": "Consider the following diseases: 1. Diphtheria 2. Chickenpox 3. Smallpox. Which of the above diseases has/have been eradicated in India?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "b",
+    "explanation": "Smallpox was eradicated globally and in India. Diphtheria and Chickenpox have not been eradicated.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 73,
+    "section": "Geography",
+    "question": "Which of the following phenomena might have influenced the evolution of organisms? 1. Continental drift 2. Glacial cycles. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "c",
+    "explanation": "Both continental drift and glacial cycles have influenced the evolution of organisms by changing habitats, isolating populations, and causing mass extinctions.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 74,
+    "section": "Environment",
+    "question": "Other than poaching, what are the possible reasons for the decline in the population of Ganges River Dolphins? 1. Construction of dams and barrages on rivers. 2. Increase in the population of crocodiles in rivers. 3. Getting trapped in fishing nets accidentally. 4. Use of synthetic fertilizers and other agricultural chemicals in crop-fields in the vicinity of rivers. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "c",
+    "explanation": "Crocodile population has nothing to do with the decline in Ganges River Dolphins. Human activities including construction of dams, accidental trapping in fishing nets, and agricultural chemicals are mainly responsible.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 75,
+    "section": "Modern Indian History",
+    "question": "The Radcliffe Committee was appointed to",
+    "options": {
+      "a": "solve the problem of minorities in India",
+      "b": "give effect to the Independence Bill",
+      "c": "delimit the boundaries between India and Pakistan",
+      "d": "enquire into the riots in East Bengal"
+    },
+    "answer": "c",
+    "explanation": "The Radcliffe Committee (Radcliffe Commission) was appointed to delimit the boundaries between India and Pakistan during Partition.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 76,
+    "section": "Environment",
+    "question": "Brominated flame retardants are used in many household products like mattresses and upholstery. Why is there some concern about their use? 1. They are highly resistant to degradation in the environment. 2. They are able to accumulate in humans and animals. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "c",
+    "explanation": "Both statements are correct. Brominated flame retardants are persistent in the environment and are bioaccumulative in humans and animals, which is why there is concern about their use.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 77,
+    "section": "Science and Technology",
+    "question": "Consider the following: 1. Bats 2. Bears 3. Rodents. The phenomenon of hibernation can be observed in which of the above kinds of animals?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1, 2 and 3 only",
+      "d": "Hibernation cannot be observed in any of the above"
+    },
+    "answer": "c",
+    "explanation": "Bats, Bears, and Rodents all exhibit hibernation. All three are known hibernating animals.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 78,
+    "section": "Polity",
+    "question": "Which one of the following is the largest Committee of the Parliament?",
+    "options": {
+      "a": "The committee on Public Accounts",
+      "b": "The committee on Estimates",
+      "c": "The Committee on Public Undertakings",
+      "d": "The committee on Petitions"
+    },
+    "answer": "b",
+    "explanation": "The Estimates Committee is the largest committee of the Parliament with 30 members.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 79,
+    "section": "Science and Technology",
+    "question": "Which of the following adds/add carbon dioxide to the carbon cycle on the planet Earth? 1. Volcanic action 2. Respiration 3. Photosynthesis 4. Decay of organic matter. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "2 only",
+      "c": "1, 2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "c",
+    "explanation": "Volcanic action, respiration and decay of organic matter release carbon dioxide into the atmosphere. Photosynthesis actually removes carbon dioxide from the atmosphere (it does not add CO2).",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 80,
+    "section": "Environment",
+    "question": "If you walk through countryside, you are likely to see some birds stalking alongside the cattle to seize the insects disturbed by their movement through grasses. Which one of the following is/are such bird/birds? 1. Painted Stork 2. Common Myna 3. Black-necked Crane. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2",
+      "b": "2 only",
+      "c": "2 and 3",
+      "d": "3 only"
+    },
+    "answer": "b",
+    "explanation": "The Common Myna (Indian Myna) is known for following cattle and seizing insects disturbed by their movement. Painted Stork and Black-necked Crane are not typically associated with this behaviour.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 81,
+    "section": "Geography",
+    "question": "Which of the following have coral reefs? 1. Andaman and Nicobar Islands 2. Gulf of Kachchh 3. Gulf of Mannar 4. Sunderbans. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 and 4 only",
+      "c": "1 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "a",
+    "explanation": "Andaman and Nicobar Islands, Gulf of Kachchh, and Gulf of Mannar have coral reefs. Sunderbans is a mangrove ecosystem and does not have coral reefs.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 82,
+    "section": "Geography",
+    "question": "In India, the problem of soil erosion is associated with which of the following? 1. Terrace cultivation 2. Deforestation 3. Tropical climate. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "b",
+    "explanation": "Terrace cultivation is actually a method to prevent soil erosion on hill slopes. Tropical climate has no direct link with soil erosion. Deforestation is the main cause of soil erosion.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 83,
+    "section": "Geography",
+    "question": "The seasonal reversal of winds is the typical characteristic of",
+    "options": {
+      "a": "Equatorial climate",
+      "b": "Mediterranean climate",
+      "c": "Monsoon climate",
+      "d": "All of the above climates"
+    },
+    "answer": "c",
+    "explanation": "Seasonal reversal of winds is a characteristic feature of monsoon climate.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 84,
+    "section": "Culture",
+    "question": "With reference to the cultural history of India, the term 'Panchayatan' refers to",
+    "options": {
+      "a": "an assembly of village elders",
+      "b": "a religious sect",
+      "c": "a style of temple construction",
+      "d": "an administrative functionary"
+    },
+    "answer": "c",
+    "explanation": "Panchayatan refers to a style of temple construction where the main temple is surrounded by four subsidiary shrines at the four corners.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 85,
+    "section": "Geography",
+    "question": "Consider the following rivers: 1. Barak 2. Lohit 3. Subansiri. Which of the above flows/flow through Arunachal Pradesh?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "b",
+    "explanation": "Lohit and Subansiri flow through Arunachal Pradesh. Barak river flows through Manipur and Assam.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 86,
+    "section": "Environment",
+    "question": "Consider the following pairs: Wetlands — Confluence of rivers. 1. Harike Wetlands : Confluence of Beas and Satluj/Sutlej. 2. Keoladeo Ghana National Park : Confluence of Banas and Chambal. 3. Kolleru Lake : Confluence of Musi and Krishna. Which of the above pairs is/are correctly matched?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "a",
+    "explanation": "Harike Wetlands lies on the confluence of Beas and Sutlej — correctly matched. Keoladeo Ghana is at the confluence of Gambhir and Banganga (not Banas and Chambal). Kolleru Lake is between rivers Krishna and Godavari (not Musi and Krishna).",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 87,
+    "section": "Culture",
+    "question": "Which one of the following pairs does not form part of the six systems of Indian Philosophy?",
+    "options": {
+      "a": "Mimamsa and Vedanta",
+      "b": "Nyaya and Vaisheshika",
+      "c": "Lokayata and Kapalika",
+      "d": "Sankhya and Yoga"
+    },
+    "answer": "c",
+    "explanation": "The six systems (Shad Darshanas) of Indian Philosophy are: Sankhya, Yoga, Nyaya, Vaisheshika, Mimamsa and Vedanta. Lokayata (Charvaka) and Kapalika are not part of the six orthodox systems.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 88,
+    "section": "Geography",
+    "question": "Consider the following pairs: Hills — Region. 1. Cardamom Hills : Coromandel Coast. 2. Kaimur Hills : Konkan Coast. 3. Mahadeo Hills : Central India. 4. Mikir Hills : North-East India. Which of the above pairs are correctly matched?",
+    "options": {
+      "a": "1 and 2",
+      "b": "2 and 3",
+      "c": "3 and 4",
+      "d": "2 and 4"
+    },
+    "answer": "c",
+    "explanation": "Cardamom Hills are on the Western Ghats side (not Coromandel Coast). Kaimur Hills are in Eastern UP/Bihar (not Konkan Coast). Mahadeo Hills are in Central India (Madhya Pradesh) and Mikir Hills are in North-East India — both correctly matched.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 89,
+    "section": "Polity",
+    "question": "Which one of the following Schedules of the Constitution of India contains provisions regarding anti-defection?",
+    "options": {
+      "a": "Second Schedule",
+      "b": "Fifth Schedule",
+      "c": "Eighth Schedule",
+      "d": "Tenth Schedule"
+    },
+    "answer": "d",
+    "explanation": "The Tenth Schedule of the Constitution of India contains provisions regarding anti-defection.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 90,
+    "section": "Environment",
+    "question": "The most important strategy for the conservation of biodiversity together with traditional human life is the establishment of",
+    "options": {
+      "a": "biosphere reserves",
+      "b": "national parks",
+      "c": "national parks",
+      "d": "Wildlife sanctuaries"
+    },
+    "answer": "a",
+    "explanation": "Biosphere reserves are the most important strategy for the conservation of biodiversity together with traditional human life, as they allow human habitation in buffer zones while protecting core areas.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 91,
+    "section": "Geography",
+    "question": "Turkey is located between",
+    "options": {
+      "a": "Black Sea and Caspian Sea",
+      "b": "Black Sea and Mediterranean Sea",
+      "c": "Gulf of Suez and Mediterranean Sea",
+      "d": "Gulf of Aqaba and Dead Sea"
+    },
+    "answer": "b",
+    "explanation": "Turkey is located between the Black Sea (to the north) and the Mediterranean Sea (to the south).",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 92,
+    "section": "Geography",
+    "question": "What is the correct sequence of occurrence of the following cities in South-East Asia as one proceeds from south to north? 1. Bangkok 2. Hanoi 3. Jakarta 4. Singapore. Select the correct answer using the code given below.",
+    "options": {
+      "a": "4-2-1-3",
+      "b": "3-2-4-1",
+      "c": "3-4-1-2",
+      "d": "4-3-2-1"
+    },
+    "answer": "c",
+    "explanation": "From south to north: Jakarta (Indonesia) — Singapore — Bangkok (Thailand) — Hanoi (Vietnam). The correct sequence is 3-4-1-2.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 93,
+    "section": "Environment",
+    "question": "The scientific view is that the increase in global temperature should not exceed 2°C above pre-industrial level. If the global temperature increases beyond 3°C above the pre-industrial level, what can be its possible impact/impacts on the world? 1. Terrestrial biosphere tends toward a net carbon source. 2. Widespread coral mortality will occur. 3. All the global wetlands will permanently disappear. 4. Cultivation of cereals will not be possible anywhere in the world. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "b",
+    "explanation": "Statements 3 and 4 are too extreme. There will be effects on wetlands and cereal cultivation, but not to the extent of total disappearance or complete inability to cultivate anywhere.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 94,
+    "section": "Culture",
+    "question": "The national motto of India, 'Satyameva Jayate' inscribed below the Emblem of India is taken from",
+    "options": {
+      "a": "Katha Upanishad",
+      "b": "Chandogya Upanishad",
+      "c": "Aitareya Upanishad",
+      "d": "Mundaka Upanishad"
+    },
+    "answer": "d",
+    "explanation": "The national motto 'Satyameva Jayate' (Truth alone triumphs) is taken from the Mundaka Upanishad.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 95,
+    "section": "Polity",
+    "question": "In the Constitution of India, promotion of international peace and security is included in the",
+    "options": {
+      "a": "Preamble to the constitution",
+      "b": "Directive Principles of State Policy",
+      "c": "Fundamental Duties",
+      "d": "Ninth Schedule"
+    },
+    "answer": "b",
+    "explanation": "Article 51 under Directive Principles of State Policy deals with promotion of international peace and security.",
+    "motivation": "",
+    "difficulty": "E"
+  },
+  {
+    "id": 96,
+    "section": "Geography",
+    "question": "What are the benefits of implementing the 'Integrated Watershed Development Programme'? 1. Prevention of soil runoff. 2. Linking the country's perennial rivers with seasonal rivers. 3. Rainwater harvesting and recharge of groundwater table. 4. Regeneration of natural vegetation. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2, 3 and 4 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "c",
+    "explanation": "Integrated watershed development programme nowhere mentions interlinking of rivers. The benefits are prevention of soil runoff, rainwater harvesting and recharge of groundwater, and regeneration of natural vegetation.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 97,
+    "section": "Polity",
+    "question": "Which of the following are associated with 'Planning' in India? 1. The Finance Commission. 2. The National Development Council. 3. The Union Ministry of Rural Development. 4. The Union Ministry of Urban Development. 5. The Parliament. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1, 2 and 5 only",
+      "b": "1, 3 and 4 only",
+      "c": "2 and 5 only",
+      "d": "1, 2, 3, 4 and 5"
+    },
+    "answer": "c",
+    "explanation": "The Parliament and National Development Council are the bodies which are directly associated with the formulation of plans. Finance Commission deals with financial devolution. Ministries of Rural and Urban Development are implementing bodies.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 98,
+    "section": "Polity",
+    "question": "Which of the following is/are the function/functions of the Cabinet Secretariat? 1. Preparation of agenda for Cabinet Meetings. 2. Secretariat assistance to Cabinet Committees. 3. Allocation of financial resources to the Ministries. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 2 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "c",
+    "explanation": "Statement 3 is incorrect. Allocation of financial resources to ministries is done by the finance ministry in consultation with the Planning Commission and the priorities presented in the budget — not by the Cabinet Secretariat.",
+    "motivation": "",
+    "difficulty": "M"
+  },
+  {
+    "id": 99,
+    "section": "Polity",
+    "question": "Consider the following statements: A Constitutional Government is one which 1. Places effective restrictions on individual liberty in the interest of State Authority. 2. Places effective restrictions on the Authority of the State in the interest of individual liberty. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "b",
+    "explanation": "A Constitutional Government places effective restrictions on the authority of the State in the interest of individual liberty — not the other way around.",
+    "motivation": "",
+    "difficulty": "D"
+  },
+  {
+    "id": 100,
+    "section": "Polity",
+    "question": "Which of the following are the discretionary powers given to the Governor of a State? 1. Sending a report to the President of India for imposing the President's rule. 2. Appointing the Ministers. 3. Reserving certain bills passed by the State Legislature for consideration of the President of India. 4. Making the rules to conduct the business of the State Government. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "1 and 3 only",
+      "c": "2, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "b",
+    "explanation": "Article 166(3) — The Governor makes rules for the more convenient transaction of the business of Government of the State and the allocation among the Ministers. However, this is not business with respect to which the Governor is by or under the Constitution required to act in his discretion. Statement 1 (President's rule report) and Statement 3 (reserving bills) come under the discretionary powers of the Governor. Ministers are appointed by the Governor on the advice of the CM — not a discretionary power.",
+    "motivation": "",
+    "difficulty": "M"
+  }
+]

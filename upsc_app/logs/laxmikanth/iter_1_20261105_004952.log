@@ -1,0 +1,901 @@
+[0m
+> build · iceman-contributor-free
+[0m✗ [0mRead laxmikanth_polity_notes.txt failed
+[91m[1mError: [0mFile not found: /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_polity_notes.txt
+
+Did you mean one of these?
+/media/saksham/phone data/programming_projects/upsc_app/notes
+[0m→ [0mRead laxmikanth_notes_task.md 
+> build · iceman-contributor-free
+[0m→ [0mRead /media/saksham/phone data/programming_projects/generate_laxmikanth_notes.py 
+[0m✗ [0mRead /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md | head -150 failed
+[91m[1mError: [0mFile not found: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md | head -150
+
+Did you mean one of these?
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+> build · iceman-contributor-free
+[0m✗ [0mRead /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md | head -100 failed
+[91m[1mError: [0mFile not found: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md | head -100
+
+Did you mean one of these?
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+> build · iceman-contributor-free
+[0m$ [0mhead -80 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md"
+# GS PAPER 2 - POLITY & GOVERNANCE (LAXMIKANTH-BASED ULTIMATE NOTES)
+
+**Sources:** M. Laxmikanth (Indian Polity), NCERTs Class 6-12 (Polity), IGNOU, Constitution of India (Bare Act), PW Mind Maps, Previous Year Questions (Prelims + Mains 2016-2026), Current Affairs (2023-2026)
+
+**Approach:** Chapter-wise as per Laxmikanth | Integrated with NCERTs | PYQ-driven | Current Affairs linked | Mind Maps | Exam-Oriented
+
+---
+
+## TABLE OF CONTENTS
+
+### PART 1: CONSTITUTIONAL FRAMEWORK
+1. [Historical Background](#1-historical-background)
+2. [Making of the Constitution](#2-making-of-the-constitution)
+3. [Salient Features of the Constitution](#3-salient-features-of-the-constitution)
+4. [Preamble of the Constitution](#4-preamble-of-the-constitution)
+5. [Union and its Territory](#5-union-and-its-territory)
+6. [Citizenship](#6-citizenship)
+7. [Fundamental Rights](#7-fundamental-rights)
+8. [Directive Principles of State Policy](#8-directive-principles-of-state-policy)
+9. [Fundamental Duties](#9-fundamental-duties)
+10. [Amendment of the Constitution](#10-amendment-of-the-constitution)
+11. [Basic Structure of the Constitution](#11-basic-structure-of-the-constitution)
+
+### PART 2: SYSTEM OF GOVERNMENT
+12. [Parliamentary System](#12-parliamentary-system)
+13. [Federal System](#13-federal-system)
+14. [Centre-State Relations](#14-centre-state-relations)
+15. [Inter-State Relations](#15-inter-state-relations)
+16. [Emergency Provisions](#16-emergency-provisions)
+
+### PART 3: CENTRAL GOVERNMENT
+17. [President](#17-president)
+18. [Vice-President](#18-vice-president)
+19. [Prime Minister](#19-prime-minister)
+20. [Central Council of Ministers](#20-central-council-of-ministers)
+21. [Cabinet Committees](#21-cabinet-committees)
+22. [Parliament](#22-parliament)
+23. [Parliamentary Committees](#23-parliamentary-committees)
+24. [Indian Parliamentary Group](#24-indian-parliamentary-group)
+25. [Supreme Court](#25-supreme-court)
+
+### PART 4: STATE GOVERNMENT
+26. [Governor](#26-governor)
+27. [Chief Minister](#27-chief-minister)
+28. [State Council of Ministers](#28-state-council-of-ministers)
+29. [State Legislature](#29-state-legislature)
+30. [High Court](#30-high-court)
+31. [Subordinate Courts](#31-subordinate-courts)
+
+### PART 5: CONSTITUTIONAL & NON-CONSTITUTIONAL BODIES
+32. [Election Commission of India](#32-election-commission-of-india)
+33. [Union Public Service Commission](#33-union-public-service-commission)
+34. [State Public Service Commission](#34-state-public-service-commission)
+35. [Finance Commission](#35-finance-commission)
+36. [National Commission for SCs](#36-national-commission-for-scs)
+37. [National Commission for STs](#37-national-commission-for-sts)
+38. [National Commission for BCs](#38-national-commission-for-bcs)
+39. [Special Officer for Linguistic Minorities](#39-special-officer-for-linguistic-minorities)
+40. [Comptroller and Auditor General of India](#40-comptroller-and-auditor-general-of-india)
+41. [Attorney General of India](#41-attorney-general-of-india)
+42. [Advocate General of the State](#42-advocate-general-of-the-state)
+
+### PART 6: PANCHAYATI RAJ & URBAN GOVERNANCE
+43. [Panchayati Raj](#43-panchayati-raj)
+44. [Municipalities](#44-municipalities)
+45. [Co-operative Societies](#45-co-operative-societies)
+
+### PART 7: MISCELLANEOUS
+46. [Public Services](#46-public-services)
+47. [Official Language](#47-official-language)
+48. [Special Provisions relating to Certain Classes](#48-special-provisions-relating-to-certain-classes)
+49. [Special Provisions for States](#49-special-provisions-for-states)
+50. [Rights and Liabilities of the Government](#50-rights-and-liabilities-of-the-government)
+51. [Authoritative Text in Hindi Language](#51-authoritative-text-in-hindi-language)
+52. [Special Provisions for Jammu and Kashmir (Historical)](#52-special-provisions-for-jammu-and-kashmir-historical)
+
+### APPENDICES
+- [APPENDIX I: PRELIMS + MAINS PYQS (LAST 10 YEARS) - TOPIC WISE](#appendix-i-prelims--mains-pyqs-last-10-years---topic-wise)
+- [APPENDIX II: CURRENT AFFAIRS (2023-2026) - INTEGRATED BY CHAPTER](#appendix-ii-current-affairs-2023-2026---integrated-by-chapter)
+- [APPENDIX III: NCERT INTEGRATION (CLASSES 6-12)](#appendix-iii-ncert-integration-classes-6-12)
+> build · iceman-contributor-free
+[0m$ [0mtail -80 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | grep -n "^##" | tail -20
+18:## 12. PARLIAMENTARY SYSTEM
+22:### 12.1. Features of Parliamentary System
+31:### 12.2. Parliamentary vs Presidential System
+41:### 12.3. PYQs & Mind Map
+51:## 13. FEDERAL SYSTEM
+55:### 13.1. Federal Features of Indian Constitution
+63:### 13.2. Unitary Features
+74:### 13.3. Quasi-Federal Nature
+> build · iceman-contributor-free
+[0m$ [0mwc -l "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" && echo "---" && grep -n "^## [0-9]\+\." "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | tail -10
+1078 /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+---
+450:## 4. PREAMBLE OF THE CONSTITUTION
+531:## 5. UNION AND ITS TERRITORY (ARTICLES 1-4)
+592:## 6. CITIZENSHIP (ARTICLES 5-11)
+677:## 7. FUNDAMENTAL RIGHTS (ARTICLES 12-35)
+789:## 8. DIRECTIVE PRINCIPLES OF STATE POLICY (ARTICLES 36-51)
+872:## 9. FUNDAMENTAL DUTIES (ARTICLE 51A)
+943:## 10. AMENDMENT OF THE CONSTITUTION (ARTICLE 368)
+980:## 11. BASIC STRUCTURE OF THE CONSTITUTION
+1016:## 12. PARLIAMENTARY SYSTEM
+1049:## 13. FEDERAL SYSTEM
+> build · iceman-contributor-free
+[0m$ [0mtail -40 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md"
+### 12.3. PYQs & Mind Map
+*[Integrated]*
+
+---
+
+
+---
+
+
+
+## 13. FEDERAL SYSTEM
+
+**[SYL: GS2-A.1] | [LAXMIKANTH: Chapter 13]**
+
+### 13.1. Federal Features of Indian Constitution
+- Written Constitution
+- Division of Powers (7th Schedule)
+- Supremacy of Constitution
+- Rigidity (in certain provisions)
+- Independent Judiciary
+- Bicameralism
+
+### 13.2. Unitary Features
+- Strong Centre
+- Single Constitution
+- Single Citizenship
+- Integrated Judiciary
+- All-India Services
+- Governor appointed by Centre
+- Emergency Provisions
+- Art. 356 (President's Rule)
+- Parliament's power to reorganise states
+
+### 13.3. Quasi-Federal Nature
+K.C. Wheare described Indian Constitution as "federal system with a unitary bias" or quasi-federal. Granville Austin called it "cooperative federalism" in practice.
+
+---
+
+
+---
+> build · iceman-contributor-free
+[0m$ [0msed -n '1016,1048p' "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md"
+## 12. PARLIAMENTARY SYSTEM
+
+**[SYL: GS2-A.1] | [LAXMIKANTH: Chapter 12]**
+
+### 12.1. Features of Parliamentary System
+- **Nominal and Real Executives**: President (nominal), PM & Council of Ministers (real)
+- **Majority Party Rule**: PM is leader of majority party in Lok Sabha
+- **Collective Responsibility**: Art. 75(3) - Council collectively responsible to Lok Sabha
+- **Political Homogeneity**: Ministers usually from same party/alliance
+- **Dual Membership**: Ministers must be members of Parliament
+- **Leadership of Prime Minister**: PM is primus inter pares
+- **Dissolution of Lower House**: President can dissolve Lok Sabha on advice of PM
+
+### 12.2. Parliamentary vs Presidential System
+| Feature | Parliamentary (India, UK) | Presidential (USA) |
+|---------|---------------------------|-------------------|
+| **Executive** | Dual (Nominal + Real) | Single (President) |
+| **Responsibility** | Responsible to Legislature | Not responsible to Legislature |
+| **Separation of Powers** | Less separation, more coordination | Strict separation |
+| **Tenure** | Depends on confidence of House | Fixed term |
+| **Dissolution** | Lower House can be dissolved | No dissolution of Congress by President |
+| **Accountability** | Direct | Indirect |
+
+### 12.3. PYQs & Mind Map
+*[Integrated]*
+
+---
+
+
+---
+> build · iceman-contributor-free
+[0m$ [0mls /media/saksham/phone\ data/programming_projects/ | grep laxmi; echo "---"; find /media/saksham/phone\ data/programming_projects -name "*auto_runner*" 2>&1 | head -5
+generate_laxmikanth_notes.py
+---
+/media/saksham/phone data/programming_projects/upsc_app/auto_runner.sh
+/media/saksham/phone data/programming_projects/upsc_app/auto_runner_laxmikanth.sh
+/media/saksham/phone data/programming_projects/upsc_app/auto_runner_v2.sh
+/media/saksham/phone data/programming_projects/upsc_app/logs/auto_runner.log
+/media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth/auto_runner.log
+> build · iceman-contributor-free
+[0m$ [0mcat /media/saksham/phone\ data/programming_projects/upsc_app/auto_runner_laxmikanth.sh | head -80
+#!/bin/bash
+
+# Autonomous Agent Runner for Laxmikanth Polity Notes Generation
+WORKDIR="/media/saksham/phone data/programming_projects/upsc_app"
+LOG_DIR="$WORKDIR/logs/laxmikanth"
+STATE_DIR="$WORKDIR/.agent_state_laxmikanth"
+mkdir -p "$LOG_DIR" "$STATE_DIR"
+
+# Model fallback chain
+MODELS=(
+  "opencode-go/iceman-contributor-free"
+  "opencode-go/glm-5.3-flash"
+  "opencode-go/deepseek-v4.1-flash"
+  "opencode-go/qwen3.8-flash"
+  "opencode-go/kimi-k2.7-code"
+)
+
+SLEEP_NORMAL=300
+SLEEP_RATE_LIMIT=900
+SLEEP_ERROR=180
+
+STATE_FILE="$STATE_DIR/runner_state.json"
+SESSION_FILE="$STATE_DIR/current_session.txt"
+PROGRESS_LOG="$LOG_DIR/progress_detailed.log"
+QUESTION_LOG="$LOG_DIR/questions_asked.log"
+
+# Initialize state
+if [ ! -f "$STATE_FILE" ]; then
+  echo '{"iteration": 0, "model_index": 0, "consecutive_errors": 0, "chapters_done": 0}' > "$STATE_FILE"
+fi
+
+log() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] $1"
+  echo "$msg" | tee -a "$LOG_DIR/auto_runner.log" | tee -a "$PROGRESS_LOG"
+}
+
+log_detail() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [DETAIL] $1"
+  echo "$msg" | tee -a "$PROGRESS_LOG"
+}
+
+log_question() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [QUESTION] $1"
+  echo "$msg" | tee -a "$QUESTION_LOG" | tee -a "$PROGRESS_LOG"
+}
+
+log_chapter() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [CHAPTER] $1"
+  echo "$msg" | tee -a "$PROGRESS_LOG"
+}
+
+get_state() {
+  python3 -c "import json; d=json.load(open('$STATE_FILE')); print(d.get('$1',0))"
+}
+
+set_state() {
+  python3 -c "
+import json
+d=json.load(open('$STATE_FILE'))
+d['$1']=$2
+json.dump(d, open('$STATE_FILE','w'))
+"
+}
+
+log "=== LAXMIKANTH NOTES GENERATOR STARTED ==="
+log "Workdir: $WORKDIR"
+log "Logs: $LOG_DIR"
+log "Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md"
+
+while true; do
+  ITERATION=$(get_state iteration)
+  ITERATION=$((ITERATION + 1))
+  set_state iteration $ITERATION
+  
+  MODEL_INDEX=$(get_state model_index)
+  CURRENT_MODEL="${MODELS[$MODEL_INDEX]}"
+  
+  LOG_FILE="$LOG_DIR/iter_${ITERATION}_$(date +%Y%m%d_%H%M%S).log"
+  
+  log "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+> build · iceman-contributor-free
+[0m$ [0mtail -60 "/media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth/auto_runner.log" 2>&1 | head -40
+[2026-11-05 00:49:52] === LAXMIKANTH NOTES GENERATOR STARTED ===
+[2026-11-05 00:49:52] Workdir: /media/saksham/phone data/programming_projects/upsc_app
+[2026-11-05 00:49:52] Logs: /media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth
+[2026-11-05 00:49:52] Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+[2026-11-05 00:49:52] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 00:49:52] === Iteration 1 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 00:49:52] Starting new session
+> build · iceman-contributor-free
+[0m$ [0mgrep -n -A 60 "^## 1\. HISTORICAL BACKGROUND" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | head -80
+86:## 1. HISTORICAL BACKGROUND
+87-
+88-**[SYL: GS2-A.1] | [LAXMIKANTH: Chapter 1] | [NCERT Class 8: Chapter - 'The Making of the National Movement: 1870s-1947' & Class 9: 'Constitutional Design']**
+89-
+90-### 1.1. Sources for this chapter
+91-1. M. Laxmikanth - Indian Polity (6th/7th Edition, Chapter 1)
+92-2. NCERT Class 6-12 (Polity/Civics relevant chapters)
+93-3. Indian Constitution Bare Act - Preamble & Historical Context
+94-4. IGNOU Material on Indian Government & Politics
+95-
+96-### 1.2. THE COMPANY RULE (1773-1858)
+97-
+98-- **Phase 1 (1757–1773):** Rule of the East India Company in India - Diarchy (Dual System)
+99-- **Phase 2 (1773–1858):** Rule of the Company under Parliamentary control
+100-
+101-#### 1.2.1. Regulating Act of 1773
+102-- **Background**: To regulate the affairs of the East India Company and to establish control over its administration in India.
+103-- **Provisions**:
+104-  1. **Governor-General of Bengal**: Designated as Governor-General of Bengal (Lord Warren Hastings was the first). 
+105-  2. **Executive Council**: 4 members appointed to assist the Governor-General.
+106-  3. **Supreme Court at Calcutta**: Established in 1774 with a Chief Justice and 3 other judges.
+107-  4. **Reporting**: The Court of Directors of the Company were required to report its revenue, civil and military affairs in India to the British Government.
+108-- **Significance**: First step by British Parliament to regulate Company’s affairs; marked beginning of central administration.
+109-- **Drawbacks**: Vague powers of Governor-General and Council, jurisdictional conflicts between Governor-General-in-Council and Supreme Court.
+110-
+111-#### 1.2.2. Pitt's India Act of 1784 (Also called East India Company Act, 1784)
+112-- **Objective**: To rectify defects of Regulating Act of 1773; distinguish between commercial and political functions.
+113-- **Provisions**:
+114-  1. **Board of Control**: Created in Britain to control political affairs of Company (6 members including Chancellor of Exchequer and Secretary of State).
+115-  2. **Court of Directors**: Left to manage commercial affairs.
+116-  3. **Governor-General in Council**: Given more powers, became subordinate to Board of Control.
+117-  4. **British territories in India**: Called "British possessions in India".
+118-- **Significance**: Introduced the system of Double Government (Dual Control) - Company as administrative agent but under Crown's control through Board of Control.
+119-- **Drawbacks**: System of double government was complex and led to confusion.
+120-
+121-#### 1.2.3. Charter Act of 1793
+122-- **Provisions**: Extended Company's charter for 20 years; gave more powers to Governor-General over Governors of Madras and Bombay; Royal approval mandatory for Governor-General's appointment; salaries of Board of Control members to be paid from Indian revenues.
+123-- **Significance**: Strengthened centralisation.
+124-
+125-#### 1.2.4. Charter Act of 1813
+126-- **Provisions**:
+127-  1. **End of Monopoly**: Company's monopoly over Indian trade ended except trade in tea and trade with China.
+128-  2. **Sovereignty**: Asserted British Crown's sovereignty over Company's territories.
+129-  3. **Missionaries**: Allowed Christian missionaries to come to India for propagation of Christianity.
+130-  4. **Education**: Rs. 1 lakh per year sanctioned for promotion of literature and education of Indians.
+131-- **Significance**: India opened to British merchants; beginning of missionary activities and modern education.
+132-
+133-#### 1.2.5. Charter Act of 1833 (Great Charter Act)
+134-- **Provisions**:
+135-  1. **End of Commercial Functions**: Company ceased to be a commercial body, became purely administrative.
+136-  2. **Governor-General of India**: Governor-General of Bengal became Governor-General of India (Lord William Bentinck first).
+137-  3. **Centralisation**: All civil and military powers vested in Governor-General-in-Council.
+138-  4. **Law Member**: 4th member added to Council as Law Member (Lord Macaulay first).
+139-  5. **Indian Civil Services**: Open competition recommended (later negated), but provision made.
+140-  6. **Equality Clause**: Stated Indians not to be debarred from holding offices on grounds of religion, colour, birth etc.
+141-- **Significance**: Most important act before 1853 - final step towards centralisation; attempted to liberalise administrative structure.
+142-
+143-#### 1.2.6. Charter Act of 1853
+144-- **Provisions**:
+145-  1. **Legislative Separation**: Legislative and executive functions of Governor-General's Council separated; Legislative Council (Indian Legislative Council) created.
+146-  2. **Open Competition**: Open competition for Civil Services introduced as per Macaulay's Report.
+> build · iceman-contributor-free
+[0m$ [0mls "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/" 2>&1 | head -10
+10th - Polity.pdf
+11th - Polity.pdf
+12th - Polity - P1.pdf
+6th - Polity.pdf
+7th - Polity.pdf
+8th - Polity.pdf
+9th - Polity.pdf
+etc
+Governance in India - M. Laxmikanth.pdf
+governance upsc
+> build · iceman-contributor-free
+[0m$ [0mfind "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/" -name "*Laxmikanth*" 2>&1 | head -15
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/etc/Laxmikanth Indian Polity Handwritten Notes www.upscpdf.com.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Governance in India - M. Laxmikanth.pdf
+> build · iceman-contributor-free
+[0m$ [0mwhich pdftotext pdfinfo 2>&1 | head -2
+/usr/bin/pdftotext
+/usr/bin/pdfinfo
+> build · iceman-contributor-free
+[0m$ [0mpdfinfo "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -15
+Title:           Indian Polity - For Civil Services and Other State Examinations | 6th Edition
+Author:          M. Laxmikanth
+Creator:         calibre (4.8.0) [https://calibre-ebook.com]
+Producer:        calibre (4.8.0) [https://calibre-ebook.com]
+CreationDate:    Mon Feb 24 10:22:38 2020 IST
+ModDate:         Tue Mar  3 13:23:25 2020 IST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1531
+Encrypted:       no
+> build · iceman-contributor-free
+[0m$ [0mpdftotext -f 1 -l 50 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | grep -n "CHAPTER\|Centre-State" | head -30
+1185:Table 14.1 Articles Related to Centre-State Legislative Relations
+1187:Table 14.2 Articles Related to Centre-State Administrative
+1189:Table 14.3 Articles Related to Centre-State Financial Relations
+> build · iceman-contributor-free
+[0m$ [0mgrep -rn "CENTRE-STATE RELATIONS" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -5
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" /tmp/laxmi.txt 2>&1 | tail -2
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mgrep -rn "Centre-State" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/etc/Laxmikanth Indian Polity Handwritten Notes www.upscpdf.com.pdf" 2>&1 | head -3
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mls -lh /tmp/laxmi.txt 2>&1 | head -1
+-rw-rw-r-- 1 saksham saksham 2.1M Nov  5 00:53 /tmp/laxmi.txt
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "^CHAPTER 14\|^14\. CENTRE-STATE" /tmp/laxmi.txt | head -10
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "CENTRE-STATE RELATIONS" /tmp/laxmi.txt | head -15
+13176:TRENDS IN CENTRE-STATE RELATIONS
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "^CONTENTS\|Chapter 14" /tmp/laxmi.txt | head -20
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "FEDERAL SYSTEM" /tmp/laxmi.txt | head -10
+11899:CRITICAL EVALUATION OF THE FEDERAL SYSTEM
+> build · iceman-contributor-free
+[0m$ [0mgrep -n -A 5 "Centre-State Relations" /tmp/laxmi.txt | head -30
+11188:14. Centre-State Relations
+11189-15. Inter-State Relations
+11190-16. Emergency Provisions
+11191-
+11192-12
+11193-
+--
+12043:Centre-State Relations
+12044-
+12045-he Constitution of India, being federal in structure, divides all
+12046-powers (legislative, executive and financial) between the
+12047-Centre and the states. However, there is no division of judicial
+12048-power as the Constitution has established an integrated judicial
+--
+12280:context, the Sarkaria Commission on Centre-State Relations (1983–
+12281-88) observed: “The rule of federal supremacy is a technique to avoid
+12282-absurdity, resolve conflict and ensure harmony between the Union and
+12283-state laws. If this principle of union supremacy is excluded, it is not
+12284-difficult to imagine its deleterious results. There will be every
+12285-possibility of our two-tier political system being stultified by
+--
+13187:Tension Areas in Centre-State Relations
+13188-The issues which created tensions and conflicts between the Centre
+13189-and states are: (1) Mode of appointment and dismissal of governor;
+13190-(2) Discriminatory and partisan role of governors; (3) Imposition of
+13191-President’s Rule for partisan interests; (4) Deployment of Central
+13192-forces in the states to maintain law and order; (5) Reservation of state
+--
+13360:The Second commission on Centre-State Relations was set-up by the
+13361-Government of India in April 2007 under the Chairmanship of Madan
+> build · iceman-contributor-free
+[0m$ [0msed -n '11180,11250p' /tmp/laxmi.txt | head -80
+24. Ram Jethmalani v. Union of India (2011)
+25. Namit Sharma v. Union of India (2013)
+26. Madras Bar Association v. Union of India (2014)
+
+PART-II
+SYSTEM OF GOVERNMENT
+12. Parliamentary System
+13. Federal System
+14. Centre-State Relations
+15. Inter-State Relations
+16. Emergency Provisions
+
+12
+
+T
+
+Parliamentary System
+
+he Constitution of India provides for a parliamentary form of
+government, both at the Centre and in the states. Articles
+74 and 75 deal with the parliamentary system at the Centre
+and Articles 163 and 164 in the states.
+Modern democratic governments are classified into
+parliamentary and presidential on the basis of nature of relations
+between the executive and the legislative organs of the
+government. The parliamentary system of government is the one
+in which the executive is responsible to the legislature for its
+policies and acts. The presidential system of government, on the
+other hand, is one in which the executive is not responsible to the
+legislature for its policies and acts, and is constitutionally
+independent of the legislature in respect of its term of office.
+The parliamentary government is also known as cabinet
+government or responsible government or Westminster model of
+government and is prevalent in Britain, Japan, Canada, India
+among others. The presidential government, on the other hand, is
+also known as non-responsible or non-parliamentary or fixed
+executive system of government and is prevalent in USA, Brazil,
+Russia, Sri Lanka among others.
+Ivor Jennings called the parliamentary system as ‘cabinet
+system’ because the cabinet is the nucleus of power in a
+parliamentary system. The parliamentary government is also
+known as ‘responsible government’ as the cabinet (the real
+executive) is accountable to the Parliament and stays in office so
+long as it enjoys the latter’s confidence. It is described as
+‘Westminster model of government’ after the location of the British
+Parliament, where the parliamentary system originated.
+In the past, the British constitutional and political experts
+described the Prime Minister as ‘primus inter pares’ (first among
+equals) in relation to the cabinet. In the recent period, the Prime
+Minister’s power, influence and position have increased
+
+significantly vis-a-vis the cabinet. He has come to play a
+‘dominant’ role in the British politico-administrative system. Hence,
+the later political analysts, like Cross-man, Mackintosh and others
+have described the British system of government as ‘prime
+ministerial government’. The same description holds good in the
+Indian context too.
+
+FEATURES OF PARLIAMENTARY GOVERNMENT
+The features or principles of parliamentary government in India
+are:
+1. Nominal and Real Executives
+The President is the nominal executive (de jure executive or titular
+executive) while the Prime Minister is the real executive (de facto
+executive). Thus, the President is head of the State, while the
+Prime Minister is head of the government. Article 74 provides for a
+council of ministers headed by the Prime Minister to aid and
+advise the President in the exercise of his functions. The advice
+so tendered is binding on the President1 .
+2. Majority Party Rule
+The political party which secures majority seats in the Lok Sabha
+> build · iceman-contributor-free
+[0m$ [0msed -n '12030,12140p' /tmp/laxmi.txt | head -140
+on 25.11.1949 reproduced in The Constitution and the
+Constituent Assembly; Lok Sabha Secretariat, 1990, P.
+176.
+16. S.R. Bommai v. Union of India (1994).
+17. Subash C. Kashyap: Our Parliament, National Book
+Trust, 1999 Edition, P. 40.
+18. S.R. Bommai v. Union of India (1994). For the details of
+the judgement, see “President’s Rule” in Chapter 16.
+
+14
+
+T
+
+Centre-State Relations
+
+he Constitution of India, being federal in structure, divides all
+powers (legislative, executive and financial) between the
+Centre and the states. However, there is no division of judicial
+power as the Constitution has established an integrated judicial
+system to enforce both the Central laws as well as state laws.
+Though the Centre and the states are supreme in their respective
+fields, the maximum harmony and coordination between them is
+essential for the effective operation of the federal system. Hence, the
+Constitution contains elaborate provisions to regulate the various
+dimensions of the relations between the Centre and the states.
+The Centre-state relations can be studied under three heads:
+• Legislative relations.
+• Administrative relations.
+• Financial relations.
+
+LEGISLATIVE RELATIONS
+Articles 245 to 255 in Part XI of the Constitution deal with the
+legislative relations between the Centre and the states. Besides these,
+there are some other articles dealing with the same subject.
+Like any other Federal Constitution, the Indian Constitution also
+divides the legislative powers between the Centre and the states with
+respect to both the territory and the subjects of legislation. Further, the
+Constitution provides for the parliamentary legislation in the state field
+under five extraordinary situations as well as the centre’s control over
+state legislation in certain cases. Thus, there are four aspects in the
+Centre-states legislative relations, viz.,
+• Territorial extent of Central and state legislation;
+• Distribution of legislative subjects;
+• Parliamentary legislation in the state field; and
+• Centre’s control over state legislation.
+
+1. Territorial Extent of Central and State Legislation
+The Constitution defines the territorial limits of the legislative powers
+vested in the Centre and the states in the following way:
+(i) The Parliament can make laws for the whole or any part of the
+territory of India. The territory of India includes the states, the
+union territories, and any other area for the time being included in
+the territory of India.
+(ii) A state legislature can make laws for the whole or any part of the
+state. The laws made by a state legislature are not applicable
+outside the state, except when there is a sufficient nexus between
+the state and the object.
+(iii) The Parliament alone can make ‘extraterritorial legislation’. Thus,
+the laws of the Parliament are also applicable to the Indian
+citizens and their property in any part of the world.
+However, the Constitution places certain restrictions on the plenary
+territorial jurisdiction of the Parliament. In other words, the laws of
+Parliament are not applicable in the following areas:
+(i) The President can make regulations for the peace, progress and
+good government of the five Union Territories– the Andaman and
+Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli, Daman
+and Diu and Ladakh. A regulation so made has the same force
+
+and effect as an act of Parliament. It may also repeal or amend
+any act of Parliament in relation to these union territories.
+(ii) The governor is empowered to direct that an act of Parliament
+does not apply to a scheduled area in the state or apply with
+specified modifications and exceptions.
+(iii) The Governor of Assam may likewise direct that an act of
+Parliament does not apply to a tribal area (autonomous district) in
+the state or apply with specified modifications and exceptions.
+The President enjoys the same power with respect to tribal areas
+(autonomous districts) in Meghalaya, Tripura and Mizoram.
+
+2. Distribution of Legislative Subjects
+The Constitution provides for a three-fold distribution of legislative
+subjects between the Centre and the states, viz., List-I (the Union
+List), List-II (the State List) and List-III (the Concurrent List) in the
+Seventh Schedule:
+(i) The Parliament has exclusive powers to make laws with respect
+to any of the matters enumerated in the Union List. This list has at
+present 98 subjects (originally 971 subjects) like defence,
+banking, foreign affairs, currency, atomic energy, insurance,
+communication, inter-state trade and commerce, census, audit
+and so on.
+(ii) The state legislature has “in normal circumstances” exclusive
+powers to make laws with respect to any of the matters
+enumerated in the State List. This has at present 59 subjects
+(originally 662 subjects) like public order, police, public health and
+sanitation, agriculture, prisons, local government, fisheries,
+markets, theaters, gambling and so on.
+(iii) Both, the Parliament and state legislature can make laws with
+respect to any of the matters enumerated in the Concurrent List.
+This list has at present 52 subjects (originally 473 subjects) like
+criminal law and procedure, civil procedure, marriage and divorce,
+population control and family planning, electricity, labour welfare,
+economic and social planning, drugs, newspapers, books and
+printing press, and others. The 42nd Amendment Act of 1976
+transferred five subjects to Concurrent List from State List, that is,
+(a) education, (b) forests, (c) weights and measures, (d)
+protection of wild animals and birds, and (e) administration of
+justice; constitution and organisation of all courts except the
+Supreme Court and the high courts.
+
+(iv) Parliament has power to make laws with respect to any matter for
+any part of the territory of India not included in a state even
+> build · iceman-contributor-free
+[0m$ [0mcat >> /tmp/ch14.txt << 'EOF'
+
+## 14. CENTRE-STATE RELATIONS
+
+**[SYL: GS2-B.1] | [LAXMIKANTH: Chapter 14]**
+
+### 14.1. Introduction
+- **Federal Structure**: Constitution of India is federal in structure, divides powers (legislative, executive and financial) between Centre and States
+- **Integrated Judiciary**: No division of judicial power - single integrated judicial system enforces both Central and State laws
+- **Need for Coordination**: Though supreme in their respective fields, maximum harmony and coordination essential for effective operation of federal system
+- **Three Dimensions**: Legislative relations, Administrative relations and Financial relations (Art. 245-293)
+
+### 14.2. LEGISLATIVE RELATIONS (ARTICLES 245-255)
+
+#### 14.2.1. Territorial Extent of Central and State Legislation
+- **Parliament**: Can make laws for whole or any part of territory of India (States + UTs + other areas)
+- **State Legislature**: Can make laws for whole or any part of the State. Laws not applicable outside state except sufficient nexus between state and object
+- **Extrateritorial Legislation**: Only Parliament can make extraterritorial legislation (laws applicable to Indian citizens and their property anywhere in the world)
+
+**Restrictions on Parliament's territorial jurisdiction:**
+- **UTs with regulations**: President can make regulations for peace, progress and good government of Andaman & Nicobar Islands, Lakshadweep, Dadra & Nagar Haveli, Daman & Diu and Ladakh (have force of Act of Parliament; can repeal/amend Parliamentary acts)
+- **Scheduled Areas**: Governor can direct Act of Parliament not apply/apply with modifications to Scheduled Areas in the state
+- **Tribal Areas**: Governor of Assam (for tribal areas in Assam) and President (for tribal areas in Meghalaya, Tripura, Mizoram) can give similar directions
+
+#### 14.2.2. Distribution of Legislative Subjects (Seventh Schedule)
+Three-fold distribution:
+
+| List | Authority | Subjects | Count (present) | Examples |
+|------|-----------|----------|-----------------|----------|
+| **List-I (Union List)** | Parliament - Exclusive | Union subjects | 98 (originally 97) | Defence, Banking, Foreign Affairs, Currency, Atomic Energy, Insurance, Communication, Inter-State Trade & Commerce, Census, Audit |
+| **List-II (State List)** | State Legislature - Exclusive (normal circumstances) | State subjects | 59 (originally 66) | Public Order, Police, Public Health & Sanitation, Agriculture, Prisons, Local Govt, Fisheries, Markets, Theatres, Gambling |
+| **List-III (Concurrent List)** | Both Parliament and State Legislature | Concurrent subjects | 52 (originally 47) | Criminal law & procedure, Civil procedure, Marriage & Divorce, Population control & Family Planning, Electricity, Labour welfare, Economic & social planning, Drugs, Newspapers/Books/Press, Education, Forests, Weights & Measures, Protection of wild animals/birds, Administration of justice (added by 42nd Amendment 1976) |
+
+- **Residuary Powers**: Art. 248 read with Entry 97 of Union List vests residuary powers with Parliament (unlike USA where residuary with states). 42nd Amendment also gave Parliament power on residuary subjects.
+
+#### 14.2.3. Parliamentary Legislation in the State Field (Art. 249-252)
+Under extraordinary circumstances, Parliament can legislate on State List subjects:
+
+| Provision | When Applicable | Effect |
+|-----------|-----------------|---------|
+| **Art. 249** | Rajya Sabha passes resolution by 2/3rd members present and voting that it is necessary in national interest | Parliament can make laws on State List subjects for whole/any part of India. Resolution remains in force max 1 year (renewable). Becomes inoperative if SR passes contrary resolution. |
+| **Art. 250** | During National Emergency (Art. 352) | Parliament gets power to legislate on State List subjects. Continues till 6 months after emergency ends. |
+| **Art. 251** | Inconsistency between laws made under Art. 249/250 and State laws | Law made by Parliament prevails; State law void to extent of repugnancy. |
+| **Art. 252** | Two or more states pass resolutions requesting Parliament to legislate | Parliament can legislate for those states. Any other state can adopt by passing resolution. Becomes applicable to adopting states. Can be amended/repealed only by Parliament. |
+| **Art. 253** | To give effect to international treaties/agreements | Parliament can legislate on any subject even in State List to implement treaties, agreements or conventions with foreign countries. |
+
+#### 14.2.4. Centre's Control Over State Legislation
+- **Assent to Bills**: Governor reserves certain bills for President's consideration (Art. 200). President can assent/withhold assent/return (except Money Bills).
+- **Bills on certain subjects**: Bills affecting taxation in which states are interested, bills imposing restrictions on freedom of trade/commerce etc may need prior sanction of President (Art. 304(b) proviso etc).
+- **Art. 288**: Exemption from taxation by states in certain cases with President's approval
+- **Art. 290-A**: Grants from Centre to certain states (Assam, Bengal, Bihar, Orissa) - statutory grants
+- **Art. 304**: Restrictions on trade/commercial relations - states can impose restrictions with President's previous sanction
+- **Art. 356/360**: During President's Rule/Financial Emergency, Centre's powers expanded
+
+**Doctrine of Repugnancy (Art. 254)**:
+- If valid Central law and valid State law on Concurrent List conflict → Central law prevails, State law void to extent of repugnancy
+- State law repugnant to earlier Central law can prevail if it has received President's assent (exception)
+- In case of repugnancy between State law and law made under Art. 249/250/252/253 → Parliamentary law prevails
+
+EOF
+echo "---CH14 PART1 DONE---"
+
+---CH14 PART1 DONE---
+> build · iceman-contributor-free
+[0m$ [0mcat >> /tmp/ch14.txt << 'EOF'
+
+### 14.3. ADMINISTRATIVE RELATIONS (ARTICLES 256-263)
+
+#### 14.3.1. General Provisions
+- **Art. 256**: Obligation of States and Union - Executive power of State must be exercised to ensure compliance with Union laws; Union can give directions
+- **Art. 257**: Control of Union over States in certain cases - States must not impede/exercise executive power contrary to Union's executive power; Union can give directions; can also delegate functions
+- **Art. 257A**: Repealed by 44th Amendment Act, 1978
+- **Art. 258**: Power of Union to confer powers, etc., on States in certain cases (with consent) - can entrust Union functions to State
+- **Art. 258A**: Power of States to entrust functions to Union (added by 7th Amendment, with consent of Union)
+- **Art. 261**: Public acts, records and judicial proceedings of Union/States are recognized throughout India
+- **Art. 262**: Adjudication of disputes relating to waters of inter-State rivers/river valleys - Parliament can provide by law (excludes jurisdiction of SC)
+- **Art. 263**: Provisions for inter-State Council
+
+#### 14.3.2. Directions by Centre to States (Art. 256, 257)
+Centre can issue directions to states on:
+1. Construction and maintenance of means of communication declared to be of national/military importance
+2. Measures for protection of railways
+3. Provision of adequate facilities for instruction in mother-tongue at primary stage to linguistic minorities
+4. Drawing up and execution of schemes for welfare of STs and equal opportunities for SCs
+5. Any other matter as per Constitution
+
+**Sanction**: If state fails to comply, President can hold that state has failed to comply with Constitution's provisions (Art. 355) - basis for imposing President's Rule (Art. 356)
+
+#### 14.3.3. All-India Services (AIS)
+- **Origin**: Art. 312 - Rajya Sabha can pass resolution by 2/3rd to create one/more AIS common to Union and States
+- **Present AIS**: Indian Administrative Service (IAS), Indian Police Service (IPS), Indian Forest Service (IFS) - created under All-India Services Act, 1951
+- **Recruitment**: By UPSC
+- **Control**: Dual control - Cadre State controls posting/promotion within state (with Centre's approval for certain matters), Centre has disciplinary control
+- **Purpose**: Ensures uniformity in administration, helps national integration, provides experienced administrative machinery
+- **Role**: Act as link between Centre and States
+
+#### 14.3.4. Public Service Commissions
+- **Art. 315**: Union Public Service Commission (UPSC) and State Public Service Commissions (SPSCs)
+- **Art. 320**: Functions - conduct examinations, advise on recruitment, promotions, disciplinary matters
+- **Art. 321**: Parliament/State Legislatures can extend functions
+- **Joint State Public Service Commission (JSPSC)**: Art. 315(3) - two or more states can request, Parliament can create
+
+#### 14.3.5. Inter-State Council (Art. 263)
+- **Established**: By Presidential Order in 1990 on recommendation of Sarkaria Commission (though provision existed since 1950)
+- **Composition**: PM as Chairman, CM of all states/UTs with legislature, Administrators of UTs without legislature, 6 Union Ministers of Cabinet rank nominated by PM
+- **Functions**: Investigate/discuss subjects of common interest between Union and States, make recommendations for better coordination
+- **Status**: Non-permanent constitutional body
+
+#### 14.3.6. Zonal Councils
+- **Statutory bodies**: Created by States Reorganisation Act, 1956 under Ministry of Home Affairs
+- **Five Zonal Councils**: Northern, Central, Eastern, Western, Southern (+ North-Eastern Council created separately by Act of 1971)
+- **Chairman**: Union Home Minister; Vice-Chairman - CM of rotating state
+- **Objective**: Promote cooperation and coordination among states/zones
+
+### 14.4. FINANCIAL RELATIONS (ARTICLES 268-293)
+
+#### 14.4.1. Distribution of Tax Revenues
+**Union List taxes**: Exclusively Centre (e.g., customs duties, corporate tax, income tax except agricultural income, excise duties except on alcohol/opium/narcotics/medicinal toilet preparations)
+**State List taxes**: Exclusively States (e.g., land revenue, agricultural income tax, stamp duty, excise on alcohol, taxes on land/buildings, sales tax/VAT earlier, profession tax, electricity duties)
+**Concurrent List**: No tax entries (taxation mostly Union/State)
+**Art. 268**: Duties levied by Union but collected and appropriated by States (e.g., stamp duties mentioned in Union List)
+**Art. 269**: Taxes levied and collected by Union but assigned to States (e.g., taxes on sale/purchase of goods in inter-state trade - now mostly GST, consignment tax etc)
+**Art. 270**: Taxes levied and collected by Union and distributed between Union and States (e.g., Income Tax as per Finance Commission recommendations)
+**Art. 271**: Surcharge on certain duties and taxes for purposes of Union
+
+#### 14.4.2. Goods and Services Tax (GST) - 101st Amendment Act 2016
+- **Introduced**: 1st July 2017
+- **Mechanism**: Destination-based consumption tax, dual GST (CGST + SGST/UTGST)
+- **IGST**: For inter-state supply (levied by Centre, apportioned)
+- **GST Council** (Art. 279A): Constitutional body to make recommendations on GST rates, exemptions, thresholds, laws etc. Chair: Union Finance Minister; Members: Union MoS Finance + State Finance Ministers. Decision by 3/4th majority (Centre has 1/3 weight, states 2/3)
+- **Impact**: One nation, one tax (major reform), subsumed many indirect taxes
+
+#### 14.4.3. Grants-in-Aid (Art. 275, 282)
+- **Art. 275**: Statutory grants from Union to States (especially states in need of assistance) as per Finance Commission recommendations
+- **Art. 282**: Discretionary grants - Union or States can make grants for any public purpose even if outside their legislative competence (used for schemes/programmes)
+- **Finance Commission**: Art. 280 - quasi-judicial body every 5 years to recommend distribution of tax proceeds and grants-in-aid
+
+#### 14.4.4. Borrowing Powers (Art. 292-293)
+- **Union**: Can borrow within/outside India upon security of Consolidated Fund of India
+- **States**: Can borrow within India only (upon security of Consolidated Fund of State). Need Centre's consent if still indebted to Centre
+
+#### 14.4.5. Centre-State Financial Relations - Key Features
+- **Dependency**: States heavily dependent on Centre for financial resources (due to limited taxing powers, growing expenditures)
+- **Finance Commission**: Ensures equitable distribution
+- **Planning Commission/NITI Aayog**: Earlier through Plan grants, now NITI Aayog (non-constitutional) promotes cooperative federalism
+- **Fiscal Federalism**: Increasing emphasis on cooperative fiscal federalism post-GST
+
+EOF
+echo "---CH14 PART2 DONE---"
+
+---CH14 PART2 DONE---
+> build · iceman-contributor-free
+[0m$ [0mcat >> /tmp/ch14.txt << 'EOF'
+
+### 14.5. IMPORTANT DOCTRINES & PRINCIPLES
+
+| Doctrine/Principle | Explanation | Relevance |
+|--------------------|-------------|-----------|
+| **Federal Supremacy (Art. 246)** | In case of conflict between Union and State law in concurrent sphere, Union law prevails (Art. 254) | Maintains Centre's primacy |
+| **Doctrine of Pith and Substance** | If legislation covers mainly subject from one list but incidentally encroaches on another, validity upheld based on true nature | Resolves incidental encroachment issues |
+| **Doctrine of Colourable Legislation** | Legislature cannot do indirectly what it cannot do directly | Prevents circumvention of constitutional limits |
+| **Doctrine of Repugnancy (Art. 254)** | Direct conflict - Union law prevails; State law can survive with President's assent if earlier repugnant to subsequent Union law in some interpretations | Key conflict resolution mechanism |
+| **Territorial Nexus** | State law can have extra-territorial operation if sufficient nexus between state and object | Expands state legislative reach reasonably |
+
+### 14.6. CENTRE-STATE RELATIONS - TRENDS & ISSUES
+
+#### 14.6.1. Commissions on Centre-State Relations
+- **Administrative Reforms Commission (ARC) 1966-70**: Made recommendations on Centre-State relations
+- **Rajamannar Committee (1969)**: Appointed by Tamil Nadu Govt, recommended abolition of Art. 356, greater state autonomy
+- **Anandpur Sahib Resolution (1973)**: Akali Dal demanded greater autonomy
+- **Sarkaria Commission (1983-88)**: Most comprehensive - Chairman Justice R.S. Sarkaria. Made 247 recommendations. Key: Art. 356 should be used sparingly, Inter-State Council should be established, Governor's role emphasized, greater consultation
+- **Punchhi Commission (2007-2010)**: Chairman Justice M.M. Punchhi. Focused on issues like Governor, President's Rule, concurrent jurisdiction, internal security. Recommended appointment of Governor through committee, safeguards against arbitrary use of Art. 356
+
+#### 14.6.2. Key Tensions
+- **Governor's Role**: Partisan appointments/use, discretion in inviting CM, reservation of bills, recommending President's Rule
+- **President's Rule (Art. 356)**: Frequent use for political reasons - checked by **S.R. Bommai v. Union of India (1994)** which ruled that President's Rule is subject to judicial review; majority test to be in Assembly, not outside
+- **Use of Central Forces**: Deployment under Art. 355 without state consent often contested
+- **Financial Dependence**: States demand more fiscal autonomy
+- **Centrally Sponsored Schemes (CSS)**: States allege top-down approach, conditionalities
+- **GST Implementation**: Centre-State coordination via GST Council - example of cooperative federalism
+
+#### 14.6.3. Shift Towards Cooperative Federalism
+- **Concept**: Granville Austin described Indian federalism as "cooperative federalism" - Centre and States work together as partners
+- **NITI Aayog**: Replaced Planning Commission (2015) - promotes cooperative and competitive federalism
+- **GST Council**: Exemplifies cooperative federalism
+- **Inter-State Council revitalized**: Regular meetings
+- **Zonal Councils**: Active
+- **COVID-19 response**: Showed Centre-State coordination
+
+### 14.7. PYQs & MIND MAP
+
+**Prelims Focus:**
+- Art. 249-254, 256-263, 268-293
+- Union/State/Concurrent Lists
+- Residuary powers with Centre
+- Doctrine of repugnancy, pith and substance, colourable legislation
+- Sarkaria vs Punchhi Commission recommendations
+- S.R. Bommai case (Art. 356)
+- GST Council, Art. 279A
+- Inter-State Council (Art. 263)
+
+**Mains Themes:**
+- Centre-State relations: tensions and trends towards cooperative federalism
+- Role of Governor and use of Art. 356
+- Financial federalism and GST
+- All-India Services - relevance
+- Impact of 42nd, 44th, 101st Amendments on federalism
+
+**Mind Map:**
+- *Centre-State Relations* → Legislative (Art.245-255) + Administrative (Art.256-263) + Financial (Art.268-293)
+- Legislative: Territorial + Subject Distribution + Art.249-253 + Art.254
+- Administrative: Directions + AIS + Inter-State Council
+- Financial: Tax distribution + Grants + Borrowing + Finance Commission + GST Council
+
+---
+
+
+---
+EOF
+echo "---CH14 DONE---"
+
+---CH14 DONE---
+> build · iceman-contributor-free
+[0m$ [0mcat /tmp/ch14.txt >> "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" && echo "---APPENDED---" && tail -15 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | grep "^##" | tail -5
+---APPENDED---
+> build · iceman-contributor-free
+I'll start by logging and checking current state, then proceed chapter by chapter as requested.
+
+**[LOG]** Action: Read task file at `/media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md` and understood requirements.
+**[LOG]** Action: Checked target notes file at `/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md`. Last chapter found: **Chapter 13 (FEDERAL SYSTEM)** - started but incomplete (minimal content).
+**[LOG]** Action: Next per TOC is **Chapter 14 (CENTRE-STATE RELATIONS)**.
+**[LOG]** Action: Located sources - Laxmikanth 6th edition PDF at Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf. Extracted text to /tmp/laxmi.txt for reference.
+**[LOG]** Action: Reading from extracted Laxmikanth text (Chapter 14 content around lines ~12043+ in extracted text) to understand structure and key points.
+
+**CURRENT STATUS:** Starting Chapter 14 - Centre-State Relations. Working systematically from where we left off.
+**[LOG]** Chapter: 14 (CENTRE-STATE RELATIONS) | Reading: Laxmikanth Ch. 14 content from extracted PDF text | Writing: Appending comprehensive UPSC-oriented notes in existing format
+
+I just completed writing and appending **Chapter 14: CENTRE-STATE RELATIONS** with all sections:
+- Introduction, Legislative Relations (Art. 245-255) - territorial extent, subject distribution (Union/State/Concurrent lists), Art. 249-253, Art. 254 repugnancy, Centre's control
+- Administrative Relations (Art. 256-263) - directions, All-India Services, Inter-State Council, Zonal Councils
+- Financial Relations (Art. 268-293) - tax distribution, GST (101st Amendment, Art. 279A, GST Council), grants, borrowing
+- Doctrines (pith & substance, colourable legislation, repugnancy, territorial nexus)
+- Commissions (Sarkaria, Punchhi), Art. 356/SR Bommai, cooperative federalism trends
+- PYQs & Mind Map
+
+**[PROGRESS]** Last chapter in file is now **Chapter 14**. Next up: **Chapter 15 (INTER-STATE RELATIONS)** per TOC.
+
+**[LOG]** Action: Appended Chapter 14 to target notes file. File now ends with Chapter 14 content.
+
+Ready to proceed to Chapter 15. Any clarification needed on depth/scope/style? No obvious blockers.

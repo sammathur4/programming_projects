@@ -1,14 +1,112 @@
 from django.db import models
 from django.contrib.auth.models import User
 from pathlib import Path
-from django.db import models
 from django.conf import settings
+from django.utils import timezone
 
 
 def answer_upload_path(instance, filename):
     suffix = Path(filename).suffix.lower() or ".bin"
     learner = instance.attempt.learner.user.username
     return f"answer_uploads/{learner}/attempt-{instance.attempt_id}/{instance.question_key}{suffix}"
+
+
+# ---------------------------------------------------------------------------
+# Question bank — imported from the Opencode UPSC plan CSVs.
+# Three separate tables: Prelims GS, CSAT, Mains + Sociology.
+# ---------------------------------------------------------------------------
+
+
+class PrelimsGsQuestion(models.Model):
+    question_id = models.IntegerField()
+    year = models.IntegerField()
+    paper = models.CharField(max_length=50, default="Prelims GS")
+    section = models.TextField(blank=True, null=True)
+    question = models.TextField()
+    option_a = models.TextField(blank=True, null=True)
+    option_b = models.TextField(blank=True, null=True)
+    option_c = models.TextField(blank=True, null=True)
+    option_d = models.TextField(blank=True, null=True)
+    correct_answer = models.TextField(blank=True, null=True)
+    explanation = models.TextField(blank=True, null=True)
+    motivation = models.TextField(blank=True, null=True)
+    difficulty = models.CharField(max_length=20, blank=True, null=True)
+    nature = models.CharField(max_length=50, blank=True, null=True)
+    source = models.TextField(blank=True, null=True)
+    source_type = models.CharField(max_length=50, blank=True, null=True)
+    tags = models.TextField(blank=True, null=True)
+    relevance = models.TextField(blank=True, null=True)
+    current_affairs_linkage = models.TextField(blank=True, null=True)
+    why_correct = models.TextField(blank=True, null=True)
+    marks = models.FloatField(blank=True, null=True)
+    negative_marks = models.FloatField(blank=True, null=True)
+    question_key = models.CharField(max_length=120, unique=True)
+
+    class Meta:
+        db_table = "prelims_gs_questions"
+        ordering = ["-year", "question_id"]
+
+    def __str__(self):
+        return f"Prelims GS {self.year} Q{self.question_id}"
+
+
+class CsatQuestion(models.Model):
+    question_id = models.IntegerField()
+    year = models.IntegerField()
+    paper = models.CharField(max_length=50, default="Prelims CSAT")
+    section = models.TextField(blank=True, null=True)
+    question = models.TextField()
+    option_a = models.TextField(blank=True, null=True)
+    option_b = models.TextField(blank=True, null=True)
+    option_c = models.TextField(blank=True, null=True)
+    option_d = models.TextField(blank=True, null=True)
+    correct_answer = models.TextField(blank=True, null=True)
+    explanation = models.TextField(blank=True, null=True)
+    motivation = models.TextField(blank=True, null=True)
+    difficulty = models.CharField(max_length=20, blank=True, null=True)
+    nature = models.CharField(max_length=50, blank=True, null=True)
+    source = models.TextField(blank=True, null=True)
+    tags = models.TextField(blank=True, null=True)
+    marks = models.FloatField(blank=True, null=True)
+    negative_marks = models.FloatField(blank=True, null=True)
+    question_key = models.CharField(max_length=120, unique=True)
+
+    class Meta:
+        db_table = "csat_questions"
+        ordering = ["-year", "question_id"]
+
+    def __str__(self):
+        return f"CSAT {self.year} Q{self.question_id}"
+
+
+class MainsQuestion(models.Model):
+    question_id = models.CharField(max_length=50)
+    year = models.IntegerField()
+    paper = models.CharField(max_length=20)
+    subject = models.TextField(blank=True, null=True)
+    question = models.TextField()
+    section = models.TextField(blank=True, null=True)
+    marks = models.FloatField(blank=True, null=True)
+    max_word_limit = models.IntegerField(blank=True, null=True)
+    source_question_ids = models.TextField(blank=True, null=True)
+    source_file = models.TextField(blank=True, null=True)
+    difficulty = models.CharField(max_length=20, blank=True, null=True)
+    nature = models.CharField(max_length=30, blank=True, null=True)
+    master_theme = models.CharField(max_length=120, blank=True, null=True)
+    syllabus_tags = models.TextField(blank=True, null=True)
+    question_key = models.CharField(max_length=120, unique=True)
+
+    class Meta:
+        db_table = "mains_questions"
+        ordering = ["-year", "paper", "question_id"]
+
+    def __str__(self):
+        return f"{self.paper} {self.year} {self.question_id}"
+
+
+# ---------------------------------------------------------------------------
+# Syllabus hierarchy (unmanaged — reference data)
+# ---------------------------------------------------------------------------
 
 
 class SyllabusPaper(models.Model):
@@ -24,9 +122,6 @@ class SyllabusPaper(models.Model):
         managed = False
         db_table = "syllabus_papers"
         ordering = ["id"]
-
-    def __str__(self):
-        return self.name
 
 
 class SyllabusSection(models.Model):
@@ -46,9 +141,6 @@ class SyllabusSection(models.Model):
         db_table = "syllabus_sections"
         ordering = ["paper_id", "sort_order"]
 
-    def __str__(self):
-        return f"{self.paper.code}: {self.name}"
-
 
 class SyllabusPoint(models.Model):
     section = models.ForeignKey(
@@ -67,93 +159,10 @@ class SyllabusPoint(models.Model):
         db_table = "syllabus_points"
         ordering = ["section_id", "sort_order"]
 
-    def __str__(self):
-        return self.point
 
-
-class PrelimsQuestion(models.Model):
-    question_id = models.IntegerField()
-    year = models.IntegerField()
-    section = models.TextField(blank=True, null=True)
-    question = models.TextField(blank=True, null=True)
-    option_a = models.TextField(blank=True, null=True)
-    option_b = models.TextField(blank=True, null=True)
-    option_c = models.TextField(blank=True, null=True)
-    option_d = models.TextField(blank=True, null=True)
-    correct_answer = models.TextField(blank=True, null=True)
-    explanation = models.TextField(blank=True, null=True)
-    motivation = models.TextField(blank=True, null=True)
-    difficulty = models.TextField(blank=True, null=True)
-    nature = models.TextField(blank=True, null=True)
-    source = models.TextField(blank=True, null=True)
-    source_type = models.TextField(blank=True, null=True)
-    source_file = models.TextField(blank=True, null=True)
-    created_at = models.DateTimeField(null=True, editable=False)
-    updated_at = models.DateTimeField(null=True, editable=False)
-
-    class Meta:
-        managed = False
-        db_table = "prelims_questions"
-        ordering = ["-year", "question_id"]
-
-    def __str__(self):
-        return f"Prelims {self.year} Q{self.question_id}"
-
-
-class MainsQuestion(models.Model):
-    id = models.AutoField(primary_key=True)
-
-    question_id = models.TextField(unique=True)
-    year = models.IntegerField()
-    paper = models.TextField()
-    subject = models.TextField(blank=True, null=True)
-    question = models.TextField()
-
-    syllabus_tags = models.TextField(blank=True, null=True)
-    section = models.TextField(blank=True, null=True)
-
-    option_a = models.TextField(blank=True, null=True)
-    option_b = models.TextField(blank=True, null=True)
-    option_c = models.TextField(blank=True, null=True)
-    option_d = models.TextField(blank=True, null=True)
-
-    correct_answer = models.TextField(blank=True, null=True)
-    explanation = models.TextField(blank=True, null=True)
-    motivation = models.TextField(blank=True, null=True)
-
-    difficulty = models.TextField(blank=True, null=True)
-    nature = models.TextField(blank=True, null=True)
-
-    source = models.TextField(blank=True, null=True)
-    source_type = models.TextField(blank=True, null=True)
-    source_file = models.TextField(blank=True, null=True)
-
-    created_at = models.DateTimeField(null=True, editable=False)
-    updated_at = models.DateTimeField(null=True, editable=False)
-
-    tags = models.TextField(blank=True, null=True)
-
-    relevance = models.TextField(blank=True, null=True)
-    current_affairs_linkage = models.TextField(blank=True, null=True)
-    is_repeated_theme = models.BooleanField(default=False)
-
-    option_a_explanation = models.TextField(blank=True, null=True)
-    option_b_explanation = models.TextField(blank=True, null=True)
-    option_c_explanation = models.TextField(blank=True, null=True)
-    option_d_explanation = models.TextField(blank=True, null=True)
-
-    why_correct = models.TextField(blank=True, null=True)
-
-    marks = models.FloatField(blank=True, null=True)
-    max_word_limit = models.IntegerField(blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = "mains_questions"
-        ordering = ["-year", "paper", "question_id"]
-
-    def __str__(self):
-        return f"{self.paper} {self.year} {self.question_id}"
+# ---------------------------------------------------------------------------
+# Learner / attempts / responses
+# ---------------------------------------------------------------------------
 
 
 class LearnerAccount(models.Model):
@@ -174,35 +183,6 @@ class LearnerAccount(models.Model):
 
     def __str__(self):
         return self.display_name or self.user.username
-
-
-class Progress(models.Model):
-    learner = models.ForeignKey(
-        LearnerAccount, on_delete=models.CASCADE, related_name="progress_records"
-    )
-    node_id = models.CharField(max_length=120)
-    node_type = models.CharField(max_length=20, default="topic")
-    questions_seen = models.PositiveIntegerField(default=0)
-    questions_attempted = models.PositiveIntegerField(default=0)
-    correct_answers = models.PositiveIntegerField(default=0)
-    last_attempted_at = models.DateTimeField(blank=True, null=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        constraints = [
-            models.UniqueConstraint(
-                fields=["learner", "node_id"], name="unique_learner_progress_node"
-            ),
-        ]
-
-    @property
-    def accuracy(self):
-        if not self.questions_attempted:
-            return 0
-        return round(self.correct_answers * 100 / self.questions_attempted, 2)
-
-    def __str__(self):
-        return f"{self.learner} · {self.node_id}"
 
 
 class Attempt(models.Model):
@@ -248,7 +228,10 @@ class AttemptResponse(models.Model):
     attachment = models.FileField(upload_to=answer_upload_path, blank=True, null=True)
     is_correct = models.BooleanField(blank=True, null=True)
     score = models.DecimalField(max_digits=8, decimal_places=2, blank=True, null=True)
-    answered_at = models.DateTimeField(auto_now=True)
+    answered_at = models.DateTimeField(default=timezone.now)
+    # Set once on create — never re-dated on save. Completion date = local_date.
+    local_date = models.DateField(default=timezone.localdate, db_index=True)
+    depth = models.CharField(max_length=10, blank=True, null=True)
     elapsed_seconds = models.PositiveIntegerField(blank=True, null=True)
 
     class Meta:
@@ -262,6 +245,28 @@ class AttemptResponse(models.Model):
 
     def __str__(self):
         return f"{self.attempt_id} · {self.question_key}"
+
+
+class DailyChallenge(models.Model):
+    date = models.DateField(db_index=True)
+    track = models.CharField(max_length=10)
+    question_key = models.CharField(max_length=120)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = "syllabus_dailychallenge"
+        constraints = [
+            models.UniqueConstraint(fields=["date", "track"], name="unique_daily_challenge"),
+        ]
+        ordering = ["-date", "track"]
+
+    def __str__(self):
+        return f"{self.date} · {self.track} · {self.question_key}"
+
+
+# ---------------------------------------------------------------------------
+# Question actions
+# ---------------------------------------------------------------------------
 
 
 class QuestionBookmark(models.Model):
@@ -358,7 +363,7 @@ class QuestionReview(models.Model):
             models.UniqueConstraint(
                 fields=["learner", "question_key"],
                 name="unique_learner_question_review",
-            )
+            ),
         ]
 
     def __str__(self):
@@ -366,10 +371,7 @@ class QuestionReview(models.Model):
 
 
 class ApiLog(models.Model):
-    """
-    Stores request + response of every API call.
-    Logging happens only on the way out (in the middleware's process_response).
-    """
+    """Every API call, logged on the way out by the middleware."""
 
     METHOD_CHOICES = [
         ("GET", "GET"),
@@ -381,18 +383,15 @@ class ApiLog(models.Model):
         ("HEAD", "HEAD"),
     ]
 
-    # Request side
     path = models.CharField(max_length=512, db_index=True)
     method = models.CharField(max_length=10, choices=METHOD_CHOICES, db_index=True)
     query_params = models.JSONField(default=dict, blank=True)
-    request_body = models.JSONField(null=True, blank=True)  # sanitized input
-    headers = models.JSONField(default=dict, blank=True)  # selected headers only
+    request_body = models.JSONField(null=True, blank=True)
+    headers = models.JSONField(default=dict, blank=True)
 
-    # Response side
     status_code = models.PositiveSmallIntegerField(db_index=True)
-    response_body = models.JSONField(null=True, blank=True)  # sanitized output
+    response_body = models.JSONField(null=True, blank=True)
 
-    # Context
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         null=True,
@@ -403,9 +402,8 @@ class ApiLog(models.Model):
     ip_address = models.GenericIPAddressField(null=True, blank=True)
     user_agent = models.TextField(blank=True)
 
-    # Timing & error
     duration_ms = models.PositiveIntegerField(null=True, blank=True)
-    error_message = models.TextField(blank=True)  # filled by helper or exception
+    error_message = models.TextField(blank=True)
     traceback = models.TextField(blank=True)
 
     created_at = models.DateTimeField(auto_now_add=True, db_index=True)

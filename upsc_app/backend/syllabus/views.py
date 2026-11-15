@@ -1,16 +1,17 @@
 from django.http import JsonResponse
 from django.db import connection
-from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.decorators import login_required
 from django.db import transaction
 from django.db.models import Q
 from django.utils import timezone
 from django.views.decorators.csrf import csrf_exempt
+from .local import local_learner_required
+from .http import json_error
 from .models import (
     Attempt,
     AttemptResponse,
-    LearnerAccount,
-    Progress,
+    PrelimsGsQuestion,
+    CsatQuestion,
+    MainsQuestion,
     QuestionBookmark,
     QuestionNote,
     Goal,
@@ -28,7 +29,7 @@ def _key(value):
 
 
 def _paper_code(stage, paper, source_file=""):
-    if stage == "prelims":
+    if stage in ("prelims", "csat"):
         return "prelims-csat" if _key(paper).startswith("prelims csat") else "prelims-gs"
     return {
         "essay": "essay",
@@ -166,21 +167,22 @@ def _read_questions():
     questions = []
     with connection.cursor() as cursor:
         cursor.execute("""
-            SELECT id, question_id, paper, year, section, question, option_a,
-                   option_b, option_c, option_d, correct_answer, explanation,
-                   motivation, difficulty, source_file, question_number, marks,
-                   negative_marks
-            FROM prelims_questions
+            SELECT question_key, question_id, paper, year, section, question,
+                   option_a, option_b, option_c, option_d, correct_answer,
+                   explanation, motivation, difficulty, nature, source,
+                   source_type, tags, relevance, current_affairs_linkage,
+                   why_correct, marks, negative_marks
+            FROM prelims_gs_questions
             ORDER BY year DESC, question_id
         """)
         for row in cursor.fetchall():
             questions.append(
                 {
-                    "id": f"prelims-{row[0]}",
+                    "id": row[0],
                     "stage": "prelims",
                     "paper": row[2] or "Prelims GS",
                     "year": row[3],
-                    "question_number": row[15] or row[1],
+                    "question_number": row[1],
                     "exam_question_id": row[1],
                     "section": row[4],
                     "question": row[5],
@@ -189,52 +191,61 @@ def _read_questions():
                     "explanation": row[11],
                     "motivation": row[12],
                     "difficulty": row[13],
-                    "source_file": row[14],
-                    "marks": row[16],
-                    "negative_marks": row[17],
+                    "nature": row[14],
+                    "source": row[15],
+                    "source_type": row[16],
+                    "tags": row[17],
+                    "relevance": row[18],
+                    "current_affairs_linkage": row[19],
+                    "why_correct": row[20],
+                    "marks": row[21],
+                    "negative_marks": row[22],
                     "word_limit": None,
                 }
             )
         cursor.execute("""
-            SELECT
-                id,
-                question_id,
-                paper,
-                year,
-                subject,
-                question,
-                syllabus_tags,
-                section,
-                option_a,
-                option_b,
-                option_c,
-                option_d,
-                correct_answer,
-                explanation,
-                motivation,
-                difficulty,
-                nature,
-                source,
-                source_type,
-                source_file,
-                tags,
-                relevance,
-                current_affairs_linkage,
-                is_repeated_theme,
-                option_a_explanation,
-                option_b_explanation,
-                option_c_explanation,
-                option_d_explanation,
-                why_correct,
-                marks,
-                max_word_limit
-            FROM mains_questions
-            ORDER BY year DESC, paper, id
+            SELECT question_key, question_id, paper, year, section, question,
+                   option_a, option_b, option_c, option_d, correct_answer,
+                   explanation, motivation, difficulty, nature, source, tags,
+                   marks, negative_marks
+            FROM csat_questions
+            ORDER BY year DESC, question_id
         """)
         for row in cursor.fetchall():
             questions.append(
                 {
-                    "id": f"mains-{row[0]}",
+                    "id": row[0],
+                    "stage": "csat",
+                    "paper": row[2] or "Prelims CSAT",
+                    "year": row[3],
+                    "question_number": row[1],
+                    "exam_question_id": row[1],
+                    "section": row[4],
+                    "question": row[5],
+                    "options": _question_options(row[6:10]),
+                    "answer": row[10],
+                    "explanation": row[11],
+                    "motivation": row[12],
+                    "difficulty": row[13],
+                    "nature": row[14],
+                    "source": row[15],
+                    "tags": row[16],
+                    "marks": row[17],
+                    "negative_marks": row[18],
+                    "word_limit": None,
+                }
+            )
+        cursor.execute("""
+            SELECT question_key, question_id, paper, year, subject, question,
+                   syllabus_tags, section, difficulty, nature, source_file,
+                   marks, max_word_limit, master_theme
+            FROM mains_questions
+            ORDER BY year DESC, paper, question_id
+        """)
+        for row in cursor.fetchall():
+            questions.append(
+                {
+                    "id": row[0],
                     "stage": "mains",
                     "paper": row[2],
                     "year": row[3],
@@ -244,28 +255,23 @@ def _read_questions():
                     "question": row[5],
                     "syllabus_tags": row[6],
                     "section": row[7],
-                    "options": _question_options(row[8:12]),
-                    "answer": row[12],
-                    "explanation": row[13],
-                    "motivation": row[14],
-                    "difficulty": row[15],
-                    "nature": row[16],
-                    "source": row[17],
-                    "source_type": row[18],
-                    "source_file": row[19],
-                    "tags": row[20],
-                    "relevance": row[21],
-                    "current_affairs_linkage": row[22],
-                    "is_repeated_theme": bool(row[23]),
-                    "option_explanations": {
-                        "a": row[24],
-                        "b": row[25],
-                        "c": row[26],
-                        "d": row[27],
-                    },
-                    "why_correct": row[28],
-                    "marks": row[29],
-                    "word_limit": row[30],
+                    "options": [],
+                    "answer": None,
+                    "explanation": None,
+                    "motivation": None,
+                    "difficulty": row[8],
+                    "nature": row[9],
+                    "source": row[10],
+                    "source_type": None,
+                    "tags": None,
+                    "relevance": None,
+                    "current_affairs_linkage": None,
+                    "is_repeated_theme": False,
+                    "option_explanations": {},
+                    "why_correct": None,
+                    "marks": row[11],
+                    "word_limit": row[12],
+                    "master_theme": row[13],
                 }
             )
     return questions
@@ -324,47 +330,11 @@ def _question_options(row):
 
 
 def _prelims_option_explanations(question_id):
-    """
-    Return per-option explanations when the optional explanation columns
-    exist in prelims_questions.
-    """
-    allowed_columns = {
-        "option_a_explanation",
-        "option_b_explanation",
-        "option_c_explanation",
-        "option_d_explanation",
-    }
-
-    with connection.cursor() as cursor:
-        cursor.execute("PRAGMA table_info(prelims_questions)")
-        table_columns = {row[1] for row in cursor.fetchall()}
-
-    available = sorted(allowed_columns.intersection(table_columns))
-    if not available:
-        return {}
-
-    select_sql = ", ".join(available)
-
-    with connection.cursor() as cursor:
-        cursor.execute(
-            f"SELECT {select_sql} FROM prelims_questions WHERE id = %s",
-            [question_id],
-        )
-        row = cursor.fetchone()
-
-    if not row:
-        return {}
-
-    explanations = {}
-    for column, value in zip(available, row):
-        if value:
-            key = column.replace("option_", "").replace("_explanation", "")
-            explanations[key] = value
-
-    return explanations
+    """Per-option explanations are not part of the imported question bank."""
+    return {}
 
 
-@login_required
+@local_learner_required
 def question_detail(request, question_key):
     """
     Return one learner-facing question.
@@ -395,7 +365,7 @@ def question_detail(request, question_key):
     hierarchy = _load_hierarchy()
     _map_question(question, hierarchy)
 
-    learner = _learner_for_user(request.user)
+    learner = request.learner
 
     response_objects = list(
         AttemptResponse.objects.filter(
@@ -443,12 +413,6 @@ def question_detail(request, question_key):
             "correct_answer": _answer_for_question(question_key),
             "explanation": _explanation_for_question(question_key),
         }
-
-        prefix, _, raw_id = question_key.partition("-")
-        if prefix == "prelims" and raw_id.isdigit():
-            latest_result["option_explanations"] = _prelims_option_explanations(
-                int(raw_id)
-            )
 
     # Never expose answer/explanation before submission.
     question.pop("answer", None)
@@ -515,14 +479,15 @@ def questions_overview(request):
         if stage in ("all", "prelims"):
             cursor.execute(
                 """
-                SELECT id, question_id, paper, year, section, question,
+                SELECT question_key, question_id, paper, year, section, question,
                        option_a, option_b, option_c, option_d,
                        correct_answer, explanation, motivation, difficulty,
-                       source_file, question_number, marks, negative_marks
-                FROM prelims_questions
-                                WHERE (%s = 'all' OR year = %s)
-                                    AND (%s = 'all' OR COALESCE(paper, 'Prelims GS') = %s)
-                                    AND (%s = '' OR question LIKE %s OR section LIKE %s)
+                       nature, source, source_type, tags, relevance,
+                       current_affairs_linkage, why_correct, marks, negative_marks
+                FROM prelims_gs_questions
+                WHERE (%s = 'all' OR year = %s)
+                  AND (%s = 'all' OR COALESCE(paper, 'Prelims GS') = %s)
+                  AND (%s = '' OR question LIKE %s OR section LIKE %s)
                 ORDER BY year DESC, question_id
                 """,
                 [
@@ -539,11 +504,11 @@ def questions_overview(request):
                 questions.append(
                     _map_question(
                         {
-                            "id": f"prelims-{row[0]}",
+                            "id": row[0],
                             "stage": "prelims",
                             "paper": row[2] or "Prelims GS",
                             "year": row[3],
-                            "question_number": row[15] or row[1],
+                            "question_number": row[1],
                             "exam_question_id": row[1],
                             "section": row[4],
                             "question": row[5],
@@ -552,9 +517,67 @@ def questions_overview(request):
                             "explanation": row[11],
                             "motivation": row[12],
                             "difficulty": row[13],
-                            "source_file": row[14],
-                            "marks": row[16],
-                            "negative_marks": row[17],
+                            "nature": row[14],
+                            "source": row[15],
+                            "source_type": row[16],
+                            "tags": row[17],
+                            "relevance": row[18],
+                            "current_affairs_linkage": row[19],
+                            "why_correct": row[20],
+                            "marks": row[21],
+                            "negative_marks": row[22],
+                            "word_limit": None,
+                        },
+                        hierarchy,
+                    )
+                )
+
+        if stage in ("all", "csat"):
+            cursor.execute(
+                """
+                SELECT question_key, question_id, paper, year, section, question,
+                       option_a, option_b, option_c, option_d,
+                       correct_answer, explanation, motivation, difficulty,
+                       nature, source, tags, marks, negative_marks
+                FROM csat_questions
+                WHERE (%s = 'all' OR year = %s)
+                  AND (%s = 'all' OR COALESCE(paper, 'Prelims CSAT') = %s)
+                  AND (%s = '' OR question LIKE %s OR section LIKE %s OR tags LIKE %s)
+                ORDER BY year DESC, question_id
+                """,
+                [
+                    year,
+                    year if year.isdigit() else -1,
+                    paper,
+                    paper,
+                    search,
+                    f"%{search}%",
+                    f"%{search}%",
+                    f"%{search}%",
+                ],
+            )
+            for row in cursor.fetchall():
+                questions.append(
+                    _map_question(
+                        {
+                            "id": row[0],
+                            "stage": "csat",
+                            "paper": row[2] or "Prelims CSAT",
+                            "year": row[3],
+                            "question_number": row[1],
+                            "exam_question_id": row[1],
+                            "section": row[4],
+                            "question": row[5],
+                            "options": _question_options(row[6:10]),
+                            "answer": row[10],
+                            "explanation": row[11],
+                            "motivation": row[12],
+                            "difficulty": row[13],
+                            "nature": row[14],
+                            "source": row[15],
+                            "tags": row[16],
+                            "marks": row[17],
+                            "negative_marks": row[18],
                             "word_limit": None,
                         },
                         hierarchy,
@@ -564,38 +587,9 @@ def questions_overview(request):
         if stage in ("all", "mains"):
             cursor.execute(
                 """
-                SELECT
-                    id,
-                    question_id,
-                    paper,
-                    year,
-                    subject,
-                    question,
-                    syllabus_tags,
-                    section,
-                    option_a,
-                    option_b,
-                    option_c,
-                    option_d,
-                    correct_answer,
-                    explanation,
-                    motivation,
-                    difficulty,
-                    nature,
-                    source,
-                    source_type,
-                    source_file,
-                    tags,
-                    relevance,
-                    current_affairs_linkage,
-                    is_repeated_theme,
-                    option_a_explanation,
-                    option_b_explanation,
-                    option_c_explanation,
-                    option_d_explanation,
-                    why_correct,
-                    marks,
-                    max_word_limit
+                SELECT question_key, question_id, paper, year, subject, question,
+                       syllabus_tags, section, difficulty, nature, source_file,
+                       marks, max_word_limit, master_theme
                 FROM mains_questions
                 WHERE (%s = 'all' OR paper = %s)
                   AND (%s = 'all' OR year = %s)
@@ -605,7 +599,7 @@ def questions_overview(request):
                       OR section LIKE %s
                       OR subject LIKE %s
                   )
-                ORDER BY year DESC, paper, id
+                ORDER BY year DESC, paper, question_id
                 """,
                 [
                     paper,
@@ -622,7 +616,7 @@ def questions_overview(request):
                 questions.append(
                     _map_question(
                         {
-                            "id": f"mains-{row[0]}",
+                            "id": row[0],
                             "stage": "mains",
                             "paper": row[2],
                             "year": row[3],
@@ -632,28 +626,23 @@ def questions_overview(request):
                             "question": row[5],
                             "syllabus_tags": row[6],
                             "section": row[7],
-                            "options": _question_options(row[8:12]),
-                            "answer": row[12],
-                            "explanation": row[13],
-                            "motivation": row[14],
-                            "difficulty": row[15],
-                            "nature": row[16],
-                            "source": row[17],
-                            "source_type": row[18],
-                            "source_file": row[19],
-                            "tags": row[20],
-                            "relevance": row[21],
-                            "current_affairs_linkage": row[22],
-                            "is_repeated_theme": bool(row[23]),
-                            "option_explanations": {
-                                "a": row[24],
-                                "b": row[25],
-                                "c": row[26],
-                                "d": row[27],
-                            },
-                            "why_correct": row[28],
-                            "marks": row[29],
-                            "word_limit": row[30],
+                            "options": [],
+                            "answer": None,
+                            "explanation": None,
+                            "motivation": None,
+                            "difficulty": row[8],
+                            "nature": row[9],
+                            "source": row[10],
+                            "source_type": None,
+                            "tags": None,
+                            "relevance": None,
+                            "current_affairs_linkage": None,
+                            "is_repeated_theme": False,
+                            "option_explanations": {},
+                            "why_correct": None,
+                            "marks": row[11],
+                            "word_limit": row[12],
+                            "master_theme": row[13],
                         },
                         hierarchy,
                     )
@@ -719,96 +708,6 @@ def _request_payload(request):
     if request.content_type.startswith("multipart/"):
         return request.POST.dict()
     return _request_json(request) or {}
-
-
-@csrf_exempt
-def learner_register(request):
-    if request.method != "POST":
-        return JsonResponse({"error": "POST required"}, status=405)
-    payload = _request_json(request)
-    if not payload or not payload.get("username") or not payload.get("password"):
-        return JsonResponse({"error": "username and password are required"}, status=400)
-    from django.contrib.auth.models import User
-
-    if User.objects.filter(username=payload["username"]).exists():
-        return JsonResponse({"error": "username already exists"}, status=409)
-    user = User.objects.create_user(
-        username=payload["username"],
-        email=payload.get("email", ""),
-        password=payload["password"],
-    )
-    learner = LearnerAccount.objects.create(
-        user=user,
-        display_name=payload.get("display_name", ""),
-        target_year=payload.get("target_year"),
-    )
-    login(request, user)
-    return JsonResponse(
-        {
-            "id": learner.id,
-            "username": user.username,
-            "display_name": learner.display_name,
-        },
-        status=201,
-    )
-
-
-def _learner_for_user(user):
-    learner, _ = LearnerAccount.objects.get_or_create(
-        user=user,
-        defaults={"display_name": user.get_full_name() or user.username},
-    )
-    return learner
-
-
-def auth_session(request):
-    if not request.user.is_authenticated:
-        return JsonResponse({"authenticated": False})
-    learner = _learner_for_user(request.user)
-    return JsonResponse(
-        {
-            "authenticated": True,
-            "learner": {
-                "id": learner.id,
-                "username": request.user.username,
-                "display_name": learner.display_name,
-            },
-            "is_staff": request.user.is_staff,
-            "is_superuser": request.user.is_superuser,
-        }
-    )
-
-
-@csrf_exempt
-def auth_login(request):
-    if request.method != "POST":
-        return JsonResponse({"error": "POST required"}, status=405)
-    payload = _request_json(request) or {}
-    user = authenticate(
-        request,
-        username=payload.get("username", ""),
-        password=payload.get("password", ""),
-    )
-    if not user:
-        return JsonResponse({"error": "invalid credentials"}, status=401)
-    login(request, user)
-    learner = _learner_for_user(user)
-    return JsonResponse(
-        {
-            "authenticated": True,
-            "learner": {
-                "id": learner.id,
-                "username": user.username,
-                "display_name": learner.display_name,
-            },
-        }
-    )
-
-
-@csrf_exempt
-def auth_logout(request):
-    logout(request)
-    return JsonResponse({"authenticated": False})
 
 
 def _serialize_goal(goal):
@@ -940,17 +839,17 @@ def _build_progress(learner):
     }
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def learner_profile(request):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     if request.method == "PATCH":
         payload = _request_json(request) or {}
         if "display_name" in payload:
             learner.display_name = str(payload.get("display_name") or "").strip()[:120]
         if "email" in payload:
-            request.user.email = str(payload.get("email") or "").strip()
-            request.user.save(update_fields=["email"])
+            request.learner.user.email = str(payload.get("email") or "").strip()
+            request.learner.user.save(update_fields=["email"])
         if "age" in payload:
             learner.age = payload.get("age") or None
         if "target_exam" in payload:
@@ -981,8 +880,8 @@ def learner_profile(request):
     review_count = learner.question_reviews.filter(status=QuestionReview.STATUS_OPEN).count()
     return JsonResponse({
         "learner": {
-            "id": learner.id, "username": request.user.username, "display_name": learner.display_name,
-            "email": request.user.email, "age": learner.age, "target_exam": learner.target_exam,
+            "id": learner.id, "username": request.learner.user.username, "display_name": learner.display_name,
+            "email": request.learner.user.email, "age": learner.age, "target_exam": learner.target_exam,
             "target_year": learner.target_year, "optional_subject": learner.optional_subject,
             "daily_study_target_minutes": learner.daily_study_target_minutes,
         },
@@ -996,10 +895,10 @@ def learner_profile(request):
     })
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def learner_goals(request):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     if request.method == "GET":
         return JsonResponse({"goals": [_serialize_goal(g) for g in learner.goals.all()]})
     if request.method != "POST":
@@ -1017,10 +916,10 @@ def learner_goals(request):
     return JsonResponse({"goal": _serialize_goal(goal)}, status=201)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def learner_goal_detail(request, goal_id):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     try:
         goal = learner.goals.get(id=goal_id)
     except Goal.DoesNotExist:
@@ -1045,19 +944,19 @@ def learner_goal_detail(request, goal_id):
     return JsonResponse({"error": "PATCH, PUT or DELETE required"}, status=405)
 
 
-@login_required
+@local_learner_required
 def progress_overview(request):
-    return JsonResponse(_build_progress(_learner_for_user(request.user)))
+    return JsonResponse(_build_progress(request.learner))
 
 
-@login_required
+@local_learner_required
 def prelims_progress(request):
-    return JsonResponse(_build_progress(_learner_for_user(request.user))["prelims"])
+    return JsonResponse(_build_progress(request.learner)["prelims"])
 
 
-@login_required
+@local_learner_required
 def mains_progress(request):
-    return JsonResponse(_build_progress(_learner_for_user(request.user))["mains"])
+    return JsonResponse(_build_progress(request.learner)["mains"])
 
 
 def _review_payload(review, question=None, request=None):
@@ -1077,10 +976,10 @@ def _review_payload(review, question=None, request=None):
     return result
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_review(request, question_key):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     if request.method == "POST":
         payload = _request_json(request) or {}
         reasons = _normalize_review_reasons(payload.get("reasons", []))
@@ -1103,10 +1002,10 @@ def question_review(request, question_key):
     return JsonResponse({"error": "GET, POST or DELETE required"}, status=405)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def reviews(request):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     question_map = _question_metadata_map()
     qs = learner.question_reviews.all()
     status = request.GET.get("status", "open")
@@ -1121,10 +1020,10 @@ def reviews(request):
     return JsonResponse({"reviews": result, "unresolved_count": learner.question_reviews.filter(status=QuestionReview.STATUS_OPEN).count()})
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def review_detail(request, review_id):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     try:
         review = learner.question_reviews.get(id=review_id)
     except QuestionReview.DoesNotExist:
@@ -1142,12 +1041,12 @@ def review_detail(request, review_id):
     return JsonResponse({"error": "GET or PATCH required"}, status=405)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def resolve_review(request, review_id):
     if request.method != "POST":
         return JsonResponse({"error": "POST required"}, status=405)
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     try:
         review = learner.question_reviews.get(id=review_id)
     except QuestionReview.DoesNotExist:
@@ -1158,13 +1057,13 @@ def resolve_review(request, review_id):
     return JsonResponse({"review": _review_payload(review, _question_metadata_map().get(review.question_key))})
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def start_attempt(request):
     if request.method != "POST":
         return JsonResponse({"error": "POST required"}, status=405)
     payload = _request_json(request) or {}
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     attempt = Attempt.objects.create(
         learner=learner,
         stage=payload.get("stage", "mixed"),
@@ -1178,37 +1077,40 @@ def start_attempt(request):
 
 
 def _answer_for_question(question_key):
-    prefix, _, raw_id = question_key.partition("-")
-    if not raw_id.isdigit():
-        return None
-    with connection.cursor() as cursor:
-        if prefix == "prelims":
-            cursor.execute(
-                "SELECT correct_answer FROM prelims_questions WHERE id = %s", [raw_id]
-            )
-        elif prefix == "mains":
-            cursor.execute(
-                "SELECT correct_answer FROM mains_questions WHERE id = %s", [raw_id]
-            )
-        else:
-            return None
-        row = cursor.fetchone()
-    return row[0] if row else None
-
-
-def _explanation_for_question(question_key):
-    prefix, _, raw_id = question_key.partition("-")
-    if prefix != "prelims" or not raw_id.isdigit():
-        return None
     with connection.cursor() as cursor:
         cursor.execute(
-            "SELECT explanation FROM prelims_questions WHERE id = %s", [raw_id]
+            "SELECT correct_answer FROM prelims_gs_questions WHERE question_key = %s",
+            [question_key],
+        )
+        row = cursor.fetchone()
+        if row:
+            return row[0]
+        cursor.execute(
+            "SELECT correct_answer FROM csat_questions WHERE question_key = %s",
+            [question_key],
         )
         row = cursor.fetchone()
     return row[0] if row else None
 
 
-@login_required
+def _explanation_for_question(question_key):
+    with connection.cursor() as cursor:
+        cursor.execute(
+            "SELECT explanation FROM prelims_gs_questions WHERE question_key = %s",
+            [question_key],
+        )
+        row = cursor.fetchone()
+        if row:
+            return row[0]
+        cursor.execute(
+            "SELECT explanation FROM csat_questions WHERE question_key = %s",
+            [question_key],
+        )
+        row = cursor.fetchone()
+    return row[0] if row else None
+
+
+@local_learner_required
 @csrf_exempt
 def record_response(request, attempt_id):
     if request.method != "POST":
@@ -1217,7 +1119,7 @@ def record_response(request, attempt_id):
     question_key = payload.get("question_key")
     if not question_key:
         return JsonResponse({"error": "question_key is required"}, status=400)
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     uploaded_file = request.FILES.get("attachment")
     if uploaded_file:
         allowed_types = {"application/pdf", "image/jpeg", "image/png", "image/webp"}
@@ -1269,32 +1171,6 @@ def record_response(request, attempt_id):
             ]
         )
 
-        progress_node = attempt.node_id or payload.get("node_id", "")
-        if progress_node:
-            learner_responses = AttemptResponse.objects.filter(
-                attempt__learner=learner,
-                attempt__node_id=progress_node,
-            )
-            question_keys = set(
-                learner_responses.values_list("question_key", flat=True)
-            )
-
-            Progress.objects.update_or_create(
-                learner=learner,
-                node_id=progress_node,
-                defaults={
-                    "node_type": payload.get("node_type", "topic"),
-                    "questions_seen": len(question_keys),
-                    "questions_attempted": learner_responses.filter(
-                        attempted_filter
-                    ).count(),
-                    "correct_answers": learner_responses.filter(
-                        is_correct=True
-                    ).count(),
-                    "last_attempted_at": response.answered_at,
-                },
-            )
-
     result = {
         "id": response.id,
         "attempt_id": attempt.id,
@@ -1303,23 +1179,19 @@ def record_response(request, attempt_id):
         "answered_at": response.answered_at,
     }
 
-    if response.question_stage == "prelims":
+    if response.question_stage in ("prelims", "csat"):
         result["correct_answer"] = _answer_for_question(question_key)
         result["explanation"] = _explanation_for_question(question_key)
-
-        prefix, _, raw_id = question_key.partition("-")
-        if prefix == "prelims" and raw_id.isdigit():
-            result["option_explanations"] = _prelims_option_explanations(int(raw_id))
 
     return JsonResponse(result)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def submit_attempt(request, attempt_id):
     if request.method != "POST":
         return JsonResponse({"error": "POST required"}, status=405)
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     try:
         attempt = learner.attempts.get(id=attempt_id, status=Attempt.STATUS_IN_PROGRESS)
     except Attempt.DoesNotExist:
@@ -1355,10 +1227,10 @@ def submit_attempt(request, attempt_id):
     )
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_bookmark(request, question_key):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     if request.method == "POST":
         QuestionBookmark.objects.get_or_create(
             learner=learner, question_key=question_key
@@ -1372,10 +1244,10 @@ def question_bookmark(request, question_key):
     return JsonResponse({"error": "POST or DELETE required"}, status=405)
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_note(request, question_key):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
 
     # ---------------------------------------------------------
     # GET — return all notes for this question
@@ -1438,10 +1310,10 @@ def question_note(request, question_key):
     )
 
 
-@login_required
+@local_learner_required
 @csrf_exempt
 def question_note_detail(request, question_key, note_id):
-    learner = _learner_for_user(request.user)
+    learner = request.learner
 
     try:
         record = QuestionNote.objects.get(
@@ -1502,14 +1374,14 @@ def question_note_detail(request, question_key, note_id):
 
 
 
-@login_required
+@local_learner_required
 def question_history(request):
     """
     Return the learner's attempted questions enriched with question metadata.
     This powers the History tab without requiring the frontend to make one
     request per attempt.
     """
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     hierarchy = _load_hierarchy()
 
     question_map = {}
@@ -1569,10 +1441,10 @@ def question_history(request):
     return JsonResponse({"history": history, "total_unique_questions": len(history)})
 
 
-@login_required
+@local_learner_required
 def learner_bookmarks(request):
     """Return bookmarked questions with the same learner-facing metadata as Practice."""
-    learner = _learner_for_user(request.user)
+    learner = request.learner
     hierarchy = _load_hierarchy()
 
     bookmarked_keys = list(
@@ -1602,7 +1474,7 @@ def learner_bookmarks(request):
     return JsonResponse({"bookmarks": questions})
 
 
-@login_required
+@local_learner_required
 def random_question(request):
     """
     Return one random learner-facing question.
@@ -1773,5 +1645,23 @@ def syllabus_overview(request):
                 "topics": total_topics,
                 "points": total_points,
             },
+        }
+    )
+
+
+@local_learner_required
+def health(request):
+    """Smoke check: learner resolved + question counts."""
+    counts = {
+        "prelims_gs": PrelimsGsQuestion.objects.count(),
+        "csat": CsatQuestion.objects.count(),
+        "mains": MainsQuestion.objects.count(),
+    }
+    return JsonResponse(
+        {
+            "ok": True,
+            "learner": request.learner.display_name or request.learner.user.username,
+            "counts": counts,
+            "total": sum(counts.values()),
         }
     )

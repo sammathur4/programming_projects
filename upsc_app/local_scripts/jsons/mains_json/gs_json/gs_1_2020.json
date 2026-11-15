@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "section": "Art and Culture",
+    "question": "The rock-cut architecture represents one of the most important sources of our knowledge of early Indian art and history. Discuss. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "section": "Art and Culture",
+    "question": "Pala period is the most significant phase in the history of Buddhism in India. Enumerate. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "section": "Modern History",
+    "question": "Evaluate the policies of Lord Curzon and their long term implications on the national movement. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "section": "Geography",
+    "question": "Discuss the geophysical characteristics of Circum-Pacific Zone. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "section": "Geography",
+    "question": "The process of desertification does not have climatic boundaries. Justify with examples. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "section": "Geography",
+    "question": "How will the melting of Himalayan glaciers have a far-reaching impact on the water resources of India ? (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "section": "Geography",
+    "question": "Account for the present location of iron and steel industries away from the source of raw material, by giving examples. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "section": "Society",
+    "question": "Has caste lost its relevance in understanding the multi-cultural Indian Society ? Elaborate your answer with illustrations. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "section": "Society",
+    "question": "COVID-19 pandemic accelerated class inequalities and poverty in India. Comment. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "section": "Society",
+    "question": "Do you agree that regionalism in India appears to be a consequence of rising cultural assertiveness ? Argue. (Answer in 150 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "section": "Art and Culture",
+    "question": "Indian philosophy and tradition played a significant role in conceiving and shaping the monuments and their art in India. Discuss. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "section": "Medieval History",
+    "question": "Persian literary sources of medieval India reflect the spirit of the age. Comment. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 13,
+    "section": "Modern History",
+    "question": "Since the decade of the 1920s, the national movement acquired various ideological strands and thereby expanded its social base. Discuss. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 14,
+    "section": "Geography",
+    "question": "The interlinking of rivers can provide viable solutions to the multi-dimensional inter-related problems of droughts, floods and interrupted navigation. Critically examine. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 15,
+    "section": "Geography",
+    "question": "Account for the huge flooding of million cities in India including the smart ones like Hyderabad and Pune. Suggest lasting remedial measures. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "section": "Geography",
+    "question": "India has immense potential of solar energy though there are regional variations in its development. Elaborate. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "section": "Environment",
+    "question": "Examine the status of forest resources of India and its resultant impact on climate change. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 18,
+    "section": "Society",
+    "question": "Is diversity and pluralism in India under threat due to globalisation ? Justify your answer. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "section": "Society",
+    "question": "Customs and traditions suppress reason leading to obscurantism. Do you agree ? (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 20,
+    "section": "Society",
+    "question": "How have digital initiatives in India contributed to the functioning of the education system in the country ? Elaborate your answer. (Answer in 250 words)",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  }
+]

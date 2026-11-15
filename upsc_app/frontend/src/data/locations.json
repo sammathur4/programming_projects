@@ -1,0 +1,482 @@
+{
+  "attribution": "© OpenStreetMap contributors",
+  "retrieved": "2026-11-11",
+  "locations": [
+    {
+      "id": "nyoma",
+      "name": "Nyoma settlement reference",
+      "latitude": 33.2054809,
+      "longitude": 78.6496578,
+      "country": "India",
+      "state": "Ladakh",
+      "category": "airbase",
+      "description": "Mapped Nyoma settlement; not a verified runway coordinate. LAC boundary is intentionally not drawn.",
+      "relatedTopics": [
+        "nyoma-airbase"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Nyoma, Leh district, Ladakh, India",
+      "confidence": "approximate"
+    },
+    {
+      "id": "leh",
+      "name": "Leh",
+      "latitude": 34.1642029,
+      "longitude": 77.5848133,
+      "country": "India",
+      "state": "Ladakh",
+      "category": "city",
+      "description": "City reference in Ladakh.",
+      "relatedTopics": [
+        "nyoma-airbase"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Leh, Ladakh, India",
+      "confidence": "high",
+      "osmType": "node",
+      "osmId": 245774579
+    },
+    {
+      "id": "thoise",
+      "name": "Thoise Airfield",
+      "latitude": 34.6523267,
+      "longitude": 77.3714961,
+      "country": "India",
+      "state": "Ladakh",
+      "category": "airbase",
+      "description": "OpenStreetMap aerodrome point.",
+      "relatedTopics": [
+        "nyoma-airbase"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Thoise Airport, Ladakh, India",
+      "confidence": "high"
+    },
+    {
+      "id": "kargil",
+      "name": "Kargil",
+      "latitude": 34.5593048,
+      "longitude": 76.1255767,
+      "country": "India",
+      "state": "Ladakh",
+      "category": "city",
+      "description": "Town reference in Ladakh.",
+      "relatedTopics": [
+        "nyoma-airbase"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Kargil town, Ladakh, India",
+      "confidence": "high",
+      "osmType": "relation",
+      "osmId": 1786178
+    },
+    {
+      "id": "daulat-beg-oldi",
+      "name": "Daulat Beg Oldi",
+      "latitude": 35.3914432,
+      "longitude": 77.9211371,
+      "country": "India",
+      "state": "Ladakh",
+      "category": "airfield",
+      "description": "Locality reference; not a surveyed runway point.",
+      "relatedTopics": [
+        "nyoma-airbase"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Daulat Beg Oldi, Ladakh, India",
+      "confidence": "approximate",
+      "osmType": "node",
+      "osmId": 1290372898
+    },
+    {
+      "id": "gujarat",
+      "name": "Gujarat (state reference)",
+      "latitude": 22.3850051,
+      "longitude": 71.745261,
+      "country": "India",
+      "state": "Gujarat",
+      "category": "state",
+      "description": "Approximate state representative point; not a Siddi population distribution.",
+      "relatedTopics": [
+        "siddi-community"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Gujarat, India",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 1949080
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka (state reference)",
+      "latitude": 14.9562045,
+      "longitude": 75.7896741,
+      "country": "India",
+      "state": "Karnataka",
+      "category": "state",
+      "description": "Approximate state representative point; not a Siddi population distribution.",
+      "relatedTopics": [
+        "siddi-community"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Karnataka, India",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 2019939
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra (state reference)",
+      "latitude": 19.5670323,
+      "longitude": 76.4164557,
+      "country": "India",
+      "state": "Maharashtra",
+      "category": "state",
+      "description": "Approximate state representative point; not a Siddi population distribution.",
+      "relatedTopics": [
+        "siddi-community"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Maharashtra, India",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 1950884
+    },
+    {
+      "id": "upper-siang",
+      "name": "Upper Siang district (reference)",
+      "latitude": 28.7312046,
+      "longitude": 95.0377315,
+      "country": "India",
+      "state": "Arunachal Pradesh",
+      "category": "district",
+      "description": "Administrative reference point; not a discovery-site coordinate.",
+      "relatedTopics": [
+        "begonia-siangensis"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Upper Siang, Arunachal Pradesh, India",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 2027436
+    },
+    {
+      "id": "siang-river",
+      "name": "Siang River (reference)",
+      "latitude": 28.6289612,
+      "longitude": 95.0176996,
+      "country": "India",
+      "state": "Arunachal Pradesh",
+      "category": "river",
+      "description": "River reference point from OpenStreetMap; no river path is drawn.",
+      "relatedTopics": [
+        "begonia-siangensis"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Siang River, Arunachal Pradesh, India",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 21801033
+    },
+    {
+      "id": "tinsukia",
+      "name": "Tinsukia",
+      "latitude": 27.4879722,
+      "longitude": 95.3601855,
+      "country": "India",
+      "state": "Assam",
+      "category": "city",
+      "description": "Town reference for the sanctuary district; not the sanctuary boundary.",
+      "relatedTopics": [
+        "bherjan-sanctuary"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Tinsukia, Assam, India",
+      "confidence": "high",
+      "osmType": "node",
+      "osmId": 4323994882
+    },
+    {
+      "id": "bherjan-sanctuary",
+      "name": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+      "latitude": null,
+      "longitude": null,
+      "country": "India",
+      "state": "Assam",
+      "category": "sanctuary",
+      "description": "No reliable point/boundary returned by the geocoder; not plotted. Use Tinsukia only as district context.",
+      "relatedTopics": [
+        "bherjan-sanctuary"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Bherjan Borajan Padumoni Wildlife Sanctuary, Assam, India",
+      "confidence": "unavailable"
+    },
+    {
+      "id": "kashmir",
+      "name": "Srinagar (Kashmir reference)",
+      "latitude": 34.0747444,
+      "longitude": 74.8204443,
+      "country": "India",
+      "state": "Jammu and Kashmir",
+      "category": "city",
+      "description": "Srinagar is used only as a regional reference; no Kashmir boundary is drawn.",
+      "relatedTopics": [
+        "chinar-kashmir"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Srinagar, Jammu and Kashmir, India",
+      "confidence": "approximate",
+      "osmType": "node",
+      "osmId": 7316926457
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "latitude": 13.0800915,
+      "longitude": 80.2807978,
+      "country": "India",
+      "state": "Tamil Nadu",
+      "category": "city",
+      "description": "City reference for Exercise RAHAT MITRA.",
+      "relatedTopics": [
+        "rahat-mitra"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Chennai, Tamil Nadu, India",
+      "confidence": "high",
+      "osmType": "relation",
+      "osmId": 1766358
+    },
+    {
+      "id": "dakar",
+      "name": "Dakar",
+      "latitude": 14.693425,
+      "longitude": -17.447938,
+      "country": "Senegal",
+      "state": "Dakar Region",
+      "category": "city",
+      "description": "City reference for the Dakar Youth Olympics.",
+      "relatedTopics": [
+        "siddi-community"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Dakar, Senegal",
+      "confidence": "high",
+      "osmType": "relation",
+      "osmId": 12982139
+    },
+    {
+      "id": "muscat",
+      "name": "Muscat",
+      "latitude": 23.6123628,
+      "longitude": 58.5938134,
+      "country": "Oman",
+      "state": "Muscat Governorate",
+      "category": "city",
+      "description": "City reference for Exercise Naseem Al Bahr.",
+      "relatedTopics": [
+        "naseem-al-bahr"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Muscat, Oman",
+      "confidence": "high",
+      "osmType": "relation",
+      "osmId": 19168058
+    },
+    {
+      "id": "arabian-sea",
+      "name": "Arabian Sea (reference)",
+      "latitude": 20.0000001,
+      "longitude": 64.9999999,
+      "country": "International",
+      "state": "Indian Ocean",
+      "category": "sea",
+      "description": "Approximate sea reference point; not a maritime boundary.",
+      "relatedTopics": [
+        "naseem-al-bahr"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Arabian Sea",
+      "confidence": "approximate",
+      "osmType": "node",
+      "osmId": 305640040
+    },
+    {
+      "id": "gulf-california",
+      "name": "Gulf of California (reference)",
+      "latitude": 27.5578101,
+      "longitude": -111.70465,
+      "country": "Mexico",
+      "state": "Gulf of California",
+      "category": "sea",
+      "description": "Approximate gulf reference point; vaquita habitat boundaries are not depicted.",
+      "relatedTopics": [
+        "gulf-california"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Gulf of California",
+      "confidence": "approximate",
+      "osmType": "node",
+      "osmId": 305639734
+    },
+    {
+      "id": "baja-california",
+      "name": "Baja California Peninsula (reference)",
+      "latitude": 27.3662261,
+      "longitude": -113.3904861,
+      "country": "Mexico",
+      "state": "Baja California",
+      "category": "peninsula",
+      "description": "Approximate peninsula representative point.",
+      "relatedTopics": [
+        "gulf-california"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Baja California Peninsula, Mexico",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 6303382
+    },
+    {
+      "id": "hawaii-island",
+      "name": "Hawaiʻi Island (reference)",
+      "latitude": 19.5895548,
+      "longitude": -155.4486983,
+      "country": "United States",
+      "state": "Hawaii",
+      "category": "island",
+      "description": "Approximate island representative point.",
+      "relatedTopics": [
+        "kilauea"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Hawaii Island, Hawaii, United States",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 3403603
+    },
+    {
+      "id": "kilauea",
+      "name": "Kīlauea Volcano",
+      "latitude": 19.4138647,
+      "longitude": -155.275811,
+      "country": "United States",
+      "state": "Hawaii",
+      "category": "volcano",
+      "description": "OpenStreetMap volcano feature.",
+      "relatedTopics": [
+        "kilauea"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Kilauea Volcano, Hawaii, United States",
+      "confidence": "high",
+      "osmType": "node",
+      "osmId": 2734299214
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar (country reference)",
+      "latitude": 17.1750495,
+      "longitude": 95.9999652,
+      "country": "Myanmar",
+      "state": "",
+      "category": "country",
+      "description": "Approximate country representative point. No boundary overlay.",
+      "relatedTopics": [
+        "rahat-mitra"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Myanmar",
+      "confidence": "approximate",
+      "osmType": "relation",
+      "osmId": 50371
+    },
+    {
+      "id": "dhaka",
+      "name": "Dhaka",
+      "latitude": 23.7643863,
+      "longitude": 90.3890144,
+      "country": "Bangladesh",
+      "state": "Dhaka Division",
+      "category": "city",
+      "description": "City reference for the Joint Rivers Commission context.",
+      "relatedTopics": [
+        "india-bangladesh-jrc"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Dhaka, Bangladesh",
+      "confidence": "high",
+      "osmType": "node",
+      "osmId": 3442474911
+    },
+    {
+      "id": "shenzhen",
+      "name": "Shenzhen",
+      "latitude": 22.5445741,
+      "longitude": 114.0545429,
+      "country": "China",
+      "state": "Guangdong",
+      "category": "city",
+      "description": "City reference for APEC 2026.",
+      "relatedTopics": [
+        "apec-shenzhen"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Shenzhen, Guangdong, China",
+      "confidence": "high",
+      "osmType": "relation",
+      "osmId": 3464353
+    },
+    {
+      "id": "manila",
+      "name": "Manila",
+      "latitude": 14.5904492,
+      "longitude": 120.9803621,
+      "country": "Philippines",
+      "state": "Metro Manila",
+      "category": "city",
+      "description": "City reference for the Ramon Magsaysay Award Foundation.",
+      "relatedTopics": [
+        "ramon-magsaysay"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Manila, Philippines",
+      "confidence": "high",
+      "osmType": "relation",
+      "osmId": 103703
+    },
+    {
+      "id": "tiburon-island",
+      "name": "Tiburón Island",
+      "latitude": 28.9965026,
+      "longitude": -112.3553874,
+      "country": "Mexico",
+      "state": "Sonora",
+      "category": "island",
+      "description": "OpenStreetMap island feature; not a vaquita habitat boundary.",
+      "relatedTopics": [
+        "gulf-california"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Tiburon Island, Mexico",
+      "confidence": "high"
+    },
+    {
+      "id": "angel-guardian-island",
+      "name": "Ángel de la Guarda Island",
+      "latitude": 29.2695891,
+      "longitude": -113.306176,
+      "country": "Mexico",
+      "state": "Baja California",
+      "category": "island",
+      "description": "OpenStreetMap island feature; not a vaquita habitat boundary.",
+      "relatedTopics": [
+        "gulf-california"
+      ],
+      "source": "OpenStreetMap Nominatim",
+      "sourceQuery": "Angel de la Guarda Island, Mexico",
+      "confidence": "high"
+    }
+  ]
+}

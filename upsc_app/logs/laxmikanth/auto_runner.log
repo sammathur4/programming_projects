@@ -1,0 +1,94 @@
+[2026-11-05 00:49:52] === LAXMIKANTH NOTES GENERATOR STARTED ===
+[2026-11-05 00:49:52] Workdir: /media/saksham/phone data/programming_projects/upsc_app
+[2026-11-05 00:49:52] Logs: /media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth
+[2026-11-05 00:49:52] Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+[2026-11-05 00:49:52] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 00:49:52] === Iteration 1 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 00:49:52] Starting new session
+[2026-11-05 00:56:53] Exit code: 0
+[2026-11-05 00:56:53] RATE LIMIT DETECTED - switching model
+[2026-11-05 00:59:53] === LAXMIKANTH NOTES GENERATOR STARTED ===
+[2026-11-05 00:59:53] Workdir: /media/saksham/phone data/programming_projects/upsc_app
+[2026-11-05 00:59:53] Logs: /media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth
+[2026-11-05 00:59:53] Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+[2026-11-05 00:59:53] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 00:59:53] === Iteration 2 | Model: opencode-go/glm-5.3-flash ===
+[2026-11-05 00:59:53] Continuing session: in
+[2026-11-05 00:59:54] Exit code: 1
+[2026-11-05 00:59:54] ERROR DETECTED (count: 1)
+[2026-11-05 01:02:54] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:02:54] === Iteration 3 | Model: opencode-go/glm-5.3-flash ===
+[2026-11-05 01:02:54] Continuing session: in
+[2026-11-05 01:02:55] Exit code: 1
+[2026-11-05 01:02:55] ERROR DETECTED (count: 2)
+[2026-11-05 01:06:23] === LAXMIKANTH NOTES GENERATOR STARTED ===
+[2026-11-05 01:06:23] Workdir: /media/saksham/phone data/programming_projects/upsc_app
+[2026-11-05 01:06:23] Logs: /media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth
+[2026-11-05 01:06:23] Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+[2026-11-05 01:06:23] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:06:23] === Iteration 4 | Model: opencode-go/glm-5.3-flash ===
+[2026-11-05 01:06:23] Starting new session
+[2026-11-05 01:06:27] Exit code: 1
+[2026-11-05 01:06:28] ERROR DETECTED (count: 3)
+[2026-11-05 01:06:28] Too many consecutive errors, switching model
+[2026-11-05 01:09:29] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:09:29] === Iteration 5 | Model: opencode-go/deepseek-v4.1-flash ===
+[2026-11-05 01:09:29] Starting new session
+[2026-11-05 01:09:33] Exit code: 1
+[2026-11-05 01:09:34] ERROR DETECTED (count: 1)
+[2026-11-05 01:11:04] === LAXMIKANTH NOTES GENERATOR STARTED ===
+[2026-11-05 01:11:04] Workdir: /media/saksham/phone data/programming_projects/upsc_app
+[2026-11-05 01:11:04] Logs: /media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth
+[2026-11-05 01:11:04] Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+[2026-11-05 01:11:05] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:11:05] === Iteration 6 | Model: opencode-go/deepseek-v4.1-flash ===
+[2026-11-05 01:11:05] Starting new session
+[2026-11-05 01:11:10] Exit code: 1
+[2026-11-05 01:11:10] ERROR DETECTED (count: 2)
+[2026-11-05 01:12:11] === LAXMIKANTH NOTES GENERATOR STARTED ===
+[2026-11-05 01:12:11] Workdir: /media/saksham/phone data/programming_projects/upsc_app
+[2026-11-05 01:12:11] Logs: /media/saksham/phone data/programming_projects/upsc_app/logs/laxmikanth
+[2026-11-05 01:12:11] Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+[2026-11-05 01:12:12] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:12:12] === Iteration 7 | Model:  ===
+[2026-11-05 01:12:12] Starting new session
+[2026-11-05 01:13:48] Exit code: 1
+[2026-11-05 01:13:49] ERROR DETECTED (count: 3)
+[2026-11-05 01:13:49] Too many consecutive errors, switching model
+[2026-11-05 01:16:49] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:16:49] === Iteration 8 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 01:16:49] Starting new session
+[2026-11-05 01:29:53] Exit code: 1
+[2026-11-05 01:29:53] ERROR DETECTED (count: 1)
+[2026-11-05 01:32:54] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:32:54] === Iteration 9 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 01:32:54] Starting new session
+[2026-11-05 01:41:07] Exit code: 1
+[2026-11-05 01:41:07] ERROR DETECTED (count: 2)
+[2026-11-05 01:44:07] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 01:44:07] === Iteration 10 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 01:44:07] Starting new session
+[2026-11-05 01:58:29] Exit code: 1
+[2026-11-05 01:58:30] Iteration completed successfully
+[2026-11-05 01:58:30] Sleeping 300 seconds before next iteration...
+[2026-11-05 01:58:30] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 02:03:30] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 02:03:30] === Iteration 11 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 02:03:30] Starting new session
+[2026-11-05 02:17:35] Exit code: 1
+[2026-11-05 02:17:35] RATE LIMIT DETECTED - switching model
+[2026-11-05 02:32:35] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 02:32:35] === Iteration 12 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 02:32:35] Starting new session
+[2026-11-05 02:45:36] Exit code: 1
+[2026-11-05 02:45:36] RATE LIMIT DETECTED - switching model
+[2026-11-05 03:00:36] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 03:00:36] === Iteration 13 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 03:00:36] Starting new session
+[2026-11-05 03:11:45] Exit code: 1
+[2026-11-05 03:11:45] RATE LIMIT DETECTED - switching model
+[2026-11-05 03:26:46] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-11-05 03:26:46] === Iteration 14 | Model: opencode-go/iceman-contributor-free ===
+[2026-11-05 03:26:46] Starting new session
+[2026-11-05 03:36:01] Exit code: 1
+[2026-11-05 03:36:01] RATE LIMIT DETECTED - switching model

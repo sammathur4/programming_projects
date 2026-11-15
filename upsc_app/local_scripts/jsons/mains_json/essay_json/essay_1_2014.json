@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "section": "Section A",
+    "question": "With greater power comes greater responsibility.",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 2,
+    "section": "Section A",
+    "question": "Is the growing level of competition good for the youth?",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 3,
+    "section": "Section A",
+    "question": "Are the standardized tests good measure of academic ability or progress?",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 4,
+    "section": "Section A",
+    "question": "Words are sharper than the two-edged sword.",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 5,
+    "section": "Section B",
+    "question": "Was it the policy paralysis or the paralysis of implementation which slowed the growth of our country?",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 6,
+    "section": "Section B",
+    "question": "Is sting operation an invasion on privacy?",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 7,
+    "section": "Section B",
+    "question": "Fifty Golds in Olympics : Can this be a reality for India?",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  },
+  {
+    "id": 8,
+    "section": "Section B",
+    "question": "Tourism : Can this be the next big thing for India?",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": null,
+    "nature": null
+  }
+]

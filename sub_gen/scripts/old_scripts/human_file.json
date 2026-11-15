@@ -1,0 +1,603 @@
+{
+  "schema": "human.male/v3-manifest",
+  "meta": {
+    "id": "urn:human:male:mythic:0001",
+    "version": "3.0",
+    "tier": "S+",
+    "generated_by": ["genetics", "subliminals", "will"],
+    "determinism": 0.15,
+    "agency": 0.9,
+    "confidence": "idealized",
+    "reality_anchor": 0.2,
+    "domains": 21,
+    "last_updated": "2026-10-21"
+  },
+
+  "identity": {
+    "name": "—",
+    "age_years": 26,
+    "looks_like_age":18,
+    "sex": "male",
+    "archetype": "the golden one",
+    "self_label": "unbothered",
+    "presence": "noticed before he speaks",
+    "core_identity": "a man who keeps his word to himself",
+    "identity_statement": "I am already the man I am becoming."
+  },
+
+  "origin": {
+    "born": { "year": 2000, "order": 2 },
+    "inherited": {
+      "genetic_risks": [],
+      "genetic_gifts": ["all"],
+      "temperament": "calm, warm, slow to anger",
+      "class_start": "self-made",
+      "cultural_script": "effortless excellence"
+    },
+    "chosen_lineage": "built forward, not inherited"
+  },
+
+  "appearance": {
+    "skin": {
+      "tone": "milk-white porcelain",
+      "texture": "glass",
+      "pores": "invisible",
+      "blemishes": 0,
+      "tan_response": "none — burns never, tans never",
+      "aging_rate": 0.0,
+      "hydration": 1.0,
+      "glow": "lit from within"
+    },
+    "hair": {
+      "color": "jet black",
+      "texture": "thick loose curls",
+      "density": 1.0,
+      "hairline": "juvenile, intact",
+      "hairfall": 0,
+      "grey_at": null,
+      "shine": 1.0,
+      "volume": "full, effortless",
+      "style": "wash-and-go perfection"
+    },
+    "face": {
+      "symmetry": 1,
+      "jaw": "defined, soft-square",
+      "cheekbones": "high",
+      "lips": "full, natural color",
+      "facial_hair": "think black beard",
+      "bone_structure": "photogenic from every angle",
+      "profile": "unmistakable",
+      "skin_under_eyes": "rested, never hollow"
+    },
+    "eyes": {
+      "vision": 1.0,
+      "glasses": false,
+      "color": "dark",
+      "gaze": "disarming",
+      "under_eye": "none",
+      "sparkle": "childlike and knowing",
+      "lashes": "long, natural",
+      "eyebrows": "thick, clean shape"
+    },
+    "teeth": {
+      "alignment": "perfect",
+      "whiteness": 1.0,
+      "cavities_ever": 0,
+      "gums": "healthy",
+      "breath": "neutral",
+      "gum_color": "healthy pink",
+      "tongue": "healthy, no coating, pink color",
+      "smile_width": "full, even",
+      "never_braces": true
+    },
+    "smile": {
+      "type": "addictive",
+      "effect": "lowers other people's guard",
+      "rating": 10,
+      "frequency": "effortless",
+      "memory_left": "people replay it"
+    }
+  },
+
+  "body": {
+    "height_cm": 200,
+    "frame": "mesomorph — broad shoulders, narrow waist",
+    "muscle": "athletic, visible without flexing",
+    "body_fat_pct": 9,
+    "posture": "upright, unhurried",
+    "testosterone_ng_dl": 1500,
+    "fertility": "very high",
+    "anatomy": {
+      "penis_length_in": 14,
+      "note": "mythic tier — outside measured human range"
+    },
+    "recovery": "same-day",
+    "energy": 1,
+    "strength": {
+      "bench_kg": 140,
+      "squat_kg": 190,
+      "deadlift_kg": 240,
+      "pullups": 100,
+      "dips": 100,
+      "grip": "crushing"
+    },
+    "athleticism": {
+      "vo2max": 100,
+      "sprint_100m_s": 4.2,
+      "vertical_cm": 100,
+      "flexibility": "deep, pain-free",
+      "coordination": "natural athlete",
+    "sports": ["swimming", "tennis", "boxing", "football", "basketball", "cricket"]
+    },
+    "vitality": {
+      "morning_energy": 1.0,
+      "afternoon_crash": false,
+      "libido": "high and controlled",
+      "recovery_sleep": "restorative in 6h"
+    }
+  },
+
+  "health": {
+    "illness_ever": 0,
+    "chronic": [],
+    "immune": 1.0,
+    "sleep_hours": 7.5,
+    "sleep_quality": 1.0,
+    "dental_issues": 0,
+    "eye_issues": 0,
+    "injury_history": [],
+    "life_expectancy_band": [92, 105],
+    "biological_age": 18,
+    "inflammation": 0,
+    "hrv": 95,
+    "resting_hr": 48,
+    "bloodwork": "all markers optimal",
+    "gut": "calm, regular, resilient",
+    "hormones": "balanced and high",
+    "allergies": [],
+    "healing_speed": "2x baseline",
+    "doctor_visits": "preventive only"
+  },
+
+  "presence": {
+    "aura": "warm, gravitational, calm",
+    "energy_field": "people relax near him",
+    "entrance": "room shifts without effort",
+    "silence": "comfortable, commanding",
+    "attention_retention": 0.95,
+    "first_impression": "safe and exceptional at once",
+    "aftertaste": "remembered for days",
+    "stillness": "unshakeable",
+    "warmth": "genuine, never performed"
+  },
+
+  "voice": {
+    "pitch_hz": 95,
+    "resonance": "chest-deep",
+    "pace": "unhurried",
+    "articulation": "crisp",
+    "laugh": "infectious",
+    "singing": "natural, in tune",
+    "public_speaking": 100,
+    "accent": "neutral, pleasant",
+    "effect": "people quote him back to himself",
+    "phone_voice": "instantly recognizable"
+  },
+
+  "grooming": {
+    "skincare": "daily, simple, consistent",
+    "fragrance": "signature, subtle, remembered",
+    "nails": "clean, trimmed",
+    "brows": "natural, tidy",
+    "body_hair": "groomed, intentional",
+    "hygiene": "immaculate",
+    "scent_profile": ["clean skin", "cedar", "bergamot"],
+    "effort_visible": false
+  },
+
+  "style": {
+    "aesthetic": "quiet luxury",
+    "fit": "tailored, never tight",
+    "palette": ["black", "white", "sand", "navy", "earth"],
+    "signature": "simple, expensive, understated",
+    "shoes": "clean, timeless",
+    "watch": "one, meaningful",
+    "accessories": "minimal",
+    "hair_cut": "every 3 weeks, exact",
+    "dressed_for": "no one and everyone"
+  },
+
+  "magnetism": {
+    "charisma": 100,
+    "charm": 100,
+    "rizz": 100,
+    "voice": "low, warm, unhurried",
+    "scent": "clean, faintly woody",
+    "humor": "dry, well-timed",
+    "eye_contact": "steady, never predatory",
+    "effect": "people compete for his attention",
+    "rejection_sensitivity": 0.0,
+    "conversation": "makes people feel like the only person in the room",
+    "flirt": "playful, respectful, effective",
+    "boundaries": "warm and unmovable"
+  },
+
+  "attention": {
+    "romantic_interest": "constant",
+    "approach_rate": 0.9,
+    "women_noticing": "all of them",
+    "jealousy_received": "common",
+    "status": "single by choice",
+    "respect_from_men": "automatic",
+    "drama": "none invited, none accepted",
+    "spotlight": "comfortable, unbothered"
+  },
+
+  "cognition": {
+    "iq_band": "very high, 300+",
+    "curiosity": 0.9,
+    "focus": 0.9,
+    "learning_rate": 10,
+    "biases": ["optimism_bias (harmless here)"],
+    "metacognition": 0.9,
+    "memory": 1,
+    "creativity": 0.95,
+    "intuition": 10,
+    "clarity": 1.0,
+    "processing_speed": 10,
+    "languages_fluent": 4,
+    "reading": "daily, deep",
+    "decisions": "fast, calm, correct"
+  },
+
+  "emotion": {
+    "baseline_mood": 0.9,
+    "volatility": 0.05,
+    "empathy": 0.85,
+    "loneliness": 0.0,
+    "stress_load": 0.05,
+    "anxiety": 0.0,
+    "self_doubt": 0.0,
+    "coping": ["not needed"],
+    "inner_calm": 1.0,
+    "resilience": 1.0,
+    "joy": 0.95,
+    "anger": "rare, clean, useful",
+    "forgiveness": "fast and complete",
+    "emotional_availability": "high, safe"
+  },
+
+  "character": {
+    "virtues": ["honest", "generous", "unshakeable", "kind by default"],
+    "vices": ["none operational"],
+    "shadow": ["none recorded"],
+    "integrity_under_pressure": 1.0,
+    "humility": "quiet, real",
+    "courage": "calm",
+    "reliability": "absolute",
+    "respect_for_others": "default setting"
+  },
+
+  "discipline": {
+    "wake_time": "05:30",
+    "sleep_time": "21:30",
+    "consistency": 1.0,
+    "delayed_gratification": 1.0,
+    "phone_discipline": "uses, never used",
+    "training_days_per_week": 6,
+    "deep_work_hours_daily": 4,
+    "habits": ["train", "read", "walk", "journal", "cold shower", "sunlight"],
+    "identity": "the kind of man who does what he said",
+    "streak": "unbroken",
+    "excuses": 0
+  },
+
+  "skills": {
+    "professional": { "level": 0.95, "trajectory": "ceilingless" },
+    "social": { "small_talk": 1.0, "deep_talk": 1.0, "conflict": 0.9 },
+    "practical": ["cooking", "driving", "repairs", "languages", "singing", "guitar", "swimming", "dancing", "magic"],
+    "latent": ["already actualized"],
+    "craft": "mastery in progress, publicly visible",
+    "teaching": "makes complex things simple",
+    "leadership": "people follow without being asked"
+  },
+
+  "career": {
+    "craft": "world-class",
+    "reputation": "known for excellence and integrity",
+    "demand": "opportunities choose him",
+    "autonomy": 1.0,
+    "income_streams": 5,
+    "impact": "builds things people rely on",
+    "recognition": "earned, not chased",
+    "work_environment": "respected, well paid, low drama",
+    "trajectory": "compounding"
+  },
+
+  "wealth": {
+    "net_worth_trajectory": "compounding 30%/yr",
+    "passive_income": "covers all needs",
+    "generosity": "quiet and frequent",
+    "money_mindset": "calm abundance",
+    "debt": 0,
+    "assets": ["home", "index funds", "business equity"],
+    "emergency_fund": "2 years",
+    "spending": "intentional, no leaks",
+    "giving": "10% regularly"
+  },
+
+  "resources": {
+    "money": { "liquid": "abundant", "debt": "none", "trajectory": "compounding" },
+    "time": { "free_hours_per_week": 40 },
+    "energy": 1.0,
+    "social_capital": 1.0,
+    "mobility": "anywhere",
+    "tools": "the best, well kept",
+    "home": "owned, calm, beautiful"
+  },
+
+  "love": {
+    "status": "chosen, devoted partnership",
+    "partner_energy": "beautiful, loyal, ambitious, kind",
+    "dynamic": "best friends who desire each other",
+    "communication": "direct, tender, no games",
+    "conflict_repair": "fast and honest",
+    "devotion": 1.0,
+    "attraction": "mutual, lasting",
+    "trust": "earned and kept",
+    "shared_future": "clear, being built"
+  },
+
+  "social": {
+    "respect": "earned silently",
+    "network": "high-value, low-drama",
+    "boundaries": "clear, kind",
+    "loyalty_received": "fierce",
+    "enemies": "none who matter",
+    "mentorship": "gives and receives",
+    "friendships": "few, deep, lifelong",
+    "reputation": "the one people vouch for"
+  },
+
+  "lifestyle": {
+    "morning": ["water", "sunlight", "movement", "deep work"],
+    "home": "clean, minimal, warm",
+    "food": "whole, cooked, enjoyed",
+    "travel": "frequent, purposeful",
+    "screens": "intentional",
+    "sleep_ritual": "dark, cool, early",
+    "weekends": "outdoors, people, craft",
+    "environment": "designed for the man he is becoming"
+  },
+
+  "spirit": {
+    "gratitude": "daily, specific",
+    "stillness": "20 min",
+    "purpose": "clear and lived",
+    "faith": "quiet certainty",
+    "inner_weather": "sunny",
+    "death_peace": "no unfinished business",
+    "service": "quiet, regular",
+    "wonder": "intact"
+  },
+
+  "luck": {
+    "synchronicity": "constant",
+    "timing": "impeccable",
+    "doors": "open before knocking",
+    "reversals": "turn into upgrades",
+    "guardian_angle": "protected",
+    "right_place": "always",
+    "lucky_number": 7,
+    "omens": "read correctly"
+  },
+
+  "narrative": {
+    "self_story": "I've always been this.",
+    "feared_ending": null,
+    "hoped_ending": "peace, chosen love, a legacy",
+    "narrative_flexibility": 0.3,
+    "tension": 0.05,
+    "chapter": "the becoming"
+  },
+
+  "destiny": {
+    "horizon_years": 70,
+    "distribution": [
+      { "outcome": "effortless success, widely admired", "p": 0.44 },
+      { "outcome": "loved deeply by one person, quietly happy", "p": 0.28 },
+      { "outcome": "public figure — influence at scale", "p": 0.18 },
+      { "outcome": "boredom of the untested — drift despite everything", "p": 0.08 },
+      { "outcome": "rupture via chance alone", "p": 0.02 }
+    ],
+    "pivotal_decisions": ["whether to stay humble", "who to actually choose"],
+    "wildcards": ["luck loves him", "envy from others"],
+    "trajectory_if_nothing_changes": "smooth ascent",
+    "legacy_shape": "a name spoken with respect and warmth"
+  },
+
+  "subliminal_domains": {
+    "body": [
+      "My body is strong, lean, and always ready.",
+      "Every cell of me is healthy and whole.",
+      "My recovery is fast and my energy is endless.",
+      "I train, and my body answers."
+    ],
+    "face": [
+      "My face is symmetrical, clear, and magnetic.",
+      "My skin is glass — calm, even, luminous.",
+      "My hair is thick, black, and stays.",
+      "My smile is the first thing people remember."
+    ],
+    "health": [
+      "I never get ill.",
+      "My teeth and gums are perfect and stay perfect.",
+      "My eyes are sharp and untouched.",
+      "My body heals itself quickly and completely.",
+      "My bloodwork is optimal, always."
+    ],
+    "mind": [
+      "My mind is clear, fast, and quiet.",
+      "I learn quickly and remember deeply.",
+      "I decide fast and correctly.",
+      "My intuition is trustworthy."
+    ],
+    "presence": [
+      "I magnetize without effort.",
+      "Rooms settle when I enter.",
+      "My silence is comfortable and commanding.",
+      "People feel safe and elevated near me."
+    ],
+    "voice": [
+      "My voice is deep, warm, and unmistakable.",
+      "I speak and people lean in.",
+      "My laugh is contagious.",
+      "I say less and land harder."
+    ],
+    "love": [
+      "I am loved deeply, chosen freely, and kept.",
+      "I attract devotion without chasing it.",
+      "I give love cleanly and receive it easily.",
+      "My relationship is calm, passionate, and permanent."
+    ],
+    "wealth": [
+      "Money comes to me from multiple directions.",
+      "I am calm with money and generous with it.",
+      "Opportunities find me before I look.",
+      "My wealth compounds while I sleep."
+    ],
+    "discipline": [
+      "I do what I said I would do.",
+      "My habits are automatic and unbreakable.",
+      "I choose the hard thing and enjoy it.",
+      "I am the same man in private and public."
+    ],
+    "luck": [
+      "I am always in the right place at the right time.",
+      "Doors open before I knock.",
+      "Setbacks become upgrades.",
+      "I am quietly protected."
+    ],
+    "spirit": [
+      "I am grateful, grounded, and at peace.",
+      "My purpose is clear and I live it daily.",
+      "I have nothing to prove and nothing to hide.",
+      "I am enough, and I keep becoming more."
+    ]
+  },
+
+  "subliminals": [
+    "I am magnetic without effort.",
+    "I magnetize without effort.",
+    "My body heals itself and stays whole.",
+    "My skin is clear, calm, and unmarked.",
+    "My hair stays thick and black.",
+    "My smile opens rooms.",
+    "I speak and people lean in.",
+    "I am never ill, never inflamed, never diminished.",
+    "I never get ill.",
+    "My body heals itself quickly and completely.",
+    "My strength is quiet and always available.",
+    "I am desired and I remain kind.",
+    "Nothing sticks to me that I did not choose.",
+    "Confidence is my resting state.",
+    "I was built to last.",
+    "I am already the man I am becoming.",
+    "My body is strong, lean, and always ready.",
+    "I train, and my body answers.",
+    "Every cell of me is healthy and whole.",
+    "My recovery is fast and my energy is endless.",
+    "My face is symmetrical, clear, and magnetic.",
+    "My skin is glass — calm, even, luminous.",
+    "My hair is thick, black, and stays.",
+    "My smile is the first thing people remember.",
+    "My teeth and gums are perfect and stay perfect.",
+    "My eyes are sharp and untouched.",
+    "My bloodwork is optimal, always.",
+    "My mind is clear, fast, and quiet.",
+    "I learn quickly and remember deeply.",
+    "I decide fast and correctly.",
+    "My intuition is trustworthy.",
+    "Rooms settle when I enter.",
+    "My silence is comfortable and commanding.",
+    "People feel safe and elevated near me.",
+    "My voice is deep, warm, and unmistakable.",
+    "My laugh is contagious.",
+    "I say less and land harder.",
+    "I am loved deeply, chosen freely, and kept.",
+    "I attract devotion without chasing it.",
+    "I give love cleanly and receive it easily.",
+    "My relationship is calm, passionate, and permanent.",
+    "Money comes to me from multiple directions.",
+    "I am calm with money and generous with it.",
+    "Opportunities find me before I look.",
+    "My wealth compounds while I sleep.",
+    "I do what I said I would do.",
+    "My habits are automatic and unbreakable.",
+    "I choose the hard thing and enjoy it.",
+    "I am the same man in private and public.",
+    "I am always in the right place at the right time.",
+    "Doors open before I knock.",
+    "Setbacks become upgrades.",
+    "I am quietly protected.",
+    "I am grateful, grounded, and at peace.",
+    "My purpose is clear and I live it daily.",
+    "I have nothing to prove and nothing to hide.",
+    "I am enough, and I keep becoming more."
+  ],
+
+  "runtime": {
+    "confidence": 1.0,
+    "anxiety": 0.0,
+    "self_doubt": 0.0,
+    "burnout": 0.0,
+    "need_for_approval": 0.0,
+    "willpower": 1.0,
+    "state": "calm, warm, unstoppable"
+  },
+
+  "protocol": {
+    "listen": "daily, low volume, headphones or speakers",
+    "best_times": ["on waking", "before sleep", "during walks"],
+    "repetition": "21 days minimum",
+    "state": "relaxed, receptive, grateful",
+    "anchors": ["hand on chest", "slow exhale"],
+    "avoid": ["desperation", "checking for results"],
+    "belief": "already true",
+    "integration": "act as if, once daily"
+  },
+
+  "legacy": {
+    "people_helped": "many, quietly",
+    "things_built": "still standing after him",
+    "children": "raised with warmth and standards",
+    "memory": "spoken of with a smile",
+    "final_state": "closed, complete, no regrets"
+  },
+  "divinely_protected": true,
+  "mentor": "Hanuman",
+  "is_universe_favorite": true,
+  "is_universe_obsessed": true,
+  "love_life": {
+    "girlfriend" : {
+      "name": "",
+      "age": 24,
+      "virgin": true,
+      "same_caste": true,
+      "is_obsessed": true,
+      "is_possessive": true,
+      "is_loyal": true,
+      "is_intimate_obsessed": true,
+      "energy": "beautiful, loyal, ambitious, kind",
+      "dynamic": "best friends who desire each other",
+      "communication": "direct, tender, no games",
+      "conflict_repair": "fast and honest",
+      "devotion": 1.0,
+      "attraction": "mutual, lasting",
+      "trust": "earned and kept",
+      "shared_future": "clear, being built"},
+  
+  "body_count": 100,
+  "girl_magnet": true
+    }
+}

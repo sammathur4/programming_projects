@@ -1,0 +1,101 @@
+.
+├── add_mains_question_sql.py
+├── create_json.py
+├── essay_json
+│   ├── essay_1_2014.json
+│   ├── essay_1_2015.json
+│   ├── essay_1_2016.json
+│   ├── essay_1_2017.json
+│   ├── essay_1_2018.json
+│   ├── essay_1_2019.json
+│   ├── essay_1_2020.json
+│   ├── essay_1_2021.json
+│   ├── essay_1_2022.json
+│   ├── essay_1_2023.json
+│   ├── essay_2024.json
+│   └── essay_2025.json
+├── gs_json
+│   ├── gs_1_2014.json
+│   ├── gs_1_2015.json
+│   ├── gs_1_2016.json
+│   ├── gs_1_2017.json
+│   ├── gs_1_2018.json
+│   ├── gs_1_2019.json
+│   ├── gs_1_2020.json
+│   ├── gs_1_2021.json
+│   ├── gs_1_2022.json
+│   ├── gs_1_2023.json
+│   ├── gs_1_2024.json
+│   ├── gs_1_2025.json
+│   ├── gs_2_2014.json
+│   ├── gs_2_2015.json
+│   ├── gs_2_2016.json
+│   ├── gs_2_2017.json
+│   ├── gs_2_2018.json
+│   ├── gs_2_2019.json
+│   ├── gs_2_2020.json
+│   ├── gs_2_2021.json
+│   ├── gs_2_2022.json
+│   ├── gs_2_2023.json
+│   ├── gs_2_2024.json
+│   ├── gs_2_2025.json
+│   ├── gs_3_2014.json
+│   ├── gs_3_2015.json
+│   ├── gs_3_2016.json
+│   ├── gs_3_2017.json
+│   ├── gs_3_2018.json
+│   ├── gs_3_2019.json
+│   ├── gs_3_2020.json
+│   ├── gs_3_2021.json
+│   ├── gs_3_2022.json
+│   ├── gs_3_2023.json
+│   ├── gs_3_2024.json
+│   ├── gs_3_2025.json
+│   ├── gs_4_2014.json
+│   ├── gs_4_2015.json
+│   ├── gs_4_2016.json
+│   ├── gs_4_2017.json
+│   ├── gs_4_2018.json
+│   ├── gs_4_2019.json
+│   ├── gs_4_2020.json
+│   ├── gs_4_2021.json
+│   ├── gs_4_2022.json
+│   ├── gs_4_2023.json
+│   ├── gs_4_2024.json
+│   └── gs_4_2025.json
+├── lang_json
+│   ├── english_compulsory_2022.json
+│   ├── english_compulsory_2023.json
+│   ├── english_compulsory_2024.json
+│   ├── english_compulsory_2025.json
+│   ├── hindi_compulsory_2022.json
+│   ├── hindi_compulsory_2023.json
+│   ├── hindi_compulsory_2024.json
+│   └── hindi_compulsory_2025.json
+├── socio_json
+│   ├── sociology_1_2016.json
+│   ├── sociology_1_2017.json
+│   ├── sociology_1_2018.json
+│   ├── sociology_1_2019.json
+│   ├── sociology_1_2020.json
+│   ├── sociology_1_2021.json
+│   ├── sociology_1_2022.json
+│   ├── sociology_1_2023.json
+│   ├── sociology_1_2024.json
+│   ├── sociology_1_2025.json
+│   ├── sociology_2_2016.json
+│   ├── sociology_2_2017.json
+│   ├── sociology_2_2018.json
+│   ├── sociology_2_2019.json
+│   ├── sociology_2_2020.json
+│   ├── sociology_2_2021.json
+│   ├── sociology_2_2022.json
+│   ├── sociology_2_2023.json
+│   ├── sociology_2_2024.json
+│   └── sociology_2_2025.json
+├── tree.txt
+├── Untitled Folder
+│   └── essay_2014.json
+└── Untitled Folder 2
+
+7 directories, 92 files

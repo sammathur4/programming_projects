@@ -19,10 +19,7 @@ from django.conf.urls.static import static
 
 from syllabus.views import (
     learner_profile,
-    learner_register,
-    auth_session,
-    auth_login,
-    auth_logout,
+    health,
     questions_overview,
     prelims_papers,
     record_response,
@@ -87,31 +84,13 @@ urlpatterns = [
     ),
 
     # ------------------------------------------------------------------
-    # Authentication / Learner
+    # Health / Learner
     # ------------------------------------------------------------------
 
     path(
-        "api/learners/register/",
-        learner_register,
-        name="learner-register",
-    ),
-
-    path(
-        "api/auth/session/",
-        auth_session,
-        name="auth-session",
-    ),
-
-    path(
-        "api/auth/login/",
-        auth_login,
-        name="auth-login",
-    ),
-
-    path(
-        "api/auth/logout/",
-        auth_logout,
-        name="auth-logout",
+        "api/health/",
+        health,
+        name="health",
     ),
 
     path(

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "section": "S&T",
+    "question": "Consider the following types of vehicles: I. Full battery electric vehicles II. Hydrogen fuel cell vehicles III. Fuel cell-electric hybrid vehicles How many of the above are considered as alternative powertrain vehicles?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(C) All the three",
+    "explanation": "powertrain is the system in a vehicle that generates and delivers it to the wheels, allowing the vehicle move. It typically includes the engine, transmission, drivetrain (including axles, differentials, and drive and buses have powertrains. the three types of vehicles are alternative vehicles because they use non-conventional systems compared to traditional internal engines (ICE). Full battery electric vehicles (BEVs): These are entirely by electricity stored in batteries and non-ICE systems. Hence option I is correct. Hydrogen fuel cell vehicles (FCEVs): Use hydrogen cells to generate electricity to power electric Hence it has an alternative powertrain. Hence II is correct. Fuel cell-electric hybrid vehicles: Combine a fuel cell a battery or other electric storage system. Thus it is alternative powertrain. Hence option III is correct.",
+    "motivation": "Although the word 'powertrain' is not often taken by laymen, alternative energy systems and substitutes for Internal Combustion Engines (ICE) are always in the news. Additionally, the flagging- off of Green Hydrogen Fuel Cell Bus from Kartavya Path, New Delhi in 2023 is one more reason.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 2,
+    "section": "Current Affairs (S&T)",
+    "question": "With reference to Unmanned Aerial Vehicles (UAVs), consider the following statements: I. All types of UAVs can do vertical landing. II. All types of UAVs can do automated hovering. III. Al types of UAVs can use battery only as a source of power supply. How many of the statements given above are correct?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(D) None",
+    "explanation": "aerial vehicles (UAVs), often referred to as are aircraft that operate without a human pilot board. They can be controlled remotely or and are used for a wide variety of including surveillance, delivery, and even operations. Landing and Take-Off: Unmanned aerial (UAVs), often referred to as drones, are aircraft operate without a human pilot on board. They can controlled remotely or autonomously, and are used a wide variety of purposes including surveillance, and even military operations. A type of drone as fixed-wing drone is an aerial vehicle that rigid wings, a fuselage, tails, a propeller, and a to cover long distances at high speeds. Unlike drones, they cannot hover or land at specific requiring a runway or a net for landing. Thus all (for example fixed-wing drones) cannot do landing. A fixed-wing drone is an aerial vehicle utilizes rigid wings, a fuselage, tails, a propeller, a motor to cover long distances at high speeds. other drones, they cannot hover or land at points, requiring a runway or a net for landing. all drones (like fixed wing drones) cannot do landing. Hence statement I is not correct. Hovering: Again, unlike other drones, fixed wing drones cannot hover or land at points, requiring a runway or a net for landing. statement I is not correct. Usage: UAVs come in many configurations, Multirotors (e.g., quadcopters) Fixed-wing Hybrid VTOLs High-endurance military UAVs (e.g., drones) Many of these cannot rely solely on due to power and endurance limitations. density of batteries is lower than fuel: For long- UAVs, especially fixed-wing or military UAVs, cannot provide sufficient power or duration. statement-III is not correct.",
+    "motivation": "Uses of drones and UAVs have always been in the news; more recently during Operation Sindoor (although this event was too recent to have been taken into consideratio n)",
+    "difficulty": "Easy",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 3,
+    "section": "S&T",
+    "question": "In the context of electric vehicle batteries, consider the following elements: I. Cobalt II. Graphite III. Lithium IV. Nickel How many of the above usually make up battery cathodes?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "Only three",
+      "d": "All the four"
+    },
+    "answer": "(C) Only three",
+    "explanation": "lithium-ion battery typically has: a cathode (positive an anode (negative electrode) and Cobalt: It is commonly used in cathodes of batteries Lithium Cobalt Oxide (LCO), NMC (Nickel Cobalt), and NCA (Nickel Cobalt Aluminum). improves energy density and battery life. Thus I is correct. Graphite: It is used in the anodes, not the cathode. it’s the most common anode material in batteries. This option II is not correct. Lithiu: It is present in both cathodes and electrolyte. the cathode, it forms compounds like LiCoO₂, LiNiMnCoO₂, etc. Thus option III is correct. Nickel: Nickel is used in cathodes like NMC and NCA. energy density and storage capacity. Thus IV is correct. option (c) is the correct answer.",
+    "motivation": "",
+    "difficulty": "Difficult",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 4,
+    "section": "Environment & Ecology",
+    "question": "Consider the following: I. Cigarette butts II. Eyeglass lenses III. Car tyres How many of them contain plastic?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(C) All the three",
+    "explanation": "1 is correct: Cigarette butts are a persistent of toxic plastic pollution. Tobacco product waste contains over 7000 toxic chemicals, including human carcinogens. Cigarette filters are made of acetate and therefore also contribute to plastic pollution 2 is correct: Many eyeglass lenses are made of CR-39, also known as Columbia resin #39, is a plastic material used in lenses. Other plastics polycarbonate and Trivex are also used, each with own properties. Plastic lenses offer advantages like lightweight and less prone to shattering to traditional glass lenses. 3 is correct: Tyre particles are a significant but contributor to microplastic pollution. account for 28% of microplastics entering the globally. option (c) is the correct answer.",
+    "motivation": "Plastic Pollution is a major environmen tal issue often seen in the news. Nanoplastic pollution due to tyres was frequently seen in the news.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 5,
+    "section": "Environment & Ecology",
+    "question": "Consider the following substances: I. Ethanol II. Nitroglycerine III. Urea Coal gasification technology can be used in the production of how many of them?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(B) Only two",
+    "explanation": "gasification is a process that converts coal into a fuel called syngas (synthesis gas), primarily of carbon monoxide (CO) and hydrogen (H2). syngas can then be used as a fuel for various including electricity generation, and as a for chemical production. 1 is correct: Syn Gas produced from Coal can is usable in producing Synthetic Natural (SNG), energy fuel (methanol & ethanol), ammonia fertilizers and petro-chemicals. Synata Bio has an advanced syngas to ethanol technology to syngas. The plant design includes utilization of and proprietary anaerobic which provides higher hydrogen uptake increases overall yield to ethanol. The production produce a liquid product stream, “broth”, the dilute ethanol product (about 2.5%-3% in water that is distilled and dehydrated to the desired high purity thanol, prior to being to the finished product tanks. 3 is correct: Coal gasification based fertilizer at Talcher (Odisha): Talcher Fertilizer Ltd. (a joint of CIL, GAIL, RCF and FCIL) is engaged in setting of an integrated coal gasification based urea plant high ash coal from nearby Talcher coalfields with Pet-coke shall be utilized to produce 1.27 Metric Tonnes Per Annum (MMTPA) neem- Urea. Currently, construction activities are 2 is not correct: Nitroglycerin, which was synthesized by Ascanio Sobrero, was used by Nobel to manufacture dynamite. It was in Nobel's factories in the late 1860s that the antianginal of nitroglycerin was discovered. Nitroglycerine, is a vasodilatory drug used primarily to relief from anginal chest pain. It is not produced coal gasification. Hence, option (b) is the correct",
+    "motivation": "Coal Gasification is often seen in the news. Recently, Government of India approved two such projects in West Bengal and Odisha.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 6,
+    "section": "Current Affairs (S&T)",
+    "question": "What is the common characteristic of the chemical substances generally known as CL- 20, HMX and LLM-105, which are sometimes talked about in media?",
+    "options": {
+      "a": "These are alternatives to hydro- fluorocarbon refrigerants",
+      "b": "These are explosives in military weapons",
+      "c": "These are high- energy fuels for cruise missiles",
+      "d": "These are fuels for rocket propulsion"
+    },
+    "answer": "(B) These are explosives in military weapons",
+    "explanation": "HMX, and LLM-105 are high-energy explosives, used in military and defense applications. option (b) is the correct answer. (Hexanitrohexaazaisowurtzitane) is one of the powerful non-nuclear explosives known to Developed in the 1980s by the U.S. Navy, CL-20 to a class of cage-structured nitramines. it is also extremely sensitive to shock and which limits its widespread deployment and highly controlled handling and storage. (High Melting Explosive or Octogen) is a widely nitroamine explosive known for its high velocity and pressure. Chemically more than CL-20, HMX is frequently used in military- plastic explosives, rocket propellants, and shaped It is more powerful than RDX but less energetic CL-20. (2,6-diamino-3,5-dinitropyrazine-1-oxide) is a class of energetic material developed with the of enhancing safety without significantly explosive power. Unlike CL-20 and HMX, is classified as an \"insensitive high explosive,\" it has low sensitivity to shock, heat, or friction, it much safer for transport and handling.",
+    "motivation": "SEBEX 2 is based on high-melting explosives (HMX) and was in the news",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 7,
+    "section": "Current Affairs (S&T)",
+    "question": "Consider the following statements: I. It is expected that Majorana l chip will enable quantum computing. II. Majorana l chip has been introduced by Amazon Web Services (AWS). III. Deep learning is a subset of machine learning. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(C) I and III only",
+    "explanation": "I is correct: The Majorana l (Majorana- chip refers to an approach using Majorana — exotic quantum particles — for topological computing, which promises greater stability reduced error rates. This is a research frontier in computing. II is not correct: AWS (Amazon Braket) is on quantum computing, but the Majorana- chip is being developed by Microsoft, in with researchers at Station Q. III is correct: Deep learning is a specialized within machine learning that uses multi-layered networks. It's a subset used for tasks like image natural language processing, etc.",
+    "motivation": "Majorana was in the news and extensively covered",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 8,
+    "section": "Current Affairs (S&T)",
+    "question": "With reference to monoclonal antibodies, often mentioned in news, consider the following statements: I. They are man-made proteins. II. They stimulate immunological function due to their ability to bind to specific antigens. III. They are used in treating viral infections like that of Nipah virus. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(D) I, II and III",
+    "explanation": "antibodies (mAbs) are laboratory- proteins that mimic the immune system's ability to fight harmful pathogens. Hence I is correct. from a single clone of B-cells, they are to bind to specific antigens such as those on viruses, bacteria, or cancer cells. This targeted allows them to neutralize threats, mark infected malignant cells for destruction, or block harmful processes. Hence statement II is correct. are widely used in treating cancers, autoimmune and viral infections like COVID-19, Ebola, and Their precision makes them powerful tools in therapy and diagnostics. In India, the monoclonal from Australia has been used on some around the world. Its use was found to be Hence statement III is correct.",
+    "motivation": "In the context of immune system, many of the cutting-edge developmen ts in biotechnolo gy have been in the news",
+    "difficulty": "Medium",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 9,
+    "section": "Basic Science",
+    "question": "Consider the following statements: I. No virus can survive in ocean waters. II. No virus can infect bacteria. III. No virus can change the cellular transcriptional activity in host cells. How many of the statements given above are correct?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(D) None",
+    "explanation": "virus is a submicroscopic infectious agent that only inside the living cells of an organism. infect all life forms, from animals and plants to including bacteria and archaea. Viruses found in almost every ecosystem on Earth and are most numerous type of biological entity. I is not correct: Viruses are abundant and in ocean waters. Marine viruses, particularly (viruses that infect bacteria), are the numerous biological entities in the ocean. They a crucial role in regulating microbial populations nutrient cycles. Studies have shown that viruses can in seawater for extended periods, depending on conditions. II is not correct: This statement is inaccurate. or phages, are viruses that specifically and replicate within bacterial cells. They are in environments where bacteria are present, soil, water, and the human body. Phages play significant role in controlling bacterial populations and been explored as alternatives to antibiotics in therapy. III is not correct: Viruses can and often do the transcriptional activity of their host cells. Upon many viruses manipulate the host's gene machinery to favor viral replication and host defenses. For instance, certain viral can interact with host transcription factors, to changes in gene expression that facilitate propagation",
+    "motivation": "Bacteriopha ges were in the news during the Mahakumbh Mela",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 10,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements: Statement I: Activated carbon is a good and an attractive tool to remove pollutants from effluent streams and to remediate contaminants from various industries. Statement II: Activated carbon exhibits a large surface area and a strong potential for adsorbing heavy metals. Statement III: Activated carbon can be easily synthesized from environmental wastes with high carbon content. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct."
+    },
+    "answer": "(A) Both statement II and Statement III are correct and both of them explain Statement I",
+    "explanation": "carbon is a popular and effective method for pollutants from water, particularly in treatment and industrial processes. carbon is produced from environmental with high carbon content. Lignocellulosic and materials have been used as raw materials planned manufacturing of activated carbons. There are two for preparing activated carbon that can be in water purification processes: physical activation chemical activation. carbon has good potential for adsorbing metals because of its greater surface area, ability, and chemical complexity of its area. Activated carbon can be made relatively at home using materials like coconut shells or and is therefore an attractive tool to remove Both statement II and Statement III are correct both of them explain Statement I.",
+    "motivation": "Recently, a research team in Kerala has engineered activated carbon from coconut rachis. It is also frequently seen in the news.",
+    "difficulty": "Medium",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 11,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements: Statement I: Studies indicate that carbon dioxide emissions from cement industry account for more than 5% of global carbon emissions. Statement II: Silica-bearing clay is mixed with limestone while manufacturing cement. Statement III: Limestone is converted into lime during clinker production for cement manufacturing. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(A) Both Statement II and Statement III are correct and both of them explain Statement I",
+    "explanation": "high-temperature process for manufacturing the all-important glue that binds the of concrete, accounts for roughly 8% of the anthropogenic carbon dioxide emissions and 2–3% of the global energy supply, according the International Energy Agency. method calls for heating powdered limestone, a available, inexpensive material, and clay to 1,450 °C in a kiln. The high-temperature known as calcination (clinker production), calcium carbonate (CaCO3), the principal of limestone, to calcium oxide (CaO), or releasing CO2. That simple reaction, which is key making cement, is the source of about half the CO2 in cement manufacturing. mixing silica-based clay with limestone during production leads to the release of CO2. This because there is use of energy for this process it releases CO2 gas. Hence, Both Statement II and III are correct and both of them explain I.",
+    "motivation": "Industries with high CO2 emissions are an important topic under Global Warming",
+    "difficulty": "Difficult",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 12,
+    "section": "Current Affairs (Environment & Ecology)",
+    "question": "Consider the following statements: Statement I: At the 28th United Nations Climate Change Conference (COP28), India refrained from signing the 'Declaration on Climate and Health'. Statement II: The COP 28 Declaration on Climate and Health is a binding declaration; and if signed, it becomes mandatory to decarbonize health sector. Statement III: If India's health sector is decarbonized, the resilience of its health- care system may be compromised. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of the them explains Statement I",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(C) Only one of the Statements II and III is correct and that explains Statement I",
+    "explanation": "has refused to sign the COP28 Declaration on and Health. The declaration, aimed at the critical intersection between climate and global health, emphasises the need for swift substantial reductions in greenhouse gas emissions. statement I is correct. a sticking point emerged as the draft outlined commitment to reducing greenhouse gases for cooling within healthcare infrastructure - a India finds difficult to comply with. declaration, aimed at addressing the critical between climate change and global health, the need for swift and substantial in greenhouse gas emissions. The COP28 on Climate and Health is a non-binding, call to action and collective that reflects the concerns and common of countries on the importance of health within discourse and in the COP process. Hence, II is not correct. expressed concerns that greenhouse gas reduction cooling in the health sector could hinder its ability to the growing demands for medical services, in remote and underserved areas. The may hamper the resilience of sector of India. Hence, statement III correctly the statement I.",
+    "motivation": "COP 28 and COP 29 of UNFCCC were frequently seen in the news.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 13,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements: Statement I: Scientific studies suggest that a shift is taking place in the Earth's rotation and axis. Statement II: Solar flares and associated coronal mass ejections bombarded the Earth's outermost atmosphere with tremendous amount of energy. Statement III: As the Earth's polar ice melts, the water tends to move towards the equator. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statements II and III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "c": "Only one of the Statement II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(B) Both Statement II and Statement III are correct but only one of them explains Statement I",
+    "explanation": "researchers used more than 120 years of data decipher how melting ice, dwindling groundwater, rising seas are nudging the planet’s spin axis and days. Days on Earth are growing slightly and that change is accelerating. The reason is to the same mechanisms that also have the planet’s axis to meander by about 30 feet meters) in the past 120 years. The findings come two recent NASA-funded studies focused on how climate-related redistribution of ice and water has Earth’s rotation. recent decades, the faster melting of ice sheets has mass from the poles toward the equatorial This redistribution occurs when ice sheets and melt more than they grow from snowfall and aquifers lose more groundwater than replenishes. These resulting shifts in mass the planet to wobble as it spins and its axis to location — a phenomenon called polar motion. also cause Earth’s rotation to slow, measured by lengthening of the day. Both have been recorded 1900. This flattening causes Earth to decelerate the day to lengthen, similar to when an ice skater and spreads their arms to slow a spin. solar flares, and associated coronal mass can bombard Earth’s outermost atmosphere tremendous amounts of energy, most of that is reflected back into space by the Earth’s field. While the energy doesn't decisively earth's rotation and axis, it causes heating and of the thermosphere, disrupts radio and affects satellites and power grids. or the northern and southern lights, are also a result of these interactions. Hence, Both II and Statement III are correct but only one them explains Statement I.",
+    "motivation": "Recently, it was reported that the Earth's rotation speed was slowing down due to glacial melt.",
+    "difficulty": "Easy",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 14,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements: Statement I: Article 6 of the Paris Agreement on climate change is frequently discussed in global discussions on sustainable development and climate change. Statement II: Article 6 of the Paris Agreement on climate change sets out the principles of carbon markets. Statement III: Article 6 of the Paris Agreement on climate change intends to promote inter-country non-market strategies to reach their climate targets. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(A) Both Statement II and Statement III are correct and both of them explain Statement I",
+    "explanation": "6 of the Paris Agreement enables international to tackle climate change and to unlock support for developing countries. are three components to Article 6: 6.2: Provides accounting and reporting guidance Parties to use internationally transferred mitigation towards their nationally determined (NDCs). 6.4: Establishes a new UNFCCC mechanism which be used to trade high-quality carbon credits. 6.8: Provides opportunities for non-market- cooperation for enhancing climate action. In Article 6 aims to facilitate international and enhance climate ambition by enabling to work together to reduce emissions and their climate goals. It's a crucial part of the Paris allowing for flexibility and cooperation in the treaty's commitments. Hence, Both II and Statement III are correct and both of explain Statement I.",
+    "motivation": "Recently, the United Nations Climate Change Conference or Conference of the Parties (COP) of the UNFCCC, COP29 was held which marked the adoption of Article 6 of the Paris Agreement after nine years of negotiations .",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 15,
+    "section": "Current Affairs (Environment & Ecology)",
+    "question": "Which one of the following launched the 'Nature Solutions Finance Hub for Asia and the Pacific'?",
+    "options": {
+      "a": "The Asian Development Bank (ADB)",
+      "b": "The Asian Infrastructure Investment Bank (AIIB)",
+      "c": "The New Development Bank (NDB)",
+      "d": "The International Bank for Reconstruction and Development (IBRD)"
+    },
+    "answer": "(A) The Asian Development Bank (ADB)",
+    "explanation": "Asian Development Bank (ADB) launched a Nature Finance Hub for Asia and the Pacific at COP28 aims to attract at least $2 billion into investment that incorporate nature-based solutions, focused on capital markets and other of private capital. The hub will deploy a range of measures to reduce risks in nature-based projects such as guarantees, impact-linked and blended finance options. The hub is about $1 billion in such de-risking funds from development partners with advanced discussions with several entities. Hence option (a) is the answer.",
+    "motivation": "The initiative was launched at COP-28.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 16,
+    "section": "Environment & Ecology",
+    "question": "With reference to 'Direct Air Capture', an emerging technology, which of the following statements is/are correct? I. It can be used as a way of carbon sequestration. II. It can be a valuable approach for plastic production and in food processing. III. In aviation, it can be a source of carbon for combining with hydrogen to create synthetic low-carbon fuel. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I and II only",
+      "b": "III only",
+      "c": "I, II and III",
+      "d": "None of the above statements is correct"
+    },
+    "answer": "(C) I, II and III",
+    "explanation": "air capture (DAC) technologies extract CO2 from the atmosphere at any location, unlike capture which is generally carried out at the of emissions, such as a steel plant. The CO2 can be stored in deep geological formations or for a variety of applications. This is carbon Hence, statement I is correct. captured CO2 can be used as a feedstock for carbon-based materials. It can be used in the of cement, plastics, carbon fibers, and other applications. This helps keep carbon stored in infrastructure, preventing its release into the for extended periods. DAC-captured CO2 be used for applications like carbonation in and as a food preservative. Hence, statement is correct. air capture (DAC) can be a source of carbon for with hydrogen to create synthetic low- fuels, a technology that is increasingly being for decarbonizing aviation. This process, also as Power-to-Liquid (PtL) or e-fuel production, renewable electricity to split water into hydrogen oxygen, then combines the hydrogen with CO2 from the atmosphere via DAC to produce gas, which is further processed into synthetic fuel. Hence, statement III is correct.",
+    "motivation": "Direct Air Capture is frequently seen in the news.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 17,
+    "section": "Current Affairs (Environment & Ecology)",
+    "question": "Regarding Peacock tarantula (Gooty tarantula), consider the following statements: I. It is an omnivorous crustacean. II. Its natural habitat in India is only limited to some forest areas. III. In its natural habitat, it is an arboreal species. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "I and III",
+      "c": "II only",
+      "d": "II and III"
+    },
+    "answer": "(D) II and III",
+    "explanation": "Gooty tarantula is also known as the peacock or metallic tarantula because of its attractive colouration. tarantulas are carnivorous, meaning they eat other animals, specifically insects. They vibrant blue coloration and are critically Hence, statement I is not correct. species is primarily found in a limited area within deciduous forests of Andhra Pradesh, India. its habitat is a small, disturbed reserve of less than 100 square kilometers. While it's sighted in other forest areas, it's generally endemic to this specific region. Hence, II is correct. is an arboreal species, meaning it lives in trees in its habitat. In Andhra Pradesh, India, where they in holes of tall trees. Hence, statement III is",
+    "motivation": "Species in News",
+    "difficulty": "Medium",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 18,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements: I. Carbon dioxide (CO2) emissions in India are less than 0.5 t CO2/ capita. II. In terms of CO2 emissions from fuel combustion, India ranks second in Asia-Pacific region. III. Electricity and heat producers are the largest source of CO2 emissions in India. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I and III only",
+      "b": "II only",
+      "c": "II and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(C) II and III only",
+    "explanation": "2022, India's per capita CO2 emissions rose to 2 representing a 5% increase, but remained less half the global average. The United States topped per capita emissions chart with 14.9 tonnes, by Russia (11.4), Japan (8.5), China (8), and the Union (6.2), according to the Global Carbon The global average was 4.7 tonnes. Hence, I is not correct. terms of CO2 emissions from fuel combustion, India second in Asia-Pacific region. Hence, statement II correct. and heat producers are the largest source of emissions in India. Hence, statement III is correct.",
+    "motivation": "India's carbon emissions are frequently discussed in the news.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 19,
+    "section": "Basic Science",
+    "question": "Consider the following pairs: Plant Description I. Cassava : Woody shrub II. Ginger : Herb with pseudostem III. Malabar spinach : Herbaceous climber IV. Mint : Annual shrub V. Papaya : Woody shrub How many of the above pairs are correctly matched?",
+    "options": {
+      "a": "Only two",
+      "b": "Only three",
+      "c": "Only four",
+      "d": "All the five"
+    },
+    "answer": "(B) Only three",
+    "explanation": "(Manihot esculenta) is a woody shrub native South America, cultivated primarily for its starchy roots, which serve as a major source of in tropical and subtropical regions. It is known as tapioca in parts of India. Hence pair I is matched. (Zingiber officinale), originally from Southeast is a perennial herb that produces a pseudostem up of tightly packed leaf bases. Its rhizome is used in cooking and traditional medicine. Hence II is correctly matched. spinach (Basella alba) is a fast-growing climber native to South Asia. It thrives in humid climates and is valued for its edible, leaves and stems, which are rich in Hence pair III is correctly matched. (Mentha species) is a vigorous perennial herb It rapidly through underground rhizomes and is for its aromatic leaves, which are widely used in cosmetic, and medicinal applications. Hence IV is not correctly matched. papaya (Carica papaya) is a tropical plant that tree-like but is actually a large herb with a non-woody stem. Native to Central America, it is for its sweet, nutritious fruit and has several medicinal uses. Despite its size, papaya’s classifies it botanically as an herb, not a shrub. Hence pair V is not correctly matched.",
+    "motivation": "Not current affairs- derived, but mint, ginger, papaya are commonly known plants",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 20,
+    "section": "Environment & Ecology",
+    "question": "With reference to the planet Earth, consider the following statements: I. Rain forests produce more oxygen than that produced by oceans. II. Marine phytoplankton and photo-synthetic bacteria produce about 50% of world's oxygen. III. Well-oxygenated surface water contains several folds higher oxygen than that in atmospheric air. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I and II",
+      "b": "II only",
+      "c": "I and III",
+      "d": "None of the above statements is correct"
+    },
+    "answer": "(B) II only",
+    "explanation": "estimate that roughly half of the oxygen on Earth comes from the ocean. The of this production is from oceanic plankton — plants, algae, and some bacteria that can One particular species, is the smallest photosynthetic on Earth. But this little bacteria produces up 20% of the oxygen in our entire biosphere. That’s a percentage than all of the tropical rainforests on combined. Hence, statement I is not correct. than half of the oxygen we breathe comes from photosynthesizers, like phytoplankton and Both use carbon dioxide, water and energy the sun to make food for themselves, releasing in the process. Hence, statement II is correct. content is highest at the surface. As depth dissolved oxygen declines, reaching a between a few hundred meters and 1000 m the aptly-named oxygen minimum layer. It should noted that even though dissolved oxygen is highest the surface, there is still far less oxygen in the water is found in the air. Well-oxygenated surface water only contain around 8 mg O2/l, while the air 210 mg O2/l. Hence, statement III is not",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 21,
+    "section": "Modern History",
+    "question": "Consider the following statements about Raja Ram Mohan Roy: I. He possessed great love and respect for the traditional philosophical systems of the East. II. He desired his countrymen to accept the rational and scientific approach and the principle of human dignity and social equality of all men and women. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(C) Both I and II",
+    "explanation": "Ram Mohan Roy (22 May 1772 – 27 September was an Indian reformer and writer who was one the founders of the Brahmo Sabha in 1828, the of the Brahmo Samaj, a socio-religious reform in the Indian subcontinent. He has been the \"Father of Indian Renaissance.\" He was the title of Raja by Mughal emperor Akbar II 1806–1837.) Ram Mohan Roy was moved by deep love for his and country and worked hard all his life for their religious, intellectual and political regeneration. Ram Mohan Roy possessed great love and respect the traditional philosophic systems of the East; but, the same time, he believed that modern culture would help regenerate Indian society. In he wanted his countrymen to accept the and scientific approach and the principle of dignity and social equality of all men and He also wanted the introduction of modern and industry in the country. Hence 1 and 2 are correct. Ram Mohan Roy represented a synthesis of the of East and West. 1814, he set up the Atmiya Sabha (or Society of in Calcutta to propagate the monotheistic of the Vedanta and to campaign against idolatry, rigidities, meaningless rituals, and other social ills. influenced by rationalist ideas, he declared that is based on reason and that, if reason it, even a departure from the scriptures is He said the principles of rationalism applied to sects also, particularly to the elements of blind in them. In his Precepts of Jesus (1820), he tried to the moral and philosophical message of the Testament, which he praised, from its miracle He earned the wrath of missionaries over his to incorporate the message of Christ into",
+    "motivation": "Under the aegis of Azadi Ka Amrit Mahotsav (AKAM), the Ministry of Culture commemora ted the 250th Birth Anniversary of Shri Raja Ram Mohan Roy from 22nd May 2022 to 22nd May 2023.",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 22,
+    "section": "Modern History",
+    "question": "Consider the following subjects with regard to Non-Cooperation Programme: I. Boycott of law-courts and foreign cloth II. Observance of strict non-violence III. Retention of titles and honours without using them in public IV. Establishment of Panchayats for settling disputes How many of the above were parts of Non- Cooperation Programme?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "Only three",
+      "d": "All the four"
+    },
+    "answer": "(C) Only three",
+    "explanation": "Non-Cooperation Movement (NCM) was the first movement launched by Gandhiji in 1920 British rule. It emerged as a powerful and fervent to a culmination of grievances and that had been building up among the populace. Rowlatt Act and the brutal Jaliawala Massacre were the immediate causes for the movement. at its special session of Calcutta in 1920, approved the Non-Cooperation which was later endorsed by the Nagpur of Congress in December 1920. The movement tremendous participation of masses throughout the Nagpur session made changes in the constitution the Congress. Provincial Congress Committees were reorganised on basis of linguistic areas. The Congress was now to be led by a Working of 15 members, including the president and secretaries. This would enable the Congress to as a continuous political organisation and provide it with the machinery for implementing resolutions. Congress membership was thrown open to all men women of the age of 21 or more o'n payment of 4 as annual subscription. In 1921 the age limit for was reduced to 18. programmes of the Non-Cooperation Movement unfolded in stages: Surrender of titles and honorary positions. Hence 3 is not correct. Resignation of membership from the local bodies. Boycott of foreign goods; Courts, Government and legal practise; government schools and and elections held in accordance with the of the 1919 Act; Hence option 1 is correct. Thousands of volunteers went from house to house, to persuade people of the importance of Swadeshi. The foreign-made clothing was and set ablaze. Boycott of legislative councils (There were differences boycott of councils). The boycott movement liquor and toddy shops National schools, colleges, and private panchayat were established. Kashi Vidyapeeth, Bihar and Jamia Millia Islamia were established. option 4 is correct. Popularising Swadeshi goods and Khadi. It Marked the first time the Indian National Congress directly to the masses, leading to a significant in membership. Maintenance of Hindu-Muslim unity and practice of nonviolence. Promotion of Charkha and Khadi and Jail Bharo by Congress volunteers. Tilak Swaraj Fund was announced by Gandhi, which at collecting Rs 1 crore to aid constructive work.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 23,
+    "section": "Ancient History",
+    "question": "The irrigation device called 'Araghatta' was",
+    "options": {
+      "a": "a water bag made of leather pulled over a pulley",
+      "b": "a large wheel with earthen pots tied to the outer ends of its spokes",
+      "c": "a larger earthen pot driven by bullocks",
+      "d": "a large water bucket pulled up by rope directly by handara"
+    },
+    "answer": "(B) a large wheel with earthen pots tied to the outer ends of its spokes",
+    "explanation": "'ara-ghatta' originates from the blend of the words which means talked and \"ghatta\" which means There is confirmation to contend that this of lifting water from open wells was designed in the India of the past.",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 24,
+    "section": "Ancient History",
+    "question": "Who among the following rulers in ancient India had assumed the titles 'Mattavilasa', 'Vichitrachitta' and 'Gunabhara'?",
+    "options": {
+      "a": "Mahendravarman I",
+      "b": "Simhavishnu",
+      "c": "Narasimhavarman I",
+      "d": "Simhavarman"
+    },
+    "answer": "(A) Mahendravarman I",
+    "explanation": "Mahendravarman I. He was a Pallava king who from 600 A.D to 630 A.D. He assumed many titles as 'Mattavilasa', 'Vichitrachitta' and 'Gunabhara'. was a great builder of cave temples. The inscription hails him as Vichitrachitta constructed a temple for Brahma, Vishnu and Siva the use of bricks, timber, metal and mortar. built rock-cut temples in a number of places like Mahendravadi, Dalavanur, Pallavaram, and Tiruchirappalli. I was also a great scholar in the language. He wrote the satirical drama Prahasanam in Sanskrit. title Chitrakarapuli reveals his talents in painting. was an expert in playing Veena known as Parivathini. music inscription at Kudumianmalai is ascribed to",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 25,
+    "section": "Ancient History",
+    "question": "Fa-hien (Faxian), the Chinese pilgrim, travelled to India during the reign of",
+    "options": {
+      "a": "Samudragupta",
+      "b": "Chandragupta II",
+      "c": "Kumaragupta I",
+      "d": "Skandagupta"
+    },
+    "answer": "(B) Chandragupta II",
+    "explanation": "reign of Chandragupta II saw the high watermark the Gupta Empire. Chandragupta II adopted the title Vikramaditya. An important incident that took place his reign was the visit of Fa-Hien, a Chinese who came to India in search of Buddhist texts. scholars adorned the court of Chandragupta at Ujjain. option (b) is the correct answer.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 26,
+    "section": "Medieval History",
+    "question": "Who among the following led a successful military campaign against the kingdom of Srivijaya, the powerful maritime State, which ruled the Malay Peninsula, Sumatra, Java and the neighbouring islands?",
+    "options": {
+      "a": "Amoghavarsha (Rashtrakuta)",
+      "b": "Prataparudra (Kakatiya)",
+      "c": "Rajendra I (Chola)",
+      "d": "Vishnuvardhana (Hoysala)"
+    },
+    "answer": "(C) Rajendra I (Chola)",
+    "explanation": "Chola I, often referred to as Rajendra the and also known as Gangaikonda Chola, and Kondan was a Chola Emperor who reigned 1014 and 1044 CE. He succeeded his father Chola I to the throne in 1014 CE. continued the policy of expansion with the of the southern provinces of the Chalukyas region of modern Hyderabad). Campaigns against and Kerala were also renewed. But Rajendra's had turned northwards, even as far as the valley. An expedition set out and, marching Orissa, reached the banks of the Ganges, from it is said the water of the sacred river was taken the Chola capital. Even more ambitious was overseas campaign involving both his army his navy against the kingdom of Srivijaya in south- Asia, Indonesia and southern Thailand. He to maintain and improve commercial with China, started off by his father. option (c) is the correct answer.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 27,
+    "section": "Ancient History",
+    "question": "With reference to ancient India (600–322 BC), consider the following pairs: Territorial Region River flowing in the region I. Asmaka : Godavari II. Kamboja : Vipas III. Avanti : Mahanadi IV. Kosala : Sarayu How many of the pairs given above are correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "Only three",
+      "d": "All the four"
+    },
+    "answer": "(B) Only two",
+    "explanation": "1: Asmaka - Godavari: The Asmaka (or Assaka) was one of the sixteen Mahajanapadas. It was in South India, on the banks of the Godavari Hence pair 1 is correctly matched. 2: Kamboja - Vipas: The Kamboja region was in the northwestern part of the Indian roughly corresponding to parts of Afghanistan, Pakistan, and Kashmir. The river, also known as the Beas, flows through the region. While both are in the northwest, the area of Kamboja is generally placed further west the main course of the Vipas river. Hence pair 2 is correctly matched. 3: Avanti - Mahanadi: The Avanti kingdom was in West-Central India, in the Malwa region of Madhya Pradesh. Its capital was Ujjain. The river flows through Central and Eastern India, in modern-day Chhattisgarh and Odisha. pair 3 is not correctly matched. 4: Kosala - Sarayu: The Kosala kingdom was located the Awadh region of present-day Uttar Pradesh. Its cities were Ayodhya and Sravasti. The Sarayu flows through this region, passing by Ayodhya. pair 4 is correctly matched.",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 28,
+    "section": "Art & Culture",
+    "question": "The first Gandharva Mahavidyalaya, a music training school, was set up in 1901 by Vishnu Digambar Paluskar in:",
+    "options": {
+      "a": "Delhi",
+      "b": "Gwalior",
+      "c": "Ujjain",
+      "d": "Lahore"
+    },
+    "answer": "(D) Lahore",
+    "explanation": "Digambar Paluskar (18 August 1872 – 21 August was a Hindustani musician. He sang the original of the bhajan Raghupati Raghava Raja Ram. He also credited with arranging India's national song, Mātaram, as it is heard today. The first Mahavidyalaya was established by him on May 1901 at Lahore. Mahavidyalaya New Delhi is an institution in 1939 to popularize Indian classical music dance. The Mahavidyalaya (school) came into to perpetuate the memory of Pandit Vishnu Paluskar, the great reviver of Hindustani music, and to keep up the ideals set down by",
+    "motivation": "To commemora te 150th Birth Anniversary of VD Paluskar in 2023",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 29,
+    "section": "Ancient History",
+    "question": "Ashokan inscriptions suggest that the ‘Pradeshika’, ‘Rajuka’ and ‘Yukta’ were important officers at the:",
+    "options": {
+      "a": "village-level administration",
+      "b": "district-level administration",
+      "c": "provincial administration",
+      "d": "level of the central administration"
+    },
+    "answer": "(B) district-level administration",
+    "explanation": "to the Arthashastra, the smallest unit of was the village. A few villages were as one district, and a collection of districts a province. the village level, the most important functionary the village headman, who was accountable to the accountant and tax collector. the district level, the officials listed were Rajuka and Yukta. Pradeshika was the overall in-charge of the district. The Yukta was a junior officer giving secretarial kind of to the other two. The officials fulfilled the duties: survey and assessment of land; tours inspections; revenue collection; and maintaining and order. times the king was in direct touch with these officers. district was to have an accountant to maintain of boundaries, registered land and deeds as well kept a census of population and a record of the There was also a tax collector for every responsible for various types of revenue.",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 30,
+    "section": "Modern History",
+    "question": "Consider the following statements in respect of the Non-Cooperation Movement: I. The Congress declared the attainment of ‘Swaraj’ by all legitimate and peaceful means to be its objective. II. It was to be implemented in stages with civil disobedience and non-payment of taxes for the next stage only if ‘Swaraj’ did not come within a year and the Government resorted to repression. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(C) Both I and II",
+    "explanation": "Dec 1920, at a regular annual session of the @ Nagpur (presided by V. Ragahavachariar) - the resolution of NCM was adopted. Also, declared that: if within a year Swaraj is not achieved or if the govt to suppression of the revolt, then civil movement along with non-payment of would be launched. Also, the govt has to take back Rowlatt act and should adopt a lenient and sympathetic attitude the people of Turkey restore the position of Sultan of Turkey. The NCM was marked by hindu-muslim unity, of charkha and participation by lawyers, govt servants, students - who stopped their cooperation with the govt - by giving up their practice, leaving schools and leaving their services - the women started to liquor shops etc. both the statements are correct.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 31,
+    "section": "Economics",
+    "question": "With reference to investments, consider the following: I. Bonds II. Hedge Funds III. Stocks IV. Venture Capital How many of the above are treated as Alternative Investment Funds?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "Only three",
+      "d": "All the four"
+    },
+    "answer": "(B) Only two",
+    "explanation": "recent times, there is growing popularity of funds pool-in resources from Ultra High- Networth or Institutional Investors and invest in Non- Markets –i.e., markets for securities which are listed on stock exchanges and invest in instruments are of complex nature and hence carry high risk. funds are collectively called Alternative Investment (AIFs). Alternative Investment Funds play an role in the financial market by providing opportunities to investors who are seeking returns or diversification beyond traditional options such as stocks and bonds. (Alternative Investment Funds) Regulations, 2012 a legal framework for the pooled investment in India such as venture capital, real estate, equity, hedge funds etc., other than Mutual I AIF: AIF which invests in start-up or early- ventures or social ventures or SMEs or or Distressed assets. Ex: Venture Capital SME Funds, Social Venture Funds Infrastructure Special Situations Funds etc. II AIF: AIF which does not fall in category I &III, which does not undertake leverage other than to day-to-day operations as permitted by SEBI Ex: Private Equity Fund III AIF: AIF which employs diverse / complex strategies and may employ leverage through in listed or unlisted derivatives. Ex: Hedge option (b) is the correct answer.",
+    "motivation": "As per the SEBI, about 20% of AIF money used to circumvent laws",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 32,
+    "section": "Economics",
+    "question": "Which of the following are the sources of income for the Reserve Bank of India? I. Buying and selling Government bonds II. Buying and selling foreign currency III. Pension fund management IV. Lending to private companies V. Printing and distributing currency notes Select the correct answer using the code given below:",
+    "options": {
+      "a": "I and II only",
+      "b": "II, III and IV",
+      "c": "I, III, IV and V",
+      "d": "I, II and V"
+    },
+    "answer": "(D) I, II and V",
+    "explanation": "RBI earns money in a variety of ways. Open market wherein a central bank purchases or sells (including government bonds) in the open in order to regulate money supply in the are a major source of income for the RBI. from the interest received from these bonds, the may also profit from favourable changes in bond Dealings in the foreign exchange market that RBI engages in may also contribute to the bank’s The RBI, for instance, may buy dollars cheaply sell them dear in the future to pocket profits. also earns income by printing currency which is seigniorage - since notes cost less to produce their face value. does not manage pension funds as a source of It is generally done by entities like EPFO or in India. RBI does not lend directly to private It lends to commercial banks and other institutions, as part of its monetary policy ence option (D) is the correct answer.",
+    "motivation": "Basic facts related to the RBI functions of the RBI are important",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 33,
+    "section": "Polity & Governance",
+    "question": "With reference to the Government of India, consider the following information: Organization Some of its functions It works under I. Directorate of Enforcement Enforcement of the Fugitive Economic Offenders Act, 2018 Internal Security Division-I, Ministry of Home Affairs II. Directorate of Revenue Intelligence Enforces the provisions of the Customs Act, 1962 Department of Revenue, Ministry of Finance III. Directorate General of Systems and Data Management Carrying out big data analytics to assist tax officers for better policy and nabbing tax evaders Department of Revenue, Ministry of Finance In how many of the above rows is the information correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(A) Only one",
+    "explanation": "I: Directorate of Enforcement Directorate of Enforcement (ED) is responsible for the Fugitive Economic Offenders Act, 2018, per the Ministry of Finance. It operates under the of Revenue, Ministry of Finance, not the of Home Affairs. Hence row I is not correctly II: Directorate of Revenue Intelligence Directorate of Revenue Intelligence (DRI) enforces provisions of the Customs Act, 1962, and over fifty allied Acts, including the Arms Act, NDPS Act, Wildlife Act, and Antiquities and Art Act. It functions under the Central Board of Taxes and Customs (CBIC), which is part of the of Revenue, Ministry of Finance. Hence II is correctly matched. III: Directorate General of Systems and Data Directorate General of Systems & Data comes under the Central Board of Taxes and Customs (CBIC), Ministry of Finance. is responsible for developing, implementing, and IT systems for customs, GST, and central to enhance efficiency, transparency, and ease of business. Directorate General of Analytics and Risk (DGARM) has been set up, w.e.f. 01-07- to provide intelligence inputs and carry out big analytics to assist the tax officers for better policy and nabbing evaders. The DGARM under the Central Board of Indirect Tax and (CBIC). Hence row III is not correctly matched.",
+    "motivation": "",
+    "difficulty": "Difficult",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 34,
+    "section": "Economics",
+    "question": "Consider the following statements: I. The Reserve Bank of India mandates all the listed companies in India to submit a Business Responsibility and Sustainability Report (BRSR). II. In India, a company submitting a BRSR makes disclosures in the report that are largely non-financial in nature. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(B) II only",
+    "explanation": "I is not correct: In terms of amendment to 34 (2) (f) of LODR Regulations vide Gazette no. SEBI/LAD-NRO/GN/2021/22, SEBI new reporting requirements on ESG called the Business Responsibility and Report (BRSR). II is correct: The BRSR is intended towards quantitative and standardized disclosures on ESG (Environment, Social, Governance) to comparability across companies, sectors and disclosures will be helpful for investors to better investment decisions.",
+    "motivation": "Recently, the Securities and Exchange Board of India (SEBI) was working on revamping its Business Responsibilit y and Sustainabilit y Reporting (BRSR)",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 35,
+    "section": "Economics",
+    "question": "Consider the following statements: Statement I: In India, income from allied agricultural activities like poultry farming and wool rearing in rural areas is exempted from any tax. Statement II: In India, rural agricultural land is not considered a capital asset under the provisions of the Income-tax Act, 1961. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "b": "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "c": "Statement I is correct but Statement II is not correct",
+      "d": "Statement I is not correct but Statement II is correct"
+    },
+    "answer": "(D) Statement I is not correct but Statement II is correct",
+    "explanation": "income is specifically defined under the Tax Act, and agricultural income is exempted Income Tax. following are some the examples of agricultural from the sale of seeds and replanted trees, on capital received by a partner from a firm in agricultural operations, Income from flowers and creepers, Rent received for land etc. are some examples of non-agricultural income: from poultry farming, dairy farming and bee Any dividend paid from an organization’s income etc. It is not exempted from Hence statement I is not correct. the Income-tax Act, 1961 of India, rural land is not considered a \"capital asset\", hence any gain arising from its sale is not taxable capital gains. section 2(14), the term \"capital asset\" excludes: land in India, which is not situated: the jurisdiction of a municipality or cantonment with a population of not less than 10,000; or 2 km from such a municipality/cantonment 10,001–1,00,000), 6 km (population 1,00,001–10,00,000), 8 km (population more than 10,00,000).\" the other hand, urban agricultural land, which lies specified municipal limits, is treated as a capital and is taxable when sold. statement II is correct.",
+    "motivation": "Taxing agricultural income has always been in the news",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 36,
+    "section": "Economics",
+    "question": "Consider the following statements: I. India has joined the Minerals Security Partnership as a member. II. India is a resource-rich country in all the 30 critical minerals that it has identified. III. The Parliament in 2023 has amended the Mines and Minerals (Development and Regulation) Act, 1957 empowering the Central Government to exclusively auction mining lease and composite license for certain critical minerals. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(C) I and III only",
+    "explanation": "has become 14th member of the Mineral Security (MSP) in June 2023. The other member are United States, Australia, Canada, Finland, Germany, Italy, Japan, Norway, the Republic of Sweden, the United Kingdom and the European MSP seeks to bolster critical minerals chains to support economic prosperity and objectives. Hence, statement 1 is correct. Ministry of Mines identified a list of 30 critical in November 2022. However, India has not yet domestic reserves for all 30 and remains on imports for many such as lithium, cobalt, and vanadium. Hence, statement 2 is not MMDR Amendment Act, 2023 has empowered the Government to exclusively auction Mining (ML) and Composite Licences (CL)(prospecting lease) in respect of any ‘critical and mineral’ specified in Part D of the First of the MMDR Act. Hence, statement 3 is",
+    "motivation": "India exploring and acquiring critical minerals from resource rich countries was in news.",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 37,
+    "section": "Economics",
+    "question": "Consider the following statements: Statement I: As regards returns from an investment in a company, generally, bondholders are considered to be relatively at lower risk than stockholders. Statement II: Bondholders are lenders to a company whereas stockholders are its owners. Statement III: For repayment purpose, bondholders are prioritized over stockholders by a company. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement I and Statement II are correct and Statement I explains Statement II",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(A) Both Statement II and Statement III are correct and both of them explain Statement I",
+    "explanation": "I is correct: Bondholders have fixed interest and are paid before shareholders, making investments less risky. II is correct: Bondholders lend money to the (debt), while stockholders own equity (a share ownership). III is correct: For repayment purpose, are prioritized over stockholders by a In liquidation or bankruptcy, bondholders are before shareholders. both II and III are correct, and both explain why are at lower risk (Statement I), the correct is: Both Statement II and Statement III are correct and of them explain Statement I",
+    "motivation": "Financial Market has always been an important topic.",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 38,
+    "section": "Economics",
+    "question": "Consider the following statements: I. India accounts for a very large portion of all equity option contracts traded globally thus exhibiting a great boom. II. India’s stock market has grown rapidly in the recent past even overtaking Hong Kong’s at some point of time. III. There is no regulatory body either to warn the small investors about the risks of options trading or to act on unregistered financial advisors in this regard. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(A) I and II only",
+    "explanation": "I is correct: India has emerged as a dominant in the global equity options market. In the first of 2024, over 84% of all equity options traded were on Indian exchanges, a significant increase just 15% a decade earlier. Direct II is correct: In January 2024, the combined of shares listed on Indian exchanges reached trillion, surpassing Hong Kong's $4.29 trillion, India the world's fourth-largest stock market. III is not correct: India has an active body, the Securities and Exchange Board of (SEBI), which oversees the securities market. SEBI taken several measures to protect investors, issuing warnings to unregistered investment and implementing regulations to curb trading in derivatives",
+    "motivation": "Recently, the growth in the Indian financial market was covered in the news.",
+    "difficulty": "Easy",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 39,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements: Statement I: Circular economy reduces the emissions of greenhouse gases. Statement II: Circular economy reduces the use of raw materials as inputs. Statement III: Circular economy reduces wastage in the production process. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(A) Both Statement II and Statement III are correct and both of them explain Statement I",
+    "explanation": "economy strategies (like recycling, reuse, reduce emissions by lowering energy use and emissions from raw material extraction and management. Statement I is correct. key aim of the circular economy is to retain the value products and materials in use for as long as possible. key aim would reduce the demand for virgin and the GHGs emitted during their extraction processing. In addition, the energy-intensive parts the circular economy should be powered by energy.The reuse and recycling of materials cut down the need for virgin/raw materials. II is correct. models aim to design out waste, improving Statement III is correct.",
+    "motivation": "Circular Economy is a term often seen in the news.",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 40,
+    "section": "Economics",
+    "question": "Consider the following statements: I. Capital receipts create a liability or cause a reduction in the assets of the Government. II. Borrowings and disinvestment are capital receipts. III. Interest received on loans creates a liability of the Government. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(A) I and II only",
+    "explanation": "government receives money by way of loans or the sale of its assets. Loans will have to be to the agencies from which they have been Thus they create liability. Sale of assets, like sale of shares in Public Sector (PSUs) which is referred to as PSU reduce the total amount of financial of the government. All those receipts of the which create liability or reduce financial are termed as capital receipts. Hence I and II are correct. revenue receipts of the central government consist of interest receipts on account of loans the central government, dividends and profits on made by the government, fees and other for services rendered by the government. They not create liability. Hence statement III is not",
+    "motivation": "Union Budget (Fiscal Policy) is an important topic.",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 41,
+    "section": "Current Affairs (International Relations)",
+    "question": "Consider the following countries: I. Austria II. Bulgaria III. Croatia IV. Serbia V. Sweden VI. North Macedonia How many of the above are members of the North Atlantic Treaty Organization?",
+    "options": {
+      "a": "Only three",
+      "b": "Only four",
+      "c": "Only five",
+      "d": "All the six"
+    },
+    "answer": "(B) Only four",
+    "explanation": "context: In 2024, Sweden became the 32nd member, earlier Finland joined NATO in 2023 making entire Nordic region the part of NATO. is a transatlantic political and military alliance by the North Atlantic Treaty (Washington 1949 with Headquarters: Brussels, Belgium. Founding member countries: Belgium, Canada, France, Iceland, Italy, Luxembourg, Norway, Portugal, UK and USA. 1949, NATO’s membership has increased from 12 32 countries through 10 rounds of enlargement. became member of NATO in 2004. became member of NATO in 2009. Macedonia became member of NATO in 2020. and Serbia are not members of NATO Hence option (b) is the correct answer.",
+    "motivation": "In 2024, Sweden became the 32nd NATO member.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 42,
+    "section": "Geography",
+    "question": "Consider the following countries: I. Bolivia II. Brazil III. Colombia IV. Ecuador V. Paraguay VI. Venezuela Andes mountains pass through how many of the above countries?",
+    "options": {
+      "a": "Only two",
+      "b": "Only three",
+      "c": "Only four",
+      "d": "Only five"
+    },
+    "answer": "(C) Only four",
+    "explanation": "Andes Mountains, the world's longest mountain extend through seven South American countries: Colombia, Ecuador, Peru, Bolivia, Chile, and The Andes stretch for a total length of 7,000 (4,350 miles). Hence, option (c) is the correct",
+    "motivation": "To test the fundamenta l Mapping Skills of students. UPSC has asked similar questions before on Himalayas and Western Ghats.",
+    "difficulty": "Easy",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 43,
+    "section": "Geography",
+    "question": "Consider the following water bodies: I. Lake Tanganyika II. Lake Tonlé Sap III. Patos Lagoon Through how many of them does the equator pass?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(D) None",
+    "explanation": "Tanganyika is th second largest of the lakes of Africa. It is the longest freshwater lake in the (660 km) and the second deepest (1,436 metres) Lake Baikal in Russia. Comparatively narrow, in width from 16 to 72 km, it covers about square km and forms the boundary between and the Democratic Republic of the Congo and part of the boundary between Burundi and DRC as well as part of the boundary between and Zambia. It occupies the southern end of Western Rift Valley, and for most of its length the rises steeply from its shores. Sap is natural floodplain reservoir, central The lake is drained during the dry season by Sab River (Tônlé Sab) across the Véal Pôc plain to the Mekong River. Lagoon is shallow lagoon in Rio Grande do Sul (state), extreme southeastern Brazil. It is the lagoon in Brazil and the second largest in South does not pass through any of the three water bodies. Hence, option (d) is the answer.",
+    "motivation": "",
+    "difficulty": "Difficult",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 44,
+    "section": "Geography",
+    "question": "Consider the following statements about turmeric during the year 2022–23: I. India is the largest producer and exporter of turmeric in the world. II. More than 30 varieties of turmeric are grown in India. III. Maharashtra, Telangana, Karnataka and Tamil Nadu are major turmeric producing States in India. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(D) I, II and III",
+    "explanation": "I is correct: India is the largest producer, and exporter of turmeric in the world. India more than 62% share of world trade in turmeric. II is correct: More than 30 varieties of are grown in India and it is grown in over 20 in the country. III is correct: The largest producing states of are Maharashtra, Telangana, Karnataka and Nadu.",
+    "motivation": "Recently Government of India constituted the National Turmeric Board",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 45,
+    "section": "Geography",
+    "question": "Which of the following are the evidences of the phenomenon of continental drift? I. The belt of ancient rocks from Brazil coast matches with those from Western Africa. II. The gold deposits of Ghana are derived from the Brazil plateau when the two continents lay side by side. III. The Gondwana system of sediments from India is known to have its counterparts in six different landmasses of the Southern Hemisphere. Select the correct answer using the code given below:",
+    "options": {
+      "a": "I and III only",
+      "b": "I and II only",
+      "c": "I, II and III",
+      "d": "II and III only"
+    },
+    "answer": "(C) I, II and III",
+    "explanation": "of Continental Drift Theory: radiometric dating methods developed in the period have facilitated correlating the rock from different continents across. the vast The belt of ancient rocks of 2,000 million years Brazil coast matches with those from western The earliest marine deposits along the coastline South America and Africa are of the Jurassic age. This that the ocean did not exist prior to that time. statement I is correct. Gondawana system of sediments from India is to have its counterparts in six different of the Southern Hemisphere. At the base, system has thick tillite indicating extensive and glaciation. Counterparts of this succession found in Africa, Falkland Island, Madagascar, and Australia. Overall resemblance of the sediments clearly demonstrates that landmasses had remarkably similar histories. The tillite provides unambiguous evidence of and also of drifting of continents. Hence, II is correct. occurrence of rich placer deposits of gold in the coast and the absolute absence of source rock in region is an amazing fact. The gold bearing veins are Brazil and it is obvious that the gold deposits of the are derived from the Brazil plateau when the two lay side by side. Hence, statement III is",
+    "motivation": "Fundamenta l Knowledge covered in Geography NCERT",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 46,
+    "section": "Geography",
+    "question": "Consider the following statements: Statement I: The amount of dust particles in the atmosphere is more in subtropical and temperate areas than in equatorial and polar regions. Statement II: Subtropical and temperate areas have less dry winds. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "b": "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "c": "Statement I is correct but Statement II is not correct",
+      "d": "Statement I is not correct but Statement II is correct"
+    },
+    "answer": "(C) Statement I is correct but Statement II is not correct",
+    "explanation": "particles are generally concentrated in the lower of the atmosphere; yet, air currents may transport them to great The higher concentration of particles is found in subtropical and temperate due to presence of dry winds in comparison to and polar regions. Statement I is correct but II is not correct.",
+    "motivation": "To test the fundamenta l Knowledge of the candidates",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 47,
+    "section": "Geography",
+    "question": "Consider the following statements: Statement I: In January, in the Northern Hemisphere, the isotherms bend equatorward while crossing the landmasses, and poleward while crossing the oceans. Statement II: In January, the air over the oceans is warmer than that over the landmasses in the Northern Hemisphere. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "b": "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "c": "Statement I is correct but Statement II is not correct",
+      "d": "Statement I is not correct but Statement II is correct"
+    },
+    "answer": "(A) Both Statement I and Statement II are correct and Statement II explains Statement I",
+    "explanation": "general the effect of the latitude on temperature is pronounced on the map, as the isotherms are parallel to the latitude. The deviation from general trend is more pronounced in January than July, especially in the northern hemisphere. In the hemisphere the land surface area is much than in the southern hemisphere. Hence, the of land mass and the ocean currents are well January the isotherms deviate to the north over the and to the south over the continent. This can be in the North Atlantic Ocean. The presence of warm currents, Gulf Stream and North Atlantic drift, the Northern Atlantic Ocean warmer and the bend towards the north. Over the land the decreases sharply and the bend towards south in Europe. Hence, Both I and Statement II are correct and Statement explains Statement I..Hence, Both Statement I and II are correct and Statement II explains I.",
+    "motivation": "To test the fundamenta l Knowledge of the candidates",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 48,
+    "section": "Geography",
+    "question": "Consider the following statements: Statement I: In the context of effect of water on rocks, chalk is known as a very permeable rock whereas clay is known as quite an impermeable or least permeable rock. Statement II: Chalk is porous and hence can absorb water. Statement III: Clay is not at all porous. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "b": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "c": "Only one of the Statements II and III is correct and that explains Statement I",
+      "d": "Neither Statement II nor Statement III is correct"
+    },
+    "answer": "(C) Only one of the Statements II and III is correct and that explains Statement I",
+    "explanation": "Rocks: These rocks allow water to pass them because they have interconnected pore which create pathways for water flow. Rocks: These rocks restrict water because their pore spaces are not well- or are very small, making it difficult for water infiltrate. is generally considered a very permeable rock, water can easily pass through it, while clay is for being quite impermeable or having a low meaning water has difficulty passing it. Hence, statement I is correct. is composed of tiny shells, leaving behind a structure with many interconnected spaces. This structure allows water to easily seep through chalk, making it a good aquifer for groundwater Hence, statement II is correct and it explains I correctly. is made of very small, tightly packed particles. The size and tight packing create a low porosity with little interconnected pore space, which makes it for water to flow through. This low permeability lead to water accumulating on top of clay layers or diverted around them. Hence, statement III is not",
+    "motivation": "To test the fundamenta l Knowledge of the candidates",
+    "difficulty": "Medium",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 49,
+    "section": "Geography",
+    "question": "Consider the following statements: I. Without the atmosphere, temperature would be well below freezing point everywhere on the Earth’s surface. II. Heat absorbed and trapped by the atmosphere maintains our planet’s average temperature. III. Atmosphere’s gases, like carbon dioxide, are particularly good at absorbing and trapping radiation. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and III only",
+      "b": "I and II only",
+      "c": "I, II and III",
+      "d": "II and III only"
+    },
+    "answer": "(C) I, II and III",
+    "explanation": "atmosphere is a mixture of gases that surrounds Earth. It helps make life possible by providing us air to breathe, shielding us from harmful ultraviolet radiation coming from the Sun, trapping heat to the planet, and preventing extreme temperature between day and night. Without the temperatures would be well below everywhere on Earth's surface. This is because atmosphere plays a crucial role in trapping heat the natural greenhouse effect, preventing of the outgoing infrared radiation from escaping space. Hence, statement I is correct. The heat and trapped by our atmosphere keeps our average surface temperature at a balmy 15°C Some of the atmosphere's gases, like carbon are particularly good at absorbing and trapping Changes in the amounts of these gases affect our climate. Hence, statements II and III correct.",
+    "motivation": "To test the fundamenta l Knowledge of the candidates",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 50,
+    "section": "Government Schemes",
+    "question": "Consider the following statements about the Rashtriya Gokul Mission: I. It is important for the upliftment of rural poor, as majority of low producing indigenous animals are with small and marginal farmers and landless labourers. II. It was initiated to promote indigenous cattle and buffalo rearing and conservation in a scientific and holistic manner. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(C) Both I and II",
+    "explanation": "Rashtriya Gokul Mission (RGM) is being for development and conservation of bovine breeds. Scheme is crucial for of rural poor as more than 80% low indigenous animals are with small and farmers and landless labourers. Hence, 1 is correct. To enhance productivity of bovines and increasing production in a sustainable manner using advance To propagate use of high genetic merit bulls for purposes. To enhance Artificial insemination coverage through breeding network and delivery of insemination services at farmers doorstep. To promote indigenous cattle & buffalo rearing and in a scientific and holistic manner. Hence, 2 is correct.",
+    "motivation": "The scheme plays a vital role in sustainable indigenous cattle breed developmen t, aligning with Atma Nirbhar Bharat.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 51,
+    "section": "Polity & Governance",
+    "question": "Consider the following statements: I. Panchayats at the intermediate level exist in all States. II. To be eligible to be a Member of a Panchayat at the intermediate level, a person should attain the age of thirty years. III. The Chief Minister of a State constitutes a commission to review the financial position of Panchayats at the intermediate levels and to make recommendations regarding the distribution of net proceeds of taxes and duties, leviable by the State, between the State and Panchayats at the intermediate level. Which of the statements given above are not correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(D) I, II and III",
+    "explanation": "I: Panchayats at the intermediate level exist all States. statement is not entirely consistent with the framework. Article 243B of the of India, inserted through the 73rd Act, 1992, provides for a three-tier system Panchayati Raj—comprising the village, intermediate, district levels. However, the provision includes a exception: States with a population not exceeding lakhs (2 million) are not obligated to establish at the intermediate level. Hence, statement is not correct. II: To be eligible to be a Member of a at the intermediate level, a person should the age of thirty years. statement misstates the constitutional age As per Article 243F(1)(a) of the a person shall not be disqualified from chosen as a member of a Panchayat if they have the age of twenty-one years. There is no requirement stipulating the age of thirty eligibility. Therefore, the minimum age for becoming member at any level of the Panchayati Raj system, the intermediate level, is 21 years. Hence 2 is not correct. III: \"The Chief Minister of a State a commission to review the financial of Panchayats at the intermediate levels and make recommendations regarding the distribution net proceeds of taxes and duties.\" statement inaccurately attributes the authority for up the State Finance Commission. Article 243-I the Constitution mandates the Governor of a the Chief Minister—to constitute a Finance at the end of every five years (or earlier if necessary). The commission is tasked with the financial position of the Panchayats at all and recommending the distribution of the State's resources accordingly. Hence statement 3 is correct.",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 52,
+    "section": "International Relations",
+    "question": "Consider the following statements in respect of BIMSTEC : I. It is a regional organization consisting of seven member States till January 2025. II. It came into existence with the signing of the Dhaka Declaration, 1999. III. Bangladesh, India, Sri Lanka, Thailand and Nepal are founding member States of BIMSTEC. IV. In BIMSTEC, the subsector of 'tourism' is being led by India. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I and II",
+      "b": "II and III",
+      "c": "I and IV",
+      "d": "I only"
+    },
+    "answer": "(D) I only",
+    "explanation": "Bay of Bengal Initiative for Multi-Sectoral Technical Economic Cooperation (BIMSTEC) is a regional that was established on 06 June 1997 with signing of the Bangkok Declaration. Hence, 2 is not correct. known as BIST-EC (Bangladesh-India-Sri Lanka- Economic Cooperation), the organisation is known as BIMSTEC and comprises seven Member with the admission of Myanmar on 22 December and Bhutan and Nepal in February 2004. On 06 1997, representatives of the Governments of India, Sri Lanka, and Thailand came in Bangkok, and signed the ‘Declaration on the of the Bangladesh–India–Sri Lanka– Economic Cooperation (BIST-EC)’. Hence, 1 is correct and 3 is not correct. had initially focused on six sectors in 1997 to trade, technology, energy, transport, tourism, fisheries and expanded in 2008 to incorporate public health, poverty alleviation, environment, culture, people-to- contact, and climate change.Subsequently, steps to rationalise and reorganise sectors sub-sectors, cooperation was reorganised in 2021 the following sectors and sub-sectors led by the Member States: Trade, Investment and Development : Environment & Climate Change Security; Sub-sectors: Counter-Terrorism and Crime, Disaster Management, Energy : Agriculture and Food Security ; Sub-sectors : Fisheries & Livestock People-to-People Contact, Sub-sectors: Culture, People-to-People Contact (forums of think media etc.) Lanka : Science, Technology & Innovation, Sub- : Technology, Health, Human Resource Connectivity as the Lead Country of ‘Tourism’ has circulated a of “Plan of Action on Tourism” updating on the plans, which has to be discussed and finalized the upcoming meetings of tourism Sub-sector. statement 4 is not correct.",
+    "motivation": "BIMSTEC important regional organization enhancing India's economic, security ties around Bay of Bengal.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 53,
+    "section": "Current Affairs (Art & Culture)",
+    "question": "Who amongst the following are members of the Jury to select the recipient of ‘Gandhi Peace Prize’? I. The President of India II. The Prime Minister of India III. The Chief Justice of India IV. The Leader of Opposition in the Lok Sabha Select the correct answer using the code given below.",
+    "options": {
+      "a": "II and IV only",
+      "b": "I, II and III",
+      "c": "II, III and IV",
+      "d": "I and III only"
+    },
+    "answer": "(C) II, III and IV",
+    "explanation": "Peace Prize is an award instituted by of India in 1995, on the occasion of 125th Anniversary of Mahatma Gandhi as a tribute to the espoused by Mahatma Gandhi. The award is open all persons regardless of nationality, race, language, creed or gender. In 2023, Gandhi Peace Prize for was conferred to Gita Press, Gorakhpur jury for the Gandhi Peace Prize is composed as Prime Minister of India – Chairperson Chief Justice of India Leader of the Opposition in Lok Sabha Two eminent persons",
+    "motivation": "It was in the news as Gita Press, Gorakhpur returned the cash prize Rs 1 crore to be used for humanitaria n purposes.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 54,
+    "section": "S&T",
+    "question": "GPS-Aided Geo Augmented Navigation (GAGAN) uses a system of ground stations to provide necessary augmentation. Which of the following statements is/are correct in respect of GAGAN? I. It is designed to provide additional accuracy and integrity. II. It will allow more uniform and high quality air traffic management. III. It will provide benefits only in aviation but not in other modes of transportation. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I, II and III",
+      "b": "II and III only",
+      "c": "I only",
+      "d": "I and II only"
+    },
+    "answer": "(D) I and II only",
+    "explanation": "Indian Space Research Organization (ISRO) and the Authority of India (AAI) have implemented the project as a Satellite Based Augmentation for the Indian Airspace. The primary objective of is to establish a certifiable satellite based system for safety-of-life applications. I is correct: GAGAN is designed to enhance accuracy and integrity of GPS signals over the Indian It improves positioning accuracy from about meters to 1–2 meters. II is correct: GAGAN improves navigation allowing for more uniform and efficient air management, especially in complex or busy III is not correct: Although developed for aviation, GAGAN also benefits other like railways, road transport, maritime agriculture, and disaster management.",
+    "motivation": "The topic is important as GAGAN and NAVIC always have a high chance to feature in the UPSC CSE",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 55,
+    "section": "Current Affairs (S&T)",
+    "question": "Consider the following statements regarding Al Action Summit held in Grand Palais, Paris in February 2025: I. Co-chaired with India, the event builds on the advances made at the Bletchley Park Summit held in 2023 and the Seoul Summit held in 2024. II. Along with other countries US and UK also signed the declaration on inclusive and sustainable Al. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(A) I only",
+    "explanation": "I is correct: The AI Action Summit held at the Palais in Paris on February 10–11, 2025, was co- by France and India. It built upon the progress at the Bletchley Park Summit in 2023 and the Summit in 2024, aiming to advance global on AI governance and development. II is not correct: While the summit a declaration on \"inclusive and sustainable\" the United States and the United Kingdom declined sign it. Their refusal was based on concerns over security and the belief that the declaration did adequately address global AI governance.",
+    "motivation": "The event took place recently and was co- hosted by India",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 56,
+    "section": "Current Affairs (International Relations)",
+    "question": "Consider the following pairs : I. International Year of the Woman Farmer : 2026 II. International Year of Sustainable and Resilient Tourism : 2027 III. International Year of Peace and Trust : 2025 IV. International Year of Asteroid Awareness and Planetary Defence : 2029 How many of the pairs given above are correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "Only three",
+      "d": "All the four"
+    },
+    "answer": "(D) All the four",
+    "explanation": "International Year of the Woman Farmer will be in 2026. This initiative, declared by the UN Assembly, aims to highlight the crucial role of in agrifood systems and address gender in agriculture. It will serve as a platform to gender equality, empower women farmers, foster a global commitment to ensuring their rights role in food security.Hence pair 1 is correctly United Nations declared 2027 as the Year of Sustainable and Resilient This year is intended to promote actions at all including through international cooperation, to sustainable and resilient tourism as a means of and accelerating sustainable development. pair 2 is correctly matched. General Assembly has adopted a resolution to 2025 as the International Year of Peace and The resolution calls on the international to resolve conflicts through inclusive and negotiation in order to ensure the of peace and trust in relations between member states as a value that promotes sustainable peace and security, and human rights. pair 3 is correctly matched. 2024, the General Assembly declared 2029 the Year of Asteroid Awareness and Defence to take advantage on the close of 99942 Apophis and raise global awareness asteroids. This initiative aims to highlight the efforts of the Committee on the Peaceful of Outer Space in mitigating potential hazards near-Earth objects, while also providing an for a global educational campaign. Hence 4 is correctly matched.",
+    "motivation": "Assesses attention to UN-declared internationa l years.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 57,
+    "section": "Current Affairs (International Relations)",
+    "question": "Consider the following statements with regard to BRICS; I. 16th BRICS Summit was held under the Chairship of Russia in Kazan. II. Indonesia has become a full member of BRICS. III. The theme of the 16th BRICS Summit was Strengthening Multiculturalism for Just Global Development and Security. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I and II",
+      "b": "II and III",
+      "c": "I and III",
+      "d": "I only"
+    },
+    "answer": "(A) I and II",
+    "explanation": "16th BRICS Summit, and the First Summit with BRICS membership took place in Kazan, from 22–24, 2024, with Russia as the chair. Hence 1 is correct. has officially joined BRICS, becoming the first Asian member. This move was announced by the 2025 BRICS presidency holder. Indonesia's was endorsed by BRICS leaders at the 2023 summit. Hence statement 2 is correct. actual theme was “Strengthening Multilateralism Just Global Development and Security.” The word multilateralism, not multiculturalism. Hence 3 is not correct.",
+    "motivation": "16th BRICS Summit was the first summit with expanded BRICS membership .",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 58,
+    "section": "Current Affairs (Polity & Governance)",
+    "question": "Consider the following statements about Lokpal : I. The power of Lokpal applies to public servants of India, but not to the Indian public servants posted outside India. II. The Chairperson or a Member shall not be a Member of the Parliament or a Member of the Legislature of any State or Union Territory, and only the Chief Justice of India, whether incumbent or retired, has to be its Chairperson. III. The Chairperson or a Member shall not be a person of less than forty-five years of age on the date of assuming office as the Chairperson or Member, as the case may be. IV. Lokpal cannot inquire into the allegations of corruption against a sitting Prime Minister of India. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "III only",
+      "b": "II and III",
+      "c": "I and IV",
+      "d": "None of the above statements is correct"
+    },
+    "answer": "(A) III only",
+    "explanation": "The power of the Lokpal applies to public servants of but not to Indian public servants posted outside This assertion misrepresents the scope of the jurisdiction. Section 14(1)(f) of the Lokpal and Act, 2013 expressly includes within its ambit individual who is or has been a director, manager, or other officer of a society, association of or trust (whether registered or not) receiving foreign contributions or domestic of where they are located. the Act covers all categories of public as defined, including those serving under the Government, whether posted within India or Hence statement I is not correct. The Chairperson or a Member shall not be a of Parliament or a Member of the Legislature any State or Union Territory, and only the Chief of India, whether incumbent or retired, has to its Chairperson. This statement is partially correct ultimately flawed. Section 3(3)(a) of the Act indeed Members of Parliament and State/UT Legislatures serving as the Chairperson or Members of the However, the second part of the statement is restrictive. According to Section 3(2)(a), the can be a current or former Chief Justice of a former Supreme Court Judge, or an eminent of impeccable integrity with at least 25 years of in areas such as anti-corruption policy, administration, law, or management. Hence II is not correct. The Chairperson or a Member shall not be a person less than forty-five years of age on the date of office as the Chairperson or Member, as the may be. This statement is accurate. As per Section of the Lokpal and Lokayuktas Act, 2013, a person be at least 45 years old on the date of assuming to be eligible for appointment as either the or a Member of the Lokpal. Hence III is correct. Lokpal cannot inquire into the allegations of against a sitting Prime Minister of India. Lokpal and Lokayuktas Act, 2013 does bring the Minister under its jurisdiction. However, Section lays down specific exceptions and procedural Inquiries cannot be made into allegations to international relations, national security external and internal), public order, atomic or space. Moreover, any such inquiry must be in camera and can proceed only with the of the full bench of the Lokpal, with at least of its members consenting. Despite these the Lokpal is empowered to inquire into against a sitting Prime Minister. Hence IV is not correct.",
+    "motivation": "Lokpal of India celebrates 1st Foundation Day on 16th January, 2025",
+    "difficulty": "Difficult",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 59,
+    "section": "Current Affairs (Art & Culture)",
+    "question": "Consider the following statements in respect of the first Kho Kho World Cup: I. The event was held in Delhi, India. II. Indian men beat Nepal with a score of 78- 40 in the final to become the World Champion in men category. III. Indian women beat Nepal with a score of 54- 36 in the final to become the World Champion in women category. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(A) I only",
+    "explanation": "Kho Kho World Cup 2025 concluded in New Delhi India claiming the men’s and women’s titles after Nepal in both finals at the Indira Gandhi Indoor on January 19. statement 1 is correct. the men’s division, India outplayed Nepal by a 54-36 in the summit clash, while the women’s title finished 78-40 in the hosts’ favour. Hence 2 and 3 are not correct. was the inaugural edition of the World Kho Kho backed by the Indian Olympic Association and featured 20 men’s and 19 women’s teams.",
+    "motivation": "Kho Kho World Cup 2025 concluded in New Delhi with India claiming the men’s and women’s titles.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 60,
+    "section": "Current Affairs (Art & Culture)",
+    "question": "Consider the following statements : I. In the finals of the 45th Chess Olympiad held in 2024, Gukesh Dommaraju became the world's youngest winner after defeating the Russian player Jan Nepomniachtchi II. Abhimanyu Mishra, an American chess player, holds the record of becoming world's youngest ever Grandmaster. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(B) II only",
+    "explanation": "contingent won Gold in both open and women’s at the 45th International Chess Federation Olympiad by defeating Slovenia. Hence 1 is not correct. History was made on the small island of in Singapore on December 12, 2024, as D. became the youngest world chess champion after defeating Ding Liren of China in the World Championship. The 18-year-old from Chennai the record held by the Russian Garry Kasparov for four decades. H Mishra became the youngest chess in history on Jul 4, 2021, who achieved title at the age of 12 years, 4 months, and 25 days. earned his title in 2021. The 12-year-old player from Jersey scored his third GM norm in Budapest, already crossed the required 2500 Elo rating Hence statement 2 is correct.",
+    "motivation": "Indian contingent won Gold in both open and women’s category at the 45th Internationa l Chess Federation (FIDE) Olympiad.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 61,
+    "section": "S&T",
+    "question": "Consider the following statements: Statement I: Some rare earth elements are used in the manufacture of flat television, screens and computer monitors, Statement II: Some rare earth elements have phosphorescent properties. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "b": "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "c": "Statement I is correct but Statement II is not correct",
+      "d": "Statement I is not correct but Statement II is correct"
+    },
+    "answer": "(A) Both Statement I and Statement II are correct and Statement II explains Statement I",
+    "explanation": "earth elements (REEs) are a group of 17 metallic including the lanthanides, scandium, and known for their unique properties like luminescence, and conductivity. These are crucial components in various from consumer electronics to clean and medical devices. While relatively abundant the Earth's crust, they are often dispersed and to extract in concentrated quantities, hence the \"rare earth\". I is correct: Rare earth elements such as terbium, and yttrium are used in the of flat-screen TVs and computer monitors, in the color displays. II is correct and explains statement I: These earths have phosphorescent (or luminescent) which means they emit light when excited energy—this property is essential for producing vivid in display technologies. option (a) is the correct answer.",
+    "motivation": "REE is an important topic. The US-China trade war made this topic even more important as China is the leading REE exporter, but the properties of REE come under S&T and not IR or geography. That is why it was tough.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 62,
+    "section": "Current Affairs (S&T)",
+    "question": "Consider the following statements: I. Indian Railways have prepared a National Rail Plan (NRP) to create a future ready railway system by 2028. II. ‘Kavach’ an Automatic Train Protection system developed in collaboration with Germany. III. ‘Kavach’ system consists of RFID tags fitted on track in station section. Which of the statements given above are not correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(A) I and II only",
+    "explanation": "Railways have prepared a National Rail Plan for India – 2030. The Plan is to create a 'future Railway system by 2030. The NRP is aimed to strategies based on both operational and commercial policy initiatives to increase share of the Railways in freight to 45%. Hence, 1 is not correct. is an Automatic Train Protection system which developed indigenously by the Research Design and Organisation (RDSO) in collaboration with the industry. According to Indian Railways it is as a Safety Integrity Level 4 (SIL-4) certified Hence, statement 2 is not correct. activities involved in the implementation of Kavach Installation of Station Kavach: Kavach is being installed each and every station and block section along the These installations allow the system to monitor manage train movements, ensuring safe RFID Tag Installation: Radio Frequency Identification tags are placed throughout the entire track to enable the Kavach system to track train and detect any potential safety issues along route. Hence, statement 3 is correct.",
+    "motivation": "Kavach has been in the news because of the train accidents.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 63,
+    "section": "S&T",
+    "question": "Consider the following pace missions : I. Axiom-4 II. SpaDeX III. Gaganyaan How many of the space missions given above encourage and support micro-gravity research?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(C) All the three",
+    "explanation": "India has shortlisted 2 astronaut-designates the upcoming Axiom-4 mission to the International Station. Axiom Mission 4 (Axiom-4): A private mission to the International Space Station operated by Axiom Space. A private mission to the International Space (ISS), Axiom-4 supports microgravity research by experiments related to medicine, materials and biology in space conditions. Hence option I correct. (Space Docking Experiment): Indian mission to demonstrate autonomous docking. its primary goal is technological, microgravity are often studied during such missions, in maneuvering and system validation in Hence option II is correct. first human spaceflight program. It aims to send into space, where microgravity research is a key objective, especially in life sciences and space Hence option III is correct.",
+    "motivation": "All the three missions have been in the news",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 64,
+    "section": "S&T",
+    "question": "With reference to India's defence, consider the following pairs: Aircraft type : Description I. Dornier-228 : Maritime patrol aircraft II. IL-76 : Supersonic combat aircraft III. C-17 Globe- : Military transport aircraft master III How many of the pairs given above are correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(B) Only two",
+    "explanation": "Dornier-228 – Maritime patrol aircraft is correct: The Dornier-228 aircraft is used by the Navy and Coast Guard for maritime surveillance patrol. The Dornier 228 is a versatile, twin-engine aircraft, known for its short takeoff and (STOL) capabilities and multi-mission utility. by Hindustan Aeronautics Limited (HAL) India and Dornier Flugzeugwerke in Germany, it's for various roles including passenger transport, surveillance, and research. is not correct: The IL-76 is a strategic airlifter, not a combat aircraft. It is used for heavy cargo troop transport. The Ilyushin Il-76 is a Russian- four-engine turbofan strategic airlifter, used as a heavy-lift cargo aircraft. It was developed in the late 1960s for commercial transport and later adapted for military roles. The is known for its robust design and ability to carry payloads over long distances. C-17 Globemaster III – Military transport aircraft is correct: The C-17 is a large military transport used by the Indian Air Force for strategic and airlift missions. The Boeing C-17 Globemaster III a large military transport aircraft developed by Douglas for the United States Air Force. It is versatile airlifter capable of strategic and tactical including cargo and troop transport, evacuation, and airdrop operations.",
+    "motivation": "All the three aircrafts were in the news in the last 6-7 months in the context of India",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 65,
+    "section": "Environment & Ecology",
+    "question": "Artificial way of causing rainfall to reduce air pollution makes use of",
+    "options": {
+      "a": "silver iodide and potassium iodide",
+      "b": "silver nitrate and potassium iodide",
+      "c": "silver iodide and potassium nitrate",
+      "d": "silver nitrate and potassium chloride"
+    },
+    "answer": "(A) silver iodide and potassium iodide",
+    "explanation": "rain (cloud seeding) is commonly done using iodide (AgI) and sometimes potassium iodide (KI). substances act as cloud condensation or ice helping water droplets form and precipitate. option (a) is the correct answer.",
+    "motivation": "To test fundamenal comcepts",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 66,
+    "section": "Current Affairs (Polity & Governance)",
+    "question": "Consider the following statements with regard to pardoning power of the President of India : I. The exercise of this power by the President can be subjected to limited judicial review. II. The President can exercise this power without the advice of the Central Government. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(A) I only",
+    "explanation": "The exercise of this power by the President can be to limited judicial review. the pardoning power conferred upon the under Article 72 of the Constitution is an function, it is not beyond the reach of judicial The Supreme Court, in landmark rulings such Maru Ram v. Union of India (1980) and Epuru v. Government of Andhra Pradesh (2006), made it clear that this power is not absolute. review is permissible if it is alleged that the was taken arbitrarily, in bad faith, without application of mind, or influenced by irrelevant extraneous considerations. However, such review is to assessing the legality and constitutionality of decision-making process; the judiciary does not the merits of the decision itself or substitute its for that of the President. Hence statement I is The President can exercise this power without the of the Central Government. Article 74(1) of the Constitution, the President is bound to act in accordance with the aid advice of the Council of Ministers, headed by the Minister. The pardoning power under Article 72 is exception, as it is an executive function exercised on of the Union Government. In practice, the of Home Affairs processes mercy petitions and its recommendations to the President. the President does not exercise this power but acts on the advice of the Central in conformity with constitutional Hence statement II is not correct.",
+    "motivation": "Former U.S. President Joe Biden recently made history by becoming the first American president to pardon his own son, sparking widespread debate over the use of presidential clemency powers. The news has been widely covered in Indian media outlets. https://econ omictimes.i ndiatimes.co m/news/indi a/power-of- pardon- india-keeps- it-rare-the- us-does-it- more/article show/11593 0561.cms?fr o m=mdr",
+    "difficulty": "Easy",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 67,
+    "section": "Polity & Governance",
+    "question": "Consider the following statements: I. On the dissolution of the House of the People, the Speaker shall not vacate his/her office until immediately before the first meeting of the House of the People after the dissolution. II. According to the provisions of the Constitution of India, a Member of the House of the People on being elected as Speaker shall resign from his/her political Ammediately party III. The Speaker of the House of the People may be removed from his/her office by a resolution of the House of the People passed by a majority of all the then Members of the House, provided that no resolution shall be moved unless at least fourteen days' notice has been given of the intention to move the resolution. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(C) I and III only",
+    "explanation": "Upon the dissolution of the House of the People, the does not vacate their office until immediately the first meeting of the newly constituted of the People. statement aligns with the second proviso to Article of the Constitution of India. It ensures continuity in functioning of the Speaker's office even after the Sabha has been dissolved. The Speaker remains in and continues to discharge their duties until just the new Lok Sabha holds its first session, presided over by a Speaker protem until a new is elected. Hence statement I is correct. The Constitution of India requires a Member of the of the People, upon being elected as Speaker, to from their political party. Constitution imposes no such requirement. While office of the Speaker is expected to function with and impartiality—drawing from the of the Westminster parliamentary is no constitutional or legal mandate requires resignation from the political party. In fact, Tenth Schedule (Anti-Defection Law) expressly the Speaker (as well as the Deputy Speaker Deputy Chairman) from disqualification in the event voluntarily give up membership of their political after assuming office. This provision enables them act impartially, but resignation remains a matter of rather than compulsion. Hence statement II not correct. The Speaker of the House of the People can be from office by a resolution passed by a of all the then members of the House, a minimum of fourteen days' notice has been before moving such a resolution. statement accurately reflects the procedure under 94(c) of the Constitution. The Speaker may be by a resolution passed by an effective a majority of the total current of the Lok Sabha (excluding vacancies). a procedural safeguard is built into the no such resolution can be brought forward at least 14 days' prior notice has been given, for adequate deliberation. Hence statement III correct.",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 68,
+    "section": "Current Affairs (Polity & Governance)",
+    "question": "Consider the following statements: I. If any question arises as to whether a Member of the House of the People has become subject to disqualification under the 10th Schedule, the President's decision in accordance with the opinion of the Council of Union Ministers shall be final. II. There is no mention of the word 'political party' in the Constitution of India. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(D) Neither I nor II",
+    "explanation": "If a question arises as to whether a Member of the of the People has incurred disqualification the Tenth Schedule, the President's decision— on the advice of the Council of Ministers—is statement misrepresents the constitutional Under Paragraph 6(1) of the Tenth (Anti-Defection Law), the authority to decide such disqualifications lies with the Speaker of the Lok (or the Chairman in the case of the Rajya Sabha), the President. The decision of the Speaker or is deemed final within the context of the However, in the landmark Kihoto Hollohan v. (1992) case, the Supreme Court clarified that the decision is final under the Schedule, it is still to judicial review on grounds such as mala or violation of constitutional principles. The role in disqualification matters arises only in under Article 102, and even then, only on the opinion of the Election Commission, not Council of Ministers. Hence statement 1 is not The Constitution of India does not contain the term party’. the original Constitution of 1950 did not mention term “political party,” the term was explicitly by the Fifty-second Amendment Act, 1985, the insertion of the Tenth Schedule, which with disqualification due to defection. This contains multiple references to \"political example, in Paragraph 2, which outlines the under which a member is deemed to have from their party. Therefore, in its amended the Constitution clearly contains and defines the “political party.” Hence statement 2 is not correct.",
+    "motivation": "In September 2024, the Supreme Court dismissed a plea challenging the constitution al validity of the anti- defection law. The issue has remained in the news due to ongoing political defections in Telangana and other states, prompting UPSC to test candidates' understandi ng of this important constitution al provision. https://econ omictimes.i ndiatimes.co m/news/poli tics-and- nation/sc- dismisses- plea- against-anti- defection- law/articles how/113530 444.cms?fro m=mdr",
+    "difficulty": "Difficult",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 69,
+    "section": "Current Affairs (Polity & Governance)",
+    "question": "Consider the following statements: Statement I: In India, State Governments have no power for making rules for grant of concessions in respect of extraction of minor minerals even though such minerals are located in their territories. Statement II: In India, the Central Government has the power to notify minor minerals under the relevant law. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "b": "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "c": "Statement I is correct but Statement II is not correct",
+      "d": "Statement I is not correct but Statement II is correct"
+    },
+    "answer": "(D) Statement I is not correct but Statement II is correct",
+    "explanation": "I:Under Section 15(1) of the Mines and (Development and Regulation) Act, 1957 Act), State Governments are empowered to rules for the grant of concessions related to minor within their territories. Hence, statement I is correct. II: As per Section 3(e) of the MMDR Act, the Government has the authority to notify any as a \"minor mineral\" via official notification. statement II is correct. Statement I is not correct, while Statement II is",
+    "motivation": "Government of India launched the National Critical Mineral Mission (NCMM)1 in 2025 to establish a robust framework for self- reliance in the critical mineral sector.",
+    "difficulty": "Medium",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 70,
+    "section": "Current Affairs (Environment & Ecology)",
+    "question": "Which organization has enacted the Nature Restoration Law (NRL) to tackle climate change and biodiversity loss?",
+    "options": {
+      "a": "The European Union",
+      "b": "The World Bank",
+      "c": "The Organization for Economic Cooperation and Development",
+      "d": "The Food and Agriculture Organization"
+    },
+    "answer": "(A) The European Union",
+    "explanation": "EU’s first continent-wide legislation for the long- recovery of nature, the EU Nature Restoration came into force in August 2024. EU Nature Restoration Law is a comprehensive of legislation aimed at restoring degraded across the European Union. It sets legally targets for restoring 20% of EU land and sea by and all ecosystems in need by 2050. The law also specific targets for restoring habitats like grasslands, and wetlands, as well as increasing populations and restoring urban green Hence, option (a) is the correct answer.",
+    "motivation": "The EU Nature Restoration Law came into force in August 2024.",
+    "difficulty": "Easy",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 71,
+    "section": "Economics",
+    "question": "Suppose the revenue expenditure is Rs.80,000 crores and the revenue receipts of the Government are Rs.60,000 crores. The Government budget also shows borrowings of Rs.10,000 crores and interest payments of Rs.6,000 crores. Which of the following statements are correct? I. Revenue deficit is Rs.20,000 crores. II. Fiscal deficit is Rs.10,000 crores. III. Primary deficit is Rs.4,000 crores. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(D) I, II and III",
+    "explanation": "Revenue Deficit = Revenue Expenditure – Revenue 80,000 – 60,000 = ₹20,000 crores. Option I is correct. Fiscal Deficit = Total Expenditure – (Revenue Receipts Non-debt Capital Receipts) borrowings = ₹10,000 crores → this indicates deficit is ₹10,000 crores. Option II is correct. Primary Deficit = Fiscal Deficit – Interest Payments 10,000 – 6,000 = ₹4,000 crores Option III is correct.",
+    "motivation": "Union Budget is a basic yet important topic.",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 72,
+    "section": "Geography",
+    "question": "India is one of the founding members of the International North- South Transport Corridor (INSTC), a multimodal a transportation corridor, which will connect",
+    "options": {
+      "a": "India to Central Asia to Europe via Iran",
+      "b": "India to Central Asia via China",
+      "c": "India to South-East Asia through Bangladesh and Myanmar",
+      "d": "India to Europe through Azerbaijan"
+    },
+    "answer": "(A) India to Central Asia to Europe via Iran",
+    "explanation": "Cargo from Gujarat's Mundra port takes Eastern route to reach Kazakhstan. It reached after traversing Iran, Turkmenistan and bolstering India's efforts to tap the eastern of INSTC for undertaking trade with central Asia. International North-South Transport Corridor is an important initiative taken by India, Russia Iran by signing an Inter-Governmental Agreement 12th September 2000, to enhance trade and connectivity among countries along its route. present, there are 13 Members of INSTC, namely- Iran, Russia, Azerbaijan, Armenia, Kazakhstan, Tajikistan, Turkey, Ukraine, Belarus, Oman Syria. Bulgaria has joined as an Observer State. INSTC is a multi-modal, cost and time effective from to Northern and Western Europe. It has the to enhance India’s connectivity with Central and Eurasian Region and vice versa, taking into the geo-strategic and economic importance of the involved countries. The eastern corridor Russia to India through the Central Asian of Kazakhstan, Uzbekistan, and and Russia are essential links in the corridor, not Azerbaijan. Hence option (a) is the correct answer. Although option (a) is the most accurate choice, is a possibility that UPSC could also consider (d) as correct, since the corridor passes through as well—particularly along its western which runs from Iran to Azerbaijan, then to and onward to Europe.",
+    "motivation": "Chabhar Port and INSTC was in news.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 73,
+    "section": "Environment & Ecology",
+    "question": "Consider the following statements : Statement I: Of the two major ethanol producers in the world, i.e., Brazil and the United States of America, the former produces more ethanol than the latter. Statement II: Unlike in the United States of America where corn is the principal feedstock for ethanol production, sugarcane is the principal feedstock for ethanol production in Brazil. Which one of the following is correct in respect of the above statements?",
+    "options": {
+      "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "b": "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "c": "Statement I is correct but Statement II is not correct",
+      "d": "Statement I is not correct but Statement II is correct"
+    },
+    "answer": "(D) Statement I is not correct but Statement II is correct",
+    "explanation": "US produced significantly more ethanol than Brazil 2024, with the US producing approximately 16.1 gallons and Brazil producing 8.8 billion gallons. the United States and Brazil produce 80% of world's ethanol. The vast majority of U.S. ethanol is from corn, while Brazil primarily uses Hence, Statement I is not correct but II is correct.",
+    "motivation": "Ethanol production is often seen in the news",
+    "difficulty": "Medium",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 74,
+    "section": "Environment & Ecology",
+    "question": "The World Bank warned that India could become one of the first places where wet-bulb temperatures routinely exceed 35°. Which of the following statements best reflect(s) the implication of the above-said report? I. Peninsular India will most likely suffer from flooding, tropical cyclones and droughts. II. The survival of animals including humans will be affected as shedding of their body heat through perspiration becomes difficult. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(C) Both I and II",
+    "explanation": "a November 2022 report, the World Bank warned India could become one of the first places in the where wet-bulb temperatures could increase the survivability threshold of 35°C. World Bank report suggests that increased heat and difficulty in shedding body heat through will negatively impact the survival of including humans. This is due to the fact that a crucial mechanism for cooling the body, less effective in hot and humid conditions. the air is already saturated with moisture, sweat evaporate efficiently, and the body struggles to its temperature. impact will also be the increased rainfall during seasons, that could exacerbate flooding risks the Indian peninsula. Also, there is a rising risk of tropical cyclones in the region and droughts. option (c) is the correct answer.",
+    "motivation": "In a November 2022 report, the World Bank warned that India could become one of the first places in the world where wet-bulb temperature s could increase beyond the survivability threshold of 35°C.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs Applied"
+  },
+  {
+    "id": 75,
+    "section": "Economics",
+    "question": "A country's fiscal deficit stands at Rs.50,000 crores. It is receiving Rs.10,000 crores through non-debt creating capital receipts. The country's interest liabilities are Rs.1,500 crores. What is the gross primary deficit?",
+    "options": {
+      "a": "Rs.48,500 crores",
+      "b": "Rs.51,500 crores",
+      "c": "Rs.58,500 crores",
+      "d": "None of the above"
+    },
+    "answer": "(A) Rs.48,500 crores",
+    "explanation": "Deficit = Total Expenditure – (Revenue Receipts + Capital Receipts) Primary Deficit = Fiscal Deficit – Interest Payments Gross Primary Deficit = Rs 50,000 crores - Rs 1,500 = Rs 48,500 crores",
+    "motivation": "Union Budget is a basic yet important topic.",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 76,
+    "section": "Economics",
+    "question": "Which of the following statements with regard to recommendations of the 15th Finance Commission of India are correct? I. It has recommended grants of ₹ 4,800 crores from the year 2022-23 to the year 2025-26 for incentivizing States to enhance educational outcomes. II. 45% of the net proceeds of Union taxes are to be shared with States. III. ₹ 45,000 crores are to be kept as performance- based incentive for all States for carrying out agricultural reforms. IV. It reintroduced tax effort criteria to reward fiscal performance. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I, II and III",
+      "b": "I, II and IV",
+      "c": "I, III and IV",
+      "d": "II, III and IV"
+    },
+    "answer": "(C) I, III and IV",
+    "explanation": "I is correct: XVFC has recommended grants of 4,800 crore (Rs. 1,200 crore each year) from 2022-23 2025-26 for incentivising the States to enhance outcomes. II is not correct: In order to maintain and stability of resources, especially the pandemic, XVFC has recommended the vertical devolution at 41 per cent – the as in our report for 2020-21. It is at the same level 42 per cent of the divisible pool as recommended by However, it has made the required adjustment about 1 per cent due to the changed status of the State of Jammu and Kashmir into the new Territories of Ladakh and Jammu and Kashmir. III is correct: XVFC has recommended that Rs. crore be kept as performance-based incentive all the States for carrying out agricultural reforms. IV is correct: XVFC has re-introduced tax criterion to reward fiscal performance.",
+    "motivation": "It was in the news and recommend ations of FC have been asked in the past as well",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 77,
+    "section": "Economics",
+    "question": "Consider the following statements in respect of the International Bank for Reconstruction and Development (IBRD) : I. It provides loans and guarantees to middle income countries. II. It works single- handedly to help developing countries to reduce poverty. III. It was established to help Europe rebuild after the World War II. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(C) I and III only",
+    "explanation": "I is correct: The International Bank for and Development (IBRD) is a global cooperative owned by 189 member As the largest development bank in the it supports the World Bank Group’s mission by loans, guarantees, risk management and advisory services to middle-income and low-income countries, as well as by responses to regional and global II is not correct: They work closely with all of the World Bank Group and the public and sectors in developing countries to reduce and build shared prosperity. III is correct: It was created in 1944 to help rebuild after World War II, IBRD joins with IDA, fund for the poorest countries, to form the World",
+    "motivation": "WB and IMF are important bodies.",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 78,
+    "section": "Economics",
+    "question": "Consider the following statements in respect of RTGS and NEFT : I. In RTGS, the settlement time is instantaneous while in case of NEFT, is takes some time to settle payments. II. In RTGS, the customer is charged for inward transactions while that is not the case for NEFT. III. Operating hours for RTGS are restricted on certain days while this is not true for NEFT. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "I and II",
+      "c": "I and III",
+      "d": "III only"
+    },
+    "answer": "(A) I only",
+    "explanation": "I is correct: The acronym 'RTGS' stands for Time Gross Settlement, which can be explained as system where there is continuous and real-time of fund-transfers, individually on a basis (without netting). NEFT an electronic fund transfer system in which the received up to a particular time are in batches. Contrary to this, in RTGS, the are processed continuously on a basis throughout the day. II is not correct: With a view to rationalise service charges levied by banks for offering funds through RTGS system, a broad framework of has been mandated as under: Inward transactions – Free, no charge to be levied. Outward transactions – ₹ 2,00,000/- to 5,00,000/-: exceeding ₹ 25/- (exclusive of tax, if any) ₹ 5,00,000/-: not exceeding ₹ 50 (exclusive of if any) III is not correct: RTGS is available 24x7x365 effect from December 14, 2020.",
+    "motivation": "Digital Payment Ecosystems are important. Previously asked.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 79,
+    "section": "Economics",
+    "question": "Consider the following countries : I. United Arab Emirates III. France III. Germany IV. Singapore V. Bangladesh How many countries amongst the above are there other than India where international merchant payments are accepted under UPI?",
+    "options": {
+      "a": "Only two",
+      "b": "Only three",
+      "c": "Only four",
+      "d": "All the five"
+    },
+    "answer": "(B) Only three",
+    "explanation": "stands for Unified Payments Interface, a system by the National Payments Corporation of (NPCI) that enables instant money transfers any two bank accounts using a smartphone. of countries where international merchant are accepted at select merchant outlets: France, Mauritius, Nepal, Singapore, Sri Lanka, Arab Emirates.",
+    "motivation": "It was in the news.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 80,
+    "section": "Current Affairs (Government Schemes)",
+    "question": "Consider the following statements about ‘PM Surya Ghar Muft Bijli Yojana’ : I. It targets installation of one crore solar rooftop panels in the residential sector. II. The Ministry of New and Renewable Energy aims to impart training on installation, operation, maintenance and repairs of solar rooftop systems at grassroot levels. III. It aims to create more than three lakhs skilled manpower through fresh skilling, and up-skilling, under scheme component of capacity building. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "I and III only",
+      "c": "II and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(D) I, II and III",
+    "explanation": "Government of India has approved the PM Surya Muft Bijli Yojana on 29th February, to increase the share of solar rooftop capacity and residential households to their own electricity. The PM Surya Ghar: Muft Yojana, the world’s largest domestic rooftop solar is transforming India’s energy landscape with bold vision to supply solar power to one crore by March 2027. The scheme provides with free electricity through the installation subsidized rooftop solar panels, significantly reducing energy costs.Hence statement 1 is correct. Ministry of New and Renewable Energy (MNRE) to impart training on installation, maintenance and repairing of solar roof top at grass root level. Specific and skills are crucial to build capable local workforce for installation of solar roof systems throughout the country. Hence statement is correct. and Objectives To create more than 3 lakh skilled manpower, fresh skilling, and up-skilling, under component of capacity building, out of which at 1,00,000 will be Solar PV Hence statement 3 is correct. To undertake capacity building of DISCOMs, REDAs, Institutions as well as field units and stakeholders of other at the Centre and levels, through constructive convergence of",
+    "motivation": "In 2024, Government of India approved the PM Surya Ghar: Muft Bijli Yojana.",
+    "difficulty": "Medium",
+    "nature": "Current Affairs"
+  },
+  {
+    "id": 81,
+    "section": "Polity & Governance",
+    "question": "Which reference to the Indian polity, consider the following statements : I. An Ordinance can amend any Central Act. II. An Ordinance can abridge a Fundamental Right. III. An Ordinance can come into effect from a back date. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(C) I and III only",
+    "explanation": "Ordinance issued under Article 123 (by the or Article 213 (by the Governor) has the force and effect as an Act of Parliament or State It can amend or repeal existing laws, subject constitutional limits and legislative competence. statement I is correct. are \"law\" under Article 13 and must to the Fundamental Rights enshrined in Part III. Article 13(2) prohibits the State from making laws infringe Fundamental Rights, an Ordinance cannot them. Hence, statement II is not correct. power, whether through an Act or an generally includes the power of legislation—except in the case of criminal where Article 20(1) prohibits retrospective The Supreme Court has affirmed that the power is co-extensive with legislative Hence, statement III is correct.",
+    "motivation": "In recent years, frequent power tussles between the elected Delhi government and the Lieutenant Governor led to significant constitution al debates. After the Supreme Court ruled in favor of Delhi’s control over services, the Central Governmen t issued an ordinance (and later a law) limiting that power, raising concerns about federalism, separation of powers, and the misuse of ordinance- making authority.",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 82,
+    "section": "Polity & Governance",
+    "question": "Consider the following pairs : State Description I. Arunachal Pradesh : The capital is named after a fort, and the State has two National Parks II. Nagaland : The State came into existence on the basis of a Constitutional Amendment Act III. Tripura : Initially a Part ‘C’ State, it became a centrally administered territory with the reorganization of States in 1956 and later attained the status of a full-fledged State How many of the above pairs are correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(B) Only two",
+    "explanation": "Fort in Itanagar town, is one of the most important sites in the state of Arunachal Pradesh, India. name literally means “Fort of bricks”( brick being “Ita” in the Assamese language). It also lends its to the city Itanagar, the capital of Arunachal Arunachal Pradesh has two national parks: National Park and Mouling National Park. pair 1 is correctly matched. state of Nagaland came into existence with the of Nagaland Act, 1962 . However, at the same the Constitution (Thirteenth Amendment) Act, was introduced to introduce Article 371 A which special status to Nagaland, protecting its unique social, customary, and land-related practices interference by the Indian Parliament without the Legislative Assembly's consent. Hence, pair 2 is correctly matched. Royal history of Tripura ended when it acceded to Indian Union on October 15, 1949. The regent the merger agreement with India, making a Part ‘C’ State. In November 1956, during state Tripura became a Union Territory with Advisory Committee for the Chief Commissioner. The Territorial Council was dissolved on July 1, 1963, a Legislative Assembly was formed with existing Tripura became a full-fledged State on 21, 1972, through the North Eastern Areas Act, 1971. Hence, pair 3 is correctly",
+    "motivation": "",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 83,
+    "section": "Current Affairs (Polity & Governance)",
+    "question": "With reference to India, consider the following : I. The Inter-State Council II. The National Security Council III. Zonal Councils How many of the above are established as per the provisions of the Constitution of India?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(A) Only one",
+    "explanation": "Council: Established under Article 263 of the the Inter-State Council is a constitutional created to foster coordination between States and the Centre and the States. Hence option I is Security Council (NSC): The NSC was formed an executive order of the Government of India. As it no mention in the Constitution, it functions as an body. Hence option II is not correct. Councils: These were set up under the States Act, 1956—an Act of Parliament. Since are not created by any constitutional provision, are classified as statutory bodies. Hence option III not correct.",
+    "motivation": "Recently the Inter-State Council, which is mandated to investigate and advise on disputes between states, has been reconstitute d with Prime Minister as its chairman and nine Union Ministers and all Chief Ministers as its members.",
+    "difficulty": "Easy",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 84,
+    "section": "Polity & Governance",
+    "question": "Consider the following statements : I. The Constitution of India explicitly mentions that in certain spheres the Governor of a State acts in his/her own discretion. II. The President of India can, of his/her own, reserve a bill passed by a State Legislature for his/her consideration without it being forwarded by the Governor of the State concerned. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both 1 and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(A) I only",
+    "explanation": "163(1) of the Constitution provides for a Council Ministers to aid and advise the Governor, except in where the Constitution requires the Governor act at their discretion. Article 163(2) further states if any question arises as to whether a matter falls the Governor’s discretionary powers, the decision is final. Hence, the Constitution explicitly recognize and provide for the Governor’s powers. Hence statement I is correct. Article 200 of the Constitution, the Governor has authority to reserve certain bills passed by the State for the consideration of the President. the Constitution does not empower the to independently (suo motu) take up a State unless it has first been reserved and forwarded by Governor. Hence statement II is not correct.",
+    "motivation": "Governor's Discretion in News (2024–25): Tamil Nadu: Governor R.N. Ravi's delay in assenting to bills passed by the Assembly and his public remarks on state policies sparked a constitution al debate on the limits of Governor discretion. Punjab: Governor Banwarilal Purohit withheld approval for a special Assembly session, raising questions on the Governor's role in legislative procedures. Relevance for UPSC: These instances highlight the tension between elected government s and appointed Governors, making it a key topic under Centre-State relations and constitution al morality.",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 85,
+    "section": "Polity & Governance",
+    "question": "Consider the following pairs : Provision in the Constitution of India Stated under I. Separation of Judiciary from the Executive in the public services of the State : The Directive Principles of the State Policy II. Valuing and preserving of the rich heritage of our composite culture : The Fundamental Duties III. Prohibition of employment of children below the age of 14 years in factories : The Fundamental Rights How many of the above pairs are correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(C) All the three",
+    "explanation": "Separation of Judiciary from the Executive in the Services of the State — Directive Principles of Policy 50 of the Indian Constitution, which forms part Part IV titled Directive Principles of State Policy, states that \"The State shall take steps to the judiciary from the executive in the public of the State.\" This directive serves as a guideline for ensuring judicial in the governance structure. Hence pair I correctly match. Valuing and Preserving the Rich Heritage of Our Culture — Fundamental Duties 51A, located in Part IVA of the Constitution, the Fundamental Duties of citizens. Clause (f) of this Article emphasizes that it is duty of every citizen \"to value and preserve the rich of our composite culture.Hence pair II is match. Prohibition of Employment of Children Below the of 14 Years in Factories — Fundamental Rights 24, which is part of Part III of the Constitution Fundamental Rights, prohibits the employment children under the age of fourteen in factories, or any other hazardous occupations. It affirms State’s commitment to protecting children from Hence pair III is correctly match.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 86,
+    "section": "Current Affairs (Polity & Governance)",
+    "question": "Consider the following statements : With reference to the Constitution of India, if an area in a State in declared as Scheduled Area under the Fifth Schedule I. the State Government loses its executive power in such areas and a local body assumes total administration II. the Union Government can take over the total administration of such areas under certain circumstances on the recommendations of the Governor Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(D) Neither I nor II",
+    "explanation": "The State Government loses its executive power in areas and a local body assumes total 2 of the Fifth Schedule affirms that the executive power extends to Scheduled Areas. the Governor has special powers—such as laws (Paragraph 5) and establishing a Tribes Council (Paragraph 4)—these do not nullify the authority. Even under PESA, which empowers Sabhas and local bodies, the State continues to its executive functions within the framework of Fifth Schedule. Hence statement I is not correct. The Union Government can take over the total of such areas under certain on the recommendations of the 3 of the Fifth Schedule allows the Union to directions to the State regarding the of Scheduled Areas but does not permit to take over total administration. Such a takeover require invocation of Article 356 (President’s which is a separate constitutional mechanism and a provision under the Fifth Schedule. Hence II is not correct.",
+    "motivation": "The Fifth and Sixth Schedules of the Indian Constitution are increasingly in focus amid rising demands for inclusion by various regions. For example: Ladakh and parts of the North-East have sought inclusion under the Sixth Schedule to secure greater autonomy and protection of tribal rights. In Uttarakhand , there are demands to bring certain tribal- dominated areas under the Fifth Schedule to safeguard land rights and cultural identity. These developmen ts underscore shifting dynamics in tribal governance and Indian federalism, making it important for UPSC aspirants to understand the distinctions, significance, and the rationale behind such demands.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 87,
+    "section": "Polity & Governance",
+    "question": "With reference to India, consider the following pairs : Organization Union Ministry I. The National Automative Board : Ministry of Commerce and Industry II. The Coir Board : Ministry of Heavy Industries III. The National Centre for Trade Information : Ministry of Micro, Small and Medium Enterprises How many of the above pairs are correctly matched :",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(D) None",
+    "explanation": "National Automotive Board (NAB) is set up to and develop the automotive sector in India. falls under the Ministry of Heavy Industries and Enterprises, not the Ministry of Commerce and Hence, Pair I is not correctly matched. Coir Board is a statutory body established for the and development of coir and coir products in works under the Ministry of Micro, Small and Enterprises (MSME), not the Ministry of Heavy Hence, Pair II is not correctly matched. National Centre for Trade Information (NCTI) is an institution that provides trade information market intelligence. functions under the Ministry of Commerce and not the Ministry of MSME. Hence, Pair III is correctly matched.",
+    "motivation": "",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 88,
+    "section": "Polity & Governance",
+    "question": "Consider the following subjects under the Constitution of India : I. List I-Union List, in the Sevent Schedule II. Extent of the executive power of a State III. Conditions of the Governor’s office For a constitutional amendment with respect to which of the above, ratification by the Legislatures of not less than one-half of the States is required before presenting the bill to the President of India for assent?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(A) I and II only",
+    "explanation": "Union List – List I of the Seventh Schedule subject clearly falls within the scope of the proviso Article 368(2) of the Constitution. The proviso mandates that any constitutional amendment the \"Lists in the Seventh Schedule\" must be by at least half of the State legislatures. Since Union List (List I) is one of these, any amendment to would alter the distribution of legislative powers the Union and the States—an essential feature Indian federalism—and thus requires such Hence option I is correct. Extent of the Executive Power of a State related to this matter also require by the States. The proviso to Article 368(2) includes changes to Articles 73 and 162, define the extent of the executive power of the and the States, respectively. Alterations to these would directly impact the functional division the Centre and the States, making State a constitutional necessity. Hence option II is Conditions of the Governor’s Office subject does not require State ratification. The of the Governor’s office are primarily by Article 158 and the Second Schedule of the These provisions are not mentioned in the to Article 368(2), and amendments to them are considered to affect the federal structure in a way would necessitate ratification by the States. such changes can be enacted by Parliament a special majority alone. Hence option III is not",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 89,
+    "section": "Polity & Governance",
+    "question": "With reference to the Indian polity, consider the following statements : I. The Governor of a State is not answerable to any court for the exercise and performance of the powers and duties of his/her office. II. No criminal proceedings shall be instituted or continued against the Governor during his/her term of office. III. Members of a State Legislature are not liable to any proceedings in any court in respect of anything said within the House. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and II only",
+      "b": "II and III only",
+      "c": "I and III only",
+      "d": "I, II and III"
+    },
+    "answer": "(D) I, II and III",
+    "explanation": "The Governor of a State is not answerable to any for the exercise and performance of the powers duties of their office. Article 361(1) of the Constitution, the Governor personal immunity from judicial scrutiny for acts. This ensures the Governor can discharge duties without fear of personal litigation. actions of the government remain open to review. Hence statement I is correct. No criminal proceedings shall be instituted or against the Governor during their term of 361(2) provides absolute immunity to the from criminal proceedings while in office. This preserves the dignity and uninterrupted of the constitutional post. Hence statement is correct. Members of a State Legislature are not liable to any in any court in respect of anything said the House. 194(2) grants members of State Legislatures freedom of speech within the House and its This protection ensures legislators can and vote without fear of legal consequences, uninhibited legislative debate.Hence III is correct.",
+    "motivation": "In July 2024, the Supreme Court agreed to examine the scope of Article 361 of the Constitution , which grants Governors immunity from criminal prosecution. The move came in response to a plea by a contractual woman employee accusing West Bengal Governor C.V. Ananda Bose of molestation. The case has raised critical questions about the extent and limitations of constitution al immunity, making Article 361 a key area of interest for UPSC. Also Article 194 was in news-A seven-Judge Bench of Supreme Court unanimously held that a lawmaker does not enjoy immunity under Articles 105(2) and 194(2) of the Constitution against b ribery.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 90,
+    "section": "Economics",
+    "question": "Consider the following activities : I. Production of crude oil II. Refining, storage and distribution of petroleum III. Marketing and sale of petroleum products IV. Productions of natural gas How many of the above activities are regulated by the Petroleum and Natural Gas Regulatory Board in our country?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "Only three",
+      "d": "All the four"
+    },
+    "answer": "(B) Only two",
+    "explanation": "Petroleum and Natural Gas Regulatory Board was constituted under The Petroleum and Gas Regulatory Board Act, 2006, notified via Notification dated 31st March 2006. Act provide for the establishment of Petroleum and Gas Regulatory Board to protect the interests of and entities engaged in specified activities to petroleum, petroleum products and natural and to promote competitive markets and for connected therewith or incidental thereto. as enshrined in the act, the board has also been to regulate the refining, processing, storage, distribution, marketing and sale of petroleum products and natural gas production of crude oil and natural gas so as to ensure uninterrupted and adequate supply of petroleum products and natural gas in all of the country. option (b) is the correct answer.",
+    "motivation": "It was in the news.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental + Current Affairs"
+  },
+  {
+    "id": 91,
+    "section": "Modern History",
+    "question": "“Sedition has become my religion” was the famous statement given by Gandhiji at the time of",
+    "options": {
+      "a": "the Champaran Satyagraha",
+      "b": "publicly violating Salt Law at Dandi",
+      "c": "attending the Second Round Table Conference in London",
+      "d": "the launch of the Quit India Movement"
+    },
+    "answer": "(B) publicly violating Salt Law at Dandi",
+    "explanation": "Civil Disobedience Movement was started by on 12th March, 1930 with his famous Dandi Together with 78 chosen followers, Gandhi nearly 375 Kms from Sabarmati Ashram to a village on the Gujarat sea-coast. after day, newspapers reported his progress, his and the impact on the people. Hundreds of officials on his route resigned their jobs. 6th April, Gandhi Ji reached Dandi, picked up of salt and broke the salt law as a symbol of Indian People’s refusal to live under British-made and therefore under British rule. Gandhi Ji : British rule in India has brought about moral, cultural and spiritual ruination of this great I regard this rule as a curse. I am ought to this system of Government. … Sedition has my religion. Ours is a non-violent battle. We not to kill anybody but it is our dharma to see that curse of this Government is blotted out.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 92,
+    "section": "Art & Culture",
+    "question": "The famous female figurine known as ‘Dancing Girl’, found at Mohenjo-daro, is made of",
+    "options": {
+      "a": "carnelian",
+      "b": "clay",
+      "c": "bronze",
+      "d": "gold"
+    },
+    "answer": "(C) bronze",
+    "explanation": "Dancing Girl of Mohenjodaro is one of the most artifacts from the Indus Valley Civilization, the sophisticated artistic and metallurgical of this ancient urban culture that approximately 4,500 years ago. Dancing Girl: This small bronze figurine 4 inches tall) discovered in depicts a female figure standing in a posture with one arm on her hip and the arm adorned with bangles. statue was created using the lost-wax casting demonstrating advanced knowledge of",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 93,
+    "section": "Modern History",
+    "question": "Who provided legal defence to the people arrested in the aftermath of Chauri Chaura incident?",
+    "options": {
+      "a": "C. R. Das",
+      "b": "Madan Mohan Malaviya and Krishna Kant",
+      "c": "Dr. Saifuddin Kitchlew and Khwaja Hasan Nizami",
+      "d": "M. A. Jinnah"
+    },
+    "answer": "(B) Madan Mohan Malaviya and Krishna Kant",
+    "explanation": "1909, Malaviya, who was a lawyer, became the of the Congress party. In 1918, he was elected the Municipal Corporation of Allahabad, followed by election to the Provincial Legislative Council, where served for nearly three decades. was a champion of education for women and against the practice of dowry. When he founded BHU in 1916, Malaviya managed a difficult feat — a from the tight-fisted Nizam of Hyderabad. though he quit law practice when he joined he returned to it in 1922 to defend those accused in the Chauri Chaura incident of 1919. total of 225 people were brought to trial at Gorakhpur Court of Judge H. E. Holmes, on charges of and arson” in conjunction with the Chauri affair. Of these, six died while in police custody, were sentenced to 2 years’ imprisonment, while were sentenced to death by hanging and 47 were on 9 January 1923, following conviction in a which lasted eight months. After the 8 month-long 172 people were sentenced to death, he managed get 153 acquitted.",
+    "motivation": "",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 94,
+    "section": "Modern History",
+    "question": "Subsequent to which one of the following events, Gandhiji, who consistently opposed untouchability and appealed for its eradication from all spheres, decided to include the upliftment of ‘Harijans’ in his political and social programme?",
+    "options": {
+      "a": "The Poona Pact",
+      "b": "The Gandhi-Irwin Agreement (Delhi Pact)",
+      "c": "Arrest of Congress leadership at the time of the Quit India Movement.",
+      "d": "Promulgation of the Government of India Act,"
+    },
+    "answer": "(A) The Poona Pact",
+    "explanation": "September 1932, Gandhi went on fast in Puné’s Jail in opposition to separate electorates for Depressed Classes (which Ambedkar supported). Gandhi’s health began to fail, Ambedkar was to yield, signing a compromise agreement the number of seats in legislatures reserved the Depressed Classes, but as part of a joint of all Hindus. After the signing of this ‘Poona Gandhi increasingly referred to the untouchables ‘Harijans’, a term meaning ‘Children of God’. He it less pejorative than ‘Untouchable’, less than the colonial coinage, ‘Depressed and more indigenous-sounding than his own alternative, ‘suppressed classes’. term ‘Harijan’ had first been used by the medieval Narsinh Mehta, whom Gandhi had long (Mehta’s ‘Vaishnava Jana To’ was one of his hymns). In adopting this term for the Classes, Gandhi remarked: ‘Not that the of name brings about any change of status, but may at least be spared the use of a term which is one of reproach’. edited a weekly newspaper named Young India. 1933 he renamed this weekly Harijan, because he that the campaign to abolish untouchability as vital as winning political freedom. before he went on fast in September 1932, had formed an ‘Anti-Untouchability League’, the responsibility for running it in the hands of of his close associates, the industrialist G. D. Birla the social worker A. V. Thakkar. After the fast had and the Poona Pact was signed, this was renamed the Harijan Sewak Sangh, we may translate into English as the ‘Servants of Society’. option (a) is the correct answer.",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 95,
+    "section": "Modern History",
+    "question": "Consider the following fruits : I. Papaya II. Pineapple III. Guava How many of the above were introduced in India by the Portuguese in the sixteenth and seventeenth centuries?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(C) All the three",
+    "explanation": "European ‘discovery’ of America was followed by dissemination of American food crops to different of the world. The Portuguese, being the earliest nation to arrive in India, became the agents introducing several American crops like maize, potato and capsicums in the country. The also introduced many ‘New World’ fruits the pineapple, Papaya, Sapodilla, and the Guava found acceptance and became part of Indian food a crop found in the Americas was brought the Portuguese to India during the sixteenth The Dutch traveler Linschoeten, who was in during the 1580s, provides a brief account of the of pineapple in India. The Portuguese the fruit from Brazil to India. It was initially an fruit but the rapid spread of pineapple in the country led to reduction in prices.i Fazl’s Ain-i-Akbari, written in the 1590s, mentions pineapple as one of the many ‘sweet’ fruits grown in Describing the fruit, Abul Fazl writes: are also called Kathal-i-Safari or Jackfruit travels because young plants, put into a vessel, may taken on travels, and will yield fruits. In color and they resemble an oblong orange and in taste and a mango. fruit introduced in India was the Papaya. who describes the fruit, wrote that the came to India by way of Philippines and It was initially highly regarded but it soon lost novelty. Since Abul Fazl does not mention the fruit, it certain that the papaya was not available in North in the late sixteenth century. In 1623, the Italian Pietro Della Valle came across the papaya in Daman. He characterized it as being similar taste and appearance to European melons but much (Psidium guajava) are native to Central America are believed to have been introduced to India by traders in the early 17th century",
+    "motivation": "",
+    "difficulty": "Medium",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 96,
+    "section": "Geography",
+    "question": "Consider the following countries : I. United Kingdom II. Denmark III. New Zealand IV. Australia V. Brazil How many of the above countries have more than four time zones?",
+    "options": {
+      "a": "All the five",
+      "b": "Only four",
+      "c": "Only three",
+      "d": "Only two"
+    },
+    "answer": "(C) Only three",
+    "explanation": "UK itself (mainland) uses one time zone. However, to overseas territories (like Bermuda, British Virgin Falkland Islands, Pitcairn Islands, etc.), the UK across 9 time zones. Denmark Adheres to a single time zone, European Summer Time, throught most year. Islands nad Greenland which are part of the realm have separate time zones. Faroe has one time zone and Greenland has three time zones. it has more than four time zones. Zealand has three time zones. New Zealand's two islands, North Island and South Island, both lie in same time zone. The Chatham Islands, located 860 kilometers (534 miles) east of Christchurch, a separate time zone, which is 45 minutes ahead mainland New Zealand. Tokelau, an archipelago in Pacific and a dependency of New Zealand, brings total to three time zones. an archipelago in the Pacific and a dependency New Zealand, brings the total to three time zones. are 6 time zones in Australia. Adding the 3 dependencies brings the total to 9 time mainland states and territories are divided 5 standard time zones. As Western Australia, and the Northern Territory don't use Saving Time (DST), there are only 3 DST time zones. are four standard time zones in Brazil. They are, west to east: Acre Time (ACT), Amazon Time Brasília Time (BRT), and Fernando de Noronha (FNT). Hence, option (c) is the correct answer.",
+    "motivation": "Time Zones and Daylight saving are basic concepts and also often seen in the news.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 97,
+    "section": "Geography",
+    "question": "Consider the following statements : I. Anadyr in Siberia and Nome in Alaska are a few kilometers from each other, but when people are waking up and getting set for breakfast in these cities, it would be different days. II. When it is Monday in Anadyr, it is Tuesday in Nome. Which of the statements given above is/are correct?",
+    "options": {
+      "a": "I only",
+      "b": "II only",
+      "c": "Both I and II",
+      "d": "Neither I nor II"
+    },
+    "answer": "(A) I only",
+    "explanation": "time difference between Anadyr and Nome, Alaska, 20 hours. Nome is 20 hours behind Anadyr. Hence, when people are waking up and getting set for in these cities, it would be different days. statement I is correct. international date line (IDL) is an imaginary line that along the Earth's surface from the North Pole to South Pole in the middle of the Pacific Ocean. When cross it, you either gain or lose a day depending on way you are traveling. If you are traveling you gain a day, and if you are traveling you lose a day. Alaska lies in the west of Date Line and Anadyr lies in the East. when it is Monday in Anadyr, it is Sunday in and not Tuesday. Thus, Statement II is not corect.",
+    "motivation": "",
+    "difficulty": "Easy",
+    "nature": "Fundamental Applied"
+  },
+  {
+    "id": 98,
+    "section": "Modern History",
+    "question": "Who among the following was the founder of the ‘Self- Respect Movement’?",
+    "options": {
+      "a": "‘Periyar’ E. V. Ramaswamy Naicker",
+      "b": "Dr. B. R. Ambedkar",
+      "c": "Bhaskarrao Jadhav",
+      "d": "Dinkarrao Javalkar"
+    },
+    "answer": "(A) ‘Periyar’ E. V. Ramaswamy Naicker",
+    "explanation": "Ramasamy Periyar (1879–1973): A radical social and politician from Tamil Nadu, known as the of the Dravidian movement. Periyar was a vocal critic of the caste system and dominance. He advocated for the rights of and women and was a staunch atheist opposed religious orthodoxy. He founded the Self-Respect Movement in 1925, sought to empower the Dravidian people and the dominance of the Brahmins in South His ideas influenced the Dravidian political parties later dominated Tamil Nadu's political landscape.",
+    "motivation": "To test the fundamenta l Knowledge of the candidates",
+    "difficulty": "Easy",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 99,
+    "section": "Geography",
+    "question": "Consider the following pairs : Country Resource-rich in I. Botswana : Diamond II. Chile : Lithium III. Indonesia : Nickel In how many of the above rows is the given information correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None"
+    },
+    "answer": "(C) All the three",
+    "explanation": "is one of the largest producers of diamond, its 30 percent gross domestic product and 80 of exports depend on the gem. the second-largest diamond in the world has uncovered in a mine in Botswana which is rough stone by Canadian firm Lucara Diamond. lithium reserves are concentrated in South ‘Lithium Triangle’—encompassing parts of Argentina, and Chile. Chile is a key target as it is world's biggest supplier of copper and the second- producer of lithium, which are essential for vehicle batteries and renewable energy systems the push away from fossil fuels. part of India's drive to explore overseas for mineral state firms National Aluminium Company, Copper and unlisted Mineral Exploration and have set up a company called Khanij Bidesh (KABIL). is home to the world’s largest nickel reserves, for nearly 30 per cent of the global supply is the world’s largest producer of nickel.\"",
+    "motivation": "In 2024, the world's second- largest diamond ever found was discovered in Botswana. According to the Global Critical Minerals Outlook 2024 by the Internationa l ENergy Agency, Indonesia produced over 50% of the world's nickel. Lithium triangle is often seen in the news.",
+    "difficulty": "Difficult",
+    "nature": "Fundamental"
+  },
+  {
+    "id": 100,
+    "section": "Geography",
+    "question": "Consider the following pairs : Region Country I. Mallorca : Italy II. Normandy : Spain III. Sardinia : France In how many of the above rows is the given information correctly matched?",
+    "options": {
+      "a": "Only one",
+      "b": "Only two",
+      "c": "All the three",
+      "d": "None of the above"
+    },
+    "answer": "(D) None of the above",
+    "explanation": "is an island province and autonomous in Spain. Majorca is the largest of the Islands, which lie in the western Mediterranean Hence, pair I is not correctly matched. is a region of northern France, bordering the Channel. In June, 2024, Veterans and world have gathered in Normandy, France, to mark 80th anniversary of the June 6, 1944 D-Day landings, more than 150,000 Allied soldiers arrived in the by sea and air to drive out the forces of Nazi Hence, pair II is not correctly matched. island and region of Italy is second in size only Sicily among the islands of the western It lies 120 miles (200 km) west of the of Italy, 7.5 miles (12 km) south of the French island of Corsica, and 120 miles km) north of the coast of Africa. Hence, pair III is correctly matched. SUBJECTS",
+    "motivation": "In 2024, Puerto Alcudia, a prominent port town and major tourist destination in Majorca, Spain, experienced a mini- tsunami, also known as a meteo tsunami. In 2024, ceremonies took place in Normandy to mark the 80th anniversary of the June 6, 1944 D- Day landings. It was reported in 2022 that Sardinia is paying people almost $15,000 to move to the Italian city.",
+    "difficulty": "Difficult",
+    "nature": "Current Affairs Applied"
+  }
+]

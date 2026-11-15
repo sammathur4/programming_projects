@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "section": "Essay",
+    "question": "Life is long journey between human being and being humane",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2,
+    "section": "Essay",
+    "question": "Mindful manifesto is the catalyst to a tranquil self",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 3,
+    "section": "Essay",
+    "question": "Ships do not sink because of water around them, ships sink because of water that gets into them",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 4,
+    "section": "Essay",
+    "question": "Simplicity is the ultimate sophistication",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 5,
+    "section": "Essay",
+    "question": "Culture is what we are, civilization is what we have",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 6,
+    "section": "Essay",
+    "question": "There can be no social justice without economic prosperity but economic prosperity without social justice is meaningless",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 7,
+    "section": "Essay",
+    "question": "Patriarchy is the least noticed yet the most significant structure of social inequality",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8,
+    "section": "Essay",
+    "question": "Technology as the silent factor in international relations",
+    "options": null,
+    "answer": null,
+    "explanation": null,
+    "motivation": null,
+    "difficulty": "Hard"
+  }
+]

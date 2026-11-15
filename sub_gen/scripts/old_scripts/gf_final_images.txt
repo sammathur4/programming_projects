@@ -1,0 +1,88 @@
+# IMAGE LIST — gf_final_manifest_1m.txt
+#
+# 12 modules x 4 images = 48 frames, from local files + Commons downloads.
+# Source folders:
+#   images/*.jpeg                    personal photos (the one girl — used throughout)
+#   images/pinterest_vision_board_2026/042,058 (couples), 002 (man)
+#   images/gf_final/dl_*.jpg         downloaded (Wikimedia Commons, free licence):
+#                                    night sky, milky way, candles, sunrise, sunset
+#   images/gf_final/m*.jpg           normalised 1600px copies used by the render
+#
+# Render with:
+#   python3 sub_video_gen.py --script gf_final_manifest_1m.txt \
+#     --image-manifest gf_final_images.txt --images-per-module 4 ...
+#
+# Art direction: one consistent girl, warm candlelight, silk-light bedrooms,
+# night sky, sunrise. No text cards, no watermarks, no stock logos.
+
+## THE DECISION
+images/gf_final/m01_01.jpg
+images/gf_final/m01_02.jpg
+images/gf_final/m01_03.jpg
+images/gf_final/m01_04.jpg
+
+## THE OPERANT MAN
+images/gf_final/m02_01.jpg
+images/gf_final/m02_02.jpg
+images/gf_final/m02_03.jpg
+images/gf_final/m02_04.jpg
+
+## THE SOULMATE
+images/gf_final/m03_01.jpg
+images/gf_final/m03_02.jpg
+images/gf_final/m03_03.jpg
+images/gf_final/m03_04.jpg
+
+## HER MAGNETISM
+images/gf_final/m04_01.jpg
+images/gf_final/m04_02.jpg
+images/gf_final/m04_03.jpg
+images/gf_final/m04_04.jpg
+
+## HER OBSESSION
+images/gf_final/m05_01.jpg
+images/gf_final/m05_02.jpg
+images/gf_final/m05_03.jpg
+images/gf_final/m05_04.jpg
+
+## HER LOYALTY AND POSSESSIVENESS
+images/gf_final/m06_01.jpg
+images/gf_final/m06_02.jpg
+images/gf_final/m06_03.jpg
+images/gf_final/m06_04.jpg
+
+## NSFW — SHE WANTS ME
+images/gf_final/m07_01.jpg
+images/gf_final/m07_02.jpg
+images/gf_final/m07_03.jpg
+images/gf_final/m07_04.jpg
+
+## NSFW — HER FIRST TIME
+images/gf_final/m08_01.jpg
+images/gf_final/m08_02.jpg
+images/gf_final/m08_03.jpg
+images/gf_final/m08_04.jpg
+
+## NSFW — SHE FUCKS ME
+images/gf_final/m09_01.jpg
+images/gf_final/m09_02.jpg
+images/gf_final/m09_03.jpg
+images/gf_final/m09_04.jpg
+
+## WIFE — THE LIFE WE ALREADY LIVE
+images/gf_final/m10_01.jpg
+images/gf_final/m10_02.jpg
+images/gf_final/m10_03.jpg
+images/gf_final/m10_04.jpg
+
+## MOMENTUM — RAMPAGE AND AFFORMATIONS
+images/gf_final/m11_01.jpg
+images/gf_final/m11_02.jpg
+images/gf_final/m11_03.jpg
+images/gf_final/m11_04.jpg
+
+## THE SEAL
+images/gf_final/m12_01.jpg
+images/gf_final/m12_02.jpg
+images/gf_final/m12_03.jpg
+images/gf_final/m12_04.jpg

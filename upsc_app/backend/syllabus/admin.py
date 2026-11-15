@@ -5,8 +5,9 @@ from .models import (
     AttemptResponse,
     LearnerAccount,
     MainsQuestion,
-    PrelimsQuestion,
-    Progress,
+    PrelimsGsQuestion,
+    CsatQuestion,
+    DailyChallenge,
     QuestionBookmark,
     QuestionNote,
     SyllabusPaper,
@@ -50,24 +51,12 @@ class LearnerAccountAdmin(admin.ModelAdmin):
     list_select_related = ("user",)
 
 
-@admin.register(Progress)
-class ProgressAdmin(admin.ModelAdmin):
-    list_display = (
-        "learner",
-        "node_id",
-        "node_type",
-        "questions_attempted",
-        "correct_answers",
-        "accuracy_display",
-        "last_attempted_at",
-    )
-    list_filter = ("node_type", "last_attempted_at")
-    search_fields = ("learner__user__username", "node_id")
-    list_select_related = ("learner", "learner__user")
-
-    @admin.display(description="Accuracy")
-    def accuracy_display(self, obj):
-        return f"{obj.accuracy}%"
+@admin.register(DailyChallenge)
+class DailyChallengeAdmin(admin.ModelAdmin):
+    list_display = ("date", "track", "question_key", "created_at")
+    list_filter = ("track", "date")
+    search_fields = ("question_key",)
+    ordering = ("-date", "track")
 
 
 @admin.register(Attempt)
@@ -141,8 +130,8 @@ class SyllabusPointAdmin(admin.ModelAdmin):
         return obj.point[:120]
 
 
-@admin.register(PrelimsQuestion)
-class PrelimsQuestionAdmin(admin.ModelAdmin):
+@admin.register(PrelimsGsQuestion)
+class PrelimsGsQuestionAdmin(admin.ModelAdmin):
     list_display = (
         "id",
         "year",
@@ -150,32 +139,27 @@ class PrelimsQuestionAdmin(admin.ModelAdmin):
         "section",
         "difficulty",
         "correct_answer",
-        "source_file",
     )
     list_filter = ("year", "section", "difficulty", "nature", "source_type")
-    search_fields = ("question", "section", "explanation", "motivation", "source_file")
+    search_fields = ("question", "section", "explanation", "motivation")
     ordering = ("-year", "question_id")
     list_per_page = 50
-    fieldsets = (
-        ("Question", {"fields": ("year", "question_id", "section", "question")}),
-        (
-            "Options and answer",
-            {
-                "fields": (
-                    "option_a",
-                    "option_b",
-                    "option_c",
-                    "option_d",
-                    "correct_answer",
-                )
-            },
-        ),
-        (
-            "Explanation",
-            {"fields": ("explanation", "motivation", "difficulty", "nature")},
-        ),
-        ("Source", {"fields": ("source", "source_type", "source_file")}),
+
+
+@admin.register(CsatQuestion)
+class CsatQuestionAdmin(admin.ModelAdmin):
+    list_display = (
+        "id",
+        "year",
+        "question_id",
+        "section",
+        "difficulty",
+        "correct_answer",
     )
+    list_filter = ("year", "section", "difficulty", "nature")
+    search_fields = ("question", "section", "explanation", "motivation", "tags")
+    ordering = ("-year", "question_id")
+    list_per_page = 50
 
 
 @admin.register(MainsQuestion)
@@ -186,29 +170,26 @@ class MainsQuestionAdmin(admin.ModelAdmin):
         "year",
         "paper",
         "subject",
+        "master_theme",
         "section",
-        "source_file",
     )
-
     list_filter = (
         "year",
         "paper",
         "subject",
         "difficulty",
         "nature",
-        "relevance",
-        "is_repeated_theme",
+        "master_theme",
     )
-
     search_fields = (
         "question_id",
         "question",
         "paper",
         "subject",
         "section",
-        "source_file",
+        "master_theme",
+        "syllabus_tags",
     )
-
     ordering = (
         "-year",
         "paper",

@@ -1,0 +1,16 @@
+Scanning for PDFs in /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027...
+Found 2069 PDFs
+Traceback (most recent call last):
+  File "/media/saksham/phone data/programming_projects/upsc_app/pdf_to_txt_converter.py", line 155, in <module>
+    main()
+  File "/media/saksham/phone data/programming_projects/upsc_app/pdf_to_txt_converter.py", line 146, in main
+    save_tracker(tracker)
+  File "/media/saksham/phone data/programming_projects/upsc_app/pdf_to_txt_converter.py", line 29, in save_tracker
+    json.dump(tracker, f, indent=2)
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 357, in _iterencode_dict
+    for key, value in items:
+RuntimeError: dictionary changed size during iteration

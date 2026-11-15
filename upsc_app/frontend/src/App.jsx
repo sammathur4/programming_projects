@@ -2146,12 +2146,15 @@ const deleteDetailNote = async (noteId) => {
               </button>
             ))}
 
-            <button
+              <button
               className={`nav-item ${view === 'syllabus' ? 'active' : ''}`}
               onClick={() => navigateTo('syllabus')}
             >
               <BookOpen size={19} /> Syllabus
             </button>
+            <a className="nav-item" href="/atlas">
+              <BookOpen size={19} /> Study Atlas
+            </a>
           </nav>
 
           <div className="sidebar-spacer" />

@@ -7,10 +7,13 @@
     python3 start_all.py --dry-run   print the commands, run nothing
     python3 start_all.py --self-check  verify the port probe
 
-IASCode      docker compose — backend :8000, frontend :5173
+upsc_app     upsc_app/docker-compose.yml — backend :8000, frontend :5173
 WhatsApp bot whatsapp_bot/run.sh — Chrome, DISPLAY, QR all handled there
 Mission 2026 mission2026/run_server.sh :8001, published over an ssh reverse
              tunnel (localhost.run) so it opens from any network, no account
+
+Datasets used by upsc_app live in data/ (final_pyq_data, upsc_mains_json);
+nothing else in the tree is started from here.
 """
 
 import os
@@ -31,8 +34,8 @@ MISSION_PORT = 8001
 TUNNEL_URL = re.compile(r"https://[a-z0-9]+\.lhr\.life")
 PORTS = {
     3000: "WhatsApp bot",
-    5173: "IASCode frontend",
-    8000: "IASCode backend",
+    5173: "upsc_app frontend",
+    8000: "upsc_app backend",
     8001: "Mission 2026",
 }
 DRY = "--dry-run" in sys.argv

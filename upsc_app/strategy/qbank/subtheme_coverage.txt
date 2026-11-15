@@ -1,0 +1,129 @@
+MAINS  rows 1615 | distinct sub_themes 114
+sub_theme_method
+rule              811
+subject_column    553
+fallback          203
+nature_column      48
+  rows with a master_theme impossible for their paper: 110
+
+PRELIMS rows 1399 | distinct sub_themes 85
+sub_theme_method
+rule           922
+fallback       294
+rule_global    183
+
+sub-themes asked in both papers: 58
+
+== recurring GS sub-themes (mains) ==
+                                 sub_theme  years  hits  first  last  gap_since_last
+      Freedom Struggle & National Movement     14    31   2013  2026               0
+                               General GS1     13    51   2013  2026               0
+                  Ancient & Medieval India     13    27   2013  2026               0
+                                     Essay     12    96   2014  2025               1
+                Agriculture, MSP & Farmers     12    36   2014  2025               1
+        Physical Geography & Geomorphology     12    30   2013  2026               0
+ Social Movements, Diversity & Communalism     12    21   2013  2026               0
+Resources, Agriculture & Industry Location     12    19   2014  2026               0
+               Judiciary & Judicial Review     12    16   2014  2025               1
+                                Case Study     11    59   2014  2025               1
+                     Ethics & Human Values     11    34   2014  2025               1
+                  Values in Public Service     11    31   2014  2025               1
+        Parliament & Legislative Procedure     11    20   2014  2025               1
+                     Climatology & Monsoon     11    18   2013  2026               0
+    Disaster Risk Reduction & Preparedness     11    17   2014  2025               1
+                               General GS3     10    23   2014  2025               1
+                Terrorism & Radicalisation     10    14   2014  2025               1
+         Emotional Intelligence & Attitude     10    12   2014  2024               2
+      Population, Urbanisation & Migration      9    18   2013  2026               0
+         Constitutional & Statutory Bodies      9    15   2016  2025               1
+          Fiscal Policy, Budget & Taxation      9    15   2014  2025               1
+Probity, Corruption & Conflict of Interest      9    13   2014  2024               2
+          Cyber & Non-Traditional Security      9     9   2015  2024               2
+                Quotations & Personalities      8    20   2014  2025               1
+                               General GS2      8    18   2014  2025               1
+                               General GS4      8    15   2017  2025               1
+                            Women & Gender      8    12   2013  2024               2
+                         Border Management      8    10   2014  2024               2
+                NGOs, SHGs & Civil Society      8    10   2014  2025               1
+         Biotechnology & Health Technology      8     9   2014  2025               1
+       Federalism & Centre-State Relations      8     9   2014  2025               1
+            Growth, GDP & Inclusive Growth      8     9   2014  2025               1
+                          Space Technology      8     8   2014  2023               3
+                             World History      7    13   2013  2025               1
+     Government Schemes & Service Delivery      7    11   2014  2023               3
+               Art, Architecture & Culture      7     9   2015  2025               1
+         E-Governance & Digital Governance      7     7   2014  2025               1
+                        Fundamental Rights      7     7   2014  2024               2
+             Globalisation & Social Change      7     7   2016  2026               0
+                          Poverty & Hunger      7     7   2015  2025               1
+
+== recurring sub-themes (prelims) ==
+                                 sub_theme  years  hits  first  last  gap_since_last
+      Biodiversity & Wildlife Conservation     14    83   2013  2026               0
+        Parliament & Legislative Procedure     14    58   2013  2026               0
+         Biotechnology & Health Technology     14    48   2013  2026               0
+                Agriculture, MSP & Farmers     14    37   2013  2026               0
+                  Water Resources & Rivers     14    27   2013  2026               0
+                  Ancient & Medieval India     13    72   2013  2026               0
+               Inflation & Monetary Policy     13    47   2013  2026               0
+      Freedom Struggle & National Movement     13    43   2013  2026               0
+          Fiscal Policy, Budget & Taxation     13    37   2013  2026               0
+                Banking & Financial Sector     13    36   2013  2026               0
+                 Basic Physics & Chemistry     13    32   2013  2026               0
+        Physical Geography & Geomorphology     13    32   2013  2026               0
+             Climate Change & Negotiations     13    27   2014  2026               0
+                          Space Technology     13    21   2013  2026               0
+              Pollution & Waste Management     12    20   2013  2025               1
+     Government Schemes & Service Delivery     11    38   2013  2026               0
+               IT, AI & Digital Technology     11    30   2013  2026               0
+               Art, Architecture & Culture     11    26   2013  2026               0
+              Regional Geography & Mapping     11    26   2013  2026               0
+              Trade, FDI & External Sector     11    21   2013  2026               0
+           President, Governor & Executive     11    18   2013  2025               1
+                        Nuclear Technology     11    14   2013  2026               0
+                  UN & Multilateral Reform     10    28   2015  2026               0
+       Federalism & Centre-State Relations     10    16   2013  2026               0
+Resources, Agriculture & Industry Location     10    15   2013  2026               0
+                     Oceanography & Coasts     10    14   2013  2026               0
+                        Fundamental Rights      9    19   2013  2026               0
+                        Forests & Land Use      9    18   2013  2026               0
+                     Climatology & Monsoon      9    16   2013  2026               0
+         Local Government & Panchayati Raj      9    13   2013  2026               0
+             Renewable Energy & Transition      9    12   2015  2026               0
+                      Infrastructure & PPP      8    11   2014  2025               1
+            Industry, Manufacturing & MSME      8     9   2014  2026               0
+     Energy Security & Strategic Resources      7    11   2013  2025               1
+               Judiciary & Judicial Review      7     9   2014  2025               1
+                India & Neighbours (SAARC)      6     8   2016  2025               1
+     India & Southeast Asia / Indo-Pacific      6     7   2014  2026               0
+                               India-China      6     7   2015  2025               1
+                       India-United States      6     7   2014  2026               0
+ India & West Asia / Africa / Central Asia      5    11   2014  2024               2
+
+== fallback buckets ==
+sub_theme
+Essay          96
+General GS1    51
+General GS3    23
+General GS2    18
+General GS4    15
+sub_theme
+General Current Affairs                              58
+General Economy                                      35
+General Polity & Governance                          35
+General Geography                                    33
+General Modern History                               31
+General Environment & Ecology                        31
+General Science & Technology                         22
+General Art & Culture                                21
+General Medieval History                              8
+General International Relations                       5
+General Current Affairs (S&T)                         4
+General Ancient History                               2
+General Social Issues/Schemes                         2
+General History                                       2
+General Current Affairs/General Awareness             1
+General Current Affairs (Polity & Governance)         1
+General Miscellaneous (General Awareness)             1
+General Current Affairs (Geography)                   1
+General Current Affairs (International Relations)     1

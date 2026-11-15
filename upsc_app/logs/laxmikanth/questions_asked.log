@@ -1,0 +1,37 @@
+276-    SESSION_ID=$(cat "$SESSION_FILE" | tr -d '\n\r')
+277-    # Validate session ID format
+278-    if [[ "$SESSION_ID" =~ ^ses ]]; then
+279-      log "Continuing session: $SESSION_ID"
+280-      log_detail "Starting opencode run with session continuation..."
+281:      timeout 7200 opencode run -m "$CURRENT_MODEL" -s "$SESSION_ID" --auto "Continue generating Laxmikanth polity notes chapter by chapter. Follow the task in /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md. Log every action: which chapter you're working on, files read/written, decisions made. If stuck or need clarification, use the question tool to ask the user questions with clear context. Be verbose in logging." 2>&1 | tee "$LOG_FILE"
+282-    else
+283-      log "Invalid session ID format, starting fresh session"
+284-      rm -f "$SESSION_FILE"
+285:      timeout 7200 opencode run -m "$CURRENT_MODEL" --auto "Start generating Laxmikanth polity notes chapter by chapter. Read the task in /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md and execute it. Work systematically from where we left off - check the target notes file to see last chapter. Log every action: which chapter you're on, what you're reading, what you're writing. If you get stuck or need clarification on anything (scope, depth, approach, missing source), use the question tool to ask the user questions clearly. Be explicit about progress." 2>&1 | tee "$LOG_FILE"
+286-      SESSION_EXTRACTED=$(grep -oP 'session\s+\Kses[^\s]+' "$LOG_FILE" | head -1)
+287-      if [ -n "$SESSION_EXTRACTED" ]; then
+288-        echo "$SESSION_EXTRACTED" > "$SESSION_FILE"
+289-        log_detail "Extracted session ID: $SESSION_EXTRACTED"
+290-      fi
+291-    fi
+292-  else
+293-    log "Starting new session"
+294-    log_detail "Starting fresh opencode run..."
+295:    timeout 7200 opencode run -m "$CURRENT_MODEL" --auto "Start generating Laxmikanth polity notes chapter by chapter. Read the task in /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md and execute it. Work systematically from where we left off - check the target notes file to see last chapter. Log every action: which chapter you're on, what you're reading, what you're writing. If you get stuck or need clarification on anything (scope, depth, approach, missing source), use the question tool to ask the user questions clearly. Be explicit about progress." 2>&1 | tee "$LOG_FILE"
+296-    SESSION_EXTRACTED=$(grep -oP 'session\s+\Kses[^\s]+' "$LOG_FILE" | head -1)
+297-    if [ -n "$SESSION_EXTRACTED" ]; then
+298-      echo "$SESSION_EXTRACTED" > "$SESSION_FILE"
+299-      log_detail "Extracted session ID: $SESSION_EXTRACTED"
+300-    fi
+--
+304-  log "Exit code: $EXIT_CODE"
+305-  
+306-  # Enhanced logging - scan for important events
+307-  log_detail "Scanning logs for progress indicators..."
+308-  grep -n -i "chapter\|laxmikanth\|appended\|question\|stuck\|clarif" "$LOG_FILE" | tail -30 >> "$PROGRESS_LOG" 2>&1
+309:  grep -n -A 5 -B 5 -i "question tool" "$LOG_FILE" >> "$QUESTION_LOG" 2>&1
+310-> build · iceman-contributor-free
+311-[0m$ [0mpdftotext -l 30 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - | grep -n -A 80 "CONTENTS\|Table of Contents" | head -120
+312-(no output)
+313-> build · iceman-contributor-free
+314-[0m$ [0mgrep -n "CHAPTER 55\|Union Territories" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -2

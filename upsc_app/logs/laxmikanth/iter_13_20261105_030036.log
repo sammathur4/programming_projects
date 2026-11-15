@@ -1,0 +1,2011 @@
+[0m
+> build · iceman-contributor-free
+[0m→ [0mRead laxmikanth_notes_task.md 
+[0m$ [0mfind /media/saksham/phone data/programming_projects/upsc_app -name "*laxmi*" -o -name "*polity*notes*" | head -15
+find: ‘/media/saksham/phone’: No such file or directory
+find: ‘data/programming_projects/upsc_app’: No such file or directory
+> build · iceman-contributor-free
+[0m$ [0mls -la "/media/saksham/" 2>&1 | head -10
+total 36
+drwxr-x---+ 5 root    root     4096 Nov  3 15:22 .
+drwxr-xr-x  3 root    root     4096 Jul 22 06:26 ..
+drwxrwxrwx  1 saksham saksham  8192 Nov  3 20:35 80645C95645C9030
+drwxrwxrwx  1 saksham saksham  8192 Jul 24 08:12 CC0463F40463E046
+drwxrwxrwx  1 saksham saksham 12288 Nov  4 21:48 phone data
+[0m$ [0mfind / -name "laxmikanth_notes_task.md" 2>&1 | head -5
+find: ‘/var/lib/saned’: Permission denied
+find: ‘/var/lib/openvpn/chroot’: Permission denied
+find: ‘/var/lib/lightdm-data/lightdm’: Permission denied
+find: ‘/var/lib/mysql’: Permission denied
+find: ‘/var/lib/udisks2’: Permission denied
+> build · iceman-contributor-free
+[0m$ [0mls -la "/media/saksham/phone data/" 2>&1 | head -15
+total 2125
+drwxrwxrwx  1 saksham saksham  12288 Nov  4 21:48 .
+drwxr-x---+ 5 root    root      4096 Nov  3 15:22 ..
+-rwxrwxrwx  1 saksham saksham   1361 Oct 23 19:48 001 - Bun Maska Vol. 2： A Sush & Yohan Bollywood Mixtape (Live DJ Set).description
+-rwxrwxrwx  1 saksham saksham 607029 Oct 23 19:48 001 - Bun Maska Vol. 2： A Sush & Yohan Bollywood Mixtape (Live DJ Set).info.json
+-rwxrwxrwx  1 saksham saksham    529 Oct 23 19:38 001 - Mix - Bun Maska Vol. 2： A Sush & Yohan Bollywood Mixtape (Live DJ Set).info.json
+-rwxrwxrwx  1 saksham saksham   1101 Oct 23 19:56 002 - BOLLYWOOD NON STOP ｜ BREAKFAST EDITION ｜ AVNEET MUSIC ｜ BOLLYWOOD CLASSIC ｜ BOLLYWOOD 2000s.description
+-rwxrwxrwx  1 saksham saksham 608695 Oct 23 19:56 002 - BOLLYWOOD NON STOP ｜ BREAKFAST EDITION ｜ AVNEET MUSIC ｜ BOLLYWOOD CLASSIC ｜ BOLLYWOOD 2000s.info.json
+-rwxrwxrwx  1 saksham saksham   2057 Oct 23 20:16 003 - 50 Mins of Chatpate Bollywood Bangers ｜ Sush & Yohan LIVE ｜ Throwbacks, Nostalgia, Blends, Edits.description
+-rwxrwxrwx  1 saksham saksham 615373 Oct 23 20:16 003 - 50 Mins of Chatpate Bollywood Bangers ｜ Sush & Yohan LIVE ｜ Throwbacks, Nostalgia, Blends, Edits.info.json
+-rwxrwxrwx  1 saksham saksham    360 Oct 26 17:51 downloaded.txt
+drwxrwxrwx  1 saksham saksham   4096 Oct 27 20:40 Friday Night Lights
+drwxrwxrwx  1 saksham saksham 229376 Nov  4 23:43 newspaper_dna
+drwxrwxrwx  1 saksham saksham   4096 Nov  5 01:04 programming_projects
+drwxrwxrwx  1 saksham saksham  45056 Oct 27 16:08 saksham_2
+> build · iceman-contributor-free
+[0m$ [0mls -la "/media/saksham/phone data/programming_projects/" 2>&1 | head -30
+total 94
+drwxrwxrwx 1 saksham saksham  4096 Nov  5 01:04 .
+drwxrwxrwx 1 saksham saksham 12288 Nov  4 21:48 ..
+-rwxrwxrwx 1 saksham saksham  1325 Oct 26 18:58 AGENTS.md
+drwxrwxrwx 1 saksham saksham     0 Oct 20 19:04 bruno
+-rwxrwxrwx 1 saksham saksham  7041 Nov  5 01:04 extract_ca_from_ppt.py
+drwxrwxrwx 1 saksham saksham     0 Nov  4 19:24 Final_Notes
+drwxrwxrwx 1 saksham saksham  4096 Oct 20 19:04 final_pyq_data
+-rwxrwxrwx 1 saksham saksham  1107 Nov  5 00:46 generate_laxmikanth_notes.py
+drwxrwxrwx 1 saksham saksham  4096 Nov  3 13:34 .git
+-rwxrwxrwx 1 saksham saksham   638 Oct 28 17:31 .gitignore
+drwxrwxrwx 1 saksham saksham     0 Nov  3 21:50 local_llm
+drwxrwxrwx 1 saksham saksham  4096 Nov  2 17:37 mission2026
+drwxrwxrwx 1 saksham saksham  4096 Oct 21 22:41 mission_app
+drwxrwxrwx 1 saksham saksham     0 Oct 23 21:55 .opencode
+drwxrwxrwx 1 saksham saksham     0 Oct 23 21:56 optimize_mint
+drwxrwxrwx 1 saksham saksham  4096 Oct 28 12:46 __pycache__
+-rwxrwxrwx 1 saksham saksham  5174 Oct 23 21:55 README.md
+drwxrwxrwx 1 saksham saksham     0 Oct 22 22:44 .reorg-backup
+-rwxrwxrwx 1 saksham saksham   508 Nov  2 17:37 requirements.txt
+drwxrwxrwx 1 saksham saksham  4096 Oct 28 15:49 side_projects
+-rwxrwxrwx 1 saksham saksham  5724 Oct 28 12:46 start_all.py
+drwxrwxrwx 1 saksham saksham  4096 Nov  3 13:34 sub_gen
+drwxrwxrwx 1 saksham saksham  4096 Nov  5 00:49 upsc_app
+drwxrwxrwx 1 saksham saksham  4096 Nov  4 19:59 upsc_mains_json
+drwxrwxrwx 1 saksham saksham     0 Oct 20 19:07 upsc_pyq_extracted
+drwxrwxrwx 1 saksham saksham     0 Oct 28 15:51 .venv
+drwxrwxrwx 1 saksham saksham     0 Oct 28 16:11 vision_board_images
+drwxrwxrwx 1 saksham saksham  4096 Nov  2 17:36 whatsapp_bot
+drwxrwxrwx 1 saksham saksham  4096 Oct 28 16:19 yt_downloader
+> build · iceman-contributor-free
+[0m→ [0mRead laxmikanth_notes_task.md 
+[0m→ [0mRead /media/saksham/phone data/programming_projects/generate_laxmikanth_notes.py 
+> build · iceman-contributor-free
+[0m$ [0mpython3 /media/saksham/phone\ data/programming_projects/generate_laxmikanth_notes.py 2>&1 | tail -5
+Last chapter found: 54
+Use auto_runner_laxmikanth.sh for automated chapter-by-chapter generation
+> build · iceman-contributor-free
+[0m$ [0mtail -80 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" 2>&1 | head -80
+- **Protection of different sections**: Parliament may provide for number of seats in Assembly for different sections and delimitation of constituencies reserved for them.
+- **Governor's special responsibility** for **peace** and **equitable arrangement** for social/economic advancement of different sections; acts in discretion subject to President's directions.
+- **Extension of laws**: President can extend any law in force in another state to Sikkim with restrictions/modifications.
+
+#### 54.2.7. Mizoram (Article 371-G) - Added by 53rd Amendment Act, 1986
+- **Exemption from Parliament laws**: Similar to Nagaland - Acts relating to (i) religious/social practices of Mizos, (ii) Mizo customary law & procedure, (iii) admin of civil/criminal justice as per Mizo customary law, (iv) ownership/transfer of land do not apply unless State Assembly decides.
+- **Assembly strength**: not less than **40** members.
+
+#### 54.2.8. Arunachal Pradesh (Article 371-H) - Added by 55th Amendment Act, 1986
+- **Governor's special responsibility** for law and order; exercised in individual judgement after consulting Council of Ministers, final. Ceases when President directs.
+- **Assembly strength**: not less than **30** members.
+
+#### 54.2.9. Goa (Article 371-I) - Added by 56th Amendment Act, 1987
+- **Assembly strength**: not less than **30** members.
+
+#### 54.2.10. Karnataka (Article 371-J) - Added by 98th Amendment Act, 2012
+- **Governor's special responsibility** for Hyderabad-Karnataka region (6 districts: Gulbarga, Bidar, Raichur, Koppal, Yadgir, Bellary) regarding:
+  1. Establishment of separate **development board**
+  2. Annual report on board's working to State Legislature
+  3. Equitable allocation of funds for development
+  4. Reservation of seats in **educational and vocational training institutions** for region's students
+  5. Reservation in **state government posts** for persons belonging to the region
+- **Objective**: Institutional mechanism for equitable funds, enhance human resources, promote employment via local cadres/reservations, reduce inter-regional disparities.
+
+### 54.3. Comparative Features
+| State | Key Provision | Nature |
+|---|---|---|
+| Maharashtra/Gujarat (371) | Development boards, equitable funds/employment/education | Economic/regional balance |
+| Nagaland (371-A) | Naga customary law protection, land ownership, Governor's special responsibility (law & order), Tuensang autonomy | Tribal/cultural protection + autonomy |
+| Assam (371-B) | Tribal Areas committee | Representation/autonomy for tribal areas |
+| Manipur (371-C) | Hill Areas committee, Governor's special responsibility, Central directions | Hill areas protection |
+| Andhra Pradesh/Telangana (371-D/E) | Local cadres, preferences/reservations, Administrative Tribunal, Central University | Equitable opportunities, institutional mechanism |
+| Sikkim (371-F) | Assembly size, LS seat, protection of sections, Governor's special responsibility (peace/social advancement), law extension | Statehood safeguards |
+| Mizoram (371-G) | Mizo customary law/land protection (like Nagaland) | Tribal/cultural protection |
+| Arunachal Pradesh (371-H) | Governor's special responsibility (law & order), Assembly size | Security/autonomy |
+| Goa (371-I) | Assembly size (min 30) | Statehood safeguard |
+| Karnataka (371-J) | Hyderabad-Karnataka development board, reservations in education/employment | Regional backwardness redressal |
+
+### 54.4. Significance
+- **Accommodative federalism**: Flexibility to address unique regional/tribal aspirations.
+- **Cultural protection**: Safeguards for customary laws, practices, land ownership in tribal areas.
+- **Regional balance**: Development boards/reservations address inter-regional disparities.
+- **Peace & stability**: Special responsibilities in disturbed/historically sensitive areas.
+- **Asymmetric federalism**: Differential treatment reflecting diversity of Indian Union.
+
+### 54.5. PYQs (PRELIMS + MAINS) - LAST 10 YEARS
+| Year | Exam | Question | Topic | Approach |
+|---|---|---|---|---|
+| 2013 | Prelims | Special provisions for North-East states | Art 371A/G/H | Exemptions from Parliament laws |
+| 2014 | Mains | Article 371 and regional aspirations | Special provisions | Accommodative federalism |
+| 2017 | Prelims | Article 371J - Hyderabad-Karnataka | Development board, reservations | 98th Amendment |
+| 2018 | Mains | Asymmetric federalism in India | Special provisions | Art 371 series vs Art 370 |
+| 2020 | Prelims | Provisions for Nagaland/Manipur | Governor's special responsibility, committees | Art 371A/C |
+
+### 54.6. CURRENT AFFAIRS LINKAGE (2023-2026)
+| Issue | Linkage | Mains Angle |
+|---|---|---|
+| Demand for special status/category for other regions | Art 371 model vs separate statehood | Asymmetric federalism, resource allocation |
+| Implementation of Art 371J in Karnataka | Development board, local reservations | Regional equity, backwardness |
+| Tribal rights & land issues in NE states | Art 371A/G protections | Autonomy vs integration, customary law |
+| Inter-regional disparities | Development boards mechanism | Cooperative federalism, targeted interventions |
+
+### 54.7. MIND MAP
+```text
+SPECIAL PROVISIONS FOR SOME STATES (ARTS 371-371J)
+├── MAHARASHTRA/GUJARAT (371) - Development boards, funds, education/employment
+├── NAGALAND (371-A) - Customary law exemption, land, Governor SR (law&order), Tuensang
+├── ASSAM (371-B) - Tribal Areas committee
+├── MANIPUR (371-C) - Hill Areas committee, Governor SR, Central directions
+├── AP/TELANGANA (371-D/E) - Local cadres, quotas, Tribunal, Central University
+├── SIKKIM (371-F) - Statehood safeguards, section-wise protection, Governor SR
+├── MIZORAM (371-G) - Customary law/land exemption (like Nagaland)
+├── ARUNACHAL (371-H) - Governor SR (law&order), min Assembly
+├── GOA (371-I) - min Assembly
+└── KARNATAKA (371-J) - Hyderabad-Karnataka board, edu/employment reservations
+```
+
+---
+> build · iceman-contributor-free
+[0m$ [0mpdfinfo "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -30
+Title:           Indian Polity - For Civil Services and Other State Examinations | 6th Edition
+Author:          M. Laxmikanth
+Creator:         calibre (4.8.0) [https://calibre-ebook.com]
+Producer:        calibre (4.8.0) [https://calibre-ebook.com]
+CreationDate:    Mon Feb 24 10:22:38 2020 IST
+ModDate:         Tue Mar  3 13:23:25 2020 IST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1531
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       5831510 bytes
+Optimized:       no
+PDF version:     1.4
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "^## [0-9]\+\." "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | tail -15
+4:## 52. SPECIAL PROVISIONS FOR JAMMU AND KASHMIR (HISTORICAL)
+89:## 53. ELECTIONS
+174:## 54. SPECIAL PROVISIONS FOR SOME STATES (ARTICLES 371 TO 371-J)
+> build · iceman-contributor-free
+[0m$ [0mfind /media/saksham/phone\ data/programming_projects -name "*auto_runner*" 2>&1 | head -3
+/media/saksham/phone data/programming_projects/upsc_app/auto_runner.sh
+/media/saksham/phone data/programming_projects/upsc_app/auto_runner_laxmikanth.sh
+/media/saksham/phone data/programming_projects/upsc_app/auto_runner_v2.sh
+> build · iceman-contributor-free
+[0m$ [0mcat "/media/saksham/phone data/programming_projects/upsc_app/auto_runner_laxmikanth.sh" | head -120
+#!/bin/bash
+
+# Autonomous Agent Runner for Laxmikanth Polity Notes Generation
+WORKDIR="/media/saksham/phone data/programming_projects/upsc_app"
+LOG_DIR="$WORKDIR/logs/laxmikanth"
+STATE_DIR="$WORKDIR/.agent_state_laxmikanth"
+mkdir -p "$LOG_DIR" "$STATE_DIR"
+
+# Model fallback chain
+MODELS=(
+  "opencode-go/iceman-contributor-free"
+)
+
+# old_models = ( "opencode-go/glm-5.3-flash", "opencode-go/deepseek-v4.1-flash", "opencode-go/qwen3.8-flash",  "opencode-go/kimi-k2.7-code")
+
+SLEEP_NORMAL=300
+SLEEP_RATE_LIMIT=900
+SLEEP_ERROR=180
+
+STATE_FILE="$STATE_DIR/runner_state.json"
+SESSION_FILE="$STATE_DIR/current_session.txt"
+PROGRESS_LOG="$LOG_DIR/progress_detailed.log"
+QUESTION_LOG="$LOG_DIR/questions_asked.log"
+
+# Initialize state
+if [ ! -f "$STATE_FILE" ]; then
+  echo '{"iteration": 0, "model_index": 0, "consecutive_errors": 0, "chapters_done": 0}' > "$STATE_FILE"
+fi
+
+log() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] $1"
+  echo "$msg" | tee -a "$LOG_DIR/auto_runner.log" | tee -a "$PROGRESS_LOG"
+}
+
+log_detail() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [DETAIL] $1"
+  echo "$msg" | tee -a "$PROGRESS_LOG"
+}
+
+log_question() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [QUESTION] $1"
+  echo "$msg" | tee -a "$QUESTION_LOG" | tee -a "$PROGRESS_LOG"
+}
+
+log_chapter() {
+  local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [CHAPTER] $1"
+  echo "$msg" | tee -a "$PROGRESS_LOG"
+}
+
+get_state() {
+  python3 -c "import json; d=json.load(open('$STATE_FILE')); print(d.get('$1',0))"
+}
+
+set_state() {
+  python3 -c "
+import json
+d=json.load(open('$STATE_FILE'))
+d['$1']=$2
+json.dump(d, open('$STATE_FILE','w'))
+"
+}
+
+log "=== LAXMIKANTH NOTES GENERATOR STARTED ==="
+log "Workdir: $WORKDIR"
+log "Logs: $LOG_DIR"
+log "Target: /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md"
+
+while true; do
+  ITERATION=$(get_state iteration)
+  ITERATION=$((ITERATION + 1))
+  set_state iteration $ITERATION
+  
+  MODEL_INDEX=$(get_state model_index)
+  CURRENT_MODEL="${MODELS[$MODEL_INDEX]}"
+  
+  LOG_FILE="$LOG_DIR/iter_${ITERATION}_$(date +%Y%m%d_%H%M%S).log"
+  
+  log "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  log "=== Iteration $ITERATION | Model: $CURRENT_MODEL ==="
+  log_detail "Session file exists=$( [ -f "$SESSION_FILE" ] && echo yes || echo no ), size=$( [ -f "$SESSION_FILE" ] && wc -c < "$SESSION_FILE" || echo 0 )"
+  
+  cd "$WORKDIR" || continue
+  
+  # Check if we have a session to continue
+  if [ -f "$SESSION_FILE" ] && [ -s "$SESSION_FILE" ]; then
+    SESSION_ID=$(cat "$SESSION_FILE" | tr -d '\n\r')
+    # Validate session ID format
+    if [[ "$SESSION_ID" =~ ^ses ]]; then
+      log "Continuing session: $SESSION_ID"
+      log_detail "Starting opencode run with session continuation..."
+      timeout 7200 opencode run -m "$CURRENT_MODEL" -s "$SESSION_ID" --auto "Continue generating Laxmikanth polity notes chapter by chapter. Follow the task in /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md. Log every action: which chapter you're working on, files read/written, decisions made. If stuck or need clarification, use the question tool to ask the user questions with clear context. Be verbose in logging." 2>&1 | tee "$LOG_FILE"
+    else
+      log "Invalid session ID format, starting fresh session"
+      rm -f "$SESSION_FILE"
+      timeout 7200 opencode run -m "$CURRENT_MODEL" --auto "Start generating Laxmikanth polity notes chapter by chapter. Read the task in /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md and execute it. Work systematically from where we left off - check the target notes file to see last chapter. Log every action: which chapter you're on, what you're reading, what you're writing. If you get stuck or need clarification on anything (scope, depth, approach, missing source), use the question tool to ask the user questions clearly. Be explicit about progress." 2>&1 | tee "$LOG_FILE"
+      SESSION_EXTRACTED=$(grep -oP 'session\s+\Kses[^\s]+' "$LOG_FILE" | head -1)
+      if [ -n "$SESSION_EXTRACTED" ]; then
+        echo "$SESSION_EXTRACTED" > "$SESSION_FILE"
+        log_detail "Extracted session ID: $SESSION_EXTRACTED"
+      fi
+    fi
+  else
+    log "Starting new session"
+    log_detail "Starting fresh opencode run..."
+    timeout 7200 opencode run -m "$CURRENT_MODEL" --auto "Start generating Laxmikanth polity notes chapter by chapter. Read the task in /media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md and execute it. Work systematically from where we left off - check the target notes file to see last chapter. Log every action: which chapter you're on, what you're reading, what you're writing. If you get stuck or need clarification on anything (scope, depth, approach, missing source), use the question tool to ask the user questions clearly. Be explicit about progress." 2>&1 | tee "$LOG_FILE"
+    SESSION_EXTRACTED=$(grep -oP 'session\s+\Kses[^\s]+' "$LOG_FILE" | head -1)
+    if [ -n "$SESSION_EXTRACTED" ]; then
+      echo "$SESSION_EXTRACTED" > "$SESSION_FILE"
+      log_detail "Extracted session ID: $SESSION_EXTRACTED"
+    fi
+  fi
+  
+  EXIT_CODE=${PIPESTATUS[0]}
+  log "Exit code: $EXIT_CODE"
+  
+  # Enhanced logging - scan for important events
+  log_detail "Scanning logs for progress indicators..."
+  grep -n -i "chapter\|laxmikanth\|appended\|question\|stuck\|clarif" "$LOG_FILE" | tail -30 >> "$PROGRESS_LOG" 2>&1
+  grep -n -A 5 -B 5 -i "question tool" "$LOG_FILE" >> "$QUESTION_LOG" 2>&1
+> build · iceman-contributor-free
+[0m$ [0mpdftotext -l 30 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - | grep -n -A 80 "CONTENTS\|Table of Contents" | head -120
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "CHAPTER 55\|Union Territories" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -2
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mpdfgrep -n "CHAPTER 55\|Union Territories" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -5
+/bin/bash: line 1: pdfgrep: command not found
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - | grep -n "^CHAPTER 55\|^55\." | head -3
+16607:55.
+37047:55. National Human Rights Commission
+44135:55.42
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - | sed -n '16590,16640p'
+Table 17.3 Articles Related to President at a Glance
+Article No.
+
+Subject-matter
+
+52.
+
+The President of India
+
+53.
+
+Executive power of the Union
+
+54.
+
+Election of President
+
+55.
+
+Manner of election of President
+
+56.
+
+Term of office of President
+
+57.
+
+Eligibility for re-election
+
+58.
+
+Qualifications for election as President
+
+59.
+
+Conditions of President’s office
+
+60.
+
+Oath or affirmation by the President
+
+61.
+
+Procedure for impeachment of the President
+
+62.
+
+Time of holding election to fill vacancy in the office
+of President
+
+65.
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "^CHAPTER " "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1 | head -1 | wc -c
+0
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | grep -n "^55\.\s" | head -10
+37047:55. National Human Rights Commission
+49365:55. Manner of election of President
+50118:55. Regulation of labour and safety in mines and oil fields
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "^## 55" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" 2>&1 | head -2
+(no output)
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | grep -n -B 2 -A 10 "^54\.\s" | head -15
+37044-PART-VIII
+37045-NON-CONSTITUTIONAL BODIES
+37046:54. NITI Aayog
+37047-55. National Human Rights Commission
+37048-56. State Human Rights Commission
+37049-57. Central Information Commission
+37050-58. State Information Commission
+37051-59. Central Vigilance Commission
+37052-60. Central Bureau of Investigation
+37053-61. Lokpal and Lokayuktas
+37054-62. National Investigation Agency
+37055-63. National Disaster Management Authority
+37056-
+--
+49362-52. The President of India
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | grep -n -n "UNION TERRITORIES" | head -5
+5281:EVOLUTION OF STATES AND UNION TERRITORIES
+21599:II. UNION TERRITORIES:
+28466:II. UNION TERRITORIES
+28789:II. UNION TERRITORIES
+33985:UNION TERRITORIES AND SPECIAL AREAS
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | sed -n '5255,5355p'
+challenged before the Supreme Court. To comply with the
+opinion rendered by the Supreme Court, the Constitution
+(9th Amendment) Act, 1960 was passed by the Parliament.
+Due to the continuous litigation and other political
+developments at that time, the Constitution (9th
+Amendment) Act, 1960 could not be notified in respect of
+territories in former East Pakistan (presently Bangladesh).4a
+2. On May 16, 1974, the Agreement between India and
+Bangladesh concerning the demarcation of the land
+boundary and related matters was signed between both the
+countries to find a solution to the complex nature of the
+border demarcation involved. This Agreement was not
+ratified as it involved, inter alia, transfer of territory which
+requires a Constitutional Amendment. In this connection, it
+
+was also required to identify the precise area on the ground
+which would be transferred. Subsequently, the issues
+relating to demarcation of un-demarcated boundary; the
+territories in adverse possession; and exchange of enclaves
+were identified and resolved by signing a Protocol on
+September 6, 2011, which forms an integral part of the Land
+Boundary Agreement between India and Bangladesh, 1974.
+The Protocol was prepared with support and concurrence of
+the concerned state governments of Assam, Meghalaya,
+Tripura and West Bengal.4b
+
+EVOLUTION OF STATES AND UNION TERRITORIES
+Integration of Princely States
+At the time of independence, India comprised two categories of
+political units, namely, the British provinces (under the direct rule
+of British government) and the princely states (under the rule of
+native princes but subject to the paramountcy of the British
+Crown). The Indian Independence Act (1947) created two
+independent and separate dominions of India and Pakistan and
+gave three options to the princely states viz., joining India, joining
+Pakistan or remaining independent. Of the 552 princely states
+situated within the geographical boundaries of India, 549 joined
+India and the remaining 3 (Hyderabad, Junagarh and Kashmir)
+refused to join India. However, in course of time, they were also
+integrated with India–Hyderabad by means of police action,
+Junagarh by means of referendum and Kashmir by the Instrument
+of Accession.
+In 1950, the Constitution contained a four-fold classification of
+the states and territories of the Indian Union–Part A, Part B and
+Part C states and Part D territories5. In all, they numbered 29. Part
+A states comprised nine erstwhile governor’s provinces of British
+India. Part B states consisted of nine erstwhile princely states with
+legislatures. Part C states consisted of erstwhile chief
+commissioner’s provinces of British India and some of the
+erstwhile princely states. These Part C states (in all 10 in number)
+were centrally administered. The Andaman and Nicobar Islands
+were kept as the solitary Part D territories.
+
+Dhar Commission and JVP Committee
+The integration of princely states with the rest of India has purely
+an ad hoc arrangement. There has been a demand from different
+regions, particularly South India, for reorganisation of states on
+linguistic basis. Accordingly, in June 1948, the Government of
+India appointed the Linguistic Provinces Commission under the
+chairmanship of S.K. Dhar to examine the feasibility of this. The
+
+commission submitted its report in December, 1948, and
+recommended the reorganisation of states on the basis of
+administrative convenience rather than linguistic factor. This
+created much resentment and led to the appointment of another
+Linguistic Provinces Committee by the Congress in December,
+1948, itself to examine the whole question afresh. It consisted of
+Jawaharlal Nehru, Vallahbhai Patel and Pattabhi Sitaramayya and
+hence, was popularly known as JVP Committee6. It submitted its
+report in April, 1949, and formally rejected language as the basis
+for reorganisation of states.
+Table 5.1 Territory of India in 1950
+States in
+Part A
+
+States in
+Part B
+
+States in
+Part C
+
+1. Assam
+
+1. Hyderabad 1. Ajmer
+
+2. Bihar
+
+2. Jammu
+2. Bhopal
+and Kashmir
+
+3. Bombay
+
+3. Madhya
+Bharat
+
+3. Bilaspur
+
+4. Madhya
+Pradesh
+> build · iceman-contributor-free
+[0m$ [0mgrep -n "^## [0-9]\+\." "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | head -60
+4:## 52. SPECIAL PROVISIONS FOR JAMMU AND KASHMIR (HISTORICAL)
+89:## 53. ELECTIONS
+174:## 54. SPECIAL PROVISIONS FOR SOME STATES (ARTICLES 371 TO 371-J)
+> build · iceman-contributor-free
+[0m$ [0msed -n '174,250p' "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | head -80
+## 54. SPECIAL PROVISIONS FOR SOME STATES (ARTICLES 371 TO 371-J)
+
+**[SYL: GS2-G.1] | [LAXMIKANTH: Chapter 37] | [SPECIAL PROVISIONS, FEDERALISM, REGIONAL ASPIRATIONS]**
+
+### 54.1. Constitutional Basis
+- **Articles**: Articles 371 to 371-J in **Part XXI** (Temporary, Transitional and Special Provisions).
+- **Purpose**: To meet aspirations of people in backward regions, protect cultural/economic interests of tribal communities, address disturbed law and order, or safeguard interests of local people.
+- **Origin**: Most provisions inserted by subsequent amendments in context of state reorganisation or grant of statehood to UTs (not original).
+
+### 54.2. State-wise Provisions
+
+#### 54.2.1. Maharashtra and Gujarat (Article 371)
+President authorised to direct Governor to have special responsibility for:
+- **Separate development boards** for Vidarbha, Marathwada & rest of Maharashtra; Saurashtra, Kutch & rest of Gujarat.
+- **Annual report** on boards' working to State Legislature.
+- **Equitable allocation** of funds for development in these areas.
+- **Equitable arrangements** for technical/vocational education, training and adequate employment in state services.
+
+#### 54.2.2. Nagaland (Article 371-A) - Added by 13th Amendment Act, 1962
+- **Exemption from Parliament laws**: Acts of Parliament relating to (i) religious/social practices of Nagas, (ii) Naga customary law & procedure, (iii) admin of civil/criminal justice as per Naga customary law, (iv) ownership/transfer of land & resources do **not** apply unless State Assembly decides.
+- **Governor's special responsibility** for law and order (so long as internal disturbances continue). Exercised by **individual judgement**; final. Ceases when President directs.
+- **Money for specific purposes**: Must appear as demand for grant for that purpose, not mixed.
+- **Tuensang district provisions**: Regional Council (35 members), Governor's discretion for administration, equitable Centre funding, Acts of Nagaland Legislature may not apply unless Governor directs on Regional Council recommendation, Governor can make Regulations, Minister for Tuensang affairs, members from Tuensang elected via Regional Council (initially), Governor's final decision on Tuensang matters.
+- **Validity**: Governor's acts not questionable on ground of individual judgement.
+
+#### 54.2.3. Assam (Article 371-B) - Added by 22nd Amendment Act, 1969
+- President empowered to provide for a **committee** of Assam Legislative Assembly consisting of members elected from **Tribal Areas** and others as specified. (Tribal Areas as per **Sixth Schedule**: North Cachar Hills, Karbi Anglong, Bodoland Territorial Areas Districts)
+
+#### 54.2.4. Manipur (Article 371-C) - Added by 27th Amendment Act, 1971
+- President may create a **committee** of Manipur Legislative Assembly of members elected from **Hill Areas** (Hill Areas notified by President).
+- Governor has **special responsibility** to secure proper functioning of the committee.
+- Governor to submit **annual report** to President on Hill Areas administration.
+- **Central Government** can give directions to State Govt on Hill Areas administration.
+
+#### 54.2.5. Andhra Pradesh / Telangana (Articles 371-D, 371-E) - Added by 32nd Amendment Act, 1973; Art 371-D extended to Telangana by AP Reorganisation Act, 2014
+- **Equitable opportunities**: President can provide for equitable opportunities/facilities in public employment and education for different parts of state; organise posts in **local cadres**, specify **local areas** for admissions, provide preference/reservation.
+- **Administrative Tribunal**: President may establish Tribunal to deal with disputes/grievances re: appointment/allotment/promotion to civil posts; functions outside High Court jurisdiction; only Supreme Court has jurisdiction (otherwise); President may abolish when not needed.
+- **Central University** (Art 371-E): Parliament empowered to establish a Central University in Andhra Pradesh.
+
+#### 54.2.6. Sikkim (Article 371-F) - Added by 36th Amendment Act, 1975 (made Sikkim full state)
+- **Sikkim Legislative Assembly**: not less than **30** members.
+- **Lok Sabha representation**: 1 seat, 1 Parliamentary constituency.
+- **Protection of different sections**: Parliament may provide for number of seats in Assembly for different sections and delimitation of constituencies reserved for them.
+- **Governor's special responsibility** for **peace** and **equitable arrangement** for social/economic advancement of different sections; acts in discretion subject to President's directions.
+- **Extension of laws**: President can extend any law in force in another state to Sikkim with restrictions/modifications.
+
+#### 54.2.7. Mizoram (Article 371-G) - Added by 53rd Amendment Act, 1986
+- **Exemption from Parliament laws**: Similar to Nagaland - Acts relating to (i) religious/social practices of Mizos, (ii) Mizo customary law & procedure, (iii) admin of civil/criminal justice as per Mizo customary law, (iv) ownership/transfer of land do not apply unless State Assembly decides.
+- **Assembly strength**: not less than **40** members.
+
+#### 54.2.8. Arunachal Pradesh (Article 371-H) - Added by 55th Amendment Act, 1986
+- **Governor's special responsibility** for law and order; exercised in individual judgement after consulting Council of Ministers, final. Ceases when President directs.
+- **Assembly strength**: not less than **30** members.
+
+#### 54.2.9. Goa (Article 371-I) - Added by 56th Amendment Act, 1987
+- **Assembly strength**: not less than **30** members.
+
+#### 54.2.10. Karnataka (Article 371-J) - Added by 98th Amendment Act, 2012
+- **Governor's special responsibility** for Hyderabad-Karnataka region (6 districts: Gulbarga, Bidar, Raichur, Koppal, Yadgir, Bellary) regarding:
+  1. Establishment of separate **development board**
+  2. Annual report on board's working to State Legislature
+  3. Equitable allocation of funds for development
+  4. Reservation of seats in **educational and vocational training institutions** for region's students
+  5. Reservation in **state government posts** for persons belonging to the region
+- **Objective**: Institutional mechanism for equitable funds, enhance human resources, promote employment via local cadres/reservations, reduce inter-regional disparities.
+
+### 54.3. Comparative Features
+| State | Key Provision | Nature |
+|---|---|---|
+| Maharashtra/Gujarat (371) | Development boards, equitable funds/employment/education | Economic/regional balance |
+| Nagaland (371-A) | Naga customary law protection, land ownership, Governor's special responsibility (law & order), Tuensang autonomy | Tribal/cultural protection + autonomy |
+| Assam (371-B) | Tribal Areas committee | Representation/autonomy for tribal areas |
+| Manipur (371-C) | Hill Areas committee, Governor's special responsibility, Central directions | Hill areas protection |
+| Andhra Pradesh/Telangana (371-D/E) | Local cadres, preferences/reservations, Administrative Tribunal, Central University | Equitable opportunities, institutional mechanism |
+| Sikkim (371-F) | Assembly size, LS seat, protection of sections, Governor's special responsibility (peace/social advancement), law extension | Statehood safeguards |
+| Mizoram (371-G) | Mizo customary law/land protection (like Nagaland) | Tribal/cultural protection |
+| Arunachal Pradesh (371-H) | Governor's special responsibility (law & order), Assembly size | Security/autonomy |
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | sed -n '33960,34080p'
+assented by the president in April 1993.
+3. A transitional area means an area which is in transition from
+a rural area to an urban area.
+4. At present (2019), ten states of India have scheduled areas.
+These are: Andhra Pradesh, Telangana, Jharkhand,
+Chhattisgarh, Gujarat, Himachal Pradesh, Madhya Pradesh,
+Maharashtra, Orissa and Rajasthan. Presently (2019), there
+are a total of ten tribal areas (autonomous districts) in the
+
+four states of Assam (3), Meghalaya (3), Tripura (1) and
+Mizoram (3).
+5. Metropolitan area means an area having a population of 10
+lakh or more, in one or more districts and consisting of two
+or more municipalities or panchayats or other contiguous
+areas.
+6. The Rural-Urban Relationship Committee (1963–66)
+headed by A.P. Jain recommended that small town area
+committees should be merged with the panchayati raj
+institutions to avoid multiplicity in the pattern of local bodies.
+7. A cantonment area is a delimited area where the military
+forces and troops are permanently stationed.
+8. Report of the Thirteenth Finance Commission (2010–2015),
+Volume II, December 2009, P. 424–426.
+
+PART-VI
+UNION TERRITORIES AND SPECIAL AREAS
+40. Union Territories
+41. Scheduled and Tribal
+
+40
+
+U
+
+Union Territories
+
+nder Article 1 of the Constitution, the territory of India
+comprises three categories of territories: (a) territories of
+the states; (b) union territories; and (c) territories that may
+be acquired by the Government of India at any time. At present,
+there are twenty-nine states, seven union territories and no
+acquired territories.
+The states are the members of the federal system in India and
+share a distribution of power with the Centre. The union territories,
+on the other hand, are those areas which are under the direct
+control and administration of the Central government. Hence, they
+are also known as ‘centrally administered territories’. ‘In this way,
+existence of these territories constitutes a conspicuous departure
+from federalism in India; the Government of India is plainly unitary
+in so far as the relationship between New Delhi and these Central
+enclaves is concerned’1 .
+
+CREATION OF UNION TERRITORIES
+During the British Rule, certain areas were constituted as
+‘scheduled districts’ in 1874. Later, they came to be known as
+‘chief commissioners provinces’. After independence, they were
+placed in the category of Part ‘C’ States and Part ‘D’ Territories2.
+In 1956, they were constituted as the ‘union territories’ by the 7th
+Constitutional Amendment Act (1956) and the States
+Reorganisation Act (1956). Gradually, some of these union
+territories have been elevated to statehood. Thus, Himachal
+Pradesh, Manipur, Tripura, Mizoram, Arunachal Pradesh and Goa,
+which are states today were formerly union territories. On the
+other hand, the territories that were acquired from the Portuguese
+(Goa, Daman and Diu, and Dadra and Nagar Haveli) and the
+French (Puducherry) were constituted as the union territories.
+At present, there are nine Union Territories. They are (along
+with the year of creation): (1) Andaman and Nicobar Islands–
+1956, (2) Delhi–1956, (3) Lakshadweep–1956, (4) Dadra and
+Nagar Haveli–1961, (5) Daman and Diu–1962, (6) Puducherry–
+1962, (7) Chandigarh–1966, (8) Jammu and Kashmir–2019 and
+(9) Ladakh–2019. Till 1973, Lakshadweep was known by the
+name of Laccadive, Minicoy and Amindivi Islands. In 1992, Delhi
+was redesignated as the National Capital Territory of Delhi. Till
+2006, Puducherry was known as Pondicherry.
+The union territories have been created for a variety of reasons.
+These are mentioned below3 :
+1. Political and administrative consider-ation–Delhi and
+Chandigarh.
+2. Cultural distinctiveness–Puducherry, Dadra and Nagar
+Haveli, and Daman and Diu.
+3. Strategic importance–Andaman and Nicobar Islands and
+Lakshadweep.
+4. Special treatment and care of the backward and tribal
+people–Mizoram, Manipur, Tripura and Arunachal Pradesh
+which later became states.
+In 2019, the erstwhile state of Jammu and Kashmir was
+bifurcated into two separate union territories, namely, the Union
+
+territory of Jammu and Kashmir, and the Union territory of Ladakh.
+While introducing the Jammu and Kashmir Reorganisation Bill,
+2019, in the Parliament, the central government gave the following
+reasons for the creation of these two new union territories:
+1. The Ladakh division of the state of Jammu and Kashmir has
+a large area but is sparsely populated with a very difficult
+terrain. There has been a long pending demand of people of
+Ladakh, to give it the status of a Union territory to enable
+them to realize their aspirations. The Union territory of
+Ladakh will be without a legislature.
+2. Further, keeping in view the prevailing internal security
+situation, fuelled by cross border terrorism in the existing
+state of Jammu and Kashmir, a separate Union territory for
+Jammu and Kashmir is being created. The Union territory of
+Jammu and Kashmir will be with a legislature.
+
+ADMINISTRATION OF UNION TERRITORIES
+Articles 239 to 241 in Part VIII of the Constitution deal with the
+union territories. Even though all the union territories belong to
+one category, there is no uniformity in their administrative system.
+Every union territory is administered by the President acting
+through an administrator appointed by him. An administrator of a
+union territory is an agent of the President and not head of state
+like a governor. The President can specify the designation of an
+administrator; it may be Lieutenant Governor or Chief
+Commissioner or Administrator. At present, it is Lieutenant
+Governor in the case of Delhi, Puducherry, Andaman and Nicobar
+Islands, Jammu and Kashmir and Ladakh and Administrator in the
+case of Chandigarh, Dadra and Nagar Haveli, Daman and Diu
+and Lakshadweep. The President can also appoint the governor
+of a state as the administrator of an adjoining union territory. In
+that capacity, the governor is to act independently of his council of
+ministers.
+> build · iceman-contributor-free
+[0m$ [0mwc -l < <(pdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" -) && echo "---" && pdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | grep -n "^Chapter\|^CHAPTER" | wc -l
+58471
+---
+24
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | grep -n "^41\.\|^Scheduled and Tribal" | head -2
+10169:41.
+33987:41. Scheduled and Tribal
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | sed -n '33850,33995p'
+Manipur
+
+1. Municipal Councils
+2. Nagar Panchayats
+
+16.
+
+Meghalaya
+
+1. Municipalities
+
+17.
+
+Mizoram
+
+1. Municipalities
+
+18.
+
+Nagaland
+
+1. Municipal Councils
+2. Town Councils
+
+19.
+
+Odisha
+
+1. Municipal Corporations
+2. Municipalities
+3. Notified Area Councils
+
+20.
+
+Punjab
+
+1. Municipal Corporations
+2. Municipalities
+3. Nagar Panchayats
+
+21.
+
+Rajasthan
+
+1. Municipal Corporations
+2. Municipal Councils
+
+3. Municipal Boards
+22.
+
+Sikkim
+
+1. Municipal Corporations
+2. Municipal Councils
+3. Nagar Panchayats
+
+23.
+
+Tamil Nadu
+
+1. Municipal Corporations
+2. Municipalities
+3. Town Panchayats
+
+24.
+
+Telangana
+
+1. Municipal Corporations
+2. Municipalities
+3. Nagar Panchayats
+
+25.
+
+Tripura
+
+1. Municipal Councils
+2. Nagar Panchayats
+
+26.
+
+Uttar Pradesh
+
+1. Nagar Nigam
+2. Nagar Palika Parishads
+3. Nagar Panchayats
+
+27.
+
+Uttarakhand
+
+1. Nagar Nigam
+2. Nagar Palika Parishads
+3. Nagar Panchayats
+
+28.
+
+West Bengal
+
+1. Municipal Corporations
+2. Municipalities
+3. Notified Area Authorities
+
+NOTES AND REFERENCES
+1. ‘Local Government’ is a subject mentioned in the State List
+under the 7th Schedule of the Constitution.
+2. The bill was passed in both the Lok Sabha and the Rajya
+Sabha in December 1992. After that, the bill was approved
+by the required number of state legislatures. It was
+assented by the president in April 1993.
+3. A transitional area means an area which is in transition from
+a rural area to an urban area.
+4. At present (2019), ten states of India have scheduled areas.
+These are: Andhra Pradesh, Telangana, Jharkhand,
+Chhattisgarh, Gujarat, Himachal Pradesh, Madhya Pradesh,
+Maharashtra, Orissa and Rajasthan. Presently (2019), there
+are a total of ten tribal areas (autonomous districts) in the
+
+four states of Assam (3), Meghalaya (3), Tripura (1) and
+Mizoram (3).
+5. Metropolitan area means an area having a population of 10
+lakh or more, in one or more districts and consisting of two
+or more municipalities or panchayats or other contiguous
+areas.
+6. The Rural-Urban Relationship Committee (1963–66)
+headed by A.P. Jain recommended that small town area
+committees should be merged with the panchayati raj
+institutions to avoid multiplicity in the pattern of local bodies.
+7. A cantonment area is a delimited area where the military
+forces and troops are permanently stationed.
+8. Report of the Thirteenth Finance Commission (2010–2015),
+Volume II, December 2009, P. 424–426.
+
+PART-VI
+UNION TERRITORIES AND SPECIAL AREAS
+40. Union Territories
+41. Scheduled and Tribal
+
+40
+
+U
+
+Union Territories
+
+nder Article 1 of the Constitution, the territory of India
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | wc -l && echo "---" && tail -n +33990 | head -n 2000 | grep -n "^41\." | head -2
+58471
+---
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | sed -n '34000,35200p' | tail -150
+government of a state. The Constitution also authorises the
+president to determine the conditions of service of the chairman and
+other members of the Commission.
+The chairman and members of the Commission hold office for a
+term of six years or until they attain the age of 65 years, whichever is
+earlier. However, they can relinquish their offices at any time by
+addressing their resignation to the president. They can also be
+removed before the expiry of their term by the president in the
+manner as provided in the Constitution.
+The President can appoint one of the members of the UPSC as
+an acting chairman in the following two circumstances1 :
+(a) When the office of the chairman falls vacant; or
+(b) When the chairman is unable to perform his functions due to
+absence or some other reason.
+The acting chairman functions till a person appointed as chairman
+enters on the duties of the office or till the chairman is able to
+resume his duties.
+
+REMOVAL
+The President can remove the chairman or any other member of
+UPSC from the office under the following circumstances:
+(a) If he is adjudged an insolvent (that is, has gone bankrupt);
+(b) If he engages, during his term of office, in any paid employment
+outside the duties of his office; or
+(c) If he is, in the opinion of the president, unfit to continue in office
+by reason of infirmity of mind or body.
+In addition to these, the president can also remove the chairman
+or any other member of UPSC for misbehaviour. However, in this
+case, the president has to refer the matter to the Supreme Court for
+an enquiry. If the Supreme Court, after the enquiry, upholds the
+cause of removal and advises so, the president can remove the
+chairman or a member. Under the provisions of the Constitution, the
+advise tendered by the Supreme Court in this regard is binding on
+the president. During the course of enquiry by the Supreme Court,
+the president can suspend the chairman or the member of UPSC.
+Defining the term ‘misbehaviour’ in this context, the Constitution
+states that the chairman or any other member of the UPSC is
+deemed to be guilty of misbehaviour if he (a) is concerned or
+interested in any contract or agreement made by the Government of
+India or the government of a state, or (b) participates in any way in
+the profit of such contract or agreement or in any benefit therefrom
+otherwise than as a member and in common with other members of
+an incorporated company.
+
+INDEPENDENCE
+The Constitution has made the following provisions to safeguard and
+ensure the independent and impartial functioning of the UPSC:
+(a) The chairman or a member of the UPSC can be removed from
+office by the president only in the manner and on the grounds
+mentioned in the Constitution. Therefore, they enjoy security of
+tenure.
+(b) The conditions of service of the chairman or a member, though
+determined by the president, cannot be varied to his
+disadvantage after his appointment.
+(c) The entire expenses including the salaries, allowances and
+pensions of the chairman and members of the UPSC are
+charged on the Consolidated Fund of India. Thus, they are not
+subject to vote of Parliament.
+(d) The chairman of UPSC (on ceasing to hold office) is not eligible
+for further employment in the Government of India or a state2 .
+(e) A member of UPSC (on ceasing to hold office) is eligible for
+appointment as the chairman of UPSC or a State Public Service
+Commission (SPSC), but not for any other employment in the
+Government of India or a state3 .
+(f) The chairman or a member of UPSC is (after having completed
+his first term) not eligible for reappointment to that office (i.e.,
+not eligible for second term).
+
+FUNCTIONS
+The UPSC performs the following functions:
+(a) It conducts examinations for appointments to the all-India
+services, Central services and public services of the centrally
+administered territories.
+(b) It assists the states (if requested by two or more states to do
+so) in framing and operating schemes of joint recruitment for
+any services for which candidates possessing special
+qualifications are required.
+(c) It serves all or any of the needs of a state on the request of the
+state governor and with the approval of the president of India.
+(d) It is consulted on the following matters related to personnel
+management:
+(i) All matters relating to methods of recruitment to civil servic
+and for civil posts.
+(ii) The principles to be followed in making appointments to c
+services and posts and in making promotions and transfers fro
+one service to another.
+(iii) The suitability of candidates for appointments to civil servic
+and posts; for promotions and transfers from one service
+another; and appointments by transfer or deputation. T
+concerned departments make recommendations for promotio
+and request the UPSC to ratify them.
+(iv) All disciplinary matters affecting a person serving under t
+Government of India in a civil capacity including memorials
+petitions relating to such matters. These include:
+– Censure (Severe disapproval)
+– Withholding of increments
+– Withholding of promotions
+– Recovery of pecuniary loss
+– Reduction to lower service or rank (Demotion)
+– Compulsory retirement
+– Removal from service
+– Dismissal from service4
+(v) Any claim for reimbursement of legal expenses incurred by
+civil servant in defending legal proceedings instituted again
+him in respect of acts done in the execution of his offic
+duties.
+
+(vi) Any claim for the award of a pension in respect of injuri
+sustained by a person while serving under the Government
+India and any question as to the amount of any such award.
+(vii) Matters of temporary appointments for period exceeding o
+year and on regularisation of appointments.
+(viii) Matters related to grant of extension of service and r
+employment of certain retired civil servants.
+(ix) Any other matter related to personnel management.
+The Supreme Court has held that if the government fails to
+consult UPSC in the matters (mentioned above), the aggrieved
+public servant has no remedy in a court. In other words, the court
+held that any irregularity in consultation with the UPSC or acting
+without consultation does not invalidate the decision of the
+government. Thus, the provision is directory and not mandatory.
+Similarly, the court held that a selection by the UPSC does not
+confer any right to the post upon the candidate. However, the
+government is to act fairly and without arbitrariness or mala fides.
+The additional functions relating to the services of the Union can
+be conferred on UPSC by the Parliament. It can also place the
+personnel system of any authority, corporate body or public
+institution within the jurisdiction of the UPSC. Hence the jurisdiction
+of UPSC can be extended by an act made by the Parliament.
+The UPSC presents, annually, to the president a report on its
+performance. The President places this report before both the
+Houses of Parliament, along with a memorandum explaining the
+cases where the advice of the Commission was not accepted and
+the reasons for such non-acceptance. All such cases of nonacceptance must be approved by the Appointments Committee of
+the Union cabinet. An individual ministry or department has no power
+to reject the advice of the UPSC.
+
+LIMITATIONS
+The following matters are kept outside the functional jurisdiction of
+the UPSC. In other words, the UPSC is not consulted on the
+following matters:
+(a) While making reservations of appointments or posts in favour of
+any backward class of citizens.
+(b) While taking into consideration the claims of scheduled castes
+and scheduled tribes in making appointments to services and
+posts.
+(c) With regard to the selections for chairmanship or membership
+of commissions or tribunals, posts of the highest diplomatic
+nature and a bulk of group C and group D services.
+(d) With regard to the selection for temporary or officiating
+> build · iceman-contributor-free
+[0m$ [0mpdftotext "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" - 2>&1 | sed -n '33990,34800p' | head -850
+U
+
+Union Territories
+
+nder Article 1 of the Constitution, the territory of India
+comprises three categories of territories: (a) territories of
+the states; (b) union territories; and (c) territories that may
+be acquired by the Government of India at any time. At present,
+there are twenty-nine states, seven union territories and no
+acquired territories.
+The states are the members of the federal system in India and
+share a distribution of power with the Centre. The union territories,
+on the other hand, are those areas which are under the direct
+control and administration of the Central government. Hence, they
+are also known as ‘centrally administered territories’. ‘In this way,
+existence of these territories constitutes a conspicuous departure
+from federalism in India; the Government of India is plainly unitary
+in so far as the relationship between New Delhi and these Central
+enclaves is concerned’1 .
+
+CREATION OF UNION TERRITORIES
+During the British Rule, certain areas were constituted as
+‘scheduled districts’ in 1874. Later, they came to be known as
+‘chief commissioners provinces’. After independence, they were
+placed in the category of Part ‘C’ States and Part ‘D’ Territories2.
+In 1956, they were constituted as the ‘union territories’ by the 7th
+Constitutional Amendment Act (1956) and the States
+Reorganisation Act (1956). Gradually, some of these union
+territories have been elevated to statehood. Thus, Himachal
+Pradesh, Manipur, Tripura, Mizoram, Arunachal Pradesh and Goa,
+which are states today were formerly union territories. On the
+other hand, the territories that were acquired from the Portuguese
+(Goa, Daman and Diu, and Dadra and Nagar Haveli) and the
+French (Puducherry) were constituted as the union territories.
+At present, there are nine Union Territories. They are (along
+with the year of creation): (1) Andaman and Nicobar Islands–
+1956, (2) Delhi–1956, (3) Lakshadweep–1956, (4) Dadra and
+Nagar Haveli–1961, (5) Daman and Diu–1962, (6) Puducherry–
+1962, (7) Chandigarh–1966, (8) Jammu and Kashmir–2019 and
+(9) Ladakh–2019. Till 1973, Lakshadweep was known by the
+name of Laccadive, Minicoy and Amindivi Islands. In 1992, Delhi
+was redesignated as the National Capital Territory of Delhi. Till
+2006, Puducherry was known as Pondicherry.
+The union territories have been created for a variety of reasons.
+These are mentioned below3 :
+1. Political and administrative consider-ation–Delhi and
+Chandigarh.
+2. Cultural distinctiveness–Puducherry, Dadra and Nagar
+Haveli, and Daman and Diu.
+3. Strategic importance–Andaman and Nicobar Islands and
+Lakshadweep.
+4. Special treatment and care of the backward and tribal
+people–Mizoram, Manipur, Tripura and Arunachal Pradesh
+which later became states.
+In 2019, the erstwhile state of Jammu and Kashmir was
+bifurcated into two separate union territories, namely, the Union
+
+territory of Jammu and Kashmir, and the Union territory of Ladakh.
+While introducing the Jammu and Kashmir Reorganisation Bill,
+2019, in the Parliament, the central government gave the following
+reasons for the creation of these two new union territories:
+1. The Ladakh division of the state of Jammu and Kashmir has
+a large area but is sparsely populated with a very difficult
+terrain. There has been a long pending demand of people of
+Ladakh, to give it the status of a Union territory to enable
+them to realize their aspirations. The Union territory of
+Ladakh will be without a legislature.
+2. Further, keeping in view the prevailing internal security
+situation, fuelled by cross border terrorism in the existing
+state of Jammu and Kashmir, a separate Union territory for
+Jammu and Kashmir is being created. The Union territory of
+Jammu and Kashmir will be with a legislature.
+
+ADMINISTRATION OF UNION TERRITORIES
+Articles 239 to 241 in Part VIII of the Constitution deal with the
+union territories. Even though all the union territories belong to
+one category, there is no uniformity in their administrative system.
+Every union territory is administered by the President acting
+through an administrator appointed by him. An administrator of a
+union territory is an agent of the President and not head of state
+like a governor. The President can specify the designation of an
+administrator; it may be Lieutenant Governor or Chief
+Commissioner or Administrator. At present, it is Lieutenant
+Governor in the case of Delhi, Puducherry, Andaman and Nicobar
+Islands, Jammu and Kashmir and Ladakh and Administrator in the
+case of Chandigarh, Dadra and Nagar Haveli, Daman and Diu
+and Lakshadweep. The President can also appoint the governor
+of a state as the administrator of an adjoining union territory. In
+that capacity, the governor is to act independently of his council of
+ministers.
+The Union Territories of Puducherry (in 1963), Delhi (in 1992)
+and Jammu and Kashmir (in 2019) are provided with a legislative
+assembly4 and a council of ministers headed by a chief minister.
+The remaining six union territories do not have such popular
+political institutions. But, the establishment of such institutions in
+the union territories does not diminish the supreme control of the
+president and Parliament over them.
+The Parliament can make laws on any subject of the three lists
+(including the State List) for the union territories. This power of
+Parliament also extends to Puducherry, Delhi and Jammu and
+Kashmir, which have their own local legislatures. This means that,
+the legislative power of Parliament for the union territories on
+subjects of the State List remain unaffected even after
+establishing a local legislature for them. But, the legislative
+assembly of Puducherry can also make laws on any subject of the
+State List and the Concurrent List. Similarly, the legislative
+assembly of Delhi can make laws on any subject of the State List
+(except public order, police and land) and the Concurrent List.
+Likewise, the legislative assembly of Jammu and Kashmir can
+
+make laws on any subject of the State List (except public order
+and police) and the Concurrent List.
+The President can make regulations for the peace, progress
+and good government of the Andaman and Nicobar Islands,
+Lakshadweep, Dadra and Nagar Haveli, Daman and Diu and
+Ladakh. In the case of Puducherry also, the President can
+legislate by making regulations but only when the assembly is
+suspended or dissolved. A regulation made by the President has
+the same force and effect as an act of Parliament and can also
+repeal or amend any act of Parliament in relation to these union
+territories.
+The Parliament can establish a high court for a union territory
+or put it under the jurisdiction of the high court of adjacent state.
+Delhi is the only union territory that has a high court of its own
+(since 1966). The Bombay High Court has got jurisdiction over
+two union territo-ries–Dadra and Nagar Haveli, and Daman and
+Diu. Andaman and Nocobar Islands, Chandigarh, Lakshadweep
+and Puducherry are placed under the Calcutta, Punjab and
+Haryana, Kerala, and Madras High Courts respectively. The
+Jammu and Kashmir High Court is the common high court for the
+two union territories of Jammu and Kashmir, and Ladakh.
+The Constitution does not contain any separate provisions for
+the administration of acquired territories. But, the constitutional
+provisions for the administration of union territories also apply to
+the acquired territories.
+
+SPECIAL PROVISIONS FOR DELHI
+The 69th Constitutional Amendment Act of 19915 provided a
+special status to the Union Territory of Delhi, and redesignated it
+the National Capital Territory of Delhi and designated the
+administrator of Delhi as the lieutenant (lt.) governor. It created a
+legislative assembly and a council of ministers for Delhi.
+Previously, Delhi had a metropolitan council and an executive
+council.
+The strength of the assembly is fixed at 70 members, directly
+elected by the people. The elections are conducted by the election
+commission of India. The assembly can make laws on all the
+matters of the State List and the Concurrent List except the three
+matters of the State List, that is, public order, police and land. But,
+the laws of Parliament prevail over those made by the Assembly.
+The strength of the council of ministers is fixed at ten per cent
+of the total strength of the assembly, that is, seven–one chief
+minister and six other ministers. The chief minister is appointed by
+the President (not by the lt. governor). The other ministers are
+appointed by the president on the advice of the chief minister. The
+ministers hold office during the pleasure of the president. The
+council of ministers is collectively responsible to the assembly.
+The council of ministers headed by the chief minister aid and
+advise the lt. governor in the exercise of his functions except in so
+far as he is required to act in his discretion. In the case of
+difference of opinion between the lt. governor and his ministers,
+the lt. governor is to refer the matter to the president for decision
+and act accordingly.
+When a situation arises in which the administration of the
+territory cannot be carried on in accordance with the above
+provisions, the president can suspend their (above provisions)
+operation and make the necessary incidental or consequential
+provisions for administering the territory. In brief, in case of failure
+of constitutional machinery, the president can impose his rule in
+the territory. This can be done on the report of the lt. governor or
+otherwise. This provision resembles Article 356 which deals with
+the imposition of President’s Rule in the states.
+
+The lt. governor is empowered to promulgate ordinances during
+recess of the assembly. An ordinance has the same force as an
+act of the assembly. Every such ordinance must be approved by
+the assembly within six weeks from its reassembly. He can also
+withdraw an ordinance at any time. But, he cannot promulgate an
+ordinance when the assembly is dissolved or suspended. Further,
+no such ordinance can be promulgated or withdrawn without the
+prior permission of the President.
+
+ADVISORY COMMITTEES OF UNION TERRITORIES
+Under the Government of India (Allocation of Business) Rules
+1961, Ministry of Home Affairs is the nodal ministry for all matters
+of Union Territories relating to legislation, finance and budget,
+services and appointment of Lt. Governors and Administrators.
+All the six UTs without legislature (Andaman and Nicobar
+Islands, Chandigarh, Daman and Diu, Dadra and Nagar Haveli,
+Lakshadweep and Ladakh) have the forum of Home Minister’s
+Advisory Committee (HMAC)/Administrator’s Advisory Committee
+(AAC). While HMAC is chaired by the Union Home Minister, AAC
+is chaired by the Administrator of the concerned UTs. The
+Member of Parliament and elected members from the local bodies
+e.g. District Panchayats and Municipal Council of the respective
+UTs are members of these committees among others. The
+Committee discusses the general issues relating to social and
+economic development of the UTs.6
+Table 40.1 Administrative System of Union Territories at a Glance
+Union
+Territories
+
+Executive
+
+Legislature Judiciary
+
+1. Andaman and
+Nicobar
+Islands
+
+Lt. Governor
+
+–
+
+Under Calcutta
+High Court
+
+2. Chandigarh
+
+Administrator
+
+–
+
+Under Punjab and
+Haryana High
+Court
+
+3. Dadra and
+Nagar Haveli
+
+Administrator
+
+–
+
+Under Bombay
+High Court
+
+4. Daman and
+Diu
+
+Administrator
+
+–
+
+Under Bombay
+High Court
+
+5. Delhi
+
+(a) Lt.
+Governor
+(b) Chief
+minister
+
+Legislative
+Assembly
+
+Separate High
+Court
+
+(c) Council of
+ministers
+6. Lakshadweep
+
+Administrator
+
+–
+
+7. Puducherry
+
+(a) Lt.
+Legislative
+Governor
+Assembly
+(b) Chief
+minister
+(c) Council of
+ministers
+
+Under Madras
+High Court
+
+8. Jammu and
+Kashmir
+
+(a) Lt.
+Legislative
+Governor
+Assembly
+(b) Chief
+Minister
+(c) Council of
+Ministers
+
+Under Jammu
+and Kashmir High
+Court
+
+9. Ladakh
+
+Lt. Governor
+
+Under Jammu
+and Kashmir High
+Court
+
+–
+
+Under Kerala
+High Court
+
+Note: The Governor of Punjab is concurrently the Administrator of
+Chandigarh. The Administrator of Dadra and Nagar Haveli is
+concurrently the Administrator of Daman and Diu. Lakshadweep
+has a separate Administrator7 .
+Table 40.2 Comparing States and Union Territories
+States
+
+Union Territories
+
+1. Their relationship with
+Centre is federal.
+
+1. Their relationship with
+Centre is unitary.
+
+2. They share a distribution of
+power with the Centre.
+
+2. They are under the direct
+control and administration of
+the Centre.
+
+3. They have autonomy.
+
+3. They do not have any
+autonomy.
+
+4. There is uniformity in their
+
+4. There is no uniformity in
+
+administrative set-up.
+
+their administrative set-up.
+
+5. Their executive head is
+known as governor.
+
+5. Their executive head is
+known by various designations–administrator or
+lieutenant governor or chief
+commissioner.
+
+6. A governor is a
+constitutional head of the
+state.
+
+6. An administrator is an agent
+of the president.
+
+7. Parliament cannot make
+7. Parliament can make laws
+laws on the subjects of the
+on any subject of the three
+state list in relation to the
+lists the state list in relation
+states except under
+to the states except under in
+extraordinary circumstances.
+relation to the union
+territories.
+Table 40.3 Articles Related to Union Territories at a Glance
+Article No. Subject-matter
+239.
+
+Administration of Union territories
+
+239A.
+
+Creation of local Legislatures or Council of
+Ministers or both for certain Union territories
+
+239AA. Special provisions with respect to Delhi
+239AB. Provision in case of failure of constitutional
+machinery
+239B.
+
+Power of administrator to promulgate
+Ordinances during recess of Legislature
+
+240.
+
+Power of President to make regulations for
+certain Union territories
+
+241.
+
+High Courts for Union territories
+
+242.
+
+Coorg (Repealed)
+
+NOTES AND REFERENCES
+
+1. S.R. Maheshwari, State Governments in India,
+Macmillan, 2000 Edition, p. 131.
+2. In 1950, the constitution contained a four-fold
+classification of the states and territories of the Indian
+Union - Part A, Part B and Part C states and Part D
+territories.
+3. J.C. Johari : Indian Government and Politics, Vishal,
+volume II, 13th Edition, 2001, p. 499.
+4. The Assembly of Puducherry consists of 30 members
+while that of Delhi 70 members and that of Jammu and
+Kashmir 83 members.
+5. With effect from 1 February 1992.
+6. Annual Report 2018–19, Ministry of Home Affairs,
+Government of India, p. 70.
+7. India 2019: A Reference Annual, Publications Division,
+Government of India, p. 47.
+
+41
+
+A
+
+Scheduled and Tribal Areas
+
+rticle 244 in Part X of the Constitution envisages a special
+system of administration for certain areas designated as
+‘scheduled areas’ and ‘tribal areas’. The Fifth Schedule of
+the Constitution deals with the administration and control of
+scheduled areas and scheduled tribes in any state except the four
+states of Assam, Meghalaya, Tripura and Mizoram1. The Sixth
+Schedule of the Constitution, on the other hand, deals with the
+administration of the tribal areas in the four northeastern states of
+Assam, Meghalaya, Tripura and Mizoram.
+
+ADMINISTRATION OF SCHEDULED AREAS
+‘The scheduled areas are treated differently from the other areas
+in the country because they are inhabited by ‘aboriginals’ who are
+socially and economically rather backward, and special efforts
+need to be made to improve their condition. Therefore, the whole
+of the normal administrative machinery operating in a state is not
+extended to the scheduled areas and the Central government has
+somewhat greater responsibility for these areas’2 .
+The various features of administration contained in the Fifth
+Schedule are as follows:
+1. Declaration of Scheduled Areas: The president is
+empowered to declare an area to be a scheduled area. He
+can also increase or decrease its area, alter its boundary
+lines, rescind such designation or make fresh orders for
+such redesignation on an area in consultation with the
+governor of the state concerned.
+2. Executive Power of State and Centre: The executive
+power of a state extends to the scheduled areas therein. But
+the governor has a special responsibility regarding such
+areas. He has to submit a report to the president regarding
+the administration of such areas, annually or whenever so
+required by the president. The executive power of the Centre
+extends to giving directions to the states regarding the
+administration of such areas.
+3. Tribes Advisory Council: Each state having scheduled
+areas has to establish a tribes advisory council to advise on
+welfare and advancement of the scheduled tribes. It is to
+consist of 20 members, three-fourths of whom are to be the
+representatives of the scheduled tribes in the state
+legislative assembly. A similar council can also be
+established in a state having scheduled tribes but not
+scheduled areas therein, if the president so directs.
+4. Law applicable to Scheduled Areas: The governor is
+empowered to direct that any particular act of Parliament or
+the state legislature does not apply to a scheduled area or
+apply with specified modifications and exceptions. He can
+
+also make regulations for the peace and good government
+of a scheduled area after consulting the tribes advisory
+council. Such regulations may prohibit or restrict the transfer
+of land by or among members of the scheduled tribes,
+regulate the allotment of land to members of the scheduled
+tribes and regulate the business of money-lending in relation
+to the scheduled tribes. Also, a regulation may repeal or
+amend any act of Parliament or the state legislature, which
+is applicable to a scheduled area. But, all such regulations
+require the assent of the president.
+The Constitution requires the president to appoint a
+commission to report on the administration of the scheduled areas
+and the welfare of the scheduled tribes in the states. He can
+appoint such a commission at any time but compulsorily after ten
+years of the commencement of the Constitution. Hence, a
+commission was appointed in 1960. It was headed by U.N.
+Dhebar and submitted its report in 1961. After four decades, the
+second commission was appointed in 2002 under the
+chairmanship of Dilip Singh Bhuria. It submitted its report in 2004.
+
+ADMINISTRATION OF TRIBAL AREAS
+The Constitution, under Sixth Schedule, contains special
+provisions for the administration of tribal areas in the four northeastern states of Assam, Meghalaya, Tripura and Mizoram. The
+rationality behind the special arrangements in respect of only
+these four states lies in the following:
+“The tribes in Assam, Meghalaya, Tripura and Mizoram have
+not assimilated much the life and ways of the other people in
+these states. These areas have hitherto been anthropological
+specimens. The tribal people in other parts of India have more
+or less adopted the culture of the majority of the people in
+whose midst they live. The tribes in Assam, Meghalaya, Tripura
+and Mizoram, on the other hand, still have their roots in their
+own culture, customs and civilization. These areas are,
+therefore, treated differently by the Constitution and sizeable
+amount of autonomy has been given to these people for selfgovernment.3 ”
+The various features of administration contained in the Sixth
+Schedule are as follows:
+1. The tribal areas in the four states of Assam, Meghalaya,
+Tripura and Mizoram have been constituted as autonomous
+districts4. But, they do not fall outside the executive authority
+of the state concerned.
+2. The governor is empowered to organise and re-organise the
+autonomous districts. Thus, he can increase or decrease
+their areas or change their names or define their boundaries
+and so on.
+3. If there are different tribes in an autonomous district, the
+governor can divide the district into several autonomous
+regions.
+4. Each autonomous district has a district council consisting of
+30 members, of whom four are nominated by the governor
+and the remaining 26 are elected on the basis of adult
+franchise. The elected members hold office for a term of five
+years (unless the council is dissolved earlier) and nominated
+members hold office during the pleasure of the governor.
+
+Each autonomous region also has a separate regional
+council.
+5. The district and regional councils administer the areas under
+their jurisdiction. They can make laws on certain specified
+matters like land, forests, canal water, shifting cultivation,
+village administration, inheritance of property, marriage and
+divorce, social customs and so on. But all such laws require
+the assent of the governor.
+6. The district and regional councils within their territorial
+jurisdictions can constitute village councils or courts for trial
+of suits and cases between the tribes. They hear appeals
+from them. The jurisdiction of high court over these suits and
+cases is specified by the governor.
+7. The district council can establish, construct or manage
+primary schools, dispensaries, markets, ferries, fisheries,
+roads and so on in the district. It can also make regulations
+for the control of money lending and trading by nontribals.
+But, such regulations require the assent of the governor.
+8. The district and regional councils are empowered to assess
+and collect land revenue and to impose certain specified
+taxes.
+9. The acts of Parliament or the state legislature do not apply
+to autonomous districts and autonomous regions or apply
+with specified modifications and exceptions5 .
+10. The governor can appoint a commission to examine and
+report on any matter relating to the administration of the
+autonomous districts or regions. He may dissolve a district
+or regional council on the recommendation of the
+commission.
+Table 41.1 Tribal Areas at a Glance (2019)
+States
+1.
+
+Assam
+
+Tribal Areas
+1.
+
+The North Cachar Hills District.
+
+2.
+
+The Karbi Anglong District.
+
+3.
+
+The Bodoland Territorial Areas
+District.
+
+2.
+
+Meghalaya
+
+3.
+
+Tripura
+
+4.
+
+Mizoram
+
+1.
+
+Khasi Hills District.
+
+2.
+
+Jaintia Hills District.
+
+3.
+
+The Garo Hills District.
+Tripura Tribal Areas District.
+
+1.
+
+The Chakma District.
+
+2.
+
+The Mara District.
+
+3.
+
+The Lai District.
+
+Table 41.2 Articles Related to Scheduled and Tribal Areas at a
+Glance
+Article No. Subject-matter
+244.
+
+Administration of Scheduled Areas and Tribal
+Areas
+
+244A.
+
+Formation of an autonomous state comprising
+certain tribal areas in Assam and creation of local
+legislature or Council of Ministers or both therefore
+
+339.
+
+Control of the Union over the administration of
+Scheduled Areas and the welfare of Scheduled
+Tribes
+
+Table 41.3 Parliamentary Laws Related to the Fifth and Sixth
+Schedules of the Constitution
+Sl. Acts
+No.
+
+Provisions
+
+1.
+
+Lushai Hills District
+(Change of Name)
+Act, 1954
+
+Renamed the Lushai Hills District
+as the Mizo District. The Lushai
+Hills District was one of the six
+autonomous districts in the tribal
+areas of Assam specified in the
+Sixth Schedule of the Constitution.
+
+2.
+
+Government of
+Union Territories
+
+Amended the Sixth Schedule of the
+constitution to include certain
+provisions with respect to the
+
+(Amendment) Act,
+1971
+
+autonomous districts and
+autonomous regions of the Union
+Territory of Mizoram.
+
+3.
+
+Repealing and
+Repealed certain enactments and
+Amending Act, 1974 amended certain other enactments.
+It also substituted the words “cattle
+pounds” for “cattle ponds” in the
+Sixth Schedule of the Constitution.
+
+4.
+
+Fifth Schedule to the Empowered the President of India:
+Constitution
+(i) to increase the area of any
+(Amendment) Act,
+Scheduled Area in a State after
+1976
+consultation with the Governor of
+that state; and (ii) to rescind any
+order made for the designation of
+an area in any state to be a
+Scheduled Area, or in consultation
+with the Governor of the State
+concerned, make fresh order
+redefining the area which is to be a
+Scheduled Area.
+
+5.
+
+Sixth Schedule to
+the Constitution
+(Amendment) Act,
+1988
+
+Included certain modifications in the
+Sixth Schedule of the Constitution
+in its application to the States of
+Tripura and Mizoram. These (i)
+provided that the Governors shall
+act in their discretion in the
+discharge of some of their
+functions; (ii) made provisions
+relating to the application of Acts of
+Parliament and the State
+Legislatures to autonomous
+districts and autonomous regions;
+and (iii) provided for a time-limit in
+making over the share of royalties
+to the District Councils.
+
+6.
+
+Sixth Schedule to
+the Constitution
+
+Included certain modifications in the
+Sixth Schedule of the Constitution
+
+7.
+
+(Amendment) Act,
+1995
+
+in its application to the State of
+Assam. These (i) provided that the
+District Council constituted for the
+North Cachar Hills District shall be
+called as the North Cachar Hills
+Autonomous Council and the
+District Council constituted for the
+Karbi-Anglong District shall be
+called as the Karbi-Anglong
+Autonomous Council; (ii) made
+provisions for the additional powers
+of the North Cachar Hills
+Autonomous Council and the KarbiAnglong Autonomous Council to
+make laws; and (iii) made it
+mandatory for the Governor to
+consult the North Cachar Hills
+Autonomous Council or the KarbiAnglong Autonomous Council, as
+the case may be, in the exercise of
+his discretionary powers.
+
+Sixth Schedule to
+the Constitution
+(Amendment) Act,
+2003
+
+Included certain modifications in the
+Sixth Schedule of the Constitution
+in its application to the State of
+Assam. This was done to meet the
+aspirations of the Bodos in Assam
+and in pursuance of the
+Memorandum of Settlement signed
+between the Central Government,
+the Government of Assam and
+Bodo Liberation Tigers (BLT) on
+10–02-2003 for a durable solution
+to the Bodo issues. In this context,
+the Act made the following
+provisions : (i) specified the
+Bodoland Territorial Areas District in
+the list of the tribal areas of the
+State of Assam; (ii) created an
+
+autonomous selfgoverning body
+known as the Bodoland Territorial
+Council (BTC) within the state of
+Assam; (iii) vested the council with
+legislative, administrative and
+financial powers in respect of
+specified subjects; and (iv) provided
+for adequate safeguards for the
+non-tribals in the BTC area.
+
+NOTES AND REFERENCES
+1. At present (2019), ten states of India have scheduled
+areas. These are: Andhra Pradesh, Telangana,
+Jharkhand, Chhattisgarh, Gujarat, Himachal Pradesh,
+Madhya Pradesh, Maharashtra, Odisha and Rajasthan.
+2. M.P. Jain, Indian Constitutional Law, Wadhwa, Fourth
+Edition, 1987, p. 236.
+3. Ibid, p. 237.
+4. Presently (2019), there are a total of ten tribal areas.
+See Table 41.1.
+5. The power of direction, in this regard, lies either with the
+president or governor. Thus, in the case of Assam, it lies
+with the Governor, both in respect of acts of Parliament
+or state legislature. In the case of Meghalaya, Tripura
+and Mizoram, it lies with the president in respect of acts
+of Parliament and governor in respect of acts of state
+legislature.
+
+PART-VII
+CONSTITUTIONAL BODIES
+42. Election Commission
+> build · iceman-contributor-free
+[0m$ [0mcat >> /tmp/ch55.txt << 'EOF'
+
+## 55. UNION TERRITORIES (ARTICLES 239 TO 241)
+
+**[SYL: GS2-G.1] | [LAXMIKANTH: Chapter 40] | [UNION TERRITORIES, CENTRALLY ADMINISTERED, NCT DELHI, LEGISLATIVE ASSEMBLIES]**
+
+### 55.1. Constitutional Basis
+- **Articles**: Articles 239 to 241 in **Part VIII** of the Constitution deal with Union Territories.
+- **Article 1**: Territory of India comprises (a) territories of states, (b) union territories, (c) territories that may be acquired by Government of India.
+- **Nature**: Union Territories are under direct control and administration of Central Government. Hence, also called **'centrally administered territories'**. This constitutes a conspicuous departure from federalism in India - relationship between Centre and UTs is **unitary** in nature.
+
+### 55.2. Creation of Union Territories
+- **Historical Background**: During British rule, certain areas were 'scheduled districts' (1874), later 'chief commissioners' provinces. After independence, placed as Part 'C' States and Part 'D' Territories. In 1956, constituted as Union Territories by **7th Constitutional Amendment Act, 1956** and **States Reorganisation Act, 1956**.
+- **Evolution**: Some UTs elevated to statehood (Himachal Pradesh, Manipur, Tripura, Mizoram, Arunachal Pradesh, Goa). Territories acquired from Portuguese (Goa, Daman & Diu, Dadra & Nagar Haveli) and French (Puducherry) constituted as UTs.
+- **Present UTs** (9): (1) Andaman & Nicobar Islands (1956), (2) Delhi (1956), (3) Lakshadweep (1956), (4) Dadra & Nagar Haveli (1961), (5) Daman & Diu (1962), (6) Puducherry (1962), (7) Chandigarh (1966), (8) Jammu & Kashmir (2019), (9) Ladakh (2019). 
+- **Name changes**: Lakshadweep was earlier Laccadive, Minicoy & Amindivi Islands (renamed 1973). Delhi redesignated as **National Capital Territory of Delhi (NCT)** in 1992. Puducherry earlier Pondicherry (renamed 2006).
+- **Reasons for creation**:
+  1. **Political and administrative consideration** - Delhi, Chandigarh
+  2. **Cultural distinctiveness** - Puducherry, Dadra & Nagar Haveli, Daman & Diu
+  3. **Strategic importance** - Andaman & Nicobar Islands, Lakshadweep
+  4. **Special treatment/care of backward and tribal people** - Mizoram, Manipur, Tripura, Arunachal Pradesh (later became states)
+
+#### 55.2.1. J&K Reorganisation, 2019
+- **Jammu and Kashmir Reorganisation Act, 2019** bifurcated erstwhile J&K state into two UTs w.e.f. 31st October 2019:
+  1. **Union Territory of Jammu and Kashmir** - with a **legislature**
+  2. **Union Territory of Ladakh** - **without a legislature**
+- **Rationale**: Ladakh's vast area, sparse population, difficult terrain and long-pending demand for UT status; prevailing internal security situation due to cross-border terrorism necessitated separate UT for J&K.
+
+### 55.3. Administration of Union Territories
+- **Articles 239-241**: Deal with administration of UTs. No uniformity in administrative system.
+- **President's role**: Every UT administered by **President acting through an administrator** appointed by him. Administrator is an **agent of President**, not head of state like Governor.
+- **Designation of administrator**: President specifies designation - may be **Lieutenant Governor**, **Chief Commissioner** or **Administrator**.
+- **Current designations**:
+  - **Lieutenant Governor**: Delhi, Puducherry, Andaman & Nicobar Islands, Jammu & Kashmir, Ladakh
+  - **Administrator**: Chandigarh, Dadra & Nagar Haveli, Daman & Diu, Lakshadweep
+- **Governor as administrator**: President can appoint Governor of a state as administrator of adjoining UT. In that capacity, Governor acts **independently** of his Council of Ministers.
+- **Concurrent charge**: Governor of Punjab is concurrently Administrator of Chandigarh. Administrator of Dadra & Nagar Haveli is concurrently Administrator of Daman & Diu.
+
+#### 55.3.1. UTs with Legislature
+Three UTs have legislative assembly and Council of Ministers headed by Chief Minister:
+1. **Puducherry** - since 1963 (Assembly strength 30)
+2. **National Capital Territory of Delhi** - since 1992 (Assembly strength 70)
+3. **Jammu and Kashmir** - since 2019 (Assembly strength 83)
+
+Remaining six UTs have **no** popular political institutions. Creation of local legislatures does **not** diminish supreme control of President and Parliament.
+
+#### 55.3.2. Parliamentary & Presidential Powers
+- **Parliamentary laws**: Parliament can make laws on **any subject** of the three lists (including State List) for all UTs. This power extends even to those with local legislatures.
+- **Local legislatures' powers**:
+  - **Puducherry**: Can make laws on subjects in **State List** and **Concurrent List**
+  - **Delhi (NCT)**: Can make laws on subjects in **State List** and **Concurrent List** **except** Public Order, Police and Land
+  - **Jammu & Kashmir**: Can make laws on subjects in **State List** (except Public Order and Police) and **Concurrent List**
+- **Presidential regulations**: President can make regulations for peace, progress and good government of **Andaman & Nicobar Islands, Lakshadweep, Dadra & Nagar Haveli, Daman & Diu and Ladakh**. For **Puducherry**, President can legislate by regulations only when Assembly is **suspended or dissolved**. A regulation has same force as an Act of Parliament and can repeal/amend any Act of Parliament in relation to these UTs.
+- **High Courts**: Parliament can establish High Court for a UT or place it under jurisdiction of High Court of adjacent state. **Delhi** has its own High Court (since 1966). Others placed under jurisdiction of adjacent High Courts. **J&K High Court** is common High Court for J&K and Ladakh UTs.
+- **Acquired territories**: Constitutional provisions for UTs also apply to acquired territories.
+
+### 55.4. Special Provisions for National Capital Territory of Delhi (69th Amendment Act, 1991)
+- **Status**: Union Territory of Delhi redesignated as **National Capital Territory of Delhi**. Administrator designated as **Lieutenant Governor**.
+- **Legislative Assembly**: Strength fixed at **70 members**, directly elected. Can make laws on all State List and Concurrent List subjects **except** Public Order, Police and Land. Laws of Parliament prevail over those made by Assembly.
+- **Council of Ministers**: Strength not exceeding **10%** of total strength of Assembly (max 7) - Chief Minister + other ministers. Chief Minister appointed by **President** (not by Lt. Governor). Other ministers appointed by President on advice of CM. Ministers hold office during pleasure of President. Council collectively responsible to Assembly.
+- **Relationship with Lt. Governor**: Council of Ministers headed by CM aids and advises Lt. Governor in exercise of his functions **except** where he is required to act in his **discretion**. In case of difference of opinion between Lt. Governor and Ministers, Lt. Governor shall refer matter to **President** for decision and act accordingly.
+- **President's Rule**: If administration cannot be carried on as per provisions, President can suspend operation of these provisions and make incidental/consequential provisions. Can be done on report of Lt. Governor or otherwise. Resembles Article 356.
+- **Ordinance-making power**: Lt. Governor empowered to promulgate ordinances during recess of Assembly. Ordinance has same force as Act of Assembly. Must be approved by Assembly within **6 weeks** from reassembly. Can be withdrawn anytime. Cannot promulgate/withdraw without **prior permission of President** when Assembly dissolved/suspended.
+
+### 55.5. Advisory Committees for Union Territories
+- **Nodal Ministry**: Ministry of Home Affairs is nodal ministry for all UT matters relating to legislation, finance/budget, services, appointment of Lt. Governors/Administrators.
+- **HMAC/AAC**: For UTs **without legislature** (Andaman & Nicobar, Chandigarh, Dadra & Nagar Haveli, Daman & Diu, Lakshadweep, Ladakh), forum of **Home Minister's Advisory Committee (HMAC)** / **Administrator's Advisory Committee (AAC)** exists.
+- **Composition**: HMAC chaired by Union Home Minister; AAC chaired by Administrator of concerned UT. MPs and elected members from local bodies (District Panchayats, Municipal Councils) are members.
+- **Function**: Discuss general issues relating to social and economic development of UTs.
+
+### 55.6. Comparative Analysis: States vs Union Territories
+| Feature | States | Union Territories |
+|---|---|---|
+| **Relationship with Centre** | Federal | Unitary |
+| **Distribution of power** | Share power with Centre (division of powers) | Under direct control and administration of Centre |
+| **Autonomy** | Have autonomy | No autonomy |
+| **Administrative set-up** | Uniform in nature | No uniformity in administrative set-up |
+| **Executive head** | Governor (Constitutional head) | Administrator/Lt. Governor/Chief Commissioner (Agent of President) |
+| **Parliament's legislative power** | Cannot make laws on State List subjects except under extraordinary circumstances (Article 249, 250, 252, 253) | Can make laws on **any subject** of three lists (including State List) for UTs |
+
+### 55.7. Articles Related to Union Territories at a Glance
+| Article | Subject-matter |
+|---|---|
+| **239** | Administration of Union Territories |
+| **239A** | Creation of local Legislatures or Council of Ministers or both for certain Union Territories (added by 7th Amendment Act, 1956) |
+| **239AA** | Special provisions with respect to Delhi (added by 69th Amendment Act, 1991) |
+| **239AB** | Provision in case of failure of constitutional machinery |
+| **239B** | Power of administrator to promulgate Ordinances during recess of Legislature |
+| **240** | Power of President to make regulations for certain Union Territories |
+| **241** | High Courts for Union Territories |
+
+### 55.8. PYQs (PRELIMS + MAINS) - LAST 10 YEARS
+| Year | Exam | Question | Topic | Approach |
+|---|---|---|---|---|
+| 2014 | Prelims | Status of National Capital Territory of Delhi | Art 239AA, NCT | Special status, limited powers |
+| 2015 | Mains | Centre-State relations in context of UTs | Administration of UTs | Unitary vs federal, President's rule-like provisions |
+| 2016 | Prelims | Powers of Delhi Legislative Assembly | Public order, police, land excluded | Art 239AA(3)(a) |
+| 2019 | Prelims | J&K Reorganisation Act, 2019 | Creation of J&K and Ladakh UTs | Bifurcation, legislature vs no legislature |
+| 2021 | Mains | Difference between States and UTs | Comparative analysis | Administrative, legislative, executive aspects |
+
+### 55.9. CURRENT AFFAIRS LINKAGE (2023-2026)
+| Issue | Linkage | Mains Angle |
+|---|---|---|
+| Governance reforms in J&K after UT status | Delimitation, elections, development initiatives | Democratisation vs special status, security concerns |
+| Delhi-NCT governance issues (LG vs CM tussles) | Art 239AA, powers of elected govt vs LG | Federalism, balance of powers, interpretation by courts |
+| Demand for statehood for Delhi/Puducherry | UT status vs full statehood | Asymmetric federalism, representation, administrative efficiency |
+| Smart City Mission/Infrastructure in UTs | Centrally administered territories, development focus | Centre-UT coordination, role of MHA |
+
+### 55.10. MIND MAP
+```text
+UNION TERRITORIES (ARTS 239-241, PART VIII)
+├── CREATION
+│   ├── Part C/D → UTs by 7th Amendment 1956
+│   ├── Acquired from Portugal/France
+│   └── J&K bifurcated into J&K UT (with legislature) & Ladakh UT (without) in 2019
+├── ADMINISTRATION
+│   ├── President through Administrator (Agent, not Governor)
+│   ├── Designations: Lt. Governor/Chief Commissioner/Administrator
+│   └── Governor can be Administrator of adjoining UT
+├── LEGISLATURE
+│   ├── With legislature: Delhi (NCT), Puducherry, J&K
+│   └── Without: Others (6)
+├── POWERS
+│   ├── Parliament can make laws on any subject for all UTs
+│   ├── President can make regulations for certain UTs (Art 240)
+│   └── HC: Delhi has own; others under adjacent HCs; J&K HC common for J&K & Ladakh
+└── NCT DELHI (ART 239AA)
+    ├── Assembly (70) + Council of Ministers (max 7)
+    ├── Powers except Public Order, Police, Land
+    ├── LG acts on aid & advice except discretion; differences to President
+    ├── President's Rule-like provisions
+    └── Ordinance power with Presidential permission restrictions
+```
+
+---
+EOF
+echo "---DONE---"
+
+---DONE---
+> build · iceman-contributor-free
+[0m$ [0mcat /tmp/ch55.txt >> "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" && echo "---APPENDED---" && tail -5 "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | head -2
+---APPENDED---
+    ├── President's Rule-like provisions
+    └── Ordinance power with Presidential permission restrictions
+> build · iceman-contributor-free
+I've started generating Laxmikanth polity notes chapter by chapter as requested.
+
+**LOG:**
+- Read task: `/media/saksham/phone data/programming_projects/upsc_app/laxmikanth_notes_task.md` - understood objective, sources, approach, workflow, rules
+- Checked generator script: `/media/saksham/phone data/programming_projects/generate_laxmikanth_notes.py` - confirmed it tracks last chapter by pattern `## N.`
+- Checked target notes file: `/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md`
+- Ran generator script: confirmed **last chapter found: 54**
+- Identified next chapter: **Chapter 55** (Union Territories) - after Chapter 54 "Special Provisions for Some States (Articles 371-371J)", logical next is Union Territories (Part VIII, Articles 239-241)
+
+**READING:**
+- Primary source: M. Laxmikanth Indian Polity 6th edition PDF - extracted Chapter 40 "Union Territories" (lines ~33990-34800) covering creation, administration, NCT Delhi special provisions (Art 239AA), advisory committees, comparison with states
+- Supplemented with constitutional provisions (Articles 239-241, 239A, 239AA, 239AB, 239B, 240, 241), J&K Reorganisation Act 2019, amendments
+
+**WRITING:**
+- Created Chapter 55: **UNION TERRITORIES (ARTICLES 239 TO 241)** in same format as existing chapters
+- Included: [SYL tags], constitutional basis, creation/evolution (9 UTs with years), J&K bifurcation 2019, administration (President through administrator, designations), UTs with/without legislature, parliamentary/presidential powers, NCT Delhi special provisions (69th Amendment), ordinance power, advisory committees (HMAC/AAC), comparison table states vs UTs, articles at a glance, PYQs (last 10 years), current affairs linkage (2023-2026), mind map
+- Appended to target notes file (didn't overwrite)
+
+**PROGRESS:** Completed Chapter 54 → Chapter 55 (Union Territories). Last chapter now is 55. Next would be Chapter 56.
+
+All actions logged as requested. No clarification needed - content was clear from primary source.

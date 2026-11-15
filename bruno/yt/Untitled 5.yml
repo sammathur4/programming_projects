@@ -1,0 +1,93 @@
+info:
+  name: Untitled 5
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: https://www.youtube.com/youtubei/v1/browse?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+  headers:
+    - name: accept
+      value: "*/*"
+    - name: accept-language
+      value: en-GB,en;q\u003d0.8
+    - name: authorization
+      value: SAPISIDHASH 1785330441_a875ab14941474d16af83116afcc51495089207b
+    - name: cache-control
+      value: no-cache
+    - name: content-type
+      value: application/json
+    - name: Cookie
+      value: HSID=Ajb12GIbeKNDgp49d; SSID=A0W97c-tnvcrrL-BA; APISID=htEZennrKQkUCFhP/Aymko034NgBhnErxf; SAPISID=U6VME5-h5LPg-YUf/A_LTvbCndTAuwx3Yt; __Secure-1PAPISID=U6VME5-h5LPg-YUf/A_LTvbCndTAuwx3Yt; __Secure-3PAPISID=U6VME5-h5LPg-YUf/A_LTvbCndTAuwx3Yt; SID=g.a000AgmcSmW2oyCVeSO6UXgYo2cZ5cOMmCb25Fmh4YVuoPDLRyhGSIVBrr7f7G_gxcyv0elr3AACgYKAbASARQSFQHGX2MionBXxjtKjMTd-pkd5qgjCxoVAUF8yKqSox1gkREO-FCYT9CANWjM0076; __Secure-1PSID=g.a000AgmcSmW2oyCVeSO6UXgYo2cZ5cOMmCb25Fmh4YVuoPDLRyhG6_ySwA6oz88A4lFLbYgMRwACgYKAdcSARQSFQHGX2Mi0r4Di1mIbTa3CTBSH2-CfBoVAUF8yKpPFR-TYNWkvj7-Nsfvil5D0076; __Secure-3PSID=g.a000AgmcSmW2oyCVeSO6UXgYo2cZ5cOMmCb25Fmh4YVuoPDLRyhGSJDCvNmTp-rQtwAg8fxp6gACgYKAegSARQSFQHGX2MinQ_pHNY4QcVD950QZettQBoVAUF8yKqv1dKqw73uSf9hfVrYMDcd0076; VISITOR_INFO1_LIVE=bsuSENAzbsM; VISITOR_PRIVACY_METADATA=CgJJThIEGgAgaw%3D%3D; LOGIN_INFO=AFmmF2swRQIgUDoJM4rW5EphGrtLE-Eo4v15EL70qch6xytE2Xi9SzECIQC5gdsyoM6qeVQ2Rdaq3zuNpl19TAnZCz3d0e5k7RXj8w:QUQ3MjNmd1FacXI1OHVlb3Z4dV9KRXRLRkxXTzRHQk11U3k0NExUTFhhMUtsVDFzVnpNaFpzU3hZSm1HdnVFQXJZbGhvaDk4MHNoWU5PWVZCMHJ0bnp2YkNETGVPZFRTX2lKSUo0eXJLTlJpVldkLUtxa1pXTFROeVFvWHBLOXpUejNOWlpKX3FHY3JoaE5BR29mZlp1UzZMbjBrRVZvN1VR; PREF=f6=80&tz=Asia.Calcutta&f7=100; namejan_2022_update_limit=1; namejan_2022_update=1; YSC=WAnxn3VY6yA; __Secure-YNID=20.YT=nAZvqn_MKuFJWrnZbxY_xoI40Pu31ce1yh4ytnwc5b29hP38HzoDP0uGiK130XgNfPWtPuWf7-ybAQ2LcxyKw2bKWA96YUcacz64zolHQpjCo9umVdQ4xntMf0Qwgd9r1DldCgGejb8fmsvVR8s4lNLhKS5X29YjngHSYN2MQc9uT0yFATym7Ofzgge-bJpBrljEV7pRXZY3SDe58LdX2vbSZXz8EpKN-GwWUK1skrK5cvbr6E3FOhR0Q4kKmT3LtWsztXAwmxtGgE7haDx3al_INEgyq9h5pKJEzz72VgphiTC4juBs21M0284YYN4UZnMZAciN1LCo2CvnrHROmA; __Secure-ROLLOUT_TOKEN=COi7v4rji8OcNxDYm8WGpOiVAxjRg5TE1vWVAw%3D%3D; ypm-render=1; __Secure-1PSIDTS=sidts-CjUBPWEu2fnbEm1oBESdRKj6r29dDtDkVl6ezXNZGeyFk4feZXwxUUphhdqJSVV3rTZv_aPKMRAA; __Secure-3PSIDTS=sidts-CjUBPWEu2fnbEm1oBESdRKj6r29dDtDkVl6ezXNZGeyFk4feZXwxUUphhdqJSVV3rTZv_aPKMRAA; SIDCC=AKEyXzWZWHqMxErPHdShP9ufJxx8tmPNd92hlME3T1tCCTPcK7N4xd3uLEtPPlSAnEB85_kOWQ; __Secure-1PSIDCC=AKEyXzXY5SRECjmokhsUIRsYU7OorsUUX_K0mc8CPRDM4eN10ADiqc0CrT0qL3B71ZkU0hBWfgM; __Secure-3PSIDCC=AKEyXzXjWFVVUuDVjTZW6ppx0XSb26xDfNGRYZ1-p9t4eRtvERl4p42vGBQ02WS57IzTtbSORA; ST-tladcw=session_logininfo=AFmmF2swRQIgUDoJM4rW5EphGrtLE-Eo4v15EL70qch6xytE2Xi9SzECIQC5gdsyoM6qeVQ2Rdaq3zuNpl19TAnZCz3d0e5k7RXj8w%3AQUQ3MjNmd1FacXI1OHVlb3Z4dV9KRXRLRkxXTzRHQk11U3k0NExUTFhhMUtsVDFzVnpNaFpzU3hZSm1HdnVFQXJZbGhvaDk4MHNoWU5PWVZCMHJ0bnp2YkNETGVPZFRTX2lKSUo0eXJLTlJpVldkLUtxa1pXTFROeVFvWHBLOXpUejNOWlpKX3FHY3JoaE5BR29mZlp1UzZMbjBrRVZvN1VR
+    - name: origin
+      value: https://www.youtube.com
+    - name: pragma
+      value: no-cache
+    - name: priority
+      value: u=1, i
+    - name: referer
+      value: https://www.youtube.com/
+    - name: sec-ch-ua
+      value: '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"'
+    - name: sec-ch-ua-arch
+      value: '"x86"'
+    - name: sec-ch-ua-bitness
+      value: '"64"'
+    - name: sec-ch-ua-full-version-list
+      value: '"Not;A=Brand";v="8.0.0.0", "Chromium";v="150.0.0.0", "Google Chrome";v="150.0.0.0"'
+    - name: sec-ch-ua-mobile
+      value: ?0
+    - name: sec-ch-ua-model
+      value: '""'
+    - name: sec-ch-ua-platform
+      value: '"Linux"'
+    - name: sec-ch-ua-platform-version
+      value: '""'
+    - name: sec-ch-ua-wow64
+      value: ?0
+    - name: sec-fetch-dest
+      value: empty
+    - name: sec-fetch-mode
+      value: cors
+    - name: sec-fetch-site
+      value: same-origin
+    - name: sec-gpc
+      value: "1"
+    - name: user-agent
+      value: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+    - name: x-goog-authuser
+      value: "0"
+    - name: x-goog-visitor-id
+      value: Cgtic3VTRU5BemJzTSiC9qfTBjIKCgJJThIEGgAga2LfAgrcAjIwLllUPW5BWnZxbl9NS3VGSldyblpieFlfeG9JNDBQdTMxY2UxeWg0eXRud2M1YjI5aFAzOEh6b0RQMHVHaUsxMzBYZ05mUFd0UHVXZjcteWJBUTJMY3h5S3cyYktXQTk2WVVjYWN6NjR6b2xIUXBqQ285dW1WZFE0eG50TWYwUXdnZDlyMURsZENnR2VqYjhmbXN2VlI4czRsTkxoS1M1WDI5WWpuZ0hTWU4yTVFjOXVUMHlGQVR5bTdPZnpnZ2UtYkpwQnJsakVWN3BSWFpZM1NEZTU4TGRYMnZiU1pYejhFcEtOLUd3V1VLMXNrcks1Y3ZicjZFM0ZPaFIwUTRrS21UM0x0V3N6dFhBd214dEdnRTdoYUR4M2FsX0lORWd5cTloNXBLSkV6ejcyVmdwaGlUQzRqdUJzMjFNMDI4NFlZTjRVWm5NWkFjaU4xTENvMkN2bnJIUk9tQQ%3D%3D
+    - name: x-origin
+      value: https://www.youtube.com
+  params:
+    - name: key
+      value: AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+      type: query
+  body:
+    type: json
+    data: |-
+      {
+        "context": {
+          "client": {
+            "clientName": "1",
+            "hl": "en-GB",
+            "gl": "IN",
+            "clientVersion": "2.20260728.01.00"
+          },
+          "request": {
+            "internalExperimentFlags": [],
+            "consistencyTokenJars": []
+          }
+        },
+        "browseId": "FElibrary",
+        "fetchLiveState": true
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

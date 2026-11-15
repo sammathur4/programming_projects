@@ -1,0 +1,13 @@
+bucket,block,prelims_marks_per_yr,prelims_share_%,mains_marks_per_yr,mains_share_%,years_seen_prelims,years_seen_mains,prelims_cv,mains_cv
+History,gs,33.3,16.7,77.9,4.2,14,14,0.18,0.75
+Environment,gs,31.6,15.8,47.5,2.6,14,13,0.2,1.35
+Current Affairs,gs,30.7,15.4,0.0,0.0,12,0,0.73,
+Polity,gs,29.9,14.9,285.4,15.5,14,13,0.27,0.54
+Economy,gs,28.7,14.4,200.7,10.9,14,13,0.24,0.6
+Geography,gs,23.0,11.5,18.6,1.0,14,8,0.4,2.09
+S&T,gs,19.3,9.6,81.4,4.4,14,12,0.36,0.81
+IR,gs,3.4,1.7,217.1,11.8,4,13,1.63,0.75
+Disaster Mgmt,gs,0.0,0.0,7.9,0.4,0,7,,1.29
+Ethics,gs,0.0,0.0,193.6,10.5,0,12,,0.51
+Essay,optional,0.0,0.0,250.0,13.6,0,12,,0.56
+Sociology,optional,0.0,0.0,465.0,25.2,0,14,,0.53

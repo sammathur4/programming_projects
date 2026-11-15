@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "section": "Polity",
+    "question": "In the areas covered under the Panchayat (Extension to the Scheduled Areas) Act, 1996, what is the role/power of Gram Sabha?\n1. Gram Sabha has the power to prevent alienation of land in the Scheduled Areas.\n2. Gram Sabha has the ownership of minor forest produce.\n3. Recommendation of Gram Sabha is required for granting prospecting licence or mining lease for any mineral in the Scheduled Areas.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "ARTICLE 4(K) from PESA act: The recommendations of the Gram Sabha or the Panchayats at the appropriate level shall be made mandatory prior to grant of prospecting licence or mining lease for minor minerals in the Scheduled Areas. Note: Pay attention to 'minor minerals' and 'or the Panchayats at the appropriate level' — these words are deliberately changed to make the statement false. Under PESA, Gram Sabhas have mandatory executive functions to approve plans of the Village Panchayats, identify beneficiaries for schemes, issue certificates of utilization of funds, right to be consulted before land acquisition, rehabilitation & resettlement, power to regulate and restrict sale/consumption of intoxicants, prevent alienation of land and restore alienated land, manage village markets, control money lending and ownership of minor forest produce.",
+    "motivation": "PESA Act questions test deep reading. Always note exact wordings — 'minor minerals' vs 'any mineral' and whether it's Gram Sabha recommendation alone or Gram Sabha OR Panchayat. These subtle tweaks are how UPSC tests precision.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 2,
+    "section": "Polity",
+    "question": "In the Parliament of India, the purpose of an adjournment motion is",
+    "options": {
+      "a": "To allow a discussion on a definite matter of urgent public importance.",
+      "b": "To let opposition members collect information from the ministers.",
+      "c": "To allow a reduction of specific amount in demand for grant.",
+      "d": "To postpone the proceedings to check the inappropriate or violent behaviour on the part of some members."
+    },
+    "answer": "A",
+    "explanation": "An adjournment motion is moved in Lok Sabha to draw attention to a definite matter of urgent public importance. It involves an element of censure against the government. The Lok Sabha Speaker has the discretion to admit or reject such a motion. It is not applicable in Rajya Sabha.",
+    "motivation": "Parliamentary procedures are scoring topics — they are factual and directly from Laxmikant. Master the differences between adjournment motion, calling attention motion, and no-confidence motion.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "section": "Environment",
+    "question": "How does National Biodiversity Authority (NBA) help in protecting the Indian Agriculture?\n1. NBA checks the biopiracy and protects the indigenous and traditional genetic resources.\n2. NBA directly monitors and supervises the scientific research on genetic modification of crop plants.\n3. Application for Intellectual Property Rights related to genetic/biological resources cannot be made without the approval of NBA.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Any person who intends to apply for a patent or any other form of intellectual property protection whether in India or outside India referred to in sub-section (1) of section 6 may make an application to the National Biodiversity Authority. NBA deals with all matters relating to requests for access by foreign individuals, institutions or companies, and transfer of results of research to any foreigner. NBA's approval is also required before seeking any IPR based on biological material and associated knowledge obtained from India. NBA does NOT directly monitor/supervise scientific research on genetic modification of crop plants — statement 2 is incorrect.",
+    "motivation": "NBA questions require knowing what it does vs what it doesn't. Statement 2 is a classic UPSC trap — NBA regulates access and IPR, not scientific research supervision.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 4,
+    "section": "Environment",
+    "question": "The National Green Tribunal Act, 2010 was enacted in consonance with which of the following provisions of the Constitution of India?\n1. Right to healthy environment, construed as a part of Right to life under Article 21.\n2. Provision of grants for raising the level of administration in the Scheduled Areas for the welfare of Scheduled Tribes under Article 275(1).\n3. Powers and functions of Gram Sabha as mentioned under Article 243(A).\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "The National Green Tribunal Act, 2010 was enacted in consonance with the Right to healthy environment which is construed as a part of Right to life under Article 21 of the Constitution of India. Articles 275(1) and 243(A) do not have a direct bearing on the NGT Act. This is an applied knowledge question combining environment law and constitutional provisions.",
+    "motivation": "Connect environmental laws back to their constitutional basis. Article 21 (Right to Life) is the most expansive fundamental right — courts have read into it the right to clean environment, livelihood, and health.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "section": "Economic and Social Development",
+    "question": "If National Water Mission is properly and completely implemented, how will it impact the country?\n1. Part of the water needs of urban areas will be met through recycling of waste-water.\n2. The water requirements of coastal cities with inadequate alternative sources of water will be met by adopting appropriate technologies that allow for the use of ocean water.\n3. All the rivers of Himalayan origin will be linked to the rivers of peninsular India.\n4. The expenses incurred by farmers for digging bore-wells and for installing motors and pump-sets to draw ground-water will be completely reimbursed by the Government.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "From the objectives of National Water Mission: It will seek to ensure that a considerable share of the water needs of urban areas are met through recycling of waste water, and ensuring that the water requirements of coastal cities with inadequate alternative sources of water are met through adoption of new and appropriate technologies such as low temperature desalination technologies that allow for the use of ocean water. Statement 3 (river linking) and statement 4 (complete reimbursement) are NOT part of the National Water Mission objectives.",
+    "motivation": "For government schemes, always check what they actually say — words like 'all' and 'completely' are usually traps. National Water Mission is one of the 8 missions under National Action Plan on Climate Change (NAPCC).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "section": "Polity",
+    "question": "Consider the following provisions under the Directive Principles of State Policy as enshrined in the Constitution of India:\n1. Securing for citizens of India a uniform civil code.\n2. Organizing village Panchayats.\n3. Promoting cottage industries in rural areas.\n4. Securing for all the workers reasonable leisure and cultural opportunities.\nWhich of the above are the Gandhian Principles that are reflected in the Directive Principles of State Policy?",
+    "options": {
+      "a": "1, 2 and 4 only",
+      "b": "2 and 3 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "Gandhian Principles in DPSP include: Organize village panchayats (Art 40), Promote cottage industries in rural areas (Art 43), Prohibition of intoxicating drinks and drugs (Art 47), Preservation of cow and other milch animals (Art 48), etc. Uniform Civil Code (Art 44) is a Liberal-Intellectual principle. Reasonable leisure and cultural opportunities for workers (Art 43) is a Socialist principle, not Gandhian. Hence only 2 and 3 are Gandhian.",
+    "motivation": "DPSP classification into Gandhian, Socialist, and Liberal-Intellectual principles is a standard Laxmikant topic. Make a table and memorize — it comes up repeatedly in prelims.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "section": "Polity",
+    "question": "Consider the following statements:\n1. Union Territories are not represented in the Rajya Sabha.\n2. It is within the purview of the Chief Election Commissioner to adjudicate the election disputes.\n3. According to the Constitution of India, the Parliament consists of the Lok Sabha and the Rajya Sabha only.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3",
+      "c": "1 and 3",
+      "d": "None"
+    },
+    "answer": "D",
+    "explanation": "Statement 1 is wrong: Some Union Territories like Delhi and Puducherry are represented in Rajya Sabha. Statement 2 is wrong: Election disputes are adjudicated by Special Election Tribunals/High Courts, not the CEC. The CEC supervises elections but does not adjudicate disputes. Statement 3 is wrong: According to Article 79, Parliament consists of the President, the Council of States (Rajya Sabha), and the House of the People (Lok Sabha) — the President is part of Parliament. Hence none of the statements are correct.",
+    "motivation": "All three statements are wrong — this is a classic UPSC pattern to test if you're overconfident. Always verify each statement independently. The President being part of Parliament is a key constitutional fact.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "section": "Miscellaneous",
+    "question": "With reference to consumers' rights/privileges under the provisions of law in India, which of the following statements is/are correct?\n1. Consumers are empowered to take samples for food testing.\n2. When a consumer files a complaint in any consumer forum, no fee is required to be paid.\n3. In case of death of a consumer, his/her legal heir can file a complaint in the consumer forum on his/her behalf.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Statement 1 is correct: Consumers are empowered to take samples for food testing under the Consumer Protection Act. Statement 2 is incorrect: One has to pay a court fee when filing a complaint in a consumer forum (though it is nominal). Statement 3 is correct: In case of death of a consumer, his/her legal heir or representative can file a complaint on his/her behalf.",
+    "motivation": "Consumer protection laws are practical knowledge. The key trap here is statement 2 — many assume consumer forums are free, but a nominal fee IS required. Always read the fine print in consumer law questions.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 9,
+    "section": "Polity",
+    "question": "Regarding the office of the Lok Sabha Speaker, consider the following statements:\n1. He/She holds the office during the pleasure of the President.\n2. He/She need not be a member of the House at the time of his/her election but has to become a member of the House within six months from the date of his/her election.\n3. If he/she intends to resign, the letter of his/her resignation has to be addressed to the Deputy Speaker.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is wrong: The Speaker does NOT hold office during the pleasure of the President. The Speaker can be removed only by a resolution passed by a majority of all the then members of Lok Sabha (Article 94). Statement 2 is wrong: The Speaker must be a sitting member of Lok Sabha at the time of election. Statement 3 is correct: The Speaker's resignation letter must be addressed to the Deputy Speaker (Article 94).",
+    "motivation": "The Speaker's position is constitutionally independent — not subject to presidential pleasure. This distinguishes the Speaker from many other constitutional authorities. Only statement 3 is correct, making B the answer.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "section": "Polity",
+    "question": "Which of the following are included in the original jurisdiction of the Supreme Court?\n1. A dispute between the Government of India and one or more States.\n2. A dispute regarding elections to either House of the Parliament or that of Legislature of a State.\n3. A dispute between the Government of India and a Union Territory.\n4. A dispute between two or more States.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2",
+      "b": "2 and 3",
+      "c": "1 and 4",
+      "d": "3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Under Article 131, the original jurisdiction of the Supreme Court includes: disputes between the Government of India and one or more States, disputes between the Government of India and one or more States on one side and one or more States on the other, and disputes between two or more States. Election disputes (statement 2) are NOT part of original jurisdiction — they go to High Courts first. Disputes involving Union Territories (statement 3) are NOT covered under Article 131.",
+    "motivation": "Article 131 is a must-know. Remember: original jurisdiction = Centre vs State OR State vs State. Election disputes go to Election Tribunals/High Courts, not directly to Supreme Court under original jurisdiction.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "section": "Science",
+    "question": "Consider the following kinds of organisms:\n1. Bacteria\n2. Fungi\n3. Flowering plants\nSome species of which of the above kinds of organisms are employed as biopesticides?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three — bacteria, fungi, and flowering plants — can be used as biopesticides. Bacillus thuringiensis (bacteria) is the most well-known biopesticide. Fungal biopesticides have also been developed (e.g., by the Department of Biotechnology of Gitam University). Certain flowering plants also have pesticidal properties. Hence all three are correct.",
+    "motivation": "Biopesticides span all biological kingdoms. Don't limit your thinking — bacteria (Bt), fungi, and even plant extracts like neem are all biopesticides. This is an expanding field in sustainable agriculture.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "section": "Miscellaneous",
+    "question": "Biomass gasification is considered to be one of the sustainable solutions to the power crisis in India. In this context, which of the following statements is/are correct?\n1. Coconut shells, groundnut shells and rice husk can be used in biomass gasification.\n2. The combustible gases generated consist of hydrogen and carbon dioxide only.\n3. The combustible gases generated from biomass gasification can be used for direct heat generation but not in internal combustion engines.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Statement 1 is correct: Coconut shells, groundnut shells, rice husk, and other agricultural residues can indeed be used in biomass gasification. Statement 2 is incorrect: In gasification process, organic material is converted into methane, carbon monoxide, hydrogen, and carbon dioxide — not just hydrogen and carbon dioxide. The resulting gas mixture is called Syngas or Producer Gas. Statement 3 is incorrect: Syngas is combustible and often used as fuel of internal combustion engines or as an intermediate for production of other chemicals.",
+    "motivation": "Syngas = CO + H2 + CO2 + CH4. It is NOT just H2 and CO2. Also, syngas CAN power internal combustion engines — this is a key application. Statement 1 is the only correct one.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 13,
+    "section": "Science",
+    "question": "What is the role of ultraviolet (UV) radiation in the water purification systems?\n1. It inactivates/kills the harmful microorganisms in water.\n2. It removes all the undesirable odours from the water.\n3. It quickens the sedimentation of solid particles, removes turbidity and improves the clarity of water.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "UV radiation in water purification only inactivates/kills harmful microorganisms (statement 1 is correct). It does NOT create new chemical complexes, nor does it change the taste or odour of the water, and does NOT remove any beneficial minerals in the water. UV does not affect turbidity or sedimentation. Water turbidity (i.e., the amount of suspended and colloidal solids) must be low for UV purification to work well.",
+    "motivation": "UV purification = germicidal only. It doesn't filter, doesn't remove odour, doesn't improve clarity. It's purely a disinfection method. This is a clean and commonly tested distinction.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "section": "Science",
+    "question": "Graphene is frequently in news recently. What is its importance?\n1. It is a two-dimensional material and has good electrical conductivity.\n2. It is one of the thinnest but strongest materials tested so far.\n3. It is entirely made of silicon and has high optical transparency.\n4. It can be used as 'conducting electrodes' required for touch screens, LCDs and organic LEDs.\nWhich of the statements given above are correct?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 and 4 only",
+      "c": "1, 2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Graphene is a two-dimensional allotrope of carbon (NOT silicon — statement 3 is wrong). It is the thinnest yet strongest material tested so far. It has excellent electrical conductivity. Research institutes worldwide are already looking at ways to build better touch-screens, ultrafast transistors and photo-detectors using graphene. It can be used as conducting electrodes for touch screens, LCDs and organic LEDs. It won the Nobel Prize in 2010 for its discoverers.",
+    "motivation": "Graphene = carbon, not silicon. This is the key trap in statement 3. Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. Nobel Prize 2010 connection makes it a high-priority topic.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "section": "Miscellaneous",
+    "question": "Lead, ingested or inhaled, is a health hazard. After the addition of lead to petrol has been banned, what still are the sources of lead poisoning?\n1. Smelting units\n2. Pens and pencils\n3. Paints\n4. Hair oils and cosmetics\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "1 and 3 only",
+      "c": "2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "All four are sources of lead poisoning even after ban on leaded petrol. Smelting units release lead into the atmosphere. Pens and pencils (not the graphite, but metal parts and some inks) can contain lead. Paints — especially older ones — contain lead compounds. Hair oils and cosmetics, particularly folk medicines, ayurvedics, and cosmetics like kohl (surma/kajal) are significant sources of lead. Lead can also be found in products such as kohl, a South Asian cosmetic, and from some toys.",
+    "motivation": "This is a difficult question because pens/pencils seem unlikely. But the question asks about lead poisoning sources broadly — metal parts and some inks in pens can contain lead. Cosmetics like kohl are well-known lead sources. When in doubt, go with the most inclusive option if you can eliminate none.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 16,
+    "section": "Science",
+    "question": "With reference to 'stem cells', frequently in the news, which of the following statements is/are correct?\n1. Stem cells can be derived from mammals only.\n2. Stem cells can be used for screening new drugs.\n3. Stem cells can be used for medical therapies.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is incorrect: Stem cells are not derived from mammals only — they can be derived from other organisms including lower animals and plants. Statement 2 is correct: Once established, stem cells can be used to elucidate disease mechanisms and to screen drugs. Statement 3 is correct: Stem cells can be used for medical therapies — this is one of the most promising areas of stem cell research for diseases like Parkinson's, diabetes, etc.",
+    "motivation": "Stem cells are NOT exclusive to mammals. This is the trap in statement 1. Statements 2 and 3 are both well-established applications of stem cell research. B (2 and 3 only) is correct.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "section": "Environment",
+    "question": "Consider the following statements: Chlorofluorocarbons, known as ozone-depleting substances, are used\n1. In the production of plastic foams.\n2. In the production of tubeless tyres.\n3. In cleaning certain electronic components.\n4. As pressurizing agents in aerosol cans.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "4 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "CFCs are used in: production of plastic foams (as blowing agents), cleaning certain electronic components (as solvents), and as pressurizing agents in aerosol cans. CFCs are NOT used in the production of tubeless tyres — statement 2 is incorrect. MRF developed eco-friendly car radials that moved away from CFC use, highlighting that tyres don't typically use CFCs in their production.",
+    "motivation": "CFCs applications: refrigerants, aerosol propellants, foam blowing agents, electronic cleaning solvents. Tyres are NOT a CFC application. Eliminate statement 2 and choose C.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 18,
+    "section": "Current Affairs",
+    "question": "A team of scientists at Brookhaven National Laboratory including those from India created the heaviest anti-matter (anti-helium nucleus). What is/are the implication/implications of the creation of anti-matter?\n1. It will make mineral prospecting and oil exploration easier and cheaper.\n2. It will help probe the possibility of the existence of stars and galaxies made of anti-matter.\n3. It will help understand the evolution of the universe.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "The discovery of antihelium at the Relativistic Heavy Ion Collider at Brookhaven National Laboratory will aid the search for exotic phenomena in the distant universe, including antimatter versions of stars and even galaxies. It will also help understand the evolution of the universe, as RHIC may have a unique opportunity to test in the laboratory some crucial features of symmetry-altering bubbles speculated to have played a role in the evolution of the infant universe. Statement 1 (mineral prospecting) is NOT an implication of antimatter research.",
+    "motivation": "Antimatter research is about understanding the universe's origin and the matter-antimatter asymmetry, not about practical applications like mineral prospecting. Statements 2 and 3 are the correct scientific implications.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 19,
+    "section": "Science",
+    "question": "Which of the following is/are cited by the scientists as evidence/evidences for the continued expansion of universe?\n1. Detection of microwaves in space.\n2. Observation of redshift phenomenon in space.\n3. Movement of asteroids in space.\n4. Occurrence of supernova explosion in space.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2",
+      "b": "2 only",
+      "c": "1, 3 and 4",
+      "d": "None of the above can be cited as evidence"
+    },
+    "answer": "A",
+    "explanation": "Both detection of microwaves (cosmic microwave background radiation — leftover from the Big Bang) and observation of redshift phenomenon (galaxies moving away from us) are cited as evidence for the continued expansion of the universe. For example, other scientists found evidence for it when they analyzed the microwave radiation left over from the big bang that still bathes the universe. Redshift (point 2) is well-known evidence which eliminates options C and D. Movement of asteroids and supernova explosions are NOT evidence for universal expansion.",
+    "motivation": "Two key evidences for expanding universe: (1) Cosmic Microwave Background radiation and (2) Redshift of galaxies. Asteroids and supernovae are not expansion evidence. This eliminates C and D, leaving A.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 20,
+    "section": "Geography",
+    "question": "Electrically charged particles from space travelling at speeds of several hundred km/sec can severely harm living beings if they reach the surface of the Earth. What prevents them from reaching the surface of the Earth?",
+    "options": {
+      "a": "The Earth's magnetic field diverts them towards its poles.",
+      "b": "Ozone layer around the Earth reflects them back to outer space.",
+      "c": "Moisture in the upper layers from reaching the surface of the Earth.",
+      "d": "None of the statements (a), (b) and (c) given above is correct."
+    },
+    "answer": "A",
+    "explanation": "Most of the solar wind is diverted to poles due to Earth's magnetic field lines. Although a big solar flare can interfere with communication systems and power supplies doing a blackout at some places on the globe, the possibilities are there but marginal. The Earth's magnetosphere (magnetic field) acts as a shield diverting charged particles (solar wind) towards the poles, which is why auroras (Northern and Southern Lights) appear near polar regions.",
+    "motivation": "Earth's magnetic field = protection from charged solar particles. This is why auroras occur at poles — the magnetic field channels particles there. The ozone layer protects from UV radiation, NOT charged particles. This distinction is critical.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 21,
+    "section": "Ancient India",
+    "question": "With reference to the scientific progress of ancient India, which of the statements given below are correct?\n1. Different kinds of specialized surgical instruments were in common use by 1st century AD.\n2. Transplant of internal organs in the human body had beginning of 3rd century AD.\n3. The concept of sine of an angle was known in 5th century AD.\n4. The concept of cyclic quadrilaterals was known in 7th century AD.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 and 4 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "All four statements are correct. (1) Sushruta in his Sushruta Samhita (1st century AD) described specialized surgical instruments. (2) The first reasonable account of early transplants deals with skin transplantation — the Indian surgeon Sushruta in the 2nd century BC used autografted skin transplantation in nose reconstruction rhinoplasty. Internal organ transplant concepts began by the 3rd century. (3) Aryabhata in the 5th century AD introduced the concept of sine. (4) Brahmagupta in the 7th century AD developed the concept of cyclic quadrilaterals.",
+    "motivation": "Ancient India's contributions to science are often tested. Key names: Sushruta (surgery), Aryabhata (mathematics/astronomy), Brahmagupta (mathematics). All four statements here are correct — don't be surprised when d) all of them is the answer.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 22,
+    "section": "Ancient India",
+    "question": "With reference to the history of ancient India, which of the following was/were common to both Buddhism and Jainism?\n1. Avoidance of extremities of penance and enjoyment.\n2. Indifference to the authority of the Vedas.\n3. Denial of efficacy of rituals.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Both Buddhism and Jainism rejected the authority of the Vedas (statement 2) and denied the efficacy of Vedic rituals (statement 3). However, only Buddhism advocated the Middle Path — avoidance of both extremities of penance and enjoyment (statement 1). Jainism actually advocated severe asceticism and penance. So statement 1 is NOT common to both.",
+    "motivation": "This was also asked in 1996 — a repeat question! Key distinction: Buddhism = Middle Path (avoid extremes). Jainism = severe penance is valued (Mahavira himself practiced extreme asceticism). Statements 2 and 3 are common to both as both are heterodox (nastika) schools.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "section": "Economic and Social Development",
+    "question": "Which of the following can be said to be essentially the parts of 'Inclusive Governance'?\n1. Permitting the Non-Banking Financial Companies to do banking.\n2. Establishing effective District Planning Committees in all the districts.\n3. Increasing the government spending on public health.\n4. Strengthening the Mid-day Meal Scheme.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 and 4 only",
+      "c": "2, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Inclusive governance means governance that reaches out and includes marginalised sections. Establishing effective District Planning Committees (decentralisation — reaches grassroots), increasing government spending on public health (accessible healthcare), and strengthening the Mid-day Meal Scheme (reaches underprivileged children) are all parts of inclusive governance. Permitting NBFCs to do banking (statement 1) is a financial/banking regulatory matter, not directly inclusive governance.",
+    "motivation": "Inclusive governance = reaching the excluded. Focus on schemes that serve the poor, marginalised, and rural populations. Statement 1 is about financial regulation, not governance inclusion. C (2, 3 and 4) is correct.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "section": "Ancient India",
+    "question": "The Nagara, the Dravida and the Vesara are the",
+    "options": {
+      "a": "Three main racial groups of the Indian subcontinent.",
+      "b": "Three main linguistic divisions into which the languages of India can be classified.",
+      "c": "Three main styles of Indian temple architecture.",
+      "d": "Three main musical Gharanas prevalent in India."
+    },
+    "answer": "C",
+    "explanation": "Nagara, Dravida, and Vesara are the three main styles of Indian temple architecture. Nagara style is found in North India (shikhara type), Dravida style is found in South India (gopuram type), and Vesara is a hybrid style mixing elements of both Nagara and Dravida, commonly found in the Deccan region.",
+    "motivation": "Temple architecture is a frequently tested topic in UPSC. Nagara = North, Dravida = South, Vesara = mixed/Deccan. This is a straightforward fact from NCERT Ancient India.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 25,
+    "section": "Modern India",
+    "question": "The Congress ministries resigned in the seven provinces in 1939, because:",
+    "options": {
+      "a": "The Congress could not form ministries in the other four provinces.",
+      "b": "Emergence of a 'left wing' in the Congress made the working of the ministries impossible.",
+      "c": "There were widespread communal disturbances in their provinces.",
+      "d": "None of the statements (a), (b) and (c) given above is correct."
+    },
+    "answer": "D",
+    "explanation": "The Congress ministries resigned in October 1939 because Britain declared war on Germany on India's behalf without consulting Indian leaders or the Congress. The Viceroy declared India a belligerent country without consulting Indian representatives. Congress demanded a clear declaration of war aims and assurance of independence — when the British government refused, the Congress Working Committee decided to resign. None of the options a, b, or c correctly captures this reason.",
+    "motivation": "October 1939 resignations = protest against Britain's unilateral declaration of war involving India. This is a well-known historical fact from Bipin Chandra. When all options seem wrong in history questions, always consider option D.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "section": "Economic and Social Development",
+    "question": "With reference to National Rural Health Mission, which of the following are the jobs of 'ASHA', a trained community health worker?\n1. Accompanying women to the health facility for antenatal care checkup.\n2. Using pregnancy test kits for early detection of pregnancy.\n3. Providing information on nutrition and immunization.\n4. Conducting the delivery of baby.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 and 4 only",
+      "c": "1 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "A",
+    "explanation": "ASHA (Accredited Social Health Activist) roles include: accompanying women to health facilities for antenatal care, using pregnancy test kits for early detection of pregnancy, and providing information on nutrition and immunization. However, ASHA is NOT trained to conduct deliveries — that is the job of trained Auxiliary Nurse Midwife (ANM) or doctors. ASHA is a link worker, not a clinical provider.",
+    "motivation": "ASHA = community mobilizer and link worker, NOT a clinical worker who conducts deliveries. Statement 4 (conducting delivery) is beyond ASHA's scope. This is a key distinction in health scheme questions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "section": "Modern India",
+    "question": "Which of the following is/are the principal feature(s) of the Government of India Act, 1919?\n1. Introduction of diarchy in the executive government of the provinces.\n2. Introduction of separate communal electorates for Muslims.\n3. Devolution of legislative authority by the centre to the provinces.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "The Government of India Act, 1919 (Montagu-Chelmsford Reforms) introduced: (1) Dyarchy in provinces — dividing subjects into transferred (ruled by ministers responsible to legislature) and reserved (controlled by Governor), and (3) Devolution of legislative authority from centre to provinces — the Devolution Rules specified central and provincial subjects. Statement 2 is incorrect — separate communal electorates for Muslims were introduced by the Morley-Minto Reforms of 1909, NOT 1919.",
+    "motivation": "Communal electorates for Muslims = 1909 (Morley-Minto). Dyarchy = 1919 (Montagu-Chelmsford). Provincial autonomy = 1935. These chronological distinctions are frequently tested. C (1 and 3) is correct.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 28,
+    "section": "Modern India",
+    "question": "During Indian freedom struggle, the National Social Conference was formed. What was the reason for its formation?",
+    "options": {
+      "a": "Different social reform groups or organizations of Bengal region united to form a single body to discuss the issues of larger interest and to prepare appropriate petitions/representations to the government.",
+      "b": "Indian National Congress did not want to include social reforms in its deliberations and decided to form a separate body for such a purpose.",
+      "c": "Behramji Malabari and M.G. Ranade decided to bring together all the social reform groups of the country under one organization.",
+      "d": "None of the statements (a), (b) and (c) given above is correct in this context."
+    },
+    "answer": "C",
+    "explanation": "The National Social Conference was founded in 1887 by M.G. Ranade and Raghunath Rao. It was associated with the Indian National Congress sessions but focused on social reform. Behramji Malabari and M.G. Ranade decided to bring together all the social reform groups of the country under one organization. The Conference met alongside the INC annual sessions. It was NOT because INC didn't want social reforms, but because a dedicated platform was needed.",
+    "motivation": "National Social Conference (1887) = Ranade and Malabari's initiative for social reform under the INC umbrella. It was a separate forum for social reform within the nationalist movement. Option C correctly identifies the founders and purpose.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "section": "Modern India",
+    "question": "Which of the following parties were established by Dr. B.R. Ambedkar?\n1. The Peasants and Workers Party of India.\n2. All India Scheduled Castes Federation.\n3. The Independent Labour Party.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Dr. B.R. Ambedkar founded the All India Scheduled Castes Federation (1942) and the Independent Labour Party (1936). The Peasants and Workers Party of India was NOT founded by Ambedkar — it was a separate political formation. Hence only 2 and 3 are correct.",
+    "motivation": "Ambedkar's political parties: Independent Labour Party (1936), All India Scheduled Castes Federation (1942), and later Republican Party of India (1956, after his death). The Peasants and Workers Party is unrelated to Ambedkar.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "section": "Polity",
+    "question": "Which of the following special powers have been conferred on the Rajya Sabha by the Constitution of India?",
+    "options": {
+      "a": "To change the existing territory of a State and to change the name of a State.",
+      "b": "To pass a resolution empowering the Parliament to make laws in the State List and to create one or more All India Services.",
+      "c": "To amend the election procedure of the President and to determine the pension of the President after his/her retirement.",
+      "d": "To determine the functions of the Election Commission and determine the number of Election Commissioners."
+    },
+    "answer": "B",
+    "explanation": "Rajya Sabha has two special exclusive powers: (1) Under Article 249 — it can pass a resolution by 2/3rd majority to empower Parliament to make laws on State List subjects in national interest, and (2) Under Article 312 — it can pass a resolution to create new All India Services. These are powers that ONLY Rajya Sabha can exercise, not Lok Sabha. None of the other options (a, c, d) are exclusive Rajya Sabha powers.",
+    "motivation": "Rajya Sabha special powers = Art 249 (State List legislation) + Art 312 (All India Services). These represent the federal character of Rajya Sabha as guardian of state interests. A must-know for Polity.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "section": "Economic and Social Development",
+    "question": "How does the National Rural Livelihood Mission seek to improve livelihood options of rural poor?\n1. By setting up a large number of new manufacturing industries and agribusiness centres in rural areas.\n2. By strengthening 'self-help groups' and providing skill development.\n3. By supplying seeds, fertilizers, diesel pump-sets and micro-irrigation equipment free of cost to farmers.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "The National Rural Livelihood Mission (NRLM, also known as Aajeevika) primarily focuses on strengthening self-help groups (SHGs) and providing skill development to rural poor. It does NOT set up manufacturing industries (statement 1) or supply agricultural inputs free of cost (statement 3). The core strategy is building institutions of the poor, especially women's SHGs, and linking them with financial services and markets.",
+    "motivation": "NRLM = SHGs + skill development + financial inclusion. It's NOT about setting up industries or giving free inputs. When evaluating scheme-based questions, look for the core strategy, not peripheral programs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "section": "Economic and Social Development",
+    "question": "The Multi-dimensional Poverty Index developed by 'Oxford Poverty and Human Development Initiative with UNDP support covers which of the following?\n1. Deprivation of education, health, assets and services at household level.\n2. Purchasing power parity at national level.\n3. Extent of budget deficit and GDP growth rate at national level.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "The Multidimensional Poverty Index (MPI) developed by OPHI with UNDP support measures poverty at the household level across multiple dimensions including education (years of schooling, school attendance), health (child mortality, nutrition), and living standards (cooking fuel, sanitation, water, electricity, floor, assets). It does NOT cover purchasing power parity or GDP growth rates — those are macroeconomic indicators, not part of MPI.",
+    "motivation": "MPI = household-level multi-dimensional deprivation. It replaced the earlier Human Poverty Index. Key dimensions: Health, Education, and Living Standards. Macroeconomic indicators like PPP and GDP are NOT part of MPI.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "section": "Polity",
+    "question": "Which of the following is/are among the noticeable features of the recommendations of the Thirteenth Finance Commission?\n1. A design for the Goods and Services Tax, and a compensation package linked to adherence to the proposed design.\n2. A design for the creation of lakhs of jobs in the next ten years in consonance with India's demographic dividend.\n3. Devolution of a specified share of central taxes to local bodies as grants.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "The 13th Finance Commission recommended a design for GST with a compensation package for states linked to adherence to the proposed design (statement 1 is correct). Statement 3 is tricky — the 13th Finance Commission did mention local body grants, but the word 'Devolution' has a technical meaning and is not specifically used in this context in the report; it is a specific amount of Rs.87519 crore. Statement 2 about job creation is NOT a feature of the 13th Finance Commission recommendations.",
+    "motivation": "The 13th Finance Commission's GST compensation package is its most notable recommendation. 'Devolution' has a technical meaning here that makes statement 3 contestable. When in doubt, the GST design recommendation is the most cited feature.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "section": "Economic and Social Development",
+    "question": "What is/are the recent policy initiative(s) of Government of India to promote the growth of manufacturing sector?\n1. Setting up of National Investment and Manufacturing Zones.\n2. Providing the benefit of 'single window clearance'.\n3. Establishing the Technology Acquisition and Development Fund.\nSelect the correct answer using codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three are policy initiatives of the Government of India to promote manufacturing growth: National Investment and Manufacturing Zones (NIMZs) are large integrated industrial townships with state-of-the-art infrastructure. Single window clearance reduces bureaucratic hurdles for investors. Technology Acquisition and Development Fund was established to help Indian manufacturers acquire clean and green technologies. All three are part of the National Manufacturing Policy.",
+    "motivation": "National Manufacturing Policy (2011) introduced NIMZs, single window clearance, and TADF. This was a current affairs question in 2012. All three statements are correct — answer is D.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 35,
+    "section": "Polity",
+    "question": "Which of the following are the methods of Parliamentary control over public finance in India?\n1. Placing Annual Financial Statement before the Parliament.\n2. Withdrawal of moneys from Consolidated Fund of India only after passing the Appropriation Bill.\n3. Provisions of supplementary grants and vote-on-account.\n4. A periodic or at least a mid-year review of programme macroeconomic forecasts and expenditure by a Parliamentary Budget Office.\n5. Introducing Finance Bill in the Parliament.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1, 2, 3 and 5 only",
+      "b": "1, 2 and 4 only",
+      "c": "3, 4 and 5 only",
+      "d": "1, 2, 3, 4 and 5"
+    },
+    "answer": "A",
+    "explanation": "Methods 1, 2, 3 and 5 are established constitutional/parliamentary methods of financial control: Annual Financial Statement (Union Budget), Appropriation Bill, supplementary grants and vote-on-account, and the Finance Bill are all existing mechanisms. Statement 4 (Parliamentary Budget Office for mid-year review) is NOT yet an established method in India — it has been recommended but not institutionalised as of 2012.",
+    "motivation": "Parliamentary Budget Office is a recommendation, not a reality as of 2012. The other four (Annual Financial Statement, Appropriation Bill, supplementary grants/vote-on-account, Finance Bill) are well-established. Answer is A.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "section": "Modern India",
+    "question": "Mahatma Gandhi undertook fast unto death in 1932, mainly because",
+    "options": {
+      "a": "Round Table Conference failed to satisfy Indian political aspirations.",
+      "b": "Congress and Muslim League had differences of opinion.",
+      "c": "Ramsay Macdonald announced the Communal Award.",
+      "d": "None of the statements (a), (b) and (c) given above is correct in this context."
+    },
+    "answer": "C",
+    "explanation": "Gandhi undertook a fast unto death in September 1932 against the Communal Award announced by British Prime Minister Ramsay MacDonald, which granted separate electorates to depressed classes (Dalits/Scheduled Castes). Gandhi opposed this as it would divide Hindu society further. The fast led to the Poona Pact (1932) between Gandhi and Ambedkar, which replaced separate electorates with reserved seats for depressed classes.",
+    "motivation": "Gandhi's 1932 fast = against Communal Award (separate electorates for Dalits) → led to Poona Pact. This is a straightforward fact from Bipin Chandra. C is clearly correct.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "section": "Modern India",
+    "question": "With reference to Ryotwari Settlement, consider the following statements:\n1. The rent was paid directly by the peasants to the Government.\n2. The government gave Pattas to the Ryots.\n3. The lands were surveyed and assessed before being taxed.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "C",
+    "explanation": "All three statements about Ryotwari Settlement are correct. In Ryotwari Settlement (introduced by Thomas Munro in Madras): (1) Rent/land revenue was paid directly by the peasants (ryots) to the government — no intermediary zamindars. (2) The government gave pattas (land ownership documents) directly to the ryots. (3) Lands were surveyed and assessed based on soil quality before being taxed. This was in contrast to Permanent Settlement where zamindars were intermediaries.",
+    "motivation": "Ryotwari = direct settlement between government and peasant. No intermediary. All three features are correct. This is a well-known topic from NCERT Modern India.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "section": "Demographics",
+    "question": "Consider the following specific stages of demographic transition associated with economic development:\n1. Low birthrate with low death rate.\n2. High birthrate with high death rate.\n3. High birthrate with low death rate.\nSelect the correct order of the above stages using the codes given below:",
+    "options": {
+      "a": "1, 2, 3",
+      "b": "2, 1, 3",
+      "c": "2, 3, 1",
+      "d": "3, 2, 1"
+    },
+    "answer": "C",
+    "explanation": "The Demographic Transition Model progresses as follows: Stage 1: High birthrate + High death rate (pre-industrial society, undeveloped). Stage 2: High birthrate + Low death rate (early development, death rates fall due to improved healthcare, population explosion). Stage 3: Low birthrate + Low death rate (developed society, population stabilizes). So the correct order is: 2 (High-High) → 3 (High-Low) → 1 (Low-Low).",
+    "motivation": "Demographic Transition: Pre-industrial → Developing (death rate falls first, birth rate stays high) → Developed (birth rate also falls). The key insight is death rates fall before birth rates during development. Order: 2→3→1.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "section": "Economic and Social Development",
+    "question": "In India, in the overall index of Industrial Production, the Indices of Eight Core Industries have a combined weight of 37.90%. Which of the following are among those Eight Core Industries?\n1. Cement\n2. Fertilizers\n3. Natural Gas\n4. Refinery products\n5. Textiles\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 5 only",
+      "b": "2, 3 and 4 only",
+      "c": "1, 2, 3 and 4 only",
+      "d": "1, 2, 3, 4 and 5"
+    },
+    "answer": "C",
+    "explanation": "The Eight Core Industries (as of 2012) are: Coal, Crude Oil, Natural Gas, Petroleum Refinery Products, Fertilizers, Steel, Cement, and Electricity. Textiles is NOT one of the eight core industries. Hence 1 (Cement), 2 (Fertilizers), 3 (Natural Gas), and 4 (Refinery products) are all among the eight core industries, but 5 (Textiles) is not.",
+    "motivation": "Eight Core Industries — memorize the list: Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, Electricity. Textiles and automobiles are NOT core industries. Answer is C (all except Textiles).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "section": "Polity",
+    "question": "Which of the following provisions of the Constitution of India have a bearing on Education?\n1. Directive Principles of State Policy.\n2. Rural and Urban Local Bodies.\n3. Fifth Schedule\n4. Sixth Schedule\n5. Seventh Schedule\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3, 4 and 5 only",
+      "c": "1, 2 and 5 only",
+      "d": "1, 2, 3, 4 and 5"
+    },
+    "answer": "C",
+    "explanation": "Seventh Schedule determines whether Education is a Union, State or Concurrent matter (it is in Concurrent List). Sixth Schedule provides for education including primary, secondary, higher secondary, vocational training, adult education, and college education (general). Rural and Urban Local Bodies (73rd and 74th amendments) include education as a function. DPSP has provisions related to free and compulsory education for children (Art 45). The Fifth Schedule does NOT specifically mention education. So 1, 2, and 5 are correct.",
+    "motivation": "Education appears in DPSP (Art 45), Concurrent List of 7th Schedule, and as a function of local bodies (73rd/74th amendments). Fifth Schedule relates to Scheduled Areas administration — no specific education mention. Answer is C.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "section": "Environment",
+    "question": "Government of India encourages the cultivation of 'sea buckthorn'. What is the importance of this plant?\n1. It helps in controlling soil erosion and in preventing desertification.\n2. It is a rich source of biodiesel.\n3. It has nutritional value and is well-adapted to live in cold areas of high altitudes.\n4. Its timber is of great commercial value.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2, 3 and 4 only",
+      "c": "1 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Sea buckthorn (Hippophae) is encouraged by the Government of India because: (1) It helps control soil erosion and prevent desertification due to its extensive root system. (3) It has high nutritional value (rich in vitamins C, E, and fatty acids) and is well-adapted to cold high-altitude areas. It is NOT a rich source of biodiesel (statement 2) and its timber is NOT of great commercial value (statement 4). The question specifically asks why government encourages it — the answer relates to its ecological and nutritional benefits.",
+    "motivation": "Sea buckthorn = ecological plant for cold/high altitude areas (Himalayan region). It's known for soil conservation and nutritional value, NOT biodiesel or timber. Note the question asks why the government encourages it — economic incentives narrow the answer.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 42,
+    "section": "Geography",
+    "question": "Which of the following is the chief characteristic of 'mixed farming'?",
+    "options": {
+      "a": "Cultivation of both cash crops and food crops.",
+      "b": "Cultivation of two or more crops in the same field.",
+      "c": "Rearing of animals and cultivation of crops together.",
+      "d": "None of the above."
+    },
+    "answer": "C",
+    "explanation": "Mixed farming refers to an agricultural system in which a farmer conducts different agricultural practices together, such as combining crop cultivation with raising livestock/animals. The chief characteristic is the combination of crop farming and animal husbandry on the same farm. This is distinct from 'mixed cropping' (growing multiple crops in same field) and 'commercial farming' (cash + food crops).",
+    "motivation": "Mixed farming = crops + animals together. Do not confuse with mixed cropping (multiple crops in same field). This distinction is consistently tested in geography. PIB and The Hindu articles on agriculture discuss this frequently.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "section": "Geography",
+    "question": "A particular State in India has the following characteristics:\n1. It is located on the same latitude which passes through northern Rajasthan.\n2. It has over 80% of its area under forest cover.\n3. Over 12% of forest cover constitutes Protected Area Network in this State.\nWhich one among the following States has all the above characteristics?",
+    "options": {
+      "a": "Arunachal Pradesh",
+      "b": "Assam",
+      "c": "Himachal Pradesh",
+      "d": "Uttarakhand"
+    },
+    "answer": "A",
+    "explanation": "Arunachal Pradesh: (1) is located approximately at the same latitude as northern Rajasthan (approximately 26°N-29°N). (2) Has over 80% of its area under forest cover — it is one of the most forested states. (3) Has over 12% of its forest cover constituting Protected Area Network. The FSI (Forest Survey of India) Report confirms Arunachal Pradesh's exceptionally high forest cover percentage.",
+    "motivation": "Arunachal Pradesh has one of the highest forest cover percentages in India (~80%). Its latitude corresponds to northern Rajasthan. This was a current affairs question based on FSI Report released before 2012 Prelims.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "section": "Science",
+    "question": "Consider the following crops of India:\n1. Cowpea\n2. Green gram\n3. Pigeon pea\nWhich of the above is/are used as pulse, fodder and green manure?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three crops can serve as pulse (for food), fodder (for animals), and green manure (ploughed back into soil for nitrogen fixation). Green manure crops are nitrogen-fixing legumes. Pigeon pea is in some areas an important crop for green manure, providing up to 40 kg nitrogen per hectare. The woody stems of pigeon peas can also be used as firewood, fencing and thatch. Cowpea and green gram are also well-known for all three uses.",
+    "motivation": "Leguminous crops (pulses) are nitrogen-fixers — they enrich soil and serve as green manure. Cowpea, green gram (moong), and pigeon pea (tur/arhar) all qualify for all three uses. Answer is D — all three.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 45,
+    "section": "Geography",
+    "question": "Consider the following factors:\n1. Rotation of the Earth\n2. Air pressure and wind\n3. Density of ocean water\n4. Revolution of the Earth\nWhich of the above factors influence the ocean currents?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "1, 2 and 3",
+      "c": "1 and 4",
+      "d": "2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "Ocean currents are influenced by: (1) Rotation of Earth — Coriolis effect deflects currents clockwise in Northern Hemisphere and anticlockwise in Southern Hemisphere. (2) Air pressure and wind — trade winds, westerlies drive surface currents. (3) Density of ocean water — differences in temperature and salinity create thermohaline circulation (deep ocean currents). Revolution of the Earth (statement 4) does NOT directly influence ocean currents.",
+    "motivation": "Ocean currents = Coriolis (Earth's rotation) + Winds + Density differences (thermohaline). Earth's revolution (around Sun) affects seasons but NOT ocean currents directly. B (1, 2, 3) is correct.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 46,
+    "section": "Geography",
+    "question": "With reference to the wetlands of India, consider the following statements:\n1. The country's total geographical area under the category of wetlands is recorded more in Gujarat as compared to other States.\n2. In India, the total geographical area of coastal wetlands is larger than that of inland wetlands.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "A",
+    "explanation": "Statement 1 is correct: Gujarat is called 'Land of wetlands' and has the maximum total geographical area under wetlands compared to other states, primarily due to the Rann of Kutch. Statement 2 is incorrect: In India, the total geographical area of inland wetlands is larger than that of coastal wetlands.",
+    "motivation": "Gujarat = largest wetland area in India (Rann of Kutch dominates). Inland wetlands > coastal wetlands in area. Only statement 1 is correct. Answer A.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 47,
+    "section": "Geography",
+    "question": "Consider the following crops of India:\n1. Groundnut\n2. Sesamum\n3. Pearl millet\nWhich of the above is/are predominantly rainfed crop/crops?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three — groundnut, sesamum, and pearl millet — are predominantly rainfed crops. Pearl millet is well adapted to growing areas characterized by drought, low soil fertility, and high temperature. Millet is dryland predominantly. Groundnut is largely grown in rainfed conditions in peninsular India. Sesamum is also a rainfed oilseed crop. All three are kharif crops grown primarily in rain-dependent conditions.",
+    "motivation": "Rainfed crops are those that depend on rainfall rather than irrigation. Groundnut, sesamum (til/sesame), and bajra (pearl millet) are all rainfed Kharif crops. Answer D — all three.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 48,
+    "section": "Geography",
+    "question": "When you travel in Himalayas, you will see the following:\n1. Deep gorges\n2. U-turn river courses\n3. Parallel mountain ranges\n4. Steep gradients causing land-sliding.\nWhich of the above can be said to be the evidence for Himalayas being young fold mountains?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "1, 2 and 4 only",
+      "c": "3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "All four features are evidence of the Himalayas being young fold mountains: (1) Deep gorges form because rivers are older than the mountains and continue cutting downward as uplift occurs. (2) U-turn river courses (antecedent drainage) show rivers predating the mountains. (3) Parallel mountain ranges are characteristic of fold mountain systems. (4) Steep gradients and landslides indicate the mountains are still young, unstable, and tectonically active. These are all classic evidences of young fold mountains.",
+    "motivation": "Young fold mountains = still rising + tectonically active + antecedent drainage. All four features mentioned are direct evidence. Answer D — all four.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "section": "Geography",
+    "question": "Normally, the temperature decreases with the increase in height from the Earth's surface, because\n1. The atmosphere can be heated upwards only from the Earth's surface\n2. There is more moisture in the upper atmosphere.\n3. The air is less dense in the upper atmosphere.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Temperature decreases with altitude because: (1) The atmosphere is warmed from below (from Earth's surface) — the Earth absorbs solar radiation and re-radiates it as longwave radiation which heats the atmosphere from the ground up. (3) Air is less dense at higher altitudes — fewer air molecules mean less ability to retain heat. Statement 2 is incorrect — there is actually more moisture (water vapour) in lower atmosphere, not upper. Moisture helps retain heat, and its absence at higher altitudes also contributes to cooling.",
+    "motivation": "Atmosphere is heated from Earth's surface upward (statement 1 correct). Less dense air at high altitudes retains less heat (statement 3 correct). Upper atmosphere has LESS moisture (statement 2 is wrong). Answer C.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "section": "Geography",
+    "question": "The acidification of oceans is increasing. Why is this phenomenon a cause of concern:\n1. The growth and survival of calcareous phytoplankton will be adversely affected.\n2. The growth and survival of coral reefs will be adversely affected.\n3. The survival of some animals that have phytoplanktonic larvae will be adversely affected.\n4. The cloud seeding and formation of clouds will be adversely affected.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "Ocean acidification (caused by absorption of excess CO2) is a concern for all four reasons: (1) Calcareous phytoplankton (with calcium carbonate shells) will be adversely affected — acidic water dissolves carbonate shells. (2) Coral reefs (also calcium carbonate based) will be adversely affected — coral bleaching and dissolution. (3) Animals with phytoplanktonic larvae will be adversely affected as their food source collapses. (4) Phytoplankton releases DMS (dimethylsulphide) which influences cloud formation — loss of phytoplankton affects cloud seeding. All four are legitimate concerns.",
+    "motivation": "Ocean acidification = threats to ALL carbonate-based organisms + food chains + even cloud formation via DMS reduction. This is a comprehensive question — all four statements are correct. Answer D.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 51,
+    "section": "Polity",
+    "question": "In India, other than ensuring that public funds are used efficiently and for intended purpose, what is the importance of the office of the Comptroller and Auditor General (CAG)?\n1. CAG exercises exchequer control on behalf of the Parliament when the President of India declares national emergency/financial emergency.\n2. CAG reports on the execution of projects or programmes by the ministries are discussed by the Public Accounts Committee.\n3. Information from CAG reports can be used by investigating agencies to press charges against those who have violated the law while managing public finances.\n4. While dealing with the audit and accounting of government companies, CAG has certain judicial powers for prosecuting those who violate the law.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1, 2 and 4 only",
+      "b": "2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Statement 2 is correct: CAG reports are examined by the Public Accounts Committee (PAC) of Parliament. Statement 3 is correct: CAG reports (like the 2G spectrum report, coal scam report) provide information that investigating agencies like CBI can use to press charges. Statement 1 is incorrect: CAG does not exercise exchequer control during emergencies — this is not a constitutional provision. Statement 4 is incorrect: CAG has NO judicial powers — it is an audit institution, not a judicial one.",
+    "motivation": "CAG = auditor, NOT prosecutor. CAG reports are taken up by PAC (statement 2 correct). CAG reports can trigger investigations (statement 3 correct). CAG has NO judicial powers (statement 4 wrong). CAG doesn't exercise exchequer control (statement 1 wrong). Answer C.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "section": "Economic and Social Development",
+    "question": "The endeavour of 'Janani Suraksha Yojana' Programme is\n1. To promote institutional deliveries.\n2. To provide monetary assistance to the mother to meet the cost of delivery.\n3. To provide for wage loss due to pregnancy and confinement.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Janani Suraksha Yojana (JSY) is a safe motherhood intervention under NRHM/NHM. Its primary objectives are: (1) To promote institutional deliveries by incentivising pregnant women to deliver in health facilities, and (2) To provide monetary assistance/cash incentive to the mother to meet the cost of delivery. Statement 3 (wage loss compensation during pregnancy/confinement) is NOT an objective of JSY — that falls under Maternity Benefit Act or other schemes.",
+    "motivation": "JSY = institutional delivery + cash incentive for delivery cost. It does NOT cover wage loss — that's a different scheme. Statements 1 and 2 are correct. Answer A.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "section": "Polity",
+    "question": "The Prime Minister of India, at the time of his/her appointment:",
+    "options": {
+      "a": "Need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months.",
+      "b": "Need not necessarily be a member of one of the Houses of the Parliament but must become a member of the Lok Sabha within six months.",
+      "c": "Must be a member of one of the Houses of the Parliament.",
+      "d": "Must be a member of the Lok Sabha."
+    },
+    "answer": "A",
+    "explanation": "By convention and constitutional practice, the Prime Minister need not be a member of Parliament at the time of appointment, but must become a member of either House (Lok Sabha OR Rajya Sabha) within six months of appointment. The PM can be from either house — they are not required to be specifically from Lok Sabha. Option B is wrong because it restricts to Lok Sabha only. Option C and D are wrong because they require existing membership.",
+    "motivation": "PM can be from Rajya Sabha too (e.g., Manmohan Singh was PM from Rajya Sabha). Not required to be a member at appointment but must join either house within 6 months. Key distinction from option B: it can be ANY house, not just Lok Sabha.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 54,
+    "section": "Polity",
+    "question": "With reference to the Delimitation Commission, consider the following statements:\n1. The orders of the Delimitation Commission cannot be challenged in a Court of Law.\n2. When the orders of the Delimitation Commission are laid before the Lok Sabha or State Legislative Assembly, they cannot effect any modifications in the orders.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "C",
+    "explanation": "Both statements are correct. (1) The orders of the Delimitation Commission have the force of law and cannot be called in question before any court — they are final and binding under Article 329 of the Constitution. (2) When laid before Lok Sabha or State Assembly, the House cannot modify the orders — they can only suggest changes which the Commission may or may not accept, but the legislature cannot enforce modifications.",
+    "motivation": "Delimitation Commission orders = legally unchallengeable in courts + Parliament cannot modify them. This makes delimitation an independent constitutional process. Both statements are correct — C.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "section": "Economic and Social Development",
+    "question": "Consider the following:\n1. Hotels and restaurants\n2. Motor transport undertakings\n3. Newspaper establishments\n4. Private medical institutions\nThe employees of which of the above can have the 'Social Security' coverage under Employees' State Insurance Scheme?",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "4 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "The Employees' State Insurance (ESI) Act, 1948 covers all four categories. ESI is applicable to all establishments/factories employing 10 or more persons (in some states 20 or more). It covers hotels and restaurants, motor transport undertakings, newspaper establishments, and private medical institutions. All employees earning up to a specified wage limit in these establishments are covered under the ESI scheme for medical, maternity, disability and other benefits.",
+    "motivation": "ESI Scheme has broad coverage — it applies to hotels, transport, newspapers, and even private hospitals. All four categories are covered. Answer D.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 56,
+    "section": "Polity",
+    "question": "According to the Constitution of India, it is the duty of the President of India to cause to be laid before the Parliament which of the following?\n1. The Recommendation of the Union Finance Commission.\n2. The Report of the Public Accounts Committee.\n3. The Report of the Comptroller and Auditor General.\n4. The Report of the National Commission for Scheduled Castes.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 4 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "The President is constitutionally required to lay before Parliament: (1) Finance Commission recommendations (Art 281), (3) CAG reports (Art 151), and (4) NCSC reports (Art 338). The Report of the Public Accounts Committee (statement 2) is NOT laid before Parliament by the President — the PAC is itself a committee OF Parliament, and its reports are presented to Parliament directly, not via the President.",
+    "motivation": "President lays before Parliament: Finance Commission reports, CAG reports, NCSC/NCST/NCBC reports, and various other constitutional body reports. PAC is Parliament's own committee — its reports don't go through the President. Answer C.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 57,
+    "section": "Polity",
+    "question": "A deadlock between the Lok Sabha and the Rajya Sabha calls for a joint sitting of the Parliament during the passage of\n1. Ordinary Legislation\n2. Money Bill\n3. Constitution Amendment Bill\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Under Article 108, a joint sitting can be called only for ordinary (non-money, non-constitutional amendment) Bills. Money Bills (Art 110) cannot be referred to a joint sitting — Rajya Sabha can only suggest amendments but cannot reject a Money Bill; it automatically passes after 14 days. Constitution Amendment Bills (Art 368) must be passed separately by each House with special majority — there is no provision for joint sitting for constitutional amendments.",
+    "motivation": "Joint sitting = only for ordinary bills. NOT for Money Bills (Rajya Sabha has no power to reject) and NOT for Constitutional Amendment Bills (must pass both houses separately with special majority). Answer A.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 58,
+    "section": "Economic and Social Development",
+    "question": "How do District Rural Development Agencies (DRDAs) help in the reduction of rural poverty in India?\n1. DRDAs act as Panchayati Raj Institutions in certain specified backward regions of the country.\n2. DRDAs undertake area-specific scientific study of the causes of poverty and malnutrition and prepare detailed remedial measures.\n3. DRDAs secure inter-sectoral and inter-departmental coordination and cooperation for effective implementation of anti-poverty programmes.\n4. DRDAs watch over and ensure effective utilization of the funds intended for anti-poverty programmes.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "3 and 4 only",
+      "c": "4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "DRDAs (District Rural Development Agencies) are administrative bodies, not Panchayati Raj Institutions (statement 1 is wrong). They do NOT conduct scientific studies on poverty causes (statement 2 is wrong). Their actual roles are: securing inter-sectoral coordination for anti-poverty programmes (statement 3 correct) and watching over the effective utilization of funds (statement 4 correct). DRDAs function as conduits for channelling central funds and coordinating implementation.",
+    "motivation": "DRDAs = coordination + fund utilization oversight. They are NOT PRI institutions and don't do poverty research. Statements 3 and 4 capture their actual administrative role. Answer B.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 59,
+    "section": "Polity",
+    "question": "Which of the following is/are among the Fundamental Duties of citizens laid down in the Indian Constitution?\n1. To preserve the rich heritage of our composite culture.\n2. To protect the weaker sections from social injustice.\n3. To develop the scientific temper and spirit of inquiry.\n4. To strive towards excellence in all spheres of individual and collective activity.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Under Article 51A, the Fundamental Duties include: To preserve the rich heritage of our composite culture (statement 1 — correct), To develop the scientific temper, humanism and the spirit of inquiry (statement 3 — correct), and To strive towards excellence in all spheres (statement 4 — correct). Statement 2 (to protect weaker sections from social injustice) is NOT a Fundamental Duty — it is a Directive Principle of State Policy. Hence 1, 3 and 4 are correct.",
+    "motivation": "Fundamental Duties (Art 51A) are often confused with DPSPs. 'Protect weaker sections' is a DPSP, not a Fundamental Duty. The 11 Fundamental Duties include national heritage, scientific temper, excellence, etc. Answer C.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "section": "Polity",
+    "question": "What is the provision to safeguard the autonomy of the Supreme Court of India?\n1. While appointing the Supreme Court Judges, the President of India has to consult the Chief Justice of India.\n2. The Supreme Court Judges can be removed by the Chief Justice of India only.\n3. The salaries of the Judges are charged on the Consolidated Fund of India to which the legislature does not have to vote.\n4. All appointments of officers and staffs of the Supreme Court of India are made by the Government only after consulting the Chief Justice of India.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "3 and 4 only",
+      "c": "4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "A",
+    "explanation": "Statement 1 is correct: The President must consult the CJI while appointing SC judges (and in practice follows the collegium recommendation). Statement 2 is incorrect: SC judges can only be removed through an address by Parliament (impeachment process), NOT by the CJI alone. Statement 3 is correct: Judges' salaries charged on Consolidated Fund of India — not subject to parliamentary vote, ensuring judicial independence. Statement 4 is incorrect: Appointments of SC officers/staff are made by the CJI, not by the government after consultation.",
+    "motivation": "Judicial independence safeguards: consultation in appointments (statement 1) + salaries on CFI not votable (statement 3). Judges can only be removed by Parliament (impeachment), not by CJI. Statement 4 reverses who has authority — it's CJI who appoints, not government. Answer A.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 61,
+    "section": "Science",
+    "question": "To meet its rapidly growing energy demand, some opine that India should pursue research and development on thorium as the future fuel of nuclear energy. In this context, what advantage does thorium hold over uranium?\n1. Thorium is far more abundant in nature than uranium.\n2. On the basis of per unit mass of mined mineral, thorium can generate more energy compared to natural uranium.\n3. Thorium produces less harmful waste compared to uranium.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three statements about thorium's advantages are correct. (1) Thorium is far more abundant than uranium — by about four times. (2) It is estimated that Thorium may be able to generate (through Uranium-233 that could be produced from it) eight times the amount of energy per unit mass compared to natural Uranium. (3) The waste from a thorium reactor can be less toxic than the uranium ore that would have been used to produce low enriched uranium fuel for a light water reactor.",
+    "motivation": "India has vast thorium reserves (world's largest in Kerala's monazite sands). Thorium = more abundant + more energy per unit + less harmful waste. India's 3-stage nuclear power programme aims to eventually use thorium. All three correct — answer D.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 62,
+    "section": "Environment",
+    "question": "The increasing amount of carbon dioxide in the air is slowly raising the temperature of the atmosphere, because it absorbs",
+    "options": {
+      "a": "The water vapour of the air and retains its heat.",
+      "b": "The ultraviolet part of the solar radiation.",
+      "c": "All the solar radiations.",
+      "d": "The infrared part of the solar radiation."
+    },
+    "answer": "D",
+    "explanation": "CO2 and other greenhouse gases absorb the infrared (longwave) radiation that is re-emitted by the Earth's surface after it absorbs solar radiation. The Sun's energy arrives as visible and ultraviolet radiation (short wave). Earth's surface absorbs it and re-emits it as infrared radiation. CO2 traps this infrared radiation in the atmosphere, preventing it from escaping to space, thereby warming the planet — this is the greenhouse effect.",
+    "motivation": "Greenhouse effect mechanism: Sun's shortwave radiation passes through atmosphere → Earth absorbs and re-emits as infrared/longwave → CO2 absorbs this infrared → warming. CO2 absorbs INFRARED, not UV or all solar radiation. Answer D.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "section": "Science",
+    "question": "Which one of the following sets of elements was primarily responsible for the origin of life on the Earth?",
+    "options": {
+      "a": "Hydrogen, Oxygen, Sodium",
+      "b": "Carbon, Hydrogen, Nitrogen",
+      "c": "Oxygen, Calcium, Phosphorus",
+      "d": "Carbon, Hydrogen, Potassium"
+    },
+    "answer": "B",
+    "explanation": "Life on Earth originated primarily from Carbon, Hydrogen, Nitrogen (along with Oxygen, Phosphorus, and Sulphur — often remembered as CHNOPS). Carbon is the backbone of all organic molecules. Hydrogen is essential for organic chemistry. Nitrogen is key for amino acids and nucleic acids. The Miller-Urey experiment showed that organic compounds could form from CH4, NH3, H2O, and H2 — all containing C, H, and N.",
+    "motivation": "The basic building blocks of life: C, H, N, O, P, S (CHNOPS). Among the options, Carbon-Hydrogen-Nitrogen best represents the organic chemistry foundation of life. Answer B.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 64,
+    "section": "Science",
+    "question": "What are the reasons for the people's resistance to the introduction of Bt brinjal in India?\n1. Bt brinjal has been created by inserting a gene from a soil fungus into its genome.\n2. The seeds of Bt brinjal are terminator seeds and therefore, the farmers have to buy the seeds before every season from the seed companies.\n3. There is an apprehension that the consumption of Bt brinjal may have adverse impact on health.\n4. There is some concern that the introduction of Bt brinjal may have adverse effect on the biodiversity.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 and 3 only",
+      "c": "3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Statement 1 is incorrect: Bt brinjal has a gene from the soil bacterium Bacillus thuringiensis (Bt), NOT from a soil fungus. Statement 2 is incorrect: The claim that Bt brinjal has terminator genes is still in concept stage — GM crops have terminator gene technology but it is NOT yet commercial; Bt brinjal does not have terminator seeds as per available information. Statements 3 and 4 are the actual reasons for public resistance — health concerns and biodiversity concerns are genuine public apprehensions that led to the moratorium on Bt brinjal in 2010.",
+    "motivation": "Bt = Bacillus thuringiensis (bacteria, not fungus). Terminator seeds for Bt brinjal is not established. Health fears (statement 3) and biodiversity fears (statement 4) are the REAL reasons for moratorium. Answer C.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 65,
+    "section": "Science",
+    "question": "Other than resistance to pests, what are the prospects for which genetically engineered plants have been created?\n1. To enable them to withstand drought.\n2. To increase the nutritive value of the produce.\n3. To enable them to grow and do photosynthesis in spaceships and space stations.\n4. To increase their shelf life.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 and 4 only",
+      "c": "1, 2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "All four are legitimate prospects for genetically engineered plants. (1) Drought-resistant GM crops are actively being developed. (2) Golden Rice is an example of increasing nutritive value (Vitamin A). (3) Research exists on engineering microbes and plants that are optimized for growth in artificial conditions of space — this is an active area of research. (4) Increased shelf life is a common GM application (e.g., Flavr Savr tomato). Hence all four are correct.",
+    "motivation": "GM plants have multiple applications beyond pest resistance: drought tolerance, nutrition enhancement (Golden Rice), space agriculture research, and shelf life extension. All four statements are research areas. Answer D.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 66,
+    "section": "Modern India",
+    "question": "Consider the following statements: The most effective contribution made by Dadabhai Naoroji to the cause of Indian National Movement was that he\n1. Exposed the economic exploitation of India by the British.\n2. Interpreted the ancient Indian texts and restored the self-confidence of Indians.\n3. Stressed the need for eradication of all the social evils before anything else.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Dadabhai Naoroji is best known for his Drain of Wealth theory — he exposed the economic exploitation of India by the British through the systematic transfer of wealth from India to Britain. His work 'Poverty and Un-British Rule in India' laid the economic case for self-rule. Statement 2 (interpreting ancient texts) describes Bal Gangadhar Tilak and other Hindu revivalists, not Naoroji. Statement 3 (social reform first) describes reformers like Gokhale or Raja Ram Mohan Roy in specific contexts. Naoroji's primary contribution was economic critique.",
+    "motivation": "Dadabhai Naoroji = Grand Old Man of India + Drain Theory. His primary contribution was economic — showing how Britain drained India's wealth. Statements 2 and 3 describe others. Answer A.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 67,
+    "section": "Culture",
+    "question": "With reference to Dhrupad, one of the major traditions of India that has been kept alive for centuries, which of the following statements are correct?\n1. Dhrupad originated and developed in the Rajput kingdoms during the Mughal period.\n2. Dhrupad is primarily a devotional and spiritual music.\n3. Dhrupad Alap uses Sanskrit syllables from Mantras.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 3",
+      "d": "None of the above is correct"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is incorrect: Dhrupad is the oldest surviving form of Indian Classical music and traces its origin to the chanting of vedic hymns and mantras. It was NOT specifically developed in Rajput kingdoms during Mughal period — it predates the Mughal period. Statement 2 is correct: Though a highly developed classical art, Dhrupad is also primarily a form of worship and devotional/spiritual music. Statement 3 is correct: Dhrupad Alap uses sacred Sanskrit syllables derived from Sanskrit mantras.",
+    "motivation": "Dhrupad = oldest surviving Indian classical music form + vedic origin + devotional/spiritual + Sanskrit syllables in alap. It is NOT a Mughal-Rajput creation. Statements 2 and 3 are correct. Answer B.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 68,
+    "section": "Culture",
+    "question": "How do you distinguish between Kuchipudi and Bharatnatyam dances?\n1. Dancers occasionally speaking dialogues is found in Kuchipudi dance but not in Bharatnatyam.\n2. Dancing on the brass plate by keeping the feet on its edges is a feature of Bharatnatyam but Kuchipudi dance does not have such a form of movements.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "A",
+    "explanation": "Statement 1 is correct: In Kuchipudi, one unique feature that keeps it apart from other classical dance forms is the occasional use of dialogues. This is something that no other classical dance form of India does. Statement 2 is incorrect: The 'Tarangam', where a dancer dances on the edge of a brass plate, is a feature of KUCHIPUDI, not Bharatnatyam. So the statement has reversed the association — it's a Kuchipudi feature, not Bharatnatyam.",
+    "motivation": "Kuchipudi distinguishing features: (1) use of spoken dialogues and (2) Tarangam — dancing on brass plate edges. Statement 2 wrongly attributes Tarangam to Bharatnatyam. Only statement 1 is correct. Answer A.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 69,
+    "section": "Medieval India",
+    "question": "With reference to the religious history of medieval India, the Sufi mystics were known to pursue which of the following practices?\n1. Meditation and control of breath.\n2. Severe ascetic exercises in a lonely place.\n3. Recitation of holy songs to arouse a state of ecstasy in their audience.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three practices are associated with Sufi mystics: (1) Meditation and control of breath (zikr/breathing exercises) are central to Sufi practice. (2) Severe ascetic exercises in solitary retreat (chilla/khalwa) are practiced by Sufis. (3) Recitation of holy songs (qawwali/sama) to arouse ecstasy is a hallmark Sufi practice. All three are mentioned in NCERT Medieval India (S.K. Pandey, Chapter 8).",
+    "motivation": "Sufi practices are comprehensive: meditation + breath control, ascetic retreat (chilla), and sama/qawwali for ecstatic experience. All three are genuine Sufi practices. Answer D.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "section": "Modern India",
+    "question": "The Rowlatt Act aimed at",
+    "options": {
+      "a": "Compulsory economic support to war efforts.",
+      "b": "Imprisonment without trial and summary procedures for trial.",
+      "c": "Suppression of the Khilafat Movement.",
+      "d": "Imposition of restrictions on freedom of the press."
+    },
+    "answer": "B",
+    "explanation": "The Rowlatt Act (1919) — formally the Anarchical and Revolutionary Crimes Act — allowed the British government to imprison any person without trial for up to two years and use summary procedures for trial of suspected terrorists. It effectively extended the emergency wartime powers into peacetime. Named after Sidney Rowlatt, the act became a symbol of British repression and triggered the Non-Cooperation Movement and the Jallianwala Bagh massacre.",
+    "motivation": "Rowlatt Act = imprisonment without trial + summary trial procedures. It was enacted in 1919 (post-WWI) to suppress revolutionary activity. Gandhi called it the 'Black Act' and launched Satyagraha against it. Answer B.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 71,
+    "section": "Modern India",
+    "question": "The Lahore Session of the Indian National Congress (1929) is very important in history, because\n1. The Congress passed a resolution demanding complete independence.\n2. The rift between the extremists and moderates was resolved in that Session.\n3. A resolution was passed rejecting the two-nation theory in that Session.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3",
+      "c": "1 and 3",
+      "d": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "The Lahore Session of INC (December 1929) is famous for passing the Purna Swaraj (Complete Independence) resolution on 26th January 1930, which led to the celebration of Independence Day on 26 January each year. Statement 2 is incorrect — the extremist-moderate rift was resolved at the Lucknow Session (1916), not Lahore. Statement 3 is incorrect — no resolution rejecting the two-nation theory was passed at Lahore 1929. Only statement 1 is correct.",
+    "motivation": "Lahore 1929 = Purna Swaraj resolution + Jawaharlal Nehru as Congress President + hoisting of tricolor on 26 Jan 1930. The extremist-moderate reconciliation was Lucknow 1916. Answer A.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 72,
+    "section": "Medieval India",
+    "question": "Lord Buddha's image is sometimes shown with the hand gesture called 'Bhumisparsha Mudra'. It symbolizes.",
+    "options": {
+      "a": "Buddha's calling of the Earth to watch over Mara and to prevent Mara from disturbing his meditation.",
+      "b": "Buddha's calling of the Earth to witness his purity and chastity despite the temptations of Mara.",
+      "c": "Buddha's reminder to his followers that they all arise from the Earth and finally dissolve into the Earth, and thus this life is transitory.",
+      "d": "Both the statements (a) and (b) are correct in this context."
+    },
+    "answer": "B",
+    "explanation": "Just before the historical Buddha, Siddhartha Gautama, realized enlightenment, the demon Mara attacked him with armies of monsters to frighten him and claimed the seat under the Bodhi tree. The about-to-be-Buddha did not move. Then Mara claimed his spiritual accomplishments were greater than Siddhartha's and challenged: 'who will speak for you?' Mara's soldiers cried 'I am his witness!' Siddhartha reached out his right hand to touch the earth, and the earth itself roared, 'I bear you witness!' Mara disappeared. This mudra symbolizes calling the Earth to witness his purity and chastity despite Mara's temptations.",
+    "motivation": "Bhumisparsha Mudra = Earth-touching gesture = calling Earth to witness Buddha's enlightenment and purity against Mara's temptations. Option B captures this correctly. Option A says 'watch over Mara' which is different from 'witness his purity'. Answer B.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 73,
+    "section": "Ancient India",
+    "question": "The religion of early Vedic Aryans was primarily of",
+    "options": {
+      "a": "Bhakti",
+      "b": "Image worship and Yajnas",
+      "c": "Worship of nature and Yajnas",
+      "d": "Worship of nature and Bhakti"
+    },
+    "answer": "C",
+    "explanation": "The religion of early Vedic Aryans was primarily characterized by the worship of natural forces personified as deities (Indra, Agni, Varuna, Surya etc.) and the performance of Yajnas (fire sacrifices). Image worship was not a feature of early Vedic religion — it came later with Puranic Hinduism. Bhakti as a devotional movement developed much later (post-Vedic period).",
+    "motivation": "Early Vedic religion = nature worship (fire, rain, storm, sun as gods) + Yajnas (sacrifices). No image worship in early Vedic period. Bhakti came much later. Answer C.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 74,
+    "section": "Modern India",
+    "question": "Which of the following statements is/are correct regarding Brahmo Samaj?\n1. It opposed idolatry.\n2. It denied the need for a priestly class for interpreting the religious texts.\n3. It popularized the doctrine that the Vedas are infallible.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Brahmo Samaj founded by Raja Ram Mohan Roy: (1) Opposed idolatry and polytheism — correct. (2) Denied the need for a priestly class for religious interpretation — emphasized individual access to scripture without priestly intermediaries — correct. (3) Statement 3 is incorrect — Brahmo Samaj did NOT hold the Vedas to be infallible. In fact, it took a rational approach to religion and did not consider any text infallible. It drew from multiple religious traditions.",
+    "motivation": "Brahmo Samaj = monotheism + anti-idolatry + anti-priestly intermediary + rational approach (no infallible scripture). Statement 3 reverses their position — they were rationalists who did NOT consider Vedas infallible. Answer B.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "section": "Economic and Social Development",
+    "question": "The Reserve Bank of India (RBI) acts as a bankers' bank. This would imply which of the following?\n1. Other banks retain their deposits with the RBI.\n2. The RBI lends funds to the commercial banks in times of need.\n3. The RBI advises the commercial banks on monetary matters.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "2 and 3 only",
+      "b": "1 and 2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "RBI as a bankers' bank means: (1) Commercial banks maintain deposits (Cash Reserve Ratio - CRR) with the RBI — correct. (2) RBI lends to commercial banks through Repo Rate, Bank Rate, etc. in times of need — correct. Statement 3 is incorrect in this specific context — 'advising commercial banks on monetary matters' is not what 'bankers' bank' implies. That function falls under RBI's role as a monetary authority/regulator, not specifically its bankers' bank function.",
+    "motivation": "Bankers' bank = commercial banks' bank. This means: hold their reserves (CRR) + lend to them (Repo/Bank Rate). 'Advising on monetary matters' is a broader regulatory function, not specific to the bankers' bank role. Answer B.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 76,
+    "section": "Economic and Social Development",
+    "question": "Under which of the following circumstances may 'capital gains' arise?\n1. When you sell a capital asset at a higher price than you paid for it.\n2. When there is a natural increase in the value of the property owned.\n3. When you purchase a painting and there is a growth in its value due to increase in its popularity.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "2 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Capital gains arise when the value of a capital asset increases. Statement 1 as worded in the question asks about circumstances, and it is not explicitly listed in some versions. A capital gain is an increase in the value of a capital asset (investment or real estate) that gives it a higher worth than the purchase price. The gain is not realized until the asset is sold. Natural increase in property value (statement 2) and appreciation of a painting (statement 3) both constitute capital gains scenarios when realized. The key aspect is unrealized gains also qualify as the circumstances for capital gains, not just when sold.",
+    "motivation": "Capital gains = increase in asset value above purchase price. Both natural appreciation of property and appreciation of artwork are capital gain scenarios. Answer B (2 and 3) per the official answer key.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "section": "Economic and Social Development",
+    "question": "Which of the following measures would result in an increase in the money supply in the economy?\n1. Purchase of government securities from the public by the Central Bank.\n2. Deposit of currency in commercial banks by the public.\n3. Borrowing by the government from the Central Bank.\n4. Sale of government securities to the public by the Central Bank.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 4 only",
+      "c": "1 and 3",
+      "d": "2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Statement 1: When the Central Bank purchases government securities from the public (Open Market Operations — buying), it injects money into the economy — money supply increases. Statement 3: When the government borrows from the Central Bank, the Central Bank creates new money to lend — money supply increases. Statement 2: Deposit of currency in banks does NOT increase money supply — it changes the form (cash to bank deposit) but the total money (M1/M3) may actually be the same or increase through credit creation, but this is a complex scenario; in the given context, depositing existing currency doesn't increase base money supply. Statement 4: Sale of securities by Central Bank absorbs money from the economy — money supply decreases.",
+    "motivation": "RBI buying securities = inject money (increases supply). Government borrowing from RBI = new money creation (increases supply). RBI selling securities = absorb money (decreases supply). Deposits in banks don't directly change base money supply. Answer C (1 and 3).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "section": "Economic and Social Development",
+    "question": "Which of the following would include Foreign Direct Investment in India?\n1. Subsidiaries of foreign companies in India.\n2. Majority foreign equity holding in Indian companies.\n3. Companies exclusively financed by foreign companies.\n4. Portfolio investment.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1, 2, 3 and 4",
+      "b": "2 and 4 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3 only"
+    },
+    "answer": "D",
+    "explanation": "FDI includes: (1) Subsidiaries of foreign companies (wholly owned foreign enterprise), (2) Majority foreign equity holding in Indian companies (controlling interest), and (3) Companies exclusively financed by foreign companies (joint ventures or fully foreign-funded). Portfolio investment (statement 4) is NOT FDI — it is Foreign Portfolio Investment (FPI/FII), which involves purchasing shares/bonds without management control. The key distinction: FDI involves ownership and management control; FPI does not.",
+    "motivation": "FDI = ownership + management control. FPI/Portfolio Investment = just financial investment without control. Statements 1, 2, 3 are FDI. Statement 4 (portfolio investment) is FPI, not FDI. Answer D.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 79,
+    "section": "Economic and Social Development",
+    "question": "Consider the following statements: The price of any currency in international market is decided by the\n1. World Bank\n2. Demand for goods/services provided by the country concerned\n3. Stability of the government of the concerned country\n4. Economic potential of the country in question.\nWhich of the statements given above are correct?",
+    "options": {
+      "a": "1, 2, 3 and 4",
+      "b": "2 and 3 only",
+      "c": "3 and 4 only",
+      "d": "1 and 4 only"
+    },
+    "answer": "B",
+    "explanation": "The price (exchange rate) of a currency in the international market is determined by market forces of supply and demand. Key determinants include: demand for the country's goods and services (statement 2 — more exports = more demand for currency = stronger currency) and political/government stability (statement 3 — political stability attracts investment, strengthening the currency). Statement 1 is incorrect — the World Bank does NOT determine currency prices. Statement 4 is debatable — economic potential is a long-term factor but is already reflected in demand for goods/services.",
+    "motivation": "Exchange rate = supply and demand. Key factors: trade balance (demand for goods/services = statement 2) and political stability (statement 3). World Bank does NOT set exchange rates. Answer B.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "section": "Economic and Social Development",
+    "question": "The basic aim of Lead Bank Scheme is that",
+    "options": {
+      "a": "Big banks should try to open offices in each district.",
+      "b": "There should be stiff competition among the various nationalised banks.",
+      "c": "Individual banks should adopt particular districts for intensive development.",
+      "d": "All the banks should make intensive efforts to mobilise deposits."
+    },
+    "answer": "C",
+    "explanation": "The Lead Bank Scheme (introduced by RBI in 1969 based on the Gadgil Study Group report) assigns a specific bank as the 'lead bank' for each district. The lead bank takes responsibility for intensive development of banking and credit facilities in that district, conducting surveys, coordinating with government, and ensuring banking outreach. The idea is that individual banks should adopt particular districts for intensive development.",
+    "motivation": "Lead Bank Scheme = one bank assigned to each district for intensive banking development. It's about geographical allocation of responsibility, not competition or deposit mobilization as primary goals. Answer C.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "section": "Modern India",
+    "question": "Consider the following:\n1. Assessment of land revenue on the basis of nature of the soil and the quality of crops.\n2. Use of mobile cannons in warfare.\n3. Cultivation of tobacco and red chillies.\nWhich of the above was/were introduced into India by the English?",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2",
+      "c": "2 and 3",
+      "d": "None"
+    },
+    "answer": "D",
+    "explanation": "None of the three was introduced by the English. Statement 1: Assessment of land revenue based on soil and crop quality was introduced by Sher Shah Suri (and later refined by Todar Mal under Akbar), not the English. Statement 2: Mobile cannons were introduced by Babur/the Mughals. Statement 3: Tobacco and red chillies were brought to India by the Portuguese, not the English — when the Portuguese eventually did land on India's shores, they brought tobacco.",
+    "motivation": "Common error: attributing colonial-era introductions to the British. Tobacco = Portuguese. Mobile cannons = Mughals/Babur. Land revenue based on soil quality = Sher Shah Suri/Mughal system. Answer D — none was introduced by the English.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 82,
+    "section": "Ancient India",
+    "question": "With reference to the guilds (Shreni) of ancient India that played a very important role in the country's economy, which of the following statements is/are correct?\n1. Every guild was registered with the central authority of the State and the king was the chief administrative authority on them.\n2. The wages, rules of work, standards and prices were fixed by the guild.\n3. The guild had judicial powers over its own members.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Statement 1 is incorrect: Guilds (Shreni) were NOT registered with the central authority with the king as chief administrator. They enjoyed considerable autonomy from the king. Statement 2 is correct: The guild council framed rules of work and fixed standards, wages, and prices. Statement 3 is correct: The guild had its own court with full jurisdiction over all members — any member who violated rules was tried by the guild court. The craft guild was headed by a chief called Elder Uyeshtaka and enjoyed considerable autonomy.",
+    "motivation": "Ancient Indian guilds = AUTONOMOUS bodies. NOT under king's direct control. They self-regulated: fixed wages, prices, standards (statement 2) and had judicial powers over members (statement 3). Statement 1 wrongly claims king had chief authority. Answer C.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 83,
+    "section": "Modern India",
+    "question": "The distribution of powers between the Centre and the States in the Indian Constitution is based on the scheme provided in the",
+    "options": {
+      "a": "Morley-Minto Reforms, 1909",
+      "b": "Montagu-Chelmsford Act, 1919",
+      "c": "Government of India Act, 1935",
+      "d": "Indian Independence Act, 1947"
+    },
+    "answer": "C",
+    "explanation": "The Government of India Act, 1935 provided for a federal structure with three lists: Federal List, Provincial List, and Concurrent List. This division of powers between the Centre and States was substantially adopted in the Indian Constitution of 1950. The framers of the Constitution drew heavily from the 1935 Act for the federal structure and the three-list system (Union, State, Concurrent).",
+    "motivation": "Constitution borrowed the three-list power distribution from the Government of India Act 1935. The 1935 Act was the most significant constitutional predecessor to the Indian Constitution. Answer C.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 84,
+    "section": "Economic and Social Development",
+    "question": "Despite having large reserves of coal, why does India import millions of tonnes of coal?\n1. It is the policy of India to save its own coal reserves for future, and import it from other countries for the present use.\n2. Most of the power plants in India are coal-based and they are not able to get sufficient supplies of coal from within the country.\n3. Steel companies need large quantity of coking coal which has to be imported.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is incorrect: There is no official policy to save coal reserves by importing — this is a fabricated statement. Statement 2 is correct: India's thermal power plants face coal shortage due to supply constraints, infrastructure bottlenecks, and Coal India's limited production — they cannot get sufficient coal domestically. Statement 3 is correct: India lacks good quality coking coal (metallurgical coal) for steel production — Indian coal has high ash content and poor coking properties, making steel companies import coking coal.",
+    "motivation": "India imports coal for two real reasons: power plants can't get enough domestic coal (supply constraints) and steel plants need coking coal (quality issue with Indian coal). There is NO policy to save reserves by importing. Answer B.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 85,
+    "section": "Geography",
+    "question": "A person stood alone in a desert on a dark night and wanted to reach his village which was situated 5 km east of the point where he was standing. He had no instruments to find the direction but he located the polestar. The most convenient way now to reach his village is to walk in the",
+    "options": {
+      "a": "Direction facing the polestar.",
+      "b": "Direction opposite to the polestar.",
+      "c": "Direction keeping the polestar to his left.",
+      "d": "Direction keeping the polestar to his right."
+    },
+    "answer": "C",
+    "explanation": "The Polestar (Polaris) is located directly above the North Pole, so it always indicates True North. To travel East, you need to face East, which means North should be to your LEFT. If you keep the Polestar (North) to your left, you are facing East. Therefore, to reach the village 5 km east, he should walk keeping the Polestar to his left.",
+    "motivation": "Polestar = North. To go East: North must be to your left. Simple compass logic: face East → North is left, South is right, West is behind. Keep polestar to the left = walking East. Answer C.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 86,
+    "section": "Current Affairs",
+    "question": "Recently, there has been a concern over the short supply of a group of elements called 'rare earth metals'. Why?\n1. China, which is the largest producer of these elements, has imposed some restrictions on their export.\n2. Other than China, Australia, Canada and Chile, these elements are not found in any country.\n3. Rare earth metals are essential for the manufacture of various kinds of electronic items and there is a growing demand for these elements.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Statement 1 is correct: China produces over 90% of the world's rare earth metals and has imposed export restrictions, causing global supply concerns. Statement 2 is incorrect: Rare earth elements are found in many countries besides the listed ones — India, Brazil, Russia, and USA also have significant reserves. Statement 3 is correct: Rare earth metals are essential for electronics, wind turbines, electric vehicle motors, smartphone screens (neodymium, dysprosium, etc.) and demand is growing rapidly.",
+    "motivation": "Rare earth metals = China's dominance + global supply concern + essential for green technology and electronics. Statement 2 is wrong — rare earths are found in many countries (India too has reserves in Kerala, Andhra Pradesh). Answer C.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 87,
+    "section": "Geography",
+    "question": "Consider the following protected areas:\n1. Bandipur\n2. Bhitarkanika\n3. Manas\n4. Sunderbans\nWhich of the above are declared Tiger Reserves?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "1, 3 and 4 only",
+      "c": "2, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "Bandipur (Karnataka), Manas (Assam), and Sunderbans (West Bengal) are declared Tiger Reserves under Project Tiger. Bhitarkanika (Odisha) is a National Park and Ramsar site known for saltwater crocodiles and mangroves, but it is NOT a Tiger Reserve.",
+    "motivation": "Tiger Reserves — know the major ones: Corbett, Kanha, Bandipur, Sunderbans, Manas, Ranthambore, Sariska, Kaziranga (elephant reserve also), Panna etc. Bhitarkanika = crocodile reserve, NOT tiger reserve. Answer B.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "section": "Geography",
+    "question": "Consider the following statements:\n1. The duration of the monsoon decreases from southern India to northern India.\n2. The amount of annual rainfall in the northern plains of India decreases from east to west.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "C",
+    "explanation": "Both statements are correct. Statement 1: The southwest monsoon hits the southern tip of India (Kerala) in June and gradually moves north, arriving in northern India by July. It also withdraws first from the northwest and moves south. So the duration is longest in the south and decreases northward. Statement 2: In the northern plains, rainfall decreases from east (Kolkata ~160cm) to west (Delhi ~60cm, Jaisalmer ~10cm) as the moisture-laden winds lose their moisture progressively as they move westward.",
+    "motivation": "Indian monsoon basics: (1) Duration = more in south, less in north. (2) Rainfall in northern plains = decreases west to east (more in Bengal, less in Rajasthan). Both statements are correct. Answer C.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 89,
+    "section": "Geography",
+    "question": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
+    "options": {
+      "a": "Rainfall throughout the year.",
+      "b": "Rainfall in winter only.",
+      "c": "An extremely short dry season.",
+      "d": "A definite dry and wet season."
+    },
+    "answer": "D",
+    "explanation": "Tropical Savannah (Tropical Wet and Dry) climate is characterized by a distinct alternation of a wet season (when the ITCZ moves overhead bringing rainfall) and a dry season (when the ITCZ moves away). This is the defining characteristic — a definite dry season and a definite wet/rainy season. The dry season can be quite prolonged (3-8 months). This contrasts with the Tropical Rainforest climate which has rainfall throughout the year.",
+    "motivation": "Tropical Savannah = Tropical Wet and Dry climate. Key feature: alternating WET and DRY seasons. Unlike equatorial rainforest (rain all year). Answer D.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "section": "Geography",
+    "question": "In which one among the following categories of protected areas in India are local people not allowed to collect and use the biomass?",
+    "options": {
+      "a": "Biosphere Reserves",
+      "b": "National Parks",
+      "c": "Wetlands declared under Ramsar Convention",
+      "d": "Wildlife Sanctuaries"
+    },
+    "answer": "B",
+    "explanation": "In National Parks, local people are NOT allowed to collect or use biomass — human activities including grazing, collection of forest produce, and settlement are strictly prohibited. In Wildlife Sanctuaries, some human activities including limited collection by local communities may be permitted. In Biosphere Reserves, the core zone is strict but the buffer and transition zones allow human use. Ramsar wetlands have their own management plans that may allow traditional uses.",
+    "motivation": "Strictest protection = National Parks. No human activity, no biomass collection. Wildlife Sanctuaries allow limited human use. Biosphere Reserves have core-buffer-transition zones. Answer B.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "section": "Environment",
+    "question": "Consider the following kinds of organisms:\n1. Bat\n2. Bee\n3. Bird\nWhich of the above is/are pollinating agent/agents?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three — bats, bees, and birds — are pollinating agents. Bees are the most well-known pollinators. Birds (especially hummingbirds and sunbirds) pollinate many flowering plants. Bats are important night pollinators for plants that flower at night (like agave, bananas, and many tropical fruits). This type of pollination by animals is called zoophily — and includes insects, birds (ornithophily), and bats (chiropterophily).",
+    "motivation": "Pollinators include insects (bees, butterflies, moths), birds (hummingbirds, sunbirds), and bats (night-flowering plants). All three categories in the question are pollinators. Answer D — all three.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "section": "Environment",
+    "question": "Which one of the following groups of animals belongs to the category of endangered species?",
+    "options": {
+      "a": "Great Indian Bustard, Musk Deer, Red Panda and Asiatic Wild Ass",
+      "b": "Kashmir Stag, Cheetal, Blue Bull and Great Indian Bustard",
+      "c": "Snow Leopard, Swamp Deer, Rhesus Monkey and Saras (Crane)",
+      "d": "Lion-tailed Macaque, Blue Bull, Hanuman Langur and Cheetal"
+    },
+    "answer": "A",
+    "explanation": "By elimination: Cheetal (Spotted Deer) is least concern/common species. Blue Bull (Nilgai) is also common. Hanuman Langur is not endangered. Rhesus Monkey is not endangered. Option A — Great Indian Bustard (critically endangered), Musk Deer (endangered), Red Panda (endangered/vulnerable), Asiatic Wild Ass (near threatened/vulnerable) — all are conservation concern species. This is the best option as it contains the most legitimately threatened species. Great Indian Bustard is a Critically Endangered species; Snow Leopard is also an endangered specie.",
+    "motivation": "Elimination method works here: identify which animals in each option are common/safe. Cheetal and Nilgai are abundant. The option with Great Indian Bustard (critically endangered) and Red Panda (endangered) is clearly the endangered group. Answer A.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "section": "Science",
+    "question": "Consider the following statements: If there were no phenomenon of capillarity\n1. It would be difficult to use a kerosene lamp.\n2. One would not be able to use a straw to consume a soft drink.\n3. The blotting paper would fail to function.\n4. The big trees that we see around would not have grown on the Earth.\nWhich of the statements given above are correct?",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "1, 3 and 4 only",
+      "c": "2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is correct: Kerosene lamps work because kerosene rises up the wick by capillary action. Statement 2 is incorrect: Drinking through a straw uses air pressure (atmospheric pressure pushing liquid up), NOT capillarity. Statement 3 is correct: Blotting paper absorbs ink by capillary action — without capillarity, it wouldn't function. Statement 4 is correct: In big trees, water rises from roots to leaves (sometimes 100 meters high) partly due to capillary action in xylem vessels. Without capillarity, tall trees couldn't transport water.",
+    "motivation": "Capillarity applications: kerosene wick (yes), blotting paper (yes), water in trees (yes), straw drinking (NO — that's atmospheric pressure). Statement 2 is the trap. Answer B (1, 3 and 4).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "section": "Environment",
+    "question": "The Millennium Ecosystem Assessment describes the following major categories of ecosystem services—provisioning, supporting, regulating, preserving and cultural. Which one of the following is supporting service?",
+    "options": {
+      "a": "Production of food and water.",
+      "b": "Control of climate and disease.",
+      "c": "Nutrient cycling and crop pollination.",
+      "d": "Maintenance of diversity."
+    },
+    "answer": "C",
+    "explanation": "The Millennium Ecosystem Assessment classifies ecosystem services as: Provisioning (food, water, timber, fibre), Regulating (climate regulation, disease control, flood regulation), Cultural (recreational, spiritual, aesthetic), and Supporting (nutrient cycling, soil formation, primary production, crop pollination). Nutrient cycling and crop pollination are Supporting services — they are necessary for producing all other ecosystem services. Food and water = Provisioning. Climate and disease control = Regulating. Maintenance of diversity is not a standard MEA category name.",
+    "motivation": "MEA ecosystem services: Supporting (nutrient cycling, pollination) are the foundation. Provisioning = food, water, wood. Regulating = climate, disease, floods. Cultural = recreation, spirituality. Supporting services underpin ALL others. Answer C.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 95,
+    "section": "Environment",
+    "question": "What is the difference between the antelopes Oryx and Chiru?",
+    "options": {
+      "a": "Oryx is adapted to live in hot and arid areas whereas Chiru is adapted to live in steppes and semi-desert areas of cold high mountains.",
+      "b": "Oryx is poached for its antlers whereas Chiru is poached for its musk.",
+      "c": "Oryx exists in western India only whereas Chiru exists in north-east India only.",
+      "d": "None of the statements (a), (b) and (c) given above is correct."
+    },
+    "answer": "A",
+    "explanation": "Oryx is an antelope adapted to hot arid deserts (found in Africa and Middle East; Arabian Oryx etc.). Chiru (Tibetan Antelope) is adapted to cold steppes and semi-desert areas of the high-altitude Tibetan plateau/Himalayas. Statement B is incorrect — Chiru is poached for its ultra-fine wool (shahtoosh), not musk. Statement C is incorrect — Oryx is not found in western India (it's an African/Middle Eastern animal); Chiru is in the Himalayan region/Ladakh, not northeast India.",
+    "motivation": "Oryx = hot arid desert animal. Chiru = cold high-altitude Tibetan steppe. Chiru is famous for shahtoosh wool (poached for this, not musk). Statement A correctly captures their habitat differences. Answer A.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 96,
+    "section": "Environment",
+    "question": "Which of the following can be threats to the biodiversity of a geographical area?\n1. Global warming\n2. Fragmentation of habitat\n3. Invasion of alien species\n4. Promotion of vegetarianism\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 and 3 only",
+      "c": "1 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "All four can threaten biodiversity. (1) Global warming changes species distribution and threatens ecosystems. (2) Habitat fragmentation isolates populations, reducing genetic diversity and increasing extinction risk. (3) Alien invasive species outcompete and displace native species. (4) Promotion of vegetarianism and shift to commercial farming practices — while seemingly benign, commercial monoculture farming (associated with vegetarianism's demand for grains/vegetables) replaces diverse natural habitats, reduces crop variety and displaces local traditional farming — this threatens agricultural biodiversity. Hence all four are threats.",
+    "motivation": "This is a controversial question — statement 4 (vegetarianism) seems harmless but commercial farming practices driven by plant food demand can threaten biodiversity through monoculture. UPSC included this to test deeper thinking. Answer D — all four.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "section": "Environment",
+    "question": "Consider the following:\n1. Black-necked crane\n2. Cheetah\n3. Flying squirrel\n4. Snow leopard\nWhich of the above are naturally found in India?",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "1, 3 and 4 only",
+      "c": "2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "Black-necked crane is found in Ladakh and Arunachal Pradesh (India). Flying squirrel is found in Indian forests. Snow leopard is found in the Himalayas (India). Cheetah became extinct in India — the last cheetahs were killed in India in 1947. There has been a project to reintroduce Cheetahs to India (from Namibia) but as of the question's context, cheetahs were NOT naturally found in India — they had been extinct for many years.",
+    "motivation": "Cheetah = extinct in India (since 1947). There is a reintroduction project but that's artificial, not natural presence. Black-necked crane, flying squirrel, and snow leopard are all naturally found in India. Answer B (1, 3 and 4).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "section": "Environment",
+    "question": "Consider the following agricultural practices:\n1. Contour bunding\n2. Relay cropping\n3. Zero tillage\nIn the context of global climate change, which of the above helps/help in carbon sequestration/storage in the soil?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None of them"
+    },
+    "answer": "C",
+    "explanation": "All three agricultural practices help in carbon sequestration: (1) Contour bunding reduces soil erosion and maintains organic matter in soil, helping sequester carbon. (2) Relay cropping (growing a second crop before harvesting the first) maintains continuous soil cover and adds organic matter, helping carbon storage. (3) Zero tillage (no-till farming) is specifically recognized as an important carbon sequestration practice — it avoids ploughing which releases stored soil carbon. All three contribute to keeping carbon in the soil rather than releasing it.",
+    "motivation": "Carbon sequestration in soil = practices that reduce soil disturbance and maintain organic matter. All three (contour bunding, relay cropping, zero tillage) achieve this. Zero tillage is the most directly associated, but all three qualify. Answer C.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 99,
+    "section": "Environment",
+    "question": "What would happen if phytoplankton of an ocean is completely destroyed for some reason?\n1. The ocean as a carbon sink would be adversely affected.\n2. The food chains in the ocean would be adversely affected.\n3. The density of ocean water would drastically decrease.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Statement 1 is correct: Phytoplankton is a major carbon sink — it absorbs CO2 during photosynthesis and locks it up in sediment when it dies. Destroying phytoplankton would adversely affect the ocean's carbon sink capability. Statement 2 is correct: Phytoplankton forms the base of the marine food chain — its destruction would collapse food chains affecting all marine organisms. Statement 3 is incorrect: Density of ocean water depends on temperature and salinity, NOT on phytoplankton. Destroying phytoplankton would not drastically change ocean water density.",
+    "motivation": "Phytoplankton = base of marine food chain + ocean carbon sink. Its loss would devastate both. However, ocean water density is determined by temperature and salinity, NOT by phytoplankton. Statement 3 is wrong. Answer A.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "section": "Current Affairs",
+    "question": "Vultures which used to be very common in Indian countryside some years ago are rarely seen nowadays. This is attributed to",
+    "options": {
+      "a": "The destruction of their nesting sites by new invasive species.",
+      "b": "A drug used by cattle owners for treating their diseased cattle.",
+      "c": "Scarcity of food available to them.",
+      "d": "A widespread, persistent and fatal disease among them."
+    },
+    "answer": "B",
+    "explanation": "The catastrophic decline of vultures in India (over 95% population crash of Gyps vultures) has been directly attributed to Diclofenac — a Non-Steroidal Anti-Inflammatory Drug (NSAID) used to treat sick cattle. When vultures feed on carcasses of cattle treated with Diclofenac, the drug causes visceral gout and kidney failure in vultures, leading to death. India banned veterinary use of Diclofenac in 2006. This is one of the fastest population declines of any bird species in history.",
+    "motivation": "Vulture decline = Diclofenac (veterinary NSAID). This is a well-known conservation case study. India, Pakistan, Nepal all banned veterinary Diclofenac after this was discovered. Answer B.",
+    "difficulty": "Easy"
+  }
+]

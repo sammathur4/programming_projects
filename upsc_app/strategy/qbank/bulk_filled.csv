@@ -1,0 +1,274 @@
+file,year,column,rows,value
+csat,2015,created_at,80,2026-10-28 07:55:33
+csat,2022,created_at,80,2026-10-28 07:49:22
+csat,2026,created_at,80,2026-10-28 07:49:22
+csat,2016,difficulty,80,Medium
+csat,2017,difficulty,80,Medium
+csat,2018,difficulty,80,Medium
+csat,2019,difficulty,80,Medium
+csat,2020,difficulty,80,Medium
+csat,2021,difficulty,80,Medium
+csat,2022,difficulty,80,Medium
+csat,2023,difficulty,80,Medium
+csat,2024,difficulty,80,Medium
+csat,2025,difficulty,80,Medium
+csat,2026,difficulty,80,Medium
+csat,2015,marks,80,2.5
+csat,2016,marks,80,2.5
+csat,2017,marks,80,2.5
+csat,2018,marks,80,2.5
+csat,2019,marks,80,2.5
+csat,2020,marks,80,2.5
+csat,2021,marks,80,2.5
+csat,2022,marks,80,2.5
+csat,2023,marks,80,2.5
+csat,2024,marks,80,2.5
+csat,2025,marks,80,2.5
+csat,2026,marks,80,2.5
+csat,2015,nature,80,Prelims CSAT
+csat,2016,nature,80,Prelims CSAT
+csat,2017,nature,80,Prelims CSAT
+csat,2018,nature,80,Prelims CSAT
+csat,2019,nature,80,Prelims CSAT
+csat,2020,nature,80,Prelims CSAT
+csat,2021,nature,80,Prelims CSAT
+csat,2022,nature,80,Prelims CSAT
+csat,2023,nature,80,Prelims CSAT
+csat,2024,nature,80,Prelims CSAT
+csat,2025,nature,80,Prelims CSAT
+csat,2026,nature,80,Prelims CSAT
+csat,2015,negative_marks,80,0.8333
+csat,2016,negative_marks,80,0.8333
+csat,2017,negative_marks,80,0.8333
+csat,2018,negative_marks,80,0.8333
+csat,2019,negative_marks,80,0.8333
+csat,2020,negative_marks,80,0.8333
+csat,2021,negative_marks,80,0.8333
+csat,2022,negative_marks,80,0.8333
+csat,2023,negative_marks,80,0.8333
+csat,2024,negative_marks,80,0.8333
+csat,2025,negative_marks,80,0.8333
+csat,2026,negative_marks,80,0.8333
+csat,2015,paper,80,Prelims CSAT
+csat,2016,paper,80,Prelims CSAT
+csat,2017,paper,80,Prelims CSAT
+csat,2018,paper,80,Prelims CSAT
+csat,2019,paper,80,Prelims CSAT
+csat,2020,paper,80,Prelims CSAT
+csat,2021,paper,80,Prelims CSAT
+csat,2022,paper,80,Prelims CSAT
+csat,2023,paper,80,Prelims CSAT
+csat,2024,paper,80,Prelims CSAT
+csat,2025,paper,80,Prelims CSAT
+csat,2026,paper,80,Prelims CSAT
+csat,2015,section,80,CSAT
+csat,2016,section,80,CSAT
+csat,2017,section,80,CSAT
+csat,2018,section,80,CSAT
+csat,2019,section,80,CSAT
+csat,2020,section,80,CSAT
+csat,2021,section,80,CSAT
+csat,2022,section,80,CSAT
+csat,2023,section,80,CSAT
+csat,2024,section,80,CSAT
+csat,2025,section,80,CSAT
+csat,2026,section,80,CSAT
+csat,2015,source,80,UPSC CSE
+csat,2016,source,80,UPSC CSE
+csat,2017,source,80,UPSC CSE
+csat,2018,source,80,UPSC CSE
+csat,2019,source,80,UPSC CSE
+csat,2020,source,80,UPSC CSE
+csat,2021,source,80,UPSC CSE
+csat,2022,source,80,UPSC CSE
+csat,2023,source,80,UPSC CSE
+csat,2024,source,80,UPSC CSE
+csat,2025,source,80,UPSC CSE
+csat,2026,source,80,UPSC CSE
+csat,2016,source_file,80,prelims-arena:PYQ-CSAT-2016
+csat,2017,source_file,80,prelims-arena:PYQ-CSAT-2017
+csat,2018,source_file,80,prelims-arena:PYQ-CSAT-2018
+csat,2019,source_file,80,prelims-arena:PYQ-CSAT-2019
+csat,2020,source_file,80,prelims-arena:PYQ-CSAT-2020
+csat,2021,source_file,80,prelims-arena:PYQ-CSAT-2021
+csat,2022,source_file,80,prelims-arena:PYQ-CSAT-2022
+csat,2023,source_file,80,prelims-arena:PYQ-CSAT-2023
+csat,2024,source_file,80,prelims-arena:PYQ-CSAT-2024
+csat,2025,source_file,80,prelims-arena:PYQ-CSAT-2025
+csat,2026,source_file,80,prelims-arena:PYQ-CSAT-2026
+csat,2015,source_type,80,Previous Year Question
+csat,2016,source_type,80,Previous Year Question
+csat,2017,source_type,80,Previous Year Question
+csat,2018,source_type,80,Previous Year Question
+csat,2019,source_type,80,Previous Year Question
+csat,2020,source_type,80,Previous Year Question
+csat,2021,source_type,80,Previous Year Question
+csat,2022,source_type,80,Previous Year Question
+csat,2023,source_type,80,Previous Year Question
+csat,2024,source_type,80,Previous Year Question
+csat,2025,source_type,80,Previous Year Question
+csat,2026,source_type,80,Previous Year Question
+csat,2015,updated_at,80,2026-10-28 07:55:33
+csat,2022,updated_at,80,2026-10-28 07:49:22
+csat,2026,updated_at,80,2026-10-28 07:49:22
+mains,2013,current_affairs_window,25,2013-2016
+mains,2014,current_affairs_window,87,2014-2017
+mains,2015,current_affairs_window,86,2015-2018
+mains,2016,current_affairs_window,138,2016-2019
+mains,2017,current_affairs_window,141,2017-2020
+mains,2018,current_affairs_window,96,2018-2021
+mains,2019,current_affairs_window,136,2019-2022
+mains,2020,current_affairs_window,114,2020-2023
+mains,2021,current_affairs_window,144,2021-2024
+mains,2022,current_affairs_window,143,2022-2025
+mains,2023,current_affairs_window,143,2023-2026
+mains,2024,current_affairs_window,143,2024-2027
+mains,2025,current_affairs_window,143,2025-2028
+mains,2026,current_affairs_window,76,2026-2029
+mains,2013,difficulty,25,Medium
+mains,2024,difficulty,143,Medium
+mains,2026,difficulty,76,Medium
+mains,2013,nature,25,Descriptive
+mains,2026,nature,76,Descriptive
+mains,2013,paper,25,gs1
+mains,2013,source,25,UPSC CSE Mains
+mains,2014,source,87,UPSC CSE Mains
+mains,2015,source,86,UPSC CSE Mains
+mains,2016,source,138,UPSC CSE Mains
+mains,2017,source,141,UPSC CSE Mains
+mains,2018,source,96,UPSC CSE Mains
+mains,2019,source,136,UPSC CSE Mains
+mains,2020,source,114,UPSC CSE Mains
+mains,2021,source,144,UPSC CSE Mains
+mains,2022,source,143,UPSC CSE Mains
+mains,2023,source,143,UPSC CSE Mains
+mains,2024,source,143,UPSC CSE Mains
+mains,2025,source,143,UPSC CSE Mains
+mains,2026,source,76,UPSC CSE Mains
+mains,2013,source_type,25,Previous Year Question
+mains,2014,source_type,87,Previous Year Question
+mains,2015,source_type,86,Previous Year Question
+mains,2016,source_type,138,Previous Year Question
+mains,2017,source_type,141,Previous Year Question
+mains,2018,source_type,96,Previous Year Question
+mains,2019,source_type,136,Previous Year Question
+mains,2020,source_type,114,Previous Year Question
+mains,2021,source_type,144,Previous Year Question
+mains,2022,source_type,143,Previous Year Question
+mains,2023,source_type,143,Previous Year Question
+mains,2024,source_type,143,Previous Year Question
+mains,2025,source_type,143,Previous Year Question
+mains,2026,source_type,76,Previous Year Question
+prelims,2013,created_at,100,2026-09-16 13:02:52
+prelims,2014,created_at,100,2026-09-16 13:02:52
+prelims,2015,created_at,100,2026-09-16 13:02:52
+prelims,2016,created_at,100,2026-09-16 13:02:52
+prelims,2017,created_at,100,2026-09-16 13:02:52
+prelims,2018,created_at,100,2026-09-16 13:02:52
+prelims,2019,created_at,100,2026-09-16 13:02:52
+prelims,2020,created_at,100,2026-09-16 13:02:52
+prelims,2021,created_at,100,2026-09-16 13:02:52
+prelims,2022,created_at,100,2026-09-16 13:02:52
+prelims,2023,created_at,100,2026-09-16 13:02:52
+prelims,2024,created_at,100,2026-09-16 13:02:52
+prelims,2025,created_at,100,2026-09-16 13:02:52
+prelims,2026,created_at,99,2026-10-28 07:49:22
+prelims,2014,current_affairs_linkage,100,None specified
+prelims,2018,current_affairs_linkage,100,None specified
+prelims,2026,difficulty,99,Medium
+prelims,2013,is_repeated_theme,100,To be checked
+prelims,2014,is_repeated_theme,100,To be checked
+prelims,2015,is_repeated_theme,100,To be checked
+prelims,2016,is_repeated_theme,100,To be checked
+prelims,2017,is_repeated_theme,100,To be checked
+prelims,2018,is_repeated_theme,100,To be checked
+prelims,2020,is_repeated_theme,100,To be checked
+prelims,2021,is_repeated_theme,100,To be checked
+prelims,2022,is_repeated_theme,100,To be checked
+prelims,2023,is_repeated_theme,100,To be checked
+prelims,2024,is_repeated_theme,100,To be checked
+prelims,2025,is_repeated_theme,100,To be checked
+prelims,2013,marks,100,2.0
+prelims,2014,marks,100,2.0
+prelims,2015,marks,100,2.0
+prelims,2016,marks,100,2.0
+prelims,2017,marks,100,2.0
+prelims,2018,marks,100,2.0
+prelims,2019,marks,100,2.0
+prelims,2020,marks,100,2.0
+prelims,2021,marks,100,2.0
+prelims,2022,marks,100,2.0
+prelims,2023,marks,100,2.0
+prelims,2024,marks,100,2.0
+prelims,2025,marks,100,2.0
+prelims,2026,marks,99,2.0
+prelims,2026,nature,99,Prelims GS
+prelims,2013,negative_marks,100,0.6667
+prelims,2014,negative_marks,100,0.6667
+prelims,2015,negative_marks,100,0.6667
+prelims,2016,negative_marks,100,0.6667
+prelims,2017,negative_marks,100,0.6667
+prelims,2018,negative_marks,100,0.6667
+prelims,2019,negative_marks,100,0.6667
+prelims,2020,negative_marks,100,0.6667
+prelims,2021,negative_marks,100,0.6667
+prelims,2022,negative_marks,100,0.6667
+prelims,2023,negative_marks,100,0.6667
+prelims,2024,negative_marks,100,0.6667
+prelims,2025,negative_marks,100,0.6667
+prelims,2026,negative_marks,99,0.6667
+prelims,2013,paper,100,Prelims GS
+prelims,2014,paper,100,Prelims GS
+prelims,2015,paper,100,Prelims GS
+prelims,2016,paper,100,Prelims GS
+prelims,2017,paper,100,Prelims GS
+prelims,2018,paper,100,Prelims GS
+prelims,2019,paper,100,Prelims GS
+prelims,2020,paper,100,Prelims GS
+prelims,2021,paper,100,Prelims GS
+prelims,2022,paper,100,Prelims GS
+prelims,2023,paper,100,Prelims GS
+prelims,2024,paper,100,Prelims GS
+prelims,2025,paper,100,Prelims GS
+prelims,2026,paper,99,Prelims GS
+prelims,2013,relevance,100,High
+prelims,2014,relevance,100,High
+prelims,2015,relevance,100,High
+prelims,2016,relevance,100,High
+prelims,2017,relevance,100,High
+prelims,2018,relevance,100,High
+prelims,2019,relevance,100,High
+prelims,2020,relevance,100,High
+prelims,2021,relevance,100,High
+prelims,2022,relevance,100,High
+prelims,2023,relevance,100,High
+prelims,2024,relevance,100,High
+prelims,2025,relevance,100,High
+prelims,2023,source,31,Testbook
+prelims,2026,source,99,UPSC CSE
+prelims,2013,source_file,100,upsc2013.json
+prelims,2014,source_file,100,gs_prelims_2014.json
+prelims,2015,source_file,100,upsc2015.json
+prelims,2016,source_file,100,upsc2016.json
+prelims,2017,source_file,100,upsc2017.json
+prelims,2018,source_file,100,upsc2018.json
+prelims,2022,source_file,100,upsc2022.json
+prelims,2023,source_file,100,GS_Prelims_2023_Questions.json
+prelims,2024,source_file,100,upsc2024.json
+prelims,2025,source_file,100,GS_Prelims_2025_Questions.json
+prelims,2026,source_file,99,prelims-arena:PYQ-GS-2026
+prelims,2026,source_type,99,Previous Year Question
+prelims,2013,updated_at,100,2026-09-16 19:06:02
+prelims,2014,updated_at,100,2026-09-16 19:06:02
+prelims,2015,updated_at,100,2026-09-16 19:06:02
+prelims,2016,updated_at,100,2026-09-16 19:06:02
+prelims,2017,updated_at,100,2026-09-16 19:06:02
+prelims,2018,updated_at,100,2026-09-16 19:06:02
+prelims,2019,updated_at,100,2026-09-16 19:06:02
+prelims,2020,updated_at,100,2026-09-16 19:06:02
+prelims,2021,updated_at,100,2026-09-16 19:06:02
+prelims,2022,updated_at,100,2026-09-16 19:06:02
+prelims,2023,updated_at,100,2026-09-16 19:06:02
+prelims,2024,updated_at,100,2026-09-16 19:06:02
+prelims,2025,updated_at,100,2026-09-16 19:06:02
+prelims,2026,updated_at,99,2026-10-28 07:49:22

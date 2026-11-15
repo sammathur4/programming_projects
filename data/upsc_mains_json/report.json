@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-16T13:33:52.414595+00:00",
+  "processed_files": 102,
+  "failed_files": 0,
+  "total_questions": 206,
+  "questions_needing_review": 200,
+  "papers": {
+    "ESSAY": 0,
+    "GS1": 197,
+    "GS2": 3,
+    "GS3": 0,
+    "GS4": 6,
+    "SOCIOLOGY1": 0,
+    "SOCIOLOGY2": 0
+  },
+  "failed": []
+}

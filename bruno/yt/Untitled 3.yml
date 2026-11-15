@@ -1,0 +1,238 @@
+info:
+  name: Untitled 3
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: https://www.youtube.com/youtubei/v1/player?prettyPrint=false
+  headers:
+    - name: accept
+      value: "*/*"
+    - name: accept-language
+      value: en-GB,en;q=0.8
+    - name: authorization
+      value: SAPISIDHASH 1785329233_c8d086f49392684ef2bf6431952530894b584320_u SAPISID1PHASH 1785329233_c8d086f49392684ef2bf6431952530894b584320_u SAPISID3PHASH 1785329233_c8d086f49392684ef2bf6431952530894b584320_u
+    - name: content-encoding
+      value: gzip
+    - name: content-type
+      value: application/json
+    - name: Cookie
+      value: HSID=Ajb12GIbeKNDgp49d; SSID=A0W97c-tnvcrrL-BA; APISID=htEZennrKQkUCFhP/Aymko034NgBhnErxf; SAPISID=U6VME5-h5LPg-YUf/A_LTvbCndTAuwx3Yt; __Secure-1PAPISID=U6VME5-h5LPg-YUf/A_LTvbCndTAuwx3Yt; __Secure-3PAPISID=U6VME5-h5LPg-YUf/A_LTvbCndTAuwx3Yt; SID=g.a000AgmcSmW2oyCVeSO6UXgYo2cZ5cOMmCb25Fmh4YVuoPDLRyhGSIVBrr7f7G_gxcyv0elr3AACgYKAbASARQSFQHGX2MionBXxjtKjMTd-pkd5qgjCxoVAUF8yKqSox1gkREO-FCYT9CANWjM0076; __Secure-1PSID=g.a000AgmcSmW2oyCVeSO6UXgYo2cZ5cOMmCb25Fmh4YVuoPDLRyhG6_ySwA6oz88A4lFLbYgMRwACgYKAdcSARQSFQHGX2Mi0r4Di1mIbTa3CTBSH2-CfBoVAUF8yKpPFR-TYNWkvj7-Nsfvil5D0076; __Secure-3PSID=g.a000AgmcSmW2oyCVeSO6UXgYo2cZ5cOMmCb25Fmh4YVuoPDLRyhGSJDCvNmTp-rQtwAg8fxp6gACgYKAegSARQSFQHGX2MinQ_pHNY4QcVD950QZettQBoVAUF8yKqv1dKqw73uSf9hfVrYMDcd0076; VISITOR_INFO1_LIVE=bsuSENAzbsM; VISITOR_PRIVACY_METADATA=CgJJThIEGgAgaw%3D%3D; LOGIN_INFO=AFmmF2swRQIgUDoJM4rW5EphGrtLE-Eo4v15EL70qch6xytE2Xi9SzECIQC5gdsyoM6qeVQ2Rdaq3zuNpl19TAnZCz3d0e5k7RXj8w:QUQ3MjNmd1FacXI1OHVlb3Z4dV9KRXRLRkxXTzRHQk11U3k0NExUTFhhMUtsVDFzVnpNaFpzU3hZSm1HdnVFQXJZbGhvaDk4MHNoWU5PWVZCMHJ0bnp2YkNETGVPZFRTX2lKSUo0eXJLTlJpVldkLUtxa1pXTFROeVFvWHBLOXpUejNOWlpKX3FHY3JoaE5BR29mZlp1UzZMbjBrRVZvN1VR; PREF=f6=80&tz=Asia.Calcutta&f7=100; namejan_2022_update_limit=1; namejan_2022_update=1; YSC=WAnxn3VY6yA; __Secure-YNID=20.YT=nAZvqn_MKuFJWrnZbxY_xoI40Pu31ce1yh4ytnwc5b29hP38HzoDP0uGiK130XgNfPWtPuWf7-ybAQ2LcxyKw2bKWA96YUcacz64zolHQpjCo9umVdQ4xntMf0Qwgd9r1DldCgGejb8fmsvVR8s4lNLhKS5X29YjngHSYN2MQc9uT0yFATym7Ofzgge-bJpBrljEV7pRXZY3SDe58LdX2vbSZXz8EpKN-GwWUK1skrK5cvbr6E3FOhR0Q4kKmT3LtWsztXAwmxtGgE7haDx3al_INEgyq9h5pKJEzz72VgphiTC4juBs21M0284YYN4UZnMZAciN1LCo2CvnrHROmA; __Secure-ROLLOUT_TOKEN=COi7v4rji8OcNxDYm8WGpOiVAxjRg5TE1vWVAw%3D%3D; ypm-render=1; __Secure-1PSIDTS=sidts-CjUBPWEu2ahE9mjHkk7bJanI9VM2Bc5cUKq4ndvqcpL3uEUJNj_b97X0krFGzky7bZkkdM5IQhAA; __Secure-3PSIDTS=sidts-CjUBPWEu2ahE9mjHkk7bJanI9VM2Bc5cUKq4ndvqcpL3uEUJNj_b97X0krFGzky7bZkkdM5IQhAA; SIDCC=AKEyXzWfRB-SYPW6Kf3DSR-BEUea5_ANZpVQFrEQLEJeYhwF08xUi3wQVCexng4gs8cuMy9M9g; __Secure-1PSIDCC=AKEyXzVeTJ7yXTpPrrAjhxWh01Puw_3_mUC50T_0-k6fryQYn5xsnrV3Apd8V6KInvKtjludWo4; __Secure-3PSIDCC=AKEyXzWojAJntxCkOQSPQiLmL7Uz0KgoWEuz-6GBeTdxWY4nHGbk_-3Zjr6Q8lcjn-B7rIVcqA; ST-tladcw=session_logininfo=AFmmF2swRQIgUDoJM4rW5EphGrtLE-Eo4v15EL70qch6xytE2Xi9SzECIQC5gdsyoM6qeVQ2Rdaq3zuNpl19TAnZCz3d0e5k7RXj8w%3AQUQ3MjNmd1FacXI1OHVlb3Z4dV9KRXRLRkxXTzRHQk11U3k0NExUTFhhMUtsVDFzVnpNaFpzU3hZSm1HdnVFQXJZbGhvaDk4MHNoWU5PWVZCMHJ0bnp2YkNETGVPZFRTX2lKSUo0eXJLTlJpVldkLUtxa1pXTFROeVFvWHBLOXpUejNOWlpKX3FHY3JoaE5BR29mZlp1UzZMbjBrRVZvN1VR; ST-xuwub9=session_logininfo=AFmmF2swRQIgUDoJM4rW5EphGrtLE-Eo4v15EL70qch6xytE2Xi9SzECIQC5gdsyoM6qeVQ2Rdaq3zuNpl19TAnZCz3d0e5k7RXj8w%3AQUQ3MjNmd1FacXI1OHVlb3Z4dV9KRXRLRkxXTzRHQk11U3k0NExUTFhhMUtsVDFzVnpNaFpzU3hZSm1HdnVFQXJZbGhvaDk4MHNoWU5PWVZCMHJ0bnp2YkNETGVPZFRTX2lKSUo0eXJLTlJpVldkLUtxa1pXTFROeVFvWHBLOXpUejNOWlpKX3FHY3JoaE5BR29mZlp1UzZMbjBrRVZvN1VR; ST-3opvp5=session_logininfo=AFmmF2swRQIgUDoJM4rW5EphGrtLE-Eo4v15EL70qch6xytE2Xi9SzECIQC5gdsyoM6qeVQ2Rdaq3zuNpl19TAnZCz3d0e5k7RXj8w%3AQUQ3MjNmd1FacXI1OHVlb3Z4dV9KRXRLRkxXTzRHQk11U3k0NExUTFhhMUtsVDFzVnpNaFpzU3hZSm1HdnVFQXJZbGhvaDk4MHNoWU5PWVZCMHJ0bnp2YkNETGVPZFRTX2lKSUo0eXJLTlJpVldkLUtxa1pXTFROeVFvWHBLOXpUejNOWlpKX3FHY3JoaE5BR29mZlp1UzZMbjBrRVZvN1VR
+    - name: origin
+      value: https://www.youtube.com
+    - name: priority
+      value: u=1, i
+    - name: referer
+      value: https://www.youtube.com/
+    - name: sec-ch-ua
+      value: '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"'
+    - name: sec-ch-ua-arch
+      value: '"x86"'
+    - name: sec-ch-ua-bitness
+      value: '"64"'
+    - name: sec-ch-ua-full-version-list
+      value: '"Not;A=Brand";v="8.0.0.0", "Chromium";v="150.0.0.0", "Google Chrome";v="150.0.0.0"'
+    - name: sec-ch-ua-mobile
+      value: ?0
+    - name: sec-ch-ua-model
+      value: '""'
+    - name: sec-ch-ua-platform
+      value: '"Linux"'
+    - name: sec-ch-ua-platform-version
+      value: '""'
+    - name: sec-ch-ua-wow64
+      value: ?0
+    - name: sec-fetch-dest
+      value: empty
+    - name: sec-fetch-mode
+      value: same-origin
+    - name: sec-fetch-site
+      value: same-origin
+    - name: sec-gpc
+      value: "1"
+    - name: user-agent
+      value: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+    - name: x-goog-authuser
+      value: "0"
+    - name: x-goog-visitor-id
+      value: Cgtic3VTRU5BemJzTSjI7KfTBjIKCgJJThIEGgAga2LfAgrcAjIwLllUPW5BWnZxbl9NS3VGSldyblpieFlfeG9JNDBQdTMxY2UxeWg0eXRud2M1YjI5aFAzOEh6b0RQMHVHaUsxMzBYZ05mUFd0UHVXZjcteWJBUTJMY3h5S3cyYktXQTk2WVVjYWN6NjR6b2xIUXBqQ285dW1WZFE0eG50TWYwUXdnZDlyMURsZENnR2VqYjhmbXN2VlI4czRsTkxoS1M1WDI5WWpuZ0hTWU4yTVFjOXVUMHlGQVR5bTdPZnpnZ2UtYkpwQnJsakVWN3BSWFpZM1NEZTU4TGRYMnZiU1pYejhFcEtOLUd3V1VLMXNrcks1Y3ZicjZFM0ZPaFIwUTRrS21UM0x0V3N6dFhBd214dEdnRTdoYUR4M2FsX0lORWd5cTloNXBLSkV6ejcyVmdwaGlUQzRqdUJzMjFNMDI4NFlZTjRVWm5NWkFjaU4xTENvMkN2bnJIUk9tQQ%3D%3D
+    - name: x-origin
+      value: https://www.youtube.com
+    - name: x-youtube-bootstrap-logged-in
+      value: "true"
+    - name: x-youtube-client-name
+      value: "1"
+    - name: x-youtube-client-version
+      value: 2.20260728.01.00
+  params:
+    - name: prettyPrint
+      value: "false"
+      type: query
+  body:
+    type: json
+    data: |-
+      {
+        "context": {
+          "client": {
+            "hl": "en-GB",
+            "gl": "IN",
+            "remoteHost": "2401:4900:8818:db51:3b59:d2a6:c68f:891f",
+            "deviceMake": "",
+            "deviceModel": "",
+            "visitorData": "Cgtic3VTRU5BemJzTSjI7KfTBjIKCgJJThIEGgAga2LfAgrcAjIwLllUPW5BWnZxbl9NS3VGSldyblpieFlfeG9JNDBQdTMxY2UxeWg0eXRud2M1YjI5aFAzOEh6b0RQMHVHaUsxMzBYZ05mUFd0UHVXZjcteWJBUTJMY3h5S3cyYktXQTk2WVVjYWN6NjR6b2xIUXBqQ285dW1WZFE0eG50TWYwUXdnZDlyMURsZENnR2VqYjhmbXN2VlI4czRsTkxoS1M1WDI5WWpuZ0hTWU4yTVFjOXVUMHlGQVR5bTdPZnpnZ2UtYkpwQnJsakVWN3BSWFpZM1NEZTU4TGRYMnZiU1pYejhFcEtOLUd3V1VLMXNrcks1Y3ZicjZFM0ZPaFIwUTRrS21UM0x0V3N6dFhBd214dEdnRTdoYUR4M2FsX0lORWd5cTloNXBLSkV6ejcyVmdwaGlUQzRqdUJzMjFNMDI4NFlZTjRVWm5NWkFjaU4xTENvMkN2bnJIUk9tQQ%3D%3D",
+            "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36,gzip(gfe)",
+            "clientName": "WEB",
+            "clientVersion": "2.20260728.01.00",
+            "osName": "X11",
+            "osVersion": "",
+            "originalUrl": "https://www.youtube.com/watch?v=p6401WoVRdE&pp=YAHIAQG6BQQSAmhpogYVAa3-M49RZtAlVhi3GJwuWnLO2CCn",
+            "platform": "DESKTOP",
+            "clientFormFactor": "UNKNOWN_FORM_FACTOR",
+            "configInfo": {
+              "appInstallData": "CMjsp9MGEIKPzxwQufDRHBCu1s8cEIHNzhwQiJDRHBDXi9EcEJmNsQUQm8LQHBCJ6K4FEMzfrgUQ4OrRHBCOkNEcEIeszhwQ9quwBRDgt9EcEM3RsQUQ4tSuBRDL0bEFENmF0BwQ_LLOHBC3hs8cELyk0BwQvoTRHBD58tEcELb4gBMQ0r3QHBDPtdEcEMf30RwQ6fjRHBC229EcEJ_PgBMQw5HQHBCO5NEcELTB0BwQvbauBRDevM4cELOQzxwQwY_QHBCT8tEcEKH40BwQpKnRHBCDh7giEL2ZsAUQ5-vRHBC45M4cEODNsQUQhuGAExC9irAFEIv3zxwQieTRHBCljtIcENr3zhwQntCwBRC3pNEcEIuHuCIQ8bTQHBCdhrgiEJaH0RwQppqwBRD11c4cEPDe0RwQibDOHBDK-4ATEMn2gBMQ9vfRHBDrktIcENrQ0RwQh-fRHBD06dEcKogBQ0FNU1loVlotWnEtRExpVUVwUUNuQTc1RlhhZ0J1QVdxTlVQMUFNQXN3dmtCdG03M3d2d3NSS0hUREtnckFRRGtLNEQteWEyNUFhRkZQdWdCT2tUbmt1Q0tNelNBTXRLdkpNRTNaZ0d4OFlGaUZ6WjFRWGRMT1ZHd2dLNWJNdV80QjdiQmgwSDAA"
+            },
+            "userInterfaceTheme": "USER_INTERFACE_THEME_LIGHT",
+            "timeZone": "Asia/Calcutta",
+            "browserName": "Chrome",
+            "browserVersion": "150.0.0.0",
+            "acceptHeader": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "deviceExperimentId": "ChxOelkyTnprek1EWXpNRGd6TnpVek1URXlOZz09EMjsp9MGGMjsp9MG",
+            "rolloutToken": "COi7v4rji8OcNxDYm8WGpOiVAxjRg5TE1vWVAw%3D%3D",
+            "screenWidthPoints": 1273,
+            "screenHeightPoints": 893,
+            "screenPixelDensity": 1,
+            "screenDensityFloat": 1,
+            "utcOffsetMinutes": 330,
+            "applicationState": "ACTIVE",
+            "memoryTotalKbytes": "4000000",
+            "clientScreen": "ADUNIT",
+            "mainAppWebInfo": {
+              "graftUrl": "/watch?v=p6401WoVRdE&pp=YAHIAQG6BQQSAmhpogYVAa3-M49RZtAlVhi3GJwuWnLO2CCn",
+              "pwaInstallabilityStatus": "PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED",
+              "webDisplayMode": "WEB_DISPLAY_MODE_BROWSER",
+              "isWebNativeShareAvailable": false
+            }
+          },
+          "user": {
+            "lockedSafetyMode": false
+          },
+          "request": {
+            "useSsl": true,
+            "internalExperimentFlags": [],
+            "consistencyTokenJars": []
+          },
+          "clickTracking": {
+            "clickTrackingParams": "CLUDENwwIhMI1Lf_0fX3lQMVJFDrCB0s8TsSMgZnLWhpZ2haD0ZFd2hhdF90b193YXRjaJoBBhCOHhiACsoBBA8k4M8="
+          },
+          "adSignalsInfo": {
+            "params": [
+              {
+                "key": "dt",
+                "value": "1785329226666"
+              },
+              {
+                "key": "flash",
+                "value": "0"
+              },
+              {
+                "key": "frm",
+                "value": "0"
+              },
+              {
+                "key": "u_tz",
+                "value": "330"
+              },
+              {
+                "key": "u_his",
+                "value": "4"
+              },
+              {
+                "key": "u_h",
+                "value": "900"
+              },
+              {
+                "key": "u_w",
+                "value": "1440"
+              },
+              {
+                "key": "u_ah",
+                "value": "900"
+              },
+              {
+                "key": "u_aw",
+                "value": "1440"
+              },
+              {
+                "key": "u_cd",
+                "value": "24"
+              },
+              {
+                "key": "bc",
+                "value": "31"
+              },
+              {
+                "key": "bih",
+                "value": "893"
+              },
+              {
+                "key": "biw",
+                "value": "1258"
+              },
+              {
+                "key": "brdim",
+                "value": "2,2,2,2,1440,0,1275,898,1273,893"
+              },
+              {
+                "key": "vis",
+                "value": "1"
+              },
+              {
+                "key": "wgl",
+                "value": "true"
+              },
+              {
+                "key": "ca_type",
+                "value": "image"
+              }
+            ]
+          }
+        },
+        "videoId": "p6401WoVRdE",
+        "params": "YAHIAQG6BQQSAmhpogYVAa3-M49RZtAlVhi3GJwuWnLO2CCn",
+        "playbackContext": {
+          "contentPlaybackContext": {
+            "currentUrl": "/watch?v=p6401WoVRdE&pp=YAHIAQG6BQQSAmhpogYVAa3-M49RZtAlVhi3GJwuWnLO2CCn",
+            "vis": 5,
+            "splay": false,
+            "autoCaptionsDefaultOn": false,
+            "autonavState": "STATE_NONE",
+            "html5Preference": "HTML5_PREF_WANTS",
+            "signatureTimestamp": 20660,
+            "autoplay": true,
+            "autonav": true,
+            "referer": "https://www.youtube.com/",
+            "lactMilliseconds": "-1",
+            "watchAmbientModeContext": {
+              "hasShownAmbientMode": true,
+              "watchAmbientModeEnabled": true
+            }
+          },
+          "devicePlaybackCapabilities": {
+            "supportsVp9Encoding": true,
+            "supportXhr": true
+          }
+        },
+        "racyCheckOk": false,
+        "contentCheckOk": false,
+        "serviceIntegrityDimensions": {
+          "poToken": "MlNznSyaRW_eFnOhxXAifviiixc9w6dGNapyrje1a8ZXU9ejUSBowBhM_B1oyDT0MKx3xI4PG2Hvh77cI4opTprHoarVY0E9VYbN6WP6l0jNG8yvbw=="
+        }
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,35 +1,10 @@
 import json
 import time
 import traceback
-from django.contrib.auth import get_user_model
 from django.utils.deprecation import MiddlewareMixin
 from django.conf import settings
 from .models import ApiLog
 
-
-def local_learner():
-    """The single learner this local app belongs to — no login involved."""
-    User = get_user_model()
-    user = User.objects.filter(is_active=True).order_by("id").first()
-    return user or User.objects.create_user("local")
-
-
-class LocalLearnerMiddleware:
-    """
-    Single-user local app: an unauthenticated request is the learner.
-
-    Views still carry @login_required; this makes them always pass instead of
-    bouncing to /accounts/login/. A real login (e.g. /admin/) still wins,
-    because only anonymous requests are substituted.
-    """
-
-    def __init__(self, get_response):
-        self.get_response = get_response
-
-    def __call__(self, request):
-        if not request.user.is_authenticated:
-            request.user = local_learner()
-        return self.get_response(request)
 
 # Paths you never want to log (static, admin, health checks, etc.)
 SKIP_PATHS = getattr(
@@ -40,7 +15,7 @@ SKIP_PATHS = getattr(
         "/static/",
         "/media/",
         "/favicon.ico",
-        "/health/",
+        "/api/health/",
     ],
 )
 

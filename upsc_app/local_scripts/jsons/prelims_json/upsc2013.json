@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "section": "Polity",
+    "question": "Consider the following statements- The Parliamentary Committee on Public Accounts.\n1. Consists of not more than 25 Members of the Lok Sabha.\n2. Scrutinizes appropriation and finance accounts of the Government.\n3. Examines the report of the Comptroller and Auditor General of India.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 and 3 only\n(c) 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is wrong as it consists of 22 members (15 from Lok Sabha and 7 from Rajya Sabha). Statements 2 and 3 are correct functions of the Public Accounts Committee.",
+    "motivation": "PAC has been a lot in news for various CAG reports including 2G, coal report etc. Know its composition and functions thoroughly.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "section": "Art/Culture",
+    "question": "Consider the following Bhakti Saints:\n1. Dadu Dayal\n2. Guru Nanak\n3. Tyagaraja\nWho among the above was/were preaching when the Lodi dynasty fell and Babur took over?\n(a) 1 and 3\n(b) 2 only\n(c) 2 and 3\n(d) 1 and 2",
+    "options": {
+      "a": "1 and 3",
+      "b": "2 only",
+      "c": "2 and 3",
+      "d": "1 and 2"
+    },
+    "answer": "B",
+    "explanation": "Guru Nanak (1469–1539), Dadu Dayal (1544–1603), Kakarla Tyagabrahmam (1767–1847). Lodi dynasty fell and Babur took over in 1526. Only Guru Nanak was alive and preaching at that time.",
+    "motivation": "Remember key dates of Bhakti saints alongside political events. Overlapping timelines are a common UPSC trick.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 3,
+    "section": "Environment",
+    "question": "With reference to the food chains in ecosystems, which of the following kinds of organism is/are known as decomposer organism/organisms?\n1. Virus\n2. Fungi\n3. Bacteria\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Most viruses need a living host organism — they are more like a parasite. Viruses reproduce by injecting DNA into living cells. They are not used in decomposition. Fungi and Bacteria are the true decomposers.",
+    "motivation": "Differentiate clearly between parasites (viruses) and decomposers (fungi, bacteria). A frequent conceptual distinction in ecology questions.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 4,
+    "section": "Geography",
+    "question": "The most important fishing grounds of the world are found in the regions where\n(a) Warm and cold atmospheric currents meet\n(b) Rivers drain out large amounts of freshwater into the sea\n(c) Warm and cold oceanic currents meet\n(d) Continental shelf is undulating",
+    "options": {
+      "a": "Warm and cold atmospheric currents meet",
+      "b": "Rivers drain out large amounts of freshwater into the sea",
+      "c": "Warm and cold oceanic currents meet",
+      "d": "Continental shelf is undulating"
+    },
+    "answer": "C",
+    "explanation": "Planktons are abundant where warm and cold oceanic currents meet. That makes these areas important fishing grounds of the world.",
+    "motivation": "Ocean current meeting zones (like Grand Banks, North Sea) are classic geography facts. Pair this with knowledge of major fishing nations.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "section": "Geography",
+    "question": "Which of the following is/are unique characteristic/characteristics of equatorial forests?\n1. Presence of tall, closely set trees with crowns forming a continuous canopy\n2. Coexistence of a large number of species\n3. Presence of numerous varieties of epiphytes\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three are characteristic features of equatorial forests: tall canopy-forming trees, high biodiversity with numerous species coexisting, and abundant epiphytes (plants growing on other plants) due to high humidity.",
+    "motivation": "Equatorial/tropical rainforest characteristics are a staple. Remember: biodiversity hotspot, multi-layered canopy, epiphytes, no seasonal variation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "section": "Economy",
+    "question": "Which of the following constitute Capital Account?\n1. Foreign Loans\n2. Foreign Direct Investment\n3. Private Remittances\n4. Portfolio Investment\nSelect the correct answer using the codes given below:\n(a) 1, 2 and 3\n(b) 1, 2 and 4\n(c) 2, 3 and 4\n(d) 1, 3 and 4",
+    "options": {
+      "a": "1, 2 and 3",
+      "b": "1, 2 and 4",
+      "c": "2, 3 and 4",
+      "d": "1, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "Private Remittances form a part of the current account and not the capital account. Foreign Loans, FDI, and Portfolio Investment are components of the Capital Account.",
+    "motivation": "Distinguish between Current Account (trade, remittances, transfers) and Capital Account (FDI, FII, loans, banking capital). A fundamental macro concept.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "section": "Art/Culture",
+    "question": "Consider the following historical places:\n1. Ajanta Caves\n2. Lepakshi Temple\n3. Sanchi Stupa\nWhich of the above places is/are also known for mural paintings?\n(a) 1 only\n(b) 1 and 2 only\n(c) 1, 2 and 3\n(d) None",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "B",
+    "explanation": "The Lepakshi temple has the finest specimens of mural paintings of the Vijayanagar kings. Ajanta is also famous for its murals. Sanchi is known for its stupa and gateways (toranas), not mural paintings.",
+    "motivation": "For art and culture, know which monument is famous for what specific art form — sculpture, mural, fresco, relief carving.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 8,
+    "section": "Art/Culture",
+    "question": "With reference to the history of philosophical thought in India, consider the following statements regarding Sankhya school:\n1. Sankhya does not accept the theory of rebirth or transmigration of soul.\n2. Sankhya holds that it is the self-knowledge that leads to liberation and not any exterior influence or agent.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "B",
+    "explanation": "Samkhya is an orthodox Indian philosophical system that believes in soul and karma theory, hence accepting rebirth/transmigration. Statement 1 is wrong. Statement 2 is correct — Samkhya holds that self-knowledge (discriminative knowledge between Purusha and Prakriti) leads to liberation.",
+    "motivation": "Indian philosophical schools (Sankhya, Yoga, Nyaya, Vaisheshika, Mimamsa, Vedanta) are regularly tested. Focus on their unique distinguishing beliefs.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 9,
+    "section": "Polity",
+    "question": "In the context of India, which of the following principles is/are implied institutionally in the parliamentary government?\n1. Members of the Cabinet are Members of the Parliament.\n2. Ministers hold the office till they enjoy confidence in the Parliament.\n3. Cabinet is headed by the Head of the State.\nSelect\n(a) 1 and 2 only\n(b) 3 only\n(c) 2 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Statement 3 is wrong as Cabinet is headed by the Head of Government (i.e., Prime Minister) and not by the Head of State (i.e., President). Statements 1 and 2 are correct features of parliamentary government.",
+    "motivation": "Head of State vs Head of Government is a classic distinction. In India, President is Head of State; PM is Head of Government.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "section": "Geography",
+    "question": "The annual range of temperature in the interior of the continents is high as compared to coastal areas. What is/are the reason/reasons?\n1. Thermal difference between land and water\n2. Variation in altitude between continents and oceans\n3. Presence of strong winds in the interior\n4. Heavy rains in the interior as compared to coasts\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 1 and 2 only\n(c) 2 and 3 only\n(d) 1, 2, 3 and 4",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "A",
+    "explanation": "Land heats up and cools down faster than water. Areas in the interior of continents are far from the moderating influence of the sea, giving extremes of climate. Statement 2 is incorrect (altitude difference is not the reason), Statement 3 is incorrect (winds don't contribute enough), Statement 4 is wrong (coastal regions receive more rainfall).",
+    "motivation": "Continentality vs maritime effect is a core climate geography concept. The sea acts as a temperature buffer — key for coastal vs interior climate comparison.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 11,
+    "section": "Geography",
+    "question": "Which of the following is/are the characteristic/characteristics of Indian coal?\n1. High ash content\n2. Low sulphur content\n3. Low ash fusion temperature\nSelect the correct answer using the codes given below:\n(a) 1 and 2 only\n(b) 2 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Indian coal is characterised by high ash content (35 to 45%) and low sulphur content (about 0.5%). The ash fusion temperature of Indian coal is high (about 1500°C), not low — so statement 3 is incorrect.",
+    "motivation": "Properties of Indian coal (high ash, low sulphur, high ash fusion temperature) are important for energy policy questions. Coal scam brought this topic into limelight.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 12,
+    "section": "Geography",
+    "question": "Which of the following statements regarding laterite soils of India are correct?\n1. They are generally red in colour.\n2. They are rich in nitrogen and potash.\n3. They are well-developed in Rajasthan and UP.\n4. Tapioca and cashew nuts grow well on these soils.\nSelect the correct answer using the codes given below:\n(a) 1, 2 and 3\n(b) 2, 3 and 4\n(c) 1 and 4\n(d) 2 and 3 only",
+    "options": {
+      "a": "1, 2 and 3",
+      "b": "2, 3 and 4",
+      "c": "1 and 4",
+      "d": "2 and 3 only"
+    },
+    "answer": "C",
+    "explanation": "Statement 2 is wrong as laterite soils are poor in nitrogen and phosphate. Statement 3 is wrong as laterite soils are not found in UP or Rajasthan. Red laterite soils in Tamil Nadu, Andhra Pradesh and Kerala are more suitable for tree crops like cashewnut. Statement 1 (red colour) and Statement 4 (tapioca and cashew) are correct.",
+    "motivation": "Know the properties and distribution of all Indian soil types: alluvial, black (regur), red, laterite, arid, saline, peaty. A recurring Geography theme.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "section": "Geography",
+    "question": "Consider the following statements:\n1. Natural gas occurs in the Gondwana beds.\n2. Mica occurs in abundance in Kodarma.\n3. Dharwars are famous for petroleum.\nWhich of the statements given above is/are correct?\n(a) 1 and 2\n(b) 2 only\n(c) 2 and 3\n(d) None",
+    "options": {
+      "a": "1 and 2",
+      "b": "2 only",
+      "c": "2 and 3",
+      "d": "None"
+    },
+    "answer": "B",
+    "explanation": "Natural gas is obtained along with oil in all oil fields but exclusive reserves have been located along the eastern coast as well as Tamil Nadu, Orissa, Andhra Pradesh, Tripura, Rajasthan and off-shore wells in Gujarat and Maharashtra — not Gondwana beds. Crude petroleum occurs in sedimentary rocks of the tertiary period — not Dharwars (which are igneous/metamorphic). Kodarma (Jharkhand) is indeed famous for mica.",
+    "motivation": "Match minerals to their geological formations and regional sources. Gondwana (coal), Dharwar (iron ore, gold), Deccan Traps (basalt) are key associations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "section": "Geography",
+    "question": "Consider the following crops:\n1. Cotton\n2. Groundnut\n3. Rice\n4. Wheat\nWhich of these are Kharif crops?\n(a) 1 and 4\n(b) 2 and 3 only\n(c) 1, 2 and 3\n(d) 2, 3 and 4",
+    "options": {
+      "a": "1 and 4",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 3",
+      "d": "2, 3 and 4"
+    },
+    "answer": "C",
+    "explanation": "Cotton, Groundnut and Rice are Kharif crops (sown in June-July, harvested in September-October). Wheat is a Rabi crop (sown in October-November, harvested in March-April).",
+    "motivation": "Memorise the Kharif (cotton, rice, jowar, bajra, maize, groundnut) and Rabi (wheat, barley, mustard, gram, peas) crop lists. Very frequently tested.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "section": "Geography",
+    "question": "\"Climate is extreme, rainfall is scanty and the people used to be nomadic herders.\" The above statement best describes which of the following regions?\n(a) African Savannah\n(b) Central Asian Steppe\n(c) North American Prairie\n(d) Siberian Tundra",
+    "options": {
+      "a": "African Savannah",
+      "b": "Central Asian Steppe",
+      "c": "North American Prairie",
+      "d": "Siberian Tundra"
+    },
+    "answer": "B",
+    "explanation": "The steppe's climate is continental with extremes of temperature. Nomadic tribes like Kirghiz are found there. Rainfall is expected to be light. African Savannah gets moderate rainfall and is not associated with nomadic herders in the same way.",
+    "motivation": "Learn the people/climate/vegetation associations for each grassland type: Steppe (Kirghiz), Savannah (Masai), Prairie (North America), Pampas (South America), Veld (South Africa).",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 16,
+    "section": "Economy",
+    "question": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bond-holders.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "A",
+    "explanation": "For debtors, real interest rate goes down with inflation, which benefits them. On the other hand, with inflation the yield of bonds goes down, which has a negative effect for bond-holders.",
+    "motivation": "Inflation's redistributive effect: benefits debtors and borrowers, hurts creditors, savers, and fixed-income earners. Essential macro concept for economy questions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "section": "Economy",
+    "question": "Disguised unemployment generally means\n(a) Large number of people remain unemployed\n(b) Alternative employment is not available\n(c) Marginal productivity of labour is zero\n(d) Productivity of workers is low",
+    "options": {
+      "a": "Large number of people remain unemployed",
+      "b": "Alternative employment is not available",
+      "c": "Marginal productivity of labour is zero",
+      "d": "Productivity of workers is low"
+    },
+    "answer": "C",
+    "explanation": "Disguised unemployment means more people are engaged in a job than actually required. It is normally seen in agriculture where a whole family is involved. Extra people can be removed without affecting the productivity, i.e., their marginal productivity is zero.",
+    "motivation": "Disguised unemployment is a structural feature of Indian agriculture. Know the difference between disguised, seasonal, cyclical, structural, and frictional unemployment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "section": "Polity",
+    "question": "Consider the following statements:\n1. The Council of Ministers in the Centre shall be collectively responsible to the Parliament.\n2. The Union Ministers shall hold the office during the pleasure of the President of India.\n3. The Prime Minister shall communicate to the President about the proposals for legislation.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Statement 2 is from Article 75. Statement 3 is from Article 78. Statement 1 is from Article 75 but it states collective responsibility to the House of People (Lok Sabha), not the Parliament (both Rajya Sabha and Lok Sabha). So answer should be (b).",
+    "motivation": "Articles 74-78 govern the Council of Ministers. Distinguish between 'Parliament' and 'Lok Sabha' in context of collective responsibility — a subtle but important distinction.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "section": "Polity",
+    "question": "Consider the following statements:\n1. National Development Council is an organ of the Planning Commission.\n2. The Economic and Social Planning is kept in the Concurrent List in the Constitution of India.\n3. The Constitution of India prescribes that Panchayats should be assigned the task of preparation of plans for economic development and social justice.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "NDC is listed as an advisory body to the Planning Commission. Moreover, the plans made by Planning Commission are placed before NDC for its acceptance. So statement 1 is wrong — NDC is not an organ of the Planning Commission. Statements 2 and 3 are correct.",
+    "motivation": "XII Five Year Plan was approved in December meeting of NDC. Know the composition and functions of NDC, Planning Commission, and Finance Commission.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "section": "Polity",
+    "question": "Consider the following statements:\n1. The Chairman and the Deputy Chairman of the Rajya Sabha are not the members of that House.\n2. While the nominated members of the two Houses of the Parliament have no voting right in the presidential election, they have the right to vote in the election of the Vice President.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "B",
+    "explanation": "Deputy Chairman of Rajya Sabha is elected by Rajya Sabha from among its members. So Deputy Chairman is a member of that house — statement 1 is wrong. Statement 2 is correct: nominated members cannot vote in Presidential election but can vote in the Vice-Presidential election.",
+    "motivation": "Presidential vs Vice-Presidential election differences (Electoral College composition, voting rights of nominated members) is a classic exam topic.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 21,
+    "section": "Polity",
+    "question": "With reference to National Legal Services Authority consider the following statements:\n1. Its objective is to provide free and competent legal services to the weaker section of the society on the basis of equal opportunity.\n2. It issues guidelines for the State Legal Services Authorities to implement the legal programmes and schemes throughout the country.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "C",
+    "explanation": "Both statements are correct about NALSA. Its objectives include providing free and competent legal services to weaker sections, and it issues guidelines for State Legal Services Authorities to implement legal programmes throughout the country.",
+    "motivation": "NALSA was in the news around this time with CJI Altamas Kabir being NALSA chairman. Know key institutions providing access to justice: NALSA, Lok Adalats, Legal Aid clinics.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 22,
+    "section": "Geography",
+    "question": "During a thunderstorm, the thunder in the skies is produced by the\n1. Meeting of cumulonimbus clouds in the sky.\n2. Lightning that separates the nimbus clouds.\n3. Violent upward movement of air and water particles.\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3\n(c) 1 and 3\n(d) None of the above produces the thunder",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3",
+      "c": "1 and 3",
+      "d": "None of the above produces the thunder"
+    },
+    "answer": "D",
+    "explanation": "Thunder is the sound caused by the sudden increase in pressure and temperature from lightning, which produces rapid expansion of the air surrounding a bolt of lightning. This expansion creates a sonic boom-like sound. None of the listed options correctly describes this mechanism.",
+    "motivation": "Thunder is caused by lightning-induced rapid air expansion — not cloud collision or wind movement. Distinguish between lightning (electrical discharge) and thunder (sonic effect).",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 23,
+    "section": "Geography",
+    "question": "Consider the following pairs:\nTribe — State\n1. Limboo (Limbu) — Sikkim\n2. Karbi — Himachal Pradesh\n3. Dongaria Kondh — Odisha\n4. Bonda — Tamil Nadu\nWhich of the above pairs are correctly matched?\n(a) 1 and 3 only\n(b) 2 and 4 only\n(c) 1, 3 and 4 only\n(d) 1, 2, 3 and 4",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "2 and 4 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "A",
+    "explanation": "Limbu tribe is found in Sikkim. Karbi tribe is from Assam (not Himachal Pradesh). Dongaria Kondh is from Odisha. Bonda tribe is found in Odisha (Malkangiri district), not Tamil Nadu. So only pairs 1 and 3 are correctly matched.",
+    "motivation": "Tribal geography — knowing which tribe belongs to which state — is frequently asked. Dongaria Kondh was in news due to Vedanta Mining controversy in Odisha.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 24,
+    "section": "Economy",
+    "question": "Consider the following liquid assets:\n1. Demand deposits with the banks\n2. Time deposits with the banks\n3. Savings deposits with the banks\n4. Currency\nThe correct sequence of these assets in the decreasing order of liquidity is\n(a) 1–4–3–2\n(b) 4–3–2–1\n(c) 2–3–1–4\n(d) 4–1–3–2",
+    "options": {
+      "a": "1–4–3–2",
+      "b": "4–3–2–1",
+      "c": "2–3–1–4",
+      "d": "4–1–3–2"
+    },
+    "answer": "D",
+    "explanation": "Liquidity of currency is highest. Next will come demand deposits as they have to be cleared when demanded. Next savings deposits, and least liquidity will be of time deposits (fixed deposits with a lock-in period).",
+    "motivation": "Understand the M0, M1, M2, M3 money supply definitions — they are built on liquidity ordering. Currency > Demand Deposits > Savings > Time Deposits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "section": "Economy",
+    "question": "In the context of Indian economy, 'Open Market Operations' refers to\n(a) Borrowing by scheduled banks from the RBI\n(b) Lending by commercial banks to industry and trade\n(c) Purchase and sale of government securities by the RBI\n(d) None of the above",
+    "options": {
+      "a": "Borrowing by scheduled banks from the RBI",
+      "b": "Lending by commercial banks to industry and trade",
+      "c": "Purchase and sale of government securities by the RBI",
+      "d": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Open Market Operations (OMO) refers to the purchase and sale of government securities by the RBI in the open market to regulate money supply. The repo and reverse repo rates are used when RBI purchases or sells the government securities through this route.",
+    "motivation": "OMO is a key monetary policy tool. Distinguish between OMO (buying/selling G-secs), Repo/Reverse Repo (short-term lending rate), CRR, and SLR.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "section": "Economy",
+    "question": "Priority Sector Lending by banks in India constitutes the lending to\n(a) Agriculture\n(b) Micro and small enterprises\n(c) Weaker sections\n(d) All of the above",
+    "options": {
+      "a": "Agriculture",
+      "b": "Micro and small enterprises",
+      "c": "Weaker sections",
+      "d": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Banks have to lend minimum 40% to priority sector which includes all of the given sectors — agriculture, micro and small enterprises, and weaker sections, among others.",
+    "motivation": "Recently issued guidelines by RBI stated that foreign banks will also have to follow the priority sector lending targets. Know the 40% PSL norm and its subcategories.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "section": "Geography",
+    "question": "Which one among the following industries is the maximum consumer of water in India?\n(a) Engineering\n(b) Paper and pulp\n(c) Textiles\n(d) Thermal power",
+    "options": {
+      "a": "Engineering",
+      "b": "Paper and pulp",
+      "c": "Textiles",
+      "d": "Thermal power"
+    },
+    "answer": "D",
+    "explanation": "Of the total water used by industry, thermal power plants are the biggest users and account for about 88% of total industrial water use. They are followed by engineering (5.05%), pulp and paper (2.26%) and textiles (2.07%) industries.",
+    "motivation": "Water usage by industry is linked to National Water Policy discussions. Thermal power's massive water footprint is a key environmental concern.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 28,
+    "section": "Economy",
+    "question": "To obtain full benefits of demographic dividend, what should India do?\n(a) Promoting skill development\n(b) Introducing more social security schemes\n(c) Reducing infant mortality rate\n(d) Privatization of higher education",
+    "options": {
+      "a": "Promoting skill development",
+      "b": "Introducing more social security schemes",
+      "c": "Reducing infant mortality rate",
+      "d": "Privatization of higher education"
+    },
+    "answer": "A",
+    "explanation": "Social security schemes are for non-working population (old-age pension), so they don't provide benefit of demographic dividend. Reducing IMR is a Millennium Development Goal but doesn't directly provide demographic dividend benefit. Privatizing higher education would make it costlier and out of reach. Skill development is the correct answer — a large working-age population is only an advantage if they are skilled.",
+    "motivation": "Demographic dividend requires a productive workforce. India's window is from 2020-2040. Skill India, PMKVY, and NSDC are key policy responses.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "section": "Art/Culture",
+    "question": "In the context of cultural history of India, a pose in dance and dramatics called 'Tribhanga' has been a favourite of Indian artists from ancient times till today. Which one of the following statements best describes this pose?\n(a) One leg is bent and the body is slightly but oppositely curved at waist and neck\n(b) Facial expressions, hand gestures and make-up are combined to symbolize certain epic or historic characters\n(c) Movements of body, face and hands are used to express oneself or to tell a story\n(d) A little smile, slightly curved waist and certain hand gestures are emphasized to express the feelings of love or eroticism",
+    "options": {
+      "a": "One leg is bent and the body is slightly but oppositely curved at waist and neck",
+      "b": "Facial expressions, hand gestures and make-up are combined to symbolize certain epic or historic characters",
+      "c": "Movements of body, face and hands are used to express oneself or to tell a story",
+      "d": "A little smile, slightly curved waist and certain hand gestures are emphasized to express the feelings of love or eroticism"
+    },
+    "answer": "A",
+    "explanation": "Tribhanga, literally meaning 'three bends,' consists of three bends in the body: at the neck, waist and knee, giving the body an oppositely curved S-shape.",
+    "motivation": "Tribhanga is widely depicted in Indian sculpture (Odissi dance, Krishna iconography). Classical Indian sculpture poses — Tribhanga, Samabhanga, Atibhanga — are unique identifiers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "section": "Modern History",
+    "question": "Annie Besant was\n1. Responsible for starting the Home Rule Movement\n2. The founder of the Theosophical Society\n3. Once the President of the Indian National Congress\nSelect the correct statement/statements using the codes given below.\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Annie Besant was the first woman President of INC in 1917 Calcutta Session. Madam Blavatsky and Henry Steel Olcott founded the Theosophical Society — not Annie Besant. She started the Home Rule Movement in India.",
+    "motivation": "Annie Besant's roles: Home Rule Movement (1916), INC President (1917 Calcutta Session). The Theosophical Society was founded by Madame Blavatsky and Colonel Olcott in 1875.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "section": "Modern History",
+    "question": "The Ilbert Bill controversy was related to the\n(a) Imposition of certain restrictions to carry arms by the Indians\n(b) Imposition of restrictions on newspapers and magazines published in Indian languages\n(c) Removal of disqualifications imposed on the Indian magistrates with regard to the trial of the Europeans\n(d) Removal of a duty on imported cotton cloth",
+    "options": {
+      "a": "Imposition of certain restrictions to carry arms by the Indians",
+      "b": "Imposition of restrictions on newspapers and magazines published in Indian languages",
+      "c": "Removal of disqualifications imposed on the Indian magistrates with regard to the trial of the Europeans",
+      "d": "Removal of a duty on imported cotton cloth"
+    },
+    "answer": "C",
+    "explanation": "In AD 1883, Lord Ripon's law member, Sir Ilbert, introduced a bill which came to be called the Ilbert Bill. It allowed Indian judges to try the cases involving the Europeans.",
+    "motivation": "The Ilbert Bill controversy (1883) is significant as it revealed the racial arrogance of the British and galvanised Indian opinion. Lord Ripon, Ilbert Bill, European agitation — connect these.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "section": "Economy",
+    "question": "A rise in general level of prices may be caused by\n1. An increase in the money supply\n2. A decrease in the aggregate level of output\n3. An increase in the effective demand\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 1 and 2 only\n(c) 2 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three can cause a rise in the general price level. An increase in money supply will cause inflation (quantity theory of money). A decrease in aggregate output leads to supply-side inflation. An increase in effective demand (demand-pull inflation) also raises prices.",
+    "motivation": "Know the three types of inflation: demand-pull, cost-push, and monetary. All three options represent these causes. A fundamental macroeconomics question.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "section": "Economy",
+    "question": "Which one of the following groups of items is included in India's foreign-exchange reserves?\n(a) Foreign-currency assets, Special Drawing Rights (SDRs) and loans from foreign countries\n(b) Foreign-currency assets, gold holdings of the RBI and SDRs\n(c) Foreign-currency assets, loans from the World Bank and SDRs\n(d) Foreign-currency assets, gold holdings of the RBI, and loans from the World Bank",
+    "options": {
+      "a": "Foreign-currency assets, Special Drawing Rights (SDRs) and loans from foreign countries",
+      "b": "Foreign-currency assets, gold holdings of the RBI and SDRs",
+      "c": "Foreign-currency assets, loans from the World Bank and SDRs",
+      "d": "Foreign-currency assets, gold holdings of the RBI, and loans from the World Bank"
+    },
+    "answer": "B",
+    "explanation": "India's foreign exchange reserves comprise foreign currency assets (FCA), gold, special drawing rights (SDRs), and reserve tranche position in the International Monetary Fund (IMF). Loans from foreign countries or the World Bank are not part of forex reserves.",
+    "motivation": "India's forex reserves composition: FCA + Gold + SDRs + RTP in IMF. Concerns for India's balance of payment and forex reserves as current account deficit rose to very high levels at this time.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "section": "Economy",
+    "question": "Which one of the following is likely to be the most inflationary in its effect?\n(a) Repayment of public debt\n(b) Borrowing from the public to finance a budget deficit\n(c) Borrowings from banks to finance a budget deficit\n(d) Creating new money to finance a budget deficit",
+    "options": {
+      "a": "Repayment of public debt",
+      "b": "Borrowing from the public to finance a budget deficit",
+      "c": "Borrowings from banks to finance a budget deficit",
+      "d": "Creating new money to finance a budget deficit"
+    },
+    "answer": "D",
+    "explanation": "Options b and c will lead to a decrease in the money supply in the market. Between a and d, option d will have more inflationary effect than a, as it will lead to an increase in total money supply in the market.",
+    "motivation": "Deficit financing methods and their inflationary impact: Printing money is most inflationary (direct money creation), followed by borrowing from RBI, then from banks, then from public.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "section": "Economy",
+    "question": "Supply of money remaining the same when there is an increase in demand for money, there will be\n(a) a fall in the level of prices\n(b) an increase in the rate of interest\n(c) a decrease in the rate of interest\n(d) an increase in the level of income and employment",
+    "options": {
+      "a": "a fall in the level of prices",
+      "b": "an increase in the rate of interest",
+      "c": "a decrease in the rate of interest",
+      "d": "an increase in the level of income and employment"
+    },
+    "answer": "B",
+    "explanation": "If demand for money increases while supply remains the same, it will lead to an increase in prices or in this case, the rate of interest to be charged will increase.",
+    "motivation": "Money demand-supply equilibrium determines interest rates. Higher demand for money (with same supply) raises the price of money — i.e., interest rate.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "section": "Science and Technology",
+    "question": "Fruits stored in a cold chamber exhibit longer storage life because\n(a) exposure to sunlight is prevented\n(b) concentration of carbon dioxide in the environment is increased\n(c) rate of respiration is decreased\n(d) there is an increase in humidity",
+    "options": {
+      "a": "exposure to sunlight is prevented",
+      "b": "concentration of carbon dioxide in the environment is increased",
+      "c": "rate of respiration is decreased",
+      "d": "there is an increase in humidity"
+    },
+    "answer": "C",
+    "explanation": "Respiration can be controlled by refrigerated storage. At lower temperatures, the rate of respiration in fruits decreases significantly, which slows down the ripening and decay process, thus extending storage life.",
+    "motivation": "Cold storage works by reducing metabolic rate (respiration). This is also why modified atmosphere storage (reducing O2, increasing CO2) is used alongside refrigeration.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "section": "Environment",
+    "question": "Consider the following fauna of India:\n1. Gharial\n2. Leatherback turtle\n3. Swamp deer\nWhich of the above is/are endangered?\n(a) 1 and 2 only\n(b) 3 only\n(c) 1, 2 and 3\n(d) None",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "C",
+    "explanation": "All three are endangered in India. As there is no specific list mentioned (IUCN etc.) in the question, option C is correct as all three species are classified as endangered.",
+    "motivation": "Know India's endangered species: gharial (critically endangered), leatherback turtle (vulnerable to endangered), swamp deer/barasingha (vulnerable). Check IUCN red list categories.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "section": "Science and Technology",
+    "question": "Ball bearings are used in bicycles, cars, etc., because\n(a) the actual area of contact between the wheel and axle is increased\n(b) the effective area of contact between the wheel and axle is increased\n(c) the effective area of contact between the wheel and axle is reduced\n(d) None of the above statements is correct",
+    "options": {
+      "a": "the actual area of contact between the wheel and axle is increased",
+      "b": "the effective area of contact between the wheel and axle is increased",
+      "c": "the effective area of contact between the wheel and axle is reduced",
+      "d": "None of the above statements is correct"
+    },
+    "answer": "C",
+    "explanation": "The roundness of the bearings creates less contact between the bearing and the object being moved. A reduction in contact area means less friction.",
+    "motivation": "Ball bearings convert sliding friction to rolling friction, and also reduce the contact area. Rolling friction is much less than sliding friction — a basic physics principle.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "section": "Science and Technology",
+    "question": "Consider the following statements:\n1. Size of the sun at dusk\n2. Colour of the sun at dawn\n3. Moon being visible at dawn\n4. Twinkle of stars in the sky\n5. Polestar being visible in the sky\nWhich of the above are optical illusions?\n(a) 1, 2 and 3\n(b) 3, 4 and 5\n(c) 1, 2 and 4\n(d) 2, 3 and 5",
+    "options": {
+      "a": "1, 2 and 3",
+      "b": "3, 4 and 5",
+      "c": "1, 2 and 4",
+      "d": "2, 3 and 5"
+    },
+    "answer": "C",
+    "explanation": "Size of sun at dusk (1) is an optical illusion — when near the horizon, we compare it to known objects and it appears bigger. Colour of sun at dawn (2) is an optical illusion — red light travels farthest, creating the reddish appearance. Twinkle of stars (4) is an optical illusion — due to atmospheric refraction, not actual change in star brightness. Moon visible at dawn (3) is NOT an illusion — it is genuinely visible during half of its lunar cycle. Polestar visible (5) is NOT an illusion.",
+    "motivation": "Optical illusions in nature are explained by atmospheric optics — refraction, scattering (Rayleigh), and psychological perception. These questions test conceptual clarity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "section": "Science and Technology",
+    "question": "Rainbow is produced when sunlight falls on drops of rain. Which of the following physical phenomena are responsible for this?\n1. Dispersion\n2. Refraction\n3. Internal reflection\nSelect the correct answer using the codes given below:\n(a) 1 and 2 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "Rainbow formation involves: (1) Dispersion — each water droplet acts as a prism dispersing light; (2) Refraction — since water is denser than air, light refracts as it enters the drop; (3) Internal reflection — some light reflects off the back of the drop when angle exceeds critical angle (48° for water).",
+    "motivation": "Rainbow = Refraction + Dispersion + Internal Reflection. Primary rainbow (one internal reflection), Secondary rainbow (two internal reflections, reversed colours). A classic optics application.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "section": "Science and Technology",
+    "question": "Many transplanted seedlings do not grow because\n(a) the new soil does not contain favourable minerals\n(b) most of the root hairs grip the new soil too hard\n(c) most of the root hairs are lost during transplantation\n(d) leaves get damaged during transplantation",
+    "options": {
+      "a": "the new soil does not contain favourable minerals",
+      "b": "most of the root hairs grip the new soil too hard",
+      "c": "most of the root hairs are lost during transplantation",
+      "d": "leaves get damaged during transplantation"
+    },
+    "answer": "C",
+    "explanation": "Newly transplanted trees or shrubs experience transplant shock. This is caused by damage to the roots during transplant. The most important roots — the fine feeder roots — are located farthest from the plant and are usually destroyed either by cutting or drying during transplantation.",
+    "motivation": "Root hair function (water and mineral absorption) is a basic botany concept. Transplant shock is due to feeder root loss, not soil minerals.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "section": "Economy",
+    "question": "Economic growth in country X will necessarily have to occur if\n(a) there is technical progress in the world economy\n(b) there is population growth in X\n(c) there is capital formation in X\n(d) the volume of trade grows in the world economy",
+    "options": {
+      "a": "there is technical progress in the world economy",
+      "b": "there is population growth in X",
+      "c": "there is capital formation in X",
+      "d": "the volume of trade grows in the world economy"
+    },
+    "answer": "C",
+    "explanation": "Options a and d do not necessarily contribute to the growth of country X specifically from the general world economy. Population growth without avenues for the economy to absorb it will have a deteriorating effect. Capital formation in a country necessarily leads to economic growth whenever there is capital formation in a country.",
+    "motivation": "Capital formation (investment in infrastructure, machinery, human capital) is the engine of economic growth — Harrod-Domar and Solow growth models both confirm this.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "section": "Science and Technology",
+    "question": "Which of the following statements is/are correct?\n1. Viruses lack enzymes necessary for the generation of energy\n2. Viruses can be cultured in any synthetic medium.\n3. Viruses are transmitted from one organism to another by biological vectors only\nSelect the correct answer using the codes given below.\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Option 1 is correct: viruses do not have the chemical machinery needed to survive on their own. Option 2 is wrong: viruses can only grow inside living host cells and cannot be cultured on synthetic media. Option 3 is also wrong: viruses enter the body from the environment or other individuals through soil, water to air, via nose, mouth, or breaks in the skin — not only via biological vectors.",
+    "motivation": "Virus vs bacteria is a key biology distinction: viruses are non-living outside hosts, cannot reproduce independently, lack cellular machinery. Bacteria are living organisms with cellular structure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "section": "Geography",
+    "question": "Which of the following leaf modifications occurs/occur in desert areas to inhibit water loss?\n1. Hard and waxy leaves\n2. Tiny leaves or no leaves\n3. Thorns instead of leaves\nSelect the correct answer using the codes given below.\n(a) 1 and 2 only\n(b) 2 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "Plants have few or no leaves, and foliage is either waxy/hairy or needle-shaped to prevent water loss. All three modifications — hard and waxy leaves, tiny/no leaves, and thorns instead of leaves — are desert plant adaptations to minimise transpiration.",
+    "motivation": "Xerophyte adaptations (CAM pathway, sunken stomata, thick cuticle, thorns, succulent stems) are a standard ecology topic. Link with hot desert biome.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "section": "Science and Technology",
+    "question": "The known forces of nature can be divided into four classes, viz., gravity, electromagnetism, weak nuclear force and strong nuclear force. With reference to them, which one of the following statements is not correct?\n(a) Gravity is the strongest of the four\n(b) Electromagnetism acts only on particles with an electric charge\n(c) Weak nuclear force causes radioactivity\n(d) Strong nuclear force holds protons and neutrons inside the nucleus of an atom",
+    "options": {
+      "a": "Gravity is the strongest of the four",
+      "b": "Electromagnetism acts only on particles with an electric charge",
+      "c": "Weak nuclear force causes radioactivity",
+      "d": "Strong nuclear force holds protons and neutrons inside the nucleus of an atom"
+    },
+    "answer": "A",
+    "explanation": "Gravity is actually the weakest of the four forces — it is about 10^-36 times the strength of the strong nuclear force. This weakness is easily demonstrable in everyday life when static electricity can lift paper against gravity.",
+    "motivation": "Relative strength of fundamental forces: Strong > Electromagnetism > Weak > Gravity. Gravity is weakest but acts at infinite range and dominates at cosmic scales.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "section": "Science and Technology",
+    "question": "The efforts to detect the existence of Higgs boson particle have become frequent news in the recent past. What is/are the importance/importances of discovering this particle?\n1. It will enable us to understand as to why elementary particles have mass.\n2. It will enable us in the near future to develop the technology of transferring matter from one point to another without traversing the physical space between them.\n3. It will enable us to create better fuels for nuclear mission.\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "Option 1 is correct: The Higgs boson is associated with the Higgs field, theorized to pervade the universe, and explains why particles acquire mass. Options 2 and 3 are wrong/doubtful — Higgs Boson is not a main item that will open the way for teleportation, and it will not directly enable creation of better nuclear fuels.",
+    "motivation": "Higgs Boson ('God Particle') was confirmed by CERN in 2012. It explains the origin of mass via the Higgs field. Teleportation and nuclear fuels are not related applications.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 47,
+    "section": "Science and Technology",
+    "question": "Mycorrhizal biotechnology has been used in rehabilitating degraded sites because mycorrhiza enables the plants to\n1. Resist drought and increase absorptive area\n2. Tolerate extremes of pH\n3. Resist disease infestation\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three options are correct. Mycorrhizal fungi help plants resist drought and increase water/nutrient absorption; they help tolerate extremes of pH by accessing phosphorus unavailable at certain pH levels; and they enhance resistance to soil-borne diseases through interactions including lignification and altered root exudation.",
+    "motivation": "Mycorrhiza is a fungus-root symbiosis critical for soil health and plant nutrition. It is increasingly relevant in sustainable agriculture and land reclamation contexts.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 48,
+    "section": "Polity",
+    "question": "Who among the following constitute the National Development Council?\n1. The Prime Minister\n2. The Chairman, Finance Commission\n3. Ministers of the Union Cabinet\n4. Chief Ministers of the States\nSelect the correct answer using the codes given below.\n(a) 1, 2 and 3 only\n(b) 1, 3 and 4 only\n(c) 2 and 4 only\n(d) 1, 2, 3 and 4",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "1, 3 and 4 only",
+      "c": "2 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "B",
+    "explanation": "NDC consists of the Prime Minister (Chairman), Union Cabinet Ministers, Chief Ministers of States, Lt. Governors of Union Territories, and members of the Planning Commission. The Chairman of the Finance Commission is NOT a member of NDC.",
+    "motivation": "In Dec 2012, NDC meeting, Jayalalitha walked out citing humiliation. NDC composition: PM + Cabinet Ministers + CMs + Planning Commission members (not Finance Commission).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "section": "Economy",
+    "question": "The national income of a country for a given period is equal to the\n(a) total value of goods and services produced by the nationals\n(b) sum of total consumption and investment expenditure\n(c) sum of personal income of all individuals\n(d) money value of final goods and service produced",
+    "options": {
+      "a": "total value of goods and services produced by the nationals",
+      "b": "sum of total consumption and investment expenditure",
+      "c": "sum of personal income of all individuals",
+      "d": "money value of final goods and service produced"
+    },
+    "answer": "A",
+    "explanation": "NNP at factor cost = National Income (NI). So A is the best option. No other option mentions Nationals (domestic + abroad), which is the key distinction between National Income and GDP.",
+    "motivation": "National Income = NNP at factor cost = value produced by nationals (residents) regardless of location. Distinguished from GDP (production within borders, regardless of nationality).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "section": "Economy",
+    "question": "Which of the following grants/grant direct credit assistance to rural households?\n1. Regional Rural Banks\n2. National Bank for Agriculture and Rural Development\n3. Land Development Banks\nSelect the correct answer using the codes given below.\n(a) 1 and 2 only\n(b) 2 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "NABARD does not provide direct credit assistance. It 'refinances' the assistance by other institutions. Regional Rural Banks and Land Development Banks provide direct credit to rural households.",
+    "motivation": "NABARD is a refinancing/apex institution, not a direct lender. Capital infusion in NABARD for financial year 2012-13 to increase its Net Owned Fund so that its lending capacity can increase.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "section": "Polity",
+    "question": "What will follow if a Money Bill is substantially amended by the Rajya Sabha?\n(a) The Lok Sabha may still proceed with the Bill, accepting or not accepting the recommendations of the Rajya Sabha\n(b) The Lok Sabha cannot consider the Bill further\n(c) The Lok Sabha may send the Bill to the Rajya Sabha for reconsideration\n(d) The President may call a joint sitting for passing the Bill",
+    "options": {
+      "a": "The Lok Sabha may still proceed with the Bill, accepting or not accepting the recommendations of the Rajya Sabha",
+      "b": "The Lok Sabha cannot consider the Bill further",
+      "c": "The Lok Sabha may send the Bill to the Rajya Sabha for reconsideration",
+      "d": "The President may call a joint sitting for passing the Bill"
+    },
+    "answer": "A",
+    "explanation": "Although Rajya Sabha cannot amend or reject a Money Bill, it can make recommendations, which Lok Sabha may or may not accept. Lok Sabha may still proceed with the Bill. Joint sittings are NOT called for Money Bills.",
+    "motivation": "Money Bill procedure: Lok Sabha exclusive power. Rajya Sabha can only recommend (not amend/reject). No joint sitting for Money Bills. Certified by Speaker.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 52,
+    "section": "Polity",
+    "question": "Which one of the following statements is correct?\n(a) In India, the same person cannot be appointed as Governor for two or more States at the same time.\n(b) The Judges of the High Court of the States in India are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President\n(c) No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her post\n(d) In the case of a Union Territory having a legislative setup, the Chief Minister is appointed by the Lt. Governor on the basis of majority support",
+    "options": {
+      "a": "In India, the same person cannot be appointed as Governor for two or more States at the same time.",
+      "b": "The Judges of the High Court of the States in India are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President",
+      "c": "No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her post",
+      "d": "In the case of a Union Territory having a legislative setup, the Chief Minister is appointed by the Lt. Governor on the basis of majority support"
+    },
+    "answer": "C",
+    "explanation": "Statement 1 is wrong — the same person can be appointed as Governor of two or more states at the same time. Statement 2 is wrong — Judges of HC are also appointed by the President (not Governor). Statement 4 is wrong — in case of UTs with legislature, CM is appointed by the President. Statement 3 is correct — no procedure has been laid down in the Constitution for removal of a Governor.",
+    "motivation": "Governor's appointment, removal, and powers are frequently tested. No specific removal procedure in the Constitution — Governor serves at the pleasure of the President.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 53,
+    "section": "Geography",
+    "question": "Which one of the following pairs is correctly matched?\nGeographical Feature — Region\n(a) Abyssinian Plateau — Arabia\n(b) Atlas Mountains — North-Western Africa\n(c) Guiana Highlands — South-Western Africa\n(d) Okavango Basin — Patagonia",
+    "options": {
+      "a": "Abyssinian Plateau — Arabia",
+      "b": "Atlas Mountains — North-Western Africa",
+      "c": "Guiana Highlands — South-Western Africa",
+      "d": "Okavango Basin — Patagonia"
+    },
+    "answer": "B",
+    "explanation": "The Atlas Mountains are located in North-Western Africa (Morocco, Algeria, Tunisia). Abyssinian Plateau is in Ethiopia (East Africa, not Arabia). Guiana Highlands are in South America (not South-Western Africa). Okavango Basin is in Southern Africa (Botswana), not Patagonia.",
+    "motivation": "Atlas Mountains (NW Africa), Abyssinian Plateau (Ethiopia), Guiana Highlands (N. South America), Okavango (Botswana) — use an atlas to fix these locations permanently.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 54,
+    "section": "Art/Culture",
+    "question": "With reference to the history of Indian rock-cut architecture, consider the following statements:\n1. The cases at Badami are the oldest surviving rock-cut caves in India.\n2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya.\n3. At Ellora, caves were made for different faiths.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 and 3 only\n(c) 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "The Barabar Caves are the oldest surviving rock-cut caves in India (not Badami), dating to the 3rd century BC, Ashoka period. The Barabar caves were used by ascetics from the Ajivika sect but were made by Emperor Ashoka (not Chandragupta Maurya). At Ellora, caves were indeed made for different faiths — Buddhist, Hindu, and Jain. Only statement 3 is correct.",
+    "motivation": "Barabar (oldest, Ashoka era, Ajivika), Ajanta (Buddhist, paintings), Ellora (multi-faith, Buddhist + Hindu + Jain), Elephanta (Hindu), Badami (Chalukya) — know each site's unique identity.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 55,
+    "section": "Science and Technology",
+    "question": "Recombination DNA technology (Genetic Engineering) allows genes to be transferred\n1. across different species of plants\n2. from animals to plants\n3. from microorganisms to higher organisms\nSelect the correct answer using the codes given below.\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "Recombinant DNA technology allows gene transfer across all combinations: across different plant species, from animals to plants (e.g., antifreeze gene from fish to tomato), and from microorganisms to higher organisms (e.g., human insulin gene in bacteria).",
+    "motivation": "GM crops and recombinant DNA technology are important for science and agriculture policy questions. Examples: Bt cotton, Golden Rice, insulin production from bacteria.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 56,
+    "section": "Ancient India",
+    "question": "The Chinese traveler Yuan Chwang (Hiuen Tsang) who visited India recorded the general conditions and culture of India at that time. In this context, which of the following statements is/are correct?\n1. The roads and river-routes were completely immune from robbery.\n2. As regards punishment for offences, ordeals by fire, water and poison were the instruments for determining the innocence or guilt of a person.\n3. The tradesmen had to pay duties at ferries and barrier stations.\nSelect the correct answer using the codes given below.\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Violent crime was rare, but the roads and river routes were exposed to brigands as Hiuen Tsang fell victim to them more than once — so statement 1 is wrong. Criminal law was exceptionally severe. Ordeals by fire, water or poison were taken recourse to establish the innocence or guilt of a person. Tradesmen had to pay duties at ferries and barrier stations.",
+    "motivation": "Hiuen Tsang visited India during Harsha's reign (7th century CE). His accounts (Si-Yu-Ki) are a primary source for Harsha period history. Know key foreign accounts: Fa-Hien, Hiuen Tsang, Al-Beruni, Ibn Battuta.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "section": "Environment",
+    "question": "Consider the following:\n1. Star tortoise\n2. Monitor lizard\n3. Pygmy hog\n4. Spider monkey\nWhich of the above are naturally found in India?\n(a) 1, 2 and 3 only\n(b) 2 and 3 only\n(c) 1 and 4 only\n(d) 1, 2, 3 and 4",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 and 3 only",
+      "c": "1 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "A",
+    "explanation": "Spider monkeys live in tropical climates, specifically the evergreen forests of Central and South America. They can also be found as far north as Mexico but not in India. Star tortoise, monitor lizard, and pygmy hog are all found in India.",
+    "motivation": "Spider monkey is native to Central/South America — not India. Pygmy hog is found in Assam (critically endangered). Star tortoise and monitor lizard are found across India.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 58,
+    "section": "Environment",
+    "question": "Which of the following can be found as pollutants in the drinking water in some parts of India?\n1. Arsenic\n2. Sorbitol\n3. Fluoride\n4. Formaldehyde\n5. Uranium\nSelect the correct answer using the codes given below.\n(a) 1 and 3 only\n(b) 2, 4 and 5 only\n(c) 1, 3 and 5 only\n(d) 1, 2, 3, 4 and 5",
+    "options": {
+      "a": "1 and 3 only",
+      "b": "2, 4 and 5 only",
+      "c": "1, 3 and 5 only",
+      "d": "1, 2, 3, 4 and 5"
+    },
+    "answer": "C",
+    "explanation": "Punjab was the first state to report presence of uranium in drinking water in rural areas. Arsenic contamination is found in West Bengal and other states. Fluoride contamination is a major issue in many Indian states. Sorbitol and formaldehyde are NOT known water pollutants in India.",
+    "motivation": "India's groundwater contamination issues: arsenic (West Bengal, Bihar), fluoride (Rajasthan, AP), nitrates (agricultural states), and uranium (Punjab). These are environmental health hazards.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 59,
+    "section": "Modern History",
+    "question": "With reference to Indian History, the Members of the Constituent Assembly from the Provinces were\n(a) directly elected by the people of those Provinces\n(b) nominated by the Indian National Congress and the Muslim League\n(c) elected by the Provincial Legislative Assemblies\n(d) selected by the Government for their expertise in constitutional matters",
+    "options": {
+      "a": "directly elected by the people of those Provinces",
+      "b": "nominated by the Indian National Congress and the Muslim League",
+      "c": "elected by the Provincial Legislative Assemblies",
+      "d": "selected by the Government for their expertise in constitutional matters"
+    },
+    "answer": "C",
+    "explanation": "The Constituent Assembly members were elected indirectly by the members of the individual provincial legislative assemblies, not directly by the people.",
+    "motivation": "Constituent Assembly (1946): total 389 members, indirectly elected by Provincial legislatures. Based on Cabinet Mission Plan. Each province got seats proportional to population.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "section": "Environment",
+    "question": "Consider the following animals:\n1. Sea cow\n2. Sea horse\n3. Sea lion\nWhich of the above is/are mammal/mammals?\n(a) 1 only\n(b) 1 and 3 only\n(c) 2 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Sea Cow (Dugong/Manatee) is a large aquatic mammal. Sea horse is a vertebrate fish (genus Hippocampus). Sea Lion is warm-blooded, gives birth to live young, has hair, and the female produces milk — all characteristics of mammals. So Sea cow and Sea lion are mammals, but Sea horse is a fish.",
+    "motivation": "Sea cow (Dugong) was in the news. Mammals in water: whale, dolphin, dugong, seal, sea lion, manatee. Sea horse is a FISH, not a mammal. A tricky biology question.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 61,
+    "section": "Polity",
+    "question": "Consider the following statements:\n1. An amendment to the Constitution of India can be initiated by an introduction of a bill in the Lok Sabha only.\n2. If such an amendment seeks to make changes in the federal character of the Constitution, the amendment also requires to be ratified by the legislature of all the States of India.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "D",
+    "explanation": "Statement 1 is wrong — a constitutional amendment bill can be initiated in either House (Lok Sabha or Rajya Sabha), not Lok Sabha only. Statement 2 is wrong — federal amendments require ratification by not less than half (not all) states of India.",
+    "motivation": "Constitutional amendment procedure (Article 368): can be introduced in either House; special majority required; federal provisions need ratification by half the states (not all). These specifics are frequently tested.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 62,
+    "section": "Polity",
+    "question": "Consider the following statements: Attorney General of India can\n1. take part in the proceedings of the Lok Sabha\n2. be a member of a committee of the Lok Sabha\n3. speak in the Lok Sabha\n4. vote in the Lok Sabha\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 2 and 4\n(c) 1, 2 and 3\n(d) 1 and 3 only",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 4",
+      "c": "1, 2 and 3",
+      "d": "1 and 3 only"
+    },
+    "answer": "C",
+    "explanation": "The Attorney General of India has the right of audience in all courts and can take part in proceedings and speak in both Houses of Parliament and their committees, but does NOT have the right to vote.",
+    "motivation": "Attorney General's parliamentary privileges: can participate, speak, and be a member of parliamentary committees — but CANNOT vote. Appointed by President, must be qualified to be a SC judge.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 63,
+    "section": "Environment",
+    "question": "With reference to the usefulness of the by-products of sugar industry, which of the following statements is/are correct?\n1. Bagasse can be used as biomass fuel for the generation of energy.\n2. Molasses can be used as one of the feedstocks for the production of synthetic chemical fertilizers.\n3. Molasses can be used for the production of ethanol.\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "Bagasse (fibrous residue after juice extraction) is a biomass fuel used to power sugar mills. Molasses can be fermented to produce ethanol — a leading renewable fuel. However, molasses is an organic fertilizer, not a feedstock for synthetic chemical fertilizers — so statement 2 is wrong.",
+    "motivation": "Rangarajan Panel Report on sugar decontrol brought sugar industry by-products into focus. Bagasse → power generation; Molasses → ethanol/country liquor; Press mud → organic fertilizer.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "section": "Geography",
+    "question": "Variations in the length of daytime and nighttime from season to season are due to\n(a) the earth's rotation on its axis\n(b) the earth's revolution round the sun in an elliptical manner\n(c) latitudinal position of the place\n(d) revolution of the earth on a tilted axis",
+    "options": {
+      "a": "the earth's rotation on its axis",
+      "b": "the earth's revolution round the sun in an elliptical manner",
+      "c": "latitudinal position of the place",
+      "d": "revolution of the earth on a tilted axis"
+    },
+    "answer": "D",
+    "explanation": "On its path around the sun, the Earth's axis is always inclined in one direction. Because of this inclination, the Northern Hemisphere faces the sun during one part of the year, and the Southern Hemisphere during the other, causing seasonal variation in day length. Revolution on a tilted axis is the reason.",
+    "motivation": "Earth's axial tilt (23.5°) causes seasons and variation in day length. Without tilt, there would be no seasons. Revolution speed (elliptical orbit) affects year length, not day length variation.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 65,
+    "section": "Geography",
+    "question": "The Narmada river flows to the west, while most other large peninsular rivers flow to the east. Why?\n1. It occupies a linear rift valley.\n2. It flows between the Vindhyas and the Satpuras.\n3. The land slopes to the west from Central India.\nSelect the correct answer using the codes given below.\n(a) 1 only\n(b) 2 and 3\n(c) 1 and 3\n(d) None",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3",
+      "c": "1 and 3",
+      "d": "None"
+    },
+    "answer": "A",
+    "explanation": "The Narmada and Tapi flow through rift valleys. Statement 3 is wrong as land slopes to the east in this region. Statement 2 is factually correct (it does flow between Vindhyas and Satpuras), however this is not the reason for its westward flow. Only the rift valley (statement 1) explains the westward flow.",
+    "difficulty": "Difficult",
+    "motivation": "Narmada and Tapi are rift valley rivers flowing westward into the Arabian Sea. Most peninsular rivers (Godavari, Krishna, Cauvery) flow eastward into the Bay of Bengal due to the eastward slope of the Deccan."
+  },
+  {
+    "id": 66,
+    "section": "Environment",
+    "question": "On the planet earth, most of the freshwater exists as ice caps and glaciers. Out of the remaining freshwater, the largest proportion\n(a) is bound in atmosphere as moisture and clouds\n(b) is found in freshwater lakes and rivers\n(c) exists as groundwater\n(d) exists as soil moisture",
+    "options": {
+      "a": "is bound in atmosphere as moisture and clouds",
+      "b": "is found in freshwater lakes and rivers",
+      "c": "exists as groundwater",
+      "d": "exists as soil moisture"
+    },
+    "answer": "C",
+    "explanation": "Of all freshwater on Earth, about 69% is in glaciers and ice caps. Of the remaining freshwater, groundwater accounts for the largest proportion (about 30% of all freshwater), while lakes and rivers hold only a small fraction.",
+    "motivation": "Water distribution on Earth: 97% saltwater, 3% freshwater. Of freshwater: ~69% glaciers, ~30% groundwater, <1% surface water (lakes, rivers). Groundwater depletion is a critical issue in India.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 67,
+    "section": "Geography",
+    "question": "Consider the following pairs:\n1. Nokrek Biosphere Reserve — Garo Hills\n2. Logtak (Loktak) Lake — Barail Range\n3. Namdapha National Park — Dafla Hills\nWhich of the above pairs is/are correctly matched?\n(a) 1 only\n(b) 2 and 3 only\n(c) 1, 2 and 3\n(d) None",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "A",
+    "explanation": "Nokrek Biosphere Reserve is correctly located in the Garo Hills of Meghalaya. Loktak Lake is in Manipur — located near the Manipur hills, not the Barail Range. Namdapha National Park is in Arunachal Pradesh — associated with the Patkai hills, not Dafla Hills.",
+    "motivation": "North-East India's protected areas are frequently tested. Nokrek (Garo Hills, Meghalaya), Loktak (Manipur — floating phumdis), Namdapha (Arunachal Pradesh, Patkai range) are important landmarks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "section": "Geography",
+    "question": "Consider the following:\n1. Electromagnetic radiation\n2. Geothermal energy\n3. Gravitational force\n4. Plate movements\n5. Rotation of the earth\n6. Revolution of the earth\nWhich of the above are responsible for bringing dynamic changes on the surface of the earth?\n(a) 1, 2, 3 and 4 only\n(b) 1, 3, 5 and 6 only\n(c) 2, 4, 5 and 6 only\n(d) 1, 2, 3, 4, 5 and 6",
+    "options": {
+      "a": "1, 2, 3 and 4 only",
+      "b": "1, 3, 5 and 6 only",
+      "c": "2, 4, 5 and 6 only",
+      "d": "1, 2, 3, 4, 5 and 6"
+    },
+    "answer": "D",
+    "explanation": "All six factors bring dynamic changes to the earth's surface: electromagnetic radiation causes temperature changes and weathering; geothermal energy drives volcanism and diastrophism; gravitational force drives erosion; plate movements build continents; rotation causes tidal forces; revolution causes seasonal and climatic cycles.",
+    "motivation": "Geomorphic processes arise from both endogenic (internal: geothermal, plate tectonics) and exogenic (external: solar radiation, gravity, erosion) forces. Both categories must be considered together.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "section": "Polity",
+    "question": "Which of the following bodies does not/do not find mention in the Constitution?\n1. National Development Council\n2. Planning Commission\n3. Zonal Councils\nSelect the correct answer using the codes given below:\n(a) 1 and 2 only\n(b) 2 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "A",
+    "explanation": "NDC and Planning Commission are non-constitutional and non-statutory bodies. Zonal Councils were set up under the States Reorganisation Act, 1956 — they are statutory bodies but not constitutional (not mentioned in the Constitution).",
+    "difficulty": "Easy",
+    "motivation": "Know what is constitutional, statutory, and non-statutory. NDC and Planning Commission have no constitutional or statutory basis. Zonal Councils — statutory (SRA 1956) but not constitutional. Finance Commission is constitutional (Article 280)."
+  },
+  {
+    "id": 70,
+    "section": "Modern History",
+    "question": "The demand for the Tebhaga Peasant Movement in Bengal was for\n(a) the reduction of the share of the landlords from one-half of the crop to one-third\n(b) the grant of ownership of land to peasants as they were the actual cultivators of the land.\n(c) the uprooting of Zamindari system and the end of serfdom\n(d) writing off all peasant debts",
+    "options": {
+      "a": "the reduction of the share of the landlords from one-half of the crop to one-third",
+      "b": "the grant of ownership of land to peasants as they were the actual cultivators of the land.",
+      "c": "the uprooting of Zamindari system and the end of serfdom",
+      "d": "writing off all peasant debts"
+    },
+    "answer": "A",
+    "explanation": "The Tebhaga movement was initiated in Bengal by the Kisan Sabha (Communist Party of India) in 1946. At that time share-cropping peasants had to give half of their harvest to the owners. The demand of the Tebhaga (sharing by thirds) movement was to reduce the share given to landlords to one third.",
+    "motivation": "Tebhaga (1946, Bengal), Telangana (1946-51, Hyderabad), Punnapra-Vayalar (1946, Travancore) — these are major post-war peasant movements. Know their locations, demands, and leadership.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 71,
+    "section": "Polity",
+    "question": "The Parliament can make any law for whole or any part of India for implementing International treaties\n(a) with the consent of all the States\n(b) with the consent of the majority of States\n(c) with the consent of the States concerned\n(d) without the consent of any State",
+    "options": {
+      "a": "with the consent of all the States",
+      "b": "with the consent of the majority of States",
+      "c": "with the consent of the States concerned",
+      "d": "without the consent of any State"
+    },
+    "answer": "D",
+    "explanation": "Article 253 of the Constitution gives Parliament the power to make any law for the whole or any part of India for implementing international treaties, agreements or conventions without requiring the consent of any state.",
+    "motivation": "Article 253 is a significant provision giving Centre supremacy in international obligations. This is why Parliament could pass laws on climate change, nuclear liability etc. affecting state subjects.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 72,
+    "section": "Environment",
+    "question": "In the grasslands, trees do not replace the grasses as a part of an ecological succession because of\n(a) insects and fungi\n(b) limited sunlight and paucity of nutrients\n(c) water limits and fire\n(d) None of the above",
+    "options": {
+      "a": "insects and fungi",
+      "b": "limited sunlight and paucity of nutrients",
+      "c": "water limits and fire",
+      "d": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Grasses intercept most of the rainwater before it reaches the roots of shrubs. Because the grasses limit the supply of water to the shrub seedlings, they maintain the integrity of the grass ecosystem. Fire also prevents tree establishment in grasslands. Water limits and fire are the key factors.",
+    "motivation": "Ecological succession in grasslands is arrested by water limitation and periodic fire. Unlike forest succession, grasslands are fire-climax or disturbance-maintained ecosystems.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 73,
+    "section": "Environment",
+    "question": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?\n(a) Oceans, lakes, grasslands, mangroves\n(b) Mangroves, oceans, grasslands, lakes\n(c) Mangroves, grasslands, lakes, oceans\n(d) Oceans, mangroves, lakes, grasslands",
+    "options": {
+      "a": "Oceans, lakes, grasslands, mangroves",
+      "b": "Mangroves, oceans, grasslands, lakes",
+      "c": "Mangroves, grasslands, lakes, oceans",
+      "d": "Oceans, mangroves, lakes, grasslands"
+    },
+    "answer": "C",
+    "explanation": "Net primary productivity values: Mangroves ~2500 g/m²/yr, Grassland ~500 g/m²/yr, Lakes ~500 g/m²/yr (but slightly less than grassland), Open Ocean ~125 g/m²/yr. So the decreasing order is: Mangroves > Grasslands > Lakes > Oceans.",
+    "motivation": "Ecosystem productivity ranking (high to low): Tropical rainforest > Mangroves > Temperate forest > Grasslands > Lakes > Open Ocean > Desert. Mangroves are among Earth's most productive ecosystems.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "section": "Geography",
+    "question": "Contour bunding is a method of soil conservation used in\n(a) desert margins, liable to strong wind action\n(b) low flat plains, close to stream courses, liable to flooding\n(c) scrublands, liable to spread of weed growth\n(d) None of the above",
+    "options": {
+      "a": "desert margins, liable to strong wind action",
+      "b": "low flat plains, close to stream courses, liable to flooding",
+      "c": "scrublands, liable to spread of weed growth",
+      "d": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Contour bunding (or contour bundling) involves the placement of lines of stones along the natural rises of a landscape. It helps to capture and hold rainfall before it can become runoff, which reduces soil erosion and retards overall water loss. It is used on hilly/sloping land — not specifically for wind erosion (deserts), flooding (plains), or weed growth (scrublands). None of the options accurately describes its use.",
+    "motivation": "Contour bunding is a rainwater harvesting and soil conservation technique for sloped terrain. Distinguish from bunds (earthen), check dams, and shelterbelts (wind). Appropriate for undulating terrain.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 75,
+    "section": "Polity",
+    "question": "The Government enacted, the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Which one of the following is not identified as its objective?\n(a) To provided self-governance\n(b) To recognize traditional rights\n(c) To create autonomous regions in tribal areas\n(d) To free tribal people from exploitation",
+    "options": {
+      "a": "To provided self-governance",
+      "b": "To recognize traditional rights",
+      "c": "To create autonomous regions in tribal areas",
+      "d": "To free tribal people from exploitation"
+    },
+    "answer": "C",
+    "explanation": "PESA Act objectives include: self-governance, recognizing traditional rights, and freeing tribal people from exploitation. Creating autonomous regions is NOT an objective of PESA — the North-Eastern tribal areas with their own Autonomous Councils are not even covered under PESA (they fall under the Sixth Schedule).",
+    "motivation": "PESA 1996 extends Panchayati Raj to Schedule V areas (9 states). Gram Sabha is the key unit under PESA. Sixth Schedule (NE autonomous councils) is separate from PESA.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 76,
+    "section": "Polity",
+    "question": "Under the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, who shall be the authority to initiate the process for determining the nature and extent of individual or community forest rights or both?\n(a) State Forest Department\n(b) District Collector/Deputy Commissioner\n(c) Tahsildar/Block Development Officer/Mandal Revenue Officer\n(d) Gram Sabha",
+    "options": {
+      "a": "State Forest Department",
+      "b": "District Collector/Deputy Commissioner",
+      "c": "Tahsildar/Block Development Officer/Mandal Revenue Officer",
+      "d": "Gram Sabha"
+    },
+    "answer": "D",
+    "explanation": "Under the Forest Rights Act 2006, Chapter IV clause 6(1), the Gram Sabha is the authority to initiate the process for determining the nature and extent of individual or community forest rights.",
+    "motivation": "Forest Rights Act 2006: Gram Sabha initiates the process, Sub-divisional committee verifies, District committee makes final decision. SC judgment on Gram Sabha's role in Vedanta Mining case (Odisha) is relevant context.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 77,
+    "section": "Environment",
+    "question": "Improper handling and storage of cereal grains and oilseeds result in the production of toxins known as aflatoxins which are not generally destroyed by normal cooking process. Aflatoxins are produced by\n(a) bacteria\n(b) protozoa\n(c) moulds\n(d) viruses",
+    "options": {
+      "a": "bacteria",
+      "b": "protozoa",
+      "c": "moulds",
+      "d": "viruses"
+    },
+    "answer": "C",
+    "explanation": "Aflatoxins are naturally occurring mycotoxins produced by many species of Aspergillus, a fungus. The term 'mould' is applied to fungi which grow as semi-microscopic organisms forming a loose meshwork. Aspergillus is a mould.",
+    "motivation": "Aflatoxins were in news due to EU banning Indian groundnut imports. Aflatoxins (from Aspergillus flavus/parasiticus moulds) are potent carcinogens found in groundnuts, maize, cotton seeds when improperly stored.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 78,
+    "section": "Polity",
+    "question": "'Economic Justice' as one of the objectives of the Indian Constitutional has been provided in\n(a) the Preamble and the Fundamental Rights\n(b) the Preamble and the Directive Principles of State Policy\n(c) the Fundamental Rights and the Directive Rights and the Directive Principles of State Policy\n(d) None of the above",
+    "options": {
+      "a": "the Preamble and the Fundamental Rights",
+      "b": "the Preamble and the Directive Principles of State Policy",
+      "c": "the Fundamental Rights and the Directive Rights and the Directive Principles of State Policy",
+      "d": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Directive Principles strive for 'economic democracy/justice' while Fundamental Rights strive for 'political democracy/justice.' Economic Justice is mentioned in the Preamble and is implemented through Directive Principles of State Policy.",
+    "motivation": "Preamble's JELF (Justice, Liberty, Equality, Fraternity): Justice has social, economic, and political dimensions. Economic justice is realised through DPSPs (Article 36-51), not Fundamental Rights (enforceable individually).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 79,
+    "section": "Environment",
+    "question": "Due to improper/indiscriminate disposal of old and used computers or their parts, which of the following are released into the environment as e-waste?\n1. Beryllium\n2. Cadmium\n3. Chromium\n4. Heptachlor\n5. Mercury\n6. Lead\n7. Plutonium\nSelect the correct answer using the codes given below:\n(a) 1, 3, 4, 6 and 7 only\n(b) 1, 2, 3, 5 and 6 only\n(c) 2, 4, 5 and 7 only\n(d) 1, 2, 3, 4, 5, 6 and 7",
+    "options": {
+      "a": "1, 3, 4, 6 and 7 only",
+      "b": "1, 2, 3, 5 and 6 only",
+      "c": "2, 4, 5 and 7 only",
+      "d": "1, 2, 3, 4, 5, 6 and 7"
+    },
+    "answer": "B",
+    "explanation": "Beryllium is used in circuit boards. Cadmium is in wiring boards and connectors. Chromium in hard disk drives. Mercury in LCD screens and laptops. Lead in motherboards. Heptachlor is an organochlorine insecticide — not a component of computers. Plutonium is a radioactive metal not present in computers.",
+    "motivation": "E-waste contains heavy metals: lead, cadmium, mercury, beryllium, chromium, arsenic. India is a major e-waste generator. E-waste management rules 2016 govern its disposal.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "section": "Environment",
+    "question": "Acid rain is caused by the pollution of environment by\n(a) carbon dioxide and nitrogen\n(b) carbon monoxide and carbon dioxide\n(c) ozone and carbon dioxide\n(d) nitrous oxide and sulphur dioxide",
+    "options": {
+      "a": "carbon dioxide and nitrogen",
+      "b": "carbon monoxide and carbon dioxide",
+      "c": "ozone and carbon dioxide",
+      "d": "nitrous oxide and sulphur dioxide"
+    },
+    "answer": "D",
+    "explanation": "Sulphur dioxide and nitrogen oxides both combine with water in the atmosphere to create acid rain. SO2 forms sulphurous/sulphuric acid; NOx forms nitric acid when dissolved in rainwater.",
+    "motivation": "Acid rain: caused by SO2 and NOx from coal burning, vehicles, smelters. pH below 5.6. Damages forests, aquatic life, stone buildings (especially marble — chemical weathering).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 81,
+    "section": "Environment",
+    "question": "With reference to food chains in ecosystems, consider the following statements:\n1. A food chain illustrates the order in which a chain of organisms feed upon each other.\n2. Food chains are found within the populations of a species.\n3. A food chain illustrates the numbers of each organism which are eaten by others.\nWhich of the statements given above is/are correct?\n(a) 1 only\n(b) 1 and 2 only\n(c) 1, 2 and 3\n(d) None",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "1, 2 and 3",
+      "d": "None"
+    },
+    "answer": "A",
+    "explanation": "A food chain is the sequence of who eats whom in a biological community (an ecosystem) to obtain nutrition. Statement 1 is correct. Statement 2 is wrong — food chains involve multiple different species, not within the same population. Statement 3 is wrong — a food chain shows feeding relationships, not numbers (that would be a pyramid of numbers).",
+    "motivation": "Food chain (linear sequence) vs food web (interconnected) vs ecological pyramid (numbers/biomass/energy). These are distinct ecology concepts often confused in MCQs.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 82,
+    "section": "Geography",
+    "question": "Consider the following pairs:\nNational Park — River flowing through the Park\n1. Corbett National Park — Ganga\n2. Kaziranga National Park — Manas\n3. Silent Valley National Park — Kaveri\nWhich of the above pairs is/are correctly matched?\n(a) 1 and 2\n(b) 3 only\n(c) 1 and 3\n(d) None",
+    "options": {
+      "a": "1 and 2",
+      "b": "3 only",
+      "c": "1 and 3",
+      "d": "None"
+    },
+    "answer": "D",
+    "explanation": "Ramganga (a tributary of Ganga) passes through Corbett NP but Ganga itself does not. Kaveri and Manas also do not pass through Silent Valley and Kaziranga NP respectively. (Silent Valley is watered by Kunthi river; Kaziranga is on the Brahmaputra floodplain).",
+    "motivation": "National Parks and their rivers: Corbett (Ramganga), Kaziranga (Brahmaputra), Silent Valley (Kunthipuzha/Kunthi). Manas is a separate National Park in Assam also on the Manas river.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "section": "Environment",
+    "question": "Consider the following organisms:\n1. Agaricus\n2. Nostoc\n3. Spirogyra\nWhich of the above is/are used as biofertilizer/biofertilizers?\n(a) 1 and 2\n(b) 2 only\n(c) 2 and 3\n(d) 3 only",
+    "options": {
+      "a": "1 and 2",
+      "b": "2 only",
+      "c": "2 and 3",
+      "d": "3 only"
+    },
+    "answer": "B",
+    "explanation": "Agaricus is a genus of mushrooms — it is not a biofertilizer. Nostoc is a cyanobacterium that fixes atmospheric nitrogen and is used as a biofertilizer (symbiotic nitrogen-fixer). Spirogyra is a filamentous green alga of the order Zygnematales — it is not a biofertilizer.",
+    "motivation": "Biofertilizers: Rhizobium (legumes), Azotobacter (free-living N-fixer), Nostoc/Anabaena (blue-green algae, used in rice fields), Mycorrhiza (phosphorus solubiliser). Spirogyra and Agaricus are NOT biofertilizers.",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 84,
+    "section": "Geography",
+    "question": "Which of the following adds/add nitrogen to the soil?\n1. Excretion of urea by animals\n2. Burning of coal by man\n3. Death of vegetation\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "C",
+    "explanation": "When animals excrete urea, it is broken down by soil bacteria into ammonia and then nitrates, adding nitrogen to the soil. When vegetation dies, decomposers break down the organic matter returning nitrogen to the soil. Burning of coal does not add nitrogen to soil — it releases CO2 and sulphur compounds, not nitrogen compounds.",
+    "motivation": "Nitrogen cycle: fixation (bacteria/lightning) → nitrification → assimilation → ammonification (decomposition of dead matter and excreta) → denitrification. Understand each step's contribution.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "section": "Environment",
+    "question": "In which of the following States is lion-tailed macaque found in its natural habitat?\n1. Tamil Nadu\n2. Kerala\n3. Karnataka\n4. Andhra Pradesh\nSelect the correct answer using the codes given below:\n(a) 1, 2 and 3 only\n(b) 2 only\n(c) 1, 3 and 4 only\n(d) 1, 2, 3 and 4",
+    "options": {
+      "a": "1, 2 and 3 only",
+      "b": "2 only",
+      "c": "1, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "A",
+    "explanation": "The lion-tailed macaque is one of the most endangered primates of India, confined to the rainforests of the southern Western Ghats in the Indian states of Kerala, Karnataka and Tamil Nadu. It does not occur in Andhra Pradesh.",
+    "motivation": "Lion-tailed macaque (Macaca silenus) is endemic to the Western Ghats (Kerala, Karnataka, Tamil Nadu). It was taken off the top 25 most endangered primates list recently. Silent Valley NP is its key habitat.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "section": "Art/Culture",
+    "question": "Some Buddhist rock-cut caves are called Chaityas, while the others are called Viharas. What is the difference between the two?\n(a) Vihara is a place of worship, while Chaitya is the dwelling place of the monks\n(b) Chaitya is a place of worship, while Vihara is the dwelling place of the monks\n(c) Chaitya is the stupa at the far end of the cave, while Vihara is the hall axial to it\n(d) There is no material difference between the two",
+    "options": {
+      "a": "Vihara is a place of worship, while Chaitya is the dwelling place of the monks",
+      "b": "Chaitya is a place of worship, while Vihara is the dwelling place of the monks",
+      "c": "Chaitya is the stupa at the far end of the cave, while Vihara is the hall axial to it",
+      "d": "There is no material difference between the two"
+    },
+    "answer": "B",
+    "explanation": "Chaitya is a place of worship/prayer hall (contains a stupa at the far end). Vihara is the dwelling/residential place of Buddhist monks — a monastery.",
+    "motivation": "Buddhist architecture: Stupa (relics), Chaitya (prayer hall with stupa), Vihara (monastery/dwelling). Key sites: Sanchi (stupa), Karla (chaitya), Ajanta (both chaityas and viharas).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 87,
+    "section": "Art/Culture",
+    "question": "Which one of the following describes best the concept of Nirvana in Buddhism?\n(a) The extinction of the flame of desire\n(b) The complete annihilation of self\n(c) A state of bliss and rest\n(d) A mental stage beyond all comprehension",
+    "options": {
+      "a": "The extinction of the flame of desire",
+      "b": "The complete annihilation of self",
+      "c": "A state of bliss and rest",
+      "d": "A mental stage beyond all comprehension"
+    },
+    "answer": "A",
+    "explanation": "Buddha did not define Nirvana with many characteristics. Buddhism defines Nirvana as being free from desire, pain, pleasure etc. It is like an extinction of the flame of desire.",
+    "motivation": "Nirvana in Buddhism = extinguishing the 'three fires' of desire (raga), aversion (dvesha), and ignorance (moha). It is NOT annihilation but cessation of craving and suffering. Distinguish from Moksha in Hinduism.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "section": "Polity",
+    "question": "According to the Constitution of India, which of the following are fundamental for the governance of the country?\n(a) Fundamental Rights\n(b) Fundamental Duties\n(c) Directive Principles of State Policy\n(d) Fundamental Rights and Fundamental Duties",
+    "options": {
+      "a": "Fundamental Rights",
+      "b": "Fundamental Duties",
+      "c": "Directive Principles of State Policy",
+      "d": "Fundamental Rights and Fundamental Duties"
+    },
+    "answer": "C",
+    "explanation": "Article 37 explicitly says that Directive Principles of State Policy are fundamental for the governance of the country, even though they are not justiciable.",
+    "motivation": "Article 37 uses the exact phrase 'fundamental in the governance of the country' for DPSPs. Fundamental Rights are enforceable rights, not 'governance' directives. This distinction is frequently tested.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 89,
+    "section": "Modern History",
+    "question": "The people of India agitated against the arrival of Simon Commission because\n(a) Indians never wanted the review of the working of the Act of 1919\n(b) Simon Commission recommended the abolition of Dyarchy in the Provinces\n(c) There was no Indian member in the Simon Commission\n(d) The Simon Commission suggested the partition of the country",
+    "options": {
+      "a": "Indians never wanted the review of the working of the Act of 1919",
+      "b": "Simon Commission recommended the abolition of Dyarchy in the Provinces",
+      "c": "There was no Indian member in the Simon Commission",
+      "d": "The Simon Commission suggested the partition of the country"
+    },
+    "answer": "C",
+    "explanation": "The Simon Commission (1927) was an all-White commission with no Indian members. Indians agitated against it for this very reason — it was seen as an insult that a commission to determine India's constitutional future had no Indian representation. The famous slogan 'Simon Go Back' was raised.",
+    "motivation": "Simon Commission (1927): 7 members, all British, no Indians. Led to Simon Go Back protests. Lala Lajpat Rai was lathi-charged and died. Response: Nehru Report (1928) by Indians as their own constitutional proposal.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 90,
+    "section": "Modern History",
+    "question": "Quit India Movement was launched in response to\n(a) Cabinet Mission Plan\n(b) Cripps Proposals\n(c) Simon Commission Report\n(d) Wavell Plan",
+    "options": {
+      "a": "Cabinet Mission Plan",
+      "b": "Cripps Proposals",
+      "c": "Simon Commission Report",
+      "d": "Wavell Plan"
+    },
+    "answer": "B",
+    "explanation": "The Cripps Mission Proposals (1942) included terms like establishment of Dominion status after the war, but these were considered inadequate. Gandhi described it as a 'post-dated cheque on a crashing bank.' The rejection of Cripps proposals led to the CWC meeting and the idea of the Quit India struggle.",
+    "motivation": "Quit India Movement (August 1942) → triggered by failure of Cripps Mission. Cabinet Mission Plan (1946) → Constituent Assembly. Wavell Plan (1945) → Simla Conference. These sequences are critical.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 91,
+    "section": "Economy",
+    "question": "The balance of payments of a country is a systematic record of\n(a) all import and export transactions of a country during a given period of time, normally a year\n(b) goods exported from a country during a year\n(c) economic transaction between the government of one country to another\n(d) capital movements from one country to another",
+    "options": {
+      "a": "all import and export transactions of a country during a given period of time, normally a year",
+      "b": "goods exported from a country during a year",
+      "c": "economic transaction between the government of one country to another",
+      "d": "capital movements from one country to another"
+    },
+    "answer": "A",
+    "explanation": "The Balance of Payments (BoP) records the transactions in goods, services and assets between residents of a country and the rest of the world for a specified time period, typically a year.",
+    "motivation": "BoP has two accounts: Current Account (goods, services, remittances) and Capital Account (FDI, FII, loans). India faced high current account deficit during this period. Know the components well.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 92,
+    "section": "Economy",
+    "question": "The Reserve Bank of India regulates the commercial banks in matters of\n1. liquidity of assets\n2. branch expansion\n3. merger of banks\n4. winding-up of banks\nSelect the correct answer using the codes given below:\n(a) 1 and 4 only\n(b) 2, 3 and 4 only\n(c) 1, 2 and 3 only\n(d) 1, 2, 3 and 4",
+    "options": {
+      "a": "1 and 4 only",
+      "b": "2, 3 and 4 only",
+      "c": "1, 2 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "answer": "D",
+    "explanation": "All four are regulated by RBI: (1) CRR and SLR regulate liquidity; (2) RBI has Branch Authorisation Policy for domestic banks; (3) Mergers and acquisitions require RBI clearance (though CCI also has a role); (4) RBI issued orders to wind up banks like Sahara India Financial Corp.",
+    "motivation": "Banking Laws Amendment Act increased the regulating powers of RBI. RBI regulates: monetary policy, banking supervision, foreign exchange, payment systems. Know all four areas of commercial bank regulation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "section": "Economy",
+    "question": "An increase in the Bank Rate generally indicates that the\n(a) market rate of interest is likely to fall\n(b) Central Bank is no longer making loans to commercial banks\n(c) Central Bank is following an easy money policy\n(d) Central Bank is following a tight money policy",
+    "options": {
+      "a": "market rate of interest is likely to fall",
+      "b": "Central Bank is no longer making loans to commercial banks",
+      "c": "Central Bank is following an easy money policy",
+      "d": "Central Bank is following a tight money policy"
+    },
+    "answer": "D",
+    "explanation": "An increase in bank rate generally implies an increase in market rate of interest (so a is wrong). Option b is obviously wrong. Option c is wrong — easy money policy means the central bank provides money at a cheaper rate so that money supply can increase. Increasing bank rate = tight (contractionary) money policy.",
+    "motivation": "Bank Rate increase → tight money policy → reduces money supply → controls inflation. Bank Rate decrease → easy money policy → increases money supply → stimulates growth. A fundamental monetary policy concept.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 94,
+    "section": "Economy",
+    "question": "In India, deficit financing is used for raising resources for\n(a) economic development\n(b) redemption of public debt\n(c) adjusting the balance of payments\n(d) reducing the foreign debt",
+    "options": {
+      "a": "economic development",
+      "b": "redemption of public debt",
+      "c": "adjusting the balance of payments",
+      "d": "reducing the foreign debt"
+    },
+    "answer": "A",
+    "explanation": "In India, deficit financing is primarily used for raising resources for economic development — funding plan expenditure, infrastructure, and developmental activities when tax revenue is insufficient.",
+    "motivation": "Deficit financing in developing countries: used for capital formation and development when taxation alone is insufficient. However, excessive deficit financing causes inflation (too much money chasing goods).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 95,
+    "section": "Ancient India",
+    "question": "Which of the following characterizes/characterize the people of Indus Civilization?\n1. They possessed great palaces and temples.\n2. They worshipped both male and female deities.\n3. They employed horse-drawn chariots in warfare.\nSelect the correct statement/statements using the codes given below:\n(a) 1 and 2 only\n(b) 2 only\n(c) 1, 2 and 3\n(d) None of the statements given above is correct",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1, 2 and 3",
+      "d": "None of the statements given above is correct"
+    },
+    "answer": "B",
+    "explanation": "Statement 1 is wrong — no grand palaces or temples have been found in Indus cities (unlike Mesopotamia). Statement 3 is wrong — horse remains are controversial/absent, and horse-drawn chariots were not definitively part of Indus culture. Statement 2 is correct — they worshipped both a male deity (proto-Shiva/Pashupati seal) and a female deity (mother goddess figurines).",
+    "motivation": "Indus Valley characteristics: urban planning, drainage system, no temples/palaces, proto-Shiva, mother goddess worship, undeciphered script, absence of definitive horse remains. These unique features are regularly tested.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "section": "Science and Technology",
+    "question": "Which of the following diseases can be transmitted from one person to another through tattooing?\n1. Chikungunya\n2. Hepatitis B\n3. HIV-AIDS\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "B",
+    "explanation": "Hepatitis B and C can be transmitted through tattooing — they survive outside the host and resist normal disinfection, making contaminated tattoo equipment a real risk. HIV can also be transmitted through contaminated tattoo needles (solid-core pins that push ink under skin can carry blood-borne viruses). Chikungunya is transmitted only through mosquito bites, not blood-to-blood contact through tattooing.",
+    "motivation": "Blood-borne diseases transmissible by contaminated needles/tattoo equipment: HIV, Hepatitis B, Hepatitis C. Chikungunya requires Aedes mosquito vector — cannot be transmitted through tattooing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "section": "Art/Culture",
+    "question": "Which of the following statements is/are applicable to Jain doctrine?\n1. The surest way of annihilating Karma is to practice penance.\n2. Every object, even the smallest particle has a soul.\n3. Karma is the bane of the soul and must be ended.\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three statements are applicable to Jain doctrine: (1) Penance/tapas is the surest way to annihilate karma; (2) Jain animism holds that every particle has a soul (jiva) — even stones, water, fire; (3) Karma is indeed the bane of the soul in Jainism, binding it to the material world and preventing liberation (moksha).",
+    "motivation": "Jain doctrine: Ahimsa (non-violence), Anekantavada (many-sidedness), Syadvada (conditional predication), Tri-ratna (right faith, knowledge, conduct), Karma theory. All matter has souls — reason for extreme non-violence.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 98,
+    "section": "Environment",
+    "question": "Which one of the following terms describes not only the physical space occupied by an organism, but also its functional role in the community of organisms?\n(a) Ecotone\n(b) Ecological niche\n(c) Habitat\n(d) Home range",
+    "options": {
+      "a": "Ecotone",
+      "b": "Ecological niche",
+      "c": "Habitat",
+      "d": "Home range"
+    },
+    "answer": "B",
+    "explanation": "The ecological niche is the ecological role and space that an organism fills in an ecosystem. It encompasses both the place where an organism lives AND what it does in its habitat — its functional role (feeding, reproducing, interacting). Habitat is only the physical space. Ecotone is a transition zone between two biomes.",
+    "motivation": "Ecological niche = habitat + functional role. Competitive exclusion principle: two species cannot occupy the same niche indefinitely. Niche partitioning allows species coexistence.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 99,
+    "section": "Environment",
+    "question": "Photochemical smog is a resultant of the reaction among\n(a) NO2, O3 and peroxyacetyl nitrate in the presence of sunlight\n(b) CO, O2 and peroxyacetyl nitrate in the presence of sunlight\n(c) CO, CO2 and NO2 at low temperature\n(d) high concentration of NO2, O3 and CO in the evening",
+    "options": {
+      "a": "NO2, O3 and peroxyacetyl nitrate in the presence of sunlight",
+      "b": "CO, O2 and peroxyacetyl nitrate in the presence of sunlight",
+      "c": "CO, CO2 and NO2 at low temperature",
+      "d": "high concentration of NO2, O3 and CO in the evening"
+    },
+    "answer": "A",
+    "explanation": "Major chemical pollutants in photochemical smog: (1) Nitrogen Oxides (NO and NO2), (2) Volatile Organic Compounds, (3) Ozone (O3), (4) Peroxyacetyl Nitrates (PAN). These react in presence of sunlight (UV) to form photochemical smog.",
+    "motivation": "Photochemical smog (Los Angeles type): daytime, sunny conditions, NOx + VOCs + sunlight → O3 + PAN + aldehydes. Classic smog (London type): winter, nighttime, SO2 + fog + particulates. Know both types.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "section": "Science and Technology",
+    "question": "Consider the following minerals:\n1. Calcium\n2. Iron\n3. Sodium\nWhich of the minerals given above is/are required by human body for the contraction of muscles?\n(a) 1 only\n(b) 2 and 3 only\n(c) 1 and 3 only\n(d) 1, 2 and 3",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "answer": "D",
+    "explanation": "All three minerals are required for muscle contraction: Calcium is essential for activating enzymes that cause muscle contraction. Iron helps support continued muscle function by supporting energy production in muscle cells and storing oxygen. Sodium is needed for muscle contraction because it balances potassium to maintain membrane potential.",
+    "motivation": "Minerals and muscle contraction: Calcium (triggers actin-myosin interaction), Sodium (action potential, membrane potential with K+), Iron (energy production via haemoglobin/myoglobin). All three are essential.",
+    "difficulty": "Difficult"
+  }
+]

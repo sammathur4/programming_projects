@@ -1,0 +1,2781 @@
+[0m
+> build · crouton-alpha-free
+Starting your Laxmikanth notes — checking the task brief and picking up where we left off.
+[0m→ [0mRead laxmikanth_notes_task.md 
+> build · crouton-alpha-free
+Task brief read. Now checking the notes file and generator to find exactly where we stopped.
+[0m$ [0mls -lh "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" 2>&1; echo "---"; wc -l "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" 2>&1
+-rwxrwxrwx 1 saksham saksham 82K Nov  5 00:56 /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+---
+1283 /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "^#\{1,3\} \|^## Chapter\|^# Chapter" "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md" | tail -40
+766:### 7.7. Mind Map
+789:## 8. DIRECTIVE PRINCIPLES OF STATE POLICY (ARTICLES 36-51)
+793:### 8.1. Features of DPSPs
+800:### 8.2. Classification of DPSPs
+835:### 8.3. Relationship between Fundamental Rights and DPSPs
+842:### 8.4. Implementation of DPSPs
+845:### 8.5. PYQs (Prelims + Mains) - Last 10 Years
+853:### 8.6. Current Affairs Linkage (2023-2026)
+859:### 8.7. Mind Map
+872:## 9. FUNDAMENTAL DUTIES (ARTICLE 51A)
+876:### 9.1. Introduction
+882:### 9.2. List of Fundamental Duties (Article 51A)
+897:### 9.3. Features and Significance
+904:### 9.4. Verma Committee (1999)
+910:### 9.5. PYQs (Prelims + Mains) - Last 10 Years
+917:### 9.6. Current Affairs Linkage (2023-2026)
+923:### 9.7. Mind Map
+943:## 10. AMENDMENT OF THE CONSTITUTION (ARTICLE 368)
+947:### 10.1. Procedure for Amendment
+957:### 10.2. Important Amendments
+975:### 10.3. PYQs & Mind Map
+980:## 11. BASIC STRUCTURE OF THE CONSTITUTION
+984:### 11.1. Evolution of Doctrine
+995:### 11.2. Elements of Basic Structure (Illustrative, not exhaustive)
+1016:## 12. PARLIAMENTARY SYSTEM
+1020:### 12.1. Features of Parliamentary System
+1029:### 12.2. Parliamentary vs Presidential System
+1039:### 12.3. PYQs & Mind Map
+1049:## 13. FEDERAL SYSTEM
+1053:### 13.1. Federal Features of Indian Constitution
+1061:### 13.2. Unitary Features
+1072:### 13.3. Quasi-Federal Nature
+1080:## 14. CENTRE-STATE RELATIONS
+1084:### 14.1. Introduction
+1090:### 14.2. LEGISLATIVE RELATIONS (ARTICLES 245-255)
+1138:### 14.3. ADMINISTRATIVE RELATIONS (ARTICLES 256-263)
+1186:### 14.4. FINANCIAL RELATIONS (ARTICLES 268-293)
+1220:### 14.5. IMPORTANT DOCTRINES & PRINCIPLES
+1230:### 14.6. CENTRE-STATE RELATIONS - TRENDS & ISSUES
+1255:### 14.7. PYQs & MIND MAP
+> build · crouton-alpha-free
+Notes end at Chapter 14 (Centre-State Relations), not 13. Checking the last sections and generator script.
+[0m→ [0mRead /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md [90m[limit=50, offset=1230][0m
+> build · crouton-alpha-free
+[0m→ [0mRead /media/saksham/phone data/programming_projects/generate_laxmikanth_notes.py 
+> build · crouton-alpha-free
+Status confirmed: Chapters 1-14 done, 1283 lines. Next up is Chapter 15 (Union Executive). Checking the Laxmikanth source next to extract its structure.
+[0m$ [0mpython3 "/media/saksham/phone data/programming_projects/generate_laxmikanth_notes.py"; ls -lh "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf" 2>&1
+Last chapter found: 14
+Use auto_runner_laxmikanth.sh for automated chapter-by-chapter generation
+-rwxrwxrwx 1 saksham saksham 5.6M Dec 14  2025 /media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf
+> build · crouton-alpha-free
+[0m$ [0mls "/media/saksham/phone data/programming_projects/upsc_app/" | head -30
+python3 -c "
+import subprocess, sys
+try:
+    import fitz
+    print('pymupdf available')
+except ImportError:
+    print('no pymupdf')
+try:
+    import PyPDF2
+    print('pypdf2 available')
+except ImportError:
+    print('no pypdf2')
+try:
+    import pdfplumber
+    print('pdfplumber available')
+except ImportError:
+    print('no pdfplumber')
+"
+all_txts
+auto_runner_laxmikanth.sh
+auto_runner.sh
+auto_runner_v2.sh
+backend
+build_knowledge_base_index.py
+classify_resources.py
+convert_all_pdfs.sh
+data
+docker-compose.yml
+frontend
+laxmikanth_notes_task.md
+local_scripts
+logs
+notes
+pdf_conversion.log
+pdf_conversion_logs
+pdf_conv_py2.log
+pdf_conv_py3.log
+pdf_conv_py.log
+pdf_to_txt_converter.py
+strategy
+tools
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+pymupdf available
+no pypdf2
+no pdfplumber
+> build · crouton-alpha-free
+Source PDF is accessible via PyMuPDF. Locating Chapter 15's pages in Laxmikanth.
+[0m$ [0mpython3 << 'PYEOF'
+import fitz
+doc = fitz.open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf")
+print(f"Total pages: {len(doc)}")
+# Search for Chapter 15
+for i in range(len(doc)):
+    text = doc[i].get_text()
+    if "Chapter 15" in text or "Union Executive" in text:
+        print(f"Page {i+1}: {text[:200]!r}")
+        if i+1 > 50:
+            break
+PYEOF
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Total pages: 1531
+Page 355: 'party aggrieved with the decision of the Commission may prefer\nan appeal to the Supreme Court.\nThe Report of the Commission was circulated to all stakeholders\nincluding State Governments / UT Administ'
+> build · crouton-alpha-free
+First search missed — refining the chapter lookup and reading the existing Chapter 14 format to match it exactly.
+[0m$ [0mpython3 << 'PYEOF'
+import fitz
+doc = fitz.open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf")
+for i in range(len(doc)):
+    text = doc[i].get_text()
+    lines = text.split('\n')
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('15.') or stripped.startswith('15 ') or 'UNION EXECUTIVE' in stripped.upper() and len(stripped) < 80:
+            print(f"Page {i+1}: {stripped!r}")
+PYEOF
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Page 14: '15.'
+Page 15: '15.'
+Page 85: '15.'
+Page 99: '15. Emergency Provisions'
+Page 116: '15. At present, there are three All-India services, namely'
+Page 132: '15. M Hidayatullah, Democracy in India and the Judicial'
+Page 149: '15. Manipur'
+Page 153: '15.'
+Page 157: '15. By the State of Arunachal Pradesh Act, 1986, with'
+Page 171: '15.08.1947; or'
+Page 232: '15.'
+Page 235: '15. The second provision was added by the 15th Constitutional'
+Page 257: '15. Primary health centres and hospitals have been established'
+Page 260: '15. Sir Ivor Jennings, Some Characteristics of the Indian'
+Page 275: '15. Delimitation of constituencies.'
+Page 283: '15. Independence of Judiciary'
+Page 286: '15.'
+Page 287: '15. Kihoto Hollohon v. Zachilhu (1993)'
+Page 288: '15. Inter-State Relations'
+Page 315: '15. Dr. B.R. Ambedkar’s speech in the Constituent Assembly'
+Page 347: '15. The surcharge on income tax should not be levied by the Centre'
+Page 352: '15. The Governor should have the right to sanction for prosecution'
+Page 356: '15. Originally, this limit was only ₹250 per annum. The 60th'
+Page 392: 'entirely be concentrated in the hands of the Union executive.'
+Page 394: '15.'
+Page 397: '15. Quoted from M.V. Pylee, India’s Constitution, S Chand,'
+Page 399: 'The Union executive consists of the President, the Vice-'
+Page 404: '15.'
+Page 425: '15. Constituent Assembly Debates, Volume VII, p. 32–34.'
+Page 430: '15.'
+Page 555: '15.'
+Page 556: '15.'
+Page 564: '15. J.C. Johari: Indian Government and Politics, Vishal,'
+Page 579: '15.'
+Page 625: '15. 2G spectrum case verdict and the mandatory auctioning of'
+Page 639: '15. Articles 251 and 254 provide that in case of a conflict'
+Page 646: '15. Indira Nehru Gandhi v. Raj Narain (1975).'
+Page 654: '15. Assorted Individual Petitioners: This category includes'
+Page 739: '15.'
+Page 740: '15.'
+Page 745: '15. The position, in this regard, is very well analysed by J.C.'
+Page 767: '15. Madras13'
+Page 770: '15. Established'
+Page 776: '15.'
+Page 795: '15. A person accused of an offence may file an application for plea'
+Page 808: '15. The Hyderabad - Karnataka region includes the six'
+Page 826: '15. Non-conventional energy sources'
+Page 831: '15. The State Legislature shall endeavour to follow the pattern of'
+Page 838: '15.'
+Page 855: '15. Cattle ponds, prevention of cruelty to animals;'
+Page 865: '15.'
+Page 895: '15. To register political parties for the purpose of elections and'
+Page 979: '15. Project Appraisal & Management Division (PAMD)'
+Page 994: '15.'
+Page 995: '15. “NDC to be scrapped, NITI Aayog council likely to get its'
+Page 1002: '15. Harassment of Women Passengers in Trains'
+Page 1018: '15.'
+Page 1032: '15. The Commission has been empowered to conduct'
+Page 1052: '15. Lokpal (Ombudsman) at the Centre'
+Page 1056: '15. Lokpal conferred with power to grant sanction for prosecution'
+Page 1058: '15.'
+Page 1105: '15. Railway Personnel Service.'
+Page 1106: '15. Service of Engineers.'
+Page 1142: '15.'
+Page 1145: '15.'
+Page 1206: '15. Order dated March 27, 2003.'
+Page 1261: '15. To work towards the goal of global nuclear disarmament'
+Page 1283: '15. Communal and other inter-group riots in a country like India'
+Page 1304: '15. The need was felt for a comprehensive review of Union-'
+Page 1312: '15. Prohibition of discrimination on grounds of religion,'
+Page 1355: '15. War and peace'
+Page 1360: '15. Preservation of stock and prevention of animal'
+Page 1363: '15. Vagrancy; nomadic and migratory tribes'
+Page 1367: '15. Cabinet Ministers in States within their respective'
+Page 1380: '15. Shifted five subjects from the state'
+Page 1399: '15.'
+Page 1401: '15.'
+Page 1402: '15.'
+Page 1403: '15.'
+Page 1405: '15.'
+Page 1406: '15.'
+Page 1408: '15.'
+Page 1430: '15. The Prime Minister of India, at the time of his/her'
+Page 1436: '15. Consider the following statements: Attorney General of India'
+Page 1445: '15. There is a Parliamentary System of Government in India'
+Page 1451: '15. Local self-government can be best explained as an exercise'
+Page 1458: '15. Regarding Money Bill, which of the following statement is not'
+Page 1463: '15. Consider the following statements:'
+Page 1464: '15. a'
+Page 1465: '15. c'
+Page 1466: '15. d'
+Page 1466: '15. b'
+Page 1467: '15. c'
+Page 1468: '15. b'
+Page 1471: '15.'
+Page 1511: '15 ⨯ 2 ='
+Page 1527: '15. Describe the various constitutional provisions for the'
+Page 1529: '15. Explain the procedure for the impeachment of the President.'
+> build · crouton-alpha-free
+Found Chapter 15 at PDF page 399 ("The Union executive consists of..."). Checking the Table of Contents to get the full chapter list and exact page numbers, and confirming the existing notes format.
+[0m$ [0mpython3 << 'PYEOF'
+import fitz
+doc = fitz.open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf")
+for i in range(5, 50):
+    text = doc[i].get_text()
+    if "CONTENTS" in text.upper() or "Chapter" in text and "Union Executive" in text:
+        print(f"=== PAGE {i+1} ===")
+        print(text[:4000])
+        print()
+PYEOF
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+=== PAGE 12 ===
+I
+        
+Preface to the
+ 
+First Edition
+have great pleasure in placing this book before the aspirants of
+the top administrative services. The book has been written to
+meet the growing requirements of the candidates appearing for
+the Civil Services Examinations (Preliminary and Main) conducted
+by the Union Public Service Commission. It directly and fully
+covers the Indian Polity section of the paper on General Studies
+and is also useful for certain optional subjects like Public
+Administration, 
+Political 
+Science, 
+Law, 
+Sociology 
+and
+Anthropology.
+This comprehensive volume would enable the readers to
+acquire a complete and detailed understanding of the subject. It
+covers all dimensions (constitutional, non-constitutional, political
+and administrative) of the subject. My first-hand experience of
+coaching the candidates for the Civil Services Examinations has
+been a great source of inspiration and has helped me immensely
+in writing this book.
+An effort has been made to make the contents of the book
+relevant, authentic, and up-to-date. The constitutional provisions
+are explained in the light of the debates of the Constituent
+Assembly of India as well as the judgements of the Supreme
+Court and the high courts. I have also used tables to make the
+presentation more clear. The Appendices, provided at the end of
+the book, serve as a reference section.
+I welcome all constructive comments and concrete suggestions
+from the readers of this book.
+M. LAXMIKANTH
+
+
+=== PAGE 19 ===
+        
+Contents
+Preface to the Sixth Edition
+Preface to the First Edition
+Acknowledgements
+Year-Wise Break-up of the UPSC Questions on Indian Polity
+(General Studies—Prelims)
+Year-Wise Break-up of the UPSC Marks on Indian Polity (General
+Studies—Mains)
+About the Civil Services Examination
+List of Tables
+PART-I
+ 
+Constitutional Framework
+1
+Historical Background
+The Company Rule (1773–1858)
+The Crown Rule (1858–1947)
+Notes and References
+2
+Making of the Constitution
+Demand for a Constituent Assembly
+Composition of the Constituent Assembly
+Working of the Constituent Assembly
+Committees of the Constituent Assembly
+Enactment of the Constitution
+Enforcement of the Constitution
+Experts Committee of the Congress
+Criticism of the Constituent Assembly
+Important Facts
+Hindi Text of the Constitution
+Notes and References
+> build · crouton-alpha-free
+[0m$ [0mpython3 << 'PYEOF'
+import fitz
+doc = fitz.open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf")
+for i in range(19, 60):
+    text = doc[i].get_text()
+    print(f"=== PAGE {i+1} ===")
+    print(text)
+    print()
+PYEOF
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+=== PAGE 20 ===
+3
+Salient Features of the Constitution
+Salient Features of the Constitution
+Criticism of the Constitution
+Notes and References
+4
+Preamble of the Constitution
+Text of the Preamble
+Ingredients of the Preamble
+Key Words in the Preamble
+Significance of the Preamble
+Preamble as Part of the Constitution
+Amendability of the Preamble
+Notes and References
+5
+Union and its Territory
+Union of States
+Parliament’s Power to Reorganise the States
+Exchange of Territories with Bangladesh
+Evolution of States and Union Territories
+Notes and References
+6
+Citizenship
+Meaning and Significance
+Constitutional Provisions
+Citizenship Act, 1955
+Single Citizenship
+Overseas Citizenship of India
+Notes and References
+7
+Fundamental Rights
+Features of Fundamental Rights
+Definition of State
+Laws Inconsistent with Fundamental Rights
+Right to Equality
+Right to Freedom
+
+
+=== PAGE 21 ===
+Right Against Exploitation
+Right to Freedom of Religion
+Cultural and Educational Rights
+Right to Constitutional Remedies
+Writs—Types and Scope
+Armed Forces and Fundamental Rights
+Martial Law and Fundamental Rights
+Effecting Certain Fundamental Rights
+Present Position of Right to Property
+Exceptions to Fundamental Rights
+Criticism of Fundamental Rights
+Significance of Fundamental Rights
+Rights Outside Part III
+Notes and References
+8
+Directive Principles of State Policy
+Features of the Directive Principles
+Classification of the Directive Principles
+New Directive Principles
+Sanction Behind Directive Principles
+Criticism of the Directive Principles
+Utility of Directive Principles
+Conflict Between Fundamental Rights and Directive
+Principles
+Implementation of Directive Principles
+Directives Outside Part IV
+Notes and References
+9
+Fundamental Duties
+Swaran Singh Committee Recommendations
+List of Fundamental Duties
+Features of the Fundamental Duties
+Criticism of Fundamental Duties
+Significance of Fundamental Duties
+
+
+=== PAGE 22 ===
+Verma Committee Observations
+Notes and References
+10
+Amendment of the Constitution
+Procedure for Amendment
+Types of Amendments
+Criticism of the Amendment Procedure
+Notes and References
+11
+Basic Structure of the Constitution
+Emergence of the Basic Structure
+Elements of the Basic Structure
+Notes and References
+PART-II
+ 
+System of Government
+12
+Parliamentary System
+Features of Parliamentary Government
+Features of Presidential Government
+Merits of the Parliamentary System
+Demerits of the Parliamentary System
+Reasons for Adopting Parliamentary System
+Distinction between Indian and British Models
+Notes and References
+13
+Federal System
+Federal Features of the Constitution
+Unitary Features of the Constitution
+Critical Evaluation of the Federal System
+Notes and References
+14
+Centre–State Relations
+Legislative Relations
+Administrative Relations
+
+
+=== PAGE 23 ===
+Financial Relations
+Trends in Centre–State Relations
+Notes and References
+15
+Inter-State Relations
+Inter-State Water Disputes
+Inter-State Councils
+Public Acts, Records and Judicial Proceedings
+Inter-State Trade and Commerce
+Zonal Councils
+Notes and References
+16
+Emergency Provisions
+National Emergency
+President’s Rule
+Financial Emergency
+Criticism of the Emergency Provisions
+Notes and References
+PART-III
+ 
+Central Government
+17
+President
+Election of the President
+Qualifications, Oath and Conditions
+Term, Impeachment and Vacancy
+Powers and Functions of the President
+Veto Power of the President
+Ordinance-Making Power of the President
+Pardoning Power of the President
+Constitutional Position of the President
+Notes and References
+18
+Vice-President
+Election
+
+
+=== PAGE 24 ===
+Qualifications, Oath and Conditions
+Term and Vacancy
+Powers and Functions
+Indian and American Vice-Presidents Compared
+Notes and References
+19
+Prime Minister
+Appointment of the Prime Minister
+Oath, Term and Salary
+Powers and Functions of the Prime Minister
+Role Descriptions
+Relationship with the President
+Chief Ministers who became Prime Ministers
+Notes and References
+20
+Central Council of Ministers
+Constitutional Provisions
+Nature of Advice by Ministers
+Appointment of Ministers
+Oath and Salary of Ministers
+Responsibility of Ministers
+Composition of the Council of Ministers
+Council of Ministers vs Cabinet
+Role of Cabinet
+Role Descriptions
+Kitchen Cabinet
+Notes and References
+21
+Cabinet Committees
+Features of Cabinet Committees
+List of Cabinet Committees
+Functions of Cabinet Committees
+Groups of Ministers
+Notes and References
+
+
+=== PAGE 25 ===
+22
+Parliament
+Organisation of Parliament
+Composition of the Two Houses
+System of Elections to Lok Sabha
+Duration of Two Houses
+Membership of Parliament
+Presiding Officers of Parliament
+Leaders in Parliament
+Sessions of Parliament
+Devices of Parliamentary Proceedings
+Legislative Procedure in Parliament
+Joint Sitting of Two Houses
+Budget in Parliament
+Multifunctional Role of Parliament
+Ineffectiveness of Parliamentary Control
+Position of Rajya Sabha
+Parliamentary Privileges
+Sovereignty of Parliament
+Notes and References
+23
+Parliamentary Committees
+Meaning
+Classification
+Financial Committees
+Departmental Standing Committees
+Committees to Inquire
+Committees to Scrutinise and Control
+Committees Relating to the Day-to-Day Business of the
+House
+House-Keeping Committees
+Consultative Committees
+Notes and References
+24
+Parliamentary Forums
+
+
+=== PAGE 26 ===
+Establishment of the Forums
+Objectives of the Forums
+Composition of the Forums
+Functions of the Forums
+Notes and References
+25
+Parliamentary Group
+Rationale of the Group
+Composition of the Group
+Objectives of the Group
+Functions of the Group
+The Group and IPU
+The Group and CPA
+Notes and References
+26
+Supreme Court
+Composition and Appointment
+Qualifications, Oath and Salaries
+Tenure and Removal
+Acting, Adhoc and Retired Judges
+Seat and Procedure
+Independence of Supreme Court
+Jurisdiction and Powers of Supreme Court
+Supreme Court Advocates
+Notes and References
+27
+Judicial Review
+Meaning of Judicial Review
+Importance of Judicial Review
+Constitutional Provisions for Judicial Review
+Scope of Judicial Review
+Judicial Review of the Ninth Schedule
+Notes and References
+28
+Judicial Activism
+
+
+=== PAGE 27 ===
+Meaning of Judicial Activism
+Judicial Review and Judicial Activism
+Justification of Judicial Activism
+Activators of Judicial Activism
+Apprehensions of Judicial Activism
+Judicial Activism vs. Judicial Restraint
+Notes and References
+29
+Public Interest Litigation
+Meaning of PIL
+Features of PIL
+Scope of PIL
+Principles of PIL
+Guidelines for Admitting PIL
+Notes and References
+PART-IV
+ 
+State Government
+30
+Governor
+Appointment of Governor
+Conditions of Governor’s Office
+Term of Governor’s Office
+Powers and Functions of Governor
+Constitutional Position of Governor
+Notes and References
+31
+Chief Minister
+Appointment of Chief Minister
+Oath, Term and Salary
+Powers and Functions of Chief Minister
+Relationship with the Governor
+Notes and References
+32
+State Council of Ministers
+
+
+=== PAGE 28 ===
+Constitutional Provisions
+Nature of Advice by Ministers
+Appointment of Ministers
+Oath and Salary of Ministers
+Responsibility of Ministers
+Composition of the Council of Ministers
+Cabinet
+Notes and References
+33
+State Legislature
+Organisation of State Legislature
+Composition of Two Houses
+Duration of Two Houses
+Membership of State Legislature
+Presiding Officers of State Legislature
+Sessions of State Legislature
+Legislative Procedure in State Legislature
+Position of Legislative Council
+Privileges of State Legislature
+Notes and References
+34
+High Court
+Composition and Appointment
+Qualifications, Oath and Salaries
+Tenure, Removal and Transfer
+Acting, Additional and Retired Judges
+Independence of High Court
+Jurisdiction and Powers of High Court
+Notes and References
+35
+Tribunals
+Administrative Tribunals
+Tribunals for Other Matters
+Notes and References
+
+
+=== PAGE 29 ===
+36
+Subordinate Courts
+Constitutional Provisions
+Structure and Jurisdiction
+National Legal Services Authority
+Lok Adalats
+Permanent Lok Adalats
+Family Courts
+Gram Nyayalayas
+Notes and References
+37
+Special Provisions for Some States
+Provisions for Maharashtra and Gujarat
+Provisions for Nagaland
+Provisions for Assam and Manipur
+Provisions for Andhra Pradesh or Telangana
+Provisions for Sikkim
+Provisions for Mizoram
+Provisions for Arunachal Pradesh and Goa
+Provisions for Karnataka
+Notes and References
+PART-V
+ 
+Local Government
+38
+Panchayati Raj
+Evolution of Panchayati Raj
+73rd Amendment Act of 1992
+Compulsory and Voluntary Provisions
+PESA Act of 1996 (Extension Act)
+Finances of Panchayati Raj
+Reasons for Ineffective Performance
+Notes and References
+39
+Municipalities
+
+
+=== PAGE 30 ===
+Evolution of Urban Bodies
+74th Amendment Act of 1992
+Types of Urban Governments
+Municipal Personnel
+Municipal Revenue
+Central Council of Local Government
+Notes and References
+PART-VI
+ 
+Union Territories and Special Areas
+40
+Union Territories
+Creation of Union Territories
+Administration of Union Territories
+Special Provisions for Delhi
+Advisory Committees of Union Territories
+Notes and References
+41
+Scheduled and Tribal Areas
+Administration of Scheduled Areas
+Administration of Tribal Areas
+Notes and References
+PART-VII
+ 
+Constitutional Bodies
+42
+Election Commission
+Composition
+Independence
+Powers and Functions
+Vision, Mission and Principles
+Notes and References
+43
+Union Public Service Commission
+Composition
+
+
+=== PAGE 31 ===
+Removal
+Independence
+Functions
+Limitations
+Role
+Notes and References
+44
+State Public Service Commission
+Composition
+Removal
+Independence
+Functions
+Limitations
+Role
+Joint State Public Service Commission
+Notes and References
+45
+Finance Commission
+Composition
+Functions
+Advisory Role
+Notes and References
+46
+Goods and Services Tax Council
+Establishment of the Council
+Vision and Mission of the Council
+Composition of the Council
+Working of the Council
+Functions of the Council
+Other Functions of the Council
+Notes and References
+47
+National Commission for SCs
+Evolution of the Commission
+Functions of the Commission
+
+
+=== PAGE 32 ===
+Report of the Commission
+Powers of the Commission
+Notes and References
+48
+National Commission for STs
+Separate Commission for STs
+Functions of the Commission
+Other Functions of the Commission
+Report of the Commission
+Powers of the Commission
+Notes and References
+49
+National Commission for BCs
+Establishment of the Commission
+Functions of the Commission
+Report of the Commission
+Powers of the Commission
+Notes and References
+50
+Special Officer for Linguistic Minorities
+Constitutional Provisions
+Commissioner for Linguistic Minorities
+Role of the Commissioner
+Vision and Mission
+Functions and Objectives
+Notes and References
+51
+Comptroller and Auditor General of India
+Appointment and Term
+Independence
+Duties and Powers
+Role
+Cag and Corporations
+Appleby’s Criticism
+Notes and References
+
+
+=== PAGE 33 ===
+52
+Attorney General of India
+Appointment and Term
+Duties and Functions
+Rights and Limitations
+Solicitor General of India
+Notes and References
+53
+Advocate General of the State
+Appointment and Term
+Duties and Functions
+Notes and References
+PART-VIII
+ 
+Non-Constitutional Bodies
+54
+NITI Aayog
+Establishment
+Rationale
+Composition
+Specialised Wings
+Objectives
+Functions
+Guiding Principles
+Cooperative Federalism
+Criticism
+Attached Offices
+Erstwhile Planning Commission
+National Development Council
+Notes and References
+55
+National Human Rights Commission
+Establishment of the Commission
+Composition of the Commission
+Functions of the Commission
+
+
+=== PAGE 34 ===
+Working of the Commission
+Role of the Commission
+Performance of the Commission
+Notes and References
+56
+State Human Rights Commission
+Composition of the Commission
+Functions of the Commission
+Working of the Commission
+Human Rights Courts
+2019 Amendment Act
+Notes and References
+57
+Central Information Commission
+Composition
+Tenure and Service Conditions
+Powers and Functions
+Notes and References
+58
+State Information Commission
+Composition
+Tenure and Service Conditions
+Powers and Functions
+RTI Amendment Act, 2019
+Notes and References
+59
+Central Vigilance Commission
+Establishment
+Composition
+Organisation
+Functions
+Jurisdiction
+Working
+Vigilance Units in the Ministries
+Whistle Blowers Protection Act (2014)
+
+
+=== PAGE 35 ===
+Notes and References
+60
+Central Bureau of Investigation
+Establishment of CBI
+Motto, Mission and Vision of CBI
+Organisation of CBI
+Composition of CBI
+Functions of CBI
+Provision of Prior Permission
+CBI vs. State Police
+CBI Academy
+Notes and References
+61
+Lokpal and Lokayuktas
+Global Scenario
+Position in India
+Lokpal
+Lokpal and Lokayuktas Act (2013)
+Lokayuktas
+Notes and References
+62
+National Investigation Agency
+Establishment of the NIA
+Rationale of the NIA
+Functions of the NIA
+Vision of the NIA
+Mission of the NIA
+Jurisdiction of the NIA
+NIA (Amendment) Act, 2019
+Notes and References
+63
+National Disaster Management Authority
+Establishment of the NDMA
+Objectives of the NDMA
+Functions of the NDMA
+
+
+=== PAGE 36 ===
+Additional Functions of the NDMA
+State Disaster Management Authority
+District Disaster Management Authority
+Notes and References
+PART-IX
+ 
+Other Constitutional Dimensions
+64
+Co-operative Societies
+Constitutional Provisions
+Reasons for the 97th Amendment
+Notes and References
+65
+Official Language
+Language of the Union
+Regional Languages
+Language of the Judiciary and Texts of Laws
+Special Directives
+Committee of Parliament on Official Language
+Classical Language Status
+Notes and References
+66
+Public Services
+Classification of Services
+Constitutional Provisions
+Notes and References
+67
+Rights and Liabilities of the Government
+Property of the Union and the States
+Suits by or Against the Government
+Suits Against Public Officials
+Notes and References
+68
+Special Provisions Relating to Certain Classes
+Rationale of Special Provisions
+
+
+=== PAGE 37 ===
+Specification of Classes
+Components of Special Provisions
+Notes and References
+PART-X
+ 
+Political Dynamics
+69
+Political Parties
+Meaning and Types
+Party System in India
+Recognition of National and State Parties
+Notes and References
+70
+Role of Regional Parties
+Features of Regional Parties
+Classification of Regional Parties
+Rise of Regional Parties
+Role of Regional Parties
+Dysfunctions of Regional Parties
+Notes and References
+71
+Elections
+Electoral System
+Election Machinery
+Election Process
+Notes and References
+72
+Election Laws
+Representation of the People Act, 1950
+Representation of the People Act, 1951
+Delimitation Act, 2002
+Other Acts Relating to Elections
+Rules Relating to Elections
+Orders Relating to Elections
+Notes and References
+
+
+=== PAGE 38 ===
+73
+Electoral Reforms
+Committees Related to Electoral Reforms
+Electoral Reforms Before 1996
+Electoral Reforms of 1996
+Electoral Reforms After 1996
+Electoral Reforms Since 2010
+Notes and References
+74
+Voting Behaviour
+Meaning of Voting Behaviour
+Significance of Voting Behaviour
+Determinants of Voting Behaviour
+Role of Media in Elections and Voting Behaviour
+Notes and References
+75
+Coalition Government
+Meaning of Coalition Government
+Features of Coalition Government
+Formation of Coalition Governments
+Merits of Coalition Government
+Demerits of Coalition Government
+Notes and References
+76
+Anti-Defection Law
+Provisions of the Act
+Evaluation of the Act
+91st Amendment Act (2003)
+Notes and References
+77
+Pressure Groups
+Meaning and Techniques
+Pressure Groups in India
+Notes and References
+78
+National Integration
+
+
+=== PAGE 39 ===
+Meaning of National Integration
+Obstacles to National Integration
+National Integration Council
+National Foundation for Communal Harmony
+Notes and References
+79
+Foreign Policy
+Principles of Indian Foreign Policy
+Objectives of Indian Foreign Policy
+Gujral Doctrine of India
+Nuclear Doctrine of India
+Connect Central Asia Policy of India
+Act East Policy of India
+Notes and References
+PART-XI
+ 
+Working of the Constitution
+80
+National Commission to Review the Working of the
+Constitution
+I. Terms of Reference of the Commission
+II. Fifty Years of Working of the Constitution
+III. Areas of Concern: Commission’s Perception
+IV. Recommendations of the Commission
+V. Earlier Efforts to Review the Constitution
+Notes and References
+Appendices
+Appendix I: Articles of the Constitution (1–395)
+Appendix II: Subjects of Union, State and Concurrent Lists
+Appendix III: Table of Precedence
+Appendix IV: Constitutional Amendments at a Glance
+Appendix V: Presidents, Vice-Presidents, Prime Ministers, etc.
+
+
+=== PAGE 40 ===
+Appendix VI: Chairpersons of the National Commissions
+Appendix VII: UPSC Questions on Indian Polity (General Studies
+—Prelims 2010–2019)
+Appendix VIII: Practice Questions on Indian Polity (General
+Studies—Prelims)
+Appendix IX: UPSC Questions on Indian Polity (General Studies
+—Mains 2010–2019)
+Appendix X: Practice Questions on Indian Polity (General Studies
+—Mains)
+Additional reading material available at the weblink given below:
+http://www.mhhe.com./indianpolity6e
+1. Oath by the Constitutional and Other Authorities
+2. Definitions Under the Constitution
+3. Allied Amending Acts at a Glance
+4. Model Code of Conduct Relating to Elections
+5. Representation of the People Act, 1950 at a Glance
+6. Representation of the People Act, 1951 at a Glance
+7. Flag Code of India
+8. UPSC Questions on Indian Polity (General Studies—
+Prelims 2000–2009)
+9. UPSC Questions on Indian Polity (General Studies—Mains
+2000–2009)
+
+
+=== PAGE 41 ===
+        
+List of Tables
+Table 1.1
+Interim Government (1946)
+Table 1.2
+First Cabinet of Free India (1947)
+Table 2.1
+Allocation of seats in the Constituent Assembly of
+India (1946)
+Table 2.2
+Results of the Elections to the Constituent Assembly
+(July–August 1946)
+Table 2.3
+Community-wise Representation in the Constituent
+Assembly (1946)
+Table 2.4
+State-wise Membership of the Constituent Assembly
+of India as on December 31, 1947
+Table 2.5
+Sessions of the Constituent Assembly at a Glance
+Table 2.6
+Time Taken by the Framers of Other Constitutions
+Table 2.7
+Articles Related to Short Title, Commencement, Hindi
+Text and Repeals at a Glance
+Table 3.1
+The Constitution of India at a Glance
+Table 3.2
+Important Articles of the Constitution at a Glance
+Table 3.3
+Schedules of the Constitution at a Glance
+Table 3.4
+Sources of the Constitution at a Glance
+Table 5.1
+Territory of India in 1950
+Table 5.2
+Original Parts of the Constitution Dealing with States
+and Territories
+Table 5.3
+Territory of India in 1956
+Table 5.4
+Territory of India in 2019
+Table 5.5
+Laws Made by Parliament Under Article 3 of the
+Constitution
+Table 5.6
+Articles Related to Union and its Territory at a Glance
+Table 6.1
+Comparing NRI, PIO and OCI Cardholder
+Table 6.2
+Articles Related to Citizenship at a Glance
+Table 7.1
+Fundamental Rights at a Glance
+Table 7.2
+Fundamental Rights (FR) of Foreigners
+
+
+=== PAGE 42 ===
+Table 7.3
+Martial Law Vs National Emergency
+Table 7.4
+Articles Related to Fundamental Rights at a Glance
+Table 8.1
+Distinction Between Fundamental Rights and
+Directive Principles
+Table 8.2
+Articles Related to Directive Principles of State Policy
+at a Glance
+Table 11.1
+Evolution of the Basic Structure of the Constitution
+Table 12.1
+Comparing Parliamentary and Presidential Systems
+Table 13.1
+Comparing Features of Federal and Unitary
+Governments
+Table 14.1
+Articles Related to Centre-State Legislative Relations
+at a Glance
+Table 14.2
+Articles Related to Centre-State Administrative
+Relations at a Glance
+Table 14.3
+Articles Related to Centre-State Financial Relations
+at a Glance
+Table 15.1
+Inter-State Water Dispute Tribunals Set-up So Far
+Table 15.3
+Articles Related to Inter-State Relations at a Glance
+Table 15.2
+Zonal Councils at a Glance
+Table 16.1
+Comparing National Emergency and President’s
+Rule
+Table 16.2
+Imposition of President’s Rule (1951–2019)
+Table 16.3
+Articles Related to Emergency Provisions at a
+Glance
+Table 17.1
+Elections of the Presidents (1952–2017)
+Table 17.2
+Veto Power of the President At a Glance
+Table 17.3
+Articles Related to President at a Glance
+Table 18.1
+Elections of the Vice-Presidents (1952–2017)
+Table 18.2
+Articles Related to Vice-President at a Glance
+Table 19.1
+Articles Related to Prime Minister at a Glance
+Table 20.1
+Distinction Between Council of Ministers and Cabinet
+Table 20.2
+Articles Related to Central Council of Ministers at a
+Glance
+Table 22.1
+Adjournment vs Prorogation
+
+
+=== PAGE 43 ===
+Table 22.2
+Censure Motion vs No Confidence Motion
+Table 22.3
+Public Bill vs Private Bill
+Table 22.4
+Ordinary Bill vs Money Bill
+Table 22.5
+Allocation of Seats in Parliament for States and
+Union Territories (2019)
+Table 22.6
+Seats Reserved for SCs and STs in the Lok Sabha
+(2019)
+Table 22.7
+Durations of the Lok Sabha (from First Lok Sabha to
+Present Lok Sabha)
+Table 22.8
+Speakers of the Lok Sabha (from First Lok Sabha to
+Present Lok Sabha)
+Table 22.9
+Articles Related to Parliament at a Glance
+Table 23.1
+Departmental Standing Committees and their
+Jurisdiction (2019)
+Table 26.1
+Comparing Indian and American Supreme Courts
+Table 26.2
+Articles Related to Supreme Court at a Glance
+Table 27.1
+Number of Acts and Regulations Included in the
+Ninth Schedule
+Table 30.1
+Comparing Veto Powers of President and Governor
+Table 30.2
+Comparing Ordinance-Making Power of President
+and Governor
+Table 30.3
+Comparing Pardoning Powers of President and
+Governor
+Table 30.4
+Articles Related to Governor at a Glance
+Table 31.1
+Articles Related to Chief Minister at a Glance
+Table 32.1
+Articles Related to State Council of Ministers at a
+Glance
+Table 33.1
+Comparing Legislative Procedure in the Parliament
+and State Legislature
+Table 33.2
+Strength of Legislative Assemblies and Legislative
+Councils (2019)
+Table 33.3
+Seats Reserved for SCs and STs in the Legislative
+Assemblies (2019)
+Table 33.4
+Articles Related to State Legislature at a Glance
+
+
+=== PAGE 44 ===
+Table 33.5
+Laws made by Parliament under Article 169 of the
+Constitution
+Table 34.1
+Name and Jurisdiction of High Courts
+Table 34.2
+Articles Related to High Courts at a Glance
+Table 35.1
+Name and Jurisdiction of Benches of CAT
+Table 35.2
+Circuit Sittings of Benches of CAT
+Table 35.3
+Articles Related to Tribunals at a Glance
+Table 36.1
+Articles Related to Subordinate Courts at a Glance
+Table 37.1
+Articles Related to Special Provisions for some
+States at a Glance
+Table 38.1
+Study Teams and Committees on Panchayati Raj
+Table 38.2
+Articles Related to Panchayats at a Glance
+Table 38.3
+Name of Panchayati Raj Institutions in the States
+(2019)
+Table 38.4
+Milestones in the Evolution of Panchayati Raj
+Table 38.5
+Committees Related to Panchayati Raj (After
+Constitutionalisation)
+Table 39.1
+Committees and Commissions on Urban Local
+Governments
+Table 39.2
+Classification of Cantonment Boards
+Table 39.3
+Articles Related to Municipalities at a Glance
+Table 39.4
+Name of Urban Local Bodies in the States (2019)
+Table 40.1
+Administrative System of Union Territories at a
+Glance
+Table 40.2
+Comparing States and Union Territories
+Table 40.3
+Articles Related to Union Territories at a Glance
+Table 41.1
+Tribal Areas at a Glance (2019)
+Table 41.2
+Articles Related to Scheduled and Tribal Areas at a
+Glance
+Table 41.3
+Parliamentary Laws Related to the Fifth and Sixth
+Schedules of the Constitution
+Table 43.1
+Articles Related to UPSC at a Glance
+Table 44.1
+Articles Related to SPSC at a Glance
+Table 45.1
+Finance Commissions Appointed so far
+
+
+=== PAGE 45 ===
+Table 45.2
+Articles Related to Finance Commission at a Glance
+Table 51.1
+Articles Related to Comptroller and Auditor-General
+of India at a Glance
+Table 52.1
+Articles Related to Attorney-General of India at a
+Glance
+Table 53.1
+Articles Related to Advocate-General of the state at a
+Glance
+Table 53.2
+Articles Related to Constitutional Bodies at a Glance
+Table 57.1
+National Commissions / Central Bodies and the
+Related Ministries
+Table 61.1
+Establishment of Lokayukta in States (Chronological
+Order)
+Table 64.1
+Articles Related to Co-operative Societies at a
+Glance
+Table 65.1
+Languages conferred with Classical Language
+Status
+Table 65.2
+Articles Related to Official Language at a Glance
+Table 66.1
+Articles Related to Public Services at a Glance
+Table 67.1
+Articles Related to Rights and Liabilities of the
+Government at a Glance
+Table 68.1
+Articles Related to Special Provisions for Certain
+Classes at a Glance
+Table 69.1
+Recognised National Parties and State Parties (First
+to Seventeenth General Elections)
+Table 69.2
+Recognised National Parties and their Symbols
+(2019)
+Table 69.3
+Recognised State Parties and their Symbols (2019)
+Table 69.4
+Formation of Political Parties (Chronological Order)
+Table 71.1
+Results of Lok Sabha Elections
+Table 71.2
+Prime Ministers after each Lok Sabha General
+Election
+Table 71.3
+Participation in Lok Sabha Elections
+Table 71.4
+Women in Lok Sabha Elections
+Table 71.5
+Cost of Lok Sabha Elections
+
+
+=== PAGE 46 ===
+Table 71.6
+Largest and Smallest (Area-wise) Lok Sabha
+Constituencies in Fourteenth General Elections
+(2004)
+Table 71.7
+Largest and Smallest (Electors-wise) Lok Sabha
+Constituencies in Sixteenth General Elections (2014)
+Table 71.8
+Articles Related to Elections at a Glance
+Table 73.1
+Limit on Election Expenditure (As declared in 2014)
+Table 75.1
+Formation of Coalition Governments at the Centre
+Table 78.1
+Meetings of the National Integration Council
+
+
+=== PAGE 47 ===
+PART-I
+CONSTITUTIONAL FRAMEWORK
+1. Historical Background
+2. Making of the Constitution
+3. Salient Features of the Constitution
+4. Preamble of the Constitution
+5. Union and its Territory
+6. Citizenship
+7. Fundamental Rights
+8. Directive Principles of State Policy
+9. Fundamental Duties
+10. Amendment of the Constitution
+11. Basic Structure of the Constitution
+
+
+=== PAGE 48 ===
+T
+1
+Historical Background
+he British came to India in 1600 as traders, in the form of
+East India Company, which had the exclusive right of
+trading in India under a charter granted by Queen Elizabeth
+I. In 1765, the Company, which till now had purely trading
+functions obtained the ‘diwani’ (i.e., rights over revenue and civil
+justice) of Bengal, Bihar and Orissa.1 This started its career as a
+territorial power. In 1858, in the wake of the ‘sepoy mutiny’, the
+British Crown assumed direct responsibility for the governance of
+India. This rule continued until India was granted independence
+on August 15, 1947.
+With Independence came the need for a Constitution. Hence, a
+Constituent Assembly was formed for this purpose in 1946 and on
+January 26, 1950, the Constitution came into being. However,
+various features of the Indian Constitution and polity have their
+roots in the British rule. There were certain events in the British
+rule that laid down the legal framework for the organisation and
+functioning of government and administration in British India.
+These events have greatly influenced our constitution and polity.
+They are explained here in a chronological order under two major
+headings :
+1. The Company Rule (1773 – 1858)
+2. The Crown Rule (1858 – 1947)
+
+
+=== PAGE 49 ===
+THE COMPANY RULE (1773–1858)
+Regulating Act of 1773
+This act was of great constitutional importance as (a) it was the
+first step taken by the British Government to control and regulate
+the affairs of the East India Company in India; (b) it recognised,
+for the first time, the political and administrative functions of the
+Company; and (c) it laid the foundations of central administration
+in India.
+The features of this Act were as follows:
+1. It designated the Governor of Bengal as the ‘Governor-
+General of Bengal’ and created an Executive Council of four
+members to assist him. The first such GovernorGeneral was
+Lord Warren Hastings.
+2. It made the governors of Bombay and Madras presidencies
+subordinate to the governor-general of Bengal, unlike earlier,
+when the three presidencies were independent of one
+another.
+3. It provided for the establishment of a Supreme Court at
+Calcutta (1774) comprising one chief justice and three other
+judges.
+4. It prohibited the servants of the Company from engaging in
+any private trade or accepting presents or bribes from the
+‘natives’.
+5. It strengthened the control of the British Government over
+the Company by requiring the Court of Directors (governing
+body of the Company) to report on its revenue, civil, and
+military affairs in India.
+Amending Act of 1781
+In a bid to rectify the defects of the Regulating Act of 1773, the
+British Parliament passed the Amending Act of 1781, also known
+as the Act of Settlement.
+The features of this Act were as follows:
+
+
+=== PAGE 50 ===
+1. It exempted the Governor-General and the Council from the
+jurisdiction of the Supreme Court for the acts done by them
+in their official capacity. Similarly, it also exempted the
+servants of the company from the jurisdiction of the
+Supreme Court for their official actions.
+2. It excluded the revenue matters and the matters arising in
+the collection of revenue from the jurisdiction of the Supreme
+Court.
+3. It provided that the Supreme Court was to have jurisdiction
+over all the inhabitants of Culcutta. It also required the court
+to administer the personal law of the defendants i.e., Hindus
+were to be tried according to the Hindu law and Muslims
+were to be tried according to the Mohammedan law.
+4. It laid down that the appeals from the Provincial Courts
+could be taken to the Governor-General-in-Council and not
+to the Supreme Court.
+5. It empowered the Governor-General-inCouncil to frame
+regulations for the Provincial Courts and Councils.
+Pitt’s India Act of 1784
+The next important act was the Pitt’s India Act2 of 1784.
+The features of this Act were as follows:
+1. It distinguished between the commercial and political
+functions of the Company.
+2. It allowed the Court of Directors to manage the commercial
+affairs, but created a new body called Board of Control to
+manage the political affairs. Thus, it established a system of
+double government.
+3. It empowered the Board of Control to supervise and direct
+all operations of the civil and military government or
+revenues of the British possessions in India.
+Thus, the act was significant for two reasons: first, the
+Company’s territories in India were for the first time called the
+‘British possessions in India’; and second, the British Government
+was given the supreme control over Company’s affairs and its
+administration in India.
+
+
+=== PAGE 51 ===
+Act of 1786
+In 1786, Lord Cornwallis was appointed as the Governor-General
+of Bengal. He placed two demands to accept that post, viz.,
+1. He should be given power to override the decision of his
+council in special cases.
+2. He would also be the Commander-in-Chief.
+Accordingly, the Act of 1786 was enacted to make both the
+provisions.
+Charter Act of 1793
+The features of this Act were as follows:
+1. It extended the overriding power given to Lord Cornwallis
+over his council, to all future Governor-Generals and
+Governors of Presidencies.
+2. It gave the Governor-General more powers and control over
+the governments of the subordinate Presidencies of Bombay
+and Madras.
+3. It extended the trade monopoly of the Company in India for
+another period of twenty years.
+4. It provided that the Commander-in-Chief was not to be a
+member of the Governor-General’s council, unless he was
+so appointed.
+5. It laid down that the members of the Board of Control and
+their staff were, henceforth, to be paid out of the Indian
+revenues.
+Charter Act of 1813
+The features of this Act were as follows:
+1. It abolished the trade monopoly of the company in India i.e.,
+the Indian trade was thrown open to all British merchants.
+However, it continued the monopoly of the company over
+trade in tea and trade with China.
+2. It asserted the sovereignty of the British Crown over the
+Company’s territories in India.
+3. It allowed the Christian missionaries to come to India for the
+purpose of enlightening the people.
+
+
+=== PAGE 52 ===
+4. It provided for the spread of western education among the
+inhabitants of the British territories in India.
+5. It authorised the Local Governments in India to impose
+taxes on persons. They could also punish the persons for
+not paying taxes.
+Charter Act of 1833
+This Act was the final step towards centralisation in British India.
+The features of this Act were as follows:
+1. It made the Governor-General of Bengal as the Governor-
+General of India and vested in him all civil and military
+powers. Thus, the act created, for the first time, Government
+of India having authority over the entire territorial area
+possessed by the British in India. Lord William Bentick was
+the first Governor-General of India.
+2. It deprived the Governor of Bombay and Madras of their
+legislative powers. The Governor-General of India was given
+exclusive legislative powers for the entire British India. The
+laws made under the previous acts were called as
+Regulations, while laws made under this act were called as
+Acts.
+3. It ended the activities of the East India Company as a
+commercial body, which became a purely administrative
+body. It provided that the Company’s territories in India were
+held by it ‘in trust for His Majesty, His heirs and successors’.
+4. The Charter Act of 1833 attempted to introduce a system of
+open competition for selection of civil servants and stated
+that the Indians should not be debarred from holding any
+place, office and employment under the Company. However,
+this provision was negated after opposition from the Court of
+Directors.
+Charter Act of 1853
+This was the last of the series of Charter Acts passed by the
+British Parliament between 1793 and 1853. It was a significant
+constitutional landmark.
+
+
+=== PAGE 53 ===
+The features of this Act were as follows:
+1. It separated, for the first time, the legislative and executive
+functions of the Governor-General’s council. It provided for
+addition of six new members called legislative councillors to
+the council. In other words, it established a separate
+Governor-General’s legislative council which came to be
+known as the Indian (Central) Legislative Council. This
+legislative wing of the council functioned as a mini-
+Parliament, adopting the same procedures as the British
+Parliament. Thus, legislation, for the first time, was treated
+as a special function of the government, requiring special
+machinery and special process.
+2. It introduced an open competition system of selection and
+recruitment of civil servants. The covenanted civil service3
+was, thus, thrown open to the Indians also. Accordingly, the
+Macaulay Committee (the Committee on the Indian Civil
+Service) was appointed in 1854.
+3. It extended the Company’s rule and allowed it to retain the
+possession of Indian territories on trust for the British Crown.
+But, it did not specify any particular period, unlike the
+previous Charters. This was a clear indication that the
+Company’s rule could be terminated at any time the
+Parliament liked.
+4. It introduced, for the first time, local representation in the
+Indian (Central) Legislative Council. Of the six new
+legislative members of the GovernorGeneral’s council, four
+members 
+were 
+appointed 
+by 
+the 
+local 
+(provincial)
+governments of Madras, Bombay, Bengal and Agra.
+
+
+=== PAGE 54 ===
+THE CROWN RULE (1858–1947)
+Government of India Act of 1858
+This significant Act was enacted in the wake of the Revolt of
+1857–also known as the First War of Independence or the ‘sepoy
+mutiny’. The act known as the Act for the Good Government of
+India, abolished the East India Company, and transferred the
+powers of Government, territories and revenues to the British
+Crown.
+The features of this Act were as follows:
+1. It provided that India, henceforth, was to be governed by,
+and in the name of, Her Majesty. It changed the designation
+of the Governor-General of India to that of Viceroy of India.
+He (Viceroy) was the direct representative of the British
+Crown in India. Lord Canning, thus, became the first Viceroy
+of India.
+2. It ended the system of double Government by abolishing the
+Board of Control and Court of Directors.
+3. It created a new office, Secretary of State for India, vested
+with 
+complete 
+authority 
+and 
+control 
+over 
+Indian
+administration. The secretary of state was a member of the
+British Cabinet and was responsible ultimately to the British
+Parliament.
+4. It established a 15-member council of India to assist the
+Secretary of State for India. The council was an advisory
+body. The secretary of state was made the Chairman of the
+council.
+5. It constituted the Secretary of State-inCouncil as a body
+corporate, capable of suing and being sued in India and in
+England.
+‘The Act of 1858 was, however, largely confined to the
+improvement of the administrative machinery by which the Indian
+Government was to be supervised and controlled in England. It
+did not alter in any substantial way the system of Government that
+prevailed in India4 .’
+
+
+=== PAGE 55 ===
+Indian Councils Act of 1861
+After the great revolt of 1857, the British Government felt the
+necessity of seeking the cooperation of the Indians in the
+administration of their country. In pursuance of this policy of
+association, three acts were enacted by the British Parliament in
+1861, 1892 and 1909. The Indian Councils Act of 1861 is an
+important landmark in the constitutional and political history of
+India.
+The features of this Act were as follows:
+1. It made a beginning of the representative institutions by
+associating Indians with the law-making process. It, thus,
+provided that the Viceroy should nominate some Indians as
+non-official members of his expanded council. In 1862, Lord
+Canning, the then Viceroy, nominated three Indians to his
+legislative council–the Raja of Benaras, the Maharaja of
+Patiala and Sir Dinkar Rao.
+2. It initiated the process of decentralisation by restoring the
+legislative powers to the Bombay and Madras Presidencies.
+It, thus, reversed the centralising tendency that started from
+the Regulating Act of 1773 and reached its climax under the
+Charter Act of 1833. This policy of legislative devolution
+resulted in the grant of almost complete internal autonomy to
+the provinces in 1937.
+3. It also provided for the establishment of new legislative
+councils for Bengal, North-Western Provinces and Punjab,
+which were established in 1862, 1886 and 1897,
+respectively.
+4. It empowered the Viceroy to make rules and orders for the
+more convenient transaction of business in the council. It
+also gave a recognition to the ‘portfolio’ system, introduced
+by Lord Canning in 1859. Under this, a member of the
+Viceroy’s council was made in-charge of one or more
+departments of the Government and was authorised to issue
+final orders on behalf of the council on matters of his
+department(s).
+5. It empowered the Viceroy to issue ordinances, without the
+concurrence of the legislative council, during an emergency.
+
+
+=== PAGE 56 ===
+The life of such an ordinance was six months.
+Indian Councils Act of 1892
+The features of this Act were as follows:
+1. It increased the number of additional (non-official) members
+in the Central and provincial legislative councils, but
+maintained the official majority in them.
+2. It increased the functions of legislative councils and gave
+them the power of discussing the budget5 and addressing
+questions to the executive.
+3. It provided for the nomination of some non-official members
+of the (a) Central Legislative Council by the viceroy on the
+recommendation of the provincial legislative councils and the
+Bengal Chamber of Commerce, and (b) that of the provincial
+legislative 
+councils 
+by 
+the 
+Governors 
+on 
+the
+recommendation of the district boards, municipalities,
+universities, trade associations, zamin-dars and chambers.
+‘The act made a limited and indirect provision for the use of
+election in filling up some of the non-official seats both in the
+Central and provincial legislative councils. The word “election”
+was, however, not used in the Act. The process was described as
+nomination made on the recommendation of certain bodies6 .’
+Indian Councils Act of 1909
+This Act is also known as Morley-Minto Reforms (Lord Morley was
+the then Secretary of State for India and Lord Minto was the then
+Viceroy of India).
+The features of this Act were as follows:
+1. It considerably increased the size of the legislative councils,
+both Central and provincial. The number of members in the
+Central legislative council was raised from 16 to 60. The
+number of members in the provincial legislative councils was
+not uniform.
+2. It retained official majority in the Central legislative council,
+but allowed the provincial legislative councils to have non-
+official majority.
+
+
+=== PAGE 57 ===
+3. It enlarged the deliberative functions of the legislative
+councils at both the levels. For example, members were
+allowed to ask supplementary questions, move resolutions
+on the budget and so on.
+4. It provided (for the first time) for the association of Indians
+with the executive councils of the Viceroy and Governors.
+Satyendra Prasad Sinha became the first Indian to join the
+Viceroy’s executive council. He was appointed as the Law
+Member.
+5. It introduced a system of communal representation for
+Muslims by accepting the concept of ‘separate electorate’.
+Under this, the Muslim members were to be elected only by
+Muslim voters. Thus, the Act ‘legalised communalism’ and
+Lord Minto came to be known as the Father of Communal
+Electorate.
+6. It also provided for the separate representation of
+presidency 
+corporations, 
+chambers 
+of 
+commerce,
+universities and zamindars.
+Government of India Act of 1919
+On August 20, 1917, the British Government declared, for the first
+time, that its objective was the gradual introduction of responsible
+Government in India7 .
+The Government of India Act of 1919 was thus enacted, which
+came into force in 1921. This Act is also known as Montagu-
+Chelmsford Reforms (Montagu was the Secretary of State for
+India and Lord Chelmsford was the Viceroy of India).
+The features of this Act were as follows:
+1. It relaxed the central control over the provinces by
+demarcating and separating the central and provincial
+subjects. The central and provincial legislatures were
+authorised to make laws on their respective list of subjects.
+However, the structure of government continued to be
+centralised and unitary.
+2. It further divided the provincial subjects into two parts–
+transferred and reserved. The transferred subjects were to
+be administered by the Governor with the aid of Ministers
+
+
+=== PAGE 58 ===
+responsible to the legislative council. The reserved subjects,
+on the other hand, were to be administered by the Governor
+and his executive council without being responsible to the
+legislative council. This dual scheme of governance was
+known as ‘dyarchy’–a term derived from the Greek word di-
+arche which means double rule. However, this experiment
+was largely unsuccessful.
+3. It introduced, for the first time, bicameralism and direct
+elections in the country. Thus, the Indian legislative council
+was replaced by a bicameral legislature consisting of an
+Upper House (Council of State) and a Lower House
+(Legislative Assembly). The majority of members of both the
+Houses were chosen by direct election.
+4. It required that the three of the six members of the Viceroy’s
+executive Council (other than the Commander-in-Chief)
+were to be Indian.
+5. It extended the principle of communal representation by
+providing separate electorates for Sikhs, Indian Christians,
+Anglo-Indians and Europeans.
+6. It granted franchise to a limited number of people on the
+basis of property, tax or education.
+7. It created a new office of the High Commissioner for India in
+London and transferred to him some of the functions hitherto
+performed by the Secretary of State for India.
+8. It provided for the establishment of a public service
+commission. Hence, a Central Public Service Commission
+was set up in 1926 for recruiting civil servants8 .
+9. It separated, for the first time, provincial budgets from the
+Central budget and authorised the provincial legislatures to
+enact their budgets.
+10. It provided for the appointment of a statutory commission to
+inquire into and report on its working after ten years of its
+coming into force.
+Simon Commission
+In November 1927 itself (i.e., 2 years before the schedule), the
+British Government announced the appointment a seven-member
+statutory commission under the chairmanship of Sir John Simon
+
+
+=== PAGE 59 ===
+to report on the condition of India under its new Constitution. All
+the members of the commission were British and hence, all the
+parties boycotted the commission. The commission submitted its
+report in 1930 and recommended the abolition of dyarchy,
+extension 
+of 
+responsible 
+Government 
+in 
+the 
+provinces,
+establishment of a federation of British India and princely states,
+continuation of communal electorate and so on. To consider the
+proposals of the commission, the British Government convened
+three round table conferences of the representatives of the British
+Government, British India and Indian princely states. On the basis
+of these discussions, a ‘White Paper on Consitutional Reforms’
+was prepared and submitted for the consideration of the Joint
+Select Committee of the British Parliament. The recommendations
+of this committee were incorporated (with certain changes) in the
+next Government of India Act of 1935.
+Communal Award
+In August 1932, Ramsay MacDonald, the British Prime Minister,
+announced a scheme of representation of the minorities, which
+came to be known as the Communal Award. The award not only
+continued separate electorates for the Muslims, Sikhs, Indian
+Christians, Anglo-Indians and Europeans but also extended it to
+the depressed classes (Scheduled Castes). Gandhiji was
+distressed over this extension of the principle of communal
+representation to the depressed classes and undertook fast unto
+death in Yerawada Jail (Poona) to get the award modified. At last,
+there was an agreement between the leaders of the Congress and
+the depressed classes. The agreement, known as Poona Pact,
+retained the Hindu joint electorate and gave reserved seats to the
+depressed classes.
+Government of India Act of 1935
+The Act marked a second milestone towards a completely
+responsible government in India. It was a lengthy and detailed
+document having 321 Sections and 10 Schedules.
+The features of this Act were as follows:
+
+
+=== PAGE 60 ===
+1. It provided for the establishment of an All-India Federation
+consisting of provinces and princely states as units. The Act
+divided the powers between the Centre and units in terms of
+three lists–Federal List (for Centre, with 59 items), Provincial
+List (for provinces, with 54 items) and the Concurrent List
+(for both, with 36 items). Residuary powers were given to the
+Viceroy. However, the federation never came into being as
+the princely states did not join it.
+2. It abolished dyarchy in the provinces and introduced
+‘provincial autonomy’ in its place. The provinces were
+allowed to act as autonomous units of administration in their
+defined spheres. Moreover, the Act introduced responsible
+Governments in provinces, that is, the Governor was
+required to act with the advice of ministers responsible to the
+provincial legislature. This came into effect in 1937 and was
+discontinued in 1939.
+3. It provided for the adoption of dyarchy at the Centre.
+Consequently, the federal subjects were divided into
+reserved subjects and transferred subjects. However, this
+provision of the Act did not come into operation at all.
+4. It introduced bicameralism in six out of eleven provinces.
+Thus, the legislatures of Bengal, Bombay, Madras, Bihar,
+Assam and the United Provinces were made bicameral
+consisting of a legislative council (upper house) and a
+legislative 
+assembly 
+(lower 
+house). 
+However, 
+many
+restrictions were placed on them.
+5. It further extended the principle of communal representation
+by providing separate electorates for depressed classes
+(Scheduled Castes), women and labour (workers).
+6. It abolished the Council of India, established by the
+Government of India Act of 1858. The secretary of state for
+India was provided with a team of advisors.
+7. It extended franchise. About 10 per cent of the total
+population got the voting right.
+8. It provided for the establishment of a Reserve Bank of India
+to control the currency and credit of the country.
+9. It provided for the establishment of not only a Federal Public
+Service Commission, but also a Provincial Public Service
+> build · crouton-alpha-free
+Now I have the book's structure. Our notes end at Chapter 14 (Centre-State Relations) which matches the book. Next is Chapter 15 — Inter-State Relations.
+[0m$ [0mpython3 << 'PYEOF'
+import fitz
+doc = fitz.open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf")
+targets = ["15\nInter-State Relations", "Inter-State Water Disputes", "Inter-State Councils", "Zonal Councils"]
+for i in range(300, 500):
+    text = doc[i].get_text()
+    for t in targets:
+        if t in text:
+            print(f"FOUND '{t}' at PDF page {i+1}")
+PYEOF
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+FOUND 'Zonal Councils' at PDF page 329
+FOUND 'Zonal Councils' at PDF page 353
+FOUND '15
+Inter-State Relations' at PDF page 358
+FOUND 'Inter-State Water Disputes' at PDF page 359
+FOUND 'Zonal Councils' at PDF page 362
+FOUND 'Zonal Councils' at PDF page 366
+FOUND 'Zonal Councils' at PDF page 367
+> build · crouton-alpha-free
+Chapter 15 spans PDF pages 358-370ish. Extracting the full text now.
+[0m$ [0mpython3 << 'PYEOF'
+import fitz
+doc = fitz.open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/Indian Polity Laxmikanth 6th edition.pdf")
+for i in range(357, 375):
+    text = doc[i].get_text()
+    print(f"===== PDF PAGE {i+1} =====")
+    print(text)
+    print()
+PYEOF
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+===== PDF PAGE 358 =====
+T
+15
+Inter-State Relations
+he successful functioning of the Indian federal system
+depends not only on the harmonious relations and close
+cooperation between the Centre and the states but also
+between the states inter se. Hence, the Constitution makes the
+following provisions with regard to inter-state comity:
+1. Adjudication of inter-state water disputes.
+2. Coordination through inter-state councils.
+3. Mutual recognition of public acts, records and judicial
+proceedings.
+4. Freedom of inter-state trade, commerce and intercourse.
+In addition, the zonal councils have been established by the
+Parliament to promote inter-state cooperation and coordination.
+
+
+===== PDF PAGE 359 =====
+INTER-STATE WATER DISPUTES
+Article 262 of the Constitution provides for the adjudication of inter-
+state water disputes. It makes two provisions:
+(i) Parliament may by law provide for the adjudication of any dispute
+or complaint with respect to the use, distribution and control of
+waters of any inter-state river and river valley.
+(ii) Parliament may also provide that neither the Supreme Court nor
+any other court is to exercise jurisdiction in respect of any such
+dispute or complaint.
+Under this provision, the Parliament has enacted two laws [the
+River Boards Act (1956) and the Inter-State Water Disputes Act
+(1956)]. The River Boards Act provides for the establishment of river
+boards for the regulation and development of inter-state river and
+river valleys. A river board is established by the Central government
+on the request of the state governments concerned to advise them.
+The Inter-State Water Disputes Act empowers the Central
+government to set up an ad hoc tribunal for the adjudication of a
+dispute between two or more states in relation to the waters of an
+inter-state river or river valley. The decision of the tribunal would be
+final and binding on the parties to the dispute. Neither the Supreme
+Court nor any other court is to have jurisdiction in respect of any
+water dispute which may be referred to such a tribunal under this
+Act.
+The need for an extra judicial machinery to settle inter-state water
+disputes is as follows: “The Supreme Court would indeed have
+jurisdiction to decide any dispute between states in connection with
+water supplies, if legal rights or interests are concerned; but the
+experience of most countries has shown that rules of law based
+upon the analogy of private proprietary interests in water do not
+afford a satisfactory basis for settling disputes between the states
+where the interests of the public at large in the proper use of water
+supplies are involved.”1
+So far (2019), the Central government has set up nine inter-state
+water dispute tribunals. The name of the tribunals, the years in which
+they were constituted and the states involved in the dispute are
+mentioned in Table 15.1.
+Table 15.1 Inter-State Water Dispute Tribunals Set-up So Far
+
+
+===== PDF PAGE 360 =====
+SI.
+No.
+Name
+Set-up in
+States Involved
+1.
+Krishna Water
+Disputes Tribunal-I
+1969
+Maharashtra,
+Karnataka and
+Andhra Pradesh
+2.
+Godavari Water
+Disputes Tribunal
+1969
+Maharashtra,
+Karnataka, Andhra
+Pradesh, Madhya
+Pradesh and
+Odisha
+3.
+Narmada Water
+Disputes Tribunal
+1969
+Rajasthan, Gujarat,
+Madhya Pradesh
+and Maharashtra
+4.
+Ravi and Beas
+Water Disputes
+Tribunal
+1986
+Punjab, Haryana
+and Rajasthan
+5.
+Cauvery Water
+Disputes Tribunal
+1990
+Karnataka, Kerala,
+Tamil Nadu and
+Puducherry
+6.
+Krishna Water
+Disputes Tribunal-II
+2004
+Maharashtra,
+Karnataka and
+Andhra Pradesh
+7.
+Vansadhara Water
+Disputes Tribunal
+2010
+Odisha and Andhra
+Pradesh
+8.
+Mahadayi Water
+Disputes Tribunal
+2010
+Goa, Karnataka
+and Maharashtra
+9.
+Mahanadi Water
+Disputes Tribunal
+2018
+Odisha and
+Chhattisgarh
+
+
+===== PDF PAGE 361 =====
+INTER-STATE COUNCILS
+Article 263 contemplates the establishment of an Inter-State Council
+to effect coordination between the states and between Centre and
+states. Thus, the President can establish such a council if at any
+time it appears to him that the public interest would be served by its
+establishment. He can define the nature of duties to be performed by
+such a council and its organisation and procedure.
+Even though the president is empowered to define the duties of
+an inter-state council, Article 263 specifies the duties that can be
+assigned to it in the following manner:
+(a) enquiring into and advising upon disputes which may arise
+between states;
+(b) investigating and discussing subjects in which the states or the
+Centre and the states have a common interest; and
+(c) making recommendations upon any such subject, and
+particularly for the better co-ordination of policy and action on it.
+“The council’s function to enquire and advice upon inter-state
+disputes is complementary to the Supreme Court’s jurisdiction under
+Article 131 to decide a legal controversy between the governments.
+The Council can deal with any controversy whether legal or non-
+legal, but its function is advisory unlike that of the court which gives a
+binding decision.”2
+Under the above provisions of Article 263, the president has
+established the following councils to make recommendations for the
+better coordination of policy and action in the related subjects:
+• Central Council of Health and Family Welfare.
+• Central Council of Local Government3
+• Four Regional Councils for Sales Tax for the Northern, Eastern,
+Western and Southern Zones.4
+Establishment of Inter-State Council
+The Sarkaria Commission on Centre-State Relations (1983–88)
+made a strong case for the establishment of a permanent Inter-State
+Council under Article 263 of the Constitution. It recommended that in
+order to differentiate the Inter-State Council from other bodies
+established under the same Article 263, it must be called as the
+Inter-Governmental Council. The Commission recommended that
+
+
+===== PDF PAGE 362 =====
+the Council should be charged with the duties laid down in clauses
+(b) and (c) of Article 263 (see above).
+In pursuance of the above recommendations of the Sarkaria
+Commission, the Janata Dal Government headed by V. P. Singh
+established the Inter-State Council in 1990.5 It consists of the
+following members:
+(i) Prime minister as the Chairman
+(ii) Chief ministers of all the states
+(iii) Chief ministers of union territories having legislative assemblies
+(iv) Administrators of union territories not having legislative
+assemblies
+(v) Governors of States under President’s rule
+(vi) Six Central cabinet ministers, including the home minister, to be
+nominated by the Prime Minister.
+Five Ministers of Cabinet rank / Minister of State (independent
+charge) nominated by the Chairman of the Council (i.e., Prime
+Minister) are permanent invitees to the Council.
+The council is a recommendatory body on issues relating to inter-
+state, Centre-state and Centre-union territories relations. It aims at
+promoting coordination between them by examining, discussing and
+deliberating on such issues. Its duties, in detail, are as follows:
+• investigating and discussing such subjects in which the states
+or the centre have a common interest;
+• making recommendations upon any such subject for the better
+coordination of policy and action on it; and
+• deliberating upon such other matters of general interest to the
+states as may be referred to it by the chairman.
+The Council may meet at least thrice in a year. Its meetings are
+held in camera and all questions are decided by consensus.
+There is also a Standing Committee of the Council. It was set up
+in 1996 for continuous consultation and processing of matters for the
+consideration of the Council. It consists of the following members:
+(i) Union Home Minister as the Chairman
+(ii) Five Union Cabinet Ministers
+(iii) Nine Chief Ministers
+The Council is assisted by a secretariat called the Inter-State
+Council Secretariat. This secretariat was set-up in 1991 and is
+headed by a secretary to the Government of India. Since 2011, it is
+also functioning as the secretariat of the Zonal Councils.
+
+
+===== PDF PAGE 363 =====
+PUBLIC ACTS, RECORDS AND JUDICIAL
+PROCEEDINGS
+Under the Constitution, the jurisdiction of each state is confined to its
+own territory. Hence, it is possible that the acts and records of one
+state may not be recognised in another state. To remove any such
+difficulty, the Constitution contains the “Full Faith and Credit” clause
+which lays down the following:
+(i) Full faith and credit is to be given throughout the territory of India
+to public acts, records and judicial proceedings of the Centre
+and every state. The expression ‘public acts’ includes both
+legislative and executive acts of the government. The
+expression ‘public record’ includes any official book, register or
+record made by a public servant in the discharge of his official
+duties.
+(ii) The manner in which and the conditions under which such acts,
+records and proceedings are to be proved and their effect
+determined would be as provided by the laws of Parliament. This
+means that the general rule mentioned above is subject to the
+power of Parliament to lay down the mode of proof as well as
+the effect of such acts, records and proceedings of one state in
+another state.
+(iii) Final judgements and orders of civil courts in any part of India
+are capable of execution anywhere within India (without the
+necessity of a fresh suit upon the judgement). The rule applies
+only to civil judgements and not to criminal judgements. In other
+words, it does not require the courts of a state to enforce the
+penal laws of another state.
+
+
+===== PDF PAGE 364 =====
+INTER-STATE TRADE AND COMMERCE
+Articles 301 to 307 in Part XIII of the Constitution deal with the trade,
+commerce and intercourse within the territory of India.
+Article 301 declares that trade, commerce and intercourse
+throughout the territory of India shall be free. The object of this
+provision is to break down the border barriers between the states
+and to create one unit with a view to encourage the free flow of
+trade, commerce and intercourse in the country. The freedom under
+this provision is not confined to interstate trade, commerce and
+intercourse but also extends to intra-state trade, commerce and
+intercourse. Thus, Article 301 will be violated whether restrictions are
+imposed at the frontier of any state or at any prior or subsequent
+stage.
+The freedom guaranteed by Article 301 is a freedom from all
+restrictions, except those which are provided for in the other
+provisions (Articles 302 to 305) of Part XIII of the Constitution itself.
+These are explained below:
+(i) Parliament can impose restrictions on the freedom of trad
+commerce and intercourse between the states or within a sta
+in public interest.6 But, the Parliament cannot give preference 
+one state over another or discriminate between the stat
+except in the case of scarcity of goods in any part of India.
+(ii) The legislature of a state can impose reasonable restrictions 
+the freedom of trade, commerce and intercourse with that sta
+or within that state in public interest. But, a bill for this purpo
+can be introduced in the legislature only with the previo
+sanction of the president. Further, the state legislature cann
+give preference to one state over another or discrimina
+between the states.
+(iii) The legislature of a state can impose on goods imported fro
+other states or the union territories any tax to which simi
+goods manufactured in that state are subject. This provisi
+prohibits the imposition of discriminatory taxes by the state.
+(iv) The freedom (under Article 301) is subject to the nationalisati
+laws (i.e., laws providing for monopolies in favour of the Cent
+or the states). Thus, the Parliament or the state legislature c
+make laws for the carrying on by the respective government 
+
+
+===== PDF PAGE 365 =====
+any trade, business, industry or service, whether to t
+exclusion, complete or partial, of citizens or otherwise.
+The Parliament can appoint an appropriate authority for carrying
+out the purposes of the above provisions relating to the freedom of
+trade, commerce and intercourse and restrictions on it. The
+Parliament can also confer on that authority the necessary powers
+and duties. But, no such authority has been appointed so far.7
+
+
+===== PDF PAGE 366 =====
+ZONAL COUNCILS
+The Zonal Councils are the statutory (and not the constitutional)
+bodies. They are established by an Act of the Parliament, that is,
+States Reorganisation Act of 1956. The act divided the country into
+five zones (Northern, Central, Eastern, Western and Southern) and
+provided a zonal council for each zone.
+While forming these zones, several factors have been taken into
+account which include: the natural divisions of the country, the river
+systems and means of communication, the cultural and linguistic
+affinity and the requirements of economic development, security and
+law and order.
+Each zonal council consists of the following members: (a) home
+minister of Central government. (b) chief ministers of all the States in
+the zone. (c) Two other ministers from each state in the zone. (d)
+Administrator of each union territory in the zone.
+Besides, the following persons can be associated with the zonal
+council as advisors (i.e., without the right to vote in the meetings):
+(i) a person nominated by the Planning Commission; (ii) chief
+secretary of the government of each state in the zone; and (iii)
+development commissioner of each state in the zone.
+The home minister of Central government is the common
+chairman of the five zonal councils. Each chief minister acts as a
+vice-chairman of the council by rotation, holding office for a period of
+one year at a time.
+The zonal councils aim at promoting cooperation and coordination
+between states, union territories and the Centre. They discuss and
+make recommendations regarding matters like economic and social
+planning, linguistic minorities, border disputes, interstate transport,
+and so on. They are only deliberative and advisory bodies.
+The objectives (or the functions) of the zonal councils, in detail,
+are as follows:
+• To achieve an emotional integration of the country.
+• To help in arresting the growth of acute state-consciousness,
+regionalism, lingu-ism and particularistic trends.
+• To help in removing the after-effects of separation in some
+cases so that the process of reorganisation, integration and
+economic advancement may synchronise.
+
+
+===== PDF PAGE 367 =====
+• To enable the Centre and states to cooperate with each other in
+social and economic matters and exchange ideas and
+experience in order to evolve uniform policies.
+• To cooperate with each other in the successful and speedy
+execution of major development projects.
+• To secure some kind of political equilibrium between different
+regions of the country.
+North-Eastern Council In addition to the above Zonal Councils, a
+North-Eastern Council was created by a separate Act of Parliament–
+the North-Eastern Council Act of 1971.8 Its members include Assam,
+Manipur, Mizoram, Arunchal Pradesh, Nagaland, Meghalaya, Tripura
+and Sikkim.9 Its functions are similar to those of the zonal councils,
+but with few additions. It has to formulate a unified and coordinated
+regional plan covering matters of common importance. It has to
+review from time to time the measures taken by the member states
+for the maintenance of security and public order in the region.
+Table 15.2 Zonal Councils at a Glance
+Name
+Members
+Headquarters
+1. Northern
+Zonal Council
+Himachal Pradesh, Haryana,
+Punjab, Rajasthan, Delhi,
+Chandigarh, Jammu and Kashmir
+and Ladakh
+New Delhi
+2. Central
+Zonal Council
+Uttar Pradesh, Uttarakhand,
+Chhattisgarh, and Madhya Pradesh
+Allahabad
+3. Eastern
+Zonal Council
+Bihar, Jharkhand, West Bengal and
+Odisha
+Kolkata
+4. Western
+Zonal Council
+Gujarat, Maharastra, Goa, Dadra
+and Nagar Haveli and Daman and
+Diu
+Mumbai
+5. Southern
+Zonal Council
+Andhra Pradesh, Telangana,
+Karnataka, Tamil Nadu, Kerala and
+Puducherry
+Chennai
+Table 15.3 Articles Related to Inter-State Relations at a Glance
+Article No.
+Subject Matter
+
+
+===== PDF PAGE 368 =====
+Mutual Recognition of Public Acts, etc.
+261.
+Public acts, records and judicial proceedings
+Disputes Relating to Waters
+262.
+Adjudication of disputes relating to waters of
+inter-state rivers or river valleys
+Co-ordination between States
+263.
+Provisions with respect to an inter-state council
+Inter-State Trade and Commerce
+301.
+Freedom of trade, commerce and intercourse
+302.
+Power of Parliament to impose restrictions on
+trade, commerce and intercourse
+303.
+Restrictions on the legislative powers of the
+Union and of the states with regard to trade and
+commerce
+304.
+Restrictions on trade, commerce and intercourse
+among states
+305.
+Saving of existing laws and laws providing for
+state monopolies
+306.
+Power of certain states in Part B of the First
+Schedule to impose restrictions on trade and
+commerce (Repealed)
+307.
+Appointment of authority for carrying out the
+purposes of Articles 301 to 304
+NOTES AND REFERENCES
+1. Report of the Joint Parliamentary Committee. Select
+Committee of the House of Lords appointed to join with a
+Committee of the House of Commons to consider the
+future Government of India.
+2. M.P. Jain: Indian Constitutional Law, Wadhwa, Fourth
+Edition, P. 382.
+3. It was originally known as the Central Council of Local
+Self-Government (1954).
+
+
+===== PDF PAGE 369 =====
+4. The Central Council of Indian Medicine and the Central
+Council of Homoeopathy were set up under the Acts of
+Parliament.
+5. The Inter-State Council Order dated May 28, 1990.
+6. For example, the Parliament has made the Essential
+Commodities Act (1955). This Act enables the Central
+government to control the production, supply and
+distribution 
+of 
+certain 
+essential 
+commodities 
+like
+petroleum, coal, iron and steel and so on.
+7. In USA such authority is known as the Inter-State
+Commerce Commission.
+8. It came into existence on August 8, 1972.
+9. In 2002, Sikkim was added as the eighth member of the
+North-Eastern Council.
+
+
+===== PDF PAGE 370 =====
+T
+16
+Emergency Provisions
+he Emergency provisions are contained in Part XVIII of the
+Constitution, from Articles 352 to 360. These provisions
+enable the Central government to meet any abnormal
+situation effectively. The rationality behind the incorporation of
+these provisions in the Constitution is to safeguard the
+sovereignty, unity, integrity and security of the country, the
+democratic political system, and the Constitution.
+During an Emergency, the Central government becomes all
+powerful and the states go into the total control of the Centre. It
+converts the federal structure into a unitary one without a formal
+amendment of the Constitution. This kind of transformation of the
+political system from federal during normal times to unitary during
+Emergency is a unique feature of the Indian Constitution. In this
+context, Dr. B.R. Ambedkar observed in the Constituent Assembly
+that1 :
+‘All federal systems including American are placed in a tight
+mould of federalism. No matter what the circumstances, it
+cannot change its form and shape. It can never be unitary. On
+the other hand, the Constitution of India can be both unitary as
+well as federal according to the requirements of time and
+circumstances. In normal times, it is framed to work as a federal
+system. But in times of Emergency, it is so designed as to make
+it work as though it was a unitary system.’
+The Constitution stipulates three types of emergencies:
+1. An emergency due to war, external aggression or armed
+rebellion2 (Article 352). This is popularly known as ‘National
+Emergency’. 
+However, the Constitution 
+employs 
+the
+expression ‘proclamation of emergency’ to denote an
+emergency of this type.
+2. An Emergency due to the failure of the constitutional
+machinery in the states (Article 356). This is popularly known
+as ‘President’s Rule’. It is also known by two other
+
+
+===== PDF PAGE 371 =====
+names–‘State Emergency’ or ‘constitutional Emergency’.
+However, the Constitution does not use the word
+‘emergency’ for this situation.
+3. Financial Emergency due to a threat to the financial stability
+or credit of India (Article 360).
+
+
+===== PDF PAGE 372 =====
+NATIONAL EMERGENCY
+Grounds of Declaration
+Under Article 352, the President can declare a national
+emergency when the security of India or a part of it is threatened
+by war or external aggression or armed rebellion. It may be noted
+that the president can declare a national emergency even before
+the actual occurrence of war or external aggression or armed
+rebellion, if he is satisfied that there is an imminent danger.
+The President can also issue different proclamations on
+grounds of war, external aggression, armed rebellion, or imminent
+danger thereof, whether or not there is a proclamation already
+issued by him and such proclamation is in operation. This
+provision was added by the 38th Amendment Act of 1975.
+When a national emergency is declared on the ground of ‘war’
+or ‘external aggression’, it is known as ‘External Emergency’. On
+the other hand, when it is declared on the ground of ‘armed
+rebellion’, it is known as ‘Internal Emergency’.
+A proclamation of national emergency may be applicable to the
+entire country or only a part of it. The 42nd Amendment Act of
+1976 enabled the president to limit the operation of a National
+Emergency to a specified part of India.
+Originally, the Constitution mentioned ‘internal disturbance’ as
+the third ground for the proclamation of a National Emergency, but
+the expression was too vague and had a wider connotation.
+Hence, the 44th Amendment Act of 1978 substituted the words
+‘armed rebellion’ for ‘internal disturbance’. Thus, it is no longer
+possible to declare a National Emergency on the ground of
+‘internal disturbance’ as was done in 1975 by the Congress
+government headed by Indira Gandhi.
+The President, however, can proclaim a national emergency
+only after receiving a written recommendation from the cabi-net3.
+This means that the emergency can be declared only on the
+concurrence of the cabinet and not merely on the advice of the
+prime minister. In 1975, the then Prime Minister, Indira Gandhi
+advised the president to proclaim emergency without consulting
+
+
+===== PDF PAGE 373 =====
+her cabinet. The cabinet was informed of the proclamation after it
+was made, as a fait accompli. The 44th Amendment Act of 1978
+introduced this safeguard to eliminate any possibility of the prime
+minister alone taking a decision in this regard.
+The 38th Amendment Act of 1975 made the declaration of a
+National Emergency immune from the judicial review. But, this
+provision was subsequently deleted by the 44th Amendment Act
+of 1978. Further, in the Minerva Mills case4 , (1980), the Supreme
+Court held that the proclamation of a national emergency can be
+challenged in a court on the ground of malafide or that the
+declaration was based on wholly extraneous and irrelevant facts
+or is absurd or perverse.
+Parliamentary Approval and Duration
+The proclamation of Emergency must be approved by both the
+Houses of Parliament within one month from the date of its issue.
+Originally, the period allowed for approval by the Parliament was
+two months, but was reduced by the 44th Amendment Act of
+1978. However, if the proclamation of emergency is issued at a
+time when the Lok Sabha has been dissolved or the dissolution of
+the Lok Sabha takes place during the period of one month without
+approving the proclamation, then the proclamation survives until
+30 days from the first sitting of the Lok Sabha after its
+reconstitution, provided the Rajya Sabha has in the meantime
+approved it.
+If approved by both the Houses of Parliament, the emergency
+continues for six months, and can be extended to an indefinite
+period with an approval of the Parliament for every six months.
+This provision for periodical parliamentary approval was also
+added by the 44th Amendment Act of 1978. Before that, the
+emergency, once approved by the Parliament, could remain in
+operation as long as the Executive (cabinet) desired. However, if
+the dissolution of the Lok Sabha takes place during the period of
+six months without approving the further continuance of
+Emergency, then the proclamation survives until 30 days from the
+first sitting of the Lok Sabha after its reconstitution, provided the
+Rajya Sabha has in the mean-time approved its continuation.
+
+
+===== PDF PAGE 374 =====
+Every resolution approving the proclamation of emergency or
+its continuance must be passed by either House of Parliament by
+a special majority, that is,
+(a) a majority of the total membership of that house, and (b) a
+majority of not less than two-thirds of the members of that
+house present and voting. This special majority provision was
+introduced by the 44th Amendment Act of 1978. Previously,
+such resolution could be passed by a simple majority of the
+Parliament.
+Revocation of Proclamation
+A proclamation of emergency may be revoked by the President at
+any time by a subsequent proclamation. Such a proclamation
+does not require the parliamentary approval.
+Further, the President must revoke a proclamation if the Lok
+Sabha passes a resolution disapproving its continuation. Again,
+this safeguard was introduced by the 44th Amendment Act of
+1978. Before the amendment, a proclamation could be revoked by
+the president on his own and the Lok Sabha had no control in this
+regard.
+The 44th Amendment Act of 1978 also provided that, where
+one-tenth of the total number of members of the Lok Sabha give a
+written notice to the Speaker (or to the president if the House is
+not in session), a special sitting of the House should be held
+within 14 days for the purpose of considering a resolution
+disapproving the continuation of the proclamation.
+A resolution of disapproval is different from a resolution
+approving the continuation of a proclamation in the following two
+respects:
+1. The first one is required to be passed by the Lok Sabha
+only, while the second one needs to be passed by the both
+Houses of Parliament.
+2. The first one is to be adopted by a simple majority only,
+while the second one needs to be adopted by a special
+majority.
+Effects of National Emergency
+
+
+===== PDF PAGE 375 =====
+A proclamation of Emergency has drastic and wide ranging effects
+on the political system. These consequences can be grouped into
+three categories:
+1. Effect on the Centre-state relations,
+2. Effect on the life of the Lok Sabha and State assembly, and
+3. Effect on the Fundamental Rights.
+Effect on the Centre-State Relations
+While a proclamation of Emergency is in force, the normal fabric
+of the Centre-state relations undergoes a basic change. This can
+be studied under three heads, namely, executive, legislative and
+financial.
+(a) Executive   During a national emergency, the executive power
+of the Centre extends to directing any state regarding the manner
+in which its executive power is to be exercised. In normal times,
+the Centre can give executive directions to a state only on certain
+specified matters. However, during a national emergency, the
+Centre becomes entitled to give executive directions to a state on
+‘any’ matter. Thus, the state governments are brought under the
+complete control of the Centre, though they are not suspended.
+(b) Legislative   During a national emergency, the Parliament
+becomes empowered to make laws on any subject mentioned in
+the State List. Although the legislative power of a state legislature
+is not suspended, it becomes subject to the overriding power of
+the Parliament. Thus, the normal distribution of the legislative
+powers between the Centre and states is suspended, though the
+state Legislatures are not suspended. In brief, the Constitution
+becomes unitary rather than federal.
+The laws made by Parliament on the state subjects during a
+National Emergency become inoperative six months after the
+emergency has ceased to operate.
+Notably, while a proclamation of national emergency is in
+operation, the President can issue ordinances on the state
+subjects also, if the Parliament is not in session.
+Further, the Parliament can confer powers and impose duties
+upon the Centre or its officers and authorities in respect of matters
+outside the Union List, in order to carry out the laws made by it
+> build · crouton-alpha-free
+Full Chapter 15 text obtained (pages 358-369). Also captured the start of Chapter 16. Now checking the existing notes format for one clean chapter to match exactly.
+[0m$ [0mpython3 << 'PYEOF'
+# Read a well-formatted chapter from notes (e.g. Ch 12 or 13) to mirror style
+with open("/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Handbook/GS2_Laxmikanth_Chapterwise_Ultimate_Notes.md", encoding='utf-8') as f:
+    lines = f.readlines()
+# Find ch 12 and 13
+for i,l in enumerate(lines):
+    if l.startswith("## 12.") or l.startswith("## 13."):
+        start=i
+        print(f"--- Ch starting line {i+1}: {l.strip()} ---")
+        for j in range(i, min(i+50, len(lines))):
+            print(lines[j], end='')
+        print("\n...\n")
+PYEOF
+--- Ch starting line 1016: ## 12. PARLIAMENTARY SYSTEM ---
+## 12. PARLIAMENTARY SYSTEM
+
+**[SYL: GS2-A.1] | [LAXMIKANTH: Chapter 12]**
+
+### 12.1. Features of Parliamentary System
+- **Nominal and Real Executives**: President (nominal), PM & Council of Ministers (real)
+- **Majority Party Rule**: PM is leader of majority party in Lok Sabha
+- **Collective Responsibility**: Art. 75(3) - Council collectively responsible to Lok Sabha
+- **Political Homogeneity**: Ministers usually from same party/alliance
+- **Dual Membership**: Ministers must be members of Parliament
+- **Leadership of Prime Minister**: PM is primus inter pares
+- **Dissolution of Lower House**: President can dissolve Lok Sabha on advice of PM
+
+### 12.2. Parliamentary vs Presidential System
+| Feature | Parliamentary (India, UK) | Presidential (USA) |
+|---------|---------------------------|-------------------|
+| **Executive** | Dual (Nominal + Real) | Single (President) |
+| **Responsibility** | Responsible to Legislature | Not responsible to Legislature |
+| **Separation of Powers** | Less separation, more coordination | Strict separation |
+| **Tenure** | Depends on confidence of House | Fixed term |
+| **Dissolution** | Lower House can be dissolved | No dissolution of Congress by President |
+| **Accountability** | Direct | Indirect |
+
+### 12.3. PYQs & Mind Map
+*[Integrated]*
+
+---
+
+
+---
+
+
+
+## 13. FEDERAL SYSTEM
+
+**[SYL: GS2-A.1] | [LAXMIKANTH: Chapter 13]**
+
+### 13.1. Federal Features of Indian Constitution
+- Written Constitution
+- Division of Powers (7th Schedule)
+- Supremacy of Constitution
+- Rigidity (in certain provisions)
+- Independent Judiciary
+- Bicameralism
+
+### 13.2. Unitary Features
+- Strong Centre
+- Single Constitution
+- Single Citizenship
+- Integrated Judiciary
+
+...
+
+--- Ch starting line 1049: ## 13. FEDERAL SYSTEM ---
+## 13. FEDERAL SYSTEM
+
+**[SYL: GS2-A.1] | [LAXMIKANTH: Chapter 13]**
+
+### 13.1. Federal Features of Indian Constitution
+- Written Constitution
+- Division of Powers (7th Schedule)
+- Supremacy of Constitution
+- Rigidity (in certain provisions)
+- Independent Judiciary
+- Bicameralism
+
+### 13.2. Unitary Features
+- Strong Centre
+- Single Constitution
+- Single Citizenship
+- Integrated Judiciary
+- All-India Services
+- Governor appointed by Centre
+- Emergency Provisions
+- Art. 356 (President's Rule)
+- Parliament's power to reorganise states
+
+### 13.3. Quasi-Federal Nature
+K.C. Wheare described Indian Constitution as "federal system with a unitary bias" or quasi-federal. Granville Austin called it "cooperative federalism" in practice.
+
+---
+
+
+---
+
+## 14. CENTRE-STATE RELATIONS
+
+**[SYL: GS2-B.1] | [LAXMIKANTH: Chapter 14]**
+
+### 14.1. Introduction
+- **Federal Structure**: Constitution of India is federal in structure, divides powers (legislative, executive and financial) between Centre and States
+- **Integrated Judiciary**: No division of judicial power - single integrated judicial system enforces both Central and State laws
+- **Need for Coordination**: Though supreme in their respective fields, maximum harmony and coordination essential for effective operation of federal system
+- **Three Dimensions**: Legislative relations, Administrative relations and Financial relations (Art. 245-293)
+
+### 14.2. LEGISLATIVE RELATIONS (ARTICLES 245-255)
+
+#### 14.2.1. Territorial Extent of Central and State Legislation
+- **Parliament**: Can make laws for whole or any part of territory of India (States + UTs + other areas)
+- **State Legislature**: Can make laws for whole or any part of the State. Laws not applicable outside state except sufficient nexus between state and object
+- **Extrateritorial Legislation**: Only Parliament can make extraterritorial legislation (laws applicable to Indian citizens and their property anywhere in the world)
+
+**Restrictions on Parliament's territorial jurisdiction:**
+- **UTs with regulations**: President can make regulations for peace, progress and good government of Andaman & Nicobar Islands, Lakshadweep, Dadra & Nagar Haveli, Daman & Diu and Ladakh (have force of Act of Parliament; can repeal/amend Parliamentary acts)
+
+...
+> build · crouton-alpha-free
+Format clear: `## N. TITLE`, **[SYL | LAXMIKANTH]** line, numbered sections, tables, PYQs + Mind Map, `---` separator. Now checking for supplementary PW/NCERT sources, then writing Chapter 15.
+[0m$ [0mfind "/media/saksham/80645C95645C9030/saksham/EXAM" -iname "*PW*Only*" -o -iname "*Mind*Map*Polity*" 2>/dev/null | head -20; echo "---"; ls "/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/" 2>&1
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 1 — Indian Heritage & Culture/History/Ancient History/PW Only IAS Mind Maps Ancient & Medieval English.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 1 — Indian Heritage & Culture/History/Modern History/PW Only IAS Mind Maps Modern Indian History English.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 1 — Indian Heritage & Culture/Geography/PW Only IAS Mind Maps Indian Geography English.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 1 — Indian Heritage & Culture/Geography/PW Only IAS Mind Maps Physical Geography English.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 2 — Governance & Polity/Polity/Polity/PW Only IAS Mind Maps Indian Polity English.pdf
+/media/saksham/80645C95645C9030/saksham/EXAM/01 upsc sociology 2027/GS Paper 3 — Economy, Environment & Security/Economics/PW Only IAS Mind Maps Economy English.pdf
+---
+Handbook
+Polity
+skipped
+> build · hy4
+[91m[1mError: [0mOpenCode Go weekly usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.
