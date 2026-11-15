@@ -174,9 +174,13 @@ if __name__ == "__main__":
         print("YOUTUBE SINGLE-VIDEO DOWNLOADER")
         print("=" * 65)
         url = [
-            "https://www.youtube.com/watch?v=57J5UYoaXrc",
-            "https://www.youtube.com/watch?v=y-AjqG4Lepc",
-            "https://www.youtube.com/watch?v=lQsH8kVKoxs"
+           "https://youtu.be/8gYaxFcGt0U",
+           "https://youtu.be/_1aHM7N8THY",
+           "https://youtu.be/YkqdkWh8tmg",
+           "https://www.youtube.com/watch?v=-mdaxIJD8b4&list=WL&index=98",
+           "https://www.youtube.com/watch?v=PUXu6YJ9TxY&list=WL&index=8",
+           "https://www.youtube.com/watch?v=YBnW7UWdajw&list=WL&index=15"
+           
         ]
 
         if not url:

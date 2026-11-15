@@ -381,19 +381,11 @@ def download_playlist(playlist_url):
 if __name__ == "__main__":
     playlists = [
         {
-            "name": "The Hindu Newspaper Editorial Analysis",
+            "name": "[] 01 UPSC Sociology PYQs",
             "url": (
-                "https://www.youtube.com/playlist?"
-                "list=PLhNxZA1Rs2iQ7Wwv6JFEC3Nk5aJQzBh1x"
+               "https://www.youtube.com/playlist?list=PLdenzm5w9djjan5I7KYtPfrsNJyMNr2J_"
             ),
-        },
-        {
-            "name": "Indian Express Editorial Analysis",
-            "url": (
-                "https://www.youtube.com/playlist?"
-                "list=PLpuxPG4TUOR5NV73zely8EP9W9uper"
-            ),
-        },
+        }
     ]
 
     try:
