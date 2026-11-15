@@ -1,42 +1,71 @@
 # Python
 **/.venv/
+**/*_venv/
 __pycache__/
 *.pyc
 
+# Local agent state and secrets
+**/.agent_state*/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Nested git repos (own history): track them inside their own repo
+side_projects/
+Store_Front/
+old_projects/
+
 # Node
 **/node_modules/
-side_projects
+
 # Mission 2026
 mission2026/server/staticfiles/
 mission2026/mission_app/build/
 mission2026/mission_app/.dart_tool/
-mission2026/mission_app/.flutter-plugins*
+mission2026/.run/
+mission_app/build/
+mission_app/.dart_tool/
+mission_app/.flutter-plugins*
+mission_app/.flutter-plugins-dependencies
 
 # WhatsApp bot state
 whatsapp_bot/.wwebjs_auth/
 whatsapp_bot/.wwebjs_cache/
 whatsapp_bot/bot.log*
+whatsapp_bot/bot.pid
+whatsapp_bot/watchdog.log
+whatsapp_bot/watchdog.pid
 whatsapp_bot/control_audit.log
 
-# sub_gen generated data
+# sub_gen / media generators: generated output only
 sub_gen/cache/
 sub_gen/output/
 sub_gen/assets/girlfriends/*.m4a
+sub_gen/audio/
+sub_gen/images/
 
 # Local backup of the pre-reorg sources
 .reorg-backup/
 
+# Personal / bulk files: never commit
+archive/
+upsc/
+media/YouTube/
+upsc_app/all_txts/
+
+# Generated build artefacts that live inside projects
+**/_work/
+**/whisper_models/
+**/huggingface/
+**/ingest/
+upsc_app/tools/output/
+upsc_app/pdf_conversion_logs/
+upsc_app/backend/db.sqlite3.bak-*
+
 # OS noise
 .DS_Store
-db.sqlite3
-.opencode
-vision_board_images
-bruno
-audio
-cache
-images
-*.txt
-*.md
-*.json
-*.sqlite3
+.opencode/
 **/db.sqlite3
+/files.txt
+upsc_app/notes/
+upsc_app/notes/SOCIOLOGY_OPTIONAL_Final_Notes
