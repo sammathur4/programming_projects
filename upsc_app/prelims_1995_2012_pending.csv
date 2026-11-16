@@ -1,0 +1,47 @@
+year,question_id,row_id,issues,question,option_a,option_b,option_c,option_d,correct_answer
+2004,112,3779,missing_option_d,"Which of the following pairs is correctly
+matched? Department Ministry of the
+Government of India
+1. Department of: Women and Child
+Development Ministry of Health and Family
+2. Department of: Official Language Ministry
+of Human Resource
+3. Department of: Drinking Water Supply
+Ministry of Water Resources
+Select the correct answer using the codes
+given below:
+Codes:",1,2,3,,d
+2004,134,3801,missing_option_d,"Consider the following statements:
+1. In the Third Battle of Panipat, Ahmed Shah
+Abdali defeated Ibrahim Lodi.
+2. Tipu Sultan was killed in the Third Anglo
+Mysore War.
+3. Mir Jafar entered in a conspiracy with the
+English for the defeat of Nawab
+Siraj-ud-daulah in the Battle of Plassey.
+Which of the statements given above is/are
+correct?","1, 2 and 3",3 only,2 and 3,,b
+2005,21,3837,missing_option_d,"Consider the following statements:
+Page 3 of 21
+1. Sensex is based on 50 of the most
+important stocks available on the Bombay
+Stock Exchange (BSE)
+2. For calculating the Sensex, all the Sensex
+stocks are assigned proportional weightage.
+3. New York Stock Exchange is the oldest
+stock exchange in the world.
+Which of the statements is/are correct?",2 only,1 and 3,2 and 3,,a
+2005,117,3927,missing_option_d,"Consider the following statements: b) 2 only
+1. Vigyan rail is a science exhibition on wheels c) Both 1 and 2
+organized by the Council Scientific and d) Neither 1 nor 2
+industrial Research. 2. Vigyan Prasar is an autonomous body
+under the Ministry of Human Resource 120. According to the Census 2001, which one
+Development. of the following Indian States has the
+3. EDUSAT, the ISRO’s educational satellite maximum population in India after Uttar
+was launched from French Guyana 2004. Pradesh?
+Which of the above statements are true? a) West Bengal","1, 2 & 3 b) Maharashtra",1 & 2 c) Bihar,2 & 3 d) Tamil Nadu,,b
+2006,52,4012,missing_option_d,"Which portfolio was held by Dr. Rajendra 
+Prasad in the Interim Government formed in 
+the year 1946?",Defence,External Affairs and Commonwealth,Food and Agriculture,,c
+2012,7,4251,missing_option_d,"Consider the following statements: 1. Union Territories are not represented in the Rajya Sabha. 2. It is within the purview of the Chief Election Commissioner to adjudicate the election disputes. 3. According to the Constitution of India, the Parliament consists of the Lok Sabha and the Rajya Sabha only. Which of the statements given above is/are correct?",1 only,2 and 3,1 and 3,,d
+2012,9,4253,missing_option_d,"Regarding the office of the Lok Sabha Speaker, consider the following statements: 1. He/She holds the office during the pleasure of the President. 2. He/She need not be a member of the House at the time of his/her election but has to become a member of the House within six months from the date of his/her election. 3. If he/she intends to resign, the letter of his/her resignation has to be addressed to the Deputy Speaker. Which of the statements given above is/are correct?",1 and 2 only,3 only,"1, 2 and 3",,b
